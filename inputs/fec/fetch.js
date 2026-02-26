@@ -34,29 +34,24 @@ const fetchRaceData = async (cycle, office, district) => {
     return resultData
 }
 
-const cleanRaceData = (raw) => {
-    if (!raw.pages === 1) throw `Warning - may be missing data because of pagination error `
-    return raw.results
-        .filter(d => d.candidate_id !== 'H4MT01090') // remove redundant Dennis Hayes 2024 filing
-}
-
 async function main() {
-    const senate = await fetchRaceData('2024', 'senate', '')
-    const house01 = await fetchRaceData('2024', 'house', '01')
-    const house02 = await fetchRaceData('2024', 'house', '02')
+    const senate = await fetchRaceData('2026', 'senate', '')
+    const house01 = await fetchRaceData('2026', 'house', '01')
+    const house02 = await fetchRaceData('2026', 'house', '02')
+    console.log(senate, house01, house02)
 
     const combined = [
         {
             raceSlug: 'us-senate',
-            finances: cleanRaceData(senate),
+            finances: senate,
         },
         {
             raceSlug: 'us-house-1',
-            finances: cleanRaceData(house01),
+            finances: house01,
         },
         {
             raceSlug: 'us-house-2',
-            finances: cleanRaceData(house02),
+            finances: house02,
         },
     ]
 
