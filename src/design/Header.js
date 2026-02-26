@@ -99,7 +99,7 @@ const Header = () => {
     <h1 className="title"><Link href="/">
       Election <span className="mid-title-icon" style={{
         backgroundImage: `url(${router.basePath}/mt-outline-white-fill.png)`
-      }}>2024</span> Guide
+      }}>2026</span> Guide
     </Link></h1>
     <h2 className="subtitle">{webSubtitle}</h2>
     <div className="mtfp-blurb">

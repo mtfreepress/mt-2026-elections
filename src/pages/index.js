@@ -9,7 +9,7 @@ import Markdown from 'react-markdown'
 
 import AddressLookup from '../components/AddressLookup'
 import SearchForCandidate from '../components/SearchForCandidate'
-import MajorRaceOverview from '../components/MajorRaceOverview'
+import MajorRaceOverview from '../components/majorRaceOverview'
 import LegislativeRaceOverview from '../components/LegislativeRaceOverview'
 import LegislativeDistrictSelector from '../components/LegislativeDistrictSelector'
 import BallotInitiativeOverview from '../components/BallotInitiativeOverview'
