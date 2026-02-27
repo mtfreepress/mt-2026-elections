@@ -4,8 +4,8 @@ const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
     output: 'export',
     distDir: 'build',
-    assetPrefix: isProd ? 'https://apps.montanafreepress.org/election-guide-2024' : undefined,
-    basePath: '/election-guide-2024',
+    assetPrefix: isProd ? 'https://projects.montanafreepress.org/election-guide-2026' : undefined,
+    basePath: '/election-guide-2026',
     trailingSlash: true,
     compiler: {
         emotion: true,
@@ -15,7 +15,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'apps.montanafreepress.org',
+                hostname: 'projects.montanafreepress.org',
                 port: '',
                 pathname: '/maps/legislative-districts/**',
             }

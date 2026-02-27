@@ -1,17 +1,17 @@
-# Montana 2024 Elections
+# Montana 2026 Elections
 
-Code for the [Montana Free Press](https://montanafreepress.org) [2024 Election Guide](https://apps.montanafreepress.org/election-guide-2024/).
+Code for the [Montana Free Press](https://montanafreepress.org) [2026 Election Guide](https://projects.montanafreepress.org/election-guide-2026/).
 
 This is a [Next.js](https://nextjs.org/) project.
 
 ## Local Deployment
-- To access the webservice locally run `npm run dev` and navigate to `localhost:3000/election-guide-2024/`
+- To access the webservice locally run `npm run dev` and navigate to `localhost:3000/election-guide-2026/`
 - Set in `DistrictFinder.js` to use AWS CORS proxy deployment 
 - Can use [CORS proxy](https://github.com/mtfreepress/cors-proxy-montana-districts) locally
     
     1) Change `BASE_URL` to `localhost:3000` (Don't forget to change it back)
     2) Start the CORS proxy service ***first***
-    3) Start this service with `npm run dev` as normal (will start on port 3001 instead) and navigate to  `localhost:3001/election-guide-2024/`
+    3) Start this service with `npm run dev` as normal (will start on port 3001 instead) and navigate to  `localhost:3001/election-guide-2026/`
 
 ## Structure
 
@@ -57,5 +57,5 @@ This is a [Next.js](https://nextjs.org/) project.
             npm run build
 
             # Deploy
-            aws s3 sync build s3://apps.montanafreepress.org/election-guide-2024 --delete
-            aws cloudfront create-invalidation --distribution-id E3LVPS3XLJHLL5 --paths "/election-guide-2024/*"
+            aws s3 sync build s3://projects.montanafreepress.org/election-guide-2026 --delete
+            aws cloudfront create-invalidation --distribution-id E3LVPS3XLJHLL5 --paths "/election-guide-2026/*"
