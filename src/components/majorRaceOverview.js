@@ -110,7 +110,7 @@ function Candidate(props) {
     const partyInfo = PARTIES.find(d => d.key === party)
 
     const router = useRouter()
-    const portraitPath = `${router.basePath}/portraits/${slug}.png`
+    const portraitPath = `${router.basePath}/portraits/${slug}.jpg`
 
     return <div css={candidateStyle} style={{ borderTop: `5px solid ${partyInfo.color}` }}><Link href={`/candidates/${slug}`}>
         <div className="portrait-col" >
@@ -155,7 +155,7 @@ export default function MajorRaceOverview({ race, showMap }) {
     let mapPath = null
     const router = useRouter()
     if (showMap) {
-        mapPath = `${router.basePath}/maps/${raceSlug}.png`
+        mapPath = `${router.basePath}/maps/${raceSlug}.jpg`
     }
 
 

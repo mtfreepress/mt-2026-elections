@@ -1,5 +1,6 @@
 import { css } from "@emotion/react";
 import Image from 'next/image'
+import { useRouter } from 'next/router';
 
 import { PARTIES } from '../lib/styles'
 
@@ -88,7 +89,8 @@ export default function CandidatePageSummary(props) {
         raceSlug,
         cap_tracker_2023_link,
     } = props
-
+    
+    const router = useRouter()
     const partyInfo = PARTIES.find(d => d.key === party)
     return <div css={summaryStyle} style={{ borderTop: `5px solid ${partyInfo.color}` }}>
 
@@ -104,12 +106,18 @@ export default function CandidatePageSummary(props) {
             </div>
         </div>
         <div className="map-col">
-            <Image src={`https://apps.montanafreepress.org/maps/legislative-districts/1200px/${raceSlug}.png`}
-                width={300}
-                height={300}
-                alt={`Map of ${raceDisplayName}`}
-                priority={true}
-            />
+            {(() => {
+                const m = String(raceSlug).match(/^([A-Z]{2}-)(\d+)$/)
+                const file = m ? `${m[1]}${m[2].padStart(2, '0')}.jpg` : `${raceSlug}.jpg`
+                return (
+                    <Image src={`${router.basePath}/maps/lege-maps-1200px/${file}`}
+                        width={300}
+                        height={300}
+                        alt={`Map of ${raceDisplayName}`}
+                        priority={true}
+                    />
+                )
+            })()}
         </div>
     </div>
 }

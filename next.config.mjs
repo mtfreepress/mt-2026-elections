@@ -7,6 +7,8 @@ const nextConfig = {
         // primary: shows all candidates (multiple per party possible)
         // general: shows one candidate per party per race
         ELECTION_MODE: process.env.ELECTION_MODE || 'primary',
+        // Always expose the base path so client code can prefix static assets
+        NEXT_PUBLIC_BASE_PATH: '/election-guide-2026',
     },
     output: 'export',
     distDir: 'build',

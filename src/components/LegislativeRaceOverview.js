@@ -1,6 +1,6 @@
 import React from 'react'
 import { css } from "@emotion/react";
-
+import { useRouter } from 'next/router';
 import Image from "next/image";
 import Link from "next/link";
 
@@ -217,7 +217,7 @@ const District = (props) => {
     if (chamber === 'house') {
         correspondingSenateDistrict = getCorrespondingSenateDistrictNumber(districtKey)
     }
-
+    const router = useRouter()
     const holdoverPartyInfo = PARTIES.find(d => d.key === holdover_party)
     const activeCandidates = candidates.filter(c => c.status === 'active')
     const inactiveCandidates = candidates.filter(c => c.status !== 'active')
@@ -229,12 +229,18 @@ const District = (props) => {
         <div className="locale"><strong>{region}</strong> — {locale}</div>
 
         <div className="map-container">
-            <Image src={`https://apps.montanafreepress.org/maps/legislative-districts/1200px/${districtKey}.png`}
-                width={300}
-                height={300}
-                alt={`Map of ${district}`}
-                priority={true} // https://nextjs.org/docs/pages/api-reference/components/image#priority
-            />
+            {(() => {
+                const m = String(districtKey).match(/^([A-Z]{2}-)(\d+)$/)
+                const file = m ? `${m[1]}${m[2].padStart(2, '0')}.jpg` : `${districtKey}.jpg`
+                return (
+                    <Image src={`${router.basePath}/maps/lege-maps-600px/${file}`}
+                        width={300}
+                        height={300}
+                        alt={`Map of ${district}`}
+                        priority={true} // https://nextjs.org/docs/pages/api-reference/components/image#priority
+                    />
+                )
+            })()}
         </div>
 
         {(chamber === 'house') && <div className="note corresponding-district">Part of SD {correspondingSenateDistrict}</div>}
