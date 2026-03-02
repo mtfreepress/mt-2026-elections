@@ -2,6 +2,12 @@ const isProd = process.env.NODE_ENV === 'production'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    env: {
+        // 'primary' or 'general' — controls how legislative candidates display
+        // primary: shows all candidates (multiple per party possible)
+        // general: shows one candidate per party per race
+        ELECTION_MODE: process.env.ELECTION_MODE || 'primary',
+    },
     output: 'export',
     distDir: 'build',
     assetPrefix: isProd ? 'https://projects.montanafreepress.org/election-guide-2026' : undefined,
