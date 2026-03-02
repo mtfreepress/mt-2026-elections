@@ -126,7 +126,7 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
 
             <SearchForCandidate candidates={fullCandidateList} />
 
-            <AddressLookup selDistricts={selDistricts} setSelDistricts={setSelDistricts} />
+            <AddressLookup selDistricts={selDistricts} setSelDistricts={setSelDistricts} legislativeRaces={legislativeRaces} />
 
 
             <section>

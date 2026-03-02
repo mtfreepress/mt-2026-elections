@@ -10,22 +10,11 @@
     "districtKey": "HD-1",
     "candidates": [
       {
-        "slug": "neil-duram",
-        "displayName": "NEIL DURAM",
+        "slug": "michelle-bianco",
+        "displayName": "MICHELLE BIANCO",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Neil-Duram/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "dakota-v-adams",
-        "displayName": "DAKOTA V ADAMS",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://bianco4mt2026.com"
       }
     ]
   },
@@ -44,36 +33,7 @@
         "displayName": "TOM MILLETT",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "thomas-jenkins",
-        "displayName": "THOMAS JENKINS",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "elizabeth-story",
-        "displayName": "ELIZABETH STORY",
-        "party": "D",
-        "status": "withdrawn",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "brad-simonis",
-        "displayName": "BRAD SIMONIS",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://millett4montana.com"
       }
     ]
   },
@@ -92,27 +52,21 @@
         "displayName": "CATHY MITCHELL",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://cathymitchellformontana.com"
+      },
+      {
+        "slug": "derek-peachey",
+        "displayName": "DEREK PEACHEY",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://www.peacheyformontana.com"
       },
       {
         "slug": "debo-powers",
         "displayName": "DEBO POWERS",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "guthrie-quist",
-        "displayName": "GUTHRIE QUIST",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.powersforthepeople.us"
       }
     ]
   },
@@ -127,22 +81,32 @@
     "districtKey": "HD-4",
     "candidates": [
       {
+        "slug": "shaun-pandina",
+        "displayName": "SHAUN PANDINA",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://pandinaformontana.com"
+      },
+      {
         "slug": "lyn-bennett",
         "displayName": "LYN BENNETT",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.lynbennettformontanahd4.com/"
       },
       {
-        "slug": "lindsey-jordan",
-        "displayName": "LINDSEY JORDAN",
+        "slug": "nathan-purdy",
+        "displayName": "NATHAN PURDY",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "paula-koch",
+        "displayName": "PAULA KOCH",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://kochbestformontanahd4.org"
       }
     ]
   },
@@ -161,18 +125,14 @@
         "displayName": "BRAXTON MITCHELL",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Braxton-Mitchell/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "steve-paugh",
-        "displayName": "STEVE PAUGH",
+        "slug": "luca-welle",
+        "displayName": "LUCA WELLE",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://lucaformontana.com"
       }
     ]
   },
@@ -187,22 +147,18 @@
     "districtKey": "HD-6",
     "candidates": [
       {
-        "slug": "amy-regier",
-        "displayName": "AMY REGIER",
+        "slug": "jim-riley",
+        "displayName": "JIM RILEY",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Amy-Regier/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.jimrileyforhd6.com"
       },
       {
-        "slug": "velvet-phillipssullivan",
-        "displayName": "VELVET PHILLIPSSULLIVAN",
+        "slug": "darren-fix",
+        "displayName": "DARREN FIX",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.fix4hd6.com"
       }
     ]
   },
@@ -217,31 +173,18 @@
     "districtKey": "HD-7",
     "candidates": [
       {
-        "slug": "courtenay-sprunger",
-        "displayName": "COURTENAY SPRUNGER",
+        "slug": "luke-maxwell",
+        "displayName": "LUKE MAXWELL",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Courtenay-Sprunger/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://maxwellformontana.com"
       },
       {
-        "slug": "shaun-pandina",
-        "displayName": "SHAUN PANDINA",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "arthur-fretheim",
-        "displayName": "ARTHUR FRETHEIM",
+        "slug": "madison-evans",
+        "displayName": "MADISON EVANS",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://madisonformontana.com"
       }
     ]
   },
@@ -260,27 +203,14 @@
         "displayName": "LUKAS SCHUBERT",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://lukasschubertmt.com"
       },
       {
-        "slug": "tony-brockman",
-        "displayName": "TONY BROCKMAN",
+        "slug": "daniel-neeley",
+        "displayName": "DANIEL NEELEY",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Tony-Brockman/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "beth-sibert",
-        "displayName": "BETH SIBERT",
-        "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -295,31 +225,11 @@
     "districtKey": "HD-9",
     "candidates": [
       {
-        "slug": "lee-huestis",
-        "displayName": "LEE HUESTIS",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "steven-c-kelly",
         "displayName": "STEVEN C KELLY",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "joanne-morrow",
-        "displayName": "JOANNE MORROW",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.kellyforhd9.com"
       }
     ]
   },
@@ -338,18 +248,7 @@
         "displayName": "TERRY FALK",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "devin-t-marconi",
-        "displayName": "DEVIN T MARCONI",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -364,31 +263,11 @@
     "districtKey": "HD-11",
     "candidates": [
       {
-        "slug": "rob-tracy",
-        "displayName": "ROB TRACY",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "ed-byrne",
         "displayName": "ED BYRNE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "jennifer-allen",
-        "displayName": "JENNIFER ALLEN",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -407,18 +286,7 @@
         "displayName": "TRACY A SHARP",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "barry-olson",
-        "displayName": "BARRY OLSON",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://tracysharpmt12.com/"
       }
     ]
   },
@@ -433,22 +301,18 @@
     "districtKey": "HD-13",
     "candidates": [
       {
-        "slug": "linda-e-reksten",
-        "displayName": "LINDA E REKSTEN",
+        "slug": "linda-reksten",
+        "displayName": "LINDA REKSTEN",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Linda-Reksten/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://reksten4mt.com"
       },
       {
-        "slug": "shirley-azzopardi",
-        "displayName": "SHIRLEY AZZOPARDI",
-        "party": "D",
+        "slug": "finley-warden",
+        "displayName": "FINLEY WARDEN",
+        "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://finleyformontana.com"
       }
     ]
   },
@@ -463,22 +327,11 @@
     "districtKey": "HD-14",
     "candidates": [
       {
-        "slug": "paul-c-fielder",
-        "displayName": "PAUL C FIELDER",
+        "slug": "paul-fielder",
+        "displayName": "PAUL FIELDER",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Paul-Fielder/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "colleen-hinds",
-        "displayName": "COLLEEN HINDS",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -497,18 +350,14 @@
         "displayName": "RALPH FOSTER",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "thedis-crowe",
-        "displayName": "THEDIS CROWE",
+        "slug": "thedis-b-crowe",
+        "displayName": "THEDIS B CROWE",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -523,31 +372,11 @@
     "districtKey": "HD-16",
     "candidates": [
       {
-        "slug": "rolland-ely-heagy",
-        "displayName": "ROLLAND ELY HEAGY",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "elaine-utterback--mitchell",
-        "displayName": "ELAINE UTTERBACK  MITCHELL",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "tyson-t-running-wolf",
-        "displayName": "TYSON T RUNNING WOLF",
+        "slug": "lona-r-running-wolf",
+        "displayName": "LONA R RUNNING WOLF",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Tyson-Running-Wolf/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -562,22 +391,25 @@
     "districtKey": "HD-17",
     "candidates": [
       {
-        "slug": "zack-wirth",
-        "displayName": "ZACK WIRTH",
+        "slug": "justin-w-cleveland",
+        "displayName": "JUSTIN W CLEVELAND",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "leonard-bates",
-        "displayName": "LEONARD BATES",
+        "slug": "susan-geise",
+        "displayName": "SUSAN GEISE",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://susanforhd17.com"
+      },
+      {
+        "slug": "chris-bechtold",
+        "displayName": "CHRIS BECHTOLD",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -592,31 +424,11 @@
     "districtKey": "HD-18",
     "candidates": [
       {
-        "slug": "llew-jones",
-        "displayName": "LLEW JONES",
+        "slug": "bruce-\"butch\"-gillespie",
+        "displayName": "BRUCE \"BUTCH\" GILLESPIE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Llew-Jones/",
-        "hasResponses": false,
-        "numMTFParticles": 2
-      },
-      {
-        "slug": "james-coombs",
-        "displayName": "JAMES COOMBS",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "david-arends",
-        "displayName": "DAVID ARENDS",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -631,31 +443,18 @@
     "districtKey": "HD-19",
     "candidates": [
       {
-        "slug": "hannah-trebas",
-        "displayName": "HANNAH TREBAS",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "derren-auger",
         "displayName": "DERREN AUGER",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": null
       },
       {
         "slug": "jane-weber",
         "displayName": "JANE WEBER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://weberforhd19"
       }
     ]
   },
@@ -670,31 +469,25 @@
     "districtKey": "HD-20",
     "candidates": [
       {
-        "slug": "steven-galloway",
-        "displayName": "STEVEN GALLOWAY",
+        "slug": "tony-rosales",
+        "displayName": "TONY ROSALES",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Steven-Galloway/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": "https://www.rosalesformt.com/"
       },
       {
         "slug": "melissa-nikolakakos",
         "displayName": "MELISSA NIKOLAKAKOS",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.melissaforus.com"
       },
       {
-        "slug": "rina-fontana-moore",
-        "displayName": "RINA FONTANA MOORE",
+        "slug": "steve-keller",
+        "displayName": "STEVE KELLER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://n/a"
       }
     ]
   },
@@ -709,31 +502,25 @@
     "districtKey": "HD-21",
     "candidates": [
       {
-        "slug": "ed-buttrey",
-        "displayName": "ED BUTTREY",
+        "slug": "trevor-p-funseth",
+        "displayName": "TREVOR P FUNSETH",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Ed-Buttrey/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://funsethformontana.com"
       },
       {
-        "slug": "james-osterman",
-        "displayName": "JAMES OSTERMAN",
+        "slug": "eric-peterson",
+        "displayName": "ERIC PETERSON",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": "https://ericpetersonmedia.com"
       },
       {
         "slug": "lela-graham",
         "displayName": "LELA GRAHAM",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://lelagraham.com"
       }
     ]
   },
@@ -748,31 +535,25 @@
     "districtKey": "HD-22",
     "candidates": [
       {
-        "slug": "george-nikolakakos",
-        "displayName": "GEORGE NIKOLAKAKOS",
+        "slug": "jason-lorang",
+        "displayName": "JASON LORANG",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/George-Nikolakakos/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "james-g-whitaker",
-        "displayName": "JAMES G WHITAKER",
+        "slug": "kevin-leatherbarrow",
+        "displayName": "KEVIN LEATHERBARROW",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": "https://kevinleatherbarrow.com"
       },
       {
-        "slug": "ronald-k-paulick",
-        "displayName": "RONALD K PAULICK",
+        "slug": "neal-miller",
+        "displayName": "NEAL MILLER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -791,54 +572,21 @@
         "displayName": "ERIC TILLEMAN",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.tillemanforhd23.com/"
       },
       {
-        "slug": "pete-anderson",
-        "displayName": "PETE ANDERSON",
+        "slug": "brett-mills",
+        "displayName": "BRETT MILLS",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": "https://www.millsformontana.com"
       },
       {
-        "slug": "john-h--proud",
-        "displayName": "JOHN H  PROUD",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "josh-denully",
-        "displayName": "JOSH DENULLY",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "sandor-r-hopkins",
-        "displayName": "SANDOR R HOPKINS",
+        "slug": "rebecca-bogdenrichards",
+        "displayName": "REBECCA BOGDENRICHARDS",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "kevin-leatherbarrow",
-        "displayName": "KEVIN LEATHERBARROW",
-        "party": "L",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -857,9 +605,14 @@
         "displayName": "STEVE FITZPATRICK",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Steve-Fitzpatrick/",
-        "hasResponses": false,
-        "numMTFParticles": 1
+        "campaignWebsite": "https://fitzpatrickformt.com"
+      },
+      {
+        "slug": "pam-carroll",
+        "displayName": "PAM CARROLL",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://pamelacarroll.com"
       }
     ]
   },
@@ -878,18 +631,14 @@
         "displayName": "STEVE GIST",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Steve-Gist/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://stevegistformontana.com"
       },
       {
-        "slug": "james-rickley",
-        "displayName": "JAMES RICKLEY",
+        "slug": "jerry-ferderer",
+        "displayName": "JERRY FERDERER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -908,18 +657,14 @@
         "displayName": "RUSSEL MINER",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Russ-Miner/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "dana--darlington",
-        "displayName": "DANA  DARLINGTON",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "slug": "paul-jefferson",
+        "displayName": "PAUL JEFFERSON",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -934,22 +679,11 @@
     "districtKey": "HD-27",
     "candidates": [
       {
-        "slug": "ed-hill",
-        "displayName": "ED HILL",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "paul-tuss",
         "displayName": "PAUL TUSS",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Paul-Tuss/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://paultuss.com"
       }
     ]
   },
@@ -964,40 +698,18 @@
     "districtKey": "HD-28",
     "candidates": [
       {
-        "slug": "eric-albus",
-        "displayName": "ERIC ALBUS",
+        "slug": "john-south",
+        "displayName": "JOHN SOUTH",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "mark-l-wicks",
-        "displayName": "MARK L WICKS",
+        "slug": "chisholm-b-christensen",
+        "displayName": "CHISHOLM B CHRISTENSEN",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "wayne-stahl",
-        "displayName": "WAYNE STAHL",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "blake-borst",
-        "displayName": "BLAKE BORST",
-        "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1012,22 +724,18 @@
     "districtKey": "HD-29",
     "candidates": [
       {
-        "slug": "miles-knudsen",
-        "displayName": "MILES KNUDSEN",
+        "slug": "linda-harmon",
+        "displayName": "LINDA HARMON",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": "https://harmon4house.com"
       },
       {
         "slug": "valerie-moore",
         "displayName": "VALERIE MOORE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1046,9 +754,7 @@
         "displayName": "MORGAN THIEL",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1063,31 +769,18 @@
     "districtKey": "HD-31",
     "candidates": [
       {
-        "slug": "kevin-taylor",
-        "displayName": "KEVIN TAYLOR",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "lance-fourstar",
-        "displayName": "LANCE FOURSTAR",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 1
-      },
-      {
-        "slug": "frank-j-smith",
-        "displayName": "FRANK J SMITH",
+        "slug": "lance-elliot-fourstar",
+        "displayName": "LANCE ELLIOT FOURSTAR",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Frank-Smith/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
+      },
+      {
+        "slug": "natalie-oneal",
+        "displayName": "NATALIE ONEAL",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://www.natalie4montana.com"
       }
     ]
   },
@@ -1102,22 +795,11 @@
     "districtKey": "HD-32",
     "candidates": [
       {
-        "slug": "jason-ulrich",
-        "displayName": "JASON ULRICH",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "mike-fox",
         "displayName": "MIKE FOX",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1132,22 +814,18 @@
     "districtKey": "HD-33",
     "candidates": [
       {
-        "slug": "brandon-ler",
-        "displayName": "BRANDON LER",
+        "slug": "ric-holden",
+        "displayName": "RIC HOLDEN",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Brandon-Ler/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "kathy-hoiland",
-        "displayName": "KATHY HOILAND",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "slug": "tristan-veverka",
+        "displayName": "TRISTAN VEVERKA",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -1166,9 +844,7 @@
         "displayName": "JERRY SCHILLINGER",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jerry-Schillinger/",
-        "hasResponses": false,
-        "numMTFParticles": 1
+        "campaignWebsite": null
       }
     ]
   },
@@ -1183,22 +859,11 @@
     "districtKey": "HD-35",
     "candidates": [
       {
-        "slug": "gary-w-parry",
-        "displayName": "GARY W PARRY",
+        "slug": "gary-parry",
+        "displayName": "GARY PARRY",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Gary-Parry/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "kim-kreider",
-        "displayName": "KIM KREIDER",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1211,26 +876,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "HD-36",
-    "candidates": [
-      {
-        "slug": "greg-kmetz",
-        "displayName": "GREG KMETZ",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Greg-Kmetz/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "stan-taylor",
-        "displayName": "STAN TAYLOR",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "house",
@@ -1247,18 +893,7 @@
         "displayName": "SHANE KLAKKEN",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "andrea-payne",
-        "displayName": "ANDREA PAYNE",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://shaneklakken.com"
       }
     ]
   },
@@ -1277,18 +912,7 @@
         "displayName": "GREG OBLANDER",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Greg-Oblander/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "nancy-kemler",
-        "displayName": "NANCY KEMLER",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://gregoblander4montana"
       }
     ]
   },
@@ -1304,21 +928,17 @@
     "candidates": [
       {
         "slug": "kerri-seekins-crowe",
-        "displayName": "KERRI SEEKINS-CROWE",
+        "displayName": "KERRI SEEKINS CROWE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Kerri-Seekins-Crowe/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://kerriseekinscrowe.com"
       },
       {
         "slug": "melissa-smith",
         "displayName": "MELISSA SMITH",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://smithformontana.com"
       }
     ]
   },
@@ -1337,27 +957,14 @@
         "displayName": "MIKE VINTON",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://vintonformontana.com"
       },
       {
-        "slug": "josh-visocan",
-        "displayName": "JOSH VISOCAN",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "bob-auch",
-        "displayName": "BOB AUCH",
+        "slug": "gabriel--bradshaw",
+        "displayName": "GABRIEL  BRADSHAW",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1372,22 +979,11 @@
     "districtKey": "HD-41",
     "candidates": [
       {
-        "slug": "da-wallowing-bull",
-        "displayName": "DA WALLOWING BULL",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "jade-sooktis",
         "displayName": "JADE SOOKTIS",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1402,22 +998,25 @@
     "districtKey": "HD-42",
     "candidates": [
       {
-        "slug": "bill-hodges",
-        "displayName": "BILL HODGES",
+        "slug": "micah-ingram",
+        "displayName": "MICAH INGRAM",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "sidney-'chip'-fitzpatrick",
-        "displayName": "SIDNEY 'CHIP' FITZPATRICK",
+        "slug": "jeremiah-jabs",
+        "displayName": "JEREMIAH JABS",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "sidney-chip-fitzpatrick",
+        "displayName": "SIDNEY CHIP FITZPATRICK",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1436,18 +1035,14 @@
         "displayName": "LARRY BREWSTER",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Larry-Brewster/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://none"
       },
       {
-        "slug": "alexander-clark",
-        "displayName": "ALEXANDER CLARK",
+        "slug": "rudolf-haden",
+        "displayName": "RUDOLF HADEN",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1466,9 +1061,14 @@
         "displayName": "KATIE ZOLNIKOV",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Katie-Zolnikov/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://katiezolnikov.com"
+      },
+      {
+        "slug": "mike-eaton",
+        "displayName": "MIKE EATON",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -1483,22 +1083,18 @@
     "districtKey": "HD-45",
     "candidates": [
       {
-        "slug": "kassidy-olson",
-        "displayName": "KASSIDY OLSON",
+        "slug": "bryce-walston",
+        "displayName": "BRYCE WALSTON",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
         "slug": "denise-baum",
         "displayName": "DENISE BAUM",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Denise-Baum/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://baumformontana.com/"
       }
     ]
   },
@@ -1513,22 +1109,18 @@
     "districtKey": "HD-46",
     "candidates": [
       {
-        "slug": "starr-emery",
-        "displayName": "STARR EMERY",
+        "slug": "kim-welzenbach",
+        "displayName": "KIM WELZENBACH",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://kimformontana.org"
       },
       {
-        "slug": "emma-kerr-carpenter",
-        "displayName": "EMMA KERR CARPENTER",
+        "slug": "denise-joy",
+        "displayName": "DENISE JOY",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Emma-Kerr-Carpenter/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1543,31 +1135,25 @@
     "districtKey": "HD-47",
     "candidates": [
       {
-        "slug": "thomas-mahon",
-        "displayName": "THOMAS MAHON",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "stephanie-moncada",
-        "displayName": "STEPHANIE MONCADA",
+        "slug": "ron-j-stevens",
+        "displayName": "RON J STEVENS",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://ronjstevens.com/"
+      },
+      {
+        "slug": "john-maxwell",
+        "displayName": "JOHN MAXWELL",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://maxwellformontana.com"
       },
       {
         "slug": "james-reavis",
         "displayName": "JAMES REAVIS",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.reavisformontana.com/"
       }
     ]
   },
@@ -1586,18 +1172,14 @@
         "displayName": "CURTIS SCHOMER",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "anne-ross",
-        "displayName": "ANNE ROSS",
+        "slug": "erin-tate",
+        "displayName": "ERIN TATE",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1612,22 +1194,11 @@
     "districtKey": "HD-49",
     "candidates": [
       {
-        "slug": "sherry-essmann",
-        "displayName": "SHERRY ESSMANN",
+        "slug": "charlie-loveridge",
+        "displayName": "CHARLIE LOVERIDGE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Sherry-Essmann/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "rudolf-haden",
-        "displayName": "RUDOLF HADEN",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://loveridgeformontana.com"
       }
     ]
   },
@@ -1642,22 +1213,18 @@
     "districtKey": "HD-50",
     "candidates": [
       {
-        "slug": "anthony-nicastro",
-        "displayName": "ANTHONY NICASTRO",
+        "slug": "stewart-harris",
+        "displayName": "STEWART HARRIS",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "shawn-c-giesick",
-        "displayName": "SHAWN C GIESICK",
+        "slug": "mark-peters",
+        "displayName": "MARK PETERS",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1676,18 +1243,14 @@
         "displayName": "JODEE ETCHART",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jodee-Etchart/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://jodeeformt.com"
       },
       {
-        "slug": "janna-hafer",
-        "displayName": "JANNA HAFER",
-        "party": "I",
+        "slug": "precious-mckenzie",
+        "displayName": "PRECIOUS MCKENZIE",
+        "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1702,22 +1265,18 @@
     "districtKey": "HD-52",
     "candidates": [
       {
-        "slug": "bill-mercer",
-        "displayName": "BILL MERCER",
+        "slug": "stacy-zinn",
+        "displayName": "STACY ZINN",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Bill-Mercer/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "carole-boerner",
-        "displayName": "CAROLE BOERNER",
-        "party": "D",
+        "slug": "ed-walker",
+        "displayName": "ED WALKER",
+        "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://walkerformt.com"
       }
     ]
   },
@@ -1736,27 +1295,21 @@
         "displayName": "NELLY NICOL",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Nelly-Nicol/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.nelly4montana.com"
       },
       {
-        "slug": "david-austin",
-        "displayName": "DAVID AUSTIN",
+        "slug": "troy-charbonneau",
+        "displayName": "TROY CHARBONNEAU",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": null
       },
       {
-        "slug": "ellie-kerns",
-        "displayName": "ELLIE KERNS",
+        "slug": "rebecca-noell",
+        "displayName": "REBECCA NOELL",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1775,9 +1328,14 @@
         "displayName": "LEE DEMING",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Lee-Deming/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://leeformontana.org"
+      },
+      {
+        "slug": "janine-coole",
+        "displayName": "JANINE COOLE",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -1792,40 +1350,25 @@
     "districtKey": "HD-55",
     "candidates": [
       {
+        "slug": "mary-horman",
+        "displayName": "MARY HORMAN",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://www.maryhormancarboncounty.com"
+      },
+      {
         "slug": "brad-barker",
         "displayName": "BRAD BARKER",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Brad-Barker/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://bradbarker.com"
       },
       {
-        "slug": "mary-horman",
-        "displayName": "MARY HORMAN",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "lisa-bennett",
-        "displayName": "LISA BENNETT",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 1
-      },
-      {
-        "slug": "kim-gillan",
-        "displayName": "KIM GILLAN",
+        "slug": "richard-gessling",
+        "displayName": "RICHARD GESSLING",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1840,13 +1383,11 @@
     "districtKey": "HD-56",
     "candidates": [
       {
-        "slug": "fiona-nave",
-        "displayName": "FIONA NAVE",
+        "slug": "fiona-b-nave",
+        "displayName": "FIONA B NAVE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Fiona-Nave/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1861,22 +1402,18 @@
     "districtKey": "HD-57",
     "candidates": [
       {
-        "slug": "marty-malone",
-        "displayName": "MARTY MALONE",
+        "slug": "bob-crank",
+        "displayName": "BOB CRANK",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Marty-Malone/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://electcrankmt.com"
       },
       {
-        "slug": "scott-rosenzweig",
-        "displayName": "SCOTT ROSENZWEIG",
+        "slug": "jordan-viegut",
+        "displayName": "JORDAN VIEGUT",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1891,31 +1428,18 @@
     "districtKey": "HD-58",
     "candidates": [
       {
-        "slug": "jason-gunderson",
-        "displayName": "JASON GUNDERSON",
+        "slug": "joshua-congleton",
+        "displayName": "JOSHUA CONGLETON",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
         "slug": "jamie-l-isaly",
         "displayName": "JAMIE L ISALY",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "dean-williamson",
-        "displayName": "DEAN WILLIAMSON",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://jamieisaly.com"
       }
     ]
   },
@@ -1934,18 +1458,14 @@
         "displayName": "MARC GREENDORFER",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.marc4hd59.com"
       },
       {
-        "slug": "ed-stafman",
-        "displayName": "ED STAFMAN",
+        "slug": "katie-fire-thunder",
+        "displayName": "KATIE FIRE THUNDER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Ed-Stafman/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -1960,22 +1480,18 @@
     "districtKey": "HD-60",
     "candidates": [
       {
-        "slug": "jerry-johnson",
-        "displayName": "JERRY JOHNSON",
+        "slug": "greg-leman",
+        "displayName": "GREG LEMAN",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://leman4mt.org"
       },
       {
         "slug": "alanah-griffith",
         "displayName": "ALANAH GRIFFITH",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://griffithformt.com"
       }
     ]
   },
@@ -1990,22 +1506,18 @@
     "districtKey": "HD-61",
     "candidates": [
       {
-        "slug": "thomas-carlson",
-        "displayName": "THOMAS CARLSON",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "becky-edwards",
-        "displayName": "BECKY EDWARDS",
+        "slug": "rio-roland",
+        "displayName": "RIO ROLAND",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.rioformt.com"
+      },
+      {
+        "slug": "chris-gray",
+        "displayName": "CHRIS GRAY",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -2020,31 +1532,18 @@
     "districtKey": "HD-62",
     "candidates": [
       {
-        "slug": "owen-lang",
-        "displayName": "OWEN LANG",
+        "slug": "esther-fishbaugh",
+        "displayName": "ESTHER FISHBAUGH",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "rio-roland",
-        "displayName": "RIO ROLAND",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://estherformontana.com"
       },
       {
         "slug": "joshua-a-seckinger",
         "displayName": "JOSHUA A SECKINGER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://seck4mt.com"
       }
     ]
   },
@@ -2059,40 +1558,18 @@
     "districtKey": "HD-63",
     "candidates": [
       {
-        "slug": "joe-flynn",
-        "displayName": "JOE FLYNN",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "mark-lewis",
-        "displayName": "MARK LEWIS",
+        "slug": "lawrence-r-moore",
+        "displayName": "LAWRENCE R MOORE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
         "slug": "peter-strand",
         "displayName": "PETER STRAND",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "john-hansen",
-        "displayName": "JOHN HANSEN",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://repstrand.com"
       }
     ]
   },
@@ -2107,22 +1584,18 @@
     "districtKey": "HD-64",
     "candidates": [
       {
-        "slug": "jolene--crum",
-        "displayName": "JOLENE  CRUM",
+        "slug": "daniel-ricardo-martinez",
+        "displayName": "DANIEL RICARDO MARTINEZ",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://martinezforthepeople.com"
       },
       {
-        "slug": "kelly-kortum",
-        "displayName": "KELLY KORTUM",
+        "slug": "brady-bremer",
+        "displayName": "BRADY BREMER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Kelly-Kortum/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -2137,31 +1610,11 @@
     "districtKey": "HD-65",
     "candidates": [
       {
-        "slug": "esther-fishbaugh",
-        "displayName": "ESTHER FISHBAUGH",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "anja-wookeyhuffman",
-        "displayName": "ANJA WOOKEYHUFFMAN",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "brian-close",
         "displayName": "BRIAN CLOSE",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://brianclose4montana.net/"
       }
     ]
   },
@@ -2176,22 +1629,18 @@
     "districtKey": "HD-66",
     "candidates": [
       {
-        "slug": "marla-davis",
-        "displayName": "MARLA DAVIS",
+        "slug": "owen-lang",
+        "displayName": "OWEN LANG",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
         "slug": "eric-matthews",
         "displayName": "ERIC MATTHEWS",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Eric-Matthews/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://matthewsformt.com"
       }
     ]
   },
@@ -2210,18 +1659,14 @@
         "displayName": "JEDEDIAH HINKLE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jedediah-Hinkle/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://jedediahhinkle.com"
       },
       {
-        "slug": "carl-anderson",
-        "displayName": "CARL ANDERSON",
-        "party": "D",
+        "slug": "russell-c-nelson",
+        "displayName": "RUSSELL C NELSON",
+        "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -2240,36 +1685,14 @@
         "displayName": "CALEB HINKLE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Caleb-Hinkle/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
         "slug": "jennifer-carlson",
         "displayName": "JENNIFER CARLSON",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jennifer-Carlson/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "scott-sales",
-        "displayName": "SCOTT SALES",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "alexander-colafrancesco",
-        "displayName": "ALEXANDER COLAFRANCESCO",
-        "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.carlsonforliberty.com"
       }
     ]
   },
@@ -2284,13 +1707,18 @@
     "districtKey": "HD-69",
     "candidates": [
       {
+        "slug": "trevor-walter",
+        "displayName": "TREVOR WALTER",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://trevorwalterformontana.com/"
+      },
+      {
         "slug": "ken-walsh",
         "displayName": "KEN WALSH",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Kenneth-Walsh/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.walsh4montana.com"
       }
     ]
   },
@@ -2305,31 +1733,11 @@
     "districtKey": "HD-70",
     "candidates": [
       {
-        "slug": "mary-ann-nicholas",
-        "displayName": "MARY ANN NICHOLAS",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "shannon-maness",
         "displayName": "SHANNON MANESS",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "mike-klakken",
-        "displayName": "MIKE KLAKKEN",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.manessformontana.com"
       }
     ]
   },
@@ -2344,22 +1752,11 @@
     "districtKey": "HD-71",
     "candidates": [
       {
-        "slug": "h-steiger",
-        "displayName": "H STEIGER",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "scott-p-demarois",
-        "displayName": "SCOTT P DEMAROIS",
+        "slug": "scott-demarois",
+        "displayName": "SCOTT DEMAROIS",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -2374,22 +1771,11 @@
     "districtKey": "HD-72",
     "candidates": [
       {
-        "slug": "andy-johnson",
-        "displayName": "ANDY JOHNSON",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "donavon-hawk",
         "displayName": "DONAVON HAWK",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Donavon-Hawk/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -2404,22 +1790,11 @@
     "districtKey": "HD-73",
     "candidates": [
       {
-        "slug": "zach-tomaszewski",
-        "displayName": "ZACH TOMASZEWSKI",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "jennifer-lynch",
         "displayName": "JENNIFER LYNCH",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jennifer-Lynch/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -2434,22 +1809,11 @@
     "districtKey": "HD-74",
     "candidates": [
       {
-        "slug": "trenin-bayless",
-        "displayName": "TRENIN BAYLESS",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "marc-j-lee",
         "displayName": "MARC J LEE",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -2464,22 +1828,25 @@
     "districtKey": "HD-75",
     "candidates": [
       {
-        "slug": "marta-bertoglio",
-        "displayName": "MARTA BERTOGLIO",
+        "slug": "mark-reinschmidt",
+        "displayName": "MARK REINSCHMIDT",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Marta-Bertoglio/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "nancy-jane-lien",
-        "displayName": "NANCY JANE LIEN",
+        "slug": "patrick-sullivan",
+        "displayName": "PATRICK SULLIVAN",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
+      },
+      {
+        "slug": "greg-devries",
+        "displayName": "GREG DEVRIES",
+        "party": "L",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -2494,31 +1861,18 @@
     "districtKey": "HD-76",
     "candidates": [
       {
+        "slug": "trish-schreiber",
+        "displayName": "TRISH SCHREIBER",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://trishformontana.com"
+      },
+      {
         "slug": "john-fitzpatrick",
         "displayName": "JOHN FITZPATRICK",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/John-Fitzpatrick/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "dave-kesler-iii",
-        "displayName": "DAVE KESLER III",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "elena-gagliano",
-        "displayName": "ELENA GAGLIANO",
-        "party": "L",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.fitzfor76.com"
       }
     ]
   },
@@ -2533,31 +1887,11 @@
     "districtKey": "HD-77",
     "candidates": [
       {
-        "slug": "kyle-mcmurray",
-        "displayName": "KYLE MCMURRAY",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "jane-gillette",
         "displayName": "JANE GILLETTE",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jane-Gillette/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "jeremiah-dawson",
-        "displayName": "JEREMIAH DAWSON",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://drjanegillette.com"
       }
     ]
   },
@@ -2572,31 +1906,11 @@
     "districtKey": "HD-78",
     "candidates": [
       {
-        "slug": "james-h-bergstrom",
-        "displayName": "JAMES H BERGSTROM",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/James-Bergstrom/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "randyn-gregg",
         "displayName": "RANDYN GREGG",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "glenn-a-lambert",
-        "displayName": "GLENN A LAMBERT",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://randynformontana.com"
       }
     ]
   },
@@ -2611,49 +1925,11 @@
     "districtKey": "HD-79",
     "candidates": [
       {
-        "slug": "jill-sark",
-        "displayName": "JILL SARK",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "demetri-joslin",
-        "displayName": "DEMETRI JOSLIN",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "anne-woodland",
-        "displayName": "ANNE WOODLAND",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "emily-harris",
-        "displayName": "EMILY HARRIS",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "luke-muszkiewicz",
         "displayName": "LUKE MUSZKIEWICZ",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.lukeformontana.org"
       }
     ]
   },
@@ -2668,22 +1944,25 @@
     "districtKey": "HD-80",
     "candidates": [
       {
-        "slug": "rachel-burright",
-        "displayName": "RACHEL BURRIGHT",
+        "slug": "katie-fruits",
+        "displayName": "KATIE FRUITS",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://katie4montana.com"
       },
       {
-        "slug": "melissa-romano",
-        "displayName": "MELISSA ROMANO",
+        "slug": "qasim-w-abdul-baki",
+        "displayName": "QASIM W ABDUL-BAKI",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Melissa-Romano/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://qasimfordem.com"
+      },
+      {
+        "slug": "megan-lane",
+        "displayName": "MEGAN LANE",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -2698,22 +1977,25 @@
     "districtKey": "HD-81",
     "candidates": [
       {
-        "slug": "dustin-scott",
-        "displayName": "DUSTIN SCOTT",
+        "slug": "john-j-looney-sr",
+        "displayName": "JOHN J LOONEY SR",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://looneyformontana.com"
       },
       {
-        "slug": "mary-m-caferro",
-        "displayName": "MARY M CAFERRO",
+        "slug": "benjamin-kuiper",
+        "displayName": "BENJAMIN KUIPER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Mary-Caferro/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://wwwbenkuiperforlegislature.com"
+      },
+      {
+        "slug": "janet-ellis",
+        "displayName": "JANET ELLIS",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://jantellis4mt.com"
       }
     ]
   },
@@ -2728,31 +2010,11 @@
     "districtKey": "HD-82",
     "candidates": [
       {
-        "slug": "john-looney-sr",
-        "displayName": "JOHN LOONEY SR",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "sk-rossi",
-        "displayName": "SK ROSSI",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "pete-elverum",
         "displayName": "PETE ELVERUM",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://peeformontana.com"
       }
     ]
   },
@@ -2767,31 +2029,11 @@
     "districtKey": "HD-83",
     "candidates": [
       {
-        "slug": "christopher-st-jean",
-        "displayName": "CHRISTOPHER ST JEAN",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "wes-feist",
-        "displayName": "WES FEIST",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "jill-cohenour",
         "displayName": "JILL COHENOUR",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jill-Cohenour/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -2806,40 +2048,32 @@
     "districtKey": "HD-84",
     "candidates": [
       {
-        "slug": "julie-dooling",
-        "displayName": "JULIE DOOLING",
+        "slug": "james-marshal",
+        "displayName": "JAMES MARSHAL",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Julie-Dooling/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://marshal4montana.com"
       },
       {
-        "slug": "jon-jackson",
-        "displayName": "JON JACKSON",
+        "slug": "roy-caldwell",
+        "displayName": "ROY CALDWELL",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": "https://www.caldwell4hd84.com"
       },
       {
-        "slug": "michele-r-crepeau",
-        "displayName": "MICHELE R CREPEAU",
+        "slug": "jamie-van-valkenburg",
+        "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "david-williams",
-        "displayName": "DAVID WILLIAMS",
+        "slug": "tia-nelson",
+        "displayName": "TIA NELSON",
         "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -2857,28 +2091,15 @@
         "slug": "michele-binkley",
         "displayName": "MICHELE BINKLEY",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Michele-Binkley/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": "https://www.binkleyformontana.com"
       },
       {
-        "slug": "kathy-love",
-        "displayName": "KATHY LOVE",
+        "slug": "kim-dailey",
+        "displayName": "KIM DAILEY",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "laura-mae-jackson",
-        "displayName": "LAURA MAE JACKSON",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://kimdailey.com"
       }
     ]
   },
@@ -2893,31 +2114,11 @@
     "districtKey": "HD-86",
     "candidates": [
       {
-        "slug": "david-bedey",
-        "displayName": "DAVID BEDEY",
+        "slug": "wayne-rusk",
+        "displayName": "WAYNE RUSK",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/David-Bedey/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "robert-wallace",
-        "displayName": "ROBERT WALLACE",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "jeff-kempka",
-        "displayName": "JEFF KEMPKA",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://waynerusk.com"
       }
     ]
   },
@@ -2932,22 +2133,11 @@
     "districtKey": "HD-87",
     "candidates": [
       {
-        "slug": "ron-marshall",
-        "displayName": "RON MARSHALL",
+        "slug": "terry-nelson",
+        "displayName": "TERRY NELSON",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Ron-Marshall/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "tammie-milligan",
-        "displayName": "TAMMIE MILLIGAN",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -2966,27 +2156,14 @@
         "displayName": "GREG OVERSTREET",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "kim-dailey",
-        "displayName": "KIM DAILEY",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://www.gregoverstreet.com"
       },
       {
         "slug": "evan-schroedel",
         "displayName": "EVAN SCHROEDEL",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -3001,22 +2178,11 @@
     "districtKey": "HD-89",
     "candidates": [
       {
-        "slug": "lyn-hellegaard",
-        "displayName": "LYN HELLEGAARD",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Lyn-Hellegaard/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "mark-a-thane",
         "displayName": "MARK A THANE",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Mark-Thane/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://thaneformontana.com"
       }
     ]
   },
@@ -3035,27 +2201,14 @@
         "displayName": "CURTIS J COCHRAN",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
         "slug": "jeff-stanek",
         "displayName": "JEFF STANEK",
         "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "steven-delisle",
-        "displayName": "STEVEN DELISLE",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -3070,31 +2223,18 @@
     "districtKey": "HD-91",
     "candidates": [
       {
-        "slug": "joe-read",
-        "displayName": "JOE READ",
-        "party": "R",
-        "status": "withdrawn",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Joe-Read/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "david-passieri",
-        "displayName": "DAVID PASSIERI",
+        "slug": "charles-headley",
+        "displayName": "CHARLES HEADLEY",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "shelly-r-fyant",
-        "displayName": "SHELLY R FYANT",
+        "slug": "shelly-fyant",
+        "displayName": "SHELLY FYANT",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://shellyformontana.com"
       }
     ]
   },
@@ -3109,22 +2249,18 @@
     "districtKey": "HD-92",
     "candidates": [
       {
-        "slug": "ted-morgan",
-        "displayName": "TED MORGAN",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "connie-keogh",
-        "displayName": "CONNIE KEOGH",
+        "slug": "reggie-spaulding",
+        "displayName": "REGGIE SPAULDING",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Connie-Keogh/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://reggiespauldingformt.org"
+      },
+      {
+        "slug": "monica-tranel",
+        "displayName": "MONICA TRANEL",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://www.monicatranel.com"
       }
     ]
   },
@@ -3143,18 +2279,28 @@
         "displayName": "ROY HANDLEY",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
-        "slug": "katie-sullivan",
-        "displayName": "KATIE SULLIVAN",
+        "slug": "nick-kujawa",
+        "displayName": "NICK KUJAWA",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Katie-Sullivan/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://kujawa4montana.com"
+      },
+      {
+        "slug": "sam-kulla",
+        "displayName": "SAM KULLA",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://votesamkulla.com"
+      },
+      {
+        "slug": "ben-davis",
+        "displayName": "BEN DAVIS",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://www.davisformontana.com/"
       }
     ]
   },
@@ -3169,31 +2315,18 @@
     "districtKey": "HD-94",
     "candidates": [
       {
-        "slug": "delaney-malmsten",
-        "displayName": "DELANEY MALMSTEN",
-        "party": "R",
-        "status": "withdrawn",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "adam-s-henson",
-        "displayName": "ADAM S HENSON",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "marilyn-marler",
-        "displayName": "MARILYN MARLER",
+        "slug": "lisa-verlanic-fowler",
+        "displayName": "LISA VERLANIC-FOWLER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Marilyn-Marler/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://montanansforlisa.com"
+      },
+      {
+        "slug": "robin-kendall",
+        "displayName": "ROBIN KENDALL",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://www.robinkendall4montana.org/"
       }
     ]
   },
@@ -3208,22 +2341,11 @@
     "districtKey": "HD-95",
     "candidates": [
       {
-        "slug": "barbara-w-starmer",
-        "displayName": "BARBARA W STARMER",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "zooey-zephyr",
         "displayName": "ZOOEY ZEPHYR",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Zooey-Zephyr/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -3238,22 +2360,11 @@
     "districtKey": "HD-96",
     "candidates": [
       {
-        "slug": "robert-labair",
-        "displayName": "ROBERT LABAIR",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "bob-carter",
         "displayName": "BOB CARTER",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Bob-Carter/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://cartermt.us"
       }
     ]
   },
@@ -3268,40 +2379,11 @@
     "districtKey": "HD-97",
     "candidates": [
       {
-        "slug": "nick-knowles",
-        "displayName": "NICK KNOWLES",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "melody-cunningham",
-        "displayName": "MELODY CUNNINGHAM",
+        "slug": "melody-j-cunningham",
+        "displayName": "MELODY J CUNNINGHAM",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "lisa-verlanic-fowler",
-        "displayName": "LISA VERLANIC FOWLER",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "richard-l-armerding",
-        "displayName": "RICHARD L ARMERDING",
-        "party": "L",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://melodyformontana.org/"
       }
     ]
   },
@@ -3316,22 +2398,11 @@
     "districtKey": "HD-98",
     "candidates": [
       {
-        "slug": "jace-beard",
-        "displayName": "JACE BEARD",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "jonathan-karlen",
         "displayName": "JONATHAN KARLEN",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jonathan-Karlen/",
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://jonathankarlen.net"
       }
     ]
   },
@@ -3350,18 +2421,14 @@
         "displayName": "RYAN DARLING",
         "party": "R",
         "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       },
       {
         "slug": "tom-france",
         "displayName": "TOM FRANCE",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Tom-France/",
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": "https://tomfranceformontana.com"
       }
     ]
   },
@@ -3376,31 +2443,11 @@
     "districtKey": "HD-100",
     "candidates": [
       {
-        "slug": "christopher-paul-buckles",
-        "displayName": "CHRISTOPHER PAUL BUCKLES",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
         "slug": "sj-howell",
         "displayName": "SJ HOWELL",
         "party": "D",
         "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/SJ-Howell/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "tim-garrison",
-        "displayName": "TIM GARRISON",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
+        "campaignWebsite": null
       }
     ]
   },
@@ -3415,7 +2462,29 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Mike-Cuffe/",
     "districtKey": "SD-1",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "steve-gunderson",
+        "displayName": "STEVE GUNDERSON",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://gunderson4senate.com"
+      },
+      {
+        "slug": "vincent-backen",
+        "displayName": "VINCENT BACKEN",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "jonathan-russell-jameson",
+        "displayName": "JONATHAN RUSSELL JAMESON",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3426,26 +2495,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-2",
-    "candidates": [
-      {
-        "slug": "doug-adams",
-        "displayName": "DOUG ADAMS",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "dave-fern",
-        "displayName": "DAVE FERN",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Dave-Fern/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3456,26 +2506,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-3",
-    "candidates": [
-      {
-        "slug": "carl-glimm",
-        "displayName": "CARL GLIMM",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Carl-Glimm/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "angela-kennedy",
-        "displayName": "ANGELA KENNEDY",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3488,7 +2519,15 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/John-Fuller/",
     "districtKey": "SD-4",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "amy-regier",
+        "displayName": "AMY REGIER",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://amyformontana.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3499,35 +2538,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-5",
-    "candidates": [
-      {
-        "slug": "marquis-l-laude",
-        "displayName": "MARQUIS L LAUDE",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "matt-regier",
-        "displayName": "MATT REGIER",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Matt-Regier/",
-        "hasResponses": false,
-        "numMTFParticles": 1
-      },
-      {
-        "slug": "link-neimark",
-        "displayName": "LINK NEIMARK",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3540,7 +2551,22 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Mark-Noland/",
     "districtKey": "SD-6",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "mark-noland",
+        "displayName": "MARK NOLAND",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "patrick-fitzpatrick",
+        "displayName": "PATRICK FITZPATRICK",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3551,26 +2577,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-7",
-    "candidates": [
-      {
-        "slug": "greg-hertz",
-        "displayName": "GREG HERTZ",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Greg-Hertz/",
-        "hasResponses": false,
-        "numMTFParticles": 1
-      },
-      {
-        "slug": "craig-pablo",
-        "displayName": "CRAIG PABLO",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3583,7 +2590,15 @@
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Susan-Webber/",
     "districtKey": "SD-8",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "tyson-t-running-wolf",
+        "displayName": "TYSON T RUNNING WOLF",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3596,7 +2611,22 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Bruce-Gillespie/",
     "districtKey": "SD-9",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "zack-wirth",
+        "displayName": "ZACK WIRTH",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://zackformontana"
+      },
+      {
+        "slug": "llew-jones",
+        "displayName": "LLEW JONES",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://www.votellewjones.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3609,7 +2639,29 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jeremy-Trebas/",
     "districtKey": "SD-10",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "jessica-dyrdahl",
+        "displayName": "JESSICA DYRDAHL",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://jessicaformontana.com"
+      },
+      {
+        "slug": "maximus-dascoulias",
+        "displayName": "MAXIMUS DASCOULIAS",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "margaret-mitchell",
+        "displayName": "MARGARET MITCHELL",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://mitchell406.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3622,7 +2674,15 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Daniel-Emrich/",
     "districtKey": "SD-11",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "valynda-holland",
+        "displayName": "VALYNDA HOLLAND",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3635,7 +2695,22 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Wendy-McKamey/",
     "districtKey": "SD-12",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "randy-pinocci",
+        "displayName": "RANDY PINOCCI",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://www.pinocciforsd12.com"
+      },
+      {
+        "slug": "george-nikolakakos",
+        "displayName": "GEORGE NIKOLAKAKOS",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://georgeforus.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3646,26 +2721,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-13",
-    "candidates": [
-      {
-        "slug": "lola-sheldon-galloway",
-        "displayName": "LOLA SHELDON-GALLOWAY",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Lola-Sheldon-Galloway/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "josh-kassmier",
-        "displayName": "JOSH KASSMIER",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Josh-Kassmier/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3678,7 +2734,29 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Russ-Tempel/",
     "districtKey": "SD-14",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "eric-albus",
+        "displayName": "ERIC ALBUS",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://albus for senate"
+      },
+      {
+        "slug": "mark-l-wicks",
+        "displayName": "MARK L WICKS",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://www.wicks4freedom.com"
+      },
+      {
+        "slug": "blake-borst",
+        "displayName": "BLAKE BORST",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3689,26 +2767,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-15",
-    "candidates": [
-      {
-        "slug": "rhonda-knudsen",
-        "displayName": "RHONDA KNUDSEN",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Rhonda-Knudsen/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "gregg-hunter",
-        "displayName": "GREGG HUNTER",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3719,35 +2778,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-16",
-    "candidates": [
-      {
-        "slug": "perri-a-jacobs",
-        "displayName": "PERRI A JACOBS",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "jonathan-windy-boy",
-        "displayName": "JONATHAN WINDY BOY",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jonathan-Windy-Boy/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "bridget-smith",
-        "displayName": "BRIDGET SMITH",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3758,26 +2789,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-17",
-    "candidates": [
-      {
-        "slug": "mike-newton",
-        "displayName": "MIKE NEWTON",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "bob-phalen",
-        "displayName": "BOB PHALEN",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Bob-Phalen/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3790,7 +2802,22 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Kenneth-Bogner/",
     "districtKey": "SD-18",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "greg-kmetz",
+        "displayName": "GREG KMETZ",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://www.gregkmetzforsenate.com"
+      },
+      {
+        "slug": "doug-martens",
+        "displayName": "DOUG MARTENS",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3803,7 +2830,15 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Barry-Usher/",
     "districtKey": "SD-19",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "barry-usher",
+        "displayName": "BARRY USHER",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://www.barryusher.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3814,26 +2849,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-20",
-    "candidates": [
-      {
-        "slug": "sue-vinton",
-        "displayName": "SUE VINTON",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Sue-Vinton/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "linda-auch",
-        "displayName": "LINDA AUCH",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3844,35 +2860,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-21",
-    "candidates": [
-      {
-        "slug": "gayle-george-lammers",
-        "displayName": "GAYLE GEORGE LAMMERS",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "sharon-stewart-peregoy",
-        "displayName": "SHARON STEWART PEREGOY",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Sharon-Stewart-Peregoy/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "rae-peppers",
-        "displayName": "RAE PEPPERS",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3885,7 +2873,15 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Daniel-Zolnikov/",
     "districtKey": "SD-22",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "daniel-zolnikov",
+        "displayName": "DANIEL ZOLNIKOV",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://danielzolnikov.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3898,7 +2894,22 @@
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Kathy-Kelker/",
     "districtKey": "SD-23",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "joanna-oblander",
+        "displayName": "JOANNA OBLANDER",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "emma-kerr-carpenter",
+        "displayName": "EMMA KERR-CARPENTER",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://emmaformontana.org"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3909,26 +2920,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-24",
-    "candidates": [
-      {
-        "slug": "mike-yakawich",
-        "displayName": "MIKE YAKAWICH",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Mike-Yakawich/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "mark-h-nicholson",
-        "displayName": "MARK H NICHOLSON",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3941,7 +2933,22 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Dennis-Lenz/",
     "districtKey": "SD-25",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "dennis-lenz",
+        "displayName": "DENNIS LENZ",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "julie-hippler",
+        "displayName": "JULIE HIPPLER",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://hipplerformontana.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -3952,26 +2959,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-26",
-    "candidates": [
-      {
-        "slug": "tom-mcgillvray",
-        "displayName": "TOM MCGILLVRAY",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Tom-McGillvray/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "karen-lyncoln",
-        "displayName": "KAREN LYNCOLN",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -3982,35 +2970,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-27",
-    "candidates": [
-      {
-        "slug": "chris-friedel",
-        "displayName": "CHRIS FRIEDEL",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Chris-Friedel/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "vince-ricci",
-        "displayName": "VINCE RICCI",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "kathleen-gilluly",
-        "displayName": "KATHLEEN GILLULY",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4023,7 +2983,22 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Forrest-Mandeville/",
     "districtKey": "SD-28",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "forrest-j-mandeville",
+        "displayName": "FORREST J MANDEVILLE",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://www.facebook.com/mandevilleformontana"
+      },
+      {
+        "slug": "kelly-hale",
+        "displayName": "KELLY HALE",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://kellyhaleformontana.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4036,7 +3011,22 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/John-Esp/",
     "districtKey": "SD-29",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "jason-gunderson",
+        "displayName": "JASON GUNDERSON",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://jgundersonmt.com"
+      },
+      {
+        "slug": "scott-rosenzweig",
+        "displayName": "SCOTT ROSENZWEIG",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://rosenzweigformontana.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4047,26 +3037,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-30",
-    "candidates": [
-      {
-        "slug": "tyler-rogers",
-        "displayName": "TYLER ROGERS",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "cora-neumann",
-        "displayName": "CORA NEUMANN",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4079,7 +3050,15 @@
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Pat-Flowers/",
     "districtKey": "SD-31",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "kathleen-williams",
+        "displayName": "KATHLEEN WILLIAMS",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://kathleenformontana.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4092,7 +3071,36 @@
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Denise-Hayman/",
     "districtKey": "SD-32",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "neal-ganser",
+        "displayName": "NEAL GANSER",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://ganserforthegallatin.com"
+      },
+      {
+        "slug": "becky-edwards",
+        "displayName": "BECKY EDWARDS",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://www.beckyformontana.com"
+      },
+      {
+        "slug": "kelly-kortum",
+        "displayName": "KELLY KORTUM",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://kellyformt.com"
+      },
+      {
+        "slug": "wes-siler",
+        "displayName": "WES SILER",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://www.wesformontana.com/"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4103,26 +3111,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-33",
-    "candidates": [
-      {
-        "slug": "neal-ganser",
-        "displayName": "NEAL GANSER",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "christopher-pope",
-        "displayName": "CHRISTOPHER POPE",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Chris-Pope/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4135,7 +3124,22 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Shelley-Vance/",
     "districtKey": "SD-34",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "shelley-vance",
+        "displayName": "SHELLEY VANCE",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://vanceforsenate.com"
+      },
+      {
+        "slug": "randy-chamberlin",
+        "displayName": "RANDY CHAMBERLIN",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4146,35 +3150,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-35",
-    "candidates": [
-      {
-        "slug": "mark-(mj)-mcginley",
-        "displayName": "MARK (MJ) MCGINLEY",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "tony-tezak",
-        "displayName": "TONY TEZAK",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "ray-shaw",
-        "displayName": "RAY SHAW",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4185,35 +3161,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-36",
-    "candidates": [
-      {
-        "slug": "darlean-newman",
-        "displayName": "DARLEAN NEWMAN",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "jessica-wicks",
-        "displayName": "JESSICA WICKS",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "sara-novak",
-        "displayName": "SARA NOVAK",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4224,26 +3172,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-37",
-    "candidates": [
-      {
-        "slug": "jim-kephart",
-        "displayName": "JIM KEPHART",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "derek-j-harvey",
-        "displayName": "DEREK J HARVEY",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Derek-Harvey/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4254,44 +3183,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-38",
-    "candidates": [
-      {
-        "slug": "becky-beard",
-        "displayName": "BECKY BEARD",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Becky-Beard/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "jeremy-mygland",
-        "displayName": "JEREMY MYGLAND",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "gregory-frazer",
-        "displayName": "GREGORY FRAZER",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Gregory-Frazer/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "jeffrey-benson",
-        "displayName": "JEFFREY BENSON",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4302,26 +3194,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-39",
-    "candidates": [
-      {
-        "slug": "e-wylie-galt",
-        "displayName": "E WYLIE GALT",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "bruce-shultz",
-        "displayName": "BRUCE SHULTZ",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4332,26 +3205,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-40",
-    "candidates": [
-      {
-        "slug": "greg-l-guthrie",
-        "displayName": "GREG L GUTHRIE",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "laura-smith",
-        "displayName": "LAURA SMITH",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Laura-Smith/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4364,7 +3218,22 @@
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Janet-Ellis/",
     "districtKey": "SD-41",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "erin-farris-olsen",
+        "displayName": "ERIN FARRIS-OLSEN",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://www.erin4montana.com"
+      },
+      {
+        "slug": "dana-toole",
+        "displayName": "DANA TOOLE",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://danatooleformontana.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4377,7 +3246,29 @@
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Mary-Ann-Dunwell/",
     "districtKey": "SD-42",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "stephen-lapraim",
+        "displayName": "STEPHEN LAPRAIM",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://lapraim4mt.com"
+      },
+      {
+        "slug": "nicholas-lancette",
+        "displayName": "NICHOLAS LANCETTE",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://www.nickformontana.com"
+      },
+      {
+        "slug": "mary-ann-dunwell",
+        "displayName": "MARY ANN DUNWELL",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://maryanndunwell.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4390,7 +3281,22 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jason-Ellsworth/",
     "districtKey": "SD-43",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "david-bedey",
+        "displayName": "DAVID BEDEY",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://davidbedey.com"
+      },
+      {
+        "slug": "kathy-love",
+        "displayName": "KATHY LOVE",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://kathyloveformontana.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4401,44 +3307,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-44",
-    "candidates": [
-      {
-        "slug": "wayne-rusk",
-        "displayName": "WAYNE RUSK",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Wayne-Rusk/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "theresa-manzella",
-        "displayName": "THERESA MANZELLA",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Theresa-Manzella/",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "brad-davis",
-        "displayName": "BRAD DAVIS",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "cade-scatolini",
-        "displayName": "CADE SCATOLINI",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4449,44 +3318,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-45",
-    "candidates": [
-      {
-        "slug": "denley-m-loge",
-        "displayName": "DENLEY M LOGE",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Denley-Loge/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "annamarie-white",
-        "displayName": "ANNAMARIE WHITE",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "devin-jackson",
-        "displayName": "DEVIN JACKSON",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "kelley-durbin-williams",
-        "displayName": "KELLEY DURBIN-WILLIAMS",
-        "party": "I",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4497,35 +3329,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-46",
-    "candidates": [
-      {
-        "slug": "charles-headley",
-        "displayName": "CHARLES HEADLEY",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "c-b-pearson",
-        "displayName": "C B PEARSON",
-        "party": "D",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "jacinda-morigeau",
-        "displayName": "JACINDA MORIGEAU",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4536,35 +3340,7 @@
     "in_cycle_2024": "yes",
     "holdover_senator": "",
     "districtKey": "SD-47",
-    "candidates": [
-      {
-        "slug": "abigail-maki",
-        "displayName": "ABIGAIL MAKI",
-        "party": "R",
-        "status": "active",
-        "cap_tracker_2023_link": null,
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "erica-siate",
-        "displayName": "ERICA SIATE",
-        "party": "R",
-        "status": "lost-primary",
-        "cap_tracker_2023_link": null,
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "ellie-hill-boldman",
-        "displayName": "ELLIE HILL BOLDMAN",
-        "party": "D",
-        "status": "active",
-        "cap_tracker_2023_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Ellie-Boldman/",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      }
-    ]
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -4577,7 +3353,15 @@
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Andrea-Olsen/",
     "districtKey": "SD-48",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "andrea-olsen",
+        "displayName": "ANDREA OLSEN",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://www.andreaolsenmt.com"
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4590,7 +3374,15 @@
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Willis-Curdy/",
     "districtKey": "SD-49",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "willis-curdy",
+        "displayName": "WILLIS CURDY",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      }
+    ]
   },
   {
     "chamber": "senate",
@@ -4603,6 +3395,14 @@
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Shane-Morigeau/",
     "districtKey": "SD-50",
-    "candidates": []
+    "candidates": [
+      {
+        "slug": "shane-a-morigeau",
+        "displayName": "SHANE A MORIGEAU",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      }
+    ]
   }
 ]

@@ -1,13 +1,11 @@
 import legislativeCandidates from '../data/legislative-candidates.json'
 
 export function getAllCandidateIds() {
-    // return list of candidate slugs (used as url keys)
-    return legislativeCandidates.map(d => d.slug)
-
+    // No individual legislative candidate pages for 2026
+    // Candidates are shown inline via the district selector
+    return []
 }
 
 export function getCandidateData(candidateSlug) {
-    // return data for given candidate given ID
-    // This is all data necessary to populate a candidate page
     return legislativeCandidates.find(d => d.slug === candidateSlug)
 }

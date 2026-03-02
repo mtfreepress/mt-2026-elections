@@ -170,26 +170,34 @@ const candidateStyle = css`
 `
 
 function Candidate(props) {
-    const { slug, displayName, party, cap_tracker_2023_link, hasResponses, numMTFParticles } = props
-    // cap_tracker_2023_link flags for current lawmakers
+    const { displayName, party, campaignWebsite } = props
     const partyInfo = PARTIES.find(d => d.key === party)
-    return <div css={candidateStyle} style={{ borderTop: `3px solid ${partyInfo.color}` }}><Link href={`/legislature/${slug}`}>
+
+    const inner = <>
         <div className="portrait-col" >
             <div className="party" style={{ background: partyInfo.color }}>{party}</div>
         </div>
         <div className="info-col">
             <div>
                 <div className="name">{displayName}</div>
-                {cap_tracker_2023_link && <div className="current">Sitting lawmaker</div>}
-                <div className="tag-line">
-                    {hasResponses && <span className="tag">✏️ Candidate Q&A</span>}
-                    {(numMTFParticles > 0) && <span className="tag">📰 <strong>{numMTFParticles}</strong> {(numMTFParticles === 1) ? 'article' : 'articles'}</span>}
-                </div>
             </div>
-
-            <div className="fakelink">See more »</div>
+            {campaignWebsite && <div className="fakelink">Website »</div>}
         </div>
-    </Link ></div >
+    </>
+
+    if (campaignWebsite) {
+        return <div css={candidateStyle} style={{ borderTop: `3px solid ${partyInfo.color}` }}>
+            <a href={campaignWebsite} target="_blank" rel="noopener noreferrer">
+                {inner}
+            </a>
+        </div>
+    }
+
+    return <div css={candidateStyle} style={{ borderTop: `3px solid ${partyInfo.color}` }}>
+        <div style={{ display: 'flex', alignItems: 'stretch', minHeight: '40px', backgroundColor: 'var(--tan1)' }}>
+            {inner}
+        </div>
+    </div>
 }
 
 
