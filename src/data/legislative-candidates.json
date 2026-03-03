@@ -185,7 +185,7 @@
         "slug": "llew-jones",
         "displayName": "LLEW JONES",
         "party": "R",
-        "campaignWebsite": "https://www.votellewjones.com"
+        "campaignWebsite": "https://votellewjones.com"
       }
     ]
   },
@@ -196,7 +196,7 @@
     "displayName": "LLEW JONES",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.votellewjones.com",
+    "campaignWebsite": "https://votellewjones.com",
     "opponents": [
       {
         "slug": "zack-wirth",
@@ -208,7 +208,7 @@
         "slug": "llew-jones",
         "displayName": "LLEW JONES",
         "party": "R",
-        "campaignWebsite": "https://www.votellewjones.com"
+        "campaignWebsite": "https://votellewjones.com"
       }
     ]
   },
@@ -323,13 +323,13 @@
     "displayName": "RANDY PINOCCI",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.pinocciforsd12.com",
+    "campaignWebsite": "https://pinocciforsd12.com",
     "opponents": [
       {
         "slug": "randy-pinocci",
         "displayName": "RANDY PINOCCI",
         "party": "R",
-        "campaignWebsite": "https://www.pinocciforsd12.com"
+        "campaignWebsite": "https://pinocciforsd12.com"
       },
       {
         "slug": "george-nikolakakos",
@@ -352,7 +352,7 @@
         "slug": "randy-pinocci",
         "displayName": "RANDY PINOCCI",
         "party": "R",
-        "campaignWebsite": "https://www.pinocciforsd12.com"
+        "campaignWebsite": "https://pinocciforsd12.com"
       },
       {
         "slug": "george-nikolakakos",
@@ -381,7 +381,7 @@
         "slug": "mark-l-wicks",
         "displayName": "MARK L WICKS",
         "party": "R",
-        "campaignWebsite": "https://www.wicks4freedom.com"
+        "campaignWebsite": "https://wicks4freedom.com"
       },
       {
         "slug": "blake-borst",
@@ -398,7 +398,7 @@
     "displayName": "MARK L WICKS",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.wicks4freedom.com",
+    "campaignWebsite": "https://wicks4freedom.com",
     "opponents": [
       {
         "slug": "eric-albus",
@@ -410,7 +410,7 @@
         "slug": "mark-l-wicks",
         "displayName": "MARK L WICKS",
         "party": "R",
-        "campaignWebsite": "https://www.wicks4freedom.com"
+        "campaignWebsite": "https://wicks4freedom.com"
       },
       {
         "slug": "blake-borst",
@@ -439,7 +439,7 @@
         "slug": "mark-l-wicks",
         "displayName": "MARK L WICKS",
         "party": "R",
-        "campaignWebsite": "https://www.wicks4freedom.com"
+        "campaignWebsite": "https://wicks4freedom.com"
       },
       {
         "slug": "blake-borst",
@@ -456,13 +456,13 @@
     "displayName": "GREG KMETZ",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.gregkmetzforsenate.com",
+    "campaignWebsite": "https://gregkmetzforsenate.com",
     "opponents": [
       {
         "slug": "greg-kmetz",
         "displayName": "GREG KMETZ",
         "party": "R",
-        "campaignWebsite": "https://www.gregkmetzforsenate.com"
+        "campaignWebsite": "https://gregkmetzforsenate.com"
       },
       {
         "slug": "doug-martens",
@@ -485,7 +485,7 @@
         "slug": "greg-kmetz",
         "displayName": "GREG KMETZ",
         "party": "R",
-        "campaignWebsite": "https://www.gregkmetzforsenate.com"
+        "campaignWebsite": "https://gregkmetzforsenate.com"
       },
       {
         "slug": "doug-martens",
@@ -502,13 +502,13 @@
     "displayName": "BARRY USHER",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.barryusher.com",
+    "campaignWebsite": "https://barryusher.com",
     "opponents": [
       {
         "slug": "barry-usher",
         "displayName": "BARRY USHER",
         "party": "R",
-        "campaignWebsite": "https://www.barryusher.com"
+        "campaignWebsite": "https://barryusher.com"
       }
     ]
   },
@@ -634,7 +634,7 @@
         "slug": "forrest-j-mandeville",
         "displayName": "FORREST J MANDEVILLE",
         "party": "R",
-        "campaignWebsite": "https://www.facebook.com/mandevilleformontana"
+        "campaignWebsite": "https://facebook.com/mandevilleformontana"
       },
       {
         "slug": "kelly-hale",
@@ -651,13 +651,13 @@
     "displayName": "FORREST J MANDEVILLE",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.facebook.com/mandevilleformontana",
+    "campaignWebsite": "https://facebook.com/mandevilleformontana",
     "opponents": [
       {
         "slug": "forrest-j-mandeville",
         "displayName": "FORREST J MANDEVILLE",
         "party": "R",
-        "campaignWebsite": "https://www.facebook.com/mandevilleformontana"
+        "campaignWebsite": "https://facebook.com/mandevilleformontana"
       },
       {
         "slug": "kelly-hale",
@@ -737,7 +737,7 @@
     "displayName": "BECKY EDWARDS",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.beckyformontana.com",
+    "campaignWebsite": "https://beckyformontana.com",
     "opponents": [
       {
         "slug": "neal-ganser",
@@ -749,7 +749,7 @@
         "slug": "becky-edwards",
         "displayName": "BECKY EDWARDS",
         "party": "D",
-        "campaignWebsite": "https://www.beckyformontana.com"
+        "campaignWebsite": "https://beckyformontana.com"
       },
       {
         "slug": "kelly-kortum",
@@ -761,7 +761,7 @@
         "slug": "wes-siler",
         "displayName": "WES SILER",
         "party": "D",
-        "campaignWebsite": "https://www.wesformontana.com/"
+        "campaignWebsite": "https://wesformontana.com/"
       }
     ]
   },
@@ -784,7 +784,7 @@
         "slug": "becky-edwards",
         "displayName": "BECKY EDWARDS",
         "party": "D",
-        "campaignWebsite": "https://www.beckyformontana.com"
+        "campaignWebsite": "https://beckyformontana.com"
       },
       {
         "slug": "kelly-kortum",
@@ -796,7 +796,7 @@
         "slug": "wes-siler",
         "displayName": "WES SILER",
         "party": "D",
-        "campaignWebsite": "https://www.wesformontana.com/"
+        "campaignWebsite": "https://wesformontana.com/"
       }
     ]
   },
@@ -807,7 +807,7 @@
     "displayName": "WES SILER",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.wesformontana.com/",
+    "campaignWebsite": "https://wesformontana.com/",
     "opponents": [
       {
         "slug": "neal-ganser",
@@ -819,7 +819,7 @@
         "slug": "becky-edwards",
         "displayName": "BECKY EDWARDS",
         "party": "D",
-        "campaignWebsite": "https://www.beckyformontana.com"
+        "campaignWebsite": "https://beckyformontana.com"
       },
       {
         "slug": "kelly-kortum",
@@ -831,7 +831,7 @@
         "slug": "wes-siler",
         "displayName": "WES SILER",
         "party": "D",
-        "campaignWebsite": "https://www.wesformontana.com/"
+        "campaignWebsite": "https://wesformontana.com/"
       }
     ]
   },
@@ -854,7 +854,7 @@
         "slug": "becky-edwards",
         "displayName": "BECKY EDWARDS",
         "party": "D",
-        "campaignWebsite": "https://www.beckyformontana.com"
+        "campaignWebsite": "https://beckyformontana.com"
       },
       {
         "slug": "kelly-kortum",
@@ -866,7 +866,7 @@
         "slug": "wes-siler",
         "displayName": "WES SILER",
         "party": "D",
-        "campaignWebsite": "https://www.wesformontana.com/"
+        "campaignWebsite": "https://wesformontana.com/"
       }
     ]
   },
@@ -923,13 +923,13 @@
     "displayName": "ERIN FARRIS-OLSEN",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.erin4montana.com",
+    "campaignWebsite": "https://erin4montana.com",
     "opponents": [
       {
         "slug": "erin-farris-olsen",
         "displayName": "ERIN FARRIS-OLSEN",
         "party": "D",
-        "campaignWebsite": "https://www.erin4montana.com"
+        "campaignWebsite": "https://erin4montana.com"
       },
       {
         "slug": "dana-toole",
@@ -952,7 +952,7 @@
         "slug": "erin-farris-olsen",
         "displayName": "ERIN FARRIS-OLSEN",
         "party": "D",
-        "campaignWebsite": "https://www.erin4montana.com"
+        "campaignWebsite": "https://erin4montana.com"
       },
       {
         "slug": "dana-toole",
@@ -981,7 +981,7 @@
         "slug": "nicholas-lancette",
         "displayName": "NICHOLAS LANCETTE",
         "party": "R",
-        "campaignWebsite": "https://www.nickformontana.com"
+        "campaignWebsite": "https://nickformontana.com"
       },
       {
         "slug": "mary-ann-dunwell",
@@ -1010,7 +1010,7 @@
         "slug": "nicholas-lancette",
         "displayName": "NICHOLAS LANCETTE",
         "party": "R",
-        "campaignWebsite": "https://www.nickformontana.com"
+        "campaignWebsite": "https://nickformontana.com"
       },
       {
         "slug": "mary-ann-dunwell",
@@ -1027,7 +1027,7 @@
     "displayName": "NICHOLAS LANCETTE",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.nickformontana.com",
+    "campaignWebsite": "https://nickformontana.com",
     "opponents": [
       {
         "slug": "stephen-lapraim",
@@ -1039,7 +1039,7 @@
         "slug": "nicholas-lancette",
         "displayName": "NICHOLAS LANCETTE",
         "party": "R",
-        "campaignWebsite": "https://www.nickformontana.com"
+        "campaignWebsite": "https://nickformontana.com"
       },
       {
         "slug": "mary-ann-dunwell",
@@ -1102,13 +1102,13 @@
     "displayName": "ANDREA OLSEN",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.andreaolsenmt.com",
+    "campaignWebsite": "https://andreaolsenmt.com",
     "opponents": [
       {
         "slug": "andrea-olsen",
         "displayName": "ANDREA OLSEN",
         "party": "D",
-        "campaignWebsite": "https://www.andreaolsenmt.com"
+        "campaignWebsite": "https://andreaolsenmt.com"
       }
     ]
   },
@@ -1187,7 +1187,7 @@
     "displayName": "DEBO POWERS",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.powersforthepeople.us",
+    "campaignWebsite": "https://powersforthepeople.us",
     "opponents": [
       {
         "slug": "cathy-mitchell",
@@ -1199,13 +1199,13 @@
         "slug": "derek-peachey",
         "displayName": "DEREK PEACHEY",
         "party": "R",
-        "campaignWebsite": "https://www.peacheyformontana.com"
+        "campaignWebsite": "https://peacheyformontana.com"
       },
       {
         "slug": "debo-powers",
         "displayName": "DEBO POWERS",
         "party": "D",
-        "campaignWebsite": "https://www.powersforthepeople.us"
+        "campaignWebsite": "https://powersforthepeople.us"
       }
     ]
   },
@@ -1228,13 +1228,13 @@
         "slug": "derek-peachey",
         "displayName": "DEREK PEACHEY",
         "party": "R",
-        "campaignWebsite": "https://www.peacheyformontana.com"
+        "campaignWebsite": "https://peacheyformontana.com"
       },
       {
         "slug": "debo-powers",
         "displayName": "DEBO POWERS",
         "party": "D",
-        "campaignWebsite": "https://www.powersforthepeople.us"
+        "campaignWebsite": "https://powersforthepeople.us"
       }
     ]
   },
@@ -1245,7 +1245,7 @@
     "displayName": "DEREK PEACHEY",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.peacheyformontana.com",
+    "campaignWebsite": "https://peacheyformontana.com",
     "opponents": [
       {
         "slug": "cathy-mitchell",
@@ -1257,13 +1257,13 @@
         "slug": "derek-peachey",
         "displayName": "DEREK PEACHEY",
         "party": "R",
-        "campaignWebsite": "https://www.peacheyformontana.com"
+        "campaignWebsite": "https://peacheyformontana.com"
       },
       {
         "slug": "debo-powers",
         "displayName": "DEBO POWERS",
         "party": "D",
-        "campaignWebsite": "https://www.powersforthepeople.us"
+        "campaignWebsite": "https://powersforthepeople.us"
       }
     ]
   },
@@ -1286,7 +1286,7 @@
         "slug": "lyn-bennett",
         "displayName": "LYN BENNETT",
         "party": "R",
-        "campaignWebsite": "https://www.lynbennettformontanahd4.com/"
+        "campaignWebsite": "https://lynbennettformontanahd4.com/"
       },
       {
         "slug": "nathan-purdy",
@@ -1309,7 +1309,7 @@
     "displayName": "LYN BENNETT",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.lynbennettformontanahd4.com/",
+    "campaignWebsite": "https://lynbennettformontanahd4.com/",
     "opponents": [
       {
         "slug": "shaun-pandina",
@@ -1321,7 +1321,7 @@
         "slug": "lyn-bennett",
         "displayName": "LYN BENNETT",
         "party": "R",
-        "campaignWebsite": "https://www.lynbennettformontanahd4.com/"
+        "campaignWebsite": "https://lynbennettformontanahd4.com/"
       },
       {
         "slug": "nathan-purdy",
@@ -1356,7 +1356,7 @@
         "slug": "lyn-bennett",
         "displayName": "LYN BENNETT",
         "party": "R",
-        "campaignWebsite": "https://www.lynbennettformontanahd4.com/"
+        "campaignWebsite": "https://lynbennettformontanahd4.com/"
       },
       {
         "slug": "nathan-purdy",
@@ -1391,7 +1391,7 @@
         "slug": "lyn-bennett",
         "displayName": "LYN BENNETT",
         "party": "R",
-        "campaignWebsite": "https://www.lynbennettformontanahd4.com/"
+        "campaignWebsite": "https://lynbennettformontanahd4.com/"
       },
       {
         "slug": "nathan-purdy",
@@ -1460,19 +1460,19 @@
     "displayName": "DARREN FIX",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.fix4hd6.com",
+    "campaignWebsite": "https://fix4hd6.com",
     "opponents": [
       {
         "slug": "jim-riley",
         "displayName": "JIM RILEY",
         "party": "R",
-        "campaignWebsite": "https://www.jimrileyforhd6.com"
+        "campaignWebsite": "https://jimrileyforhd6.com"
       },
       {
         "slug": "darren-fix",
         "displayName": "DARREN FIX",
         "party": "D",
-        "campaignWebsite": "https://www.fix4hd6.com"
+        "campaignWebsite": "https://fix4hd6.com"
       }
     ]
   },
@@ -1483,19 +1483,19 @@
     "displayName": "JIM RILEY",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.jimrileyforhd6.com",
+    "campaignWebsite": "https://jimrileyforhd6.com",
     "opponents": [
       {
         "slug": "jim-riley",
         "displayName": "JIM RILEY",
         "party": "R",
-        "campaignWebsite": "https://www.jimrileyforhd6.com"
+        "campaignWebsite": "https://jimrileyforhd6.com"
       },
       {
         "slug": "darren-fix",
         "displayName": "DARREN FIX",
         "party": "D",
-        "campaignWebsite": "https://www.fix4hd6.com"
+        "campaignWebsite": "https://fix4hd6.com"
       }
     ]
   },
@@ -1598,13 +1598,13 @@
     "displayName": "STEVEN C KELLY",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.kellyforhd9.com",
+    "campaignWebsite": "https://kellyforhd9.com",
     "opponents": [
       {
         "slug": "steven-c-kelly",
         "displayName": "STEVEN C KELLY",
         "party": "R",
-        "campaignWebsite": "https://www.kellyforhd9.com"
+        "campaignWebsite": "https://kellyforhd9.com"
       }
     ]
   },
@@ -1942,19 +1942,19 @@
     "displayName": "TONY ROSALES",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.rosalesformt.com/",
+    "campaignWebsite": "https://rosalesformt.com/",
     "opponents": [
       {
         "slug": "tony-rosales",
         "displayName": "TONY ROSALES",
         "party": "R",
-        "campaignWebsite": "https://www.rosalesformt.com/"
+        "campaignWebsite": "https://rosalesformt.com/"
       },
       {
         "slug": "melissa-nikolakakos",
         "displayName": "MELISSA NIKOLAKAKOS",
         "party": "R",
-        "campaignWebsite": "https://www.melissaforus.com"
+        "campaignWebsite": "https://melissaforus.com"
       },
       {
         "slug": "steve-keller",
@@ -1971,19 +1971,19 @@
     "displayName": "MELISSA NIKOLAKAKOS",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.melissaforus.com",
+    "campaignWebsite": "https://melissaforus.com",
     "opponents": [
       {
         "slug": "tony-rosales",
         "displayName": "TONY ROSALES",
         "party": "R",
-        "campaignWebsite": "https://www.rosalesformt.com/"
+        "campaignWebsite": "https://rosalesformt.com/"
       },
       {
         "slug": "melissa-nikolakakos",
         "displayName": "MELISSA NIKOLAKAKOS",
         "party": "R",
-        "campaignWebsite": "https://www.melissaforus.com"
+        "campaignWebsite": "https://melissaforus.com"
       },
       {
         "slug": "steve-keller",
@@ -2006,13 +2006,13 @@
         "slug": "tony-rosales",
         "displayName": "TONY ROSALES",
         "party": "R",
-        "campaignWebsite": "https://www.rosalesformt.com/"
+        "campaignWebsite": "https://rosalesformt.com/"
       },
       {
         "slug": "melissa-nikolakakos",
         "displayName": "MELISSA NIKOLAKAKOS",
         "party": "R",
-        "campaignWebsite": "https://www.melissaforus.com"
+        "campaignWebsite": "https://melissaforus.com"
       },
       {
         "slug": "steve-keller",
@@ -2203,19 +2203,19 @@
     "displayName": "ERIC TILLEMAN",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.tillemanforhd23.com/",
+    "campaignWebsite": "https://tillemanforhd23.com/",
     "opponents": [
       {
         "slug": "eric-tilleman",
         "displayName": "ERIC TILLEMAN",
         "party": "R",
-        "campaignWebsite": "https://www.tillemanforhd23.com/"
+        "campaignWebsite": "https://tillemanforhd23.com/"
       },
       {
         "slug": "brett-mills",
         "displayName": "BRETT MILLS",
         "party": "R",
-        "campaignWebsite": "https://www.millsformontana.com"
+        "campaignWebsite": "https://millsformontana.com"
       },
       {
         "slug": "rebecca-bogdenrichards",
@@ -2232,19 +2232,19 @@
     "displayName": "BRETT MILLS",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.millsformontana.com",
+    "campaignWebsite": "https://millsformontana.com",
     "opponents": [
       {
         "slug": "eric-tilleman",
         "displayName": "ERIC TILLEMAN",
         "party": "R",
-        "campaignWebsite": "https://www.tillemanforhd23.com/"
+        "campaignWebsite": "https://tillemanforhd23.com/"
       },
       {
         "slug": "brett-mills",
         "displayName": "BRETT MILLS",
         "party": "R",
-        "campaignWebsite": "https://www.millsformontana.com"
+        "campaignWebsite": "https://millsformontana.com"
       },
       {
         "slug": "rebecca-bogdenrichards",
@@ -2267,13 +2267,13 @@
         "slug": "eric-tilleman",
         "displayName": "ERIC TILLEMAN",
         "party": "R",
-        "campaignWebsite": "https://www.tillemanforhd23.com/"
+        "campaignWebsite": "https://tillemanforhd23.com/"
       },
       {
         "slug": "brett-mills",
         "displayName": "BRETT MILLS",
         "party": "R",
-        "campaignWebsite": "https://www.millsformontana.com"
+        "campaignWebsite": "https://millsformontana.com"
       },
       {
         "slug": "rebecca-bogdenrichards",
@@ -2566,7 +2566,7 @@
         "slug": "natalie-oneal",
         "displayName": "NATALIE ONEAL",
         "party": "D",
-        "campaignWebsite": "https://www.natalie4montana.com"
+        "campaignWebsite": "https://natalie4montana.com"
       }
     ]
   },
@@ -2577,7 +2577,7 @@
     "displayName": "NATALIE ONEAL",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.natalie4montana.com",
+    "campaignWebsite": "https://natalie4montana.com",
     "opponents": [
       {
         "slug": "lance-elliot-fourstar",
@@ -2589,7 +2589,7 @@
         "slug": "natalie-oneal",
         "displayName": "NATALIE ONEAL",
         "party": "D",
-        "campaignWebsite": "https://www.natalie4montana.com"
+        "campaignWebsite": "https://natalie4montana.com"
       }
     ]
   },
@@ -3111,7 +3111,7 @@
     "displayName": "JAMES REAVIS",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.reavisformontana.com/",
+    "campaignWebsite": "https://reavisformontana.com/",
     "opponents": [
       {
         "slug": "ron-j-stevens",
@@ -3129,7 +3129,7 @@
         "slug": "james-reavis",
         "displayName": "JAMES REAVIS",
         "party": "D",
-        "campaignWebsite": "https://www.reavisformontana.com/"
+        "campaignWebsite": "https://reavisformontana.com/"
       }
     ]
   },
@@ -3158,7 +3158,7 @@
         "slug": "james-reavis",
         "displayName": "JAMES REAVIS",
         "party": "D",
-        "campaignWebsite": "https://www.reavisformontana.com/"
+        "campaignWebsite": "https://reavisformontana.com/"
       }
     ]
   },
@@ -3187,7 +3187,7 @@
         "slug": "james-reavis",
         "displayName": "JAMES REAVIS",
         "party": "D",
-        "campaignWebsite": "https://www.reavisformontana.com/"
+        "campaignWebsite": "https://reavisformontana.com/"
       }
     ]
   },
@@ -3399,13 +3399,13 @@
     "displayName": "NELLY NICOL",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.nelly4montana.com",
+    "campaignWebsite": "https://nelly4montana.com",
     "opponents": [
       {
         "slug": "nelly-nicol",
         "displayName": "NELLY NICOL",
         "party": "R",
-        "campaignWebsite": "https://www.nelly4montana.com"
+        "campaignWebsite": "https://nelly4montana.com"
       },
       {
         "slug": "troy-charbonneau",
@@ -3434,7 +3434,7 @@
         "slug": "nelly-nicol",
         "displayName": "NELLY NICOL",
         "party": "R",
-        "campaignWebsite": "https://www.nelly4montana.com"
+        "campaignWebsite": "https://nelly4montana.com"
       },
       {
         "slug": "troy-charbonneau",
@@ -3463,7 +3463,7 @@
         "slug": "nelly-nicol",
         "displayName": "NELLY NICOL",
         "party": "R",
-        "campaignWebsite": "https://www.nelly4montana.com"
+        "campaignWebsite": "https://nelly4montana.com"
       },
       {
         "slug": "troy-charbonneau",
@@ -3532,13 +3532,13 @@
     "displayName": "MARY HORMAN",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.maryhormancarboncounty.com",
+    "campaignWebsite": "https://maryhormancarboncounty.com",
     "opponents": [
       {
         "slug": "mary-horman",
         "displayName": "MARY HORMAN",
         "party": "R",
-        "campaignWebsite": "https://www.maryhormancarboncounty.com"
+        "campaignWebsite": "https://maryhormancarboncounty.com"
       },
       {
         "slug": "brad-barker",
@@ -3567,7 +3567,7 @@
         "slug": "mary-horman",
         "displayName": "MARY HORMAN",
         "party": "R",
-        "campaignWebsite": "https://www.maryhormancarboncounty.com"
+        "campaignWebsite": "https://maryhormancarboncounty.com"
       },
       {
         "slug": "brad-barker",
@@ -3596,7 +3596,7 @@
         "slug": "mary-horman",
         "displayName": "MARY HORMAN",
         "party": "R",
-        "campaignWebsite": "https://www.maryhormancarboncounty.com"
+        "campaignWebsite": "https://maryhormancarboncounty.com"
       },
       {
         "slug": "brad-barker",
@@ -3728,13 +3728,13 @@
     "displayName": "MARC GREENDORFER",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.marc4hd59.com",
+    "campaignWebsite": "https://marc4hd59.com",
     "opponents": [
       {
         "slug": "marc-greendorfer",
         "displayName": "MARC GREENDORFER",
         "party": "R",
-        "campaignWebsite": "https://www.marc4hd59.com"
+        "campaignWebsite": "https://marc4hd59.com"
       },
       {
         "slug": "katie-fire-thunder",
@@ -3757,7 +3757,7 @@
         "slug": "marc-greendorfer",
         "displayName": "MARC GREENDORFER",
         "party": "R",
-        "campaignWebsite": "https://www.marc4hd59.com"
+        "campaignWebsite": "https://marc4hd59.com"
       },
       {
         "slug": "katie-fire-thunder",
@@ -3820,13 +3820,13 @@
     "displayName": "RIO ROLAND",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.rioformt.com",
+    "campaignWebsite": "https://rioformt.com",
     "opponents": [
       {
         "slug": "rio-roland",
         "displayName": "RIO ROLAND",
         "party": "D",
-        "campaignWebsite": "https://www.rioformt.com"
+        "campaignWebsite": "https://rioformt.com"
       },
       {
         "slug": "chris-gray",
@@ -3849,7 +3849,7 @@
         "slug": "rio-roland",
         "displayName": "RIO ROLAND",
         "party": "D",
-        "campaignWebsite": "https://www.rioformt.com"
+        "campaignWebsite": "https://rioformt.com"
       },
       {
         "slug": "chris-gray",
@@ -4125,7 +4125,7 @@
         "slug": "jennifer-carlson",
         "displayName": "JENNIFER CARLSON",
         "party": "R",
-        "campaignWebsite": "https://www.carlsonforliberty.com"
+        "campaignWebsite": "https://carlsonforliberty.com"
       }
     ]
   },
@@ -4136,7 +4136,7 @@
     "displayName": "JENNIFER CARLSON",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.carlsonforliberty.com",
+    "campaignWebsite": "https://carlsonforliberty.com",
     "opponents": [
       {
         "slug": "caleb-hinkle",
@@ -4148,7 +4148,7 @@
         "slug": "jennifer-carlson",
         "displayName": "JENNIFER CARLSON",
         "party": "R",
-        "campaignWebsite": "https://www.carlsonforliberty.com"
+        "campaignWebsite": "https://carlsonforliberty.com"
       }
     ]
   },
@@ -4171,7 +4171,7 @@
         "slug": "ken-walsh",
         "displayName": "KEN WALSH",
         "party": "R",
-        "campaignWebsite": "https://www.walsh4montana.com"
+        "campaignWebsite": "https://walsh4montana.com"
       }
     ]
   },
@@ -4182,7 +4182,7 @@
     "displayName": "KEN WALSH",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.walsh4montana.com",
+    "campaignWebsite": "https://walsh4montana.com",
     "opponents": [
       {
         "slug": "trevor-walter",
@@ -4194,7 +4194,7 @@
         "slug": "ken-walsh",
         "displayName": "KEN WALSH",
         "party": "R",
-        "campaignWebsite": "https://www.walsh4montana.com"
+        "campaignWebsite": "https://walsh4montana.com"
       }
     ]
   },
@@ -4205,13 +4205,13 @@
     "displayName": "SHANNON MANESS",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.manessformontana.com",
+    "campaignWebsite": "https://manessformontana.com",
     "opponents": [
       {
         "slug": "shannon-maness",
         "displayName": "SHANNON MANESS",
         "party": "R",
-        "campaignWebsite": "https://www.manessformontana.com"
+        "campaignWebsite": "https://manessformontana.com"
       }
     ]
   },
@@ -4389,7 +4389,7 @@
         "slug": "john-fitzpatrick",
         "displayName": "JOHN FITZPATRICK",
         "party": "R",
-        "campaignWebsite": "https://www.fitzfor76.com"
+        "campaignWebsite": "https://fitzfor76.com"
       }
     ]
   },
@@ -4400,7 +4400,7 @@
     "displayName": "JOHN FITZPATRICK",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.fitzfor76.com",
+    "campaignWebsite": "https://fitzfor76.com",
     "opponents": [
       {
         "slug": "trish-schreiber",
@@ -4412,7 +4412,7 @@
         "slug": "john-fitzpatrick",
         "displayName": "JOHN FITZPATRICK",
         "party": "R",
-        "campaignWebsite": "https://www.fitzfor76.com"
+        "campaignWebsite": "https://fitzfor76.com"
       }
     ]
   },
@@ -4457,13 +4457,13 @@
     "displayName": "LUKE MUSZKIEWICZ",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.lukeformontana.org",
+    "campaignWebsite": "https://lukeformontana.org",
     "opponents": [
       {
         "slug": "luke-muszkiewicz",
         "displayName": "LUKE MUSZKIEWICZ",
         "party": "D",
-        "campaignWebsite": "https://www.lukeformontana.org"
+        "campaignWebsite": "https://lukeformontana.org"
       }
     ]
   },
@@ -4694,7 +4694,7 @@
         "slug": "roy-caldwell",
         "displayName": "ROY CALDWELL",
         "party": "R",
-        "campaignWebsite": "https://www.caldwell4hd84.com"
+        "campaignWebsite": "https://caldwell4hd84.com"
       },
       {
         "slug": "jamie-van-valkenburg",
@@ -4717,7 +4717,7 @@
     "displayName": "ROY CALDWELL",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.caldwell4hd84.com",
+    "campaignWebsite": "https://caldwell4hd84.com",
     "opponents": [
       {
         "slug": "james-marshal",
@@ -4729,7 +4729,7 @@
         "slug": "roy-caldwell",
         "displayName": "ROY CALDWELL",
         "party": "R",
-        "campaignWebsite": "https://www.caldwell4hd84.com"
+        "campaignWebsite": "https://caldwell4hd84.com"
       },
       {
         "slug": "jamie-van-valkenburg",
@@ -4764,7 +4764,7 @@
         "slug": "roy-caldwell",
         "displayName": "ROY CALDWELL",
         "party": "R",
-        "campaignWebsite": "https://www.caldwell4hd84.com"
+        "campaignWebsite": "https://caldwell4hd84.com"
       },
       {
         "slug": "jamie-van-valkenburg",
@@ -4799,7 +4799,7 @@
         "slug": "roy-caldwell",
         "displayName": "ROY CALDWELL",
         "party": "R",
-        "campaignWebsite": "https://www.caldwell4hd84.com"
+        "campaignWebsite": "https://caldwell4hd84.com"
       },
       {
         "slug": "jamie-van-valkenburg",
@@ -4822,13 +4822,13 @@
     "displayName": "MICHELE BINKLEY",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.binkleyformontana.com",
+    "campaignWebsite": "https://binkleyformontana.com",
     "opponents": [
       {
         "slug": "michele-binkley",
         "displayName": "MICHELE BINKLEY",
         "party": "R",
-        "campaignWebsite": "https://www.binkleyformontana.com"
+        "campaignWebsite": "https://binkleyformontana.com"
       },
       {
         "slug": "kim-dailey",
@@ -4851,7 +4851,7 @@
         "slug": "michele-binkley",
         "displayName": "MICHELE BINKLEY",
         "party": "R",
-        "campaignWebsite": "https://www.binkleyformontana.com"
+        "campaignWebsite": "https://binkleyformontana.com"
       },
       {
         "slug": "kim-dailey",
@@ -4902,13 +4902,13 @@
     "displayName": "GREG OVERSTREET",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://www.gregoverstreet.com",
+    "campaignWebsite": "https://gregoverstreet.com",
     "opponents": [
       {
         "slug": "greg-overstreet",
         "displayName": "GREG OVERSTREET",
         "party": "R",
-        "campaignWebsite": "https://www.gregoverstreet.com"
+        "campaignWebsite": "https://gregoverstreet.com"
       },
       {
         "slug": "evan-schroedel",
@@ -4931,7 +4931,7 @@
         "slug": "greg-overstreet",
         "displayName": "GREG OVERSTREET",
         "party": "R",
-        "campaignWebsite": "https://www.gregoverstreet.com"
+        "campaignWebsite": "https://gregoverstreet.com"
       },
       {
         "slug": "evan-schroedel",
@@ -5069,7 +5069,7 @@
         "slug": "monica-tranel",
         "displayName": "MONICA TRANEL",
         "party": "D",
-        "campaignWebsite": "https://www.monicatranel.com"
+        "campaignWebsite": "https://monicatranel.com"
       }
     ]
   },
@@ -5080,7 +5080,7 @@
     "displayName": "MONICA TRANEL",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.monicatranel.com",
+    "campaignWebsite": "https://monicatranel.com",
     "opponents": [
       {
         "slug": "reggie-spaulding",
@@ -5092,7 +5092,7 @@
         "slug": "monica-tranel",
         "displayName": "MONICA TRANEL",
         "party": "D",
-        "campaignWebsite": "https://www.monicatranel.com"
+        "campaignWebsite": "https://monicatranel.com"
       }
     ]
   },
@@ -5127,7 +5127,7 @@
         "slug": "ben-davis",
         "displayName": "BEN DAVIS",
         "party": "D",
-        "campaignWebsite": "https://www.davisformontana.com/"
+        "campaignWebsite": "https://davisformontana.com/"
       }
     ]
   },
@@ -5162,7 +5162,7 @@
         "slug": "ben-davis",
         "displayName": "BEN DAVIS",
         "party": "D",
-        "campaignWebsite": "https://www.davisformontana.com/"
+        "campaignWebsite": "https://davisformontana.com/"
       }
     ]
   },
@@ -5197,7 +5197,7 @@
         "slug": "ben-davis",
         "displayName": "BEN DAVIS",
         "party": "D",
-        "campaignWebsite": "https://www.davisformontana.com/"
+        "campaignWebsite": "https://davisformontana.com/"
       }
     ]
   },
@@ -5208,7 +5208,7 @@
     "displayName": "BEN DAVIS",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.davisformontana.com/",
+    "campaignWebsite": "https://davisformontana.com/",
     "opponents": [
       {
         "slug": "roy-handley",
@@ -5232,7 +5232,7 @@
         "slug": "ben-davis",
         "displayName": "BEN DAVIS",
         "party": "D",
-        "campaignWebsite": "https://www.davisformontana.com/"
+        "campaignWebsite": "https://davisformontana.com/"
       }
     ]
   },
@@ -5255,7 +5255,7 @@
         "slug": "robin-kendall",
         "displayName": "ROBIN KENDALL",
         "party": "D",
-        "campaignWebsite": "https://www.robinkendall4montana.org/"
+        "campaignWebsite": "https://robinkendall4montana.org/"
       }
     ]
   },
@@ -5266,7 +5266,7 @@
     "displayName": "ROBIN KENDALL",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://www.robinkendall4montana.org/",
+    "campaignWebsite": "https://robinkendall4montana.org/",
     "opponents": [
       {
         "slug": "lisa-verlanic-fowler",
@@ -5278,7 +5278,7 @@
         "slug": "robin-kendall",
         "displayName": "ROBIN KENDALL",
         "party": "D",
-        "campaignWebsite": "https://www.robinkendall4montana.org/"
+        "campaignWebsite": "https://robinkendall4montana.org/"
       }
     ]
   },

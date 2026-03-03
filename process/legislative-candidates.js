@@ -58,9 +58,14 @@ function extractWebsite(emailWebField) {
     if (parts.length < 2) return null
     const website = parts[1].trim()
     if (!website || website.toLowerCase() === 'not provided') return null
-    const url = website.toLowerCase()
-    if (url.match(/^https?:\/\//)) return url
-    return `https://${url}`
+    const trimmed = website.trim()
+    // If protocol present, remove leading www. after protocol and lowercase
+    if (trimmed.match(/^https?:\/\//i)) {
+        return trimmed.replace(/^(https?:\/\/)www\./i, '$1').toLowerCase()
+    }
+    // Otherwise strip a leading www. and prepend https://
+    const host = trimmed.replace(/^www\./i, '')
+    return `https://${host.toLowerCase()}`
 }
 
 /**
