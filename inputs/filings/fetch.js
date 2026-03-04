@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const crypto = require('crypto')
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args))
 
 // SoS website for candidate filings
@@ -110,7 +111,7 @@ const COMMON_HEADERS = {
 }
 
 async function fetchPage1() {
-  console.log('Fetching page 1…')
+  console.log('Fetching CandidateList.csv')
   const res = await fetch(BASE_URL, {
     headers: {
       ...COMMON_HEADERS,
@@ -163,6 +164,34 @@ async function fetchNextPage(formState, cookies) {
   return res.text()
 }
 
+async function fetchExportCsv(formState, cookies) {
+  const EXPORT_TARGET = 'ctl00$ContentPlaceHolder1$grdCandidates$ctl00$ctl02$ctl00$ExportToCsvButton'
+
+  const body = new URLSearchParams({
+    '__EVENTTARGET': EXPORT_TARGET,
+    '__EVENTARGUMENT': '',
+    '__LASTFOCUS': '',
+    '__VIEWSTATE': formState.viewState,
+    '__VIEWSTATEGENERATOR': formState.viewStateGenerator,
+    '__EVENTVALIDATION': formState.eventValidation,
+  })
+
+  const res = await fetch(BASE_URL, {
+    method: 'POST',
+    headers: {
+      ...COMMON_HEADERS,
+      'Accept': 'text/csv,*/*;q=0.9',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'Referer': BASE_URL,
+      ...(cookies ? { 'Cookie': cookies } : {}),
+    },
+    body: body.toString(),
+  })
+
+  if (!res.ok) throw new Error(`Export request failed: ${res.status} ${res.statusText}`)
+  return res
+}
+
 // csv helper
 
 function escapeCell(value) {
@@ -183,48 +212,42 @@ function todayDateStr() {
 }
 
 async function main() {
-  // page 1
+  // fetch initial page to capture viewstate and cookies
   const { html: page1Html, cookies } = await fetchPage1()
 
-  const totalPages = extractTotalPages(page1Html)
-  console.log(`Total pages: ${totalPages}`)
-
-  const allRows = parseRows(page1Html)
-  console.log(`  → ${allRows.length} rows on page 1`)
-
-  // extract form data for subsequent page requests
-  let formState = {
+  // extract form data required for the postback that triggers CSV export
+  const formState = {
     viewState: extractHiddenField(page1Html, '__VIEWSTATE'),
     viewStateGenerator: extractHiddenField(page1Html, '__VIEWSTATEGENERATOR'),
     eventValidation: extractHiddenField(page1Html, '__EVENTVALIDATION'),
   }
 
-  // pages 2+
-  for (let pageNum = 2; pageNum <= totalPages; pageNum++) {
-    const deltaText = await fetchNextPage({ ...formState, pageNum }, cookies)
+  // request the CSV export and write the response body directly
+  const res = await fetchExportCsv(formState, cookies)
 
-    const parsed = parseDeltaResponse(deltaText)
+  // prefer filename from Content-Disposition when present, otherwise default
+  const cd = res.headers.get('content-disposition') || ''
+  let fileName = 'CandidateList.csv'
+  const m = cd.match(/filename\*?=(?:UTF-8'')?"?([^";]+)"?/) // handle filename or filename*
+  if (m) fileName = decodeURIComponent(m[1])
 
-    const pageRows = parseRows(parsed.html)
-    console.log(`  → ${pageRows.length} rows on page ${pageNum}`)
-    allRows.push(...pageRows)
+  const outPath = path.join(__dirname, fileName)
+  const arr = await res.arrayBuffer()
+  const buf = Buffer.from(arr)
 
-    if (parsed.viewState) formState.viewState = parsed.viewState
-    if (parsed.viewStateGenerator) formState.viewStateGenerator = parsed.viewStateGenerator
-    if (parsed.eventValidation) formState.eventValidation = parsed.eventValidation
+  // compute sha256 of existing file (if present) and downloaded content
+  const newHash = crypto.createHash('sha256').update(buf).digest('hex')
+  if (fs.existsSync(outPath)) {
+    const existing = fs.readFileSync(outPath)
+    const existingHash = crypto.createHash('sha256').update(existing).digest('hex')
+    if (existingHash === newHash) {
+      console.log('No updates to CandidateList.csv')
+      return
+    }
   }
 
-  console.log(`Total rows collected: ${allRows.length}`)
-
-  const outFileName = `CandidateList_${todayDateStr()}.csv`
-  const outPath = path.join(__dirname, outFileName)
-
-  const headerLine = CSV_HEADERS.map(escapeCell).join(',')
-  const dataLines = rowsToCsvLines(allRows)
-  const csvContent = [headerLine, ...dataLines].join('\n') + '\n'
-
-  fs.writeFileSync(outPath, csvContent, 'utf8')
-  console.log(`\nWrote ${allRows.length} candidates to ${outPath}`)
+  fs.writeFileSync(outPath, buf)
+  console.log('New filings — CandidateList.csv updated')
 }
 
 main().catch(err => {

@@ -27,6 +27,10 @@ const NAME_REPLACE = {
     // e.g. 'FILING NAME': 'PREFERRED DISPLAY NAME',
 }
 
+// Known host typos to substitute (lowercase keys)
+const HOST_REPLACE = {
+    'peeformontana.com': 'peteformontana.com',
+}
 const PARTY_ORDER = ['R', 'D', 'L', 'G', 'I']
 
 // Candidates to manually add (e.g. independents not in SoS CSV)
@@ -61,11 +65,20 @@ function extractWebsite(emailWebField) {
     const trimmed = website.trim()
     // If protocol present, remove leading www. after protocol and lowercase
     if (trimmed.match(/^https?:\/\//i)) {
-        return trimmed.replace(/^(https?:\/\/)www\./i, '$1').toLowerCase()
+        try {
+            const u = new URL(trimmed.toLowerCase())
+            const hostNoWww = u.hostname.replace(/^www\./, '')
+            const corrected = HOST_REPLACE[hostNoWww] || hostNoWww
+            u.hostname = corrected
+            return u.toString().replace(/\/$/, '')
+        } catch (e) {
+            return trimmed.replace(/^(https?:\/\/)www\./i, '$1').toLowerCase()
+        }
     }
-    // Otherwise strip a leading www. and prepend https://
-    const host = trimmed.replace(/^www\./i, '')
-    return `https://${host.toLowerCase()}`
+    // Otherwise strip a leading www., apply known corrections, and prepend https://
+    const host = trimmed.replace(/^www\./i, '').toLowerCase().replace(/\/.*$/, '')
+    const correctedHost = HOST_REPLACE[host] || host
+    return `https://${correctedHost}`
 }
 
 /**
