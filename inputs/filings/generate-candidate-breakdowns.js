@@ -2,9 +2,10 @@ const fs = require('fs')
 const path = require('path')
 
 // paths relative to this script's location
-const CSV_INPUT = path.join(__dirname, 'CandidateList.csv')
-const LEGE_LIST = path.join(__dirname, 'lege-2025-list.txt')
-const OUT_DIR   = path.join(__dirname, 'candidate-breakdown')
+const CSV_INPUT      = path.join(__dirname, 'CandidateList.csv')
+const CSV_PREV       = path.join(__dirname, 'CandidateList_20240911.csv')
+const LEGE_LIST      = path.join(__dirname, 'lege-2025-list.txt')
+const OUT_DIR        = path.join(__dirname, 'candidate-breakdown')
 
 // ── CSV parsing ───────────────────────────────────────────────────────────────
 
@@ -60,9 +61,7 @@ function writeCSV(filePath, headers, rows) {
 }
 
 const CANDIDATE_HEADERS = [
-  'Status', 'District Type', 'District', 'Race', 'Term Type', 'Term Length',
-  'Name', 'Mailing Address', 'Email/Web Address', 'Phone', 'Filing Date',
-  'Party Preference', 'Ballot Order'
+  'District', 'Race', 'Name', 'Filing Date', 'Party Preference'
 ]
 
 // strip leading asterisk and lowercase for comparison
@@ -72,6 +71,17 @@ function normalizeName(name) {
 
 function hasAsterisk(name) {
   return name.trim().startsWith('*')
+}
+
+// format district numbers to 3 digits for HOUSE output and 2 digits for SENATE
+function formatDistrict(district) {
+  if (!district) return district
+  const s = String(district).trim()
+  const mHouse = s.match(/house\s+district\s*(\d+)/i)
+  if (mHouse) return `HOUSE DISTRICT ${String(mHouse[1]).padStart(3, '0')}`
+  const mSenate = s.match(/senate\s+district\s*(\d+)/i)
+  if (mSenate) return `SENATE DISTRICT ${String(mSenate[1]).padStart(2, '0')}`
+  return s
 }
 
 function raceKey(row) {
@@ -99,11 +109,26 @@ function main() {
   )
   console.log(`Loaded ${legeNames.size} names from lege-2025-list.txt`)
 
-  // contested primaries
+  // previous cycle candidates to exclude from incumbents-not-running.csv
+  const prevCandidates = parseCSV(fs.readFileSync(CSV_PREV, 'utf8'))
+  const prevNames = new Set(prevCandidates.map(c => normalizeName(c['Name'])))
+  console.log(`Loaded ${prevCandidates.length} candidates from previous election list`)
+
   console.log('\n── 1. Contested primaries')
+  let statusKey = null
+  if (candidates.length > 0) {
+    const keys = Object.keys(candidates[0])
+    statusKey = keys.find(k => k && k.trim().toLowerCase() === 'status')
+      || keys.find(k => k && k.trim().toLowerCase() === 'filing status')
+      || keys.find(k => k && k.trim().toLowerCase().includes('status'))
+  }
+
+  const filedCandidates = statusKey
+    ? candidates.filter(c => String((c[statusKey] || '')).trim().toUpperCase() === 'FILED')
+    : candidates
 
   const byRaceParty = {}
-  for (const c of candidates) {
+  for (const c of filedCandidates) {
     const k = racePartyKey(c)
     if (!byRaceParty[k]) byRaceParty[k] = []
     byRaceParty[k].push(c)
@@ -115,7 +140,7 @@ function main() {
       .map(([k]) => k)
   )
 
-  const contestedPrimaryCandidates = candidates.filter(c =>
+  const contestedPrimaryCandidates = filedCandidates.filter(c =>
     contestedPartyKeys.has(racePartyKey(c))
   )
 
@@ -133,6 +158,44 @@ function main() {
     path.join(OUT_DIR, 'contested-primaries.csv'),
     ['district', 'race', 'party', 'numberOfCandidates'],
     contestedPrimarySummary
+  )
+
+  // Contested Senate / House primaries summary
+  const contestedByDistrictType = { senate: {}, house: {} }
+
+  for (const k of contestedPartyKeys) {
+    const [district, race, party] = k.split('||')
+    const d = (district || '').toUpperCase()
+    let type = null
+    if (d.includes('SENATE')) type = 'senate'
+    else if (d.includes('HOUSE')) type = 'house'
+    if (!type) continue
+
+    if (!contestedByDistrictType[type][district]) contestedByDistrictType[type][district] = new Set()
+    contestedByDistrictType[type][district].add(party)
+  }
+
+  const contestedSenate = Object.entries(contestedByDistrictType.senate).map(([district, partiesSet]) => {
+    const parties = Array.from(partiesSet)
+    const party = (parties.includes('REP') && parties.includes('DEM')) ? 'BOTH' : parties[0]
+    return { district: formatDistrict(district), party }
+  })
+
+  const contestedHouse = Object.entries(contestedByDistrictType.house).map(([district, partiesSet]) => {
+    const parties = Array.from(partiesSet)
+    const party = (parties.includes('REP') && parties.includes('DEM')) ? 'BOTH' : parties[0]
+    return { district: formatDistrict(district), party }
+  })
+
+  writeCSV(
+    path.join(OUT_DIR, 'contested-senate-primaries.csv'),
+    ['district', 'party'],
+    contestedSenate
+  )
+  writeCSV(
+    path.join(OUT_DIR, 'contested-house-primaries.csv'),
+    ['district', 'party'],
+    contestedHouse
   )
 
   console.log('\n── 1b. Uncontested primaries')
@@ -248,11 +311,12 @@ function main() {
     const rows = csvByNormalizedName[legeName]
 
     if (!rows || rows.length === 0) {
+      // skip incumbents who ran in the previous election — they're just not up this cycle
+      if (prevNames.has(legeName)) continue
       incumbentsNotRunning.push({ name: legeName })
     } else {
       const hasIncumbentRow = rows.some(r => hasAsterisk(r['Name']))
       if (!hasIncumbentRow) {
-        // In the filing list but NOT marked as incumbent → crossover
         crossoverCandidates.push(...rows)
       }
     }
