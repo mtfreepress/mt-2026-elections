@@ -138,8 +138,8 @@ const PLACEHOLDER = 'Enter candidate (e.g., Greg Gianforte)'
 
 function Candidate(props) {
     const { slug, path, displayName, party, status, race,
-        summaryLine, cap_tracker_2023_link, hasResponses, numMTFParticles } = props
-    // cap_tracker_2023_link flags for current lawmakers
+        summaryLine, cap_tracker_2025_link, hasResponses, numMTFParticles } = props
+    // cap_tracker_2025_link flags for current lawmakers
     const partyInfo = PARTIES.find(d => d.key === party)
     const statusInfo = STATUS.find(d => d.key === status)
     return <div css={candidateStyle} style={{ borderTop: `3px solid ${partyInfo.color}` }}><Link href={`/${path}/${slug}`}>
@@ -150,7 +150,7 @@ function Candidate(props) {
             <div>
                 <div className="name">{displayName}</div>
                 {summaryLine && <div className="current">{summaryLine}</div>}
-                {cap_tracker_2023_link && <div className="current">Sitting lawmaker</div>}
+                {cap_tracker_2025_link && <div className="current">Sitting lawmaker</div>}
                 <div className="position"><span style={{ color: partyInfo.color }}>{partyInfo.noun}</span> for {race}</div>
                 <div className="status">{statusInfo.label}</div>
 

@@ -175,6 +175,13 @@
         "campaignWebsite": "https://jimrileyforhd6.com"
       },
       {
+        "slug": "arthur-dunn",
+        "displayName": "ARTHUR DUNN",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
         "slug": "darren-fix",
         "displayName": "DARREN FIX",
         "party": "D",
@@ -232,13 +239,6 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": "https://lukasschubertmt.com"
-      },
-      {
-        "slug": "daniel-neeley",
-        "displayName": "DANIEL NEELEY",
-        "party": "R",
-        "status": "active",
-        "campaignWebsite": null
       },
       {
         "slug": "calvin-lime",
@@ -315,6 +315,13 @@
         "slug": "ed-byrne",
         "displayName": "ED BYRNE",
         "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "maeve-kintzler",
+        "displayName": "MAEVE KINTZLER",
+        "party": "D",
         "status": "active",
         "campaignWebsite": null
       }
@@ -428,6 +435,13 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": null
+      },
+      {
+        "slug": "adrien-owen-wagner",
+        "displayName": "ADRIEN OWEN WAGNER",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -475,6 +489,13 @@
         "campaignWebsite": "https://susanforhd17.com"
       },
       {
+        "slug": "michael-j-fasbender",
+        "displayName": "MICHAEL J FASBENDER",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
         "slug": "chris-bechtold",
         "displayName": "CHRIS BECHTOLD",
         "party": "D",
@@ -515,6 +536,13 @@
       {
         "slug": "derren-auger",
         "displayName": "DERREN AUGER",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "hannah-trebas",
+        "displayName": "HANNAH TREBAS",
         "party": "R",
         "status": "active",
         "campaignWebsite": null
@@ -631,6 +659,13 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": null
+      },
+      {
+        "slug": "dave-von-eschen",
+        "displayName": "DAVE VON ESCHEN",
+        "party": "L",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -659,8 +694,8 @@
         "campaignWebsite": "https://millsformontana.com"
       },
       {
-        "slug": "rebecca-bogdenrichards",
-        "displayName": "REBECCA BOGDENRICHARDS",
+        "slug": "rebecca-bogden-richards",
+        "displayName": "REBECCA BOGDEN-RICHARDS",
         "party": "D",
         "status": "active",
         "campaignWebsite": null
@@ -761,6 +796,13 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://paultuss.com"
+      },
+      {
+        "slug": "jordan-ophus",
+        "displayName": "JORDAN OPHUS",
+        "party": "L",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -811,6 +853,20 @@
         "slug": "valerie-moore",
         "displayName": "VALERIE MOORE",
         "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "tess-fahlgren",
+        "displayName": "TESS FAHLGREN",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "rachel-sundheim",
+        "displayName": "RACHEL SUNDHEIM",
+        "party": "D",
         "status": "active",
         "campaignWebsite": null
       }
@@ -936,6 +992,20 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": null
+      },
+      {
+        "slug": "jason-ellsworth",
+        "displayName": "JASON ELLSWORTH",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "jasmine-erickson",
+        "displayName": "JASMINE ERICKSON",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -955,6 +1025,13 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": null
+      },
+      {
+        "slug": "natalie-parker",
+        "displayName": "NATALIE PARKER",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -971,6 +1048,13 @@
       {
         "slug": "ty-linger",
         "displayName": "TY LINGER",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "loren-hinebauch",
+        "displayName": "LOREN HINEBAUCH",
         "party": "R",
         "status": "active",
         "campaignWebsite": null
@@ -1071,6 +1155,13 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": "https://vintonformontana.com"
+      },
+      {
+        "slug": "gunner-cesnik",
+        "displayName": "GUNNER CESNIK",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
       },
       {
         "slug": "gabriel--bradshaw",
@@ -1227,6 +1318,13 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": null
+      },
+      {
+        "slug": "erin-r-tate",
+        "displayName": "ERIN R TATE",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -1279,6 +1377,13 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": null
+      },
+      {
+        "slug": "tucker-colvin",
+        "displayName": "TUCKER COLVIN",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -1300,8 +1405,15 @@
         "campaignWebsite": "https://loveridgeformontana.com"
       },
       {
-        "slug": "tucker-colvin",
-        "displayName": "TUCKER COLVIN",
+        "slug": "ole-hedstrom",
+        "displayName": "OLE HEDSTROM",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "rebecca-noell",
+        "displayName": "REBECCA NOELL",
         "party": "D",
         "status": "active",
         "campaignWebsite": null
@@ -1425,11 +1537,11 @@
         "campaignWebsite": null
       },
       {
-        "slug": "rebecca-noell",
-        "displayName": "REBECCA NOELL",
+        "slug": "matthew-j-hankins",
+        "displayName": "MATTHEW J HANKINS",
         "party": "D",
         "status": "active",
-        "campaignWebsite": null
+        "campaignWebsite": "https://n"
       }
     ]
   },
@@ -1822,18 +1934,18 @@
     "districtKey": "HD-68",
     "candidates": [
       {
-        "slug": "caleb-hinkle",
-        "displayName": "CALEB HINKLE",
-        "party": "R",
-        "status": "active",
-        "campaignWebsite": null
-      },
-      {
         "slug": "jennifer-carlson",
         "displayName": "JENNIFER CARLSON",
         "party": "R",
         "status": "active",
         "campaignWebsite": "https://carlsonforliberty.com"
+      },
+      {
+        "slug": "randy-chamberlin",
+        "displayName": "RANDY CHAMBERLIN",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://randy4mt.com"
       },
       {
         "slug": "jocelyn-kent",
@@ -1886,6 +1998,20 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": "https://manessformontana.com"
+      },
+      {
+        "slug": "kobi-craddock",
+        "displayName": "KOBI CRADDOCK",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "abigail-thomas",
+        "displayName": "ABIGAIL THOMAS",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -1926,6 +2052,13 @@
     "districtKey": "HD-72",
     "candidates": [
       {
+        "slug": "michael-saul",
+        "displayName": "MICHAEL SAUL",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
         "slug": "donavon-hawk",
         "displayName": "DONAVON HAWK",
         "party": "D",
@@ -1945,6 +2078,13 @@
     "districtKey": "HD-73",
     "candidates": [
       {
+        "slug": "gerry-kennedy",
+        "displayName": "GERRY KENNEDY",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
         "slug": "jennifer-lynch",
         "displayName": "JENNIFER LYNCH",
         "party": "D",
@@ -1963,6 +2103,13 @@
     "holdover_senator": "",
     "districtKey": "HD-74",
     "candidates": [
+      {
+        "slug": "trenin-bayless",
+        "displayName": "TRENIN BAYLESS",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
       {
         "slug": "marc-j-lee",
         "displayName": "MARC J LEE",
@@ -2049,6 +2196,13 @@
         "campaignWebsite": "https://drjanegillette.com"
       },
       {
+        "slug": "shannon-woodward",
+        "displayName": "SHANNON WOODWARD",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
         "slug": "deborah-anne-hansen",
         "displayName": "DEBORAH ANNE HANSEN",
         "party": "D",
@@ -2093,6 +2247,13 @@
     "holdover_senator": "",
     "districtKey": "HD-79",
     "candidates": [
+      {
+        "slug": "chiko-olson",
+        "displayName": "CHIKO OLSON",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
       {
         "slug": "luke-muszkiewicz",
         "displayName": "LUKE MUSZKIEWICZ",
@@ -2219,8 +2380,8 @@
         "campaignWebsite": null
       },
       {
-        "slug": "jill-cohenour",
-        "displayName": "JILL COHENOUR",
+        "slug": "joe-cohenour",
+        "displayName": "JOE COHENOUR",
         "party": "D",
         "status": "active",
         "campaignWebsite": null
@@ -2316,6 +2477,13 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": "https://waynerusk.com"
+      },
+      {
+        "slug": "kenneth-e-allen",
+        "displayName": "KENNETH E ALLEN",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://allenformontana.com"
       },
       {
         "slug": "archie-thomas",
@@ -2453,6 +2621,13 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://shellyformontana.com"
+      },
+      {
+        "slug": "rustin-bielski",
+        "displayName": "RUSTIN BIELSKI",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://votebielski.com"
       }
     ]
   },
@@ -2604,6 +2779,13 @@
     "districtKey": "HD-97",
     "candidates": [
       {
+        "slug": "michael-p-hagestad",
+        "displayName": "MICHAEL P HAGESTAD",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
         "slug": "melody-j-cunningham",
         "displayName": "MELODY J CUNNINGHAM",
         "party": "D",
@@ -2622,6 +2804,13 @@
     "holdover_senator": "",
     "districtKey": "HD-98",
     "candidates": [
+      {
+        "slug": "bryan-muzzana",
+        "displayName": "BRYAN MUZZANA",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
       {
         "slug": "jonathan-karlen",
         "displayName": "JONATHAN KARLEN",
@@ -2845,8 +3034,22 @@
     "districtKey": "SD-8",
     "candidates": [
       {
+        "slug": "christopher-paul-buckles",
+        "displayName": "CHRISTOPHER PAUL BUCKLES",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
         "slug": "tyson-t-running-wolf",
         "displayName": "TYSON T RUNNING WOLF",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "jade-heather-m-ackerman",
+        "displayName": "JADE-HEATHER M ACKERMAN",
         "party": "D",
         "status": "active",
         "campaignWebsite": null
@@ -2878,6 +3081,13 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": "https://votellewjones.com"
+      },
+      {
+        "slug": "noy-holland",
+        "displayName": "NOY HOLLAND",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -2948,6 +3158,13 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": null
+      },
+      {
+        "slug": "mark-winters",
+        "displayName": "MARK WINTERS",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -2980,6 +3197,13 @@
       {
         "slug": "mindy-leach",
         "displayName": "MINDY LEACH",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "james-g--whitaker",
+        "displayName": "JAMES G  WHITAKER",
         "party": "D",
         "status": "active",
         "campaignWebsite": null
@@ -3120,6 +3344,13 @@
         "campaignWebsite": "https://barryusher.com"
       },
       {
+        "slug": "chris-rindal",
+        "displayName": "CHRIS RINDAL",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
         "slug": "deanna-j-daigrepont",
         "displayName": "DEANNA J DAIGREPONT",
         "party": "D",
@@ -3203,6 +3434,13 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://emmaformontana.org"
+      },
+      {
+        "slug": "justin-f-kucera",
+        "displayName": "JUSTIN F KUCERA",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -3232,6 +3470,13 @@
       {
         "slug": "dennis-lenz",
         "displayName": "DENNIS LENZ",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "tom-bick",
+        "displayName": "TOM BICK",
         "party": "R",
         "status": "active",
         "campaignWebsite": null
@@ -3435,8 +3680,8 @@
         "campaignWebsite": "https://vanceforsenate.com"
       },
       {
-        "slug": "randy-chamberlin",
-        "displayName": "RANDY CHAMBERLIN",
+        "slug": "caleb-hinkle",
+        "displayName": "CALEB HINKLE",
         "party": "R",
         "status": "active",
         "campaignWebsite": null
@@ -3541,6 +3786,13 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://danatooleformontana.com"
+      },
+      {
+        "slug": "dru-koester",
+        "displayName": "DRU KOESTER",
+        "party": "L",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -3611,6 +3863,13 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": "https://kathyloveformontana.com"
+      },
+      {
+        "slug": "stephen-leuchtman",
+        "displayName": "STEPHEN LEUCHTMAN",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": null
       }
     ]
   },
@@ -3691,6 +3950,13 @@
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Willis-Curdy/",
     "districtKey": "SD-49",
     "candidates": [
+      {
+        "slug": "brad-tschida",
+        "displayName": "BRAD TSCHIDA",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": null
+      },
       {
         "slug": "willis-curdy",
         "displayName": "WILLIS CURDY",

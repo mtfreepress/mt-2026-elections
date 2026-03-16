@@ -20,7 +20,7 @@ const filterToSummaryFields = c => ({
     status: c.status,
     hasResponses: c.questionnaire ? c.questionnaire.hasResponses : false,
     numMTFParticles: c.coverage ? c.coverage.length : 0,
-    cap_tracker_2023_link: c.cap_tracker_2023_link || null,
+    cap_tracker_2025_link: c.cap_tracker_2025_link || null,
 })
 
 

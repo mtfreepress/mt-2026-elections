@@ -70,7 +70,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
         questionnaire,
         coverage,
         raceDisplayName,
-        cap_tracker_2023_link,
+        cap_tracker_2025_link,
         primaryResults,
     } = pageData
     const pageDescription = `${displayName} (${party}) is running as a candidate for ${raceDisplayName} in Montana's 2024 election. See biographic details, district boundaries and information on how to vote.`
@@ -89,7 +89,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                 {/* <Link href="#opponents">Opponents</Link> */}
                 <Link href="#issues">On the issues</Link>
                 <Link href="#coverage">MTFP coverage</Link>
-                {cap_tracker_2023_link && <Link href={cap_tracker_2023_link}> Legislative record via MTFP Capitol Tracker</Link>}
+                {cap_tracker_2025_link && <Link href={cap_tracker_2025_link}> Legislative record via MTFP Capitol Tracker</Link>}
                 <Link href="#results">Election results</Link>
                 <Link href="#voting-faq">Voting in Montana</Link>
                 <Link href="#about">About this project</Link>

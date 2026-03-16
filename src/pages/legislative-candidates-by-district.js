@@ -76,19 +76,19 @@ export default function LegislativeCandidatesByDistrict({ legislativeRaces, text
             const sd = legislativeRaces.find(d => d.districtKey === correspondingSDKey)
             return { hd, sd }
         })
-    const pageDescription = "Candidates running for the Montana State Legislature in 2024 by district, including Republican and Democratic candidates."
+    const pageDescription = "Candidates running for the Montana State Legislature in 2026 by district, including Republican and Democratic candidates."
     return (
         <Layout home pageCss={overviewStyles}
             relativePath='/'
-            pageTitle={"Montana's 2024 Legislative Candidates | 2024 Montana Election Guide"}
+            pageTitle={"Montana's 2026 Legislative Candidates | 2026 Montana Election Guide"}
             pageDescription={pageDescription}
-            siteSeoTitle={"Montana's 2024 Legislative Candidates | 2024 Montana Election Guide"}
+            siteSeoTitle={"Montana's 2026 Legislative Candidates | 2026 Montana Election Guide"}
             seoDescription={pageDescription}
-            socialTitle={"The MTFP 2024 Election Guide: Candidates for Montana Legislature"}
+            socialTitle={"The MTFP 2026 Election Guide: Candidates for Montana Legislature"}
             socialDescription={pageDescription}
         >
 
-            <h1>2024 CANDIDATES FOR MONTANA LEGISLATURE</h1>
+            <h1>2026 CANDIDATES FOR MONTANA LEGISLATURE</h1>
 
             <section>
                 <a className="link-anchor" id="legislature"></a>

@@ -87,7 +87,7 @@ export default function CandidatePageSummary(props) {
         summaryLine,
         raceDisplayName,
         raceSlug,
-        cap_tracker_2023_link,
+        cap_tracker_2025_link,
     } = props
     
     const router = useRouter()
@@ -99,9 +99,9 @@ export default function CandidatePageSummary(props) {
                 <div className="intro-line"><strong style={{ color: partyInfo.color }}>{partyInfo.adjective}</strong> candidate for</div>
                 <div className="position-line">MONTANA <strong>{raceDisplayName}</strong></div>
                 <h1 className="name">{displayName}</h1>
-                {cap_tracker_2023_link && <div className="incumbent-line">
+                {cap_tracker_2025_link && <div className="incumbent-line">
                     <div>Member of 2023 Legislature</div>
-                    <a href={cap_tracker_2023_link}>View legislative record »</a>
+                    <a href={cap_tracker_2025_link}>View legislative record »</a>
                 </div>}
             </div>
         </div>
