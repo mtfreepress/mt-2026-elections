@@ -45,7 +45,7 @@ races.forEach(race => {
     if (race.candidates === null) race.candidates = [] // fallback for unpopulated races
 
     if (race.campaignFinanceAgency === 'fec') {
-        race.finance = federalCampaignFinance.find(d => d.raceSlug == race.raceSlug).finances
+        race.finance = federalCampaignFinance.find(d => d.raceSlug == race.raceSlug).finances.results
             .filter(c => !FEC_DATA_EXCLUDE.includes(c.candidate_name))
             .map(fecData => {
                 const candidateMatch = candidates.find(c => c.fecId === fecData.candidate_id)
