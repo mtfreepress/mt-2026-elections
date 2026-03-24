@@ -2,15 +2,14 @@
 slug: ed-walker
 displayName: Ed Walker
 lastName: Walker
-summaryLine: Former state Senator
-summaryNarrative: |
-  Walker suspended his congressional campaign in April.
+summaryLine:
+summaryNarrative:
 party: R
 isIncumbent: false
-status: lost-primary
-fecId: H8MT01190
+status: active
+fecId:
 ## Campaign web links
-campaignWebsite:
+campaignWebsite: https://walkerformt.com
 campaignFB:
 campaignTW:
 campaignIG:
