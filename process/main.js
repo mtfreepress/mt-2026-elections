@@ -19,7 +19,11 @@ const writeJson = (path, data) => {
 
 const races = getYml('./inputs/content/races.yml')
 const text = getYml('./inputs/content/text.yml')
+// Only load YAMLs for candidates actually referenced in races.yml.
+// Legislative candidates have their own pipeline (process/legislative-candidates.js).
+const raceCandidateSlugs = new Set(races.flatMap(r => r.candidates || []))
 const candidates = collectYmls('./inputs/content/candidates/*.yml')
+    .filter(c => raceCandidateSlugs.has(c.slug))
 const ballotInitiatives = getYml('./inputs/content/ballot-initiatives.yml')
 const coverage = getJson('./inputs/coverage/articles.json')
 const howToVoteContent = getMD('./inputs/content/how-to-vote.md')
@@ -49,7 +53,10 @@ races.forEach(race => {
             .filter(c => !FEC_DATA_EXCLUDE.includes(c.candidate_name))
             .map(fecData => {
                 const candidateMatch = candidates.find(c => c.fecId === fecData.candidate_id)
-                if (!candidateMatch) console.warn(`Missing FEC ID match for ${fecData.candidate_name}`)
+                if (!candidateMatch) {
+                    console.warn(`Missing FEC ID match for ${fecData.candidate_name} (${fecData.candidate_id}) — skipping`)
+                    return null
+                }
                 return {
                     displayName: candidateMatch.displayName,
                     party: candidateMatch.party,
@@ -61,6 +68,7 @@ races.forEach(race => {
                     coverageEndDate: fecData.coverage_end_date,
                 }
             })
+            .filter(Boolean)
     } else {
         race.finance = null // Skipping campaign finance integration for non-FEC (i.e. MT COPP races)
     }
@@ -83,7 +91,7 @@ candidates.forEach(candidate => {
             if (!match) console.log('No candidateSlug match for', candidateSlug)
             return match
         })
-        .filter(c => c.status === 'active')
+        .filter(c => c && c.status === 'active')
         .map(c => {
             return {// include only fields necessary for opponent listings on candidate pages
                 slug: c.slug,
@@ -138,8 +146,8 @@ candidates.forEach(candidate => {
 const overviewRaces = races.map(race => {
 
     const candidatesInRace = race.candidates.map(candidateSlug => candidates.find(c => c.slug === candidateSlug))
-    const activeCandidatesInRace = candidatesInRace.filter(d => d.status === 'active')
-    const inactiveCandidatesInRace = candidatesInRace.filter(d => d.status !== 'active')
+    const activeCandidatesInRace = candidatesInRace.filter(d => d && d.status === 'active')
+    const inactiveCandidatesInRace = candidatesInRace.filter(d => d && d.status !== 'active')
     const filterToSummaryFields = c => ({
         // Include only fields necessary for summary page
         slug: c.slug,

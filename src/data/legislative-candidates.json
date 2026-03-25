@@ -1047,35 +1047,6 @@
         "displayName": "DANIEL ZOLNIKOV",
         "party": "R",
         "campaignWebsite": "https://danielzolnikov.com"
-      },
-      {
-        "slug": "lyle-hedin",
-        "displayName": "LYLE HEDIN",
-        "party": "D",
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "SD-22",
-    "raceDisplayName": "Senate District 22",
-    "slug": "lyle-hedin",
-    "displayName": "LYLE HEDIN",
-    "party": "D",
-    "status": "active",
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "daniel-zolnikov",
-        "displayName": "DANIEL ZOLNIKOV",
-        "party": "R",
-        "campaignWebsite": "https://danielzolnikov.com"
-      },
-      {
-        "slug": "lyle-hedin",
-        "displayName": "LYLE HEDIN",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -1099,12 +1070,6 @@
         "displayName": "EMMA KERR-CARPENTER",
         "party": "D",
         "campaignWebsite": "https://emmaformontana.org"
-      },
-      {
-        "slug": "justin-f-kucera",
-        "displayName": "JUSTIN F KUCERA",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -1128,41 +1093,6 @@
         "displayName": "EMMA KERR-CARPENTER",
         "party": "D",
         "campaignWebsite": "https://emmaformontana.org"
-      },
-      {
-        "slug": "justin-f-kucera",
-        "displayName": "JUSTIN F KUCERA",
-        "party": "D",
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "SD-23",
-    "raceDisplayName": "Senate District 23",
-    "slug": "justin-f-kucera",
-    "displayName": "JUSTIN F KUCERA",
-    "party": "D",
-    "status": "active",
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "joanna-oblander",
-        "displayName": "JOANNA OBLANDER",
-        "party": "R",
-        "campaignWebsite": null
-      },
-      {
-        "slug": "emma-kerr-carpenter",
-        "displayName": "EMMA KERR-CARPENTER",
-        "party": "D",
-        "campaignWebsite": "https://emmaformontana.org"
-      },
-      {
-        "slug": "justin-f-kucera",
-        "displayName": "JUSTIN F KUCERA",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -1417,12 +1347,6 @@
         "displayName": "KELLY KORTUM",
         "party": "D",
         "campaignWebsite": "https://kellyformt.com"
-      },
-      {
-        "slug": "wes-siler",
-        "displayName": "WES SILER",
-        "party": "D",
-        "campaignWebsite": "https://wesformontana.com"
       }
     ]
   },
@@ -1452,47 +1376,6 @@
         "displayName": "KELLY KORTUM",
         "party": "D",
         "campaignWebsite": "https://kellyformt.com"
-      },
-      {
-        "slug": "wes-siler",
-        "displayName": "WES SILER",
-        "party": "D",
-        "campaignWebsite": "https://wesformontana.com"
-      }
-    ]
-  },
-  {
-    "raceSlug": "SD-32",
-    "raceDisplayName": "Senate District 32",
-    "slug": "wes-siler",
-    "displayName": "WES SILER",
-    "party": "D",
-    "status": "active",
-    "campaignWebsite": "https://wesformontana.com",
-    "opponents": [
-      {
-        "slug": "neal-ganser",
-        "displayName": "NEAL GANSER",
-        "party": "R",
-        "campaignWebsite": "https://ganserforthegallatin.com"
-      },
-      {
-        "slug": "becky-edwards",
-        "displayName": "BECKY EDWARDS",
-        "party": "D",
-        "campaignWebsite": "https://beckyformontana.com"
-      },
-      {
-        "slug": "kelly-kortum",
-        "displayName": "KELLY KORTUM",
-        "party": "D",
-        "campaignWebsite": "https://kellyformt.com"
-      },
-      {
-        "slug": "wes-siler",
-        "displayName": "WES SILER",
-        "party": "D",
-        "campaignWebsite": "https://wesformontana.com"
       }
     ]
   },
@@ -1522,12 +1405,6 @@
         "displayName": "KELLY KORTUM",
         "party": "D",
         "campaignWebsite": "https://kellyformt.com"
-      },
-      {
-        "slug": "wes-siler",
-        "displayName": "WES SILER",
-        "party": "D",
-        "campaignWebsite": "https://wesformontana.com"
       }
     ]
   },
@@ -1730,7 +1607,7 @@
         "slug": "mike-talia",
         "displayName": "MIKE TALIA",
         "party": "R",
-        "campaignWebsite": null
+        "campaignWebsite": "https://miketalia.com"
       },
       {
         "slug": "mary-ann-dunwell",
@@ -1765,7 +1642,7 @@
         "slug": "mike-talia",
         "displayName": "MIKE TALIA",
         "party": "R",
-        "campaignWebsite": null
+        "campaignWebsite": "https://miketalia.com"
       },
       {
         "slug": "mary-ann-dunwell",
@@ -1800,7 +1677,7 @@
         "slug": "mike-talia",
         "displayName": "MIKE TALIA",
         "party": "R",
-        "campaignWebsite": null
+        "campaignWebsite": "https://miketalia.com"
       },
       {
         "slug": "mary-ann-dunwell",
@@ -1817,7 +1694,7 @@
     "displayName": "MIKE TALIA",
     "party": "R",
     "status": "active",
-    "campaignWebsite": null,
+    "campaignWebsite": "https://miketalia.com",
     "opponents": [
       {
         "slug": "stephen-lapraim",
@@ -1835,7 +1712,7 @@
         "slug": "mike-talia",
         "displayName": "MIKE TALIA",
         "party": "R",
-        "campaignWebsite": null
+        "campaignWebsite": "https://miketalia.com"
       },
       {
         "slug": "mary-ann-dunwell",
@@ -3329,12 +3206,6 @@
         "displayName": "STEVE KELLER",
         "party": "D",
         "campaignWebsite": "https://n"
-      },
-      {
-        "slug": "patricia-anglin",
-        "displayName": "PATRICIA ANGLIN",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -3364,12 +3235,6 @@
         "displayName": "STEVE KELLER",
         "party": "D",
         "campaignWebsite": "https://n"
-      },
-      {
-        "slug": "patricia-anglin",
-        "displayName": "PATRICIA ANGLIN",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -3399,47 +3264,6 @@
         "displayName": "STEVE KELLER",
         "party": "D",
         "campaignWebsite": "https://n"
-      },
-      {
-        "slug": "patricia-anglin",
-        "displayName": "PATRICIA ANGLIN",
-        "party": "D",
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-20",
-    "raceDisplayName": "House District 20",
-    "slug": "patricia-anglin",
-    "displayName": "PATRICIA ANGLIN",
-    "party": "D",
-    "status": "active",
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "tony-rosales",
-        "displayName": "TONY ROSALES",
-        "party": "R",
-        "campaignWebsite": "https://rosalesformt.com"
-      },
-      {
-        "slug": "melissa-nikolakakos",
-        "displayName": "MELISSA NIKOLAKAKOS",
-        "party": "R",
-        "campaignWebsite": "https://melissaforus.com"
-      },
-      {
-        "slug": "steve-keller",
-        "displayName": "STEVE KELLER",
-        "party": "D",
-        "campaignWebsite": "https://n"
-      },
-      {
-        "slug": "patricia-anglin",
-        "displayName": "PATRICIA ANGLIN",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -4562,7 +4386,7 @@
         "slug": "tracey-miller-karcher",
         "displayName": "TRACEY MILLER KARCHER",
         "party": "D",
-        "campaignWebsite": "https://working4montana.com"
+        "campaignWebsite": "https://yourvoicehd37.com"
       }
     ]
   },
@@ -4573,7 +4397,7 @@
     "displayName": "TRACEY MILLER KARCHER",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://working4montana.com",
+    "campaignWebsite": "https://yourvoicehd37.com",
     "opponents": [
       {
         "slug": "shane-klakken",
@@ -4585,7 +4409,7 @@
         "slug": "tracey-miller-karcher",
         "displayName": "TRACEY MILLER KARCHER",
         "party": "D",
-        "campaignWebsite": "https://working4montana.com"
+        "campaignWebsite": "https://yourvoicehd37.com"
       }
     ]
   },
@@ -6445,12 +6269,6 @@
         "displayName": "KOBI CRADDOCK",
         "party": "D",
         "campaignWebsite": null
-      },
-      {
-        "slug": "abigail-thomas",
-        "displayName": "ABIGAIL THOMAS",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -6472,41 +6290,6 @@
       {
         "slug": "kobi-craddock",
         "displayName": "KOBI CRADDOCK",
-        "party": "D",
-        "campaignWebsite": null
-      },
-      {
-        "slug": "abigail-thomas",
-        "displayName": "ABIGAIL THOMAS",
-        "party": "D",
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-70",
-    "raceDisplayName": "House District 70",
-    "slug": "abigail-thomas",
-    "displayName": "ABIGAIL THOMAS",
-    "party": "D",
-    "status": "active",
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "shannon-maness",
-        "displayName": "SHANNON MANESS",
-        "party": "R",
-        "campaignWebsite": "https://manessformontana.com"
-      },
-      {
-        "slug": "kobi-craddock",
-        "displayName": "KOBI CRADDOCK",
-        "party": "D",
-        "campaignWebsite": null
-      },
-      {
-        "slug": "abigail-thomas",
-        "displayName": "ABIGAIL THOMAS",
         "party": "D",
         "campaignWebsite": null
       }
@@ -6845,12 +6628,6 @@
         "campaignWebsite": "https://drjanegillette.com"
       },
       {
-        "slug": "shannon-woodward",
-        "displayName": "SHANNON WOODWARD",
-        "party": "R",
-        "campaignWebsite": null
-      },
-      {
         "slug": "deborah-anne-hansen",
         "displayName": "DEBORAH ANNE HANSEN",
         "party": "D",
@@ -6872,41 +6649,6 @@
         "displayName": "JANE GILLETTE",
         "party": "R",
         "campaignWebsite": "https://drjanegillette.com"
-      },
-      {
-        "slug": "shannon-woodward",
-        "displayName": "SHANNON WOODWARD",
-        "party": "R",
-        "campaignWebsite": null
-      },
-      {
-        "slug": "deborah-anne-hansen",
-        "displayName": "DEBORAH ANNE HANSEN",
-        "party": "D",
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-77",
-    "raceDisplayName": "House District 77",
-    "slug": "shannon-woodward",
-    "displayName": "SHANNON WOODWARD",
-    "party": "R",
-    "status": "active",
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "jane-gillette",
-        "displayName": "JANE GILLETTE",
-        "party": "R",
-        "campaignWebsite": "https://drjanegillette.com"
-      },
-      {
-        "slug": "shannon-woodward",
-        "displayName": "SHANNON WOODWARD",
-        "party": "R",
-        "campaignWebsite": null
       },
       {
         "slug": "deborah-anne-hansen",
@@ -7027,7 +6769,7 @@
         "slug": "qasim-w-abdul-baki",
         "displayName": "QASIM W ABDUL-BAKI",
         "party": "D",
-        "campaignWebsite": "https://qasimfordem.com"
+        "campaignWebsite": "https://qasimforhelena.com"
       },
       {
         "slug": "megan-lane",
@@ -7044,7 +6786,7 @@
     "displayName": "QASIM W ABDUL-BAKI",
     "party": "D",
     "status": "active",
-    "campaignWebsite": "https://qasimfordem.com",
+    "campaignWebsite": "https://qasimforhelena.com",
     "opponents": [
       {
         "slug": "katie-fruits",
@@ -7056,7 +6798,7 @@
         "slug": "qasim-w-abdul-baki",
         "displayName": "QASIM W ABDUL-BAKI",
         "party": "D",
-        "campaignWebsite": "https://qasimfordem.com"
+        "campaignWebsite": "https://qasimforhelena.com"
       },
       {
         "slug": "megan-lane",
@@ -7085,7 +6827,7 @@
         "slug": "qasim-w-abdul-baki",
         "displayName": "QASIM W ABDUL-BAKI",
         "party": "D",
-        "campaignWebsite": "https://qasimfordem.com"
+        "campaignWebsite": "https://qasimforhelena.com"
       },
       {
         "slug": "megan-lane",
@@ -7121,12 +6863,6 @@
         "displayName": "JANET ELLIS",
         "party": "D",
         "campaignWebsite": "https://jantellis4mt.com"
-      },
-      {
-        "slug": "craig-sundberg",
-        "displayName": "CRAIG SUNDBERG",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -7156,12 +6892,6 @@
         "displayName": "JANET ELLIS",
         "party": "D",
         "campaignWebsite": "https://jantellis4mt.com"
-      },
-      {
-        "slug": "craig-sundberg",
-        "displayName": "CRAIG SUNDBERG",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -7191,47 +6921,6 @@
         "displayName": "JANET ELLIS",
         "party": "D",
         "campaignWebsite": "https://jantellis4mt.com"
-      },
-      {
-        "slug": "craig-sundberg",
-        "displayName": "CRAIG SUNDBERG",
-        "party": "D",
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-81",
-    "raceDisplayName": "House District 81",
-    "slug": "craig-sundberg",
-    "displayName": "CRAIG SUNDBERG",
-    "party": "D",
-    "status": "active",
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "john-j-looney-sr",
-        "displayName": "JOHN J LOONEY SR",
-        "party": "R",
-        "campaignWebsite": "https://looneyformontana.com"
-      },
-      {
-        "slug": "benjamin-kuiper",
-        "displayName": "BENJAMIN KUIPER",
-        "party": "D",
-        "campaignWebsite": "https://wwwbenkuiperforlegislature.com"
-      },
-      {
-        "slug": "janet-ellis",
-        "displayName": "JANET ELLIS",
-        "party": "D",
-        "campaignWebsite": "https://jantellis4mt.com"
-      },
-      {
-        "slug": "craig-sundberg",
-        "displayName": "CRAIG SUNDBERG",
-        "party": "D",
-        "campaignWebsite": null
       }
     ]
   },
@@ -7330,76 +7019,6 @@
   {
     "raceSlug": "HD-84",
     "raceDisplayName": "House District 84",
-    "slug": "james-marshal",
-    "displayName": "JAMES MARSHAL",
-    "party": "R",
-    "status": "active",
-    "campaignWebsite": "https://marshal4montana.com",
-    "opponents": [
-      {
-        "slug": "james-marshal",
-        "displayName": "JAMES MARSHAL",
-        "party": "R",
-        "campaignWebsite": "https://marshal4montana.com"
-      },
-      {
-        "slug": "roy-caldwell",
-        "displayName": "ROY CALDWELL",
-        "party": "R",
-        "campaignWebsite": "https://caldwell4hd84.com"
-      },
-      {
-        "slug": "jamie-van-valkenburg",
-        "displayName": "JAMIE VAN VALKENBURG",
-        "party": "D",
-        "campaignWebsite": null
-      },
-      {
-        "slug": "tia-nelson",
-        "displayName": "TIA NELSON",
-        "party": "D",
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-84",
-    "raceDisplayName": "House District 84",
-    "slug": "roy-caldwell",
-    "displayName": "ROY CALDWELL",
-    "party": "R",
-    "status": "active",
-    "campaignWebsite": "https://caldwell4hd84.com",
-    "opponents": [
-      {
-        "slug": "james-marshal",
-        "displayName": "JAMES MARSHAL",
-        "party": "R",
-        "campaignWebsite": "https://marshal4montana.com"
-      },
-      {
-        "slug": "roy-caldwell",
-        "displayName": "ROY CALDWELL",
-        "party": "R",
-        "campaignWebsite": "https://caldwell4hd84.com"
-      },
-      {
-        "slug": "jamie-van-valkenburg",
-        "displayName": "JAMIE VAN VALKENBURG",
-        "party": "D",
-        "campaignWebsite": null
-      },
-      {
-        "slug": "tia-nelson",
-        "displayName": "TIA NELSON",
-        "party": "D",
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-84",
-    "raceDisplayName": "House District 84",
     "slug": "jamie-van-valkenburg",
     "displayName": "JAMIE VAN VALKENBURG",
     "party": "D",
@@ -7407,16 +7026,16 @@
     "campaignWebsite": null,
     "opponents": [
       {
+        "slug": "roy-caldwell",
+        "displayName": "ROY CALDWELL",
+        "party": "R",
+        "campaignWebsite": "https://caldwellforhd84.com"
+      },
+      {
         "slug": "james-marshal",
         "displayName": "JAMES MARSHAL",
         "party": "R",
         "campaignWebsite": "https://marshal4montana.com"
-      },
-      {
-        "slug": "roy-caldwell",
-        "displayName": "ROY CALDWELL",
-        "party": "R",
-        "campaignWebsite": "https://caldwell4hd84.com"
       },
       {
         "slug": "jamie-van-valkenburg",
@@ -7442,16 +7061,86 @@
     "campaignWebsite": null,
     "opponents": [
       {
+        "slug": "roy-caldwell",
+        "displayName": "ROY CALDWELL",
+        "party": "R",
+        "campaignWebsite": "https://caldwellforhd84.com"
+      },
+      {
         "slug": "james-marshal",
         "displayName": "JAMES MARSHAL",
         "party": "R",
         "campaignWebsite": "https://marshal4montana.com"
       },
       {
+        "slug": "jamie-van-valkenburg",
+        "displayName": "JAMIE VAN VALKENBURG",
+        "party": "D",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "tia-nelson",
+        "displayName": "TIA NELSON",
+        "party": "D",
+        "campaignWebsite": null
+      }
+    ]
+  },
+  {
+    "raceSlug": "HD-84",
+    "raceDisplayName": "House District 84",
+    "slug": "roy-caldwell",
+    "displayName": "ROY CALDWELL",
+    "party": "R",
+    "status": "active",
+    "campaignWebsite": "https://caldwellforhd84.com",
+    "opponents": [
+      {
         "slug": "roy-caldwell",
         "displayName": "ROY CALDWELL",
         "party": "R",
-        "campaignWebsite": "https://caldwell4hd84.com"
+        "campaignWebsite": "https://caldwellforhd84.com"
+      },
+      {
+        "slug": "james-marshal",
+        "displayName": "JAMES MARSHAL",
+        "party": "R",
+        "campaignWebsite": "https://marshal4montana.com"
+      },
+      {
+        "slug": "jamie-van-valkenburg",
+        "displayName": "JAMIE VAN VALKENBURG",
+        "party": "D",
+        "campaignWebsite": null
+      },
+      {
+        "slug": "tia-nelson",
+        "displayName": "TIA NELSON",
+        "party": "D",
+        "campaignWebsite": null
+      }
+    ]
+  },
+  {
+    "raceSlug": "HD-84",
+    "raceDisplayName": "House District 84",
+    "slug": "james-marshal",
+    "displayName": "JAMES MARSHAL",
+    "party": "R",
+    "status": "active",
+    "campaignWebsite": "https://marshal4montana.com",
+    "opponents": [
+      {
+        "slug": "roy-caldwell",
+        "displayName": "ROY CALDWELL",
+        "party": "R",
+        "campaignWebsite": "https://caldwellforhd84.com"
+      },
+      {
+        "slug": "james-marshal",
+        "displayName": "JAMES MARSHAL",
+        "party": "R",
+        "campaignWebsite": "https://marshal4montana.com"
       },
       {
         "slug": "jamie-van-valkenburg",
@@ -7845,12 +7534,6 @@
         "displayName": "SHELLY FYANT",
         "party": "D",
         "campaignWebsite": "https://shellyformontana.com"
-      },
-      {
-        "slug": "rustin-bielski",
-        "displayName": "RUSTIN BIELSKI",
-        "party": "D",
-        "campaignWebsite": "https://votebielski.com"
       }
     ]
   },
@@ -7874,41 +7557,6 @@
         "displayName": "SHELLY FYANT",
         "party": "D",
         "campaignWebsite": "https://shellyformontana.com"
-      },
-      {
-        "slug": "rustin-bielski",
-        "displayName": "RUSTIN BIELSKI",
-        "party": "D",
-        "campaignWebsite": "https://votebielski.com"
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-91",
-    "raceDisplayName": "House District 91",
-    "slug": "rustin-bielski",
-    "displayName": "RUSTIN BIELSKI",
-    "party": "D",
-    "status": "active",
-    "campaignWebsite": "https://votebielski.com",
-    "opponents": [
-      {
-        "slug": "charles-headley",
-        "displayName": "CHARLES HEADLEY",
-        "party": "R",
-        "campaignWebsite": null
-      },
-      {
-        "slug": "shelly-fyant",
-        "displayName": "SHELLY FYANT",
-        "party": "D",
-        "campaignWebsite": "https://shellyformontana.com"
-      },
-      {
-        "slug": "rustin-bielski",
-        "displayName": "RUSTIN BIELSKI",
-        "party": "D",
-        "campaignWebsite": "https://votebielski.com"
       }
     ]
   },
@@ -8101,35 +7749,6 @@
   {
     "raceSlug": "HD-94",
     "raceDisplayName": "House District 94",
-    "slug": "lisa-verlanic-fowler",
-    "displayName": "LISA VERLANIC-FOWLER",
-    "party": "D",
-    "status": "active",
-    "campaignWebsite": "https://montanansforlisa.com",
-    "opponents": [
-      {
-        "slug": "greg-woodward",
-        "displayName": "GREG WOODWARD",
-        "party": "R",
-        "campaignWebsite": null
-      },
-      {
-        "slug": "lisa-verlanic-fowler",
-        "displayName": "LISA VERLANIC-FOWLER",
-        "party": "D",
-        "campaignWebsite": "https://montanansforlisa.com"
-      },
-      {
-        "slug": "robin-kendall",
-        "displayName": "ROBIN KENDALL",
-        "party": "D",
-        "campaignWebsite": "https://robinkendall4montana.org"
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-94",
-    "raceDisplayName": "House District 94",
     "slug": "robin-kendall",
     "displayName": "ROBIN KENDALL",
     "party": "D",
@@ -8143,16 +7762,16 @@
         "campaignWebsite": null
       },
       {
-        "slug": "lisa-verlanic-fowler",
-        "displayName": "LISA VERLANIC-FOWLER",
-        "party": "D",
-        "campaignWebsite": "https://montanansforlisa.com"
-      },
-      {
         "slug": "robin-kendall",
         "displayName": "ROBIN KENDALL",
         "party": "D",
         "campaignWebsite": "https://robinkendall4montana.org"
+      },
+      {
+        "slug": "lisa-verlanic-fowler",
+        "displayName": "LISA VERLANIC FOWLER",
+        "party": "D",
+        "campaignWebsite": "https://montanansforlisa.com"
       }
     ]
   },
@@ -8172,16 +7791,45 @@
         "campaignWebsite": null
       },
       {
+        "slug": "robin-kendall",
+        "displayName": "ROBIN KENDALL",
+        "party": "D",
+        "campaignWebsite": "https://robinkendall4montana.org"
+      },
+      {
         "slug": "lisa-verlanic-fowler",
-        "displayName": "LISA VERLANIC-FOWLER",
+        "displayName": "LISA VERLANIC FOWLER",
         "party": "D",
         "campaignWebsite": "https://montanansforlisa.com"
+      }
+    ]
+  },
+  {
+    "raceSlug": "HD-94",
+    "raceDisplayName": "House District 94",
+    "slug": "lisa-verlanic-fowler",
+    "displayName": "LISA VERLANIC FOWLER",
+    "party": "D",
+    "status": "active",
+    "campaignWebsite": "https://montanansforlisa.com",
+    "opponents": [
+      {
+        "slug": "greg-woodward",
+        "displayName": "GREG WOODWARD",
+        "party": "R",
+        "campaignWebsite": null
       },
       {
         "slug": "robin-kendall",
         "displayName": "ROBIN KENDALL",
         "party": "D",
         "campaignWebsite": "https://robinkendall4montana.org"
+      },
+      {
+        "slug": "lisa-verlanic-fowler",
+        "displayName": "LISA VERLANIC FOWLER",
+        "party": "D",
+        "campaignWebsite": "https://montanansforlisa.com"
       }
     ]
   },

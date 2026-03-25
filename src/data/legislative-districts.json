@@ -586,13 +586,6 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://n"
-      },
-      {
-        "slug": "patricia-anglin",
-        "displayName": "PATRICIA ANGLIN",
-        "party": "D",
-        "status": "active",
-        "campaignWebsite": null
       }
     ]
   },
@@ -1090,7 +1083,7 @@
         "displayName": "TRACEY MILLER KARCHER",
         "party": "D",
         "status": "active",
-        "campaignWebsite": "https://working4montana.com"
+        "campaignWebsite": "https://yourvoicehd37.com"
       }
     ]
   },
@@ -2005,13 +1998,6 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": null
-      },
-      {
-        "slug": "abigail-thomas",
-        "displayName": "ABIGAIL THOMAS",
-        "party": "D",
-        "status": "active",
-        "campaignWebsite": null
       }
     ]
   },
@@ -2196,13 +2182,6 @@
         "campaignWebsite": "https://drjanegillette.com"
       },
       {
-        "slug": "shannon-woodward",
-        "displayName": "SHANNON WOODWARD",
-        "party": "R",
-        "status": "active",
-        "campaignWebsite": null
-      },
-      {
         "slug": "deborah-anne-hansen",
         "displayName": "DEBORAH ANNE HANSEN",
         "party": "D",
@@ -2285,7 +2264,7 @@
         "displayName": "QASIM W ABDUL-BAKI",
         "party": "D",
         "status": "active",
-        "campaignWebsite": "https://qasimfordem.com"
+        "campaignWebsite": "https://qasimforhelena.com"
       },
       {
         "slug": "megan-lane",
@@ -2326,13 +2305,6 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://jantellis4mt.com"
-      },
-      {
-        "slug": "craig-sundberg",
-        "displayName": "CRAIG SUNDBERG",
-        "party": "D",
-        "status": "active",
-        "campaignWebsite": null
       }
     ]
   },
@@ -2399,18 +2371,18 @@
     "districtKey": "HD-84",
     "candidates": [
       {
+        "slug": "roy-caldwell",
+        "displayName": "ROY CALDWELL",
+        "party": "R",
+        "status": "active",
+        "campaignWebsite": "https://caldwellforhd84.com"
+      },
+      {
         "slug": "james-marshal",
         "displayName": "JAMES MARSHAL",
         "party": "R",
         "status": "active",
         "campaignWebsite": "https://marshal4montana.com"
-      },
-      {
-        "slug": "roy-caldwell",
-        "displayName": "ROY CALDWELL",
-        "party": "R",
-        "status": "active",
-        "campaignWebsite": "https://caldwell4hd84.com"
       },
       {
         "slug": "jamie-van-valkenburg",
@@ -2621,13 +2593,6 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://shellyformontana.com"
-      },
-      {
-        "slug": "rustin-bielski",
-        "displayName": "RUSTIN BIELSKI",
-        "party": "D",
-        "status": "active",
-        "campaignWebsite": "https://votebielski.com"
       }
     ]
   },
@@ -2715,18 +2680,18 @@
         "campaignWebsite": null
       },
       {
-        "slug": "lisa-verlanic-fowler",
-        "displayName": "LISA VERLANIC-FOWLER",
-        "party": "D",
-        "status": "active",
-        "campaignWebsite": "https://montanansforlisa.com"
-      },
-      {
         "slug": "robin-kendall",
         "displayName": "ROBIN KENDALL",
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://robinkendall4montana.org"
+      },
+      {
+        "slug": "lisa-verlanic-fowler",
+        "displayName": "LISA VERLANIC FOWLER",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://montanansforlisa.com"
       }
     ]
   },
@@ -3399,13 +3364,6 @@
         "party": "R",
         "status": "active",
         "campaignWebsite": "https://danielzolnikov.com"
-      },
-      {
-        "slug": "lyle-hedin",
-        "displayName": "LYLE HEDIN",
-        "party": "D",
-        "status": "active",
-        "campaignWebsite": null
       }
     ]
   },
@@ -3434,13 +3392,6 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://emmaformontana.org"
-      },
-      {
-        "slug": "justin-f-kucera",
-        "displayName": "JUSTIN F KUCERA",
-        "party": "D",
-        "status": "active",
-        "campaignWebsite": null
       }
     ]
   },
@@ -3639,13 +3590,6 @@
         "party": "D",
         "status": "active",
         "campaignWebsite": "https://kellyformt.com"
-      },
-      {
-        "slug": "wes-siler",
-        "displayName": "WES SILER",
-        "party": "D",
-        "status": "active",
-        "campaignWebsite": "https://wesformontana.com"
       }
     ]
   },
@@ -3827,7 +3771,7 @@
         "displayName": "MIKE TALIA",
         "party": "R",
         "status": "active",
-        "campaignWebsite": null
+        "campaignWebsite": "https://miketalia.com"
       },
       {
         "slug": "mary-ann-dunwell",
