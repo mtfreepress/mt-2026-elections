@@ -124,16 +124,152 @@ campaignTT:
 `
 }
 
+// races.yml
+const RACES_OUTPUT = path.join(__dirname, 'races.yml')
+
+// District types whose candidates are eligible for races.yml
+const RACES_DISTRICT_TYPES = new Set([
+  'Statewide',
+  'Congressional',
+  'Public Service Commission',
+  'Supreme Court Justice',
+])
+
+// Ordered race definitions.  section comments mirror the 2024 guide.
+const RACE_META = [
+  {
+    section: 'FEDERAL',
+    district: 'STATE',
+    race: 'UNITED STATES SENATOR',
+    raceSlug: 'us-senate',
+    displayName: 'U.S. Senate',
+    level: 'Federal Delegation',
+    campaignFinanceAgency: 'fec',
+    category: 'us-senate',
+    description: "One of Montana's two U.S. Senate seats, elected with a statewide vote. Elected to a six-year term.",
+    note: '',
+  },
+  {
+    section: null,
+    district: '1ST CONGRESSIONAL',
+    race: 'UNITED STATES REPRESENTATIVE',
+    raceSlug: 'us-house-1',
+    displayName: 'U.S. House District 1 (West)',
+    level: 'Federal Delegation',
+    campaignFinanceAgency: 'fec',
+    category: 'us-house',
+    description: 'Western Montana representative in Congress. District includes Missoula, Bozeman, Kalispell and Butte. Elected to a two-year term.',
+    note: '',
+  },
+  {
+    section: null,
+    district: '2ND CONGRESSIONAL',
+    race: 'UNITED STATES REPRESENTATIVE',
+    raceSlug: 'us-house-2',
+    displayName: 'U.S. House District 2 (East)',
+    level: 'Federal Delegation',
+    campaignFinanceAgency: 'fec',
+    category: 'us-house',
+    description: 'Eastern Montana representative in Congress. District includes Billings, Great Falls, Helena, Havre and Miles City. Elected to a two-year term.',
+    note: '',
+  },
+  {
+    section: 'STATE DISTRICT',
+    district: 'PUBLIC SERVICE COMMISSIONER DISTRICT 1',
+    race: 'PUBLIC SERVICE COMMISSIONER, DISTRICT 1',
+    raceSlug: 'psc-1',
+    displayName: 'Public Service Commission (Seat 1)',
+    level: 'Public Service Commission',
+    campaignFinanceAgency: null,
+    category: 'psc',
+    description: "One of five seats on the state's utility regulation board, elected to a four-year term. The district spans eastern Montana, including Billings and Miles City.",
+    note: '',
+  },
+  {
+    section: null,
+    district: 'PUBLIC SERVICE COMMISSIONER DISTRICT 5',
+    race: 'PUBLIC SERVICE COMMISSIONER, DISTRICT 5',
+    raceSlug: 'psc-5',
+    displayName: 'Public Service Commission (Seat 5)',
+    level: 'Public Service Commission',
+    campaignFinanceAgency: null,
+    category: 'psc',
+    description: "One of five seats on the state's utility regulation board, elected to a four-year term. The district spans western Montana, including Missoula and Kalispell.",
+    note: '',
+  },
+  {
+    section: 'MONTANA SUPREME COURT',
+    district: 'SUPREME COURT JUSTICE',
+    race: 'SUPREME COURT JUSTICE #4',
+    raceSlug: 'supco-4',
+    displayName: 'State Supreme Court (Seat 4)',
+    level: 'Montana Supreme Court',
+    campaignFinanceAgency: null,
+    category: 'supco-4',
+    description: "One of seven seats on the state's high court, which takes appeals from lower courts and administers the Montana legal system. Elected to an eight-year term via a statewide election.",
+    note: '',
+  },
+]
+
+function buildRacesYml(all) {
+  const ACTIVE_STATUSES = new Set(['FILED', 'PENDING PETITION'])
+
+  // group active candidates by district|race key
+  const byRace = new Map()
+  for (const candidate of all) {
+    if (!RACES_DISTRICT_TYPES.has(candidate['District Type'])) continue
+    const status = String(candidate['Status'] || '').trim().toUpperCase()
+    if (!ACTIVE_STATUSES.has(status)) continue
+    const key = candidate['District'].trim().toUpperCase() + '|' + candidate['Race'].trim().toUpperCase()
+    if (!byRace.has(key)) byRace.set(key, [])
+    byRace.get(key).push(nameToSlug(candidate['Name']))
+  }
+
+  const lines = ['---']
+  let lastSection = null
+
+  for (const meta of RACE_META) {
+    if (meta.section && meta.section !== lastSection) {
+      lines.push('')
+      lines.push(`# ${meta.section}`)
+      lastSection = meta.section
+    }
+
+    const key = meta.district.toUpperCase() + '|' + meta.race.toUpperCase()
+    const slugs = byRace.get(key) || []
+
+    lines.push('')
+    lines.push(`- raceSlug: ${meta.raceSlug}`)
+    lines.push(`  displayName: ${meta.displayName}`)
+    lines.push(`  level: ${meta.level}`)
+    if (meta.campaignFinanceAgency) {
+      lines.push(`  campaignFinanceAgency: ${meta.campaignFinanceAgency}`)
+    }
+    lines.push(`  category: ${meta.category}`)
+    lines.push(`  description: ${meta.description}`)
+    lines.push(`  note: ${meta.note}`)
+    lines.push('  candidates:')
+    for (const slug of slugs) {
+      lines.push(`    - ${slug}`)
+    }
+  }
+
+  const output = lines.join('\n') + '\n'
+  fs.writeFileSync(RACES_OUTPUT, output, 'utf8')
+  console.log(`\nWrote races.yml with ${RACE_META.length} race(s).`)
+}
+
 function main() {
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true })
 
   const all = parseCSV(fs.readFileSync(CSV_INPUT, 'utf8'))
   console.log(`Loaded ${all.length} rows from CandidateList.csv`)
 
-  // Only FILED candidates make it into the candidates/ folder.
-  // Withdrawn, PENDING PETITION, and REMOVED are excluded.
-  const filed = all.filter(c => String(c['Status'] || '').trim().toUpperCase() === 'FILED')
-  console.log(`${filed.length} candidates with FILED status\n`)
+  // FILED and PENDING PETITION candidates make it into the candidates/ folder.
+  // Withdrawn and REMOVED are excluded.
+  const ACTIVE_STATUSES = new Set(['FILED', 'PENDING PETITION'])
+  const filed = all.filter(c => ACTIVE_STATUSES.has(String(c['Status'] || '').trim().toUpperCase()))
+  console.log(`${filed.length} active candidates (FILED or PENDING PETITION)\n`)
 
   const slugsSeen = new Map()
   let written  = 0
@@ -163,6 +299,8 @@ function main() {
   }
 
   console.log(`\nDone. ${written} file(s) written, ${skipped} skipped (already existed).`)
+
+  buildRacesYml(all)
 }
 
 main()
