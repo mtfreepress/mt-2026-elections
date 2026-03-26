@@ -104,6 +104,18 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Patrick Mccracken",
+        "party": "L",
+        "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+        "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -232,7 +244,7 @@
     "party": "L",
     "isIncumbent": false,
     "status": "active",
-    "fecId": null,
+    "fecId": "S6MT00311",
     "campaignWebsite": null,
     "campaignFB": null,
     "campaignTW": null,
@@ -370,6 +382,54 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": true,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -391,7 +451,7 @@
     "party": "IND",
     "isIncumbent": false,
     "status": "active",
-    "fecId": null,
+    "fecId": "S6MT00287",
     "campaignWebsite": "https://www.sethformontana.com",
     "campaignFB": null,
     "campaignTW": null,
@@ -529,6 +589,54 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": true,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -645,6 +753,18 @@
         "cashOnHand": 786.82,
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": true,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Patrick Mccracken",
+        "party": "L",
+        "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+        "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
         "candidateStatus": "active"
       }
     ],
@@ -817,6 +937,30 @@
         "coverageEndDate": null,
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -966,6 +1110,30 @@
         "cashOnHand": 0,
         "coverageEndDate": null,
         "isThisCandidate": true,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
         "candidateStatus": "active"
       }
     ],
@@ -1143,6 +1311,30 @@
         "coverageEndDate": null,
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -1311,6 +1503,54 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -1468,6 +1708,30 @@
         "coverageEndDate": null,
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -1505,7 +1769,7 @@
     "party": "L",
     "isIncumbent": false,
     "status": "active",
-    "fecId": null,
+    "fecId": "H6MT02176",
     "campaignWebsite": null,
     "campaignFB": null,
     "campaignTW": null,
@@ -1600,6 +1864,18 @@
         "cashOnHand": 786.82,
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Patrick Mccracken",
+        "party": "L",
+        "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+        "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": true,
         "candidateStatus": "active"
       }
     ],
@@ -1736,6 +2012,30 @@
         "party": "D",
         "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
         "candidateId": "H6MT01145",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
         "totalReceipts": 0,
         "totalDisbursments": 0,
         "cashOnHand": 0,
@@ -1917,6 +2217,54 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -2092,6 +2440,18 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Patrick Mccracken",
+        "party": "L",
+        "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+        "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -2251,6 +2611,54 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -2402,6 +2810,30 @@
         "party": "D",
         "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
         "candidateId": "H6MT01145",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
         "totalReceipts": 0,
         "totalDisbursments": 0,
         "cashOnHand": 0,
@@ -2574,6 +3006,54 @@
         "totalDisbursments": 0,
         "cashOnHand": 550,
         "coverageEndDate": "2025-12-31",
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
         "isThisCandidate": false,
         "candidateStatus": "active"
       }
@@ -2758,6 +3238,54 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": true,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -2821,7 +3349,7 @@
     "party": "R",
     "isIncumbent": false,
     "status": "active",
-    "fecId": null,
+    "fecId": "S6MT00295",
     "campaignWebsite": "https://www.almeforsenate.com",
     "campaignFB": null,
     "campaignTW": null,
@@ -2957,6 +3485,54 @@
         "totalDisbursments": 0,
         "cashOnHand": 550,
         "coverageEndDate": "2025-12-31",
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": true,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
         "isThisCandidate": false,
         "candidateStatus": "active"
       }
@@ -3117,6 +3693,30 @@
         "party": "D",
         "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
         "candidateId": "H6MT01145",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
         "totalReceipts": 0,
         "totalDisbursments": 0,
         "cashOnHand": 0,
@@ -3336,6 +3936,18 @@
         "totalDisbursments": 4007.65,
         "cashOnHand": 786.82,
         "coverageEndDate": "2025-12-31",
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Patrick Mccracken",
+        "party": "L",
+        "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+        "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
         "isThisCandidate": false,
         "candidateStatus": "active"
       }
@@ -3659,7 +4271,7 @@
     "party": "D",
     "isIncumbent": false,
     "status": "active",
-    "fecId": null,
+    "fecId": "S6MT00303",
     "campaignWebsite": "https://www.christopherkehoe.com",
     "campaignFB": null,
     "campaignTW": null,
@@ -3797,6 +4409,54 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": true,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -3834,7 +4494,7 @@
     "party": "R",
     "isIncumbent": false,
     "status": "active",
-    "fecId": null,
+    "fecId": "H6MT01160",
     "campaignWebsite": "https://christijacobsen.com",
     "campaignFB": null,
     "campaignTW": null,
@@ -3953,6 +4613,30 @@
         "cashOnHand": 0,
         "coverageEndDate": null,
         "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": true,
         "candidateStatus": "active"
       }
     ],
@@ -4143,6 +4827,54 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -4281,6 +5013,18 @@
         "totalDisbursments": 4007.65,
         "cashOnHand": 786.82,
         "coverageEndDate": "2025-12-31",
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Patrick Mccracken",
+        "party": "L",
+        "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+        "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
         "isThisCandidate": false,
         "candidateStatus": "active"
       }
@@ -4622,6 +5366,54 @@
         "coverageEndDate": "2025-12-31",
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -4779,6 +5571,30 @@
         "coverageEndDate": null,
         "isThisCandidate": false,
         "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
       }
     ],
     "questionnaire": {
@@ -4816,7 +5632,7 @@
     "party": "R",
     "isIncumbent": false,
     "status": "active",
-    "fecId": null,
+    "fecId": "H6MT01152",
     "campaignWebsite": "https://flintformontana.com",
     "campaignFB": null,
     "campaignTW": null,
@@ -4930,6 +5746,30 @@
         "party": "D",
         "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
         "candidateId": "H6MT01145",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": false,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null,
+        "isThisCandidate": true,
+        "candidateStatus": "active"
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
         "totalReceipts": 0,
         "totalDisbursments": 0,
         "cashOnHand": 0,

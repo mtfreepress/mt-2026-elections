@@ -111,11 +111,11 @@ candidates.forEach(candidate => {
     // currently for federal candidates only
     if (race.finance) {
         candidate.finance = race.finance.map(competitor => {
-            const match = candidates.find(d => d.displayName === competitor.displayName)
+            const match = candidates.find(d => d.fecId === competitor.candidateId)
             return {
                 ...competitor,
                 isThisCandidate: (competitor.displayName === candidate.displayName),
-                candidateStatus: match.status
+                candidateStatus: match ? match.status : null
             }
         })
     } else {

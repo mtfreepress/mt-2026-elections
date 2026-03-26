@@ -138,6 +138,46 @@
         "totalDisbursments": 0,
         "cashOnHand": 550,
         "coverageEndDate": "2025-12-31"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
       }
     ],
     "inactiveCandidates": []
@@ -264,6 +304,26 @@
         "totalDisbursments": 0,
         "cashOnHand": 0,
         "coverageEndDate": null
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
       }
     ],
     "inactiveCandidates": []
@@ -361,6 +421,16 @@
         "totalDisbursments": 4007.65,
         "cashOnHand": 786.82,
         "coverageEndDate": "2025-12-31"
+      },
+      {
+        "displayName": "Patrick Mccracken",
+        "party": "L",
+        "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+        "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
       }
     ],
     "inactiveCandidates": []
