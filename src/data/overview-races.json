@@ -6,74 +6,121 @@
     "campaignFinanceAgency": "fec",
     "category": "us-senate",
     "description": "One of Montana's two U.S. Senate seats, elected with a statewide vote. Elected to a six-year term.",
-    "note": "Montana's other U.S. Senator, Steve Daines, is up for re-election in 2026.",
+    "note": null,
     "candidates": [
       {
-        "slug": "jon-tester",
-        "displayName": "Jon Tester",
-        "summaryLine": "Incumbent U.S. senator",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 20
-      },
-      {
-        "slug": "tim-sheehy",
-        "displayName": "Tim Sheehy",
-        "summaryLine": "Bozeman businessman",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 26
-      },
-      {
-        "slug": "sid-daoud",
-        "displayName": "Sid Daoud",
-        "summaryLine": "Kalispell city councilman",
+        "slug": "kyle-austin",
+        "displayName": "Kyle Austin",
+        "summaryLine": null,
         "party": "L",
         "hasResponses": true,
         "numMTFParticles": 0
       },
       {
-        "slug": "robert-barb",
-        "displayName": "Robert Barb",
-        "summaryLine": "Billings resident",
-        "party": "G",
-        "hasResponses": false,
-        "numMTFParticles": 2
+        "slug": "michael-hummert",
+        "displayName": "Michael Hummert",
+        "summaryLine": null,
+        "party": "D",
+        "hasResponses": true,
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "alani-bankhead",
+        "displayName": "Alani Bankhead",
+        "summaryLine": null,
+        "party": "D",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "michael-black-wolf",
+        "displayName": "Michael Black Wolf",
+        "summaryLine": null,
+        "party": "D",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "reilly-neill",
+        "displayName": "Reilly Neill",
+        "summaryLine": null,
+        "party": "D",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "lee-calhoun",
+        "displayName": "Lee Calhoun",
+        "summaryLine": null,
+        "party": "R",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "tom-jandron",
+        "displayName": "Tom Jandron",
+        "summaryLine": null,
+        "party": "L",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "christopher-kehoe",
+        "displayName": "Christopher Kehoe",
+        "summaryLine": null,
+        "party": "D",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "charles-walking-child",
+        "displayName": "Charles Walking Child",
+        "summaryLine": null,
+        "party": "R",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "kurt-alme",
+        "displayName": "Kurt Alme",
+        "summaryLine": null,
+        "party": "R",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "seth-bodnar",
+        "displayName": "Seth Bodnar",
+        "summaryLine": null,
+        "party": "IND",
+        "numMTFParticles": 0
       }
     ],
     "finance": [
       {
-        "displayName": "Jon Tester",
+        "displayName": "Michael Black Wolf",
         "party": "D",
-        "candidateCommitteeName": "MONTANANS FOR TESTER",
-        "candidateId": "S6MT00162",
-        "totalReceipts": 88163151,
-        "totalDisbursments": 84499372.13,
-        "cashOnHand": 4144352.74,
-        "coverageEndDate": "2024-10-16"
+        "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+        "candidateId": "S6MT00246",
+        "totalReceipts": 13598,
+        "totalDisbursments": 4922.16,
+        "cashOnHand": 8675.84,
+        "coverageEndDate": "2025-12-31"
       },
       {
-        "displayName": "Tim Sheehy",
-        "party": "R",
-        "candidateCommitteeName": "TIM SHEEHY FOR MONTANA",
-        "candidateId": "S4MT00183",
-        "totalReceipts": 23791442.11,
-        "totalDisbursments": 19753617.34,
-        "cashOnHand": 4037824.77,
-        "coverageEndDate": "2024-09-30"
+        "displayName": "Michael Hummert",
+        "party": "D",
+        "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+        "candidateId": "S4MT00217",
+        "totalReceipts": 10000,
+        "totalDisbursments": 200,
+        "cashOnHand": 10544.73,
+        "coverageEndDate": "2025-12-31"
       },
       {
-        "displayName": "Brad Johnson",
-        "party": "R",
-        "candidateCommitteeName": "BRAD FOR MONTANA",
-        "candidateId": "S2MT00062",
-        "totalReceipts": 43094,
-        "totalDisbursments": 43094,
-        "cashOnHand": 0,
-        "coverageEndDate": "2024-06-30"
+        "displayName": "Alani Bankhead",
+        "party": "D",
+        "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+        "candidateId": "S6MT00253",
+        "totalReceipts": 5318.08,
+        "totalDisbursments": 2000,
+        "cashOnHand": 4478.08,
+        "coverageEndDate": "2025-12-31"
       },
       {
-        "displayName": "Charles Walkingchild",
+        "displayName": "Charles Walking Child",
         "party": "R",
         "candidateCommitteeName": "CHARLES WALKINGCHILD",
         "candidateId": "S4MT00209",
@@ -81,42 +128,59 @@
         "totalDisbursments": 0,
         "cashOnHand": 0,
         "coverageEndDate": null
+      },
+      {
+        "displayName": "Kyle Austin",
+        "party": "L",
+        "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+        "candidateId": "S6MT00261",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 550,
+        "coverageEndDate": "2025-12-31"
+      },
+      {
+        "displayName": "Seth Bodnar",
+        "party": "IND",
+        "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+        "candidateId": "S6MT00287",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Kurt Alme",
+        "party": "R",
+        "candidateCommitteeName": "ALME FOR SENATE",
+        "candidateId": "S6MT00295",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Christopher Kehoe",
+        "party": "D",
+        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+        "candidateId": "S6MT00303",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Tom Jandron",
+        "party": "L",
+        "candidateCommitteeName": "JANDRON 4 US SENATE",
+        "candidateId": "S6MT00311",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
       }
     ],
-    "inactiveCandidates": [
-      {
-        "slug": "brad-johnson",
-        "displayName": "Brad Johnson",
-        "summaryLine": "Former MT secretary of state",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      },
-      {
-        "slug": "michael-hummert",
-        "displayName": "Michael Hummert",
-        "summaryLine": "U.S. Navy veteran",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "charles-walkingchild",
-        "displayName": "Charles Walkingchild",
-        "summaryLine": "Helena environmental contractor",
-        "party": "R",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      },
-      {
-        "slug": "michael-downey",
-        "displayName": "Michael Downey",
-        "summaryLine": "Helena resident",
-        "party": "G",
-        "hasResponses": false,
-        "numMTFParticles": 1
-      }
-    ]
+    "inactiveCandidates": []
   },
   {
     "raceSlug": "us-house-1",
@@ -125,83 +189,144 @@
     "campaignFinanceAgency": "fec",
     "category": "us-house",
     "description": "Western Montana representative in Congress. District includes Missoula, Bozeman, Kalispell and Butte. Elected to a two-year term.",
-    "note": "Prior to 2022, Montana was represented by a single congressman elected on a statewide basis.",
+    "note": null,
     "candidates": [
       {
-        "slug": "ryan-zinke",
-        "displayName": "Ryan Zinke",
-        "summaryLine": "Incumbent U.S. representative",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 13
+        "slug": "russell-cleveland",
+        "displayName": "Russell Cleveland",
+        "summaryLine": null,
+        "party": "D",
+        "numMTFParticles": 0
       },
       {
-        "slug": "monica-tranel",
-        "displayName": "Monica Tranel",
-        "summaryLine": "Missoula attorney",
+        "slug": "matt-rains",
+        "displayName": "Matt Rains",
+        "summaryLine": null,
+        "party": "D",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "ryan-busse",
+        "displayName": "Ryan Busse",
+        "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 8
+        "numMTFParticles": 0
       },
       {
-        "slug": "dennis-hayes",
-        "displayName": "Dennis Hayes",
-        "summaryLine": "Townsend resident",
-        "party": "L",
+        "slug": "sam-forstag",
+        "displayName": "Sam Forstag",
+        "summaryLine": null,
+        "party": "D",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "al-doc-olszewski",
+        "displayName": "Al 'Doc' Olszewski",
+        "summaryLine": null,
+        "party": "R",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "aaron-flint",
+        "displayName": "Aaron Flint",
+        "summaryLine": null,
+        "party": "R",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "christi-jacobsen",
+        "displayName": "Christi Jacobsen",
+        "summaryLine": null,
+        "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 2
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "ray-curtis",
+        "displayName": "Ray Curtis",
+        "summaryLine": null,
+        "party": "R",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "nick-sheedy",
+        "displayName": "Nick Sheedy",
+        "summaryLine": null,
+        "party": "L",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "kimberly-a-persico",
+        "displayName": "Kimberly A  Persico",
+        "summaryLine": null,
+        "party": "IND",
+        "numMTFParticles": 0
       }
     ],
     "finance": [
       {
-        "displayName": "Ryan Zinke",
-        "party": "R",
-        "candidateCommitteeName": "ZINKE FOR CONGRESS",
-        "candidateId": "H4MT01041",
-        "totalReceipts": 9366073.48,
-        "totalDisbursments": 7601939.2,
-        "cashOnHand": 1874182.4,
-        "coverageEndDate": "2024-10-16"
-      },
-      {
-        "displayName": "Monica Tranel",
+        "displayName": "Russell Cleveland",
         "party": "D",
-        "candidateCommitteeName": "MONICA TRANEL FOR MONTANA",
-        "candidateId": "H2MT02092",
-        "totalReceipts": 5274798.23,
-        "totalDisbursments": 3907155.41,
-        "cashOnHand": 1377528.47,
-        "coverageEndDate": "2024-09-30"
+        "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+        "candidateId": "H6MT01103",
+        "totalReceipts": 195894.87,
+        "totalDisbursments": 147614.39,
+        "cashOnHand": 48280.48,
+        "coverageEndDate": "2025-12-31"
       },
       {
-        "displayName": "Mary Todd",
-        "party": "R",
-        "candidateCommitteeName": "MARY TODD FOR MONTANA - 2024",
-        "candidateId": "H2MT00112",
-        "totalReceipts": 122732.43,
-        "totalDisbursments": 122732.43,
+        "displayName": "Matt Rains",
+        "party": "D",
+        "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+        "candidateId": "H6MT01129",
+        "totalReceipts": 113774.15,
+        "totalDisbursments": 67362.72,
+        "cashOnHand": 46411.43,
+        "coverageEndDate": "2025-12-31"
+      },
+      {
+        "displayName": "Sam Forstag",
+        "party": "D",
+        "candidateCommitteeName": "SAM FOR MONTANA",
+        "candidateId": "H6MT01137",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
         "cashOnHand": 0,
-        "coverageEndDate": "2024-06-30"
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Ryan Busse",
+        "party": "D",
+        "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
+        "candidateId": "H6MT01145",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Aaron Flint",
+        "party": "R",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Christi Jacobsen",
+        "party": "R",
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
       }
     ],
-    "inactiveCandidates": [
-      {
-        "slug": "mary-todd",
-        "displayName": "Mary Todd",
-        "summaryLine": "Kalispell pastor",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 2
-      },
-      {
-        "slug": "ernie-noble",
-        "displayName": "Ernie Noble",
-        "summaryLine": "Bozeman resident",
-        "party": "L",
-        "hasResponses": false,
-        "numMTFParticles": 0
-      }
-    ]
+    "inactiveCandidates": []
   },
   {
     "raceSlug": "us-house-2",
@@ -210,23 +335,50 @@
     "campaignFinanceAgency": "fec",
     "category": "us-house",
     "description": "Eastern Montana representative in Congress. District includes Billings, Great Falls, Helena, Havre and Miles City. Elected to a two-year term.",
-    "note": "Two additional candidates, John Metzger and Reilly Neill, have notified the Montana Secretary of State that they are mounting write-in campaigns for the eastern congressional district this year. Prior to 2022, Montana was represented by a single congressman elected on a statewide basis.",
+    "note": null,
     "candidates": [
+      {
+        "slug": "brian-j-miller",
+        "displayName": "Brian J Miller",
+        "summaryLine": null,
+        "party": "D",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "sam-lux",
+        "displayName": "Sam Lux",
+        "summaryLine": null,
+        "party": "D",
+        "numMTFParticles": 0
+      },
       {
         "slug": "troy-downing",
         "displayName": "Troy Downing",
-        "summaryLine": "State auditor",
+        "summaryLine": null,
         "party": "R",
         "hasResponses": false,
-        "numMTFParticles": 5
+        "numMTFParticles": 0
       },
       {
-        "slug": "john-driscoll",
-        "displayName": "John Driscoll",
-        "summaryLine": "Former public service commissioner",
+        "slug": "jonathan-windy-boy",
+        "displayName": "Jonathan Windy Boy",
+        "summaryLine": null,
         "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 5
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "patrick-mccracken",
+        "displayName": "Patrick Mccracken",
+        "summaryLine": null,
+        "party": "L",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "michael-d-eisenhauer",
+        "displayName": "Michael D Eisenhauer",
+        "summaryLine": null,
+        "party": "IND",
+        "numMTFParticles": 0
       }
     ],
     "finance": [
@@ -235,645 +387,150 @@
         "party": "R",
         "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
         "candidateId": "H4MT02098",
-        "totalReceipts": 2727359.44,
-        "totalDisbursments": 2522821.01,
-        "cashOnHand": 204538.43,
-        "coverageEndDate": "2024-10-16"
+        "totalReceipts": 1220469.73,
+        "totalDisbursments": 895761.08,
+        "cashOnHand": 436239.15,
+        "coverageEndDate": "2025-12-31"
       },
       {
-        "displayName": "Elsie Arntzen",
-        "party": "R",
-        "candidateCommitteeName": "ELSIE ARNTZEN FOR CONGRESS",
-        "candidateId": "H4MT01058",
-        "totalReceipts": 893087.96,
-        "totalDisbursments": 893087.96,
-        "cashOnHand": 0,
-        "coverageEndDate": "2024-09-09"
+        "displayName": "Michael D Eisenhauer",
+        "party": "IND",
+        "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
+        "candidateId": "H6MT02168",
+        "totalReceipts": 201100,
+        "totalDisbursments": 4255.52,
+        "cashOnHand": 196844.48,
+        "coverageEndDate": "2025-12-31"
       },
       {
-        "displayName": "Denny Rehberg",
-        "party": "R",
-        "candidateCommitteeName": "MONTANANS FOR REHBERG 2024",
-        "candidateId": "H0MT00033",
-        "totalReceipts": 631425.21,
-        "totalDisbursments": 631425.21,
-        "cashOnHand": 0,
-        "coverageEndDate": "2024-09-30"
-      },
-      {
-        "displayName": "Stacy Zinn",
-        "party": "R",
-        "candidateCommitteeName": "ZINN FOR MONTANA",
-        "candidateId": "H4MT02106",
-        "totalReceipts": 154182.2,
-        "totalDisbursments": 151013.48,
-        "cashOnHand": 3168.72,
-        "coverageEndDate": "2024-09-30"
-      },
-      {
-        "displayName": "Ed Walker",
-        "party": "R",
-        "candidateCommitteeName": "WALKER FOR MT",
-        "candidateId": "H8MT01190",
-        "totalReceipts": 113963.42,
-        "totalDisbursments": 109495.54,
-        "cashOnHand": 4467.88,
-        "coverageEndDate": "2024-10-16"
-      },
-      {
-        "displayName": "Steve Held",
+        "displayName": "Brian J Miller",
         "party": "D",
-        "candidateCommitteeName": "MONTANA HELD",
-        "candidateId": "H4MT02148",
-        "totalReceipts": 96204,
-        "totalDisbursments": 96204,
-        "cashOnHand": 0,
-        "coverageEndDate": "2024-08-11"
+        "candidateCommitteeName": "MILLER FOR CONGRESS",
+        "candidateId": "H6MT02150",
+        "totalReceipts": 10223.97,
+        "totalDisbursments": 6078.5,
+        "cashOnHand": 4640.47,
+        "coverageEndDate": "2025-12-31"
       },
       {
-        "displayName": "Joel Krautter",
-        "party": "R",
-        "candidateCommitteeName": "JOEL KRAUTTER FOR MONTANA",
-        "candidateId": "H4MT02064",
-        "totalReceipts": 88078.89,
-        "totalDisbursments": 88078.89,
-        "cashOnHand": 0,
-        "coverageEndDate": "2024-09-24"
-      },
-      {
-        "displayName": "Kevin Hamm",
+        "displayName": "Sam Lux",
         "party": "D",
-        "candidateCommitteeName": "KEVIN HAMM FOR CONGRESS",
-        "candidateId": "H4MT02031",
-        "totalReceipts": 71856.39,
-        "totalDisbursments": 71856.39,
+        "candidateCommitteeName": "LUX FOR MONTANA",
+        "candidateId": "H6MT02143",
+        "totalReceipts": 4617.52,
+        "totalDisbursments": 4007.65,
+        "cashOnHand": 786.82,
+        "coverageEndDate": "2025-12-31"
+      },
+      {
+        "displayName": "Patrick Mccracken",
+        "party": "L",
+        "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+        "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
         "cashOnHand": 0,
-        "coverageEndDate": "2024-08-30"
-      },
-      {
-        "displayName": "Ming Cabrera",
-        "party": "D",
-        "candidateCommitteeName": "MING FOR CONGRESS",
-        "candidateId": "H4MT02056",
-        "totalReceipts": 61522,
-        "totalDisbursments": 61522,
-        "cashOnHand": 0,
-        "coverageEndDate": "2024-09-30"
-      },
-      {
-        "displayName": "Ken Bogner",
-        "party": "R",
-        "candidateCommitteeName": "KEN BOGNER FOR CONGRESS",
-        "candidateId": "H4MT02114",
-        "totalReceipts": 55442.49,
-        "totalDisbursments": 55442.49,
-        "cashOnHand": 0,
-        "coverageEndDate": "2024-09-30"
-      },
-      {
-        "displayName": "Ric Holden",
-        "party": "R",
-        "candidateCommitteeName": "RIC HOLDEN FOR MONTANA",
-        "candidateId": "H4MT02072",
-        "totalReceipts": 51720.86,
-        "totalDisbursments": 50654.15,
-        "cashOnHand": 1067,
-        "coverageEndDate": "2024-07-01"
-      },
-      {
-        "displayName": "Kyle Austin",
-        "party": "R",
-        "candidateCommitteeName": "AUSTIN FOR CONGRESS",
-        "candidateId": "H2MT02175",
-        "totalReceipts": 4550,
-        "totalDisbursments": 4500,
-        "cashOnHand": 550,
-        "coverageEndDate": "2024-09-30"
+        "coverageEndDate": null
       }
     ],
-    "inactiveCandidates": [
+    "inactiveCandidates": []
+  },
+  {
+    "raceSlug": "psc-1",
+    "displayName": "Public Service Commission (Seat 1)",
+    "level": "Public Service Commission",
+    "category": "psc",
+    "description": "One of five seats on the state's utility regulation board, elected to a four-year term. The district spans eastern Montana, including Billings and Miles City.",
+    "note": null,
+    "candidates": [
       {
-        "slug": "elsie-arntzen",
-        "displayName": "Elsie Arntzen",
-        "summaryLine": "State superintendent of public instruction",
+        "slug": "jeff-pattison",
+        "displayName": "Jeff Pattison",
+        "summaryLine": null,
         "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 5
-      },
-      {
-        "slug": "kyle-austin",
-        "displayName": "Kyle Austin",
-        "summaryLine": "Billings pharmacist",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 2
-      },
-      {
-        "slug": "ken-bogner",
-        "displayName": "Ken Bogner",
-        "summaryLine": "State senator",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      },
-      {
-        "slug": "ric-holden",
-        "displayName": "Ric Holden",
-        "summaryLine": "Former state senator",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 2
-      },
-      {
-        "slug": "joel-krautter",
-        "displayName": "Joel Krautter",
-        "summaryLine": "Former state representative",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 3
-      },
-      {
-        "slug": "denny-rehberg",
-        "displayName": "Denny Rehberg",
-        "summaryLine": "Former U.S. congressman",
-        "party": "R",
-        "hasResponses": false,
-        "numMTFParticles": 2
-      },
-      {
-        "slug": "ed-walker",
-        "displayName": "Ed Walker",
-        "summaryLine": "Former state Senator",
-        "party": "R",
-        "hasResponses": false,
         "numMTFParticles": 0
       },
       {
-        "slug": "stacy-zinn",
-        "displayName": "Stacy Zinn",
-        "summaryLine": "Former Drug Enforcement Administration official",
+        "slug": "jeremy-trebas",
+        "displayName": "Jeremy Trebas",
+        "summaryLine": null,
         "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 2
+        "numMTFParticles": 0
       },
       {
-        "slug": "ming-cabrera",
-        "displayName": "Ming Cabrera",
-        "summaryLine": "Billings resident",
+        "slug": "angeline-cheek",
+        "displayName": "Angeline Cheek",
+        "summaryLine": null,
         "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 4
-      },
-      {
-        "slug": "kevin-hamm",
-        "displayName": "Kevin Hamm",
-        "summaryLine": "Helena resident",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 4
-      },
-      {
-        "slug": "steve-held",
-        "displayName": "Steve Held",
-        "summaryLine": "Broadus resident",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 3
-      }
-    ]
-  },
-  {
-    "raceSlug": "governor",
-    "displayName": "Governor",
-    "level": "State Officials",
-    "category": "governor",
-    "description": "Montana's chief executive. The governor appoints the heads of most agencies, signs legislation into law and acts as state government's most visible elected official. Elected to a four-year term via a statewide election.",
-    "note": null,
-    "candidates": [
-      {
-        "slug": "greg-gianforte",
-        "displayName": "Greg Gianforte",
-        "summaryLine": "Incumbent Montana governor",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 24
-      },
-      {
-        "slug": "ryan-busse",
-        "displayName": "Ryan Busse",
-        "summaryLine": "Former firearms sales executive",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 11
-      },
-      {
-        "slug": "kaiser-leib",
-        "displayName": "Kaiser Leib",
-        "summaryLine": "Tech entrepreneur",
-        "party": "L",
-        "hasResponses": true,
-        "numMTFParticles": 2
-      }
-    ],
-    "finance": null,
-    "inactiveCandidates": [
-      {
-        "slug": "tanner-smith",
-        "displayName": "Tanner Smith",
-        "summaryLine": "State representative",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 4
-      },
-      {
-        "slug": "jim-hunt",
-        "displayName": "Jim Hunt",
-        "summaryLine": "Helena attorney",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      }
-    ]
-  },
-  {
-    "raceSlug": "secretary-of-state",
-    "displayName": "Secretary of State",
-    "level": "State Officials",
-    "category": "sos",
-    "description": "Montana's top election official. The secretary of state also oversees business registration and maintains many state records. Elected to a four-year term via a statewide election.",
-    "note": null,
-    "candidates": [
-      {
-        "slug": "christi-jacobsen",
-        "displayName": "Christi Jacobsen",
-        "summaryLine": "Incumbent secretary of state",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 8
-      },
-      {
-        "slug": "jesse-mullen",
-        "displayName": "Jesse Mullen",
-        "summaryLine": "Deer Lodge newspaper owner",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 3
-      },
-      {
-        "slug": "john-lamb",
-        "displayName": "John Lamb",
-        "summaryLine": "Libertarian activist",
-        "party": "L",
-        "hasResponses": false,
-        "numMTFParticles": 1
+        "numMTFParticles": 0
       }
     ],
     "finance": null,
     "inactiveCandidates": []
   },
   {
-    "raceSlug": "attorney-general",
-    "displayName": "Attorney General",
-    "level": "State Officials",
-    "category": "attorney-general",
-    "description": "The state's top law enforcement officer and prosecutor. The head of the state Department of Justice, the AG also represents Montana in litigation and leads the Montana Highway Patrol. Elected to a four-year term via a statewide election.",
+    "raceSlug": "psc-5",
+    "displayName": "Public Service Commission (Seat 5)",
+    "level": "Public Service Commission",
+    "category": "psc",
+    "description": "One of five seats on the state's utility regulation board, elected to a four-year term. The district spans western Montana, including Missoula and Kalispell.",
     "note": null,
     "candidates": [
       {
-        "slug": "austin-knudsen",
-        "displayName": "Austin Knudsen",
-        "summaryLine": "Incumbent attorney general",
+        "slug": "david-sanders",
+        "displayName": "David Sanders",
+        "summaryLine": null,
         "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 14
-      },
-      {
-        "slug": "ben-alke",
-        "displayName": "Ben Alke",
-        "summaryLine": "Bozeman attorney",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 3
-      }
-    ],
-    "finance": null,
-    "inactiveCandidates": [
-      {
-        "slug": "logan-olson",
-        "displayName": "Logan Olson",
-        "summaryLine": "Daniels County attorney",
-        "party": "R",
-        "hasResponses": false,
         "numMTFParticles": 0
-      }
-    ]
-  },
-  {
-    "raceSlug": "superintendent",
-    "displayName": "Superintendent of Public Instruction",
-    "level": "State Officials",
-    "category": "superintendent",
-    "description": "The state’s top education official. Elected to a four-year term via a statewide election.",
-    "note": null,
-    "candidates": [
-      {
-        "slug": "susie-hedalen",
-        "displayName": "Susie Hedalen",
-        "summaryLine": "Townsend School District superintendent",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 4
       },
       {
-        "slug": "shannon-obrien",
-        "displayName": "Shannon O'Brien",
-        "summaryLine": "State senator",
+        "slug": "annie-bukacek",
+        "displayName": "Annie Bukacek",
+        "summaryLine": null,
+        "party": "R",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "joe-dooling",
+        "displayName": "Joe Dooling",
+        "summaryLine": null,
+        "party": "R",
+        "numMTFParticles": 0
+      },
+      {
+        "slug": "kevin-hamm",
+        "displayName": "Kevin Hamm",
+        "summaryLine": null,
         "party": "D",
         "hasResponses": true,
         "numMTFParticles": 0
       }
     ],
     "finance": null,
-    "inactiveCandidates": [
-      {
-        "slug": "sharyl-allen",
-        "displayName": "Sharyl Allen",
-        "summaryLine": "Former Harrison Public School principal/superintendent",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 2
-      }
-    ]
+    "inactiveCandidates": []
   },
   {
-    "raceSlug": "state-auditor",
-    "displayName": "State Auditor",
-    "level": "State Officials",
-    "category": "auditor",
-    "description": "Montana’s Commissioner of Securities and Insurance. Regulates the insurance industry and investigates fraud. Elected to a four-year term via a statewide election.",
-    "note": null,
-    "candidates": [
-      {
-        "slug": "james-brown",
-        "displayName": "James Brown",
-        "summaryLine": "Public Service Commission president",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 4
-      },
-      {
-        "slug": "john-repke",
-        "displayName": "John Repke",
-        "summaryLine": "Retired business executive",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      }
-    ],
-    "finance": null,
-    "inactiveCandidates": [
-      {
-        "slug": "john-jay-willoughby",
-        "displayName": "John Jay Willoughby",
-        "summaryLine": "Helena-area insurance salesman",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      }
-    ]
-  },
-  {
-    "raceSlug": "supco-chief-justice",
-    "displayName": "State Supreme Court (Chief Justice)",
+    "raceSlug": "supco-4",
+    "displayName": "State Supreme Court (Seat 4)",
     "level": "Montana Supreme Court",
-    "category": "supco-chief",
-    "description": "The chief of the state's high court, which takes appeals from lower courts and administers the Montana legal system. Elected to an eight-year term via a statewide election.",
-    "note": null,
-    "candidates": [
-      {
-        "slug": "jerry-lynch",
-        "displayName": "Jerry Lynch",
-        "summaryLine": "Former federal magistrate judge",
-        "party": "NP",
-        "hasResponses": true,
-        "numMTFParticles": 4
-      },
-      {
-        "slug": "cory-swanson",
-        "displayName": "Cory Swanson",
-        "summaryLine": "Broadwater County attorney",
-        "party": "NP",
-        "hasResponses": true,
-        "numMTFParticles": 4
-      }
-    ],
-    "finance": null,
-    "inactiveCandidates": [
-      {
-        "slug": "doug-marshall",
-        "displayName": "Doug Marshall",
-        "summaryLine": "Carbon County attorney",
-        "party": "NP",
-        "hasResponses": false,
-        "numMTFParticles": 1
-      }
-    ]
-  },
-  {
-    "raceSlug": "supco-3",
-    "displayName": "State Supreme Court (Seat 3)",
-    "level": "Montana Supreme Court",
-    "category": "supco-3",
+    "category": "supco-4",
     "description": "One of seven seats on the state's high court, which takes appeals from lower courts and administers the Montana legal system. Elected to an eight-year term via a statewide election.",
     "note": null,
     "candidates": [
       {
-        "slug": "katherine-bidegaray",
-        "displayName": "Katherine Bidegaray",
-        "summaryLine": "State district court judge",
-        "party": "NP",
-        "hasResponses": true,
-        "numMTFParticles": 2
-      },
-      {
         "slug": "dan-wilson",
         "displayName": "Dan Wilson",
-        "summaryLine": "State district court judge",
-        "party": "NP",
-        "hasResponses": true,
-        "numMTFParticles": 2
-      }
-    ],
-    "finance": null,
-    "inactiveCandidates": [
-      {
-        "slug": "jerry-oneil",
-        "displayName": "Jerry O'Neil",
-        "summaryLine": "Former state senator",
-        "party": "NP",
+        "summaryLine": null,
+        "party": "NON",
         "hasResponses": true,
         "numMTFParticles": 0
-      }
-    ]
-  },
-  {
-    "raceSlug": "clerk-of-court",
-    "displayName": "Clerk of the State Supreme Court",
-    "level": "Montana Supreme Court",
-    "category": "supco-clerk",
-    "description": "Maintains Montana Supreme Court records. Elected to a six-year term via a statewide election.",
-    "note": null,
-    "candidates": [
-      {
-        "slug": "bowen-greenwood",
-        "displayName": "Bowen Greenwood",
-        "summaryLine": "Incumbent Montana Supreme Court clerk",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 1
       },
       {
-        "slug": "erin-farris-olsen",
-        "displayName": "Erin Farris-Olsen",
-        "summaryLine": "Helena attorney",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      },
-      {
-        "slug": "roger-roots",
-        "displayName": "Roger Roots",
-        "summaryLine": "Libertarian attorney",
-        "party": "L",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      }
-    ],
-    "finance": null,
-    "inactiveCandidates": [
-      {
-        "slug": "jordan-ophus",
-        "displayName": "Jordan Ophus",
-        "summaryLine": "U.S. Navy veteran",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      },
-      {
-        "slug": "jason-ellsworth",
-        "displayName": "Jason Ellsworth",
-        "summaryLine": "Montana Senate president",
-        "party": "R",
-        "hasResponses": false,
-        "numMTFParticles": 1
-      }
-    ]
-  },
-  {
-    "raceSlug": "psc-2",
-    "displayName": "Public Service Commission (Seat 2)",
-    "level": "Public Service Commission",
-    "category": "psc",
-    "description": "One of five seats on the state's utility regulation board, elected to a four-year term. The district spans south-central Montana, including parts of Bozeman and Billings.",
-    "note": null,
-    "candidates": [
-      {
-        "slug": "brad-molnar",
-        "displayName": "Brad Molnar",
-        "summaryLine": "State senator",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 2
-      },
-      {
-        "slug": "susan-bilo",
-        "displayName": "Susan Bilo",
-        "summaryLine": "Bozeman renewable energy professional",
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      }
-    ],
-    "finance": null,
-    "inactiveCandidates": [
-      {
-        "slug": "kirk-bushman",
-        "displayName": "Kirk Bushman",
-        "summaryLine": "Mechanical engineer",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      }
-    ]
-  },
-  {
-    "raceSlug": "psc-3",
-    "displayName": "Public Service Commission (Seat 3)",
-    "level": "Public Service Commission",
-    "category": "psc",
-    "description": "One of five seats on the state's utility regulation board, elected to a four-year term. The district spans central and southwest Montana, including Butte, Dillon, Lewistown, southern Ravalli County and parts of Bozeman and Helena.",
-    "note": null,
-    "candidates": [
-      {
-        "slug": "jeff-welborn",
-        "displayName": "Jeff Welborn",
-        "summaryLine": "State senator",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 2
-      },
-      {
-        "slug": "leonard-williams",
-        "displayName": "Leonard Williams",
-        "summaryLine": "Butte electrician and labor organizer",
-        "party": "D",
-        "hasResponses": false,
-        "numMTFParticles": 1
-      }
-    ],
-    "finance": null,
-    "inactiveCandidates": [
-      {
-        "slug": "rob-elwood",
-        "displayName": "Rob Elwood",
-        "summaryLine": "Harlowton IT professional",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      },
-      {
-        "slug": "suzzann-nordwick",
-        "displayName": "Suzzann Nordwick",
-        "summaryLine": "Metallurgical engineer",
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 1
-      }
-    ]
-  },
-  {
-    "raceSlug": "psc-4",
-    "displayName": "Public Service Commission (Seat 4)",
-    "level": "Public Service Commission",
-    "category": "psc",
-    "description": "One of five seats on the state's utility regulation board, elected to a four-year term. The district spans northwest Montana, including parts of Missoula and Kalispell.",
-    "note": null,
-    "candidates": [
-      {
-        "slug": "jennifer-fielder",
-        "displayName": "Jennifer Fielder",
-        "summaryLine": "Incumbent public service commissioner",
-        "party": "R",
-        "hasResponses": false,
-        "numMTFParticles": 2
-      },
-      {
-        "slug": "elena-evans",
-        "displayName": "Elena Evans",
-        "summaryLine": "Missoula County environmental health manager",
-        "party": "I",
-        "hasResponses": true,
-        "numMTFParticles": 2
+        "slug": "amy-eddy",
+        "displayName": "Amy Eddy",
+        "summaryLine": null,
+        "party": "NON",
+        "numMTFParticles": 0
       }
     ],
     "finance": null,

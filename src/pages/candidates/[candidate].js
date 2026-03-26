@@ -88,15 +88,15 @@ export default function CandidatePage({ pageData, votingFAQ }) {
         raceDisplayName,
         primaryResults
     } = pageData
-    const pageDescription = `${displayName} (${party}) is running as a candidate for ${raceDisplayName} in Montana's 2024 election. See biographic details, issue positions and information on how to vote.`
+    const pageDescription = `${displayName} (${party}) is running as a candidate for ${raceDisplayName} in Montana's 2026 election. See biographic details, issue positions and information on how to vote.`
     return (
         <Layout pageCss={candidatePageStyle}
             relativePath={slug}
-            pageTitle={`${displayName} | ${raceDisplayName} | 2024 Montana Election Guide`}
+            pageTitle={`${displayName} | ${raceDisplayName} | 2026 Montana Election Guide`}
             pageDescription={pageDescription}
-            siteSeoTitle={`${displayName} | ${raceDisplayName} | 2024 Montana Election Guide`}
+            siteSeoTitle={`${displayName} | ${raceDisplayName} | 2026 Montana Election Guide`}
             seoDescription={pageDescription}
-            socialTitle={`${displayName} | 2024 Montana Free Press Election Guide`}
+            socialTitle={`${displayName} | 2026 Montana Free Press Election Guide`}
             socialDescription={`Candidate for ${raceDisplayName}.`}
         >
             <CandidatePageSummary {...pageData} />

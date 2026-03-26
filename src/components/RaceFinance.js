@@ -6,12 +6,12 @@ import TruncatedContainer from '../design/TruncatedContainer'
 import { PARTIES } from '../lib/styles'
 import { dollarFormatResponsive } from '../lib/utils'
 
-const candidatePageUrl = candidateId => `https://www.fec.gov/data/candidate/${candidateId}/?cycle=2024&election_full=true`
+const candidatePageUrl = candidateId => `https://www.fec.gov/data/candidate/${candidateId}/?cycle=2026&election_full=true`
 
 const FEC_PAGES = {
-    'us-senate': 'https://www.fec.gov/data/elections/senate/MT/2024/',
-    'us-house-1': 'https://www.fec.gov/data/elections/house/MT/01/2024/',
-    'us-house-2': 'https://www.fec.gov/data/elections/house/MT/02/2024/',
+    'us-senate': 'https://www.fec.gov/data/elections/senate/MT/2026/',
+    'us-house-1': 'https://www.fec.gov/data/elections/house/MT/01/2026/',
+    'us-house-2': 'https://www.fec.gov/data/elections/house/MT/02/2026/',
 }
 
 const style = css`
@@ -117,7 +117,12 @@ const Row = props => {
         coverageEndDate,
     } = props
     // const candidatePageUrl = `https://www.fec.gov/data/candidate/${candidateId}/?cycle=${}&election_full=true`
-    const partyInfo = PARTIES.find(d => d.key === party)
+    const partyInfo = PARTIES.find(d => (
+        d.key === party ||
+        d.key === (party && party.toUpperCase()) ||
+        d.noun === party ||
+        d.adjective === party
+    )) || { color: '#666' }
     return <div className={`row ${isThisCandidate ? 'focus' : ''}`}
         style={{
             border: `1px solid ${partyInfo.color}`,

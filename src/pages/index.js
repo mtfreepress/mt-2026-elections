@@ -110,23 +110,23 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
 
     const selHouseDistrict = legislativeRaces.find(d => d.districtKey === selDistricts.mtHouse)
     const selSenateDistrict = legislativeRaces.find(d => d.districtKey === selDistricts.mtSenate)
-    const pageDescription = "Candidates seeking state, federal and legislative office in Montana's 2024 elections. The Montana Free press voter guide includes biographical details and issue questionnaires."
+    const pageDescription = "Candidates seeking state, federal and legislative office in Montana's 2026 elections. The Montana Free press voter guide includes biographical details and issue questionnaires."
     return (
         <Layout home pageCss={overviewStyles}
             relativePath='/'
-            pageTitle={"Montana's 2024 Candidates | 2024 Montana Election Guide"}
+            pageTitle={"Montana's 2026 Candidates | 2026 Montana Election Guide"}
             pageDescription={pageDescription}
-            siteSeoTitle={"Montana's 2024 Candidates | 2024 MTFP Election Guide"}
+            siteSeoTitle={"Montana's 2026 Candidates | 2026 MTFP Election Guide"}
             seoDescription={pageDescription}
-            socialTitle={"The MTFP 2024 Election Guide"}
-            socialDescription={"Federal, state and legislative candidates seeking Montana office in 2024."}
+            socialTitle={"The MTFP 2026 Election Guide"}
+            socialDescription={"Federal, state and legislative candidates seeking Montana office in 2026."}
         >
 
             <Markdown>{overviewLedeIn}</Markdown>
 
             <SearchForCandidate candidates={fullCandidateList} />
 
-            <AddressLookup selDistricts={selDistricts} setSelDistricts={setSelDistricts} />
+            <AddressLookup selDistricts={selDistricts} setSelDistricts={setSelDistricts} legislativeRaces={legislativeRaces} />
 
 
             <section>

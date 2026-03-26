@@ -4,30 +4,13 @@
     "finances": {
       "api_version": "1.0",
       "pagination": {
-        "count": 8,
+        "count": 11,
         "is_count_exact": true,
         "page": 1,
         "pages": 1,
         "per_page": 100
       },
       "results": [
-        {
-          "candidate_election_year": 2026,
-          "candidate_id": "S2MT00096",
-          "candidate_name": "DAINES, STEVE",
-          "candidate_pcc_id": "C00491357",
-          "candidate_pcc_name": "STEVE DAINES FOR MONTANA",
-          "cash_on_hand_end_period": 4904334.8,
-          "committee_ids": [
-            "C00491357",
-            "C00751404"
-          ],
-          "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Incumbent",
-          "party_full": "REPUBLICAN PARTY",
-          "total_disbursements": 3311751.46,
-          "total_receipts": 8108303.29
-        },
         {
           "candidate_election_year": 2026,
           "candidate_id": "S6MT00238",
@@ -39,7 +22,7 @@
             "C00892505"
           ],
           "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 136319.76,
           "total_receipts": 147227.4
@@ -55,7 +38,7 @@
             "C00919936"
           ],
           "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 4922.16,
           "total_receipts": 13598
@@ -71,7 +54,7 @@
             "C00873166"
           ],
           "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 200,
           "total_receipts": 10000
@@ -87,7 +70,7 @@
             "C00937201"
           ],
           "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 2000,
           "total_receipts": 5318.08
@@ -103,7 +86,7 @@
             "C00869545"
           ],
           "coverage_end_date": null,
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "REPUBLICAN PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
@@ -119,7 +102,7 @@
             "C00870352"
           ],
           "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "LIBERTARIAN PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
@@ -135,8 +118,72 @@
             "C00923698"
           ],
           "coverage_end_date": null,
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
+          "total_disbursements": 0,
+          "total_receipts": 0
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "S6MT00287",
+          "candidate_name": "BODNAR, SETH",
+          "candidate_pcc_id": "C00941708",
+          "candidate_pcc_name": "SETH BODNAR FOR MONTANA",
+          "cash_on_hand_end_period": 0,
+          "committee_ids": [
+            "C00941708"
+          ],
+          "coverage_end_date": null,
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "INDEPENDENT",
+          "total_disbursements": 0,
+          "total_receipts": 0
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "S6MT00295",
+          "candidate_name": "ALME, KURT",
+          "candidate_pcc_id": "C00942060",
+          "candidate_pcc_name": "ALME FOR SENATE",
+          "cash_on_hand_end_period": 0,
+          "committee_ids": [
+            "C00942060"
+          ],
+          "coverage_end_date": null,
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "REPUBLICAN PARTY",
+          "total_disbursements": 0,
+          "total_receipts": 0
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "S6MT00303",
+          "candidate_name": "KEHOE, CHRISTOPHER",
+          "candidate_pcc_id": "C00943530",
+          "candidate_pcc_name": "CHRISTOPHER KEHOE FOR SENATE LLC",
+          "cash_on_hand_end_period": 0,
+          "committee_ids": [
+            "C00943530"
+          ],
+          "coverage_end_date": null,
+          "incumbent_challenge_full": null,
+          "party_full": "DEMOCRATIC PARTY",
+          "total_disbursements": 0,
+          "total_receipts": 0
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "S6MT00311",
+          "candidate_name": "JANDRON, TOM",
+          "candidate_pcc_id": "C00944215",
+          "candidate_pcc_name": "JANDRON 4 US SENATE",
+          "cash_on_hand_end_period": 0,
+          "committee_ids": [
+            "C00944215"
+          ],
+          "coverage_end_date": null,
+          "incumbent_challenge_full": null,
+          "party_full": "LIBERTARIAN PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
         }
@@ -148,29 +195,13 @@
     "finances": {
       "api_version": "1.0",
       "pagination": {
-        "count": 5,
+        "count": 6,
         "is_count_exact": true,
         "page": 1,
         "pages": 1,
         "per_page": 100
       },
       "results": [
-        {
-          "candidate_election_year": 2026,
-          "candidate_id": "H4MT01041",
-          "candidate_name": "ZINKE, RYAN K",
-          "candidate_pcc_id": "C00778159",
-          "candidate_pcc_name": "ZINKE FOR CONGRESS",
-          "cash_on_hand_end_period": 2799244.2,
-          "committee_ids": [
-            "C00778159"
-          ],
-          "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Incumbent",
-          "party_full": "REPUBLICAN PARTY",
-          "total_disbursements": 1971880.35,
-          "total_receipts": 4090593.54
-        },
         {
           "candidate_election_year": 2026,
           "candidate_id": "H6MT01103",
@@ -182,7 +213,7 @@
             "C00902395"
           ],
           "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 147614.39,
           "total_receipts": 195894.87
@@ -198,7 +229,7 @@
             "C00924258"
           ],
           "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 67362.72,
           "total_receipts": 113774.15
@@ -214,7 +245,7 @@
             "C00932822"
           ],
           "coverage_end_date": null,
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
@@ -230,8 +261,40 @@
             "C00933473"
           ],
           "coverage_end_date": null,
-          "incumbent_challenge_full": "Challenger",
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
+          "total_disbursements": 0,
+          "total_receipts": 0
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "H6MT01152",
+          "candidate_name": "FLINT, AARON",
+          "candidate_pcc_id": "C00941575",
+          "candidate_pcc_name": "FLINT FOR MONTANA",
+          "cash_on_hand_end_period": 0,
+          "committee_ids": [
+            "C00941575"
+          ],
+          "coverage_end_date": null,
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "REPUBLICAN PARTY",
+          "total_disbursements": 0,
+          "total_receipts": 0
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "H6MT01160",
+          "candidate_name": "JACOBSEN, CHRISTI",
+          "candidate_pcc_id": "C00941583",
+          "candidate_pcc_name": "CHRISTI JACOBSEN FOR CONGRESS",
+          "cash_on_hand_end_period": 0,
+          "committee_ids": [
+            "C00941583"
+          ],
+          "coverage_end_date": null,
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "REPUBLICAN PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
         }
@@ -243,7 +306,7 @@
     "finances": {
       "api_version": "1.0",
       "pagination": {
-        "count": 4,
+        "count": 5,
         "is_count_exact": true,
         "page": 1,
         "pages": 1,
@@ -313,6 +376,22 @@
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 4007.65,
           "total_receipts": 4617.52
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "H6MT02176",
+          "candidate_name": "MCCRACKEN, PATRICK NEAL MR.",
+          "candidate_pcc_id": "C00942367",
+          "candidate_pcc_name": "MCCRACKEN FOR MONTANA",
+          "cash_on_hand_end_period": 0,
+          "committee_ids": [
+            "C00942367"
+          ],
+          "coverage_end_date": null,
+          "incumbent_challenge_full": "Challenger",
+          "party_full": "LIBERTARIAN PARTY",
+          "total_disbursements": 0,
+          "total_receipts": 0
         }
       ]
     }

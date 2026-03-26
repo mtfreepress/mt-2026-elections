@@ -18,19 +18,19 @@ const filterToSummaryFields = c => ({
     race: c.raceDisplayName,
     party: c.party,
     status: c.status,
-    hasResponses: c.questionnaire.hasResponses,
-    numMTFParticles: c.coverage.length,
-    cap_tracker_2023_link: c.cap_tracker_2023_link || null,
+    hasResponses: c.questionnaire ? c.questionnaire.hasResponses : false,
+    numMTFParticles: c.coverage ? c.coverage.length : 0,
+    cap_tracker_2025_link: c.cap_tracker_2025_link || null,
 })
 
 
 const majorRaceCandidates = getJson('./src/data/candidates.json')
-const legislativeCandidates = getJson('./src/data/legislative-candidates.json')
 
 majorRaceCandidates.forEach(d => d.path = 'candidates')
-legislativeCandidates.forEach(d => d.path = 'legislature')
 
-const allCandidates = majorRaceCandidates.concat(legislativeCandidates)
+// Legislative candidates are excluded from name search since they
+// don't have individual pages — they're shown via the district selector instead
+const allCandidates = majorRaceCandidates
     .map(filterToSummaryFields)
 
 writeJson('./src/data/all-candidate-summary.json', allCandidates)
