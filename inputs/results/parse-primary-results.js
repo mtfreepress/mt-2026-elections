@@ -1,17 +1,17 @@
 const fs = require('fs')
-const reader = require('xlsx')
+const readXlsxFile = require('read-excel-file/node')
 
 const writeJson = (path, data) => {
     fs.writeFile(path, JSON.stringify(data, null, 2), err => {
         if (err) throw err
         console.log('JSON written to', path)
-    }
-    );
+    })
 }
 
+// TODO: Update paths
 const PATH_STATEWIDE = './inputs/results/raw/2024_06_10_primary-statewide.xlsx'
 const PATH_LEGISLATIVE = './inputs/results/raw/2024_06_10_primary-legislative.xlsx'
-
+// TODO: Update races
 const STATEWIDE_RACES_TO_INCLUDE = {
     'UNITED STATES SENATOR': 'us-senate',
     'US REPRESENTATIVE DIST 1': 'us-house-1',
@@ -35,41 +35,26 @@ const NAME_SUBS = {
 }
 const cleanName = name => NAME_SUBS[name] || name.trim()
 
-const statewideFile = reader.readFile(PATH_STATEWIDE)
-const statewide = statewideFile.SheetNames.map(sheet => getSheetData(statewideFile, sheet))
-    .filter(d => Object.keys(STATEWIDE_RACES_TO_INCLUDE).includes(d.race))
-statewide.forEach(d => {
-    d.race = STATEWIDE_RACES_TO_INCLUDE[d.race]
-})
-writeJson('./inputs/results/cleaned/2024-primary-statewide.json', statewide)
+function getSheetData({ sheet: sheetName, data }) {
+    const partyMatch = sheetName.match(/(REP)|(DEM)|(LIB)|(GRN)|(NON)/)
+    if (!partyMatch) return null
+    const party = partyMatch.find(d => d !== null)[0].replace('N', 'NP')
 
+    const reportingTime = String(data[3][0]).replace('Downloaded at ', '')
 
-const legislativeFile = reader.readFile(PATH_LEGISLATIVE)
-const legislative = legislativeFile.SheetNames.map(sheet => getSheetData(legislativeFile, sheet))
-legislative.forEach(d => {
-    d.race = d.race
-        .replace('STATE REPRESENTATIVE DISTRICT ', 'HD-')
-        .replace('STATE SENATOR DISTRICT ', 'SD-')
+    const colsRow = data.find(row => row[1] === 'County')
+    const totalsRow = data.find(row => row[1] === 'TOTALS')
+    if (!colsRow || !totalsRow) return null
 
-})
-writeJson('./inputs/results/cleaned/2024-primary-legislative.json', legislative)
+    const race = String(colsRow[0]).replace('\r\n', ' ')
+    const candidateNames = colsRow.slice(2).filter(v => v != null)
+    const voteTotals = totalsRow.slice(2)
 
-
-function getSheetData(file, sheetName) {
-    const raw = reader.utils.sheet_to_json(file.Sheets[sheetName])
-
-    const race = raw[3]['2024 Unofficial Primary Election Results'].replace('\r\n', ' ')
-    const party = sheetName.match(/(REP)|(DEM)|(LIB)|(GRN)|(NON)/).find(d => d !== null)[0].replace('N', 'NP')
-    const reportingTime = raw[2]['2024 Unofficial Primary Election Results'].replace('Downloaded at ', '')
-
-    const cols = Object.values(raw.find(d => d['__EMPTY'] === 'County')).slice(2,).map(d => d.split('\r')[0])
-    const totals = Object.values(raw.find(d => d['__EMPTY'] === 'TOTALS')).slice(1,)
-
-    const resultsTotal = cols.map((col, i) => {
+    const resultsTotal = candidateNames.map((name, i) => {
         return {
-            candidate: cleanName(col),
-            party, // will need to change for general script
-            votes: totals[i],
+            candidate: cleanName(String(name).split('\n')[0]),
+            party,
+            votes: voteTotals[i] || 0,
         }
     }).sort((a, b) => b.votes - a.votes)
 
@@ -81,26 +66,37 @@ function getSheetData(file, sheetName) {
         d.votePercent = d.votes / totalVotes
     })
 
-    // const counties = raw.slice(4, -1)
-    // const resultsByCounty = counties.map(county => {
-    //     return cols.map((col, i) => {
-    //         return {
-    //             candidate: col,
-    //             county: county.__EMPTY,
-    //             votes: Object.values(county).slice(1,)[i],
-    //         }
-    //     })
-    // }).flat()
-
-    // console.log({ race, reportingTime })
-
     return {
         race,
         party,
         // precinctsFull: 'TK',
         // precinctsPartial: 'TK',
-        reportingTime: reportingTime,
+        reportingTime,
         resultsTotal,
         // resultsByCounty
     }
 }
+
+async function main() {
+    const statewideSheets = await readXlsxFile(PATH_STATEWIDE)
+    const statewide = statewideSheets
+        .map(getSheetData)
+        .filter(d => d && Object.keys(STATEWIDE_RACES_TO_INCLUDE).includes(d.race))
+    statewide.forEach(d => {
+        d.race = STATEWIDE_RACES_TO_INCLUDE[d.race]
+    })
+    writeJson('./inputs/results/cleaned/2024-primary-statewide.json', statewide)
+
+    const legislativeSheets = await readXlsxFile(PATH_LEGISLATIVE)
+    const legislative = legislativeSheets
+        .map(getSheetData)
+        .filter(d => d !== null)
+    legislative.forEach(d => {
+        d.race = d.race
+            .replace('STATE REPRESENTATIVE DISTRICT ', 'HD-')
+            .replace('STATE SENATOR DISTRICT ', 'SD-')
+    })
+    writeJson('./inputs/results/cleaned/2024-primary-legislative.json', legislative)
+}
+
+main().catch(console.error)

@@ -72,7 +72,7 @@ export default function CandidatePageSummary(props) {
         raceDisplayName
     } = props
 
-    const partyInfo = PARTIES.find(d => d.key === party)
+    const partyInfo = PARTIES.find(d => d.key === party) || { color: '#000', adjective: party || '' }
     const router = useRouter()
     const portraitPath = `${router.basePath}/portraits/${slug}.png`
 
