@@ -20,6 +20,7 @@ import text from '../../data/text'
 
 import { getHowToVoteText } from '../../lib/overview'
 import { getAllCandidateIds, getCandidateData } from '../../lib/candidates';
+import { hasPortrait } from '../../lib/portraits'
 
 const { questionnaireStateOfficeLedein, overviewAboutThisProject } = text
 
@@ -65,6 +66,10 @@ export async function getStaticProps({ params }) {
     // Populate page props
     const pageData = getCandidateData(params.candidate)
     const votingFAQ = getHowToVoteText()
+    pageData.hasPortrait = hasPortrait(pageData.slug)
+    if (pageData.opponents) {
+        pageData.opponents = pageData.opponents.map(o => ({ ...o, hasPortrait: hasPortrait(o.slug) }))
+    }
     return {
         props: {
             pageData,
@@ -130,10 +135,6 @@ export default function CandidatePage({ pageData, votingFAQ }) {
             </section>
 
             <LowdownCTA />
-
-
-
-
 
             {/* QUESTIONNAIRE RESPONSES */}
             <a className="link-anchor" id="issues"></a>

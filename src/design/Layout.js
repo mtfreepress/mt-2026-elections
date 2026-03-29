@@ -63,10 +63,15 @@ export default function Layout({
         <meta name="twitter:image" content={featureImage} />
         <meta name="twitter:description" content={socialDescription} />
 
-        <link rel="preload" href="https://use.typekit.net/fsd6htq.css" as="style" />
-        <link rel="stylesheet" href="https://use.typekit.net/fsd6htq.css" />
+        {/* Preconnect to font domains — establishes connection before preload fires */}
+        <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://p.typekit.net" crossOrigin="anonymous" />
+        {/* Preload the font CSS immediately at HTML parse time — avoids the extra typekit.js round trip */}
+        <link rel="preload" href="https://use.typekit.net/fsd6htq.css" as="style" crossOrigin="anonymous" />
 
       </Head>
+      {/* Apply the preloaded Typekit CSS after initial paint — by then it's likely already downloaded */}
+      <Script id="typekit" strategy="afterInteractive">{`var l=document.querySelector('link[href*="fsd6htq.css"]');if(l)l.rel='stylesheet';`}</Script>
       {/* Google Analytics */}
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PC1205XZ5F"></Script>
       <Script id="ga">
@@ -88,7 +93,7 @@ export default function Layout({
             "headline": "${pageTitle}",
             "url": "${pageUrl}",
             "thumbnailUrl": "${featureImage}",
-            "datePublished: "2024-05-07T20:38:48Z",
+            "datePublished": "2024-05-07T20:38:48Z",
             "dateModified": "${new Date().toISOString()}",
             "articleSection": "News apps",
             "author": [
@@ -97,7 +102,7 @@ export default function Layout({
                   "name": "Eric Dietrich"
               }
             ],
-            "creator": "Eric Dietrich"
+            "creator": "Eric Dietrich",
             "publisher": {
                 "@type": "Organization",
                 "name": "Montana Free Press",

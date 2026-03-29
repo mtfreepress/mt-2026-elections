@@ -23,6 +23,7 @@ import {
     getHowToVoteText,
     getFullCandidateList,
 } from '../lib/overview'
+import { hasPortrait } from '../lib/portraits'
 
 const RACE_LEVELS = [
     'Federal Delegation',
@@ -62,7 +63,11 @@ const overviewStyles = css`
 `
 
 export async function getStaticProps() {
-    const races = getRaceOverviews()
+    const races = getRaceOverviews().map(race => ({
+        ...race,
+        candidates: race.candidates.map(c => ({ ...c, hasPortrait: hasPortrait(c.slug) })),
+        inactiveCandidates: race.inactiveCandidates.map(c => ({ ...c, hasPortrait: hasPortrait(c.slug) })),
+    }))
     const legislativeRaces = getLegislativeDistrictOverviews()
     const text = getOverviewText()
     const ballotIssues = getBallotIssues()
