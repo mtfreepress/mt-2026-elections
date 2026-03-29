@@ -70,10 +70,11 @@ export default function LegislativeCandidatesByDistrict({ legislativeRaces, text
         overviewAboutThisProject,
     } = text
 
+    const racesByDistrictKey = new Map(legislativeRaces.map(d => [d.districtKey, d]))
     const districts = legislativeRaces.filter(d => d.chamber === 'house')
         .map(hd => {
             const correspondingSDKey = `SD-${getCorrespondingSenateDistrictNumber(hd.districtKey)}`
-            const sd = legislativeRaces.find(d => d.districtKey === correspondingSDKey)
+            const sd = racesByDistrictKey.get(correspondingSDKey)
             return { hd, sd }
         })
     const pageDescription = "Candidates running for the Montana State Legislature in 2026 by district, including Republican and Democratic candidates."

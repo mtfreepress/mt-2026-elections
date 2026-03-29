@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { css } from "@emotion/react";
 import mapDistrictCode from "../lib/mapDistrictCode";
 import DistrictFinder from '../lib/DistrictFinder';
-import { PARTIES } from "@/lib/styles";
+import { PARTIES, PARTIES_BY_KEY } from "@/lib/styles";
+
+// Instantiated once at module level — class has no per-render state
+const districtFinder = new DistrictFinder();
 
 const ELECTION_MODE = process.env.ELECTION_MODE || 'primary';
 const PLACEHOLDER = 'Enter address (e.g., 1301 E 6th Ave, Helena)';
@@ -258,8 +261,6 @@ export default function AddressLookup({
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(false);
 
-    const districtFinder = new DistrictFinder();
-
     function handleChange(event) {
         const input = event.target.value;
         setValue(input);
@@ -303,12 +304,14 @@ export default function AddressLookup({
     };
 
     // Look up matched legislative districts from the full dataset
-    const selHouseDistrict = legislativeRaces
-        ? legislativeRaces.find(d => d.districtKey === selDistricts.mtHouse)
-        : null;
-    const selSenateDistrict = legislativeRaces
-        ? legislativeRaces.find(d => d.districtKey === selDistricts.mtSenate)
-        : null;
+    const selHouseDistrict = useMemo(
+        () => legislativeRaces ? legislativeRaces.find(d => d.districtKey === selDistricts.mtHouse) : null,
+        [legislativeRaces, selDistricts.mtHouse]
+    );
+    const selSenateDistrict = useMemo(
+        () => legislativeRaces ? legislativeRaces.find(d => d.districtKey === selDistricts.mtSenate) : null,
+        [legislativeRaces, selDistricts.mtSenate]
+    );
 
     return (
         <div css={lookupStyle}>

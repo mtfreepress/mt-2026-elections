@@ -43,6 +43,13 @@ const FEC_DATA_EXCLUDE = [
     'NEILL, REILLY'
 ]
 
+// Sort coverage array once rather than on every candidate iteration (avoids repeated mutation)
+const sortedCoverage = [...coverage].sort((a, b) => new Date(b.date) - new Date(a.date))
+
+// Build lookup maps to replace O(n) .find() calls inside loops
+const candidatesBySlug = new Map(candidates.map(c => [c.slug, c]))
+const candidatesByFecId = new Map(candidates.filter(c => c.fecId).map(c => [c.fecId, c]))
+
 // Clean campaign finance data
 
 races.forEach(race => {
@@ -52,7 +59,7 @@ races.forEach(race => {
         race.finance = federalCampaignFinance.find(d => d.raceSlug == race.raceSlug).finances.results
             .filter(c => !FEC_DATA_EXCLUDE.includes(c.candidate_name))
             .map(fecData => {
-                const candidateMatch = candidates.find(c => c.fecId === fecData.candidate_id)
+                const candidateMatch = candidatesByFecId.get(fecData.candidate_id)
                 if (!candidateMatch) {
                     console.warn(`Missing FEC ID match for ${fecData.candidate_name} (${fecData.candidate_id}) — skipping`)
                     return null
@@ -87,7 +94,7 @@ candidates.forEach(candidate => {
         // .filter(candidateSlug => candidateSlug !== candidate.slug) // exclude this candidate
         // Skipping exclude to do 'contenders' v. 'opponents'
         .map(candidateSlug => {
-            const match = candidates.find(c => c.slug === candidateSlug)
+            const match = candidatesBySlug.get(candidateSlug)
             if (!match) console.log('No candidateSlug match for', candidateSlug)
             return match
         })
@@ -102,16 +109,15 @@ candidates.forEach(candidate => {
         })
 
     // merge in MTFP coverage data
-    candidate.coverage = coverage
-        .sort((a, b) => new Date(b.date) - new Date(a.date))
-        .filter(article => article.tags.map(urlize).includes(candidate.slug))
+    candidate.coverage = sortedCoverage
+        .filter(article => article.tags.some(t => urlize(t) === candidate.slug))
 
 
     // merge in campaign finance data 
     // currently for federal candidates only
     if (race.finance) {
         candidate.finance = race.finance.map(competitor => {
-            const match = candidates.find(d => d.fecId === competitor.candidateId)
+            const match = candidatesByFecId.get(competitor.candidateId)
             return {
                 ...competitor,
                 isThisCandidate: (competitor.displayName === candidate.displayName),

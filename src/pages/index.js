@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import { css } from "@emotion/react";
 
 import Layout from '../design/Layout'
@@ -105,16 +105,17 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
         overviewAboutThisProject,
     } = text
 
-    const raceLevels = RACE_LEVELS.map(level => {
-        const matches = races.filter(d => d.level === level)
-        return {
-            level,
-            races: matches,
-        }
-    })
+    const raceLevels = useMemo(() => RACE_LEVELS.map(level => ({
+        level,
+        races: races.filter(d => d.level === level),
+    })), [races])
 
-    const selHouseDistrict = legislativeRaces.find(d => d.districtKey === selDistricts.mtHouse)
-    const selSenateDistrict = legislativeRaces.find(d => d.districtKey === selDistricts.mtSenate)
+    const legislativeRacesByKey = useMemo(
+        () => new Map(legislativeRaces.map(d => [d.districtKey, d])),
+        [legislativeRaces]
+    )
+    const selHouseDistrict = legislativeRacesByKey.get(selDistricts.mtHouse) ?? null
+    const selSenateDistrict = legislativeRacesByKey.get(selDistricts.mtSenate) ?? null
     const pageDescription = "Candidates seeking state, federal and legislative office in Montana's 2026 elections. The Montana Free press voter guide includes biographical details and issue questionnaires."
     return (
         <Layout home pageCss={overviewStyles}

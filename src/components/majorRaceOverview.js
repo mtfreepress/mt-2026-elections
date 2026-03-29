@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link'
 import Image from 'next/image'
 
-import { PARTIES } from '../lib/styles'
+import { PARTIES, PARTIES_BY_KEY } from '../lib/styles'
 import { pluralize } from '../lib/utils'
 
 const raceStyle = css`
@@ -107,7 +107,7 @@ const candidateStyle = css`
 
 function Candidate(props) {
     const { slug, displayName, summaryLine, party, numMTFParticles, hasResponses, hasPortrait } = props
-    const partyInfo = PARTIES.find(d => d.key === party)
+    const partyInfo = PARTIES_BY_KEY.get(party)
 
     const router = useRouter()
     const portraitSrc = hasPortrait

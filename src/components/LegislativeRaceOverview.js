@@ -9,7 +9,7 @@ import {
     getCorrespondingSenateDistrictNumber
 } from '../lib/utils'
 
-import { PARTIES } from "@/lib/styles";
+import { PARTIES_BY_KEY } from "@/lib/styles";
 
 const legislativeOverviewStyle = css`
     display: flex;
@@ -171,7 +171,7 @@ const candidateStyle = css`
 
 function Candidate(props) {
     const { displayName, party, campaignWebsite } = props
-    const partyInfo = PARTIES.find(d => d.key === party)
+    const partyInfo = PARTIES_BY_KEY.get(party)
 
     const inner = <>
         <div className="portrait-col" >
@@ -218,7 +218,7 @@ const District = (props) => {
         correspondingSenateDistrict = getCorrespondingSenateDistrictNumber(districtKey)
     }
     const router = useRouter()
-    const holdoverPartyInfo = PARTIES.find(d => d.key === holdover_party)
+    const holdoverPartyInfo = PARTIES_BY_KEY.get(holdover_party)
     const activeCandidates = candidates.filter(c => c.status === 'active')
     const inactiveCandidates = candidates.filter(c => c.status !== 'active')
 
@@ -237,7 +237,7 @@ const District = (props) => {
                         width={300}
                         height={300}
                         alt={`Map of ${district}`}
-                        priority={true} // https://nextjs.org/docs/pages/api-reference/components/image#priority
+                        loading="lazy"
                     />
                 )
             })()}

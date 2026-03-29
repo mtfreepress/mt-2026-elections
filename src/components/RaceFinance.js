@@ -3,7 +3,7 @@ import { css } from '@emotion/react'
 
 import TruncatedContainer from '../design/TruncatedContainer'
 
-import { PARTIES } from '../lib/styles'
+import { PARTIES, PARTIES_BY_KEY } from '../lib/styles'
 import { dollarFormatResponsive } from '../lib/utils'
 
 const candidatePageUrl = candidateId => `https://www.fec.gov/data/candidate/${candidateId}/?cycle=2026&election_full=true`
@@ -117,12 +117,10 @@ const Row = props => {
         coverageEndDate,
     } = props
     // const candidatePageUrl = `https://www.fec.gov/data/candidate/${candidateId}/?cycle=${}&election_full=true`
-    const partyInfo = PARTIES.find(d => (
-        d.key === party ||
-        d.key === (party && party.toUpperCase()) ||
-        d.noun === party ||
-        d.adjective === party
-    )) || { color: '#666' }
+    const partyInfo = PARTIES_BY_KEY.get(party) ||
+        PARTIES_BY_KEY.get(party && party.toUpperCase()) ||
+        PARTIES.find(d => d.noun === party || d.adjective === party) ||
+        { color: '#666' }
     return <div className={`row ${isThisCandidate ? 'focus' : ''}`}
         style={{
             border: `1px solid ${partyInfo.color}`,
