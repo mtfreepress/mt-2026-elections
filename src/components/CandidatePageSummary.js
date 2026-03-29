@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { useRouter } from 'next/router';
 import Image from "next/image";
 
-import { PARTIES } from '../lib/styles'
+import { PARTIES_BY_KEY } from '../lib/styles'
 
 const summaryStyle = css`
     margin-top: 0.5em;
@@ -73,7 +73,7 @@ export default function CandidatePageSummary(props) {
         hasPortrait,
     } = props
 
-    const partyInfo = PARTIES.find(d => d.key === party) || { color: '#000', adjective: party || '' }
+    const partyInfo = PARTIES_BY_KEY.get(party) || { color: '#000', adjective: party || '' }
     const router = useRouter()
     const portraitSrc = hasPortrait
         ? `${router.basePath}/portraits/${slug}.jpg`

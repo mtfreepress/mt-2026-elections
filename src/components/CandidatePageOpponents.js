@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from 'next/router';
 
-import { PARTIES } from "@/lib/styles";
+import { PARTIES, PARTIES_BY_KEY } from "@/lib/styles";
 import { pluralize } from "@/lib/utils";
 
 const opponentsContainerStyle = css`
@@ -101,7 +101,7 @@ const candidateStyle = css`
 
 function Candidate(props) {
     const { slug, displayName, summaryLine, party, route, isCurrentPage, hasPortraits, hasPortrait } = props
-    const partyInfo = PARTIES.find(d => d.key === party)
+    const partyInfo = PARTIES_BY_KEY.get(party)
     const router = useRouter()
     const portraitSrc = hasPortrait
         ? `${router.basePath}/portraits/${slug}.jpg`
@@ -152,7 +152,6 @@ export default function CandidatePageOpponents({
             {
                 PARTIES
                     // .sort((a, b) => a.key === candidateParty ? -1 : 1) // sort candidate's party first
-                    .sort((a, b) => PARTIES.map(d => d.key).indexOf(a.key) - PARTIES.map(d => d.key).indexOf(b.key)) // sort to match usual array
                     .map(party => {
                         const opponentsInParty = opponents.filter(d => d.party === party.key)
                         if (opponentsInParty.length === 0) return null

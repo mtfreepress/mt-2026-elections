@@ -2,7 +2,7 @@ import { css } from "@emotion/react";
 import Image from 'next/image'
 import { useRouter } from 'next/router';
 
-import { PARTIES } from '../lib/styles'
+import { PARTIES_BY_KEY } from '../lib/styles'
 
 const summaryStyle = css`
     margin-top: 0.5em;
@@ -91,7 +91,7 @@ export default function CandidatePageSummary(props) {
     } = props
     
     const router = useRouter()
-    const partyInfo = PARTIES.find(d => d.key === party)
+    const partyInfo = PARTIES_BY_KEY.get(party)
     return <div css={summaryStyle} style={{ borderTop: `5px solid ${partyInfo.color}` }}>
 
         <div className="info-col">

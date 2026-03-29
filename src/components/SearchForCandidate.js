@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { css } from "@emotion/react";
 import Link from "next/link";
 
-import { PARTIES, STATUS } from "@/lib/styles";
+import { PARTIES, PARTIES_BY_KEY, STATUS } from "@/lib/styles";
+
+const STATUS_BY_KEY = new Map(STATUS.map(s => [s.key, s]))
 
 const lookupStyle = css`
     border: 1px solid var(--gray6);
@@ -140,8 +142,8 @@ function Candidate(props) {
     const { slug, path, displayName, party, status, race,
         summaryLine, cap_tracker_2025_link, hasResponses, numMTFParticles } = props
     // cap_tracker_2025_link flags for current lawmakers
-    const partyInfo = PARTIES.find(d => d.key === party)
-    const statusInfo = STATUS.find(d => d.key === status)
+    const partyInfo = PARTIES_BY_KEY.get(party)
+    const statusInfo = STATUS_BY_KEY.get(status)
     return <div css={candidateStyle} style={{ borderTop: `3px solid ${partyInfo.color}` }}><Link href={`/${path}/${slug}`}>
         <div className="portrait-col" >
             <div className="party" style={{ background: partyInfo.color }}>{party}</div>
@@ -170,10 +172,13 @@ export default function SearchForCandidate({
 }) {
     const [searchText, setSearchText] = useState('')
 
-    const matchingCandidates = ((searchText !== null) && (searchText.length < 3)) ? []
-        : candidates
-            .filter(d => d.displayName.toUpperCase().includes(searchText.toUpperCase()))
+    const matchingCandidates = useMemo(() => {
+        if (!searchText || searchText.length < 3) return []
+        const q = searchText.toUpperCase()
+        return candidates
+            .filter(d => d.displayName.toUpperCase().includes(q))
             .slice(0, 5)
+    }, [searchText, candidates])
 
     function handleChange(event) {
         const input = event.target.value

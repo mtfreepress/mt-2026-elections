@@ -1,6 +1,6 @@
 import { css } from '@emotion/react'
 
-import { PARTIES } from '../lib/styles'
+import { PARTIES_BY_KEY } from '../lib/styles'
 import { numberFormat, percentFormat, formatDate } from '../lib/utils'
 
 const style = css`
@@ -64,7 +64,7 @@ const style = css`
 const RaceResults = props => {
     const { title, primaryParty, results } = props
     const timestamp = results.reportingTime
-    const primaryPartyLabel = primaryParty ? PARTIES.find(d => d.key === primaryParty).adjective : null
+    const primaryPartyLabel = primaryParty ? PARTIES_BY_KEY.get(primaryParty).adjective : null
 
     return <div css={style}>
         <div className="title">{title}{primaryParty && ` – ${primaryPartyLabel} candidates`}</div>
@@ -90,7 +90,7 @@ export default RaceResults
 
 const BAR_RANGE = 60
 const Row = ({ candidate, votes, votePercent, isWinner, party }) => {
-    const partyInfo = PARTIES.find(d => d.key === party)
+    const partyInfo = PARTIES_BY_KEY.get(party)
     const barWidth = votePercent * BAR_RANGE
     return <tr className="result-row" style={{
         backgroundColor: isWinner ? 'var(--gray1)' : 'none',

@@ -7,6 +7,9 @@ export const PARTIES = [
     { key: 'NP', noun: 'Nonpartisan', adjective: 'Nonpartisan', color: '#666' },
 ]
 
+// O(1) lookup by party key — use instead of PARTIES.find(d => d.key === party)
+export const PARTIES_BY_KEY = new Map(PARTIES.map(p => [p.key, p]))
+
 export const STATUS = [
     { key: 'active', label: '➡️ Active' },
     { key: 'lost-primary', label: '❌ Lost June 4 primary' },
