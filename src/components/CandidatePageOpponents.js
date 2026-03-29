@@ -1,4 +1,5 @@
 import { css } from "@emotion/react";
+import { useState } from 'react';
 
 import Link from "next/link";
 import Image from "next/image";
@@ -103,7 +104,8 @@ function Candidate(props) {
     const { slug, displayName, summaryLine, party, route, isCurrentPage, hasPortraits } = props
     const partyInfo = PARTIES.find(d => d.key === party)
     const router = useRouter()
-    const portraitPath = `${router.basePath}/portraits/${slug}.png`
+    const portraitPath = `${router.basePath}/portraits/${slug}.jpg`
+    const [imgSrc, setImgSrc] = useState(portraitPath)
     return <div css={candidateStyle}
         style={{
             borderTop: `3px solid ${partyInfo.color}`,
@@ -115,7 +117,8 @@ function Candidate(props) {
                 {hasPortraits && <div className="portrait-container">
                     <Image
                         alt={`${displayName}`}
-                        src={portraitPath}
+                        src={imgSrc}
+                        onError={() => setImgSrc(`${router.basePath}/portraits/no-match.jpg`)}
                         width={40}
                         height={40}
                         style={{

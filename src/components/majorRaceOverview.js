@@ -1,4 +1,5 @@
 import { css } from "@emotion/react";
+import { useState } from 'react';
 
 import { useRouter } from 'next/router';
 
@@ -111,13 +112,15 @@ function Candidate(props) {
 
     const router = useRouter()
     const portraitPath = `${router.basePath}/portraits/${slug}.jpg`
+    const [imgSrc, setImgSrc] = useState(portraitPath)
 
     return <div css={candidateStyle} style={{ borderTop: `5px solid ${partyInfo.color}` }}><Link href={`/candidates/${slug}`}>
         <div className="portrait-col" >
             <div className="portrait-container">
                 <Image
                     alt={`${displayName}`}
-                    src={portraitPath}
+                    src={imgSrc}
+                    onError={() => setImgSrc(`${router.basePath}/portraits/no-match.jpg`)}
                     width={100}
                     height={100}
                     style={{
