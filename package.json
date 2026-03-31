@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:local": "LOCAL_ASSETS=true next build",
+    "serve": "node server.cjs",
     "start": "next start",
     "lint": "next lint"
   },
