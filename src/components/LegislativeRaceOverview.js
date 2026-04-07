@@ -266,7 +266,7 @@ const District = (props) => {
         </div>
 
         {(inactiveCandidates.length > 0) && <details>
-            <summary>Candidates defeated in June 4 primary election or who withdrew post-primary</summary>
+            <summary>Candidates defeated in June 2 primary election or who withdrew post-primary</summary>
             <div>
                 {inactiveCandidates
                     .map(c => <Candidate key={c.slug} {...c} />)}

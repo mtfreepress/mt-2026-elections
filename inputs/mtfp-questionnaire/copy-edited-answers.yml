@@ -34,10 +34,6 @@
       response: |+
         The energy industry does get a lot of attention, so second to that, the waste hauling business is important to keep a keen eye on as well. It is a large industry and competition is limited. Adequate service at reasonable prices would be my goal and focus when regulating this area under the PSC's purview.
 
-    - question: __source
-      response: |+
-        psc-survey-2026.csv
-
 - candidateName: Kevin Hamm
   nameSlug: kevin-hamm
   bioMaterial:
@@ -79,10 +75,6 @@
         Trains. The state’s railroads are outdated and absurd. We should have mandated infrastructure upgrades for all industries the PSC oversees, but we haven’t. Railroads should have been modernizing for decades with modern tracks, better engines, smarter and more traffic-friendly schedules, improved relations with workers’ unions, and technological advancements. There’s no reason that Montana Avenue is constantly blocked by multiple trains at high-traffic times in Helena when a simple upgrade to smarter scheduling tools would allow BNSF to avoid these conflicts. Or they could invest money into their tracks and crossings so that they are bridged or tunneled away from traffic. It’s 2026, yet we still have ancient steel tracks instead of having upgrades that could include high-speed bullet trains for passenger rail, when Japan has had this for half a century. And yes, we could adapt it for all our uses including cargo. We’re not dumb, the elites are just greedy.
         Additionally, water systems need to ensure they serve their ratepayers effectively, rather than just extracting money for their ownership.
 
-    - question: __source
-      response: |+
-        psc-survey-2026.csv
-
 - candidateName: Annie Bukacek
   nameSlug: annie-bukacek
   bioMaterial:
@@ -118,10 +110,6 @@
     - question: What is one industry under the PSC's purview that could use more scrutiny than it's currently getting, and what might that increased scrutiny look like?
       response: |+
         The PSC does its best to scrutinize every company it is tasked with overseeing and every matter that comes before it.  The time we have to do this is usually restricted by law.  The amount of staff hours that can be spent on items is dictated by the staff hours budgeted for us by the Legislature.  We always do our best to prioritize as to the item, financial impact, and relative need.  Commissioners and staff are working for the taxpayer and do not accumulate the expertise that management and workers do in their regulated industries.  The PSC is one of Montana's smallest state agencies.  The PSC could use additional funding to hire industry-related and experienced forensic examiners.  But money is tight, taxes are already high, and we will continue to do the best we can with the resources allocated.
-
-    - question: __source
-      response: |+
-        psc-survey-2026.csv
 
 - candidateName: Kyle Austin
   nameSlug: kyle-austin
@@ -181,10 +169,6 @@
       response: |+
         As a 4th generation Montanan, I am a very bold, highly education individual that does not back down from a fight.   I stand my ground and often find creative solutions to problems nobody else has a vision for.   My hard work and background as a farmer, pharmacist, and small business owner will not only impress the voters of Montana when I am in office, it will inspire my colleagues in Washington DC.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Jonathan Windy Boy
   nameSlug: jonathan-windy-boy
   bioMaterial:
@@ -241,15 +225,19 @@
       response: |+
         The service I've provided in the last 28 years are proven. My record, votes and position can easily be fact checked. Im a no nonsense, get to the point and tell it like it is individual. My working with Republican as a Democrat is proven and successful. My knowledge base is broad. Bottom line, I believe im the most qualified candidate to represent Montana. Im born and raised in Montana. I have mamy generations of being a Montanan behind me. And the investments i have in Montana is never in question.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Charles Walking Child
   nameSlug: charles-walking-child
   bioMaterial:
     - question: Please describe any professional and/or life experiences that will help voters assess your qualifications for the office you’re seeking.
-      response: "My qualifications stem from real-world experience as a business owner, community advocate, and proud Montanan—not career politics. I bring an independent, outsider perspective dedicated to restoring constitutional governance and putting Montana families first in Washington, D.C\r\n\r\nPublic Service & Advocacy: Testified before the Montana Legislature (e.g., on education issues in 2013); perennial candidate for federal office (2022 U.S. House primary, 2024 U.S. Senate primary), consistently advocating America First policies, veterans' support, resource development, small agriculture, and common-sense solutions rooted in Montana values.\r\n\r\nProfessional Experience: Owner/operator of an environmental contracting business (Rising Lightning Environmental Contractors LLC) in the Helena area, specializing in remediation for asbestos, lead, mold, and related hazards—hands-on work protecting Montana's land, workers, and communities.  \r\n\r\nEducation: Bachelor's degree in Human Services, University of Great Falls (2001); additional studies at the University of Montana.\n\n"
+      response: |+
+        My qualifications stem from real-world experience as a business owner, community advocate, and proud Montanan—not career politics. I bring an independent, outsider perspective dedicated to restoring constitutional governance and putting Montana families first in Washington, D.C
+
+        Public Service & Advocacy: Testified before the Montana Legislature (e.g., on education issues in 2013); perennial candidate for federal office (2022 U.S. House primary, 2024 U.S. Senate primary), consistently advocating America First policies, veterans' support, resource development, small agriculture, and common-sense solutions rooted in Montana values.
+
+        Professional Experience: Owner/operator of an environmental contracting business (Rising Lightning Environmental Contractors LLC) in the Helena area, specializing in remediation for asbestos, lead, mold, and related hazards—hands-on work protecting Montana's land, workers, and communities.  
+
+        Education: Bachelor's degree in Human Services, University of Great Falls (2001); additional studies at the University of Montana.
+
     - question: Where do you live currently? Where (city and state) were you born? How long have you lived in Montana?
       response: |+
         I currently live in Lewis and Clark County. I was born in Great Falls Montana. I have lived in Montana all of my life.
@@ -267,9 +255,23 @@
         I would most likely direct federal money to the project through an earmark (now often called community project funding or congressionally directed spending).As a proud Montanan and an outsider fighting for our state against Washington elites and corporate interests, I believe in bringing real results home to Montana families—not leaving their future to unelected bureaucrats in some distant federal agency who don't understand our needs.Montana's infrastructure—like roads, bridges, rail, water systems, or rural broadband—is vital for our small farmers, ranchers, small businesses, veterans, and everyday working people. When state and local governments can't raise the funds alone, it's my job as your Senator to step up and secure the resources our communities deserve, rather than watching a critical project fail because of red tape or misplaced priorities in D.C.This isn't about "pork" or wasteful spending—it's targeted, accountable funding for proven Montana priorities, rooted in common-sense principles and constitutional governance. I've seen too many federal programs create dependency; this approach empowers our state directly while holding Washington accountable.Leaving it to an agency risks the project getting buried under endless reviews, competing national demands, or outright denial—something Montana can't afford. I'll fight to earmark the funds transparently, so voters know exactly where their tax dollars are going and why it's helping our people.That's the independent, America First, Montana-first way I’ll serve.
 
     - question: Describe your approach to management of federal lands when conflicts arise between conservation, energy development, recreation, and tribal sovereignty.
-      response: "My approach to managing federal lands in Montana is guided by common-sense balance, Montana-first priorities, and respect for the people who live closest to the land—our ranchers, farmers, small businesses, recreation users, conservationists, and tribal communities.Federal lands belong to all Americans, but Montana bears the burden—and the blessings—of managing vast portions of them. When conflicts arise between conservation, energy development, recreation, and tribal sovereignty, I start with these principles:\r\n\r\nLocal input first \nMultiple use done right\nProtect recreation and small ag\nTribal sovereignty respected\nCut red tape and fight overreach\n\n"
+      response: |+
+        My approach to managing federal lands in Montana is guided by common-sense balance, Montana-first priorities, and respect for the people who live closest to the land—our ranchers, farmers, small businesses, recreation users, conservationists, and tribal communities.Federal lands belong to all Americans, but Montana bears the burden—and the blessings—of managing vast portions of them. When conflicts arise between conservation, energy development, recreation, and tribal sovereignty, I start with these principles:
+
+        Local input first 
+        Multiple use done right
+        Protect recreation and small ag
+        Tribal sovereignty respected
+        Cut red tape and fight overreach
+
     - question: Identify two national priorities that are not addressed in this questionnaire that are important to your platform. Briefly explain your position on each and tell voters how you intend to address them. If there’s an existing bill you support to advance your position, please identify it.
-      response: "Securing our southern border and ending illegal immigration\r\n\r\nSupporting our veterans with real, accountable benefits\r\n\r\nThese issues reflect my commitment as an independent, outsider voice: restoring constitutional principles, fighting corporate and federal overreach, and putting Montana families, tribes, small farmers, ranchers, and veterans ahead of D.C. elites. I'll bring real Montana solutions to Washington—no more status quo.\n\n"
+      response: |+
+        Securing our southern border and ending illegal immigration
+
+        Supporting our veterans with real, accountable benefits
+
+        These issues reflect my commitment as an independent, outsider voice: restoring constitutional principles, fighting corporate and federal overreach, and putting Montana families, tribes, small farmers, ranchers, and veterans ahead of D.C. elites. I'll bring real Montana solutions to Washington—no more status quo.
+
   mtfpTitle: TK here
   mtfpWrittenBio: |+
     TK MTFP-written bio
@@ -284,14 +286,41 @@
         Congress has a vital role in supporting Montana’s rural hospitals and clinics, which are lifelines for our small towns, ranchers, farmers, veterans, and Native communities—folks who often face long drives just to get basic care.Montana's rural providers are squeezed by low patient volumes, rising costs, workforce shortages, and unfair reimbursement rates from big federal programs like Medicare and Medicaid. As your Senator, I’d fight for targeted, common-sense federal action that empowers local solutions rather than creating more bureaucracy or dependency.
 
     - question: Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.
-      response: "Responsible management of our federal public lands\r\n\r\nThe financial crisis facing our rural hospitals and clinics\r\n\r\nThese are Montana-specific fights that demand a Senator who knows our land, our people, and our values—not a career politician beholden to elites. I'll bring common-sense, America First solutions home: protecting families, tribes, small ag, and opportunity while restoring constitutional balance. Montana families first—always.\n\n"
-    - question: Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.
-      response: "As your next U.S. Senator, I will fight to make homeownership achievable again for Montana families, veterans, young people, and working Montanans who are being priced out by skyrocketing costs, low supply, and out-of-state pressures.\r\n\r\nSlash federal red tape that drives up building costs\r\n\r\nLower everyday energy and living costs\r\n\r\nProvide targeted tax relief and reduce demand pressure\r\n\r\nBring home infrastructure funding with local control\n\n"
-    - question: Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.
-      response: "The current office holder is stepping down but these are the differences.\n\nI am not a career politician. I am an independent, outsider voice rooted in real Montana life—no decades in D.C., no lifetime of establishment deals, no corporate PAC millions funding my campaign.Key distinctions in how I would serve:\r\n\r\nOutsider independence vs. establishment ties\r\n\r\nMontana-first pragmatism vs. partisan gridlock\r\n\r\nReal-world experience vs. professional politics\r\n\r\nDirect accountability vs. insulated tenure\r\n\r\nThe current officeholder represents Washington to Montana.\r\nI will represent Montana to Washington—fiercely, independently, and without apology.Montana families first. America First. Always.\n\n"
-    - question: __source
       response: |+
-        us-house-senate-survey-2026.csv
+        Responsible management of our federal public lands
+
+        The financial crisis facing our rural hospitals and clinics
+
+        These are Montana-specific fights that demand a Senator who knows our land, our people, and our values—not a career politician beholden to elites. I'll bring common-sense, America First solutions home: protecting families, tribes, small ag, and opportunity while restoring constitutional balance. Montana families first—always.
+
+    - question: Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.
+      response: |+
+        As your next U.S. Senator, I will fight to make homeownership achievable again for Montana families, veterans, young people, and working Montanans who are being priced out by skyrocketing costs, low supply, and out-of-state pressures.
+
+        Slash federal red tape that drives up building costs
+
+        Lower everyday energy and living costs
+
+        Provide targeted tax relief and reduce demand pressure
+
+        Bring home infrastructure funding with local control
+
+    - question: Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.
+      response: |+
+        The current office holder is stepping down but these are the differences.
+
+        I am not a career politician. I am an independent, outsider voice rooted in real Montana life—no decades in D.C., no lifetime of establishment deals, no corporate PAC millions funding my campaign.Key distinctions in how I would serve:
+
+        Outsider independence vs. establishment ties
+
+        Montana-first pragmatism vs. partisan gridlock
+
+        Real-world experience vs. professional politics
+
+        Direct accountability vs. insulated tenure
+
+        The current officeholder represents Washington to Montana.
+        I will represent Montana to Washington—fiercely, independently, and without apology.Montana families first. America First. Always.
 
 - candidateName: Ryan Busse
   nameSlug: ryan-busse
@@ -400,10 +429,6 @@
 
         Furthermore, there are too many Democrats who have been influenced by the big lobbying money that seems to prohibit them from making good decisions on policies like universal healthcare. Frankly, I think I owe it to Montanans to hold people in my own party to a higher standard, and I am not afraid to do it.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Lee Calhoun
   nameSlug: lee-calhoun
   bioMaterial:
@@ -471,10 +496,6 @@
         4.  The reasons for my votes will be transparent and readily available.
         5.  I will donate my first year’s salary (minus expenses) to a Montana non-profit(s) of my choice.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Kimberly A. Persico
   nameSlug: kimberly-a-persico
   bioMaterial:
@@ -531,10 +552,6 @@
       response: |+
         One of the major complaints that I hear frequently about our current set of representatives is the lack of accessibility. I have encountered that myself as a constituent.  They do not do in-person town halls.  They only reply to written inquiries with party-line drivel weeks after the initial inquiry was made, if at all.  As your representative I will be personally available to my constituents on a regular basis.  I will hold town hall listening sessions regularly across the district.  I will also respond to inquiries with actual information on what is going on, and how I can or cannot help in a timely manner.  I will not be beholden to the big money interests that have purchased both major parties.  I will absolutely support a ban on members of Congress trading stocks.  I will work hard on behalf of all my constituents and listen to what they have to say.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Brian J. Miller
   nameSlug: brian-j-miller
   bioMaterial:
@@ -590,10 +607,6 @@
     - question: Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.
       response: |+
         Here are big things I would do right off the bat for Montana if elected: (1) repeal the Canadian tariffs: (2) Mandatory country of origin labelling: (3) Right to repair, and (4) Restore Medicaid funding and the ACA subsidies. Beyond that, if I am elected, it would be my intention to be a very accessible Congressional representative. I would do in-person townhalls at every Congressional recess, and I would do as many zoom townhalls with different groups as I could when in D.C.  I wouldn’t censor people and would make myself available to people who want to criticize and yell at me, just as much as those who might like what I’m doing. I would try to do weekly press gaggles as well, where outlets like Montana Free Press could beat up on me in public and make me look stupid.  I am also interested in exploring the use of digital technologies (such as the creation of an app), which would allow verified, registered voters to track what I’m doing, what I’m working on, and do things like create polls on certain issues, so that I could gauge public sentiment in real time.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Aaron Flint
   nameSlug: aaron-flint
@@ -658,10 +671,6 @@
         I represent that generation. The average age of a first-time home buyer has jumped from late 20s to early 40s due to a number of factors, like lingering Biden inflation and high interest rates. The ability for younger people to build prosperity and financial resilience is growing more difficult. Jessica and I face the same challenges buying a home and are actually locked into renting while raising three kids. That is the reality for many Montanans right now.
 
         I started hosting a statewide radio show 17 years ago, talking with Montanans every day. I have heard firsthand their frustrations with government and what they believe needs to change. That has given me a different perspective than most candidates. I am not guessing what people want; I have been listening to them for nearly two decades. I am ready to take that experience to Washington and fight for the people of this state.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Patrick McCracken
   nameSlug: patrick-mccracken
@@ -783,10 +792,6 @@
 
         I will write the bill to codify the Ratepayer Protection Pledge. I will co-sponsor the American Beef Labeling Act. I will champion SAFE Banking from the committee Downing is sitting in. These aren't hard issues. They require someone willing to do the work for Montana.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Michael D. Eisenhauer
   nameSlug: michael-d-eisenhauer
   bioMaterial:
@@ -884,10 +889,6 @@
 
            As an Independent Representative, I will align my votes with Montanans’ needs or desires, and will not be beholden to either party bosses or political elites. I won’t wait for others to tell me what to do or how to vote.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Christopher Kehoe
   nameSlug: christopher-kehoe
   bioMaterial:
@@ -955,10 +956,6 @@
     - question: Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.
       response: |+
         I do solemnly swear not to break a protestor's hand in a door. I suppose you could call that trait "basic humanity."
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Sam Forstag
   nameSlug: sam-forstag
@@ -1047,10 +1044,6 @@
     - question: Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.
       response: |+
         My perspective as a working-class Montanan is the chief difference between myself and our current congressman. Unlike most members of Congress, I’m not a millionaire. I was raised largely by a single mom who picked up extra shifts as a nurse to pay the bills, and I’ve spent much of my life working two or three jobs at a time to do the same. I spent the last 8 years working as a wildland firefighter, the last two as a union leader, and the last decade organizing and fighting for public education and libraries, housing and healthcare, reforming our justice system, and defending our civil liberties to make life better for working Montanans like me, who have lived on the wrong end of our broken systems. That work taught me how to work with people in both parties on incredibly difficult policy issues, and how to connect with folks who have been forgotten by our current leaders.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Kurt Alme
   nameSlug: kurt-alme
@@ -1189,10 +1182,6 @@
 
         I am also humbled to have the support of other leaders in Montana – including Steve Daines, Tim Sheehy, and Greg Gianforte. But I have given no commitments for any endorsements. My views and my values come from years of living in communities across Montana and working with people in many walks of life – my duty is only to the people of our state, and I will fight for all Montanans.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Jonathan Windy Boy
   nameSlug: jonathan-windy-boy
   bioMaterial:
@@ -1248,10 +1237,6 @@
     - question: Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.
       response: |+
         I voted for balanced budgets in my career in the Montana legislature. I supported the balanced budgets during this time. This congress exploded the national debt by $4.8 trillion dollars. I dont support this out of control spending. I will continue supporting Medicaid, medicaid expansion as I supported. I will work for all Montanans in DC. I will listen to all Montanand and base my votes on what Montanans need and want.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Matt Rains
   nameSlug: matt-rains
@@ -1318,10 +1303,6 @@
         I’m not a career politician and I’m not who either party in Washington has picked for this seat. That’s because I’m going to fight for our way of life no matter what and I’ll stand up to anyone who will continue to make life harder for our community.
         Montana is a unique and special place. My family ranch has been part of the landscape since the 1800s. My roots here run damn deep. And now our way of life is under attack. Families can’t afford homes. Every young Montanan who grew up here like me deserves to stay here. We’re losing the next generation of Montanans to an affordability crisis. All while this administration and our current federal delegation watch as their tariffs target our ranchers and farmers who are doing everything they can just to get by.
         I swore an oath to my country when I was 18 years old, I flew Blackhawk helicopters and served in Iraq and I’ve been serving ever since. Corporate interests, billionaires, millionaires, and corrupt out-of-touch politicians have decided that they get to make the rules. And I’m standing up to that. That’s what this campaign is about.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Reilly Neill
   nameSlug: reilly-neill
@@ -1439,10 +1420,6 @@
 
         I will work for all Montanans, for small government that works for working people and stays out of our business.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Nick Sheedy
   nameSlug: nick-sheedy
   bioMaterial:
@@ -1502,10 +1479,6 @@
     - question: Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.
       response: |+
         As a Libertarian, I am not beholden to my party or my party leadership.  My only obligations would be to my constituents, my oath to uphold the US Constitution, and my own conscience.  I would have an advantage in a Congress that is primarily controlled by two dinosaur parties, which largely serve their own ambition for power and control.  This would place me in a favorable position to curry favor when votes on legislation may be tight, to influence legislation and other members of Congress, and to advocate for my constituents in Montana.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Michael Black Wolf
   nameSlug: michael-black-wolf
@@ -1570,10 +1543,6 @@
       response: |+
         As opposed to Steve Daines I won't just provide lip service to make things sound good and like everything is going great for everybody in Montana when in fact we know it's not. I will make sure as a hard-working middle class person myself, I am able to understand and sympathize with our hard-working middle class and those less fortunate in our state to help lift them up and increase their quality of life. Through sound and Common Sense legislation we can actually make life better for all montanans not just a select group who are benefiting from the current economic environment and the current tax system in place for our country.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Alani Bankhead
   nameSlug: alani-bankhead
   bioMaterial:
@@ -1629,10 +1598,6 @@
     - question: Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.
       response: |+
         I actually talk to Montanans about what they're experiencing and host town halls. I would also actually show up and vote. I believe in government working for all Montanans; not just the 1%.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Seth Bodnar
   nameSlug: seth-bodnar
@@ -1717,12 +1682,8 @@
 
         Washington doesn’t need more politicians who know how to game the system. It needs people who are focused on fixing it.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
-- candidateName: Russ Cleveland
-  nameSlug: russ-cleveland
+- candidateName: Russell Cleveland
+  nameSlug: russell-cleveland
   bioMaterial:
     - question: Please describe any professional and/or life experiences that will help voters assess your qualifications for the office you’re seeking.
       response: |+
@@ -1780,10 +1741,6 @@
     - question: Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.
       response: |+
         I would serve Montana for the people and by the people. Ryan Zinke served as a consultant for ConocoPhillips, who turned around and donated hundreds of thousands to him while in office. Likewise, Mr. Zinke's worth grew from around $1M to over $30M in his time in office. I promise to put people, not corporations, at the forefront of my leadership in a way that Mr. Zinke never did.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Sam Lux
   nameSlug: sam-lux
@@ -1858,10 +1815,6 @@
         I won't speak to the actions of others, but I will promise that I will be here, in Montana, in the Eastern District, and accessible and accountable to each and every one of my neighbors from Helena to Sidney and everywhere in between.
 
         Most importantly, I won't tell communities what I think they need. I will listen to what the people I am supposed to represent tell me they need, and then I will work tirelessly to make it happen for them.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Michael Hummert
   nameSlug: michael-hummert
@@ -1945,10 +1898,6 @@
         I believe both parties have drifted away from the everyday American. We should be rallying the country around serious goals like a Balanced Budget Amendment, term limits, election reform, and restoring trust in government. Instead, too much energy is spent on spectacle rather than solutions.
         I would serve differently by speaking plainly, leading with principle, and focusing on what actually moves the country forward. I am not interested in being another career politician. I am interested in helping fix a government that has lost its discipline, its honesty, and too often its sense of duty.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Ray Curtis
   nameSlug: ray-curtis
   bioMaterial:
@@ -2017,10 +1966,6 @@
       response: |+
         Frankly, I never imagined I would apply to be a member of the United States Congress. But, because of the events of this past year and the action, or rather inaction, of our current representative, I am applying for this job. Over the course of the first year of his second term, the Chief Executive encroached upon the powers of Congress. My representative and his party capitulated. I am adamant that the Framers in Federalist Paper #51 strongly stated that the purpose of the US Constitution was to control the governed, but also to govern itself. Political power was not to be abused. I did everything I could to get my congressperson’s attention-methods I had taught my students to use. I wrote letters, I made phone calls, I visited the office that he soon closed. I would have attended a town hall had there been one, but there was not, despite many calls for it. I even gave a speech on the 250th anniversary of the Battles at Lexington and Concord at the Missoula County Courthouse. I had been hired by Humanities Montana to give presentations across the state about the 250th anniversary of the Declaration of Independence, but funding for those celebratory events of our Nation’s provenance were cut by an unelected multibillionaire who hails from another country. 
         I will work as diligently as a congressman as I did to get our current congressman’s attention. I pledge to be an actual public servant. (Remember what those are?) I understand who my bosses are: the people who hired me with their votes. I believe that the best life is one lived for others, regardless of their ethnicity, religion, gender, nor age. Additionally, I cannot, in good conscience, take money from anyone to get elected. I have studied and taught about American elections throughout my career and observed that campaign money mostly seems to benefit billionaires and the candidates, rather than the voters. I promise to not personally benefit financially from becoming a member of Congress. I will support and introduce legislation repeatedly, without personal agenda. Additionally, I will adhere to my Oath of Office. I would act as the Framers intended and use the powers of Article 1 to represent the people, as well as provide the constitutionally-mandated check on the executive and judicial branches. I want to bring integrity back to this office and restore faith in our democratic form of government. As John Adams said, democracy is one of the worst forms of government-but it's better than anything that has yet been created.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 
 - candidateName: Tom Jandron
   nameSlug: tom-jandron
@@ -2120,10 +2065,6 @@
 
         I will represent “the forgotten man” and help clean up the mess insiders made, because I can’t be bought, have no party bosses to answer to, and do not need to gather signatures to be on the ballot.
 
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
-
 - candidateName: Troy Downing
   nameSlug: troy-downing
   bioMaterial:
@@ -2206,8 +2147,4 @@
       response: |+
         My approach is grounded in accessibility, accountability, and results. I’ve focused on constituent services, returning resources to communities, and maintaining a strong presence across the district. I have and will continue to prioritize listening to all Montanans, addressing concerns directly, and working to deliver practical outcomes no matter what side of the isle you are on.
         It is the honor of a lifetime to serve Montana in Congress and I don't take this responsibility lightly.
-
-    - question: __source
-      response: |+
-        us-house-senate-survey-2026.csv
 

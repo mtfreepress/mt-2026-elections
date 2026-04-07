@@ -119,47 +119,27 @@
       }
     ],
     "questionnaire": {
-      "hasResponses": false,
+      "hasResponses": true,
       "responses": [
         {
-          "question": "What do you regard as the biggest issue Montana is facing that Congress is in a position to address? How would you address it if elected or re-elected?",
-          "answer": null
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Congress has a constitutional responsibility to declare war, and the War Powers Resolution of 1973 was intended to reinforce that role.\nThe Constitution also designates the President as Commander in Chief, with the authority to act swiftly to protect Americans and our interests. In recent situations, the President notified congressional leadership and acted within the framework that allows limited military engagement while Congress reviews the situation.\nIf operations extend into sustained combat, Congress must provide formal authorization or determine the appropriate course forward.\nThis balance ensures the President can respond to immediate threats while preserving Congress’s constitutional duty to oversee and authorize extended acts of war.\n\n"
         },
         {
-          "question": "Can you name a current member of Congress you admire? What do respect about them?",
-          "answer": null
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Rural healthcare and critical access facilities are essential to Montana. I make it a priority to visit these communities and understand the realities facing this vital part of rural infrastructure.\nWorkforce development is one of the most pressing challenges. Many facilities struggle to recruit and retain the providers and caregivers they need to serve their communities effectively.\nFacilities must also be right-sized to meet the needs of their regions, ensuring they have the capacity not only for emergency services, but also for routine care and, in many cases, long-term care.\nFunding remains critical. With aging populations across rural Montana, Medicare and Medicaid account for a significant portion of facility revenue. Reforms to Medicaid will help ensure more resources go directly to patient care while reducing waste and fraud. I also strongly supported the $50 billion in Rural Healthcare Transformation funding appropriated last year, with Montana receiving a significant share of these much-needed investments.\nFinally, we must improve CMS accountability. Delays in hospital reimbursements and Medicaid redeterminations are unreasonable and place unnecessary strain on providers, especially in rural areas with limited resources.\n\n"
         },
         {
-          "question": "If President Joe Biden is re-elected, how would you want to work with his administration as a congressman?",
-          "answer": null
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "Energy and Resource Jobs: Montana plays a vital role in American energy production. I will continue to support policies that protect good-paying jobs and ensure a reliable, affordable energy supply. At the same time, I believe we must position the United States as a leader in innovation by advancing technologies that strengthen our energy future and drive economic growth.\n\nPublic Land Access: Access to public lands is central to Montana’s way of life. I’m proud of the work I’ve done and will continue working with local stakeholders to maintain access while supporting responsible land management and natural resource development.\nAs a member of the bipartisan Public Lands Caucus, I have consistently opposed proposals to sell off our public land. I believe these lands are a shared resource that must be preserved, protected, and responsibly managed for current and future generations of Montanans.\n\n"
         },
         {
-          "question": "Similarly, if former President Donald Trump is elected, how would you want to work with him?",
-          "answer": null
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "In Congress, Ive taken a practical, supply-focused approach to improving housing access and supporting homeownership. By introducing the Whole-Home Repairs Act to help families afford critical repairs, preserve existing housing stock, and keep Montanans in their homes.\nI've also supported policies that expand access to capital and reduce regulatory barriers that make it harder to build new housing. Increasing supply and encouraging responsible development are essential to improving affordability.\nI have also introduced a bipartisan bill to reauthorize the Native American Housing Assistance and Self Determination Act (NAHASDA) to make sure that Indian Country is not forgotten in our national discussions on housing.\nMy focus is on real solutions, protecting existing homes, supporting new construction, and ensuring more Montanans have the opportunity to achieve the American Dream of homeownership.\n\n"
         },
         {
-          "question": "Do you regard reining in the federal deficit as a priority? If so, in what budget areas would you support spending cuts or tax increases?",
-          "answer": null
-        },
-        {
-          "question": "Would you support federal legislation that either restricts abortion access or guarantees access on a national basis? With what conditions?",
-          "answer": null
-        },
-        {
-          "question": "What if anything should Congress do to ensure Montanans have access to affordable housing?",
-          "answer": null
-        },
-        {
-          "question": "To what extent do you see climate change as an urgent issue? What if any action should Congress take to address it?",
-          "answer": null
-        },
-        {
-          "question": "What if any action should Congress take to change how the nation controls movement across the U.S.-Mexico border?",
-          "answer": null
-        },
-        {
-          "question": "The cost of health care is a concern for many Montanans. What if any federal action would you support to improve the U.S. health care system?",
-          "answer": null
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "My approach is grounded in accessibility, accountability, and results. I’ve focused on constituent services, returning resources to communities, and maintaining a strong presence across the district. I have and will continue to prioritize listening to all Montanans, addressing concerns directly, and working to deliver practical outcomes no matter what side of the isle you are on.\nIt is the honor of a lifetime to serve Montana in Congress and I don't take this responsibility lightly.\n\n"
         }
       ]
     },
@@ -433,7 +413,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "The Constitution is clear: Congress, not the president, decides when we go to war, and then the president prosecutes the war. The War Powers Act of 1973 was meant to restrain the executive branch after Vietnam, but in practice, it has often done the opposite. By allowing unilateral military action for weeks, it has functioned as a permission slip for presidents to begin conflicts before Congress can act.\n\nCongress is supposed to debate whether war is necessary, but they are too afraid to vote on the record, so they are happy to kick the ball to the president. Most recently, forces were committed to Iran before Congress could even debate a war powers resolution, and even the best Congressmen are afraid to defund the troops once they have already been committed.   \n\nWe must restore the original constitutional standard. There must be no offensive military action without a formal declaration of war. We have not declared war since WWII, and every war since has been a disaster. Congress should also repeal the outdated 2001 AUMF, which has been stretched far beyond its original purpose to justify endless, undeclared wars. Any future AUMF must be limited in time and its targets.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Congress should not try to centrally manage or subsidize rural health care from Washington. The policies that created these shortages, like federal mandates, insurance manipulation, and overregulation, are the same ones making it harder for rural providers to survive.\n\nThe best thing Congress can do is remove barriers. That means expanding price transparency, allowing real competition across state lines, reducing federal regulations that drive up costs, re-examining credentialing practices and scope of practice, and empowering patients to use tools like health savings accounts, direct primary care, telehealth, AI assistants, and other innovations.\n\nWe should encourage states across the country to end policies that tie care to large hospital systems, as Montana has done by repealing certificate-of-need laws, and instead allow independent clinics to operate more freely and affordably. When providers can compete and patients control their own health care dollars, costs go down, and access improves.\n\nMontanans don’t need more bureaucrats involved in their lives. They need more freedom to innovate, serve their communities, and deliver care that actually works in rural areas.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "First, I will champion the PRIME Act, introduced by Thomas Massie, which will allow farmers and ranchers to sell meat processed at custom slaughterhouses directly to consumers, restaurants, and retailers within their state without continuous federal inspection. In Montana, where USDA facilities are scarce, this would reduce bottlenecks, lower costs, and expand access to local processing. It will give Montana farmers and ranchers more control, help small operations compete, increase access to fresh, locally raised meat, and strengthen food security through decentralization and local inspection facilities.\n \nSecond, in spirit of the Montana Constitution’s requirements of single-issue bills and term limits, I will oppose any omnibus bills in DC, refuse to support legislation loaded with unrelated provisions and riders, advocate for federal term limits, and will not serve in the US Senate beyond two terms in any 16-year period. I am running to defend the Constitution, reduce federal overreach, and restore accountability, not to build a career in the US Senate.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Congress can help expand housing supply and reduce costs by reducing market distortions.\n \nMany federal regulations hamper housing development. I support the REINS Act, which would prevent unelected agencies from driving up housing and construction costs through burdensome red tape and require Congress to approve any proposed major federal regulations.\n\nAlthough the ROAD Act includes unrelated riders, I support targeted reforms within it, such as streamlined environmental review for housing projects and the repeal of an outdated permanent chassis requirement.\n\nBut we must be honest with Americans and acknowledge that these are all band-aids on the root problem: inflation driven by federal spending and monetary policy. Even with local zoning reform or reducing federal red tape, artificially low interest rates and excessive money creation will always distort markets, fuel malinvestment, and push housing prices beyond what families can afford, and only benefit some homeowners at the expense of younger generations.\n\nIt all comes back to reckless spending. We must cut spending, balance the budget, and rein in the Federal Reserve’s inflation, or the “affordability crisis” will never be solved.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "I am not a politician. I am an everyday Montanan with a 9-to-5, working to provide for my wife and kids. As a former small business owner, I understand the pressure families feel when gas, grocery, and housing costs rise due to inflation and misguided foreign policy. \n\nI served in the military in a leadership role and take seriously the oath every one of our service members swears to the Constitution. In Congress, I will honor their oath and sacrifice by making Congress fulfill its own oath and require a declaration of war before committing our blood and treasure overseas.\n\nI believe, as George Washington advised, that we should “steer clear of entangling alliances.” I will not accept any AIPAC money or any contributions tied to foreign interests, whether it’s Israel, India, Taiwan, Ukraine, or Timbuktu. I will post a “no solicitation” sign on my office door stating that I will make every decision based on conscience, principles, and debate, not campaign contributions and pressure.\n\nI will represent “the forgotten man” and help clean up the mess insiders made, because I can’t be bought, have no party bosses to answer to, and do not need to gather signatures to be on the ballot.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-senate",
@@ -640,7 +642,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "As someone who served this nation in combat, I know firsthand the gravity of sending America’s sons and daughters to war. It is the Constitutional responsibility of Congress to declare war, and Congress needs to do its job. Congress is a coequal branch of government to the Executive, but because of the partisan warfare infecting Washington, members of Congress are more interested in serving their party than they are in living up to their Constitutional responsibilities. As a result, members of Congress are ceding far too much power to the executive branch. \n\n\nI’m running as an Independent because our political system has been broken by party elites who care more about trading power back and forth than doing what’s right for Montana or the American people.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Our rural hospitals are a lifeline to communities across Montana, but politicians in Washington, DC are making it harder for them to serve folks in rural America. The recent budget bill, which passed on a partisan, party-line vote, will kick more than 30,000 Montanans off their healthcare and cause our rural hospitals to lose more than $5 billion in critical resources, all to pay for tax cuts to the wealthiest Americans. That is Washington working for the wealthy and connected, while leaving families in our state out in the cold. That’s unacceptable.  \n\n\nAs an Independent, I will work with Senators from all sides to build commonsense solutions that will give our rural hospitals the resources they need to serve communities across our state. I will also support telehealth expansion and rural healthcare workforce incentives to close the access gap in underserved communities and get more doctors and nurses into rural communities. I will oppose any attempt  to cut resources to our state’s critical access hospitals, and I will defend Medicaid Expansion and oppose reckless cuts that would strip coverage from working Montanans.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "Montana farmers and ranchers feed the world, and we need to have their back. We need commonsense trade policy that protects critical industries and opens key markets, not a chaotic, ever-changing tariff policy that drives up costs, crushes export markets, and creates instability for our producers and small businesses. Tariffs should be used as tools, not toys. I will reassert Congress's authority and push back when the careless use of tariffs hurts hard-working Montanans. \n\nThe Sentinel missile program is a multibillion dollar program to modernize our nation's nuclear deterrent. I will fight to ensure the Sentinel project uses Union Montana workers - not out-of-state contractors- and that the surrounding communities benefit from the economic activity, with proper infrastructure support.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Housing affordability is a challenge facing Montanans at every stage of their lives. The average age of a first-time home buyer in Montana has gone up by nearly a decade, and many of our young people cannot afford to buy a home in the community where they grew up. And I recently heard from a retiree at one of our events in Helena that she will soon have to spend nearly 75% of our Social Security check (her only source of income) just to pay her rent. She’s likely to be forced to move. The current situation is unacceptable. If you’re willing to show up and put in a hard day’s work, you should be able to put a roof over your family’s head. \n\n\nThe answer is clear: we need to build more houses. We can start by cutting red tape, using incentives in the tax code, and fixing supply chain issues that make it harder to build new, affordable homes. And we need to put rules in place that prevent big private equity firms from buying up huge numbers of single-family homes. \n\n\nPossible solutions are there, but we need to fix the partisan gridlock of our broken political system and actually get things done for Montana families. Congress needs to spend less time fighting with each other and actually get to work addressing this issue.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "I’ve spent my entire career leading institutions that are supposed to serve people – and I know the difference between an institution that’s fulfilling its mission and one that’s been captured by the people running it. As a Green Beret, you learn fast that rank and title mean little if you’re not actually serving the mission and the people beside you. That standard shouldn’t change in the Senate. \n\nMontanans deserve an Independent Senator that is not beholden to political insiders in DC and who knows that the people of Montana are his boss, not party leaders. That's the main difference between me and my Republican opponent. He was handed the Republican nomination through an insider deal orchestrated by party elites, and that’s who he’ll work for if elected. When I’m elected, I’ll work each and every day to serve the people of this great state. \n\nWashington doesn’t need more politicians who know how to game the system. It needs people who are focused on fixing it.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-senate",
@@ -769,7 +793,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "It should absolutely be enforced. As stated in Article I, Section 8 of the U.S. Constitution, the legislative branch has the sole power to declare war. No President, regardless of political affiliation, should be allowed to put the lives of our servicemen and servicewomen at risk, destabilize global relations, and damage our economy unilaterally. Not only is it unconstitutional, but such a consequential decision, which should never be taken lightly, should by necessity require the input of the peoples Representative's.\n\nThe only revision I would support of the War Powers Act would be to increase Congresses ability to protect our troops more swiftly from unauthorized and illegal military actions.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "I am a proponent of the extreme need we have in Montana to increase investment into rural infrastructure. One of the most pressing is to address the healthcare deserts in Eastern Montana and beyond.\n\nCongress can do two things right away to immediately address this issue. The first is to fund rural primary care facilities that can provide basic health services to a wider range of rural communities. I firmly believe that the cost of investing in these smaller facilities and staffing them will be a net positive for not only these communities, but the nation as a whole, as increased access to even basic care would decrease the number of severe and debilitating conditions that often go unchecked.\n\nThe second thing, and a major component of my campaign, is to aggressively audit and relocate unnecessary subsidies paid to privatized health insurance and pharmaceutical companies towards a single payer healthcare system that can reduce the cost of providing care for all our communities.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "The hot topic of today is data centers. We have seen what they have done in other states, driving up utility rates, draining local water supplies, and polluting the communities they go into. It will be a priority of mine to radically crack down on this largely unregulated industry and ensure the same does not happen here in Montana. I support a short term moratorium on new data center construction, while we pass legislation to ban open loop data center, require any new construction to invest in a minimum of 115% of their expected power consumption in renewable energy, and create a new tax bracket for these largely automated industries that will mandate that those funds go to local communities infrastructure, education, and workforce development\n\nAdditionally, I think a lot of Montana's other unique challenges can all be solved by the introduction of a comprehensive Rural Infrastructure Bill, to help us address aging water systems like the Milk River, increase grants for public transit between smaller towns, and provide subsidies for critical infrastructure development in our agrarian communities to address the food and healthcare deserts that make life harder for Montanans.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "I think we can all agree that housing is a major concern for almost every Montanan these days. Costs are going up, and we can't afford it. \n\nI will aggressively pursue legislation to change how grant and subsidy programs for new housing are issued so that they prioritize building affordable homes and incentivize their sale to residents of the state over out of staters.\n\nWe need to make sure that when homes are built using federal grant money, they are being built to meet the market demand of LOCAL communities.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "I won't speak to the actions of others, but I will promise that I will be here, in Montana, in the Eastern District, and accessible and accountable to each and every one of my neighbors from Helena to Sidney and everywhere in between.\n\nMost importantly, I won't tell communities what I think they need. I will listen to what the people I am supposed to represent tell me they need, and then I will work tirelessly to make it happen for them.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-2",
@@ -964,7 +1010,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Yes. This isn’t just a constitutional or legal question, it’s a moral one. The decision to go to war carries an immense human and monetary cost, and it should be a last resort that national leaders do all they can to avoid. When our representatives are too corrupt or cowardly to vote on whether we go to war - let alone to stop it - they’re handing an immense amount of power over to the corporations that profit from endless wars while poor and working people pay the price.\nCongress should do their job as outlined in the War Powers Resolution and Article I of the U.S. Constitution, stop this stupid and costly war with Iran, and finally stop the endless wars that have us spilling blood and treasure abroad while working people at home struggle to afford the basics.\n\nI would vote to end this war with Iran and instead invest that money here at home. Let’s use those resources to start tackling our housing crisis, fixing our broken healthcare system, and getting every Montana family access to free childcare and pre-K so that we can afford to raise our families here at home.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Today, too many of us are stuck paying more every year for bad coverage while insurance companies profit at our expense. In Congress, I’ll fight to give every American the option of free or affordable healthcare. We do that by giving everyone the choice to buy into Medicare and expanding ACA subsidies to make it free for working people. \n\nBut affordable care only matters if folks can access it. Too many Montanans in rural communities are forced to drive for hours just to get a checkup or fill a prescription. In Congress I’ll support rural hospitals and clinics, not through one-time payouts like Republicans used in last year’s budget to mask the billions they cut from Medicaid, but by increasing reimbursement rates so rural providers can serve their patients while keeping their doors open.\n\nI’ll also work to rebuild our broken mental health system by expanding funding for community-based mental health services, lower prescription costs by allowing Medicare to negotiate prices for all prescription drugs directly, and expand funding for long-term care options, including community-based and in-home care.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "In Western Montana, we’ve gone from having dozens of zens of operating lumber mills to just a few today. That’s thousands of good-paying jobs lost that used to support families and communities from the Bitterroot to the Flathead. It’s more critical than ever that we protect and sustainably manage our forests and public lands–but we can do that while still responsibly harvesting trees in a way that makes our forest healthier, enriches our communities, and contributes to solving the housing crisis folks in our state are living through.\nThis district contains 16 counties and 2 sovereign Tribal Nations, and western Montana deserves a congressman who will be a partner and advocate for Native people. I’ll fight in Congress to make the federal government work for Montana’s Tribal communities. That means honoring trust and treaty obligations, respecting the government-to-government relationship with Tribal nations, and empowering constituents to enact change where the federal government has fallen short for too long. I’ll work to be a representative for every Montanan and a partner for the tribal nations in MT-01.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Like most Montanans, I’m used to seeing more and more of my paycheck go to housing every year. Most folks in DC don’t know what that’s like, and that’s a big part of why they haven’t done anything to fix it. My housing platform will: \n\n- Deliver significant federal investment in housing that’s equal in scale to the crisis we’re facing. I’ll fight to deliver robust investments to build more homes in the places we need them, and I’ll push for incentives to build dense, infill housing with rent restrictions to ensure public investment results in housing Montanans can afford. \n- Incentivize zoning and regulatory reform in places where outdated zoning laws prevent housing from being built where working people need it most.\n- End corporate home ownership by banning the purchase of residential property by hedge funds and private equity firms, and eliminating tax breaks for institutional investors and corporations.\n- Expand apprenticeships and trade school opportunities and dramatically increase the number of good, union jobs available in construction and the trades.\n- Bring back the first-time homebuyer tax credit to make it cheaper for young and working people to buy and own a home.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "My perspective as a working-class Montanan is the chief difference between myself and our current congressman. Unlike most members of Congress, I’m not a millionaire. I was raised largely by a single mom who picked up extra shifts as a nurse to pay the bills, and I’ve spent much of my life working two or three jobs at a time to do the same. I spent the last 8 years working as a wildland firefighter, the last two as a union leader, and the last decade organizing and fighting for public education and libraries, housing and healthcare, reforming our justice system, and defending our civil liberties to make life better for working Montanans like me, who have lived on the wrong end of our broken systems. That work taught me how to work with people in both parties on incredibly difficult policy issues, and how to connect with folks who have been forgotten by our current leaders.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-1",
@@ -1141,28 +1209,24 @@
       "hasResponses": true,
       "responses": [
         {
-          "question": "Many Montanans are concerned about rising residential property taxes, which primarily fund local government services but are calculated through a system set at the state level. What if any changes to the state tax system would you support?",
-          "answer": "Montanans’ concerns over Greg Gianforte’s reckless, record property tax hike on Montana homeowners is the biggest and loudest concern I hear on the campaign trail. I hear it from lifelong Republicans, even elected Republican leaders, who wonder why their wealthy governor, and his supermajority in the Montana Legislature, raised taxes on them while giving tax breaks to corporations. Gianforte also gave tax breaks to himself while increasing taxes on his neighbors! As governor, I will demand the Legislature adjust the property tax rate when home values increase to prevent the burden falling on homeowners, as previous Republican and Democratic governors have done. I also support the wealthy and corporations paying their fair share. Billionaires and millionaires who buy up third or fourth homes here should be on the hook for ensuring that our community heroes — law enforcement officers, teachers and nurses — have an opportunity to live in safe, affordable homes in the communities they serve.\n\n"
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "The unchecked growth and deployment of executive power is dangerous for our country. Not only should the War Powers Resolution be enforced, but Congress must also step up and act on a myriad of other responsibilities. \n\nThe current sycophants in Congress have done far too little to push back on disastrous tariffs that are driving up costs and killing Western Montana businesses. The current majority in Congress refuses to hold hundreds of powerful men who trafficked and abused young girls criminally accountable. Congress also refuses to exercise oversight over, or limit funding for, poorly trained masked ICE agents who have killed American citizens. \n\nThis Congressional majority openly bows to the executive branch by cheering the war in Iran and hiding from its responsibility. This war is costing billions of dollars per day and driving up fuel prices, even as the same Congress says we don’t have money for healthcare and housing in this country. \n\nIt’s past time for Congress to grow a spine and do its job.\n\n"
         },
         {
-          "question": "Do you believe changes to Montana’s school finance system are necessary to ensure locally administered school districts have the funding they need to meet their constitutional obligation to provide students with a quality education? What if any changes would you advocate for over the next four years as governor?",
-          "answer": "Our Constitution guarantees “equality of educational opportunity” to every Montanan, and this isn’t up for debate. That means whenever schools in our state face shortfalls, we have a constitutional obligation to roll up our sleeves and find funding, without unfairly heaping the burden solely onto ordinary homeowners, and without creating chaos and uncertainty for counties, as Gov. Gianforte has recklessly done. I strongly support adequately funding all public schools in Montana with a tax system that doesn’t let the wealthy off the hook while ordinary homeowners get Gianforte’s additional tax bills. As governor, I would also never falsely blame higher property taxes on county commissioners or municipal leaders, as Gov. Gianforte has done. And unlike Gov. Gianforte, I also strongly oppose any effort to fund private or religious schools with public tax revenue.\n\n"
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "This Congress has purposely imperiled our rural hospitals by gutting Medicaid coverage and slashing ACA tax credits, both of which are dramatically reducing health coverage for rural Montanans and dangerously lowering funding for rural hospitals. And they’ve been clear about why: they needed to cut these services so that the wealthiest Americans, like Elon Musk, could receive a huge tax cut. \n\nI am proudly fighting not just to reverse these disastrous policies but to institute universal health care for all Americans.\n\nIt’s time to stop letting wealthy insurance corporations rig the system and instead insist on basic decency and security for the people who make this country work. The people with lobbyists and attorneys and piles of money don’t have to worry about healthcare, but all of the rest of us do.\n\nDoing this will require tenacity and courage, and it will require dealing with the truth, which is that far too many Democrats have stood in the way of this, too. I’m not afraid to elbow them out of the way either. \n\nI’m committed to fighting for immediate conversion to universal healthcare, which would shore up our rural healthcare system and help all Montanans.\n\n"
         },
         {
-          "question": "Montana maintains largely unencumbered legal access to abortion as a result of the state Supreme Court’s interpretation of the Montana Constitution’s right of privacy, even as other states restrict when and how patients can terminate their pregnancies. What are your priorities regarding abortion access?",
-          "answer": "I strongly support a woman’s constitutional right to make whatever health care decisions are best for her health and her family and her future, including whether or when to have a family, without interference from any government or politician. I support a woman’s right to choose to have an abortion, which is guaranteed in our Constitution as a matter of privacy. I support strengthening those rights and freedoms. Greg Gianforte, and a handful of extremists in the Montana Legislature, are dangerously hell-bent on taking those rights and freedoms away.\n\n"
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "Data Centers:  Current proposals to rapidly develop data centers in Montana without a strong regulatory framework are dangerous. I am devoted to fighting to make certain that no favors are done for tech billionaires. I am devoted to ensuring that we do not risk a single gallon of water quality and that power rates for Montanans are not raised a single penny, so that AI companies can profit from our state. Here again, I will be a forceful advocate for the people of this state over the powerful corporate interests seeking to exploit this state.\n\nRoadless Rule and Wilderness Study Areas:  Our Senior senator is in favor of removing protections for millions of acres of the most important public land in this state, and I intend to represent Montanans who are standing up to oppose these hard-won conservation protections. I’m a hunter and a fisherman, and I know that some of the best habitat in the state is protected in these places, and I am devoted to fighting for them.\n\n"
         },
         {
-          "question": "Montana is one of the states that expanded Medicaid access under the federal Affordable Care Act, bringing health coverage to previously uninsured populations. As governor, would you sign a bill reauthorizing Montana’s expanded Medicaid program in its current form in 2025?",
-          "answer": "Yes. Folding more Montanans into Medicaid coverage was a bipartisan solution that has only improved the lives and livelihood of countless people. It has provided certainty and stability in our communities — for kids, seniors and Indigenous people. And it has saved all of us money in the long term. When asked about the 133,000 Montanans who lost Medicaid coverage under Gianforte’s watch, including 36,000 children, he responded that his plan for stripping health care was “working as intended.” That kind of approach is dangerous, cruel, costly and immoral.\n\n"
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Instead of spending hundreds of billions of dollars on foreign wars and an out-of-control ICE budget, we should be expanding federal programs that help Montanans purchase homes. These programs should include expanded down payment assistance for first-time home buyers. We should also institute a federally guaranteed low-interest program for homebuyers. \n\nI am also in favor of exploring other federal programs that expand the use of modular homes and equity-sharing programs. \n\nI realize this question asked for only two suggestions, but we should be pushing a multitude of buttons and developing new ones with the urgency this situation demands.\n\n"
         },
         {
-          "question": "Housing costs are a concern for many Montanans. What should state government do to push rents and home prices toward levels that are reasonably affordable for middle- and low-income residents?",
-          "answer": "Montana faces a housing crisis that Greg Gianforte has overseen, while making our state the most expensive it’s ever been. And only someone as wealthy as him would have the gall to call his own crisis “The Montana Miracle.” The first thing I’ll do as governor is to stop making the problem worse — as Gov. Gianforte has done. Look, he raised property taxes on ordinary homeowners (while cutting his own taxes) and proclaimed “Montana is a great place to sell” without doing the hard work of making our state more affordable and more livable (he has certainly not looked out for public schools, law enforcement agencies or hospitals). We must ensure that our community heroes — law enforcement officers, teachers and nurses — have an opportunity to live in safe, affordable homes in the communities they serve, and we can do that by reexamining our tax system to make sure that billionaires and millionaires (like Gianforte) who drive up home prices here are on the hook for their fair share.\n\n"
-        },
-        {
-          "question": "What role do you think faith should play in Montana’s public life?",
-          "answer": "While I deeply respect the First Amendment right for all people to practice whatever faith they choose, I also believe in the First Amendment guarantee that our government respects no establishment of religion. To that end, I have significant concerns about Greg Gianforte’s efforts to fund private religious schools with public tax dollars. As governor, he wants to impose his extreme religious views on the rest of us, and I’ll fight his betrayal of our First Amendment rights at every turn.\n"
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "1) I value and enjoy meeting with people and answering questions. Ryan Zinke and the entire Republican delegation refuse to hold open meetings or town halls. That’s a disservice to the people of this state, and I am dedicated to holding regular public meetings. \n\n2) Ryan Zinke and his chosen heir, Aaron Flint, refuse to criticize their party even over policies that are obviously horrible for Montanans, like tariffs or a foreign war that drives up costs for all of us. I am not afraid to take on my own party and fight for Montanans. No one should be able to trade stocks and become wealthy as a representative, and this goes for people in both parties.\n\nFurthermore, there are too many Democrats who have been influenced by the big lobbying money that seems to prohibit them from making good decisions on policies like universal healthcare. Frankly, I think I owe it to Montanans to hold people in my own party to a higher standard, and I am not afraid to do it.\n\n"
         }
       ]
     },
@@ -1338,7 +1402,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Yes. I think we should also look at other conditions to trigger mandatory Congressional approval. If a \"conflict\" includes ground troops or exceeds $1B in spending, it should be treated as a war and require Congressional approval. No more allowing one person to drag nations into endless wars.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Congress should pass a Medicare for All + system that covers not just healthcare, but eyes, ears, teeth, mental health, and rural transportation costs. Our rural hospitals rely on Medicare and Medicaid funding to stay above water. By expanding this system to every Montanan and American, we can deliver better healthcare at a lower price.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "1.) Rural Access. While there are other rural states, Montana's size and small cities make the issue worse. Many rural Montanans are forced to drive two or more hours for access to specialists all while footing the bill for gas, food on the road, and many times, overnight stays. We cannot continue to drain the pockets of rural Montanans just for accessing healthcare. The federal government should reimburse the costs, and I would be glad to pass it.\n\n2.) Data Centers. Montana’s space, small population, and clean water has made it a target for data center development. I would oppose the creation of every data center unless transparent safeguards are met. First, data centers cannot increase utility rates, and must provide islanded power by generating their own electricity. We must also protect our water. Closed loop cooling systems must not contain PFAs or forever chemicals to protect our water when coolants are flushed. Montanans also do not want these centers to power mass surveillance companies like Palantir to spy on Americans. Lastly, if these centers meet these standards and can be developed responsibly, they must be built with union labor.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "While part of the issue is supply, the larger issue is wages. On the topic of supply, the federal government can subsidize affordable housing across the country and provide conditional grants to municipalities and states with pro-affordable housing statutes and laws (like removing minimum lot size requirements for multi-unit housing). To address wages, I propose a 50:1 ratio on executive to frontline worker pay. This means, the highest paid employee cannot make more than 50x the lowest paid employee. If the business owners/shareholders want to make more money, everyone in the company must do better too. I ran my business this way. We became the first company in the country to open remote learning centers and the largest childcare provider in Colorado by taking care of families and our employees. We paid our workers 30% more than competitors and charged families 20% less all while maintaining the highest quality of care. By increasing pay for corporate workers, we can make local economies healthier, which support small businesses. Increased pay puts home ownership in far better reach than building our way out of the crisis.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "I would serve Montana for the people and by the people. Ryan Zinke served as a consultant for ConocoPhillips, who turned around and donated hundreds of thousands to him while in office. Likewise, Mr. Zinke's worth grew from around $1M to over $30M in his time in office. I promise to put people, not corporations, at the forefront of my leadership in a way that Mr. Zinke never did.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-1",
@@ -1554,7 +1640,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "The War Powers Resolution should always be enforced. \n\nWhen a president deploys U.S. forces into combat for a month or longer without congressional authorization, Congress must act. War is not a personal power vested in one office. Decisions of this magnitude demand public accountability and democratic consent and the Constitution clearly gives Congress the authority to declare war and potentially send Montana's sons and daughters into combat. \n\nIf loopholes or ambiguity weaken the Resolution, Congress should strengthen it, not discard it. Montana families send sons and daughters to serve. They deserve a government that treats war as a grave choice, not a unilateral impulse. \n\nNo president should get a blank check for prolonged conflict.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Montanans on the ground tell us they want universal healthcare. \n\nRural hospitals operate on thin margins, low patient volume, and unstable reimbursement. Veterans across Montana struggle to access care close to home, and Medicare Part B access remains limited in many rural areas due to provider shortages. \n\nCongress should act to stabilize rural funding, expand provider incentives, and strengthen telehealth and infrastructure. Long term, we need a Universal Healthcare Act that guarantees baseline coverage and makes the federal government the payer of record. \n\nThe Universal Healthcare approach will bring predictable revenue into rural systems, keep doors open, and ensure care reaches every community.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "Water Infrastructure and Drought Resilience\nAcross Montana, aging irrigation systems and persistent drought threaten agriculture, drinking water, and local economies. Projects like the Milk River system exceed what local communities can fund alone. I'll advance a federal Irrigation Infrastructure Act to provide a 25 percent cost share for projects in drought-prone regions, giving irrigation districts the certainty to plan and build. \n\nI'll work with tribes, local boards, and federal partners to prioritize shovel-ready projects and protect headwaters and water rights. Water is the foundation of Montana’s economy, and we need a system that delivers before crisis hits.\n\nRural Healthcare Access\nMontanans on the ground tell us they want universal healthcare. Rural hospitals operate on thin margins, veterans struggle to access nearby care, and provider shortages limit Medicare access across large parts of the state.\n\nI'll push for a Universal Healthcare Act that guarantees baseline coverage and stabilizes rural systems with predictable funding. I will also expand workforce incentives, telehealth, and infrastructure so care reaches every community.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Home ownership and cost of living in Montana come down to supply, wages, and accountability.\n\nFirst, we need to increase housing supply that working people can afford. I support federal investment in workforce housing, incentives for local construction, and limits on speculative and corporate purchases that drive up prices without adding value to communities.\n\nSecond, wages must keep pace. I support raising the minimum wage and indexing it to inflation so Montanans can afford to live where they work.\n\nThird, we must address the hidden drivers of cost. Healthcare, energy, and infrastructure all feed into housing affordability. A Universal Healthcare Act lowers household costs. Strong oversight of energy and data center development protects ratepayers.\n\nFinally, federal policy should prioritize rural communities, not overlook them. Montana families should not be priced out of their own towns.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "Montanans have an opportunity to elect a true representative of the people.\n\nI announced my run for U.S. Senate the day after the 2024 election and have been on the ground ever since, holding roundtables, visiting communities, and listening directly to Montanans across the state. Showing up is not a campaign tactic. It's how representative government works.\n\nDaines stepped away from this race at the last minute and has not shown up for town halls or open forums in years. I will not step away, and I will not give up on Montana.\n\nMy service will be defined by presence, accountability, and independence. I will hold regular town halls, meet with constituents in every region, and make decisions based on what I hear on the ground, not party pressure or national talking points.\n\nI will work for all Montanans, for small government that works for working people and stays out of our business.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-senate",
@@ -1735,7 +1843,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Written in 1787, Article 1, Section 8 of the US Constitution grants Congress the expressed power to declare war. The Framers did this so that one individual could not unilaterally take our nation to war, especially one which is not a national emergency. The Framers wanted to ensure our presidents did not have the power of kings. George Mason stated the Framers’ position clearly that one person should not have the power to take our nation to war when he wrote that the “executive was not to be trusted with it.” The War Powers Resolution of 1973 was only passed because past presidents tried to abuse their authority. The Resolution passed by over two-thirds vote from each house. Congress can, and should, use the “power of the purse” to pull funding and leverage their constitutional authority. The Resolution in question does not need to be discarded, but instead utilized, and quickly. Congress has ceded its exclusive constitutional powers too frequently in the past year. Our country desperately needs representatives who are devoted to their constitutional duties and the people they serve, rather than automatically falling in line with the president.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "As a result of declining opportunity, Rural Montana is getting hit particularly hard, not just in health care, but teacher shortages as well. Still, that doesn't mean that in those large, sparsely populated rural areas healthcare (and education) is not as important as it is in urban areas. Everyone needs access to health care (and education). The only way to prevent closures is to pay rural hospitals adequately for the services they provide. Preventive services and prompt treatment in the long run lower healthcare spending. Of course, these services also need to be affordable. The United States has enough wealth to subsidize this care and take care of every community, no matter the size. After all, the increase in spending needed to prevent rural hospital closures is quite small in comparison to the total amount currently spent on healthcare. Moreover, the United States needs the people who live in rural areas. They provide goods and services we all use. If the trend continues of rural hospitals closing and towns disappearing there will be a ripple effect throughout the economy. Even in the more urban parts of Montana, I know of physicians who are leaving the country to practice-or leaving the profession altogether. Healthcare providers are feeling the pinch. It is beyond time to address the shortfalls of the ACA. If other developed nations can figure this out, so can the United States. Almost 80 years ago President Truman stated, “We are a rich nation and can afford many things. But ill-health, which can be prevented or cured, is one thing we cannot afford.”\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "The historian K. Ross Toole taught many students, including myself, that Montana is a large state with very few people. He argued in the early 80s, right before his death, that what made Montana unique was our clean and pristine environment, a privilege that people no longer had elsewhere. He predicted that people would come to our state seeking this. As it turns out, he was right. Toole said it was up to Montanans to decide if we were going to keep what was precious to us. We need to ensure Montana’s communities have the tools to develop in the way they want. 20 years ago, Missoula said “no” to an Aspen-type development in nearby Lolo. Just recently in my area, the county commission sided with the people who didn't want a truck stop in their backyard. On the other hand, in Lakeside, there will be another Yellowstone Club-esque development, despite strong vocal opposition from community members. I think representatives need to listen to the people who live here. On the federal level, members of Congress can leverage these decisions with federal support-by granting it or withholding it. Montana won't be Montana if it is no longer this pristine place Toole cherished.\nAlso, because of its size and position Montana has one of the longest borders with Canada. Tariffs imposed by the president have disrupted our friendly relationship with our neighbors to the North, causing unnecessary uncertainty. Our farmers are especially getting squeezed. The constitution clearly states in Article 1, Section 8 that Congress has the power to “regulate commerce with foreign nations.” This Congress has allowed the president to usurp their authority without challenge. As a US representative in Congress, I would insist on taking back this constitutional power from the executive branch.  I would also seek to reestablish international cooperation and trust. It has been fritted away, but it is not too late. Positive relations with our allies are not only something that Montana needs to regain, but also the entirety of the United States.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "I recall learning in my college economic classes that Montana would always be an expensive place to live because of our long distance from markets. It has become even more expensive here because Montana has been discovered as a desirable place to live by people from elsewhere. I understand completely why people want to move to Montana. It is a beautiful place with a quality of life that is no longer available in many other places. It has never been easy but is getting harder and harder for someone from here to stay here. Homeownership is out of reach for many Montanans. Recently I read the average age of a first-time homebuyer in the U.S. is now 40 years old, which is the oldest on record. Additionally, the median age of all homebuyers has risen to 59 years. One possible solution to bring down home prices and make ownership more feasible might be to manipulate supply through taxes. Taxes is an unpopular word but they are used to manipulate all kinds of behavior such as charitable giving, or sin-taxes on alcohol and tobacco. Other nations tax gasoline at a much higher rate to encourage the use of more fuel-efficient cars. Perhaps taxes could be used to limit the number of homes and properties a person can accumulate. Like a progressive income tax, there could be a progressive wealth tax. Stocks are not an unrestricted investment, perhaps property shouldn’t be either. Discouraging the purchase of home after home, so others can have an affordable place to live, seems like a desirable goal. Housing is a basic necessity.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "Frankly, I never imagined I would apply to be a member of the United States Congress. But, because of the events of this past year and the action, or rather inaction, of our current representative, I am applying for this job. Over the course of the first year of his second term, the Chief Executive encroached upon the powers of Congress. My representative and his party capitulated. I am adamant that the Framers in Federalist Paper #51 strongly stated that the purpose of the US Constitution was to control the governed, but also to govern itself. Political power was not to be abused. I did everything I could to get my congressperson’s attention-methods I had taught my students to use. I wrote letters, I made phone calls, I visited the office that he soon closed. I would have attended a town hall had there been one, but there was not, despite many calls for it. I even gave a speech on the 250th anniversary of the Battles at Lexington and Concord at the Missoula County Courthouse. I had been hired by Humanities Montana to give presentations across the state about the 250th anniversary of the Declaration of Independence, but funding for those celebratory events of our Nation’s provenance were cut by an unelected multibillionaire who hails from another country. \nI will work as diligently as a congressman as I did to get our current congressman’s attention. I pledge to be an actual public servant. (Remember what those are?) I understand who my bosses are: the people who hired me with their votes. I believe that the best life is one lived for others, regardless of their ethnicity, religion, gender, nor age. Additionally, I cannot, in good conscience, take money from anyone to get elected. I have studied and taught about American elections throughout my career and observed that campaign money mostly seems to benefit billionaires and the candidates, rather than the voters. I promise to not personally benefit financially from becoming a member of Congress. I will support and introduce legislation repeatedly, without personal agenda. Additionally, I will adhere to my Oath of Office. I would act as the Framers intended and use the powers of Article 1 to represent the people, as well as provide the constitutionally-mandated check on the executive and judicial branches. I want to bring integrity back to this office and restore faith in our democratic form of government. As John Adams said, democracy is one of the worst forms of government-but it's better than anything that has yet been created.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-1",
@@ -1880,7 +2010,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Congress has always had the power to declare war and the power of the purse. They don't use either. War pays. Incentives matter.\n\nPresidents deploy forces in language carefully chosen to avoid triggering the constraints Congress wrote for itself - and Congress lets them, because enforcing those constraints would mean owning the consequences.\n\nWe have to make war a personal decision, not a financial one. Right now, it is a calculation of convenience for people whose own children may not be at risk.\n\nI will bring a bill to the House that drafts the sons and daughters of the President, Cabinet members, Senators, and Congresspeople first.\n\nCall it the \"Send Baron Act.\"\n\nOur country's leadership needs its incentives aligned with the citizens it purports to serve.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "There is no free market anywhere near American healthcare. It is managed pricing, managed access, and managed scarcity — and the people managing it are not the patients or the doctors. That's not a solution. That's a hostage situation.\n\nWe pay hospitals by the patient. When there aren't enough patients over a large area, it doesn't pencil. We pay fire departments to be on standby — not hospitals. Fee for service doesn't work when there aren't enough fees.\n\n52 of our 56 counties are medically underserved. Medicaid expansion is the single biggest thing keeping the lights on in rural Montana healthcare. Governor Gianforte signed HB 245 removing the sunset on the state's funding portion. Our delegation needs to protect the federal side — full stop.\n\nFix what made us this dependent. Start with price transparency — the bills exist. The House passed the Lower Costs, More Transparency Act 320-71. The PRICE Transparency Act is in committee now. The votes are there. The will to finish is not. I intend to provide it. Price transparency is the first step on a long journey.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "First: data centers. NorthWestern Energy has agreements to supply over 1,400 megawatts to data centers — nearly doubling Montana's electrical demand for minimal jobs. The PSC ruled the contracts don't have to be public. The White House got seven tech companies to sign a Ratepayer Protection Pledge, but it has no enforcement and no penalties. The White House asked Congress to codify it. No one has written the bill. I will. Montanans built this grid. Data centers pay full cost or they don't belong here.\n\nSecond: country-of-origin labeling. Four meatpackers control 85% of beef processing. That's a monopoly. The rancher's share of the beef dollar has dropped from 80 cents to 37 cents while consumers pay record prices. The White House launched a voluntary \"Product of USA\" sticker. Voluntary. Meanwhile 80,000 metric tons of Argentine beef entered our market with no mandatory label. A sticker isn't enough. I'll co-sponsor the American Beef Labeling Act and push for mandatory COOL in the Farm Bill.\n\nThese two issues have the same pattern. D.C. offers pledges and stickers. Montanans need good laws out of Washington, not more of the same broken promises.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Housing in Montana has become unaffordable for the people who live and work here. Wages haven't kept pace, and they won't — because Montanans aren't competing in a housing market anymore. They're competing in an asset market. When the Federal Reserve prints trillions, that money has to go somewhere. It flows into anything that can be financed — homes, rentals, land. Your house isn't a shelter anymore. It's an inflationary asset.\n\nThis is what happens when you let a central bank run monetary policy for the benefit of the monied instead of the people who live and work here. Everything becomes a financial product. Everything goes up in price. That's not a housing crisis — it's a monetary crisis showing up in your mortgage payment.\n\nI'll support the 21st Century ROAD to Housing Act — the Senate passed it 89-10. Banning institutional investors from buying single-family homes is common sense. But it treats the symptom. The disease is cheap money and a Federal Reserve that answers to no one. Fix the money and you fix the speculation. Until then, we're putting band-aids on a bullet wound.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "Troy Downing sits on the House Financial Services Committee — the committee that handles banking law. Montana's cannabis industry did $327 million in sales last year and paid $60 million in state taxes. Our businesses still can't bank normally. The SAFE Banking Act has passed the House seven times. Senator Daines championed it from the Senate — and he's leaving. Sheehy hasn't said a word. Montana has no cannabis banking champion left in its federal delegation. Downing could be that champion tomorrow. He won't.\n\nHe hasn't co-sponsored a single COOL bill. R-CALF called him out by name. He sent a letter asking for \"clarity\" on Argentine beef. Clarity. 27,000 ranches needed a vote, not a letter.\n\nHe lives at the Yellowstone Club. I've worked lifts and banged nails there. He's comfortable in an R+15 district. I'm not comfortable with what that comfort has cost Montana.\n\nI will write the bill to codify the Ratepayer Protection Pledge. I will co-sponsor the American Beef Labeling Act. I will champion SAFE Banking from the committee Downing is sitting in. These aren't hard issues. They require someone willing to do the work for Montana.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-2",
@@ -2045,7 +2197,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "The War Powers Resolution of 1973 should be strengthened so that the President cannot engage in war without Congress declaring war, as prescribed by the US Constitution.  Moreover, I would advocate to reform the organization of the National Guard and ensure that our national guardsmen are not called into federal service or deployed for foreign wars except for the purposes clearly stated in the US Constitution -- to execute the laws of the union, suppress insurrections and repel Invasions.  The constitutional power to call forth the militia for federal service is vested in Congress -- not the President.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "While federal laws and policies should not hinder healthcare services to rural areas, I am not sure the federal government has or should have a significant role to play when it comes to local hospitals and clinics – except for federally-operated resources like VA hospitals and clinics that serve our veterans.  I believe that the best way for Congress to improve access to healthcare generally would be to lower the regulatory burden, which artificially restricts the supply of healthcare providers.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "I believe that the \"Montana Plan\" to limit corporate influence in elections and our voter registration system that does not have voters declare a party affiliation can be good models for improving our election system across the country.\n\nI would like to see federal legislation pass that nullifies the 2012 Supreme Court decision in American Tradition Partnership v. Bullock that struck down Montana’s century-old 1912 Corrupt Practices Act.  I would also like to see federal legislation pass that nullifies the Supreme Court's 2010 decision in Citizens United v. Federal Election Commission by limiting all financial contributions to political campaigns and committees to persons who are eligible to vote in the United States.  Corporations obviously cannot and should not enjoy all of the natural or constitutional rights, privileges and immunities that a natural person has -- for instance, corporations and unions do not have a right to life because they are not alive, and they cannot register to vote.  It is absurd that corporations and unions should be recognized as persons with First Amendment rights to free speech that allows them to make unlimited expenditures to influence elections.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "The most important thing that federal officeholders can do to address home ownership and cost of living in Montana and across the country is monetary reform that does not allow the value of our currency to be eroded continually.  We should end the Federal Reserve and the federal banking cartel that has destroyed the value of the US Dollar with continual inflationary policies, money-supply controls and interest rate manipulation.  The US Constitution grants Congress the exclusive authority to coin money, regulate the value of money in the United States, and regulate the value of foreign money.  Congress cannot divest itself of a constitutional power or delegate this authority to any other branch of government, much less a quasi-public entity with very little accountability to Congress or the American people.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "As a Libertarian, I am not beholden to my party or my party leadership.  My only obligations would be to my constituents, my oath to uphold the US Constitution, and my own conscience.  I would have an advantage in a Congress that is primarily controlled by two dinosaur parties, which largely serve their own ambition for power and control.  This would place me in a favorable position to curry favor when votes on legislation may be tight, to influence legislation and other members of Congress, and to advocate for my constituents in Montana.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-1",
@@ -2271,44 +2445,24 @@
       "hasResponses": true,
       "responses": [
         {
-          "question": "What do you see as the biggest issue Montana is facing that the Senate is in a position to address? How would you address it if elected or re-elected?",
-          "answer": "It is the same problem that plagues the entire country. Crony capitalism, corruption in government to include Congress and people in power throughout our government that never seem to be held accountable. Much of this can be corrected with a balance budget amendment similar to the one that Jon Tester voted against in 2011. Our country holds the position of being in control of the reserve currency of the world. Our leadership has debased our currency by borrowing $35 trillion. This must stop. It is at the core of the corruption. It is also at the core of inflation, the most insidious tax on poor people. We must insist on a balanced budget amendment, restrict any person over the age of 74 from serving in the Federal government, and term limits of 12 years in Congress. We need voting laws that are beyond reproach. We need a federal clearing house for candidates so the voter can be well informed, and the candidates held responsible for what they say.\n"
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Yes, the War Powers Resolution should be enforced. If a president deploys U.S. forces into combat for a month or longer without authorization, Congress cannot be treated as optional. The 1973 law requires the president to notify Congress within 48 hours and generally bars unauthorized hostilities from continuing beyond 60 days.\nBut the larger problem is the 2001 Authorization for Use of Military Force signed after September 11. That law is still in effect and has been stretched far beyond its original purpose by successive presidents. I would repeal it and replace it, if necessary, with a narrowly written authorization tied to a specific enemy, place, and time limit.\nAmerica should not drift into open-ended war through vague authorizations and executive habit. If force is used in our name, Congress must debate it, authorize it, and own the decision.\n\n"
         },
         {
-          "question": "If President Joe Biden is re-elected, how would you want to work with his administration as a senator?",
-          "answer": "I believed Joe Biden when he said in 2020, He would only run for one term of office. I believed Joe Biden when he said Kamala Harris was qualified to be president if anything was to happen to him. The problem with old people is they forget what they tell people, and they are the last to know when it's time to quit. Just like George W. Bush said no more nation building when he was running for office, that didn't work out for the people. Our Senate is evenly split, giving each senator a unique position of power. The Senate confirms the presidents appointments to cabinet positions. I will not confirm any cabinet officer that will not answer direct questions with direct answers. The same for federal judges. I am not partisan, my only loyalty is to the people, and the country. I am of the opinion that Joe Biden is past his prime and that he should step aside and let Kamala Harris become president. He said she was qualified. This is the time to find out, we the people need to know.\n"
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Rural hospitals and clinics are essential, and once they close, they are extremely difficult to bring back. Congress should start by reversing Medicaid changes that will push more patients off coverage and increase uncompensated care for rural providers. New Medicaid work requirements begin January 1, 2027, and major cuts in federal Medicaid spending are expected to increase the uninsured and add more pressure to rural hospitals.\nBeyond that, Washington should focus on keeping core services open, not dictating every local decision. Some communities may need consolidation, fewer layers of administration, or a more realistic mix of services to stay solvent. Montana’s own rural health plan notes that inpatient use in many rural hospitals is already below 50% of staffed capacity.\nMy priority would be simple: keep rural providers open, protect Medicaid support, and give communities the flexibility to make practical changes before a temporary crisis becomes a permanent closure.\n\n"
         },
         {
-          "question": "Similarly, if former President Donald Trump is elected, how would you want to work with him?",
-          "answer": "In many ways Donald Trump provides evidence of his narcissism just like Joe Biden does. His ability to make cabinet appointments is also suspect. Ryan Zinke was no better prepared for interior secretary than the tiny little electrical company in his hometown that he was trying to hire to rebuild Puerto Rico's electrical grid. The president must work with Congress. Congress does not seek his approval, but he must seek our approval. The more independent a senator is from his party, the greater the influence he will have on the process. Jon Tester operates in lockstep with the Democrat leadership and that is why he has been ineffectual after 18 years. He refused to work with Donald Trump, nothing’s changed. There are things I can work on with Trump. Such as the southern border and immigration control. Maybe we can get our balanced budget amendment. We must move our country forward.\n"
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "Three Montana issues I intend to address are forest management, illegal immigration, and drug prevention for children.\nFirst, Montana needs active forest management, not a policy of watching usable timber burn. We should increase responsible timber harvest, reduce fuel loads, and support sawmills and wood-product manufacturing. That would reduce wildfire risk, strengthen rural jobs, and make better use of our natural resources.\nSecond, Montana is a border state, and illegal immigration is not just a southern border issue. A broken national system affects every state, including ours. I would support stronger immigration enforcement and serious reform so Montana is not left dealing with the consequences of federal failure.\nThird, we need a more honest approach to drug prevention. “Just say no” is not enough. Children need to be told the truth about what drugs do, how addiction develops over time, and how lives are slowly destroyed by it. Prevention starts with honesty, not slogans.\nHow would I get it done? By respecting the proper federal role, working with Montana communities, and pushing practical solutions instead of empty talking points.\n\n"
         },
         {
-          "question": "Do you regard reining in the federal deficit as a priority? If so, in what budget areas would you support spending cuts or tax increases?",
-          "answer": "Please do not mischaracterize these statements. They are a starting point for negotiation on very important issues. Social Security and Medicare are currently not part of the deficit. They do need reform, they will be insolvent in less than nine years. We currently borrow approximately half of what we spend each year. Everything must be visited. We must stop lying to our people so they can rise to the occasion and understand the problems our current leadership has put us in. I support both, spending cuts and tax increases. It will take bold honest discussions and debates open to the public to resolve this issue. Either way there are dark days ahead of us. This will be our moment as a nation to come together and like our founding fathers we must make changes now to guide our country into the future and protect the Republic. A key component of this will be returning sovereignty and responsibility to the states. Sacrifices will be required, it is unthinkable not to succeed.\n"
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Home ownership and cost of living in Montana are affected by federal policy, but they are primarily state and local issues. The most important thing the federal government can do is restore fiscal discipline. A Balanced Budget Amendment would help reduce inflationary pressure, stabilize the economy, and ease the long-term forces that drive up interest rates, mortgage costs, and everyday prices. Mortgage rates remain elevated nationally, and the Federal Reserve continues to say inflation is still somewhat elevated.\nBeyond that, Washington should stop making the problem worse. The federal government should reduce unnecessary regulatory burdens, protect the value of the dollar, and avoid the kind of deficit spending that raises costs for everyone. Montana’s affordability problems are real, but the detailed solutions should come mostly from the state, local governments, and local communities, not one-size-fits-all mandates from Washington.\n\n"
         },
         {
-          "question": "Would you support federal legislation that either restricts abortions or guarantees access on a national basis? With what conditions?",
-          "answer": "There have been many opportunities since 1973 for both parties to fix this problem. Neither one of them wanted to lose abortion as a wedge issue to drive us apart. While the Supreme Court provided pro choice with the opportunity to compromise with pro life and craft a piece of legislation both could live with, it was wasted. Now pro life is in the driver seat and it is unlikely they will craft a bill to compromise with pro choice. My starting point on the issue would be no state should restrict a woman's right to have an abortion in the first trimester. Rape and incest carve out. If two doctors are willing to sign off on an unviable pregnancy up to the sixth month, it should be granted. This should be a baseline and beyond this each state should have complete control of the abortion issue. It is unlikely the federal government will ever get involved with abortion based on past performance. It is now a states’ rights issue. It will remain so until the Supreme Court takes it up again.\n"
-        },
-        {
-          "question": "What if anything should Congress do to ensure Montanans have access to affordable housing?",
-          "answer": "The federal government should not get involved in affordable housing. Affordable housing is a regional problem. Best solved by the states. The federal government is in debt over $34 trillion. The federal government does not have money to spend on another issue. I was listening to the California Senate debate. Rep. Barbara Lee stated that if she won the Senate seat she would get $100 billion of funding for much-needed housing in California. Now you know why we are $34 trillion in debt. What Congress can do to affect the housing crisis is simply to balance the budget. This would drive inflation down and stabilize the cost of interest to purchase a home. Everything is interlinked. We have a housing shortage, yet we leave our southern border open and invite 9 million people into our country. We could drive the cost of building a house down if we harvested more timber instead of letting it burn.\n"
-        },
-        {
-          "question": "To what extent do you see climate change as an urgent issue? What if any action should Congress take to address it?",
-          "answer": "Climate change is real, but it will most likely not be the cause of our extinction. Congress has not gotten anything right in the last 80 years, so why would you think they know what they're talking about this time. Keeling is responsible for the first carbon dioxide measurements of the atmosphere in 1958. It measured 313 ppm and is currently at 414 ppm. That's only 25% increase of our current carbon dioxide level in 66 years. I suspect the reason they are using this as the bogeyman to try and scare us is simply because Congress doesn't blame any one particular industry beyond transportation for the problem. Transportation uses only 15% of the total petroleum products. Pollution is the bigger problem that Congress does not want to address. Instead Congress has assisted our corporations in shipping the pollution overseas. There are over 1 million abandoned oil wells spewing methane that is 28 times more toxic to the environment than carbon dioxide. This is a threat to our environment.\n"
-        },
-        {
-          "question": "What if any action should Congress take to change how the nation controls movement across the U.S.-Mexico border?",
-          "answer": "This has been a problem for my entire life. We must seal the southern border completely. We need to re-examine all of our refugee and immigration programs. Immigration is a three to one loss for the federal government and state agencies. We simply do not have the money to support an immigrant population. It's not about compassion it's about common sense. We the people of this country have a culture. It has eroded due to bad policies of our federal government. Our government needs to stop sanctioning countries in an effort to destroy their economies. This does not make our people safer it just makes our politicians more powerful and dangerous. This is behavior that must be corrected in our state department. Middle East condition since 9/11 2001 are a prime example. Only a fool or politician would say it's a safer place. We have destroyed entire nations with our intervention. We must bring all of our military home to protect our boarders and the American people.\n"
-        },
-        {
-          "question": "The cost of health care is a concern for many Montanans. What if any federal action would you support to improve the U.S. health care system?",
-          "answer": "In 2000 a family of four's health care was about $6500 per year, 2010 affordable health care act was passed. At that time insurance was approximately $12,500. In 2020 it had increased by over $10,000 a year. That certainly does not seem very affordable to me. We still have tens of millions uninsured. A document, 1,000s of pages controlling our health care, Congress and Jon Tester did not read it. When Trump was president Tester could've revisited the problem, but he just voted no on repealing it. The medical industry reports record profits at the expense of the people. I cannot think of one thing that Congress has managed well. For this reason single-payer scares the hell out of me. If we are to balance our budget and move our country forward then everything must be examined. I do not have the answer for this one, yet. One thing is for sure, we must get it right this time. Other countries have models that we can explore, we do not have to reinvent the wheel.\n"
-        },
-        {
-          "question": "Under what if any circumstances do you believe the U.S. should be providing military support to parties involved in foreign conflicts?",
-          "answer": "We should allow our military industrial complex to sell arms to countries in order to protect their borders. It should be controlled by Congress. The keyword is sell, not provide them with the money to purchase. If we are to save our country from economic chaos and therefore the world from economic chaos. We must stop the policy of interfering in other countries issues. There have been more people killed in the past 60 years because of our intervention. It is a contributor to our $34 trillion debt. We should revisit every treaty we are involved in. Some will stand and some will need to be renegotiated. We need a strong navy, a well-trained expeditionary force, and a domestic force designed for the defense of our nation. We must harden our space and cyber defense. Once our debt has been paid off in full we can revisit helping other countries. We have a responsibility to our country to provide peace and tranquility within our borders.\n"
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "What would distinguish my service is simple: integrity, honesty, and putting people before corporations and political theater. Too many elected officials spend their time feeding division and arguing over wedge issues while the country’s biggest problems are ignored.\nI believe both parties have drifted away from the everyday American. We should be rallying the country around serious goals like a Balanced Budget Amendment, term limits, election reform, and restoring trust in government. Instead, too much energy is spent on spectacle rather than solutions.\nI would serve differently by speaking plainly, leading with principle, and focusing on what actually moves the country forward. I am not interested in being another career politician. I am interested in helping fix a government that has lost its discipline, its honesty, and too often its sense of duty.\n\n"
         }
       ]
     },
@@ -2455,7 +2609,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "I believe strongly in the principles of constitutional governance, accountability, and adherence to the rule of law. In that context, the War Powers Resolution of 1973 (WPA) should be enforced. The WPA is federal law designed to limit the President's authority to wage war without congressional authorization, requiring the president to notify Congress within 48 hours of deploying troops and limiting engagement to 60 days unless Congress authorizes longer action. By law, the President must also provide a full account of the “circumstances under which such hostilities were initiated, the estimated scope and duration of such hostilities, and the constitutional and legislative authority under which the introduction of hostilities took place.” I believe that that no branch of government should act unilaterally in matters as serious as war, and existing laws designed to preserve that balance should be upheld and improved rather than ignored.\n\n     If there are concerns about ambiguity or lack of compliance, the priority would not be to discard the law but to strengthen or clarify it so that its requirements are more explicit and enforceable.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Montana’s critical-access and rural healthcare system must be maintained. As a Cardiologist, I know that delays of even an hour in the care for emergencies such as a heart attack or stroke can mean the difference between life and death.\n\n     That said, 20% of our economy is now spent on healthcare, which is unsustainable. Millions of Americans are now seeing their health insurance costs increasing disproportionately because of the One Big Beautiful Bill (OBBB), which also canceled Medicaid support and eliminated subsidies. About 2/3 of Montana Medicaid recipients reside in rural areas. There is no question that the OBBB directly threatens the ability for Montana’s 47 rural health facilities to remain financially viable (or maintain current service levels).\n\n     An Independent Representative can think out of the box in ways that differ from others who are constrained by party dogma. Any successful effort must first protect the ability to see the doctor of your choice, and must retain coverage for preexisting conditions. I do not think a single-payer system will work. Above all else, I will fight hard to protect rural healthcare in Montana, because I believe in it and know what it does.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "The Montana Plan:  I strongly support the Transparent Election Initiative (TEI) that aims to ban corporations from “dark money” spending money on elections or ballot issues, and is intended to counter the effects of Citizens United.  The broader TEI also increases transparency, and improves confidence in the electoral system by returning more control back to citizen voters.\n•  If elected, I will champion the Montana Plan in Congress!\n\n   Family Farms and Ranches underpin Montana’s economy, our national security, and our way of life.  Due to blunders in trade policy and consolidation at every level of the industry, we face a perfect storm; our federal government too often underwrites multi-national corporations at the expense of family farmers.  \n•  Conventional short-term bailouts do not help; we need long-term solutions.\n•  The sale of agricultural lands or assets to foreign and large multi-national corporate entities must be curtailed.\n•  We must address the lack of competition for input suppliers (equipment, seed and fertilizer, etc.); this will very likely require significant anti-trust legislation and legal enforcement.\n•  Congress must take back control over tariffs and trade policy.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "When comparing average income to Montana’s average home price, we have the single least affordable market in the nation.  Fixing this housing crisis will require an “all of the above solution”:\n\n•\tEnact new laws that will allow all mortgages to be transferable with minimal penalty, thereby freeing up home equity\n•\tTax incentives to municipalities (and builders) to open larger tracts of land for development and remove barriers to multi-family housing in residential areas.\n•\tEnforce antitrust laws against real estate entities that are “price-fixing” rents\n•\tSignificant down-payment assistance to 1st-time homebuyers\n•\tProperty tax relief to qualified homeowners, and to 1st-time homebuyers for the first 3 years\n•\tTargeted reductions in capital gains taxes for older homeowners who want to downsize\n•\tImprove financing terms (rate adjustments or subsidies) for qualified purchase/rehab/repair loans\n•\tPrioritize offers from buyers at foreclosure auctions who plan to live in the home \n•\tIncrease property tax rates for corporate or large-volume private-equity landlords (this will require these increases are not passed through to individual renters)\n•\tReduce tariffs on lumber and building supplies\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "I am not a typical politician; my thinking is framed as moving away from a traditional political or ideological approach, to a less partisan one grounded in professional expertise, public service, and practical problem-solving – along with a strong emphasis on accountability, constitutional principles, and real-world outcomes. \n\n   My career as a physician and longtime senior military officer has given me significant experience in making high-stakes decisions under pressure, using an evidence- or merit-based approach to decision making while maintaining a focus on patient (constituent) well-being.\n\n   Leading with anger or combativeness is not effective – there is far too much vitriol in today’s politics. I am offering a less partisan and more pragmatic approach to representation as an ‘adult in the room’ so-to-speak, while working to reduce political polarization by collaborating with others from both sides of the aisle who can put the needs of the people above party.\n\n   As an Independent Representative, I will align my votes with Montanans’ needs or desires, and will not be beholden to either party bosses or political elites. I won’t wait for others to tell me what to do or how to vote.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-2",
@@ -2662,7 +2838,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Yes. It is one of the checks and balances that the legislative branch has on the executive branch.\nUltimately Congress can keep the United States from having to send our soldiers into harm's way for unjust Wars and for a president's Personal Agenda.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "The nation's current Healthcare crisis is directly impacting Montana's rural Hospitals and Clinics and that is one thing that Congress needs to take head-on. As your next senator from Montana one of my priorities is to make sure that we get Medicare for All codified and implemented for all Montanans.  When Montana's don't have to worry about how they're going to pay their next doctor bill we will more likely make more frequent Healthcare visits to our healthcare providers.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "1. Montana and Tribal Nation food sovereignty. By supporting Montana's agricultural producers and breaking up the large corporations that have a monopoly on both livestock and grain producers and bringing that back to a local level here in Montana with multiple outlets for our producers to sell their livestock and Grains too.\n2. Supporting Montana veterans. I will do everything that I can to make sure that the process for getting VA benefits for Montana's veterans is simplified and makes it easier for them to get access to their VA benefits and approved for their VA benefits.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Homeownership and the cost of living in Montana as a concern to all montanans specifically it all starts with the cost of living what we need to do is raise the federal minimum wage to a rate that allows hard working Montana's to only have to work one job to provide for their families and ultimately afford housing.\nBy restructuring the tax system and making sure that everyone regardless of their income pays their fair share in taxes, those resources can then be reallocated to help and assist with the housing crisis in Montana.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "As opposed to Steve Daines I won't just provide lip service to make things sound good and like everything is going great for everybody in Montana when in fact we know it's not. I will make sure as a hard-working middle class person myself, I am able to understand and sympathize with our hard-working middle class and those less fortunate in our state to help lift them up and increase their quality of life. Through sound and Common Sense legislation we can actually make life better for all montanans not just a select group who are benefiting from the current economic environment and the current tax system in place for our country.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-senate",
@@ -2843,7 +3041,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "ran is the world’s leading state sponsor of terrorism and we must put an end to Iran’s nuclear enrichment capability, never allow them to develop a nuclear weapon, stop their sponsorship of terrorism and halt their ballistic missile development, but this war is not the answer.\nI served in Iraq, and have seen the consequences of an ill-thought out and misguided war. President Trump has not been honest with the American public about his war in Iran. He has failed to articulate his justification for putting American Service Members in harm’s way, and changes the objective nearly every day. He is ignoring military experts and has no plan.\nNow, we are all paying the cost. American service members are dying. The price of gasoline and fertilizer are skyrocketing, and we are spending over a billion dollars a day on this war, all while President Trump cuts Medicaid, forces rural hospitals to close and strips Montanans of their health care.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Our healthcare system is broken and this administration’s devastating Medicaid cuts to pay for tax breaks for the wealthiest mean that rural hospitals and health clinics have been put on the chopping block. I myself am 45 minutes from the nearest emergency room. The lack of services in rural areas is a crisis, and one that disproportionately impacts our Tribal communities. Congress needs to protect and fully fund Critical Access Hospitals operating on razor-thin margins and expand loan repayment programs to recruit and retain doctors, nurses, and providers in rural and Tribal communities that have gone without long enough.\nBut rural hospitals can't survive if their patients can't afford to be patients. That's why I'll fight to make expanded ACA premium tax credits permanent, expand the number of prescription drugs Medicare can negotiate on, and extend Medicare to cover dental, vision, and hearing. I'll fight to stop Wall Street private equity from buying up rural hospitals, stripping them for profit, and leaving communities with nothing. Meanwhile, I'll fight to outlaw insurance companies from using AI to deny coverage decisions — because Montanans deserve a healthcare system that answers to patients, not profits.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "As a fourth-generation Montana rancher and former Chief of Staff for the Montana Farmers Union, I know ag families are the backbone of our state. I helped create a USDA-certified meat-processing co-op so producers could keep more of their hard-earned money and put it back into their communities. In Congress, I'll fight to give small processors a fighting chance, require country of origin labeling so Montanans always know where their beef is from, and pass right-to-repair so when a tractor breaks at harvest, a farmer can fix their own equipment without waiting weeks for a corporate technician.\nMontana is losing its next generation. Young Montanans are being priced out by lack of opportunity and a false choice between expensive degrees and leaving the state. Apprenticeships and trade schools offer a better path. They let Montanans work from day one without crushing tuition debt and into jobs averaging more than $60,000 a year. I'll fight to expand federal investment in apprenticeships and career and technical education so every young Montanan has a real path to a good-paying job right here at home. But a good job only keeps people here if they can afford a place to live.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Montana home prices have risen more than 60% in the last five years. Hard-working families are being priced out of communities they've lived in for generations, and Wall Street is making it worse. Corporate investors are buying up single-family homes, driving up prices, and turning Montana neighborhoods into profit centers. I'll fight to pass the Stop Wall Street Landlords Act to end the tax breaks that subsidize this practice and put those homes back in the hands of Montana families — this is one issue where even this administration agrees.\nBut stopping the bleeding isn't enough. We need to build more housing. I'll fight for federal incentives for affordable housing construction tailored to each community's needs, and expand first-time homebuyer tax credits so that when a young Montanan is ready to put down roots, they can actually afford to.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "I’m not a career politician and I’m not who either party in Washington has picked for this seat. That’s because I’m going to fight for our way of life no matter what and I’ll stand up to anyone who will continue to make life harder for our community.\nMontana is a unique and special place. My family ranch has been part of the landscape since the 1800s. My roots here run damn deep. And now our way of life is under attack. Families can’t afford homes. Every young Montanan who grew up here like me deserves to stay here. We’re losing the next generation of Montanans to an affordability crisis. All while this administration and our current federal delegation watch as their tariffs target our ranchers and farmers who are doing everything they can just to get by.\nI swore an oath to my country when I was 18 years old, I flew Blackhawk helicopters and served in Iraq and I’ve been serving ever since. Corporate interests, billionaires, millionaires, and corrupt out-of-touch politicians have decided that they get to make the rules. And I’m standing up to that. That’s what this campaign is about.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-1",
@@ -3059,7 +3279,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "The 1973 War Powers Resolution is currently law and there for should be enforced unless or until it is rescinded by congress.  The law was enacted precisely to control overreach by the executive branch relative to wasting the lives and resources of our military in an unnecessary war.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Nearly a dozen of Montana's rural hospitals are in danger of closing due to lack of funding caused by our broken medical system in America.  Americans pay 50% more for health care than the next most expensive system in the industrialized world even though we have the worst measurable outcomes of all other industrialized countries. Let that sink in.  .... We pay way more and get less.\nThe solution to this problem is actually simple, America needs a universal health care system.  There are for profit and not for profit examples that work very well but no one has had the political will to buck the entrenched special interests in the US that prevent our citizens from getting what they need and deserve in a health care system.  The financial benefits to both small and large businesses of a universal health care system would be huge.  Large businesses could better compete globally and small businesses would not be strapped by health insurance costs.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "Homeowner’s insurance, fire insurance and medical costs have all gone through the roof because of direct climate change impacts on those costs for insurance companies.  The extra costs can be calculated by the insurance companies.  I would introduce a bill to get those extra climate change costs transferred from the companies causing the problem to the insurers and credited directly to customers bills.\n  \nRising utility costs are killing Montana families. The clean energy subsidies were eliminated by the OBBB passed last July.  The next step is to remove the direct and indirect federal fossil fuel subsidies totaling close to a Trillion (with a T) dollars each year.  I would introduce a bill to do that.  When there is a level playing field for all energy sources the issues around Colestrip and the Snake river dams can easily be resolved by the PSC, legislature and BPA.\n\nI would also introduce bills for federal term limits and mandatory retirement ages for all three branches of government.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "I would get the National Laboratory of the Rockies (formerly NREL) to initiate a \"low cost\" home competition similar to the old Solar Home competition.  Builders, contractors and the legislature would be able use the best ideas to help drive down home ownership costs here in Montana.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "The differences between myself and Mr. Daines or any other current US Senate candidates are as follows.\n1.  I will be a one term Senator so I will not be fundraising from the Epstein Class for a next election nor would I be \"owned\" by them.  I would be working for all Montanans instead of just the modern day “Copper Kings”.\n2.  I'm not funded or \"owned\" by any dark money, pacts or other special interests.\n3.  I will hold regular town halls if I'm elected.\n4.  The reasons for my votes will be transparent and readily available.\n5.  I will donate my first year’s salary (minus expenses) to a Montana non-profit(s) of my choice.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-senate",
@@ -3292,44 +3534,24 @@
       "hasResponses": true,
       "responses": [
         {
-          "question": "What do you regard as the biggest issue Montana is facing that Congress is in a position to address? How would you address it if elected or re-elected?",
-          "answer": "The biggest issues facing Congress is how to reduce government spending while reduce the national debt while balancing the budget at the same time. I would address this by stopping unnecessary spending and consolidation our government resources to be more efficient and productive. \n\n"
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Yes, the War Powers Resolution of 1973 should be enforced.   Under the resolution, the president has the authority to take immediate action with military force and must withdraw troop within 60 days if congress does not authorize further use of force.  I do feel this is a great balance of power, and necessary for the United States to have the ability to quickly make decisions and mobilize our troops for the protection of our country.\n\n"
         },
         {
-          "question": "Can you name a current member of Congress you admire? What do respect about them?",
-          "answer": "None! Montanans need to break the cycle and elect new leadership. \n\n"
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "As a pharmacist for 18 years in Montana, I understand the issues we have with healthcare very well.   I have a plan, called Healthcare 2.0, that will overhaul our entire healthcare system to eliminate wasted money, eliminate the insurance corruption, and eliminate the government overreach.   Doing so will allow our healthcare to run effectively and efficiently.   American citizens and small businesses will see affordable healthcare plans with no annual deductibles and lower monthly premiums.   While providers will see better reimbursements and a future of prosperity.   This can all be done without adding any additional costs to the taxpayers.\n\n"
         },
         {
-          "question": "If President Joe Biden is re-elected, how would you want to work with his administration as a congressman?",
-          "answer": "I would work with the Biden Administration to get our country back on track, reduce our government spending, improve our national security and bring industry back to our country to create jobs for Americans. \n\n"
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "The first issue I would like to address as Montana’s next United States Senator would be to eliminate government overreach and wasteful spending.    For example, the Montana Department of Labor and Industry currently receives $93 million dollars in federal funding and has also overtaxed small businesses in our state creating a trust fund of over $643 million dollars.    This is unacceptable!   I plan to cut the fat, deregulation businesses and lower taxes for everyone. \nThe second issue is to revitalize our agriculture community’s.   We need to 1. Overhaul and strengthen the United States Department of Agriculture. 2. Leave our farmers and ranches out of the trade wars.  3. Eliminate the corruption and fraud of the markets that leave our farmers and ranchers with the bottom dollar.  4. Redirect the wasteful spending into offering 0% financing through the USDA to our farmers and ranchers. 5. Assist and facilitate the construction of fertilizer production facilities so our farmers are no longer having to be dependent on importation.\n\n"
         },
         {
-          "question": "Similarly, if former President Donald Trump is elected, how would you want to work with him?",
-          "answer": "I would work with the Trump Administration to get our country back on track, reduce our government spending, improve our national security and bring industry back to our country to create jobs for Americans. \n\n"
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "As a United States Senator, I would focus my efforts to help lowering the cost of living in Montana and home ownership in a few ways.  1. I would work on lowering the interest rates.  2. I would reduce the construction barriers that have been driving up the costs of construction.  3. I would promote zero tariffs so we can get construction supplies at a more affordable price.  And 4. I would promote responsible logging and lumber mills to create jobs and resources right here in our great State of Montana.\n\n"
         },
         {
-          "question": "Do you regard reining in the federal deficit as a priority? If so, in what budget areas would you support spending cuts or tax increases?",
-          "answer": "Yes, the federal deficit is a priority. We need to stop giving money away to other countries and stop spending money on illegal immigrants. We need to make our government more efficient by consolidating resources and eliminating waste. We will pay down our deficit and after our deficit is reduced, I would support tax cuts for everyone. \n\n"
-        },
-        {
-          "question": "Would you support federal legislation that either restricts abortion access or guarantees access on a national basis? With what conditions?",
-          "answer": "Abortion access should be a decision of the states. \n\n"
-        },
-        {
-          "question": "What if anything should Congress do to ensure Montanans have access to affordable housing?",
-          "answer": "Affordable housing should be left to the state and local governments. However at a federal level, I would support efforts to prevent the DEQ, EPA, etc., from creating red tape that creates additional expenses to housing development. I would also support logging efforts and competitive industry to drive down the cost of construction materials. \n\n"
-        },
-        {
-          "question": "To what extent do you see climate change as an urgent issue? What if any action should Congress take to address it?",
-          "answer": "I do believe climate change is real and happening. America need to be good stewards of our planet to maintain homeostasis for future generations. America should keep working on a lower carbon foot print, improve fuel efficiency, decrease waste and have discussions with world leaders about appropriate population levels.\n\n"
-        },
-        {
-          "question": "What if any action should Congress take to change how the nation controls movement across the U.S.-Mexico border?",
-          "answer": "The United States needs to finish building the wall to help control immigration. However the United States must pressure the government of Mexico to assist in preventing immigration and drug trafficking as well. \n\n"
-        },
-        {
-          "question": "The cost of health care is a concern for many Montanans. What if any federal action would you support to improve the U.S. health care system?",
-          "answer": "I would consolidate the health care system into the “United States Health Plan Corporation.” Doing so will eliminate government waste, improve provider payments, lower the cost of insurance for everyone and increase medical access to United States citizens.\n"
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "As a 4th generation Montanan, I am a very bold, highly education individual that does not back down from a fight.   I stand my ground and often find creative solutions to problems nobody else has a vision for.   My hard work and background as a farmer, pharmacist, and small business owner will not only impress the voters of Montana when I am in office, it will inspire my colleagues in Washington DC.\n\n"
         }
       ]
     },
@@ -3538,7 +3760,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "The Constitution is very clear: Congress holds the power to formally declare war. We must take that solemn responsibility seriously.\n\nThe War Powers Resolution of 1973 aimed to establish guardrails and provide a framework for accountability. Unfortunately, it’s been inconsistently enforced by both parties for decades. Congress must consistently enforce its constitutional role. \n\nThe most solemn duty of our government is to keep us safe. We must ensure our commanders-in-chief can take quick, decisive action to protect Americans and defend our freedoms. It’s dangerous to tie our commander-in-chief and troops’ hands behind their backs. Especially when Americans are being targeted by adversaries and threats, and the world’s largest state sponsor of terror is trying to get its hands on nuclear weapons. \n\nOur military is a completely voluntary service. The brave men and women of our armed forces sign up to put their lives on the line in service to our great nation. We owe these Americans a debt of gratitude for their commitment and sacrifice. \n\nSending Americans into harm’s way is one of the most serious decisions our government makes. Montanans, and all Americans, deserve transparency, accountability, and a clear voice through their elected representatives. As Senator, I will work to ensure Montanans’ voices are heard loud and clear.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Rural hospitals and health care providers play a vital role in underpinning Montana communities. Providers and patients alike are facing challenges right now, and Montanans deserve solutions.\n\nTo lower costs, increase access to quality care, and protect access in rural Montana, we should invest in rural communities and put both providers and patients first. \n\nRather than subsidizing health insurance companies with taxpayer dollars while their stock prices soar, we should invest in Montana providers. The Working Families Tax Cuts Act, which Senate Republicans passed and President Trump signed, invested $233 million this year alone to strengthen and modernize rural health care. This Rural Health Transformation Program (RHTP) is an innovative approach that we can build on to further support our hospitals and clinics. \n\nAmong other improvements, RHTP funds can be invested to help recruit, train, and retain doctors, nurses, and other health care professionals. \n \nAlso, a patient-centered care approach will increase choice, boost competition, and increase access to care. Continuing to expand telehealth services will ease the burden on hospitals and help Montanans access care quickly, no matter where they live. \n\nMore price transparency will also help. Health care is the only industry where you have no idea what the cost is until after you buy the product. The process has become mysterious, expensive, and daunting. That’s not good for patients, hospitals, or our communities.\n\nPrice transparency allows Montanans to shop when considering medical treatment, with prices posted for consumers to see. Price transparency will create more competition, drive down prices, and make the experience of receiving health care simpler, easier, and more accessible.\n\nAs a longtime supporter of Montana health care, I’m familiar with the challenges we face and eager to put patients and providers first in the U.S. Senate.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "One of the top reasons I am running is to make Montana communities safer. \n\nPresident Trump nominated me to be U.S. Attorney in his first term, and I was unanimously confirmed by the Senate.  He nominated me again during his second term because I aggressively worked to protect our communities. Under my leadership, this past year, criminal prosecutions reached a 20-year high as we went after violent criminals and drug traffickers to keep our communities safe.\n\nWe need to keep the border secure, support law enforcement, prioritize prosecuting violent criminals, and investigate drug trafficking organizations all the way up to the cartels – so we can tear them out by their roots.\n\nAs Senator, I will also bring a renewed focus to drug prevention and treatment because drug trafficking and related addiction have torn too many families and communities apart.\n\nAs Governor Gianforte’s Budget Director, we introduced the HEART Fund from marijuana tax revenues to expand treatment and recovery services for individuals with mental health and substance use disorders. I’ve worked with many community organizations serving people with those disorders and will help forge public-private partnerships to support recovery and keep families healthy.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "After President Biden’s policies unleashed extraordinary inflation, Montanans felt the squeeze of runaway prices and rising housing costs. \n\nI want to make life more affordable for Montanans. The best way to lower the cost of living – permanently – is to rein in deficit spending and put more money back in Montanans’ pockets.\n\nDeficit spending creates higher prices. Balanced budgets do not. If we want to make life more affordable again, we must restore fiscal responsibility in Washington.\n\nI’m ready to bring my experience – balancing Montana’s budget, cutting wasteful spending, delivering substantial tax relief, and putting Montana on track to become debt-free – to our nation’s capital. This will help keep prices permanently low and make life more affordable again for hardworking Montana families.\n\nTo increase homeownership, we need more housing. To increase housing supply, we must unleash small businesses, contractors, and communities by cutting red tape that ties up construction and prevents more homes from being built.\n\nGovernment spending and overregulation created these issues, and they certainly will not be the solution. To lower costs and get more families into homes of their own and achieve the American Dream, we must get government out of the way.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "I’ve never run for office before, and I’ve never been a politician. \n\nPresident Trump endorsed me because he knows I’m a doer. Throughout my career, I’ve delivered results: as a prosecutor, Budget Director, Director of the Department of Revenue, President of the Yellowstone Boys & Girls Ranch Foundation, and a volunteer with various community organizations, including those that work with youth, seniors, the poor, mental health, and health care. \n\nI am honored to be endorsed by President Donald Trump and look forward to ensuring the success for the rest of his second term. I’m also proud to be the only candidate who has been supported for a job three times by President Trump – twice for U.S. Attorney and now for the U.S. Senate.\n\nI am also humbled to have the support of other leaders in Montana – including Steve Daines, Tim Sheehy, and Greg Gianforte. But I have given no commitments for any endorsements. My views and my values come from years of living in communities across Montana and working with people in many walks of life – my duty is only to the people of our state, and I will fight for all Montanans.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-senate",
@@ -3726,7 +3970,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Yes, the War Powers Resolution of 1973 should be enforced.  If Congress does not declare war, or authorize the action taken by the president, then our forces must be withdrawn after 60 days (with a possible 30-day extension).  Committing our armed forces to extended conflict should not be left to the judgement of one person.  The collective judgement of both the President and Congress has to apply in order to ensure that our initial and continuing involvement in hostilities is clearly indicated by circumstances, has a clearly defined scope and duration, and well defined authority under which hostilities are undertaken. I have experienced first hand the terror of sending your child off to war. My son was an EOD specialist in the USAF and did a tour in Afghanistan defusing roadside bombs.  I know what the families of our military are going through right now.  It is the duty of Congress to make sure we are not engaging in forever wars with no tangible outcome.  The safety of our troops and the nurturing of our international relationships should never be left to the judgement of one person.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Congress needs to pass a universal healthcare plan.  I support the Medicare For All plan.  When people have good healthcare coverage they are more likely to go to the doctor, which would address the low patient volumes in rural settings.  I do not support mandates to buy into this plan.  However, I think a large majority will because we do not support health insurance companies making 70 billion in profit every year off of sick people.  Health insurance companies are constantly raising premiums while cutting benefits to maintain those profits.  This is wrong, and if people have a reasonable choice like Medicare For All presented to them, I believe it would be wildly popular.  The federal government can help rural hospitals and clinics with their tight budget margins by funding scholarships and loan repayments to healthcare professionals in exchange for working in Critical Shortage Facilities.  They can fund AI and telehealth to improve systems and support licensure compacts to allow clinicians to work across state lines.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "There are numerous issues relating to agriculture that I would address.  The first is \"Country Of Origin Labels.\"  I support COOL both as a consumer and as a representative for our ranchers.  I, personally, would not choose to purchase beef grown outside of the United States, if I had the option.  I support expanding the H-2A Visa program to clarify that livestock auction markets and rancher/farmer feedlots qualify as agricultural employers so they can hire foreign workers.  I support defining bison as livestock.  This will eliminate the current uncertainty faced by bison producers trying to secure federal grazing permits.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "There are many ways the federal government can help bring down the cost of home ownership.  It can offer tax credits for entry-level home construction and the conversion of unused office and retail space into housing.  Investing in infrastructure like roads, water and sewer systems for new and existing affordable housing communities will bring down costs.  Encouraging local governments to relax zoning rules and housing codes and forbidding corporations from buying single family homes will help increase availability.  Supporting research into new construction methods like 3D-printed houses will also help bring down costs.  Printing houses that are energy efficient and able to withstand severe weather conditions, economically, is a reality that is coming.  We need to support the research required to make it happen.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "One of the major complaints that I hear frequently about our current set of representatives is the lack of accessibility. I have encountered that myself as a constituent.  They do not do in-person town halls.  They only reply to written inquiries with party-line drivel weeks after the initial inquiry was made, if at all.  As your representative I will be personally available to my constituents on a regular basis.  I will hold town hall listening sessions regularly across the district.  I will also respond to inquiries with actual information on what is going on, and how I can or cannot help in a timely manner.  I will not be beholden to the big money interests that have purchased both major parties.  I will absolutely support a ban on members of Congress trading stocks.  I will work hard on behalf of all my constituents and listen to what they have to say.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-1",
@@ -3785,44 +4051,16 @@
       "hasResponses": true,
       "responses": [
         {
-          "question": "What do you regard as the biggest issue Montana is facing that Congress is in a position to address? How would you address it if elected or re-elected?",
-          "answer": "Protecting democracy and our right to vote our leaders into office. Immediately followed by fair taxation/no inflation. Corporations and the ultra-wealthy must be required to pay their fair share. In many cases, as an example, corporations are a greater burden on our publicly-funded infrastructure and paying a fair share is the American way. Fair tax policy will lift some of the burden on individuals and families and place large corporations in a tax bracket that is more reflective of their heavier use of public infrastructure than the average citizen. \n\n"
+          "question": "What should be the PSC's role, if any, in regulating data center development in Montana?",
+          "answer": "Datacenters as they are “planned” now are so egregiously destructive to the area they are in that they need to be stopped. The PSC has the authority to make sure that any infrastructure upgrades needed to service these monstrosities are paid for by the actual customer, not by the people of Montana. The increase in electricity demand can also be shunted to the customers making it rather than foisting that bill onto residential customers. The water use and pollution are not, in most cases, directly regulated by the PSC but that doesn’t mean that we can’t lean in and force discussions about what’s best for Montanans.\nThe current farce of just taking the AI companies’ talking points and saying “Oh, this will be fine” cannot continue. Throughout Montana’s history we see, time and again, that monied interests lie through their teeth to build something in Montana—from a mine that will destroy the land and water nearby, to land buys that block the public from public lands—it’s always greedy elites that are trying to sell the beauty of Montana and abscond with bags of cash. And the people of Montana are left to pay the piper, time and again. It has to stop, and the PSC can lead the way.\n\n"
         },
         {
-          "question": "Can you name a current member of Congress you admire? What do respect about them?",
-          "answer": "Jasmine Crockett of Texas. There are very few people in Congress, current and past, that I truly admire, but more and more I’m seeing people my age and younger who are bringing fire to the firefight and making a difference, and Rep. Crockett is a star. Her wit, her cadence, her style and her inability to tolerate fools is something we need. She’s sharp and well-informed, ready and willing to do the work but will call out unacceptable idiocy in open conversation. There are no smoke and mirrors on her watch. I look forward to working with her.\n\n"
+          "question": "How should the PSC approach the NorthWestern/Black Hills Corp. merger?",
+          "answer": "That the result had better put the cost per kW back to a reasonable rate, which honestly should be at or below what was charged when deregulation was put through. The whole goal of deregulation was to reduce the costs for consumers, and that has never happened. It absolutely should. Given that every merger is billed as a cost-savings for the companies as they find ‘synergies’ and ‘remove redundancies’ and all those savings are passed on to the shareholders after a hefty chunk of change is pocketed by the executive suite, I’m not holding my breath that this is going to be a good thing for anyone. I intend to press them both on how they are going to fix their aged infrastructure, replace outdated equipment and rethink how the entire grid in Montana is working, and make sure that they are not just taking more money from the people of Montana because the past PSC has had the oversight skills of a blind lapdog. We cannot continue to allow the executives at these utilities to boost their own wealth to undreamt of heights while the rest of us struggle to afford to keep the lights on. It’s ridiculous and Montanans deserve better.\n\n"
         },
         {
-          "question": "If President Joe Biden is re-elected, how would you want to work with his administration as a congressman?",
-          "answer": "The American Rescue Plan and the Infrastructure Plan already passed by the Biden administration are good blueprints for what we need to do next. We need to, and President Biden has asked for, an expansion of the child tax credit. We can invest in first-time home buying programs, microgeneration of electricity and regulate fair sale rates back to the grid. We can expand our infrastructure investments to massively expand broadband, high-speed rail, airport, sea ports and shipping infrastructure. We can advance the goals of clean air, clean water, manage wildlife and expand our public lands, and still have businesses making money and growing our economy. We need to remind investors that investing in the tech for wind and solar will pay off both monetarily and socially in the future. And while I agree with many Biden policies, I don’t agree 100% of the time, and I’d work with the administration as much as possible to make sure that where we don’t agree we also do no harm.\n\n"
-        },
-        {
-          "question": "Similarly, if former President Donald Trump is elected, how would you want to work with him?",
-          "answer": "I make no bones about the fact that I disagree with Mr. Trump on far more items than I agree with him, but that doesn’t mean it’s 100%, and just like with President Biden, I’d work to make sure that where we disagree we do no harm, and where we agree we work together to improve the lives of all Americans. \n\n"
-        },
-        {
-          "question": "Do you regard reining in the federal deficit as a priority? If so, in what budget areas would you support spending cuts or tax increases?",
-          "answer": "I would aim to drive economic growth, create fair taxation and establish fair compensation rules to reduce the federal deficit. We should be investing in education as the fastest way out of the deficit is innovations.\n\nFair taxation/No inflation. Corporations and the ultra-wealthy must be required to pay their fair share. Fair tax policy will lift some of the burden on individuals and families. \n\nFair compensation. Over the last five decades the playing field has tilted wildly in favor of the few ultra-wealthy and it’s time to level the playing field. We need to cap executive pay in relation to the pay of frontline workers. And, unions are the fastest way to regular wage increases so get a union.\n\nEconomic growth. Montana is the #1 state for entrepreneurs. We have a long, proud history of being hard workers and smart creators. We have the space to build things, including more housing, and transport things manufactured as we have the routes to distribute them.\n\n"
-        },
-        {
-          "question": "Would you support federal legislation that either restricts abortion access or guarantees access on a national basis? With what conditions?",
-          "answer": "I would support federal legislation that guarantees that all women will have access to health care, including abortion, on a national basis. It’s 2024 and I can’t believe we’re having to explain this to a whole national party, but women are human and deserve full human rights.\n\n"
-        },
-        {
-          "question": "What if anything should Congress do to ensure Montanans have access to affordable housing?",
-          "answer": "Making sure that first-time buyers have access to loans at good interest rates is important, and that we are investing money into growing communities to expand their housing inventory. That also means making sure that the majority of housing is available to homebuyers as opposed to private equity and for investment purposes so we’re reasonably ensuring housing availability for families without being in competition with for-profit operations. The credit score regulations are stacked against people, especially those in their 20s and 30s. We need to adjust the regulations on credit scores so rental history counts towards your ability to qualify for a loan, and not using a credit card has a positive impact on your score rather than impacting your score negatively. \nAdditionally, reducing the wage gap at every business will improve things for everyone, while fighting greedflation and the price gouging that’s currently driving up the costs of living for everyone will help.\n\n"
-        },
-        {
-          "question": "To what extent do you see climate change as an urgent issue? What if any action should Congress take to address it?",
-          "answer": "Science says we have 10 years. We’ve all watched as winters have gotten warmer and less snow has fallen. In Montana we have the constitutional right to a clean and healthy environment. We that enshrined for every U.S. citizen. In Montana we have a deep love for our outdoor heritage. We can take advantage of our healthful environment, by encouraging active family lifestyles via walkable communities, which would also reduce the emissions that threaten the landscapes we love. Public lands are a precious resource as land availability is finite. To maintain open spaces we should encourage the creation of community development with smart density population growth rather than disconnected suburban sprawl. Addressing climate change is also a necessity for the rural livelihood of our farmers and ranchers because sudden and/or extreme weather events caused by climate change can devastate crops and significantly change the care needed (and cost involved) in raising crops to a successful harvest.\n\n"
-        },
-        {
-          "question": "What if any action should Congress take to change how the nation controls movement across the U.S.-Mexico border?",
-          "answer": "The security needed at our southern border is, in part, a symptom of immigration laws that are too complicated. The immigration system needs to be improved upon significantly and treating people with humanity should not take a backseat to any other interest. Reducing the over-adversarial stance of our immigration policy, combined with funding the research and investigative arms, will mean faster ways for good people to move here, which will ultimately help us grow.\n\nNone of this happens without the funding and authorization to do so, and that comes from Congress getting its act together and actually passing comprehensive border reform. We can do this. It takes time and dedication and elected officials who are interested in finding solutions. It takes someone like me, a fighter who knows when not to fight.\n"
-        },
-        {
-          "question": "The cost of health care is a concern for many Montanans. What if any federal action would you support to improve the U.S. health care system?",
-          "answer": "Health literally equates to wealth so the healthier we are as a country, the wealthier we will all be and our overall economy will be stronger as well. Medicare should be expanded to everyone as a public option, and Medicare and Medicaid must be allowed, like all other health care insurers, to negotiate with pharmaceutical companies on the costs of treatments. We’ve seen lives improve when people have access to affordable, quality health care. Healthy people stay healthy because they aren’t afraid a regular check-up is going to bankrupt them. Healthy people with access to preventative care are also able to focus their energy on careers and business ideas, rather than struggling to be well. It’s well past time that we all agree that making sure someone can see a doctor when a little issue arises without fear of losing their jobs or facing bankruptcy, is better than having someone wait till they need to hit the ER for help.\n"
+          "question": "What is one industry under the PSC's purview that could use more scrutiny than it's currently getting, and what might that increased scrutiny look like?",
+          "answer": "Trains. The state’s railroads are outdated and absurd. We should have mandated infrastructure upgrades for all industries the PSC oversees, but we haven’t. Railroads should have been modernizing for decades with modern tracks, better engines, smarter and more traffic-friendly schedules, improved relations with workers’ unions, and technological advancements. There’s no reason that Montana Avenue is constantly blocked by multiple trains at high-traffic times in Helena when a simple upgrade to smarter scheduling tools would allow BNSF to avoid these conflicts. Or they could invest money into their tracks and crossings so that they are bridged or tunneled away from traffic. It’s 2026, yet we still have ancient steel tracks instead of having upgrades that could include high-speed bullet trains for passenger rail, when Japan has had this for half a century. And yes, we could adapt it for all our uses including cargo. We’re not dumb, the elites are just greedy.\nAdditionally, water systems need to ensure they serve their ratepayers effectively, rather than just extracting money for their ownership.\n\n"
         }
       ]
     },
@@ -3953,7 +4191,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Definitely. There is a process the US goes in to war. And the congress is the only one to authorize the move. Until that resolution is amended or repealed. Any other action should be considered null and void. Nobody is above the law. Nit even the President. Should it be replaced. NO, because it removes the separation of powers between the Administration and Legislature.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Rural hospitals and clinic have lower patient flow because of the elimination of Medicaid and other access to affordable healthcare. Medicaid access to Medicaid needs to be restored  more resources needs to be brought back to Montana to keep these facilities open. $4.8 trillion dollars have been added to national debt. We need to take care of our own people rather than the top 1% of rich peiple.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "There are many. 1) Restore Indigenous rights and honor treaties of tribes (health, education and welfare). 2) healthcare for all. 3) Pass a farm bill. There are many more. But thats a start.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "Implement fair practices and policies. One way would create lower interest rates. Pass a farm bill to encourage our farmers and ranchers produce.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "The service I've provided in the last 28 years are proven. My record, votes and position can easily be fact checked. Im a no nonsense, get to the point and tell it like it is individual. My working with Republican as a Democrat is proven and successful. My knowledge base is broad. Bottom line, I believe im the most qualified candidate to represent Montana. Im born and raised in Montana. I have mamy generations of being a Montanan behind me. And the investments i have in Montana is never in question.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-2",
@@ -4089,7 +4349,21 @@
     "coverage": [],
     "finance": null,
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "What should be the PSC's role, if any, in regulating data center development in Montana?",
+          "answer": "The PSC should work with poliymakers cooperatively to form laws that have data centers \"bring their own generation\" or pay for their own power distribution infrastructure. The point being that data centers should not be allowed to increase electric rates because of extra invested assets being put into the rate base, so if they will be a burden to other ratepayers, policies should control for that.\n\n"
+        },
+        {
+          "question": "How should the PSC approach the NorthWestern/Black Hills Corp. merger?",
+          "answer": "The PSC should follow the law and perform due diligence to decide whether the merger is in the best interest of ratepayers. The Montana PSC is not the only state regulator looking at this and each of the state regulatory commissions should work to ensure the deal is best for most constiuents. If the deal makes sense and produces economies of scale, and has a high potential to meet capacity needs, then it could work out well for ratepayers.\n\n"
+        },
+        {
+          "question": "What is one industry under the PSC's purview that could use more scrutiny than it's currently getting, and what might that increased scrutiny look like?",
+          "answer": "The energy industry does get a lot of attention, so second to that, the waste hauling business is important to keep a keen eye on as well. It is a large industry and competition is limited. Adequate service at reasonable prices would be my goal and focus when regulating this area under the PSC's purview.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "psc-1",
@@ -4239,21 +4513,7 @@
     "coverage": [],
     "finance": null,
     "questionnaire": {
-      "hasResponses": true,
-      "responses": [
-        {
-          "question": "Briefly describe the legal philosophy you would bring to the bench. As you see it, what is the difference between a good Supreme Court justice and a bad one?",
-          "answer": "My judicial philosophy is simple: interpret and apply the provisions of the United States and Montana Constitutions and all laws according to their original intent and plain meaning, and do not allow personal views or the views of special interests to determine the outcome of any case. Respect the rule of law, including the law of precedent, and do not legislate from the bench.\n\nIn my understanding, a good Supreme Court justice subscribes to this philosophy or one similar to it. A bad Supreme Court justice, on the other hand, decides cases based on personal views or preferences rather than basing decisions on higher, governing principles of law. \n\n\n"
-        },
-        {
-          "question": "What do you regard as the stakes for who is elected to the Montana Supreme Court this election, both for everyday Montanans and for the Montana Constitution?",
-          "answer": "Whether Montanans are content or disappointed with various decisions by our Supreme Court in recent years, the stakes for Montanans and our Constitution are the same, regardless of the year or the election. The question is whether we will have a court seen as respectful of the Constitution and the rule of law —  including the law of precedent —  or whether we will have one seen as stepping outside of its own boundaries. For all Montanans, the answer to that question is at stake in this election. \n\n"
-        },
-        {
-          "question": "How can the state Supreme Court, as the only nominally nonpartisan branch of state government, maintain its independence and avoid politicization?",
-          "answer": "The Supreme Court must earn the respect of all Montanans by issuing decisions which are firmly rooted in the Constitution and our laws and by providing reasons for its decisions which stand up to the most rigorous standards. When the court lives up to these ideals, it will achieve and maintain its proper role and authority as the independent and non-political decider of the cases that come before it.\n"
-        }
-      ]
+      "responses": []
     },
     "primaryResults": {
       "race": "supco-4",
@@ -4460,7 +4720,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "War, the saying goes, has changed. In 2026, military action is much faster and much more technological than it was in 1973. I advocate for replacing the \"30 days\" timeframe of War Powers Resolution with \"7 days,\" and interpreting \"military action\" as anything involving a bullet or a missile—a far lower threshold than boots on the ground. It is absolutely imperative that the deliberative body of Congress be the only national entity to declare war (implicitly or explicitly); the Commander-in-Chief is the one to manage and execute war, not lead us to it. Violation of the War Powers Resolution should be an immediate impeachable offense ... what puts American lives at risk more than beginning needless, ego-driven wars?\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "We can correct this problem from two angles.\n\nFirst: low patient volume can be directly tied to an intentionally opaque and exploitative health care insurance industry. People still get sick and break bones, but now they're terrified that a single wrong move on hospital grounds will force them to bankruptcy. A single-payer healthcare solution—even a modest one that covers a minimal amount of care—would force the health care insurance industry to become more transparent and humane, and do wonders for rural Montanans to seek medical care when they first need it. \n\nSecond: the vast majority of hospitals are nonprofit organizations, which means we can address tight budget margins through federal grants. Not only can we make grant funds available, we can target eligibility for hospitals operating in counties with specific population densities, and to scope those funds for specific operational costs. If we have money to go to war, we have money for a rural hospital.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "Data center construction needs to be a thoughtful dialogue with the community steering the conversation. I'm not against data centers outright; I believe there needs to be clear \"rules of the road;\" that the community understands all the environmental hazards, costs, and long-term impacts before agreeing to a data center in their backyard. I support and want to amplify Ro Khanna's work to articulate both modern concerns and modern opportunities for domestic data centers, as well as Bernie Sanders' and AOC's bill for a short-term data center construction moratorium.\n\nMissing and Murdered Indigenous People (and women especially) is a chronic failure of Tribal Police, local law enforcement, and the FBI to coordinate efforts and close cases. While these agencies operate under unclear and contradictory parameters, actual human beings and their families are suffering and tribal lands effectively become dumping grounds for United States immorality. I would undertake a national review of relationships between Tribal Police agencies and local United States law enforcement to see where good practices already exist, and to develop new and clear protocols that every state could easily adopt.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "I ultimately look to ease cost of ownership through a good ol' supply and demand curve. We need more housing, so Montana can look to ease zoning requirements and see where long-forgotten commercial property can become residential property. I believe Montana can get more athletic with property taxes for homes that are not a primary residence—if a Californian-owned home used for 3 months out of the year can become a Montanan-owned home used for 12 months out of the year, that's a win for Montana.\n\nBut these are state-level solutions. I also propose a federal vacancy tax for commercial real estate that sits empty for 6 months or more, and which would compound aggressively every 6 months the real estate continues to sit vacant. We currently have a system where it's more beneficial for landlords to let storefronts sit empty than to sign a lease for a small business to begin operating. More small businesses in operation means more people working and more local economic development. I'm also in support of closing the gap between income tax and capital gains tax (and more tax brackets overall), so hourly paycheck earners aren't stuck footing an unequal amount of the bill every April 15.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "I do solemnly swear not to break a protestor's hand in a door. I suppose you could call that trait \"basic humanity.\"\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-senate",
@@ -4641,21 +4923,7 @@
       }
     ],
     "questionnaire": {
-      "hasResponses": true,
-      "responses": [
-        {
-          "question": "Election security is a concern for many voters in the state. How secure do you believe Montana’s are elections currently, and what if any changes to the state’s election systems would you advocate?",
-          "answer": "Montana is the gold standard for elections in many ways because we recognize there is always room for improvement. I'll continue to advocate for changes to make our elections more secure, protected from foreign actors and easily accessible. I will also advocate for common sense voter identification requirements. \n\n"
-        },
-        {
-          "question": "The secretary of state is elected with a partisan affiliation but is tasked with overseeing elections that need to be fair to candidates of both parties in order to maintain the public’s faith in the electoral process. What things would you do to administer elections in a way that stewards that public faith?",
-          "answer": "As the secretary of state, I'm piloting programs for the nation to massively improve voter roll accuracy which bolters voter confidence. I am so proud of the county and state partnership and team invigorated by my administration. Montana's elections officials are united now more than ever, and this unity is non-partisan success. \n\n"
-        },
-        {
-          "question": "What if any changes would you like to see made to the business licensing processes overseen by the secretary of state?",
-          "answer": "During my time as secretary of state, Montana has become the model for serving the business community, by reducing red tape, cutting and eliminating fees, implementing efficiencies and providing exceptional customer service, where Montanans can start a business anywhere at anytime in record speed. I will continue to apply this approach in my second term.\n"
-        }
-      ]
+      "responses": []
     },
     "primaryResults": {
       "race": "us-house-1",
@@ -4878,7 +5146,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Yes, the War Powers Resolution of 1973 should be enforced when a president deploys U.S. armed forces into combat for a month or longer without congressional authorization.The Constitution is crystal clear: Article I, Section 8 gives Congress—not the president—the sole power to declare war. Our Founders designed it this way deliberately to prevent any one person from dragging America into endless, unnecessary conflicts that cost our sons and daughters their lives and drain our treasury. George Washington himself warned against foreign entanglements, and I look to his wisdom as a guiding principle.The War Powers Resolution was passed to reclaim that constitutional authority after presidents increasingly bypassed Congress in places like Vietnam. If a president sends troops into sustained combat without approval, Congress must enforce the law—demand withdrawal if unauthorized, or provide explicit authorization if the mission truly serves American interests.I would not support revising, replacing, or discarding the War Powers Resolution. It needs stronger enforcement, not weakening. Too many career politicians in Washington have let presidents—both parties—ignore it for decades, leading to disastrous, unconstitutional wars that never end and benefit foreign interests or defense contractors more than Montana families.As your Senator, I’ll fight to restore real congressional oversight: no more blank checks for endless wars, no more American blood spilled without the people's representatives voting yes. Montana's voice demands peace through strength, not endless intervention. America First means Congress reclaims its constitutional duty to protect our troops and our sovereignty.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Congress has a vital role in supporting Montana’s rural hospitals and clinics, which are lifelines for our small towns, ranchers, farmers, veterans, and Native communities—folks who often face long drives just to get basic care.Montana's rural providers are squeezed by low patient volumes, rising costs, workforce shortages, and unfair reimbursement rates from big federal programs like Medicare and Medicaid. As your Senator, I’d fight for targeted, common-sense federal action that empowers local solutions rather than creating more bureaucracy or dependency.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "Responsible management of our federal public lands\n\nThe financial crisis facing our rural hospitals and clinics\n\nThese are Montana-specific fights that demand a Senator who knows our land, our people, and our values—not a career politician beholden to elites. I'll bring common-sense, America First solutions home: protecting families, tribes, small ag, and opportunity while restoring constitutional balance. Montana families first—always.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "As your next U.S. Senator, I will fight to make homeownership achievable again for Montana families, veterans, young people, and working Montanans who are being priced out by skyrocketing costs, low supply, and out-of-state pressures.\n\nSlash federal red tape that drives up building costs\n\nLower everyday energy and living costs\n\nProvide targeted tax relief and reduce demand pressure\n\nBring home infrastructure funding with local control\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "The current office holder is stepping down but these are the differences.\n\nI am not a career politician. I am an independent, outsider voice rooted in real Montana life—no decades in D.C., no lifetime of establishment deals, no corporate PAC millions funding my campaign.Key distinctions in how I would serve:\n\nOutsider independence vs. establishment ties\n\nMontana-first pragmatism vs. partisan gridlock\n\nReal-world experience vs. professional politics\n\nDirect accountability vs. insulated tenure\n\nThe current officeholder represents Washington to Montana.\nI will represent Montana to Washington—fiercely, independently, and without apology.Montana families first. America First. Always.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-senate",
@@ -5030,7 +5320,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "The Constitution is self-evident here; only Congress has the power to declare war.  Madison was very clear about his fear of standing armies in Federalist No. 41 and 47, and this stricture is embedded deep in the Constitution.  As the branch closest to the People, the war power is lodged with the Congress.  This is not accidental or trivial because the social, economic, and moral costs of war are always borne by the People.   But we have gotten way out of that mode since Vietnam.  The “military industrial complex” (and now the State of Israel) has hijacked our national government on matters of war.  The late Ozzy Osborne had a name for these people; he called them “warpigs”.  If I’m elected to Congress, I will make sure that we put Congress back in charge of any use of military force against any foreign nation, no matter how slight.  We need to “Trump-proof” our government on the use of military force, so that this never happens again.  In fact, I will not vote for one penny for the “Department of War” until all of our military stuff is out of the Middle East.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "First, we need to repeal and replace the One Big Beautiful Bill, which cut $ 1 trillion from Medicaid in order to give $ 1Trillion dollars in tax cuts to the Top 1%.  We need to reverse that equation. We also need to spend money on restoring ACA subsidies, instead of spending hundreds of billions of dollars fighting a war in the Middle East that we have already lost.  But these are just emergency measures to help stabilize things.  Beyond that, we need to do comprehensive healthcare reform.  There are two things stopping us from having a decent healthcare system: greed and stupidity.  Part of the reasons why rural hospital and clinics don’t have money is because the CEOs and shareholders of private insurance companies are making insane profits; we need to reverse that trend.  We also need to modernize our healthcare systems, using the best technologies and approaches to reduce costs.   We need to be smarter about how we deliver healthcare. We can save money and improve outcomes in rural healthcare by using a mix of telehealth and in-home monitoring devices and technologies to serve patients better because of the distances and lack of facilities available in rural areas.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "One is the crisis of Missing and Murdered Indigenous Women within the reservations in our state.  This is a serious moral crisis in our state, and as Montanans we should all be concerned about it.  There are moves being done in the right direction, with more federal resources being directed to this issue, but we really need to speed it up.  As a Congressman, I would like to work on getting everyone around the same table at the same time and figuring this thing out.  Related to this, is sex and labor trafficking, which is not just limited to the tribal lands.  We need to devote more resources to this issue.  I would like to see the creation of elite task forces that are dedicating to destroying sex and labor trafficking rings in this state.  I want sex and human traffickers to fear coming into Montana.  This has to be a joint effort between federal, state, tribal, and local authorities, and it is something worth spending money on.   Let’s quit wasting money on bombs in the Middle East, and start taking care of each other here in Montana.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "I’ve looked at Ezra Klein’s work on this issue in his book “Abundance” and can speak to some of the issues he raises.  First off, the regulatory environment in America has gotten out of hand, and it takes too long and is too expensive to build houses when compared to other countries.  We need to streamline that process if we want to get serious about this issue.   Second, we are going to have to understand that if we increase the housing stock, it is going to lower equity for homeowners, so we need to make sure that people are okay with that.  On affordability, we need deep structural change in our economic system.  The top 10% hold 66% of the National Net Worth; the bottom 50% only hold 4%.  We need to change that dynamic.  I am in favor of exploring options like wage subsidies and universal basic income in order to change this dynamic.  We should also look at things like sovereign wealth funds which countries like Saudi Arabia and Norway have to ensure that the People benefit from economic productivity gains.  We must put an end to excessive financial speculation and insane income inequality in America.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "Here are big things I would do right off the bat for Montana if elected: (1) repeal the Canadian tariffs: (2) Mandatory country of origin labelling: (3) Right to repair, and (4) Restore Medicaid funding and the ACA subsidies. Beyond that, if I am elected, it would be my intention to be a very accessible Congressional representative. I would do in-person townhalls at every Congressional recess, and I would do as many zoom townhalls with different groups as I could when in D.C.  I wouldn’t censor people and would make myself available to people who want to criticize and yell at me, just as much as those who might like what I’m doing. I would try to do weekly press gaggles as well, where outlets like Montana Free Press could beat up on me in public and make me look stupid.  I am also interested in exploring the use of digital technologies (such as the creation of an app), which would allow verified, registered voters to track what I’m doing, what I’m working on, and do things like create polls on certain issues, so that I could gauge public sentiment in real time.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-2",
@@ -5116,7 +5428,21 @@
     "coverage": [],
     "finance": null,
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "What should be the PSC's role, if any, in regulating data center development in Montana?",
+          "answer": "The jurisdictional role the PSC has in data center development is scrutinizing the large load tariffs relevant to data centers. This will be scrutinized carefully by PSC staff and commissioners with an eye to ensure that residential and mom and pop businesses will not be saddled with any of the data center’s share of energy generation demand, transmission, integration and service costs, to protect current residential and business users from rate and reliability adverse events.\n\n"
+        },
+        {
+          "question": "How should the PSC approach the NorthWestern/Black Hills Corp. merger?",
+          "answer": "The PSC will approach the merger as it approaches other contested issues that come before the agency. The PSC is currently collecting public comments and prehearing testimony from the parties involved. PSC staff and commissioners use this information to develop questions for the parties during the proposed hearing this May in order to make the evidentiary record as robust as possible. Thereafter, we review the evidence available to us. A staff memorandum and possibly recommendation will be written, and the commissioners will make a decision.\n\n"
+        },
+        {
+          "question": "What is one industry under the PSC's purview that could use more scrutiny than it's currently getting, and what might that increased scrutiny look like?",
+          "answer": "The PSC does its best to scrutinize every company it is tasked with overseeing and every matter that comes before it.  The time we have to do this is usually restricted by law.  The amount of staff hours that can be spent on items is dictated by the staff hours budgeted for us by the Legislature.  We always do our best to prioritize as to the item, financial impact, and relative need.  Commissioners and staff are working for the taxpayer and do not accumulate the expertise that management and workers do in their regulated industries.  The PSC is one of Montana's smallest state agencies.  The PSC could use additional funding to hire industry-related and experienced forensic examiners.  But money is tight, taxes are already high, and we will continue to do the best we can with the resources allocated.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "psc-5",
@@ -5417,7 +5743,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Checks and balances are the reason why democracy has worked for 250 years. The President is required to notify Congress within 48 hours of deploying troops into hostilities and mandates their withdrawl within 60-90 days unless Congress declares war or authorizes force. The War Powers Resolution should absolutely be enforced. I stand by the original intent and will support its full enforcement\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Healthcare -- as part of greater affordability issues which include housing and the cost of food and gas -- is one of my top priorities. We are the richest country in the world, and there is no reason why every Montanan should not have access to quality healthcare. My solution to rural funding is something I've spoken of often: take it from the defense budget. If we claw back the hundreds of billions in end-of-year use-lose military spending, it would easily fund rural healthcare with zero impact to national security. As a retired Air Force LtCol, I am aware of how the budget cycles work and believe we can be better stewards of tax payer dollars while protecting our country.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "1. Public lands. I would never allow the exploitation or development of our public lands. I would build coalition to ensure both sides of the aisle support the protection of America's greatest treasure. 2. Education. Montana teachers are some of the most poorly paid in the country. Funding education gives our children the best onramp to success. And when graduates have felt supported by their education systems, they aspire to greater things and want to stay and give back to their communities more. I chose to specialize in child sex crimes, because I believe every child deserves to have hope and every available avenue to pursue any career. Whether college, trade school, starting a business, military, etc, I deployed and was shot at and mortared so every child could grow up free from trauma and live their own American dream. We will fund education, because it's the best avenue out of poverty.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "1. Raise the capital gains limit from $250K to $500K. Many people are holding onto homes, because they don't want to pay capital gains taxes. The law is great but was done in the 90s. If we raise the limit, more people will sell homes which will create more inventory and drive home prices down. 2. Give tax breaks to construction companies whose portfolio has a minimum of 30% affordable houses. 3. Medicaid for All paid for by use-lose military funds.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "I actually talk to Montanans about what they're experiencing and host town halls. I would also actually show up and vote. I believe in government working for all Montanans; not just the 1%.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-senate",
@@ -5779,7 +6127,29 @@
       }
     ],
     "questionnaire": {
-      "responses": []
+      "hasResponses": true,
+      "responses": [
+        {
+          "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+          "answer": "Everyone is sick of forever wars in the Middle East. I fought in Iraq and Afghanistan and I know what it means to be stuck in a nation-building quagmire with no clear end in sight. We owe it to the men and women who serve to be clear about our mission and not drag them into endless conflicts that cost lives and waste your tax dollars. That being said, the Department of War and the President must have the ability to defend Americans and stop threats before they reach our shores. We live in a dangerous world, and hesitation can cost lives. Regarding the war in Iran, President Trump did not start this war. He is ending it. Iran has attacked and killed U.S. forces for decades with no consequences. Trump ended that and I am happy to see an end to the conflict in sight. Regarding the War Powers Act, I would not support anything that ties the hands of our military or prevents the President from acting quickly when American lives are at risk.\n\n"
+        },
+        {
+          "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+          "answer": "Let’s start with what Republicans have already done to help rural hospitals. In the One Big Beautiful Bill, $50 billion was set aside specifically for rural healthcare. Montana received $233 million, the fourth highest allocation in the country. That is real money that will go directly to helping our hospitals stay open, expand services, and ease the financial strain they are under. That is the kind of targeted support I will focus on. One-size-fits-all policies pushed by the left do not work for Montana. Too often those dollars end up flowing to large urban systems in places like New York and Los Angeles while our rural providers struggle to keep the lights on. We need to make sure funding actually reaches the communities that need it most and stop funneling money to big insurance companies and massive hospital networks over rural America.\n\n"
+        },
+        {
+          "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+          "answer": "First is access to our public lands. Montanans depend on these lands for recreation, jobs, and our way of life. More and more, we are seeing pressure from federal agencies and outside groups trying to lock up land or restrict access without listening to the people who actually live here. That is not how it should work. I will fight to keep these lands in public hands, keep them accessible, and make sure Montanans have a seat at the table when decisions are made.\n\nSecond is the decline of the timber industry. Communities across northwest Montana have been hit hard by mill closures and overregulation. Those jobs supported families and entire towns, and we have watched them disappear. I will work to cut unnecessary red tape, increase responsible timber harvests, and push back on policies that are killing good-paying jobs. Montana should be producing its own resources, supporting its own workers, and keeping those communities alive instead of letting them fade away.\n\n"
+        },
+        {
+          "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+          "answer": "The increased population is one reason for higher home prices, and I understand why so many people are moving their families from high-tax and ultra-regulation states in favor of Montana values. But we need to make sure the Montana dream is affordable. Step one: stop Wall Street investing firms from buying Montana family homes. Next, cut the red tape around building homes. Regulations add cost and time to projects. $100,000 of a house’s price is in permitting before a hole is dug. We can bring these costs down. A renewed focus must also be put on producing building materials here at home. A strong domestic logging industry lowers costs and keeps money in our local economy. Finally, we need more skilled workers. Investing in apprenticeships and trade training will help build more homes and create good-paying jobs at the same time. That combination will help bring costs down and give Montanans more opportunities to own a home.\n\n"
+        },
+        {
+          "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+          "answer": "First off, I would like to thank Congressman Zinke for his 35 years of public service to Montana. I would carry the torch on issues like keeping public lands in public hands and delivering infrastructure funding for Montana. That said, Montana is ready for a new generation of leadership.\n\nI represent that generation. The average age of a first-time home buyer has jumped from late 20s to early 40s due to a number of factors, like lingering Biden inflation and high interest rates. The ability for younger people to build prosperity and financial resilience is growing more difficult. Jessica and I face the same challenges buying a home and are actually locked into renting while raising three kids. That is the reality for many Montanans right now.\n\nI started hosting a statewide radio show 17 years ago, talking with Montanans every day. I have heard firsthand their frustrations with government and what they believe needs to change. That has given me a different perspective than most candidates. I am not guessing what people want; I have been listening to them for nearly two decades. I am ready to take that experience to Washington and fight for the people of this state.\n\n"
+        }
+      ]
     },
     "primaryResults": {
       "race": "us-house-1",

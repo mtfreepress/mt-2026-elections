@@ -180,7 +180,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                     (party !== 'I') && primaryResults.resultsTotal && (primaryResults.resultsTotal.length > 0) ? <RaceResults
                         results={primaryResults}
                         primaryParty={party} // null for general elex results
-                        title={`June 4 primary`}
+                        title={`June 2 primary`}
                     />
                         : <p>No party primary was conducted.</p>
                 }

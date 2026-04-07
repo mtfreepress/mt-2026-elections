@@ -195,7 +195,7 @@ export default function MajorRaceOverview({ race, showMap }) {
         </div>
         {
             (inactiveCandidates.length > 0) && <details>
-                <summary>Candidates defeated in June 4 primary election</summary>
+                <summary>Candidates defeated in June 2 primary election</summary>
                 <div className="party-buckets">
                     {
                         PARTIES.map(party => {

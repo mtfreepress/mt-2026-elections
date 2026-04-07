@@ -146,7 +146,7 @@ async function main() {
         try {
             const rows = await getCsv(f)
             console.log(`Read ${rows.length} rows from ${f}`)
-            rows.forEach(r => { r.__source = path.basename(f) })
+            // rows.forEach(r => { r.__source = path.basename(f) })
             allRows.push(...rows)
         } catch (err) {
             console.error('Error parsing', f, err)
