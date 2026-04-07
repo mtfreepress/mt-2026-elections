@@ -92,7 +92,7 @@
         "slug": "seth-bodnar",
         "displayName": "Seth Bodnar",
         "summaryLine": null,
-        "party": "IND",
+        "party": "I",
         "hasResponses": true,
         "numMTFParticles": 0
       }
@@ -150,7 +150,7 @@
       },
       {
         "displayName": "Seth Bodnar",
-        "party": "IND",
+        "party": "I",
         "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
         "candidateId": "S6MT00287",
         "totalReceipts": 0,
@@ -274,7 +274,7 @@
         "slug": "kimberly-a-persico",
         "displayName": "Kimberly A  Persico",
         "summaryLine": null,
-        "party": "IND",
+        "party": "I",
         "hasResponses": true,
         "numMTFParticles": 0
       }
@@ -396,7 +396,7 @@
         "slug": "michael-d-eisenhauer",
         "displayName": "Michael D Eisenhauer",
         "summaryLine": null,
-        "party": "IND",
+        "party": "I",
         "hasResponses": true,
         "numMTFParticles": 0
       }
@@ -414,7 +414,7 @@
       },
       {
         "displayName": "Michael D Eisenhauer",
-        "party": "IND",
+        "party": "I",
         "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
         "candidateId": "H6MT02168",
         "totalReceipts": 201100,
@@ -543,14 +543,14 @@
         "slug": "dan-wilson",
         "displayName": "Dan Wilson",
         "summaryLine": null,
-        "party": "NON",
+        "party": "NP",
         "numMTFParticles": 0
       },
       {
         "slug": "amy-eddy",
         "displayName": "Amy Eddy",
         "summaryLine": null,
-        "party": "NON",
+        "party": "NP",
         "numMTFParticles": 0
       }
     ],

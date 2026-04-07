@@ -110,7 +110,8 @@ const PAGE_LINKS = [
     { path: '/#state-officials', label: 'State Officials' },
     { path: '/#legislature', label: 'Montana Legislature' },
     { path: '/#montana-supreme-court', label: 'Other offices' },
-    { path: '/#ballot-initiatives', label: 'Ballot Initiatives' },
+// TODO: Enable once we have ballot initiatives
+    // { path: '/#ballot-initiatives', label: 'Ballot Initiatives' },
     { path: '/#voter-faq', label: 'Voting info' },
 ]
 

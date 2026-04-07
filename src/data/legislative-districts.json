@@ -5,9 +5,11 @@
     "region": "Western Montana",
     "counties": "Lincoln",
     "locale": "Eureka, Troy",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-1",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "michelle-bianco",
@@ -38,9 +40,11 @@
     "region": "Western Montana",
     "counties": "Flathead, Lincoln",
     "locale": "Libby",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-2",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "tom-millett",
@@ -64,9 +68,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "North Whitefish, West Glacier",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-3",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "cathy-mitchell",
@@ -97,9 +103,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "Southeast Whitefish, Columbia Falls",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-4",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "shaun-pandina",
@@ -137,9 +145,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "Hungry Horse",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-5",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "braxton-mitchell",
@@ -163,9 +173,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "Northwest of Kalispell",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-6",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "jim-riley",
@@ -196,9 +208,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "Central Kalispell",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-7",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "luke-maxwell",
@@ -229,9 +243,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "Northeast Kalispell",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-8",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "lukas-schubert",
@@ -255,9 +271,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "South of Kalispell",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-9",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "steven-c-kelly",
@@ -281,9 +299,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "West Kalispell",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-10",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "terry-falk",
@@ -307,9 +327,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "East of Kalispell",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-11",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "ed-byrne",
@@ -333,9 +355,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead, Lake",
     "locale": "Bigfork, Flathead Lake",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-12",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "tracy-a-sharp",
@@ -359,9 +383,11 @@
     "region": "Western Montana",
     "counties": "Lake",
     "locale": "Polson",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-13",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "linda-reksten",
@@ -392,9 +418,11 @@
     "region": "Western Montana",
     "counties": "Sanders",
     "locale": "Noxon, Trout Creek, Thompson Falls, Plains",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-14",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "paul-fielder",
@@ -418,9 +446,11 @@
     "region": "Western Montana",
     "counties": "Flathead, Glacier, Lake, Pondera",
     "locale": "South Browning, Heart Butte, St. Ignatius",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-15",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "ralph-foster",
@@ -451,9 +481,11 @@
     "region": "Western Montana",
     "counties": "Glacier",
     "locale": "North Browning, East Glacier, Cut Bank",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-16",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "lona-r-running-wolf",
@@ -470,9 +502,11 @@
     "region": "North-central Montana",
     "counties": "Lewis and Clark, Teton",
     "locale": "Choteau, Fairfield, Wolf Creek, North Helena Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-17",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "justin-w-cleveland",
@@ -510,9 +544,11 @@
     "region": "North-central Montana",
     "counties": "Pondera, Teton, Toole",
     "locale": "Conrad, Valier, Shelby, Dutton",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-18",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "bruce-\"butch\"-gillespie",
@@ -529,9 +565,11 @@
     "region": "Great Falls area",
     "counties": "Cascade",
     "locale": "Downtown Great Falls",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-19",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "derren-auger",
@@ -562,9 +600,11 @@
     "region": "Great Falls area",
     "counties": "Cascade",
     "locale": "East-central Great Falls",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-20",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "tony-rosales",
@@ -595,9 +635,11 @@
     "region": "Great Falls area",
     "counties": "Cascade",
     "locale": "Northwest Great Falls, Black Eagle",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-21",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "trevor-p-funseth",
@@ -628,9 +670,11 @@
     "region": "Great Falls area",
     "counties": "Cascade",
     "locale": "East Great Falls, Malmstrom Air Force Base",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-22",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "jason-lorang",
@@ -668,9 +712,11 @@
     "region": "Great Falls area",
     "counties": "Cascade",
     "locale": "South Great Falls",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-23",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "eric-tilleman",
@@ -701,9 +747,11 @@
     "region": "Great Falls area",
     "counties": "Cascade",
     "locale": "West Great Falls",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-24",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "steve-fitzpatrick",
@@ -727,9 +775,11 @@
     "region": "North-central Montana",
     "counties": "Cascade",
     "locale": "Cascade, Ulm, Vaughn",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-25",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "steve-gist",
@@ -753,9 +803,11 @@
     "region": "North-central Montana",
     "counties": "Cascade, Chouteau",
     "locale": "Fort Benton, Big Sandy, Geraldine",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-26",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "russel-miner",
@@ -779,9 +831,11 @@
     "region": "North-central Montana",
     "counties": "Hill",
     "locale": "Havre",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-27",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "paul-tuss",
@@ -805,9 +859,11 @@
     "region": "North-central Montana",
     "counties": "Blaine, Hill, Liberty, Phillips, Valley",
     "locale": "Chester, Chinook, Malta, Opheim",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-28",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "john-south",
@@ -831,9 +887,11 @@
     "region": "Eastern Montana",
     "counties": "Daniels, Roosevelt, Sheridan, Valley",
     "locale": "Glasgow, Nashua, Scobey, Plentywood ",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-29",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "linda-harmon",
@@ -871,9 +929,11 @@
     "region": "Eastern Montana",
     "counties": "Richland, Roosevelt",
     "locale": "Culbertson, Sidney",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-30",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "morgan-thiel",
@@ -897,9 +957,11 @@
     "region": "Eastern Montana",
     "counties": "Blaine, Phillips, Roosevelt, Valley",
     "locale": "Lodge Pole, Fort Peck, Wolf Point, Poplar, Brockton",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-31",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "lance-elliot-fourstar",
@@ -923,9 +985,11 @@
     "region": "Eastern Montana",
     "counties": "Blaine, Chouteau, Hill, Phillips, Valley",
     "locale": "Rocky Boy's, Harlem, Fort Belknap",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-32",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "mike-fox",
@@ -942,9 +1006,11 @@
     "region": "Eastern Montana",
     "counties": "Dawson, Richland",
     "locale": "Glendive, Richey",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-33",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "ric-holden",
@@ -975,9 +1041,11 @@
     "region": "Eastern Montana",
     "counties": "Carter, Custer, Fallon, McCone, Powder River, Praire, Wibaux",
     "locale": "Circle, Terry, Wibaux, Baker, Ekalaka, Broadus",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-34",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "jerry-schillinger",
@@ -1008,9 +1076,11 @@
     "region": "Eastern Montana",
     "counties": "Big Horn, Garfield, Rosebud, Treasure, Yellowstone",
     "locale": "Forsyth, Colstrip, Worden, Jordan",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-35",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "gary-parry",
@@ -1034,9 +1104,11 @@
     "region": "Eastern Montana",
     "counties": "Custer",
     "locale": "Miles City",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-36",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "ty-linger",
@@ -1067,9 +1139,11 @@
     "region": "Central Montana",
     "counties": "Fergus, Petroleum",
     "locale": "Lewistown, Grass Range, Winnett, Winifred",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-37",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "shane-klakken",
@@ -1093,9 +1167,11 @@
     "region": "Central Montana",
     "counties": "Golden Valley, Musselshell, Yellowstone",
     "locale": "Roundup, Ryegate, Lavina, Huntley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-38",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "greg-oblander",
@@ -1112,9 +1188,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "East Billings Heights",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-39",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "kerri-seekins-crowe",
@@ -1138,9 +1216,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Lockwood",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-40",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "mike-vinton",
@@ -1171,9 +1251,11 @@
     "region": "Billings area",
     "counties": "Big Horn, Rosebud",
     "locale": "Hardin, Busby, Lame Deer, Ashland",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-41",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "jade-sooktis",
@@ -1190,9 +1272,11 @@
     "region": "Billings area",
     "counties": "Big Horn, Yellowstone",
     "locale": "Crow Agency, Lodge Grass, Wyola, Pryor",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-42",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "jeremiah-jabs",
@@ -1216,9 +1300,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Central Billings Heights",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-43",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "larry-brewster",
@@ -1242,9 +1328,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "North Billings Heights, Shepherd",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-44",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "katie-zolnikov",
@@ -1268,9 +1356,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "North-Central Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-45",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "bryce-walston",
@@ -1294,9 +1384,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Central Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-46",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "kim-welzenbach",
@@ -1327,9 +1419,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Downtown and South Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-47",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "ron-j-stevens",
@@ -1360,9 +1454,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "South-central Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-48",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "curtis-schomer",
@@ -1386,9 +1482,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Southwest Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-49",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "charlie-loveridge",
@@ -1419,9 +1517,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "West Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-50",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "stewart-harris",
@@ -1445,9 +1545,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Northwest Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-51",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "jodee-etchart",
@@ -1478,9 +1580,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Northwest Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-52",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "stacy-zinn",
@@ -1511,9 +1615,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "West of Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-53",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "nelly-nicol",
@@ -1544,9 +1650,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Laurel, South of Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-54",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "lee-deming",
@@ -1570,9 +1678,11 @@
     "region": "South-central Montana",
     "counties": "Carbon",
     "locale": "Red Lodge, Bridger, Joliet",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-55",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "mary-horman",
@@ -1603,9 +1713,11 @@
     "region": "South-central Montana",
     "counties": "Stillwater, Sweet Grass",
     "locale": "Columbus, Reed Point, Park City",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-56",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "fiona-b-nave",
@@ -1622,9 +1734,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin, Park",
     "locale": "Gardiner, Cooke City, Clyde Park, east downtown Bozeman",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-57",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "bob-crank",
@@ -1648,9 +1762,11 @@
     "region": "Bozeman area",
     "counties": "Park",
     "locale": "Livingston",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-58",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "joshua-congleton",
@@ -1674,9 +1790,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Southeast Bozeman",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-59",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "marc-greendorfer",
@@ -1700,9 +1818,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin, Madison",
     "locale": "Big Sky, Gallatin Gateway, West Yellowstone",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-60",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "greg-leman",
@@ -1726,9 +1846,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Montana State University campus and surroundings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-61",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "eric-jacobs",
@@ -1759,9 +1881,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Southwest Bozeman, Huffine Lane, South Four Corners",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-62",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "esther-fishbaugh",
@@ -1785,9 +1909,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "West Bozeman, Four Corners",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-63",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "lawrence-r-moore",
@@ -1811,9 +1937,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Northwest Bozeman",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-64",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "daniel-ricardo-martinez",
@@ -1837,9 +1965,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Central Bozeman and northern outskirts",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-65",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "joe-flynn",
@@ -1863,9 +1993,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Central Bozeman, north Gallatin County",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-66",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "owen-lang",
@@ -1889,9 +2021,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Belgrade",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-67",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "jedediah-hinkle",
@@ -1922,9 +2056,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Amsterdam-Churchill, West Belgrade",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-68",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "jennifer-carlson",
@@ -1955,9 +2091,11 @@
     "region": "Southwest Montana",
     "counties": "Jefferson, Gallatin, Madison",
     "locale": "Ennis, Virginia City, Twin Bridges, Three Forks",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-69",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "trevor-walter",
@@ -1981,9 +2119,11 @@
     "region": "Southwest Montana",
     "counties": "Beaverhead, Silver Bow",
     "locale": "Dillon, Lima, Rocker",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-70",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "shannon-maness",
@@ -2007,9 +2147,11 @@
     "region": "Butte/Anaconda",
     "counties": "Deer Lodge, Silver Bow",
     "locale": "Anaconda, Warm Springs",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-71",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "suzzann-nordwick",
@@ -2033,9 +2175,11 @@
     "region": "Butte/Anaconda",
     "counties": "Silver Bow",
     "locale": "West Butte",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-72",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "michael-saul",
@@ -2059,9 +2203,11 @@
     "region": "Butte/Anaconda",
     "counties": "Silver Bow",
     "locale": "Central Butte",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-73",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "gerry-kennedy",
@@ -2085,9 +2231,11 @@
     "region": "Butte/Anaconda",
     "counties": "Silver Bow",
     "locale": "East Butte",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-74",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "trenin-bayless",
@@ -2111,9 +2259,11 @@
     "region": "Southwest Montana",
     "counties": "Jefferson",
     "locale": "Boulder, Whitehall, Clancy, Montana City",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-75",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "mark-reinschmidt",
@@ -2144,9 +2294,11 @@
     "region": "Southwest Montana",
     "counties": "Deer Lodge, Granite, Lewis and Clark, Missoula, Powell",
     "locale": "Deer Lodge, Philipsburg, Drummond, Seeley Lake",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-76",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "trish-schreiber",
@@ -2170,9 +2322,11 @@
     "region": "Central Montana",
     "counties": "Broadwater, Gallatin",
     "locale": "Townsend, Wheatland, Manhattan, Winston",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-77",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "jane-gillette",
@@ -2196,9 +2350,11 @@
     "region": "Central Montana",
     "counties": "Cascade, Fergus, Judith Basin, Meagher, Sweet Grass, Wheatland",
     "locale": "White Sulphur Springs, Stanford, Belt, Harlowton, Big Timber",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-78",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "randyn-gregg",
@@ -2222,9 +2378,11 @@
     "region": "Helena area",
     "counties": "Jefferson, Lewis and Clark",
     "locale": "Southwest Helena, West Helena Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-79",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "chiko-olson",
@@ -2248,9 +2406,11 @@
     "region": "Helena area",
     "counties": "Lewis and Clark",
     "locale": "Northwest Helena",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-80",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "katie-fruits",
@@ -2281,9 +2441,11 @@
     "region": "Helena area",
     "counties": "Lewis and Clark",
     "locale": "Central Helena, Central Helena Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-81",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "john-j-looney-sr",
@@ -2314,9 +2476,11 @@
     "region": "Helena area",
     "counties": "Lewis and Clark",
     "locale": "Capitol area, Southeast Helena Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-82",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "clinton-mckay",
@@ -2340,9 +2504,11 @@
     "region": "Helena area",
     "counties": "Lewis and Clark",
     "locale": "East Helena, Southwest Helena",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-83",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "aaron-j-leas",
@@ -2366,9 +2532,11 @@
     "region": "Helena area",
     "counties": "Lewis and Clark",
     "locale": "East and north of Helena",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-84",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "roy-caldwell",
@@ -2406,9 +2574,11 @@
     "region": "Bitterroot Valley",
     "counties": "Ravalli",
     "locale": "Darby, South Bitterroot Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-85",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "michele-binkley",
@@ -2439,9 +2609,11 @@
     "region": "Bitterroot Valley",
     "counties": "Ravalli",
     "locale": "Hamilton",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-86",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "wayne-rusk",
@@ -2472,9 +2644,11 @@
     "region": "Bitterroot Valley",
     "counties": "Ravalli",
     "locale": "Victor, Central Bitterroot Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-87",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "terry-nelson",
@@ -2498,9 +2672,11 @@
     "region": "Bitterroot Valley",
     "counties": "Ravalli",
     "locale": "Stevensville, Florence, North Bitterroot Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-88",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "greg-overstreet",
@@ -2524,9 +2700,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "Lolo",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-89",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "lyn-hellegaard",
@@ -2550,9 +2728,11 @@
     "region": "Missoula area",
     "counties": "Mineral, Missoula, Sanders",
     "locale": "Frenchtown, Alberton, Superior, St. Regis, Paradise",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-90",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "curtis-j-cochran",
@@ -2576,9 +2756,11 @@
     "region": "Missoula area",
     "counties": "Lake, Missoula, Sanders",
     "locale": "Ronan, Arlee, Missoula's Upper Rattlesnake ",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-91",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "charles-headley",
@@ -2602,9 +2784,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "East Missoula, Bonner, Clearwater",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-92",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "reggie-spaulding",
@@ -2628,9 +2812,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "Southeast Missoula, Clinton",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-93",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "roy-handley",
@@ -2668,9 +2854,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "South Missoula",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-94",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "greg-woodward",
@@ -2701,9 +2889,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "Central Missoula, University of Montana campus",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-95",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "zooey-zephyr",
@@ -2720,9 +2910,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "South-central Missoula, west of Missoula",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-96",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "bob-carter",
@@ -2739,9 +2931,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "West Missoula",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-97",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "michael-p-hagestad",
@@ -2765,9 +2959,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "Northwest Missoula",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-98",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "bryan-muzzana",
@@ -2791,9 +2987,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "North Missoula",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-99",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "ryan-darling",
@@ -2817,9 +3015,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "Downtown Missoula",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "HD-100",
+    "in_cycle_2026": "yes",
+    "holdover_senator": null,
+    "holdover_party": null,
+    "holdover_link": null,
     "candidates": [
       {
         "slug": "michael-daniel-bowles",
@@ -2850,11 +3050,11 @@
     "region": "Western Montana",
     "counties": "Flathead, Lincoln",
     "locale": "Libby, Troy, Eureka",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-1",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Mike Cuffe",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Mike-Cuffe/",
-    "districtKey": "SD-1",
     "candidates": [
       {
         "slug": "steve-gunderson",
@@ -2892,9 +3092,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "Whitefish, Columbia Falls, West Glacier",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-2",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Dave Fern",
+    "holdover_party": "D",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -2903,9 +3105,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "Hungry Horse, Central Flathead Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-3",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Carl Glimm",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -2914,11 +3118,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "Central Kalispell",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-4",
+    "in_cycle_2026": "yes",
     "holdover_senator": "John Fuller",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/John-Fuller/",
-    "districtKey": "SD-4",
     "candidates": [
       {
         "slug": "amy-regier",
@@ -2942,9 +3146,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead",
     "locale": "South and West of Kalispell",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-5",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Matt Regier",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -2953,11 +3159,11 @@
     "region": "Flathead Valley",
     "counties": "Flathead, Lake",
     "locale": "Bigfork, East of Kalispell",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-6",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Mark Noland",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Mark-Noland/",
-    "districtKey": "SD-6",
     "candidates": [
       {
         "slug": "mark-noland",
@@ -2981,9 +3187,11 @@
     "region": "Western Montana",
     "counties": "Lake, Sanders",
     "locale": "Plains, Thompson Falls, Noxon, Hot Springs",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-7",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Greg Hertz",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -2992,11 +3200,11 @@
     "region": "Western Montana",
     "counties": "Flathead, Glacier, Lake, Pondera",
     "locale": "Browning, Cut Bank, Heart Butte, St. Ignatius",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-8",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Susan Webber",
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Susan-Webber/",
-    "districtKey": "SD-8",
     "candidates": [
       {
         "slug": "christopher-paul-buckles",
@@ -3027,11 +3235,11 @@
     "region": "North-central Montana",
     "counties": "Lewis and Clark, Pondera, Teton, Toole",
     "locale": "Shelby, Conrad, Choteau, Wolf Creek, Lincoln",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-9",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Bruce Gillespie",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Bruce-Gillespie/",
-    "districtKey": "SD-9",
     "candidates": [
       {
         "slug": "zack-wirth",
@@ -3062,11 +3270,11 @@
     "region": "Great Falls area",
     "counties": "Cascade",
     "locale": "Central Great Falls",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-10",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Jeremy Trebas",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jeremy-Trebas/",
-    "districtKey": "SD-10",
     "candidates": [
       {
         "slug": "jessica-dyrdahl",
@@ -3097,11 +3305,11 @@
     "region": "Great Falls area",
     "counties": "Cascade",
     "locale": "North and East Great Falls, Malmstrom Air Force Base",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-11",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Daniel Emrich",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Daniel-Emrich/",
-    "districtKey": "SD-11",
     "candidates": [
       {
         "slug": "steven-galloway",
@@ -3139,11 +3347,11 @@
     "region": "Great Falls area",
     "counties": "Cascade",
     "locale": "South and West Great Falls",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-12",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Wendy McKamey",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Wendy-McKamey/",
-    "districtKey": "SD-12",
     "candidates": [
       {
         "slug": "randy-pinocci",
@@ -3181,9 +3389,11 @@
     "region": "North-central Montana",
     "counties": "Cascade, Chouteau",
     "locale": "Cascade, Vaughn, Fort Benton, Big Sandy",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-13",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Josh Kassmier",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3192,11 +3402,11 @@
     "region": "North-central Montana",
     "counties": "Blaine, Hill, Liberty, Phillips, Valley",
     "locale": "Havre, Chester, Chinook, Malta, Opheim",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-14",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Russ Tempel",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Russ-Tempel/",
-    "districtKey": "SD-14",
     "candidates": [
       {
         "slug": "eric-albus",
@@ -3227,9 +3437,11 @@
     "region": "Eastern Montana",
     "counties": "Daniels, Richland, Roosevelt, Sheridan, Valley",
     "locale": "Sidney, Scobey, Plentywood",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-15",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Gregg Hunter",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3238,9 +3450,11 @@
     "region": "Eastern Montana",
     "counties": "Blaine, Chouteau, Hill, Phillips, Roosevelt, Valley",
     "locale": "Rocky Boy's, Harlem, Wolf Point, Poplar",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-16",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Jonathan Windy Boy",
+    "holdover_party": "D",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3249,9 +3463,11 @@
     "region": "Eastern Montana",
     "counties": "Carter, Custer, Fallon, McCone, Powder River, Praire, Wibaux, Dawson, Richland",
     "locale": "Glandive, Circle, Baker, Ekalaka, Broadus",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-17",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Bob Phalen",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3260,11 +3476,11 @@
     "region": "Eastern Montana",
     "counties": "Big Horn, Custer, Garfield, Rosebud, Treasure, Yellowstone",
     "locale": "Miles City, Forsyth, Colstrip, Jordan",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-18",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Kenneth Bogner",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Kenneth-Bogner/",
-    "districtKey": "SD-18",
     "candidates": [
       {
         "slug": "greg-kmetz",
@@ -3295,11 +3511,11 @@
     "region": "Central Montana",
     "counties": "Fergus, Petroleum, Golden Valley, Musselshell, Yellowstone",
     "locale": "Lewistown, Winifred, Winnett, Roundup",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-19",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Barry Usher",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Barry-Usher/",
-    "districtKey": "SD-19",
     "candidates": [
       {
         "slug": "barry-usher",
@@ -3330,9 +3546,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Billings Heights, Lockwood",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-20",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Sue Vinton",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3341,9 +3559,11 @@
     "region": "Billings area",
     "counties": "Yellowstone, Big Horn, Rosebud",
     "locale": "Hardin, Crow Agency, Lame Deer, Lodge Grass, Pryor",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-21",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Gayle Lammers",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3352,11 +3572,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "North Billings, Shepherd",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-22",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Daniel Zolnikov",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Daniel-Zolnikov/",
-    "districtKey": "SD-22",
     "candidates": [
       {
         "slug": "daniel-zolnikov",
@@ -3373,11 +3593,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Central Billings",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-23",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Kathy Kelker",
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Kathy-Kelker/",
-    "districtKey": "SD-23",
     "candidates": [
       {
         "slug": "joanna-oblander",
@@ -3401,9 +3621,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Downtown and South Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-24",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Mike Yakawich",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3412,11 +3634,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "West Billings",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-25",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Dennis Lenz",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Dennis-Lenz/",
-    "districtKey": "SD-25",
     "candidates": [
       {
         "slug": "dennis-lenz",
@@ -3447,9 +3669,11 @@
     "region": "Billings area",
     "counties": "Yellowstone",
     "locale": "Northwest Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-26",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Tom McGillvray",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3458,9 +3682,11 @@
     "region": "South-central Montana",
     "counties": "Yellowstone",
     "locale": "Laurel, South of Billings",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-27",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Vince Ricci",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3469,11 +3695,11 @@
     "region": "South-central Montana",
     "counties": "Carbon, Stillwater, Sweet Grass",
     "locale": "Red Lodge, Columbus",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-28",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Forrest Mandeville",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Forrest-Mandeville/",
-    "districtKey": "SD-28",
     "candidates": [
       {
         "slug": "forrest-j-mandeville",
@@ -3497,11 +3723,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin, Park",
     "locale": "Livingston, Gardiner, east downtown Bozeman",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-29",
+    "in_cycle_2026": "yes",
     "holdover_senator": "John Esp",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/John-Esp/",
-    "districtKey": "SD-29",
     "candidates": [
       {
         "slug": "jason-gunderson",
@@ -3525,9 +3751,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin, Madison",
     "locale": "South Bozeman, Big Sky, West Yellowstone",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-30",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Cora Neumann",
+    "holdover_party": "D",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3536,11 +3764,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "South Bozeman, Huffine Lane",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-31",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Pat Flowers",
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Pat-Flowers/",
-    "districtKey": "SD-31",
     "candidates": [
       {
         "slug": "richard-aungier",
@@ -3564,11 +3792,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Northwest Bozeman",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-32",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Denise Hayman",
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Denise-Hayman/",
-    "districtKey": "SD-32",
     "candidates": [
       {
         "slug": "neal-ganser",
@@ -3599,9 +3827,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Central Bozeman, north of Bozeman",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-33",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Chris Pope",
+    "holdover_party": "D",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3610,11 +3840,11 @@
     "region": "Bozeman area",
     "counties": "Gallatin",
     "locale": "Belgrade, west of Bozeman",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-34",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Shelley Vance",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Shelley-Vance/",
-    "districtKey": "SD-34",
     "candidates": [
       {
         "slug": "shelley-vance",
@@ -3645,9 +3875,11 @@
     "region": "Southwest Montana",
     "counties": "Gallatin, Jefferson, Madison, Beaverhead, Silver Bow",
     "locale": "Ennis, Dillon, Twin Bridges",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-35",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Tony Tezak",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3656,9 +3888,11 @@
     "region": "Butte/Anaconda",
     "counties": "Deer Lodge, Silver Bow",
     "locale": "Anaconda, Warm Springs, west Butte",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-36",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Sara Novak",
+    "holdover_party": "D",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3667,9 +3901,11 @@
     "region": "Butte/Anaconda",
     "counties": "Silver Bow",
     "locale": "Central and south Butte",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-37",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Derek Harvey",
+    "holdover_party": "D",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3678,9 +3914,11 @@
     "region": "Southwest Montana",
     "counties": "Jefferson, Deer Lodge, Granite, Lewis and Clark, Missoula, Powell",
     "locale": "Boulder, Deer Lodge, Philipsburg, Drummond",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-38",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Becky Beard",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3689,9 +3927,11 @@
     "region": "Central Montana",
     "counties": "Broadwater, Gallatin, Cascade, Fergus, Judith Basin, Meagher, Sweet Grass, Wheatland",
     "locale": "White Sulphur Springs, Belt, Stanford, Harlowton",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-39",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Wylie Galt",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3700,9 +3940,11 @@
     "region": "Helena area",
     "counties": "Jefferson, Lewis and Clark",
     "locale": "West Helena and western Helena Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-40",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Laura Smith",
+    "holdover_party": "D",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3711,11 +3953,11 @@
     "region": "Helena area",
     "counties": "Lewis and Clark",
     "locale": "Central Helena and Helena Valley",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-41",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Janet Ellis",
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Janet-Ellis/",
-    "districtKey": "SD-41",
     "candidates": [
       {
         "slug": "erin-farris-olsen",
@@ -3746,11 +3988,11 @@
     "region": "Helena area",
     "counties": "Lewis and Clark",
     "locale": "East Helena and northeast Helena Valley",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-42",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Mary Ann Dunwell",
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Mary-Ann-Dunwell/",
-    "districtKey": "SD-42",
     "candidates": [
       {
         "slug": "stephen-lapraim",
@@ -3788,11 +4030,11 @@
     "region": "Bitterroot Valley",
     "counties": "Ravalli",
     "locale": "Hamilton and southern Bitterroot Valley",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-43",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Jason Ellsworth",
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Jason-Ellsworth/",
-    "districtKey": "SD-43",
     "candidates": [
       {
         "slug": "david-bedey",
@@ -3823,9 +4065,11 @@
     "region": "Bitterroot Valley",
     "counties": "Ravalli",
     "locale": "Northern Bitterroot Valley",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-44",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Theresa Manzella",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3834,9 +4078,11 @@
     "region": "Missoula area",
     "counties": "Mineral, Missoula, Sanders",
     "locale": "I-90 corridor from Frenchtown to Idaho border",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-45",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Denley Loge",
+    "holdover_party": "R",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3845,9 +4091,11 @@
     "region": "Missoula area",
     "counties": "Lake, Missoula, Sanders",
     "locale": "East Missoula, Rattlesnake, Ronan",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-46",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Jacinda Morigeau",
+    "holdover_party": "D",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3856,9 +4104,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "Southeast Missoula, Clinton",
-    "in_cycle_2024": "yes",
-    "holdover_senator": "",
     "districtKey": "SD-47",
+    "in_cycle_2026": "no",
+    "holdover_senator": "Ellie Boldman",
+    "holdover_party": "D",
+    "holdover_link": null,
     "candidates": []
   },
   {
@@ -3867,11 +4117,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "Central Missoula, west of Missoula",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-48",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Andrea Olsen",
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Andrea-Olsen/",
-    "districtKey": "SD-48",
     "candidates": [
       {
         "slug": "andrea-olsen",
@@ -3888,11 +4138,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "West Missoula",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-49",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Willis Curdy",
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Willis-Curdy/",
-    "districtKey": "SD-49",
     "candidates": [
       {
         "slug": "brad-tschida",
@@ -3916,11 +4166,11 @@
     "region": "Missoula area",
     "counties": "Missoula",
     "locale": "Downtown and north of Missoula",
-    "in_cycle_2024": "no",
+    "districtKey": "SD-50",
+    "in_cycle_2026": "yes",
     "holdover_senator": "Shane Morigeau",
     "holdover_party": "D",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Shane-Morigeau/",
-    "districtKey": "SD-50",
     "candidates": [
       {
         "slug": "shane-a-morigeau",

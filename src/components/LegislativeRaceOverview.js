@@ -205,9 +205,12 @@ const District = (props) => {
     const {
         districtKey, district, chamber,
         region, locale,
-        in_cycle_2024,
+        in_cycle_2024, in_cycle_2026,
         holdover_senator, holdover_party, holdover_link,
         candidates } = props
+
+    const CYCLE_YEAR = 2026
+    const inCycleValue = (typeof in_cycle_2026 !== 'undefined') ? in_cycle_2026 : in_cycle_2024
 
     let correspondingHouseDistricts = []
     if (chamber === 'senate') {
@@ -246,15 +249,22 @@ const District = (props) => {
         {(chamber === 'house') && <div className="note corresponding-district">Part of SD {correspondingSenateDistrict}</div>}
         {(chamber === 'senate') && <div className="note corresponding-district">Composed of HD {correspondingHouseDistricts[0]} and HD {correspondingHouseDistricts[1]}</div>}
 
-        {(chamber === 'senate') && (in_cycle_2024 === 'no') && <div>
+        {(chamber === 'senate') && (inCycleValue === 'no') && <div>
             <div className="out-of-cycle-note">
-                <div><strong>{district}</strong> is out of cycle in 2024</div>
+                <div><strong>{district}</strong> is out of cycle in {CYCLE_YEAR}</div>
                 <br />
                 <div>
-                    <Link className="holdover" href={holdover_link} style={{ borderTop: `3px solid ${holdoverPartyInfo.color}` }}>
-                        <span className="holdover-party-icon" style={{ backgroundColor: holdoverPartyInfo.color }}>{holdover_party}</span>
-                        <span className="holdover-name">Sen. {holdover_senator}</span>
-                    </Link>
+                    {holdover_link ? (
+                        <Link className="holdover" href={holdover_link} style={{ borderTop: `3px solid ${holdoverPartyInfo?.color || '#999'}` }}>
+                            <span className="holdover-party-icon" style={{ backgroundColor: holdoverPartyInfo?.color || '#999' }}>{holdover_party}</span>
+                            <span className="holdover-name">Sen. {holdover_senator}</span>
+                        </Link>
+                    ) : (
+                        <a className="holdover" href="#" onClick={e => e.preventDefault()} style={{ borderTop: `3px solid ${holdoverPartyInfo?.color || '#999'}` }}>
+                            <span className="holdover-party-icon" style={{ backgroundColor: holdoverPartyInfo?.color || '#999' }}>{holdover_party}</span>
+                            <span className="holdover-name">Sen. {holdover_senator}</span>
+                        </a>
+                    )}
                     <div>will represent the district as a holdover</div>
                 </div>
             </div>

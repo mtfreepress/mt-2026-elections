@@ -1,4 +1,4 @@
-### When are Montana’s 2024 elections?
+### When are Montana’s 2026 elections?
 
 Voters picked party nominees for the November general election in the June 2 primary. The November General Election that will decide the ultimate winner in each race is set for Tuesday, Nov. 3.
 
@@ -33,7 +33,7 @@ No, that’s not an option in Montana.
 
 Yes, you can sign up as an absentee voter by checking a box on your voter registration form. If you’re already registered to vote, you can fill out a separate form and submit it to your county election office.
 
-If you’re registered as an absentee voter, a ballot should be mailed to you a few weeks in advance of each election day. You can make sure your address is current via the [My Voter page](https://app.mt.gov/voterinfo/). County election officials are slated to mail ballots to voters for the November 2024 General Election Oct. 9.
+If you’re registered as an absentee voter, a ballot should be mailed to you a few weeks in advance of each election day. You can make sure your address is current via the [My Voter page](https://app.mt.gov/voterinfo/). County election officials are slated to mail ballots to voters for the November 2026 General Election Oct. 9.
 
 You can return ballots by mail, or drop them off in person at your county’s election office. Either way, the election office must receive your ballot by 8 p.m. on Election Day in order to count it.
 

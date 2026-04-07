@@ -213,7 +213,8 @@ function displayUrl(url) {
 function LegislativeCandidateBlock({ district, label }) {
     if (!district) return null
 
-    const isOutOfCycle = district.in_cycle_2024 === 'no'
+    const inCycleValue = district ? (district.in_cycle_2026 ?? district.in_cycle_2024) : undefined
+    const isOutOfCycle = inCycleValue === 'no'
 
     return <div css={legeBlockStyle}>
         <h4>{label}</h4>

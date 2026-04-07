@@ -32,6 +32,9 @@ const HOST_REPLACE = {
     'peeformontana.com': 'peteformontana.com',
 }
 const PARTY_ORDER = ['R', 'D', 'L', 'G', 'I']
+// Current election cycle year (update for each cycle)
+const CYCLE_YEAR = 2026
+const OLD_CYCLE_FIELD = 'in_cycle_2024'
 
 // Candidates to manually add (e.g. independents not in SoS CSV)
 const MANUAL_ADD_CANDIDATES = [
@@ -89,11 +92,45 @@ function cleanName(rawName) {
     return NAME_REPLACE[name] || name
 }
 
+/**
+ * Compute whether a district is in the current cycle (CYCLE_YEAR).
+ * Houses are every 2 years (always yes). For Senate we invert the
+ * provided `in_cycle_2024` value (if present) because senate seats
+ * alternate every 4 years.
+ */
+function computeInCycleForYear(d) {
+    if (!d) return 'yes'
+    if ((d.chamber || '').toLowerCase() === 'house') return 'yes'
+    const old = (d[OLD_CYCLE_FIELD] || '').toString().trim().toLowerCase()
+    if (old === 'yes') return 'no'
+    if (old === 'no') return 'yes'
+    // fallback: if there's a holdover senator listed, assume it's a holdover (not in cycle)
+    if (d.holdover_senator && d.holdover_senator.trim()) return 'no'
+    return 'yes'
+}
+
 // --- MAIN ---
 
 async function main() {
     let candidates = await getCsv('./inputs/filings/CandidateList.csv')
     const legeDistricts = await getCsv('./inputs/legislative-districts/districts.csv')
+
+    // Load legislator roster (used to fill holdover senators not up this cycle)
+    let roster = []
+    try {
+        if (fs.existsSync('./inputs/filings/legislator-roster-2025.json')) {
+            roster = JSON.parse(fs.readFileSync('./inputs/filings/legislator-roster-2025.json', 'utf8'))
+        }
+    } catch (e) {
+        console.warn('Could not read legislator roster:', e && e.message)
+        roster = []
+    }
+    const rosterMap = {}
+    roster.forEach(r => {
+        if (!r.district) return
+        const key = r.district.replace('HD ', 'HD-').replace('SD ', 'SD-').trim()
+        rosterMap[key] = r
+    })
 
     // Add any manually-specified candidates
     candidates = candidates.concat(MANUAL_ADD_CANDIDATES)
@@ -156,8 +193,43 @@ async function main() {
                 status: c.status,
                 campaignWebsite: c.campaignWebsite,
             }))
+
+        // compute whether this district is in the current cycle (e.g., 2026)
+        const inCycle = computeInCycleForYear(district)
+
+        // remove the old-cycle field from the output and prefer roster values for holdovers
+        const { [OLD_CYCLE_FIELD]: _oldCycle, holdover_senator, holdover_party, holdover_link, ...rest } = district
+
+        let resolvedHoldover = null
+        let resolvedParty = null
+        let resolvedLink = null
+
+        // Only populate holdover senator info for Senate districts (use roster to fill missing values)
+        if ((district.chamber || '').toLowerCase() === 'senate') {
+            resolvedHoldover = holdover_senator && holdover_senator.trim() ? holdover_senator : null
+            resolvedParty = holdover_party && holdover_party.trim() ? holdover_party : null
+            resolvedLink = holdover_link && holdover_link.trim() ? holdover_link : null
+
+            if ((!resolvedHoldover || !resolvedParty || !resolvedLink) && rosterMap[district.districtKey]) {
+                const r = rosterMap[district.districtKey]
+                if (!resolvedHoldover && r.name) resolvedHoldover = r.name
+                if (!resolvedParty && r.party) resolvedParty = r.party
+                if (!resolvedLink && r.source) resolvedLink = r.source
+            }
+        } else {
+            // preserve any existing holdover fields for non-senate rows, but avoid filling from roster
+            resolvedHoldover = holdover_senator && holdover_senator.trim() ? holdover_senator : null
+            resolvedParty = holdover_party && holdover_party.trim() ? holdover_party : null
+            resolvedLink = holdover_link && holdover_link.trim() ? holdover_link : null
+        }
+
         return {
-            ...district,
+            ...rest,
+            districtKey: district.districtKey,
+            in_cycle_2026: inCycle,
+            holdover_senator: resolvedHoldover || null,
+            holdover_party: resolvedParty || null,
+            holdover_link: resolvedLink || null,
             candidates: matchingCandidates,
         }
     })
