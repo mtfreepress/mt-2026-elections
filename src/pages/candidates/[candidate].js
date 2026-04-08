@@ -173,7 +173,8 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                 }
             </section>
 
-            <section>
+{/* TODO: Add back after primary results are available */}
+            {/* <section>
                 <a className="link-anchor" id="results"></a>
                 <h2>Election outcomes</h2>
                 {
@@ -184,7 +185,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                     />
                         : <p>No party primary was conducted.</p>
                 }
-            </section>
+            </section> */}
 
             <section>
                 <a className="link-anchor" id="voting-faq"></a>
