@@ -166,7 +166,7 @@
             "C00943530"
           ],
           "coverage_end_date": null,
-          "incumbent_challenge_full": null,
+          "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
@@ -182,7 +182,7 @@
             "C00944215"
           ],
           "coverage_end_date": null,
-          "incumbent_challenge_full": null,
+          "incumbent_challenge_full": "Open seat",
           "party_full": "LIBERTARIAN PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
@@ -306,7 +306,7 @@
     "finances": {
       "api_version": "1.0",
       "pagination": {
-        "count": 5,
+        "count": 6,
         "is_count_exact": true,
         "page": 1,
         "pages": 1,
@@ -390,6 +390,22 @@
           "coverage_end_date": null,
           "incumbent_challenge_full": "Challenger",
           "party_full": "LIBERTARIAN PARTY",
+          "total_disbursements": 0,
+          "total_receipts": 0
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "H6MT02226",
+          "candidate_name": "WINDY BOY, JONATHAN MR.",
+          "candidate_pcc_id": "C00941757",
+          "candidate_pcc_name": "WINDYBOY4CONGRESS",
+          "cash_on_hand_end_period": 0,
+          "committee_ids": [
+            "C00941757"
+          ],
+          "coverage_end_date": null,
+          "incumbent_challenge_full": null,
+          "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
         }

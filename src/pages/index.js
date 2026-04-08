@@ -224,12 +224,13 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
             </section>
             <hr />
 
-            <section>
+{/* TODO: Enable once we have ballot initiatives */}
+            {/* <section>
                 <a className="link-anchor" id="ballot-initiatives"></a>
                 <h2>Ballot initiatives</h2>
                 <Markdown>{overviewBallotInitiatives}</Markdown>
                 <BallotInitiativeOverview ballotIssues={ballotIssues} />
-            </section>
+            </section> */}
 
             <section>
                 <h2>Other ballot items</h2>

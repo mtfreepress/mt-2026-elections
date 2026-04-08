@@ -147,7 +147,7 @@ export default function CandidatePageOpponents({
 }) {
     return <div css={opponentsContainerStyle}>
         <h4>Active candidates for {raceDisplayName}</h4>
-        <div className="note">General election nominees were selected via the June 4, 2024, primary election.</div>
+        <div className="note">General election nominees will be selected via the June 2, 2024.</div>
         <div className="party-buckets">
             {
                 PARTIES

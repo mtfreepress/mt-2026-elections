@@ -22,8 +22,22 @@ const text = getYml('./inputs/content/text.yml')
 // Only load YAMLs for candidates actually referenced in races.yml.
 // Legislative candidates have their own pipeline (process/legislative-candidates.js).
 const raceCandidateSlugs = new Set(races.flatMap(r => r.candidates || []))
+// Normalize party codes so the site components can consistently bucket parties
+const normalizeParty = (p) => {
+    if (p === null || p === undefined) return p
+    const up = String(p).trim().toUpperCase()
+    if (['IND', 'INDEPENDENT', 'I'].includes(up)) return 'I'
+    if (['NON', 'NP', 'NONPARTISAN', 'NONE', 'N'].includes(up)) return 'NP'
+    if (['REP', 'GOP', 'R'].includes(up)) return 'R'
+    if (['DEM', 'D'].includes(up)) return 'D'
+    if (['LIB', 'L', 'LP'].includes(up)) return 'L'
+    if (['G', 'GRN'].includes(up)) return 'G'
+    return up
+}
+
 const candidates = collectYmls('./inputs/content/candidates/*.yml')
     .filter(c => raceCandidateSlugs.has(c.slug))
+    .map(c => ({ ...c, party: normalizeParty(c.party) }))
 const ballotInitiatives = getYml('./inputs/content/ballot-initiatives.yml')
 const coverage = getJson('./inputs/coverage/articles.json')
 const howToVoteContent = getMD('./inputs/content/how-to-vote.md')

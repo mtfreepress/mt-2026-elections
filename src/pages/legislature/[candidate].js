@@ -142,18 +142,19 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                 <LinksList articles={coverage} />
             </section>
 
-            <section>
+{/* TODO: Add back after primary results are available */}
+            {/* <section>
                 <a className="link-anchor" id="results"></a>
                 <h2>Election outcomes</h2>
                 {
                     (party !== 'I') && primaryResults.resultsTotal && (primaryResults.resultsTotal.length > 0) ? <RaceResults
                         results={primaryResults}
                         primaryParty={party} // null for general elex results
-                        title={`June 4 primary`}
+                        title={`June 2 primary`}
                     />
                         : <p>No party primary was conducted.</p>
                 }
-            </section>
+            </section> */}
 
             <section>
                 <a className="link-anchor" id="voting-faq"></a>

@@ -29,6 +29,7 @@
         "displayName": "Alani Bankhead",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -36,6 +37,7 @@
         "displayName": "Michael Black Wolf",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -43,6 +45,7 @@
         "displayName": "Reilly Neill",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -50,6 +53,7 @@
         "displayName": "Lee Calhoun",
         "summaryLine": null,
         "party": "R",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -57,6 +61,7 @@
         "displayName": "Tom Jandron",
         "summaryLine": null,
         "party": "L",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -64,6 +69,7 @@
         "displayName": "Christopher Kehoe",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -71,6 +77,7 @@
         "displayName": "Charles Walking Child",
         "summaryLine": null,
         "party": "R",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -78,13 +85,15 @@
         "displayName": "Kurt Alme",
         "summaryLine": null,
         "party": "R",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
         "slug": "seth-bodnar",
         "displayName": "Seth Bodnar",
         "summaryLine": null,
-        "party": "IND",
+        "party": "I",
+        "hasResponses": true,
         "numMTFParticles": 0
       }
     ],
@@ -141,7 +150,7 @@
       },
       {
         "displayName": "Seth Bodnar",
-        "party": "IND",
+        "party": "I",
         "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
         "candidateId": "S6MT00287",
         "totalReceipts": 0,
@@ -196,6 +205,7 @@
         "displayName": "Russell Cleveland",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -203,6 +213,7 @@
         "displayName": "Matt Rains",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -218,6 +229,7 @@
         "displayName": "Sam Forstag",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -232,6 +244,7 @@
         "displayName": "Aaron Flint",
         "summaryLine": null,
         "party": "R",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -239,7 +252,6 @@
         "displayName": "Christi Jacobsen",
         "summaryLine": null,
         "party": "R",
-        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -247,6 +259,7 @@
         "displayName": "Ray Curtis",
         "summaryLine": null,
         "party": "R",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -254,13 +267,15 @@
         "displayName": "Nick Sheedy",
         "summaryLine": null,
         "party": "L",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
         "slug": "kimberly-a-persico",
         "displayName": "Kimberly A  Persico",
         "summaryLine": null,
-        "party": "IND",
+        "party": "I",
+        "hasResponses": true,
         "numMTFParticles": 0
       }
     ],
@@ -342,6 +357,7 @@
         "displayName": "Brian J Miller",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -349,6 +365,7 @@
         "displayName": "Sam Lux",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -356,7 +373,7 @@
         "displayName": "Troy Downing",
         "summaryLine": null,
         "party": "R",
-        "hasResponses": false,
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -364,6 +381,7 @@
         "displayName": "Jonathan Windy Boy",
         "summaryLine": null,
         "party": "D",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -371,13 +389,15 @@
         "displayName": "Patrick Mccracken",
         "summaryLine": null,
         "party": "L",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
         "slug": "michael-d-eisenhauer",
         "displayName": "Michael D Eisenhauer",
         "summaryLine": null,
-        "party": "IND",
+        "party": "I",
+        "hasResponses": true,
         "numMTFParticles": 0
       }
     ],
@@ -394,7 +414,7 @@
       },
       {
         "displayName": "Michael D Eisenhauer",
-        "party": "IND",
+        "party": "I",
         "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
         "candidateId": "H6MT02168",
         "totalReceipts": 201100,
@@ -455,6 +475,7 @@
         "displayName": "Jeremy Trebas",
         "summaryLine": null,
         "party": "R",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -488,6 +509,7 @@
         "displayName": "Annie Bukacek",
         "summaryLine": null,
         "party": "R",
+        "hasResponses": true,
         "numMTFParticles": 0
       },
       {
@@ -521,15 +543,14 @@
         "slug": "dan-wilson",
         "displayName": "Dan Wilson",
         "summaryLine": null,
-        "party": "NON",
-        "hasResponses": true,
+        "party": "NP",
         "numMTFParticles": 0
       },
       {
         "slug": "amy-eddy",
         "displayName": "Amy Eddy",
         "summaryLine": null,
-        "party": "NON",
+        "party": "NP",
         "numMTFParticles": 0
       }
     ],

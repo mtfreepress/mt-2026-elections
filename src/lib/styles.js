@@ -12,7 +12,7 @@ export const PARTIES_BY_KEY = new Map(PARTIES.map(p => [p.key, p]))
 
 export const STATUS = [
     { key: 'active', label: '➡️ Active' },
-    { key: 'lost-primary', label: '❌ Lost June 4 primary' },
+    { key: 'lost-primary', label: '❌ Lost June 2 primary' },
     { key: 'lost-general', label: '❌ Lost Nov. 5 general election' },
     { key: 'won', label: '✅ Won Nov. 5 general election' },
 ]
