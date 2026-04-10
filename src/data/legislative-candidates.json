@@ -654,16 +654,16 @@
         "campaignWebsite": "https://georgeforus.com"
       },
       {
-        "slug": "mindy-leach",
-        "displayName": "MINDY LEACH",
-        "party": "D",
-        "campaignWebsite": null
-      },
-      {
         "slug": "james-g--whitaker",
         "displayName": "JAMES G  WHITAKER",
         "party": "D",
         "campaignWebsite": null
+      },
+      {
+        "slug": "mindy-leach",
+        "displayName": "MINDY LEACH",
+        "party": "D",
+        "campaignWebsite": "https://mindy4mt.com"
       }
     ]
   },
@@ -689,51 +689,16 @@
         "campaignWebsite": "https://georgeforus.com"
       },
       {
-        "slug": "mindy-leach",
-        "displayName": "MINDY LEACH",
-        "party": "D",
-        "campaignWebsite": null
-      },
-      {
         "slug": "james-g--whitaker",
         "displayName": "JAMES G  WHITAKER",
         "party": "D",
         "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "SD-12",
-    "raceDisplayName": "Senate District 12",
-    "slug": "mindy-leach",
-    "displayName": "MINDY LEACH",
-    "party": "D",
-    "status": "active",
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "randy-pinocci",
-        "displayName": "RANDY PINOCCI",
-        "party": "R",
-        "campaignWebsite": "https://pinocciforsd12.com"
-      },
-      {
-        "slug": "george-nikolakakos",
-        "displayName": "GEORGE NIKOLAKAKOS",
-        "party": "R",
-        "campaignWebsite": "https://georgeforus.com"
       },
       {
         "slug": "mindy-leach",
         "displayName": "MINDY LEACH",
         "party": "D",
-        "campaignWebsite": null
-      },
-      {
-        "slug": "james-g--whitaker",
-        "displayName": "JAMES G  WHITAKER",
-        "party": "D",
-        "campaignWebsite": null
+        "campaignWebsite": "https://mindy4mt.com"
       }
     ]
   },
@@ -759,16 +724,51 @@
         "campaignWebsite": "https://georgeforus.com"
       },
       {
+        "slug": "james-g--whitaker",
+        "displayName": "JAMES G  WHITAKER",
+        "party": "D",
+        "campaignWebsite": null
+      },
+      {
         "slug": "mindy-leach",
         "displayName": "MINDY LEACH",
         "party": "D",
-        "campaignWebsite": null
+        "campaignWebsite": "https://mindy4mt.com"
+      }
+    ]
+  },
+  {
+    "raceSlug": "SD-12",
+    "raceDisplayName": "Senate District 12",
+    "slug": "mindy-leach",
+    "displayName": "MINDY LEACH",
+    "party": "D",
+    "status": "active",
+    "campaignWebsite": "https://mindy4mt.com",
+    "opponents": [
+      {
+        "slug": "randy-pinocci",
+        "displayName": "RANDY PINOCCI",
+        "party": "R",
+        "campaignWebsite": "https://pinocciforsd12.com"
+      },
+      {
+        "slug": "george-nikolakakos",
+        "displayName": "GEORGE NIKOLAKAKOS",
+        "party": "R",
+        "campaignWebsite": "https://georgeforus.com"
       },
       {
         "slug": "james-g--whitaker",
         "displayName": "JAMES G  WHITAKER",
         "party": "D",
         "campaignWebsite": null
+      },
+      {
+        "slug": "mindy-leach",
+        "displayName": "MINDY LEACH",
+        "party": "D",
+        "campaignWebsite": "https://mindy4mt.com"
       }
     ]
   },

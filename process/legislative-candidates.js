@@ -30,6 +30,7 @@ const NAME_REPLACE = {
 // Known host typos to substitute (lowercase keys)
 const HOST_REPLACE = {
     'peeformontana.com': 'peteformontana.com',
+    'pattinsonformontana': 'pattinsonformontana.com'
 }
 const PARTY_ORDER = ['R', 'D', 'L', 'G', 'I']
 // Current election cycle year (update for each cycle)

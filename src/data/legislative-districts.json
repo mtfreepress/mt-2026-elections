@@ -3368,18 +3368,18 @@
         "campaignWebsite": "https://georgeforus.com"
       },
       {
-        "slug": "mindy-leach",
-        "displayName": "MINDY LEACH",
-        "party": "D",
-        "status": "active",
-        "campaignWebsite": null
-      },
-      {
         "slug": "james-g--whitaker",
         "displayName": "JAMES G  WHITAKER",
         "party": "D",
         "status": "active",
         "campaignWebsite": null
+      },
+      {
+        "slug": "mindy-leach",
+        "displayName": "MINDY LEACH",
+        "party": "D",
+        "status": "active",
+        "campaignWebsite": "https://mindy4mt.com"
       }
     ]
   },

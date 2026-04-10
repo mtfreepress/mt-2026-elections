@@ -7,7 +7,7 @@
     "race": "U.S. House District 2 (East)",
     "party": "R",
     "status": "active",
-    "hasResponses": false,
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -19,6 +19,7 @@
     "race": "U.S. Senate",
     "party": "L",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -28,8 +29,9 @@
     "displayName": "Seth Bodnar",
     "summaryLine": null,
     "race": "U.S. Senate",
-    "party": "IND",
+    "party": "I",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -41,6 +43,7 @@
     "race": "U.S. House District 2 (East)",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -52,6 +55,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -75,6 +79,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -86,6 +91,7 @@
     "race": "U.S. Senate",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -97,6 +103,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "R",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -108,6 +115,7 @@
     "race": "U.S. House District 2 (East)",
     "party": "L",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -119,6 +127,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "L",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -140,8 +149,9 @@
     "displayName": "Michael D Eisenhauer",
     "summaryLine": null,
     "race": "U.S. House District 2 (East)",
-    "party": "IND",
+    "party": "I",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -153,6 +163,7 @@
     "race": "U.S. Senate",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -164,6 +175,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -175,6 +187,7 @@
     "race": "U.S. Senate",
     "party": "R",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -198,6 +211,7 @@
     "race": "U.S. Senate",
     "party": "R",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -207,8 +221,9 @@
     "displayName": "Kimberly A  Persico",
     "summaryLine": null,
     "race": "U.S. House District 1 (West)",
-    "party": "IND",
+    "party": "I",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -232,6 +247,7 @@
     "race": "U.S. House District 2 (East)",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -254,6 +270,7 @@
     "race": "Public Service Commission (Seat 1)",
     "party": "R",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -285,9 +302,8 @@
     "displayName": "Dan Wilson",
     "summaryLine": null,
     "race": "State Supreme Court (Seat 4)",
-    "party": "NON",
+    "party": "NP",
     "status": "active",
-    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -299,6 +315,7 @@
     "race": "U.S. Senate",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -310,7 +327,6 @@
     "race": "U.S. House District 1 (West)",
     "party": "R",
     "status": "active",
-    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -322,6 +338,7 @@
     "race": "U.S. Senate",
     "party": "R",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -333,6 +350,7 @@
     "race": "U.S. House District 2 (East)",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -344,6 +362,7 @@
     "race": "Public Service Commission (Seat 5)",
     "party": "R",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -364,7 +383,7 @@
     "displayName": "Amy Eddy",
     "summaryLine": null,
     "race": "State Supreme Court (Seat 4)",
-    "party": "NON",
+    "party": "NP",
     "status": "active",
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
@@ -377,6 +396,7 @@
     "race": "U.S. Senate",
     "party": "D",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -399,6 +419,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "R",
     "status": "active",
+    "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   }
