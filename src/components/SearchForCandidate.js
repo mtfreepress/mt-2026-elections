@@ -136,7 +136,7 @@ const candidateStyle = css`
     }
 `
 
-const PLACEHOLDER = 'Enter candidate (e.g., Greg Gianforte)'
+const PLACEHOLDER = 'Enter candidate (e.g., Troy Downing)'
 
 function Candidate(props) {
     const { slug, path, displayName, party, status, race,

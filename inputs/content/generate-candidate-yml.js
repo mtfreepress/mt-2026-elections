@@ -74,14 +74,39 @@ function getDisplayName(name) {
 
 const EMPTY_SITE_VALUES = new Set(['not provided', 'na', ''])
 
+// Known host typos/omissions to substitute (lowercase keys, no protocol/www/trailing slash)
+const HOST_REPLACE = {
+  'peeformontana.com': 'peteformontana.com',
+  'pattisonformontana': 'pattisonformontana.com',
+}
+
+function normalizeHost(raw) {
+  return raw.toLowerCase()
+    .replace(/^https?:\/\//, '')
+    .replace(/^www\./, '')
+    .replace(/\/.*$/, '')
+    .replace(/:\d+$/, '')
+}
+
+function applyHostReplace(url) {
+  const host = normalizeHost(url)
+  if (HOST_REPLACE[host]) return `https://${HOST_REPLACE[host]}`
+  // also try without .com suffix in case the raw value has no extension
+  const withoutCom = host.replace(/\.com$/, '')
+  if (HOST_REPLACE[withoutCom]) return `https://${HOST_REPLACE[withoutCom]}`
+  return url
+}
+
 function parseWebsite(emailWeb) {
   const parts = emailWeb.split('<br />')
   if (parts.length < 2) return ''
   const raw = parts[1].trim()
   if (EMPTY_SITE_VALUES.has(raw.toLowerCase())) return ''
   // already has a scheme
-  if (raw.toLowerCase().startsWith('http')) return raw.toLowerCase()
-  return 'https://' + raw.toLowerCase()
+  const url = raw.toLowerCase().startsWith('http')
+    ? raw.toLowerCase()
+    : 'https://' + raw.toLowerCase()
+  return applyHostReplace(url)
 }
 
 // party mapping

@@ -93,7 +93,7 @@ const Header = () => {
   const { webSubtitle } = metaData
   const router = useRouter()
   return <div css={headerStyle} style={{
-    backgroundImage: `linear-gradient( rgba(23, 24, 24, 0.2), rgba(23, 24, 24, 0.5) ), url(${router.basePath}/2022-ballot-background.png)`
+    backgroundImage: `linear-gradient( rgba(23, 24, 24, 0.2), rgba(23, 24, 24, 0.5) ), url(${router.basePath}/2022-ballot-background.jpg)`
   }}>
     <h2 className="ledein">Montana Free Press</h2>
     <h1 className="title"><Link href="/">
