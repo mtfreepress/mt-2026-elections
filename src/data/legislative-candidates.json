@@ -4593,7 +4593,7 @@
         "slug": "jeremiah-jabs",
         "displayName": "JEREMIAH JABS",
         "party": "R",
-        "campaignWebsite": null
+        "campaignWebsite": "https://jabsformt.com"
       },
       {
         "slug": "sidney-chip-fitzpatrick",
@@ -4610,13 +4610,13 @@
     "displayName": "JEREMIAH JABS",
     "party": "R",
     "status": "active",
-    "campaignWebsite": null,
+    "campaignWebsite": "https://jabsformt.com",
     "opponents": [
       {
         "slug": "jeremiah-jabs",
         "displayName": "JEREMIAH JABS",
         "party": "R",
-        "campaignWebsite": null
+        "campaignWebsite": "https://jabsformt.com"
       },
       {
         "slug": "sidney-chip-fitzpatrick",
