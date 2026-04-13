@@ -186,8 +186,8 @@ export default function SearchForCandidate({
     }
 
     return <div css={lookupStyle}>
-        <div className="ledein">Search 2024 Montana candidates by name</div>
-        <div className="note">This guide includes federal, state-level and legislative candidates. County commissioners and other local positions are excluded.</div>
+        <div className="ledein">Search 2026 Montana candidates by name</div>
+        <div className="note">This guide includes federal and statewide candidates. State legislators, county commissioners, and other local positions are excluded.</div>
         <form>
             <input onChange={handleChange} type="text" value={searchText} placeholder={PLACEHOLDER} />
         </form>
