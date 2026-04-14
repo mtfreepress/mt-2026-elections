@@ -30,7 +30,7 @@ const NAME_REPLACE = {
 // Known host typos to substitute (lowercase keys)
 const HOST_REPLACE = {
     'peeformontana.com': 'peteformontana.com',
-    'pattinsonformontana': 'pattinsonformontana.com'
+    'pattisonformontana': 'pattisonformontana.com'
 }
 const PARTY_ORDER = ['R', 'D', 'L', 'G', 'I']
 // Current election cycle year (update for each cycle)
@@ -62,27 +62,68 @@ const MANUAL_DROPOUTS = [
  */
 function extractWebsite(emailWebField) {
     if (!emailWebField) return null
-    const parts = emailWebField.split('<br />')
+    // Expect format like "email@example.com<br />website.com" or "...<br />Not Provided"
+    const parts = emailWebField.split(/<br\s*\/?\>/i)
     if (parts.length < 2) return null
-    const website = parts[1].trim()
-    if (!website || website.toLowerCase() === 'not provided') return null
-    const trimmed = website.trim()
-    // If protocol present, remove leading www. after protocol and lowercase
-    if (trimmed.match(/^https?:\/\//i)) {
+    const websiteRaw = parts[1].trim()
+    if (!websiteRaw || websiteRaw.toLowerCase() === 'not provided') return null
+    const trimmed = websiteRaw.trim()
+
+    // normalize a host string for matching
+    const normalizeHost = (h) => {
+        if (!h) return ''
+        let host = h.toString().toLowerCase().trim()
+        host = host.replace(/^https?:\/\//, '')
+        host = host.replace(/^www\./, '')
+        host = host.replace(/:\d+$/, '')
+        host = host.replace(/\/.*$/, '')
+        return host
+    }
+
+    const stripToHostname = (s) => s.replace(/^https?:\/\//i, '').replace(/^www\./i, '').replace(/\/.*$/, '').replace(/:\d+$/, '').toLowerCase()
+
+    const findReplacement = (host) => {
+        const h = normalizeHost(host)
+        if (!h) return null
+        if (HOST_REPLACE[h]) return HOST_REPLACE[h]
+        if (!h.includes('.') && HOST_REPLACE[h + '.com']) return HOST_REPLACE[h + '.com']
+        if (h.endsWith('.com')) {
+            const withoutCom = h.replace(/\.com$/, '')
+            if (HOST_REPLACE[withoutCom]) return HOST_REPLACE[withoutCom]
+        }
+        // last-resort fuzzy match: ignore dots when comparing
+        const noDots = h.replace(/\./g, '')
+        for (const key of Object.keys(HOST_REPLACE)) {
+            if (key.replace(/\./g, '') === noDots) return HOST_REPLACE[key]
+        }
+        return null
+    }
+
+    // If input includes a protocol, preserve the protocol and path when possible
+    if (/^https?:\/\//i.test(trimmed)) {
         try {
-            const u = new URL(trimmed.toLowerCase())
-            const hostNoWww = u.hostname.replace(/^www\./, '')
-            const corrected = HOST_REPLACE[hostNoWww] || hostNoWww
-            u.hostname = corrected
+            const u = new URL(trimmed)
+            const hostNoWww = stripToHostname(u.hostname)
+            const replacement = findReplacement(hostNoWww)
+            if (replacement) {
+                const repHost = normalizeHost(replacement)
+                u.hostname = repHost
+                return u.toString().replace(/\/$/, '')
+            }
+            u.hostname = hostNoWww
             return u.toString().replace(/\/$/, '')
         } catch (e) {
-            return trimmed.replace(/^(https?:\/\/)www\./i, '$1').toLowerCase()
+            const host = normalizeHost(trimmed)
+            const replacement = findReplacement(host) || host
+            return `https://${replacement}`
         }
     }
-    // Otherwise strip a leading www., apply known corrections, and prepend https://
-    const host = trimmed.replace(/^www\./i, '').toLowerCase().replace(/\/.*$/, '')
-    const correctedHost = HOST_REPLACE[host] || host
-    return `https://${correctedHost}`
+
+    // Bare host (no protocol) — normalize and return https://<host>
+    const host = normalizeHost(trimmed)
+    const replacement = findReplacement(host) || host
+    const finalHost = replacement.replace(/^https?:\/\//i, '').replace(/\/$/, '')
+    return `https://${finalHost}`
 }
 
 /**

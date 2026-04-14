@@ -99,6 +99,26 @@
     ],
     "finance": [
       {
+        "displayName": "Kyle Austin",
+        "party": "L",
+        "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+        "candidateId": "S6MT00261",
+        "totalReceipts": 262094.97,
+        "totalDisbursments": 226081.96,
+        "cashOnHand": 36013.01,
+        "coverageEndDate": "2026-03-31"
+      },
+      {
+        "displayName": "Alani Bankhead",
+        "party": "D",
+        "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+        "candidateId": "S6MT00253",
+        "totalReceipts": 15240.06,
+        "totalDisbursments": 5775,
+        "cashOnHand": 10625.06,
+        "coverageEndDate": "2026-03-31"
+      },
+      {
         "displayName": "Michael Black Wolf",
         "party": "D",
         "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
@@ -113,20 +133,10 @@
         "party": "D",
         "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
         "candidateId": "S4MT00217",
-        "totalReceipts": 10000,
-        "totalDisbursments": 200,
-        "cashOnHand": 10544.73,
-        "coverageEndDate": "2025-12-31"
-      },
-      {
-        "displayName": "Alani Bankhead",
-        "party": "D",
-        "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
-        "candidateId": "S6MT00253",
-        "totalReceipts": 5318.08,
-        "totalDisbursments": 2000,
-        "cashOnHand": 4478.08,
-        "coverageEndDate": "2025-12-31"
+        "totalReceipts": 10900,
+        "totalDisbursments": 3125,
+        "cashOnHand": 8519.73,
+        "coverageEndDate": "2026-03-31"
       },
       {
         "displayName": "Charles Walking Child",
@@ -137,16 +147,6 @@
         "totalDisbursments": 0,
         "cashOnHand": 0,
         "coverageEndDate": null
-      },
-      {
-        "displayName": "Kyle Austin",
-        "party": "L",
-        "candidateCommitteeName": "AUSTIN FOR CONGRESS",
-        "candidateId": "S6MT00261",
-        "totalReceipts": 0,
-        "totalDisbursments": 0,
-        "cashOnHand": 550,
-        "coverageEndDate": "2025-12-31"
       },
       {
         "displayName": "Seth Bodnar",

@@ -13,6 +13,22 @@
       "results": [
         {
           "candidate_election_year": 2026,
+          "candidate_id": "S6MT00261",
+          "candidate_name": "AUSTIN, KYLE",
+          "candidate_pcc_id": "C00870352",
+          "candidate_pcc_name": "AUSTIN FOR CONGRESS",
+          "cash_on_hand_end_period": 36013.01,
+          "committee_ids": [
+            "C00870352"
+          ],
+          "coverage_end_date": "2026-03-31",
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "LIBERTARIAN PARTY",
+          "total_disbursements": 226081.96,
+          "total_receipts": 262094.97
+        },
+        {
+          "candidate_election_year": 2026,
           "candidate_id": "S6MT00238",
           "candidate_name": "NEILL, REILLY",
           "candidate_pcc_id": "C00892505",
@@ -26,6 +42,22 @@
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 136319.76,
           "total_receipts": 147227.4
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "S6MT00253",
+          "candidate_name": "BANKHEAD, ALANI INES",
+          "candidate_pcc_id": "C00937201",
+          "candidate_pcc_name": "FRIENDS OF ALANI BANKHEAD",
+          "cash_on_hand_end_period": 10625.06,
+          "committee_ids": [
+            "C00937201"
+          ],
+          "coverage_end_date": "2026-03-31",
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "DEMOCRATIC PARTY",
+          "total_disbursements": 5775,
+          "total_receipts": 15240.06
         },
         {
           "candidate_election_year": 2026,
@@ -49,31 +81,15 @@
           "candidate_name": "HUMMERT, MICHAEL",
           "candidate_pcc_id": "C00873166",
           "candidate_pcc_name": "MICHAEL HUMMERT US SENATE CANDIDATE",
-          "cash_on_hand_end_period": 10544.73,
+          "cash_on_hand_end_period": 8519.73,
           "committee_ids": [
             "C00873166"
           ],
-          "coverage_end_date": "2025-12-31",
+          "coverage_end_date": "2026-03-31",
           "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 200,
-          "total_receipts": 10000
-        },
-        {
-          "candidate_election_year": 2026,
-          "candidate_id": "S6MT00253",
-          "candidate_name": "BANKHEAD, ALANI INES",
-          "candidate_pcc_id": "C00937201",
-          "candidate_pcc_name": "FRIENDS OF ALANI BANKHEAD",
-          "cash_on_hand_end_period": 4478.08,
-          "committee_ids": [
-            "C00937201"
-          ],
-          "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Open seat",
-          "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 2000,
-          "total_receipts": 5318.08
+          "total_disbursements": 3125,
+          "total_receipts": 10900
         },
         {
           "candidate_election_year": 2026,
@@ -88,22 +104,6 @@
           "coverage_end_date": null,
           "incumbent_challenge_full": "Open seat",
           "party_full": "REPUBLICAN PARTY",
-          "total_disbursements": 0,
-          "total_receipts": 0
-        },
-        {
-          "candidate_election_year": 2026,
-          "candidate_id": "S6MT00261",
-          "candidate_name": "AUSTIN, KYLE",
-          "candidate_pcc_id": "C00870352",
-          "candidate_pcc_name": "AUSTIN FOR CONGRESS",
-          "cash_on_hand_end_period": 550,
-          "committee_ids": [
-            "C00870352"
-          ],
-          "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Open seat",
-          "party_full": "LIBERTARIAN PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
         },
@@ -404,7 +404,7 @@
             "C00941757"
           ],
           "coverage_end_date": null,
-          "incumbent_challenge_full": null,
+          "incumbent_challenge_full": "Challenger",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 0,
           "total_receipts": 0

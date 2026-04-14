@@ -1196,7 +1196,7 @@
         "slug": "forrest-j-mandeville",
         "displayName": "FORREST J MANDEVILLE",
         "party": "R",
-        "campaignWebsite": "https://facebook.com/mandevilleformontana"
+        "campaignWebsite": "https://facebook.com/MANDEVILLEFORMONTANA"
       },
       {
         "slug": "kelly-hale",
@@ -1213,13 +1213,13 @@
     "displayName": "FORREST J MANDEVILLE",
     "party": "R",
     "status": "active",
-    "campaignWebsite": "https://facebook.com/mandevilleformontana",
+    "campaignWebsite": "https://facebook.com/MANDEVILLEFORMONTANA",
     "opponents": [
       {
         "slug": "forrest-j-mandeville",
         "displayName": "FORREST J MANDEVILLE",
         "party": "R",
-        "campaignWebsite": "https://facebook.com/mandevilleformontana"
+        "campaignWebsite": "https://facebook.com/MANDEVILLEFORMONTANA"
       },
       {
         "slug": "kelly-hale",
@@ -2580,7 +2580,7 @@
         "slug": "catherine-c-allen",
         "displayName": "CATHERINE C ALLEN",
         "party": "D",
-        "campaignWebsite": null
+        "campaignWebsite": "https://catherineallenformontana.com"
       }
     ]
   },
@@ -2591,7 +2591,7 @@
     "displayName": "CATHERINE C ALLEN",
     "party": "D",
     "status": "active",
-    "campaignWebsite": null,
+    "campaignWebsite": "https://catherineallenformontana.com",
     "opponents": [
       {
         "slug": "terry-falk",
@@ -2603,7 +2603,7 @@
         "slug": "catherine-c-allen",
         "displayName": "CATHERINE C ALLEN",
         "party": "D",
-        "campaignWebsite": null
+        "campaignWebsite": "https://catherineallenformontana.com"
       }
     ]
   },
@@ -4593,7 +4593,7 @@
         "slug": "jeremiah-jabs",
         "displayName": "JEREMIAH JABS",
         "party": "R",
-        "campaignWebsite": null
+        "campaignWebsite": "https://jabsformt.com"
       },
       {
         "slug": "sidney-chip-fitzpatrick",
@@ -4610,13 +4610,13 @@
     "displayName": "JEREMIAH JABS",
     "party": "R",
     "status": "active",
-    "campaignWebsite": null,
+    "campaignWebsite": "https://jabsformt.com",
     "opponents": [
       {
         "slug": "jeremiah-jabs",
         "displayName": "JEREMIAH JABS",
         "party": "R",
-        "campaignWebsite": null
+        "campaignWebsite": "https://jabsformt.com"
       },
       {
         "slug": "sidney-chip-fitzpatrick",
