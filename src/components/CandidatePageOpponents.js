@@ -120,7 +120,6 @@ function Candidate(props) {
                         src={portraitSrc}
                         width={40}
                         height={40}
-                        loading="eager"
                         style={{
                             width: '100%',
                             height: 'auto',
