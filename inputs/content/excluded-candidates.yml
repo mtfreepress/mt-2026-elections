@@ -6,7 +6,7 @@
 # who have informally dropped out before the Secretary of State updates their
 # status, or candidates whose pages should be suppressed for editorial reasons.
 #
-# DO NOT use this for candidates who have officially withdrawn — those are
+# No need to use this for candidates who have officially withdrawn — those are
 # automatically handled via the "Withdrawn" status in CandidateList.csv (for
 # legislative races) or via the `status` field in the candidate YAML file
 # (for major races).
