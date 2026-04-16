@@ -110,7 +110,7 @@ export default function CandidatePageSummary(props) {
                 const m = String(raceSlug).match(/^([A-Z]{2}-)(\d+)$/)
                 const file = m ? `${m[1]}${m[2].padStart(2, '0')}.jpg` : `${raceSlug}.jpg`
                 return (
-                    <Image src={`${router.basePath}/maps/lege-maps-1200px/${file}`}
+                    <Image src={`${router.basePath}/maps/lege-maps-600px/${file}`}
                         width={300}
                         height={300}
                         alt={`Map of ${raceDisplayName}`}
