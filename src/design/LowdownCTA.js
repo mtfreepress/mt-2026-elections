@@ -45,7 +45,7 @@ export default function LowdownCTA() {
         <div className="message">Want original Montana Free Press reporting and analysis sent to your inbox each week?</div>
         <a href={CTA_LINK}>
             <div className="button">Sign up for the free MT LOWDOWN newsletter</div>
-            {/* <Image src={lowdownLogo} alt="Montana Lowdown newsletter" width={300} /> */}
+            {/* <Image src={lowdownLogo} alt="Montana Lowdown newsletter" width={1200} /> */}
         </a>
         <div className="outro">Delivered Friday afternoons</div>
     </div>
