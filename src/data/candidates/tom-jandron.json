@@ -1,0 +1,229 @@
+{
+  "slug": "tom-jandron",
+  "displayName": "Tom Jandron",
+  "lastName": "Jandron",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "L",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "S6MT00311",
+  "campaignWebsite": "https://www.jandron4ussenate.com/",
+  "campaignFB": null,
+  "campaignTW": "https://x.com/TomJandron",
+  "campaignIG": null,
+  "campaignYT": "https://www.youtube.com/@tomjandron",
+  "campaignTT": null,
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "The Constitution is clear: Congress, not the president, decides when we go to war, and then the president prosecutes the war. The War Powers Act of 1973 was meant to restrain the executive branch after Vietnam, but in practice, it has often done the opposite. By allowing unilateral military action for weeks, it has functioned as a permission slip for presidents to begin conflicts before Congress can act.\n\nCongress is supposed to debate whether war is necessary, but they are too afraid to vote on the record, so they are happy to kick the ball to the president. Most recently, forces were committed to Iran before Congress could even debate a war powers resolution, and even the best Congressmen are afraid to defund the troops once they have already been committed.   \n\nWe must restore the original constitutional standard. There must be no offensive military action without a formal declaration of war. We have not declared war since WWII, and every war since has been a disaster. Congress should also repeal the outdated 2001 AUMF, which has been stretched far beyond its original purpose to justify endless, undeclared wars. Any future AUMF must be limited in time and its targets.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Congress should not try to centrally manage or subsidize rural health care from Washington. The policies that created these shortages, like federal mandates, insurance manipulation, and overregulation, are the same ones making it harder for rural providers to survive.\n\nThe best thing Congress can do is remove barriers. That means expanding price transparency, allowing real competition across state lines, reducing federal regulations that drive up costs, re-examining credentialing practices and scope of practice, and empowering patients to use tools like health savings accounts, direct primary care, telehealth, AI assistants, and other innovations.\n\nWe should encourage states across the country to end policies that tie care to large hospital systems, as Montana has done by repealing certificate-of-need laws, and instead allow independent clinics to operate more freely and affordably. When providers can compete and patients control their own health care dollars, costs go down, and access improves.\n\nMontanans don’t need more bureaucrats involved in their lives. They need more freedom to innovate, serve their communities, and deliver care that actually works in rural areas.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "First, I will champion the PRIME Act, introduced by Thomas Massie, which will allow farmers and ranchers to sell meat processed at custom slaughterhouses directly to consumers, restaurants, and retailers within their state without continuous federal inspection. In Montana, where USDA facilities are scarce, this would reduce bottlenecks, lower costs, and expand access to local processing. It will give Montana farmers and ranchers more control, help small operations compete, increase access to fresh, locally raised meat, and strengthen food security through decentralization and local inspection facilities.\n \nSecond, in spirit of the Montana Constitution’s requirements of single-issue bills and term limits, I will oppose any omnibus bills in DC, refuse to support legislation loaded with unrelated provisions and riders, advocate for federal term limits, and will not serve in the US Senate beyond two terms in any 16-year period. I am running to defend the Constitution, reduce federal overreach, and restore accountability, not to build a career in the US Senate.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "Congress can help expand housing supply and reduce costs by reducing market distortions.\n \nMany federal regulations hamper housing development. I support the REINS Act, which would prevent unelected agencies from driving up housing and construction costs through burdensome red tape and require Congress to approve any proposed major federal regulations.\n\nAlthough the ROAD Act includes unrelated riders, I support targeted reforms within it, such as streamlined environmental review for housing projects and the repeal of an outdated permanent chassis requirement.\n\nBut we must be honest with Americans and acknowledge that these are all band-aids on the root problem: inflation driven by federal spending and monetary policy. Even with local zoning reform or reducing federal red tape, artificially low interest rates and excessive money creation will always distort markets, fuel malinvestment, and push housing prices beyond what families can afford, and only benefit some homeowners at the expense of younger generations.\n\nIt all comes back to reckless spending. We must cut spending, balance the budget, and rein in the Federal Reserve’s inflation, or the “affordability crisis” will never be solved.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "I am not a politician. I am an everyday Montanan with a 9-to-5, working to provide for my wife and kids. As a former small business owner, I understand the pressure families feel when gas, grocery, and housing costs rise due to inflation and misguided foreign policy. \n\nI served in the military in a leadership role and take seriously the oath every one of our service members swears to the Constitution. In Congress, I will honor their oath and sacrifice by making Congress fulfill its own oath and require a declaration of war before committing our blood and treasure overseas.\n\nI believe, as George Washington advised, that we should “steer clear of entangling alliances.” I will not accept any AIPAC money or any contributions tied to foreign interests, whether it’s Israel, India, Taiwan, Ukraine, or Timbuktu. I will post a “no solicitation” sign on my office door stating that I will make every decision based on conscience, principles, and debate, not campaign contributions and pressure.\n\nI will represent “the forgotten man” and help clean up the mess insiders made, because I can’t be bought, have no party bosses to answer to, and do not need to gather signatures to be on the ballot.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "L",
+    "resultsTotal": null
+  }
+}

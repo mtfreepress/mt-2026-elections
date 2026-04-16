@@ -1,0 +1,245 @@
+{
+  "slug": "reilly-neill",
+  "displayName": "Reilly Neill",
+  "lastName": "Neill",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": "https://www.reillyformontana.com",
+  "campaignFB": "https://www.facebook.com/people/Reilly-Neill-for-US-Congress/61563896896212",
+  "campaignTW": "https://x.com/RepRNeill",
+  "campaignIG": "https://www.instagram.com/reillyformontana/",
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "The War Powers Resolution should always be enforced. \n\nWhen a president deploys U.S. forces into combat for a month or longer without congressional authorization, Congress must act. War is not a personal power vested in one office. Decisions of this magnitude demand public accountability and democratic consent and the Constitution clearly gives Congress the authority to declare war and potentially send Montana's sons and daughters into combat. \n\nIf loopholes or ambiguity weaken the Resolution, Congress should strengthen it, not discard it. Montana families send sons and daughters to serve. They deserve a government that treats war as a grave choice, not a unilateral impulse. \n\nNo president should get a blank check for prolonged conflict.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Montanans on the ground tell us they want universal healthcare. \n\nRural hospitals operate on thin margins, low patient volume, and unstable reimbursement. Veterans across Montana struggle to access care close to home, and Medicare Part B access remains limited in many rural areas due to provider shortages. \n\nCongress should act to stabilize rural funding, expand provider incentives, and strengthen telehealth and infrastructure. Long term, we need a Universal Healthcare Act that guarantees baseline coverage and makes the federal government the payer of record. \n\nThe Universal Healthcare approach will bring predictable revenue into rural systems, keep doors open, and ensure care reaches every community.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "Water Infrastructure and Drought Resilience\nAcross Montana, aging irrigation systems and persistent drought threaten agriculture, drinking water, and local economies. Projects like the Milk River system exceed what local communities can fund alone. I'll advance a federal Irrigation Infrastructure Act to provide a 25 percent cost share for projects in drought-prone regions, giving irrigation districts the certainty to plan and build. \n\nI'll work with tribes, local boards, and federal partners to prioritize shovel-ready projects and protect headwaters and water rights. Water is the foundation of Montana’s economy, and we need a system that delivers before crisis hits.\n\nRural Healthcare Access\nMontanans on the ground tell us they want universal healthcare. Rural hospitals operate on thin margins, veterans struggle to access nearby care, and provider shortages limit Medicare access across large parts of the state.\n\nI'll push for a Universal Healthcare Act that guarantees baseline coverage and stabilizes rural systems with predictable funding. I will also expand workforce incentives, telehealth, and infrastructure so care reaches every community.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "Home ownership and cost of living in Montana come down to supply, wages, and accountability.\n\nFirst, we need to increase housing supply that working people can afford. I support federal investment in workforce housing, incentives for local construction, and limits on speculative and corporate purchases that drive up prices without adding value to communities.\n\nSecond, wages must keep pace. I support raising the minimum wage and indexing it to inflation so Montanans can afford to live where they work.\n\nThird, we must address the hidden drivers of cost. Healthcare, energy, and infrastructure all feed into housing affordability. A Universal Healthcare Act lowers household costs. Strong oversight of energy and data center development protects ratepayers.\n\nFinally, federal policy should prioritize rural communities, not overlook them. Montana families should not be priced out of their own towns.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "Montanans have an opportunity to elect a true representative of the people.\n\nI announced my run for U.S. Senate the day after the 2024 election and have been on the ground ever since, holding roundtables, visiting communities, and listening directly to Montanans across the state. Showing up is not a campaign tactic. It's how representative government works.\n\nDaines stepped away from this race at the last minute and has not shown up for town halls or open forums in years. I will not step away, and I will not give up on Montana.\n\nMy service will be defined by presence, accountability, and independence. I will hold regular town halls, meet with constituents in every region, and make decisions based on what I hear on the ground, not party pressure or national talking points.\n\nI will work for all Montanans, for small government that works for working people and stays out of our business.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "JON TESTER",
+        "party": "D",
+        "votes": 103347,
+        "isWinner": true,
+        "votePercent": 0.9698752780202146
+      },
+      {
+        "candidate": "MICHAEL HUMMERT",
+        "party": "D",
+        "votes": 3210,
+        "isWinner": false,
+        "votePercent": 0.030124721979785468
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

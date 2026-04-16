@@ -1,0 +1,245 @@
+{
+  "slug": "alani-bankhead",
+  "displayName": "Alani Bankhead",
+  "lastName": "Bankhead",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "S6MT00253",
+  "campaignWebsite": "https://www.alaniformt.com",
+  "campaignFB": "https://www.facebook.com/AlaniForMT/",
+  "campaignTW": null,
+  "campaignIG": "https://www.instagram.com/alaniformt/",
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Checks and balances are the reason why democracy has worked for 250 years. The President is required to notify Congress within 48 hours of deploying troops into hostilities and mandates their withdrawl within 60-90 days unless Congress declares war or authorizes force. The War Powers Resolution should absolutely be enforced. I stand by the original intent and will support its full enforcement\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Healthcare -- as part of greater affordability issues which include housing and the cost of food and gas -- is one of my top priorities. We are the richest country in the world, and there is no reason why every Montanan should not have access to quality healthcare. My solution to rural funding is something I've spoken of often: take it from the defense budget. If we claw back the hundreds of billions in end-of-year use-lose military spending, it would easily fund rural healthcare with zero impact to national security. As a retired Air Force LtCol, I am aware of how the budget cycles work and believe we can be better stewards of tax payer dollars while protecting our country.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "1. Public lands. I would never allow the exploitation or development of our public lands. I would build coalition to ensure both sides of the aisle support the protection of America's greatest treasure. 2. Education. Montana teachers are some of the most poorly paid in the country. Funding education gives our children the best onramp to success. And when graduates have felt supported by their education systems, they aspire to greater things and want to stay and give back to their communities more. I chose to specialize in child sex crimes, because I believe every child deserves to have hope and every available avenue to pursue any career. Whether college, trade school, starting a business, military, etc, I deployed and was shot at and mortared so every child could grow up free from trauma and live their own American dream. We will fund education, because it's the best avenue out of poverty.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "1. Raise the capital gains limit from $250K to $500K. Many people are holding onto homes, because they don't want to pay capital gains taxes. The law is great but was done in the 90s. If we raise the limit, more people will sell homes which will create more inventory and drive home prices down. 2. Give tax breaks to construction companies whose portfolio has a minimum of 30% affordable houses. 3. Medicaid for All paid for by use-lose military funds.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "I actually talk to Montanans about what they're experiencing and host town halls. I would also actually show up and vote. I believe in government working for all Montanans; not just the 1%.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "JON TESTER",
+        "party": "D",
+        "votes": 103347,
+        "isWinner": true,
+        "votePercent": 0.9698752780202146
+      },
+      {
+        "candidate": "MICHAEL HUMMERT",
+        "party": "D",
+        "votes": 3210,
+        "isWinner": false,
+        "votePercent": 0.030124721979785468
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

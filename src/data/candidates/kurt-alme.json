@@ -1,0 +1,252 @@
+{
+  "slug": "kurt-alme",
+  "displayName": "Kurt Alme",
+  "lastName": "Alme",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "R",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "S6MT00295",
+  "campaignWebsite": "https://www.almeforsenate.com",
+  "campaignFB": "https://www.facebook.com/profile.php?id=61584161184583",
+  "campaignTW": "https://x.com/kurtalme",
+  "campaignIG": "https://www.instagram.com/almeforsenate",
+  "campaignYT": "https://www.youtube.com/@almeforsenate",
+  "campaignTT": null,
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "The Constitution is very clear: Congress holds the power to formally declare war. We must take that solemn responsibility seriously.\n\nThe War Powers Resolution of 1973 aimed to establish guardrails and provide a framework for accountability. Unfortunately, it’s been inconsistently enforced by both parties for decades. Congress must consistently enforce its constitutional role. \n\nThe most solemn duty of our government is to keep us safe. We must ensure our commanders-in-chief can take quick, decisive action to protect Americans and defend our freedoms. It’s dangerous to tie our commander-in-chief and troops’ hands behind their backs. Especially when Americans are being targeted by adversaries and threats, and the world’s largest state sponsor of terror is trying to get its hands on nuclear weapons. \n\nOur military is a completely voluntary service. The brave men and women of our armed forces sign up to put their lives on the line in service to our great nation. We owe these Americans a debt of gratitude for their commitment and sacrifice. \n\nSending Americans into harm’s way is one of the most serious decisions our government makes. Montanans, and all Americans, deserve transparency, accountability, and a clear voice through their elected representatives. As Senator, I will work to ensure Montanans’ voices are heard loud and clear.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Rural hospitals and health care providers play a vital role in underpinning Montana communities. Providers and patients alike are facing challenges right now, and Montanans deserve solutions.\n\nTo lower costs, increase access to quality care, and protect access in rural Montana, we should invest in rural communities and put both providers and patients first. \n\nRather than subsidizing health insurance companies with taxpayer dollars while their stock prices soar, we should invest in Montana providers. The Working Families Tax Cuts Act, which Senate Republicans passed and President Trump signed, invested $233 million this year alone to strengthen and modernize rural health care. This Rural Health Transformation Program (RHTP) is an innovative approach that we can build on to further support our hospitals and clinics. \n\nAmong other improvements, RHTP funds can be invested to help recruit, train, and retain doctors, nurses, and other health care professionals. \n \nAlso, a patient-centered care approach will increase choice, boost competition, and increase access to care. Continuing to expand telehealth services will ease the burden on hospitals and help Montanans access care quickly, no matter where they live. \n\nMore price transparency will also help. Health care is the only industry where you have no idea what the cost is until after you buy the product. The process has become mysterious, expensive, and daunting. That’s not good for patients, hospitals, or our communities.\n\nPrice transparency allows Montanans to shop when considering medical treatment, with prices posted for consumers to see. Price transparency will create more competition, drive down prices, and make the experience of receiving health care simpler, easier, and more accessible.\n\nAs a longtime supporter of Montana health care, I’m familiar with the challenges we face and eager to put patients and providers first in the U.S. Senate.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "One of the top reasons I am running is to make Montana communities safer. \n\nPresident Trump nominated me to be U.S. Attorney in his first term, and I was unanimously confirmed by the Senate.  He nominated me again during his second term because I aggressively worked to protect our communities. Under my leadership, this past year, criminal prosecutions reached a 20-year high as we went after violent criminals and drug traffickers to keep our communities safe.\n\nWe need to keep the border secure, support law enforcement, prioritize prosecuting violent criminals, and investigate drug trafficking organizations all the way up to the cartels – so we can tear them out by their roots.\n\nAs Senator, I will also bring a renewed focus to drug prevention and treatment because drug trafficking and related addiction have torn too many families and communities apart.\n\nAs Governor Gianforte’s Budget Director, we introduced the HEART Fund from marijuana tax revenues to expand treatment and recovery services for individuals with mental health and substance use disorders. I’ve worked with many community organizations serving people with those disorders and will help forge public-private partnerships to support recovery and keep families healthy.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "After President Biden’s policies unleashed extraordinary inflation, Montanans felt the squeeze of runaway prices and rising housing costs. \n\nI want to make life more affordable for Montanans. The best way to lower the cost of living – permanently – is to rein in deficit spending and put more money back in Montanans’ pockets.\n\nDeficit spending creates higher prices. Balanced budgets do not. If we want to make life more affordable again, we must restore fiscal responsibility in Washington.\n\nI’m ready to bring my experience – balancing Montana’s budget, cutting wasteful spending, delivering substantial tax relief, and putting Montana on track to become debt-free – to our nation’s capital. This will help keep prices permanently low and make life more affordable again for hardworking Montana families.\n\nTo increase homeownership, we need more housing. To increase housing supply, we must unleash small businesses, contractors, and communities by cutting red tape that ties up construction and prevents more homes from being built.\n\nGovernment spending and overregulation created these issues, and they certainly will not be the solution. To lower costs and get more families into homes of their own and achieve the American Dream, we must get government out of the way.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "I’ve never run for office before, and I’ve never been a politician. \n\nPresident Trump endorsed me because he knows I’m a doer. Throughout my career, I’ve delivered results: as a prosecutor, Budget Director, Director of the Department of Revenue, President of the Yellowstone Boys & Girls Ranch Foundation, and a volunteer with various community organizations, including those that work with youth, seniors, the poor, mental health, and health care. \n\nI am honored to be endorsed by President Donald Trump and look forward to ensuring the success for the rest of his second term. I’m also proud to be the only candidate who has been supported for a job three times by President Trump – twice for U.S. Attorney and now for the U.S. Senate.\n\nI am also humbled to have the support of other leaders in Montana – including Steve Daines, Tim Sheehy, and Greg Gianforte. But I have given no commitments for any endorsements. My views and my values come from years of living in communities across Montana and working with people in many walks of life – my duty is only to the people of our state, and I will fight for all Montanans.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "R",
+    "resultsTotal": [
+      {
+        "candidate": "TIM SHEEHY",
+        "party": "R",
+        "votes": 138202,
+        "isWinner": true,
+        "votePercent": 0.7363115693012601
+      },
+      {
+        "candidate": "BRAD JOHNSON",
+        "party": "R",
+        "votes": 36460,
+        "isWinner": false,
+        "votePercent": 0.1942513119688857
+      },
+      {
+        "candidate": "CHARLES WALKINGCHILD SR",
+        "party": "R",
+        "votes": 13033,
+        "isWinner": false,
+        "votePercent": 0.06943711872985428
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

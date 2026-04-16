@@ -1,0 +1,187 @@
+{
+  "slug": "kimberly-a-persico",
+  "displayName": "Kimberly A  Persico",
+  "lastName": "Persico",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "I",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": "https://keepingamericaspromise.com",
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-1",
+  "raceDisplayName": "U.S. House District 1 (West)",
+  "opponents": [
+    {
+      "slug": "russell-cleveland",
+      "displayName": "Russell Cleveland",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "matt-rains",
+      "displayName": "Matt Rains",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "ryan-busse",
+      "displayName": "Ryan Busse",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-forstag",
+      "displayName": "Sam Forstag",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "al-doc-olszewski",
+      "displayName": "Al 'Doc' Olszewski",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "aaron-flint",
+      "displayName": "Aaron Flint",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "christi-jacobsen",
+      "displayName": "Christi Jacobsen",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "ray-curtis",
+      "displayName": "Ray Curtis",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "nick-sheedy",
+      "displayName": "Nick Sheedy",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "kimberly-a-persico",
+      "displayName": "Kimberly A  Persico",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Ryan Busse",
+      "party": "D",
+      "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
+      "candidateId": "H6MT01145",
+      "totalReceipts": 530043.18,
+      "totalDisbursments": 161897.79,
+      "cashOnHand": 368145.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Aaron Flint",
+      "party": "R",
+      "candidateCommitteeName": "FLINT FOR MONTANA",
+      "candidateId": "H6MT01152",
+      "totalReceipts": 453652.78,
+      "totalDisbursments": 24253.33,
+      "cashOnHand": 429399.45,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Russell Cleveland",
+      "party": "D",
+      "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+      "candidateId": "H6MT01103",
+      "totalReceipts": 325863.85,
+      "totalDisbursments": 260761.57,
+      "cashOnHand": 65102.28,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christi Jacobsen",
+      "party": "R",
+      "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+      "candidateId": "H6MT01160",
+      "totalReceipts": 260061,
+      "totalDisbursments": 6673.61,
+      "cashOnHand": 253387.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Matt Rains",
+      "party": "D",
+      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+      "candidateId": "H6MT01129",
+      "totalReceipts": 113774.15,
+      "totalDisbursments": 67362.72,
+      "cashOnHand": 46411.43,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Forstag",
+      "party": "D",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Yes, the War Powers Resolution of 1973 should be enforced.  If Congress does not declare war, or authorize the action taken by the president, then our forces must be withdrawn after 60 days (with a possible 30-day extension).  Committing our armed forces to extended conflict should not be left to the judgement of one person.  The collective judgement of both the President and Congress has to apply in order to ensure that our initial and continuing involvement in hostilities is clearly indicated by circumstances, has a clearly defined scope and duration, and well defined authority under which hostilities are undertaken. I have experienced first hand the terror of sending your child off to war. My son was an EOD specialist in the USAF and did a tour in Afghanistan defusing roadside bombs.  I know what the families of our military are going through right now.  It is the duty of Congress to make sure we are not engaging in forever wars with no tangible outcome.  The safety of our troops and the nurturing of our international relationships should never be left to the judgement of one person.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Congress needs to pass a universal healthcare plan.  I support the Medicare For All plan.  When people have good healthcare coverage they are more likely to go to the doctor, which would address the low patient volumes in rural settings.  I do not support mandates to buy into this plan.  However, I think a large majority will because we do not support health insurance companies making 70 billion in profit every year off of sick people.  Health insurance companies are constantly raising premiums while cutting benefits to maintain those profits.  This is wrong, and if people have a reasonable choice like Medicare For All presented to them, I believe it would be wildly popular.  The federal government can help rural hospitals and clinics with their tight budget margins by funding scholarships and loan repayments to healthcare professionals in exchange for working in Critical Shortage Facilities.  They can fund AI and telehealth to improve systems and support licensure compacts to allow clinicians to work across state lines.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "There are numerous issues relating to agriculture that I would address.  The first is \"Country Of Origin Labels.\"  I support COOL both as a consumer and as a representative for our ranchers.  I, personally, would not choose to purchase beef grown outside of the United States, if I had the option.  I support expanding the H-2A Visa program to clarify that livestock auction markets and rancher/farmer feedlots qualify as agricultural employers so they can hire foreign workers.  I support defining bison as livestock.  This will eliminate the current uncertainty faced by bison producers trying to secure federal grazing permits.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "There are many ways the federal government can help bring down the cost of home ownership.  It can offer tax credits for entry-level home construction and the conversion of unused office and retail space into housing.  Investing in infrastructure like roads, water and sewer systems for new and existing affordable housing communities will bring down costs.  Encouraging local governments to relax zoning rules and housing codes and forbidding corporations from buying single family homes will help increase availability.  Supporting research into new construction methods like 3D-printed houses will also help bring down costs.  Printing houses that are energy efficient and able to withstand severe weather conditions, economically, is a reality that is coming.  We need to support the research required to make it happen.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "One of the major complaints that I hear frequently about our current set of representatives is the lack of accessibility. I have encountered that myself as a constituent.  They do not do in-person town halls.  They only reply to written inquiries with party-line drivel weeks after the initial inquiry was made, if at all.  As your representative I will be personally available to my constituents on a regular basis.  I will hold town hall listening sessions regularly across the district.  I will also respond to inquiries with actual information on what is going on, and how I can or cannot help in a timely manner.  I will not be beholden to the big money interests that have purchased both major parties.  I will absolutely support a ban on members of Congress trading stocks.  I will work hard on behalf of all my constituents and listen to what they have to say.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-1",
+    "raceDisplayName": "U.S. House District 1 (West)",
+    "party": "I",
+    "resultsTotal": null
+  }
+}

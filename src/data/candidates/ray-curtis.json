@@ -1,0 +1,203 @@
+{
+  "slug": "ray-curtis",
+  "displayName": "Ray Curtis",
+  "lastName": "Curtis",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "R",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-1",
+  "raceDisplayName": "U.S. House District 1 (West)",
+  "opponents": [
+    {
+      "slug": "russell-cleveland",
+      "displayName": "Russell Cleveland",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "matt-rains",
+      "displayName": "Matt Rains",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "ryan-busse",
+      "displayName": "Ryan Busse",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-forstag",
+      "displayName": "Sam Forstag",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "al-doc-olszewski",
+      "displayName": "Al 'Doc' Olszewski",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "aaron-flint",
+      "displayName": "Aaron Flint",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "christi-jacobsen",
+      "displayName": "Christi Jacobsen",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "ray-curtis",
+      "displayName": "Ray Curtis",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "nick-sheedy",
+      "displayName": "Nick Sheedy",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "kimberly-a-persico",
+      "displayName": "Kimberly A  Persico",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Ryan Busse",
+      "party": "D",
+      "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
+      "candidateId": "H6MT01145",
+      "totalReceipts": 530043.18,
+      "totalDisbursments": 161897.79,
+      "cashOnHand": 368145.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Aaron Flint",
+      "party": "R",
+      "candidateCommitteeName": "FLINT FOR MONTANA",
+      "candidateId": "H6MT01152",
+      "totalReceipts": 453652.78,
+      "totalDisbursments": 24253.33,
+      "cashOnHand": 429399.45,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Russell Cleveland",
+      "party": "D",
+      "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+      "candidateId": "H6MT01103",
+      "totalReceipts": 325863.85,
+      "totalDisbursments": 260761.57,
+      "cashOnHand": 65102.28,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christi Jacobsen",
+      "party": "R",
+      "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+      "candidateId": "H6MT01160",
+      "totalReceipts": 260061,
+      "totalDisbursments": 6673.61,
+      "cashOnHand": 253387.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Matt Rains",
+      "party": "D",
+      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+      "candidateId": "H6MT01129",
+      "totalReceipts": 113774.15,
+      "totalDisbursments": 67362.72,
+      "cashOnHand": 46411.43,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Forstag",
+      "party": "D",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Written in 1787, Article 1, Section 8 of the US Constitution grants Congress the expressed power to declare war. The Framers did this so that one individual could not unilaterally take our nation to war, especially one which is not a national emergency. The Framers wanted to ensure our presidents did not have the power of kings. George Mason stated the Framers’ position clearly that one person should not have the power to take our nation to war when he wrote that the “executive was not to be trusted with it.” The War Powers Resolution of 1973 was only passed because past presidents tried to abuse their authority. The Resolution passed by over two-thirds vote from each house. Congress can, and should, use the “power of the purse” to pull funding and leverage their constitutional authority. The Resolution in question does not need to be discarded, but instead utilized, and quickly. Congress has ceded its exclusive constitutional powers too frequently in the past year. Our country desperately needs representatives who are devoted to their constitutional duties and the people they serve, rather than automatically falling in line with the president.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "As a result of declining opportunity, Rural Montana is getting hit particularly hard, not just in health care, but teacher shortages as well. Still, that doesn't mean that in those large, sparsely populated rural areas healthcare (and education) is not as important as it is in urban areas. Everyone needs access to health care (and education). The only way to prevent closures is to pay rural hospitals adequately for the services they provide. Preventive services and prompt treatment in the long run lower healthcare spending. Of course, these services also need to be affordable. The United States has enough wealth to subsidize this care and take care of every community, no matter the size. After all, the increase in spending needed to prevent rural hospital closures is quite small in comparison to the total amount currently spent on healthcare. Moreover, the United States needs the people who live in rural areas. They provide goods and services we all use. If the trend continues of rural hospitals closing and towns disappearing there will be a ripple effect throughout the economy. Even in the more urban parts of Montana, I know of physicians who are leaving the country to practice-or leaving the profession altogether. Healthcare providers are feeling the pinch. It is beyond time to address the shortfalls of the ACA. If other developed nations can figure this out, so can the United States. Almost 80 years ago President Truman stated, “We are a rich nation and can afford many things. But ill-health, which can be prevented or cured, is one thing we cannot afford.”\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "The historian K. Ross Toole taught many students, including myself, that Montana is a large state with very few people. He argued in the early 80s, right before his death, that what made Montana unique was our clean and pristine environment, a privilege that people no longer had elsewhere. He predicted that people would come to our state seeking this. As it turns out, he was right. Toole said it was up to Montanans to decide if we were going to keep what was precious to us. We need to ensure Montana’s communities have the tools to develop in the way they want. 20 years ago, Missoula said “no” to an Aspen-type development in nearby Lolo. Just recently in my area, the county commission sided with the people who didn't want a truck stop in their backyard. On the other hand, in Lakeside, there will be another Yellowstone Club-esque development, despite strong vocal opposition from community members. I think representatives need to listen to the people who live here. On the federal level, members of Congress can leverage these decisions with federal support-by granting it or withholding it. Montana won't be Montana if it is no longer this pristine place Toole cherished.\nAlso, because of its size and position Montana has one of the longest borders with Canada. Tariffs imposed by the president have disrupted our friendly relationship with our neighbors to the North, causing unnecessary uncertainty. Our farmers are especially getting squeezed. The constitution clearly states in Article 1, Section 8 that Congress has the power to “regulate commerce with foreign nations.” This Congress has allowed the president to usurp their authority without challenge. As a US representative in Congress, I would insist on taking back this constitutional power from the executive branch.  I would also seek to reestablish international cooperation and trust. It has been fritted away, but it is not too late. Positive relations with our allies are not only something that Montana needs to regain, but also the entirety of the United States.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "I recall learning in my college economic classes that Montana would always be an expensive place to live because of our long distance from markets. It has become even more expensive here because Montana has been discovered as a desirable place to live by people from elsewhere. I understand completely why people want to move to Montana. It is a beautiful place with a quality of life that is no longer available in many other places. It has never been easy but is getting harder and harder for someone from here to stay here. Homeownership is out of reach for many Montanans. Recently I read the average age of a first-time homebuyer in the U.S. is now 40 years old, which is the oldest on record. Additionally, the median age of all homebuyers has risen to 59 years. One possible solution to bring down home prices and make ownership more feasible might be to manipulate supply through taxes. Taxes is an unpopular word but they are used to manipulate all kinds of behavior such as charitable giving, or sin-taxes on alcohol and tobacco. Other nations tax gasoline at a much higher rate to encourage the use of more fuel-efficient cars. Perhaps taxes could be used to limit the number of homes and properties a person can accumulate. Like a progressive income tax, there could be a progressive wealth tax. Stocks are not an unrestricted investment, perhaps property shouldn’t be either. Discouraging the purchase of home after home, so others can have an affordable place to live, seems like a desirable goal. Housing is a basic necessity.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "Frankly, I never imagined I would apply to be a member of the United States Congress. But, because of the events of this past year and the action, or rather inaction, of our current representative, I am applying for this job. Over the course of the first year of his second term, the Chief Executive encroached upon the powers of Congress. My representative and his party capitulated. I am adamant that the Framers in Federalist Paper #51 strongly stated that the purpose of the US Constitution was to control the governed, but also to govern itself. Political power was not to be abused. I did everything I could to get my congressperson’s attention-methods I had taught my students to use. I wrote letters, I made phone calls, I visited the office that he soon closed. I would have attended a town hall had there been one, but there was not, despite many calls for it. I even gave a speech on the 250th anniversary of the Battles at Lexington and Concord at the Missoula County Courthouse. I had been hired by Humanities Montana to give presentations across the state about the 250th anniversary of the Declaration of Independence, but funding for those celebratory events of our Nation’s provenance were cut by an unelected multibillionaire who hails from another country. \nI will work as diligently as a congressman as I did to get our current congressman’s attention. I pledge to be an actual public servant. (Remember what those are?) I understand who my bosses are: the people who hired me with their votes. I believe that the best life is one lived for others, regardless of their ethnicity, religion, gender, nor age. Additionally, I cannot, in good conscience, take money from anyone to get elected. I have studied and taught about American elections throughout my career and observed that campaign money mostly seems to benefit billionaires and the candidates, rather than the voters. I promise to not personally benefit financially from becoming a member of Congress. I will support and introduce legislation repeatedly, without personal agenda. Additionally, I will adhere to my Oath of Office. I would act as the Framers intended and use the powers of Article 1 to represent the people, as well as provide the constitutionally-mandated check on the executive and judicial branches. I want to bring integrity back to this office and restore faith in our democratic form of government. As John Adams said, democracy is one of the worst forms of government-but it's better than anything that has yet been created.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-1",
+    "raceDisplayName": "U.S. House District 1 (West)",
+    "party": "R",
+    "resultsTotal": [
+      {
+        "candidate": "RYAN K ZINKE",
+        "party": "R",
+        "votes": 65247,
+        "isWinner": true,
+        "votePercent": 0.7380381422075425
+      },
+      {
+        "candidate": "MARY TODD",
+        "party": "R",
+        "votes": 23159,
+        "isWinner": false,
+        "votePercent": 0.2619618577924575
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

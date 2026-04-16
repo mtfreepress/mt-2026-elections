@@ -1,0 +1,196 @@
+{
+  "slug": "russell-cleveland",
+  "displayName": "Russell Cleveland",
+  "lastName": "Cleveland",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "H6MT01103",
+  "campaignWebsite": "https://www.russellcleveland.org",
+  "campaignFB": "https://www.facebook.com/cleveland4mt01/",
+  "campaignTW": "https://x.com/Cleveland4MT_01",
+  "campaignIG": "https://www.instagram.com/cleveland4mt_01/",
+  "campaignYT": "https://www.youtube.com/@ClevelandforMontana",
+  "campaignTT": "https://www.tiktok.com/@cleveland4mt_01",
+  "raceSlug": "us-house-1",
+  "raceDisplayName": "U.S. House District 1 (West)",
+  "opponents": [
+    {
+      "slug": "russell-cleveland",
+      "displayName": "Russell Cleveland",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "matt-rains",
+      "displayName": "Matt Rains",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "ryan-busse",
+      "displayName": "Ryan Busse",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-forstag",
+      "displayName": "Sam Forstag",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "al-doc-olszewski",
+      "displayName": "Al 'Doc' Olszewski",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "aaron-flint",
+      "displayName": "Aaron Flint",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "christi-jacobsen",
+      "displayName": "Christi Jacobsen",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "ray-curtis",
+      "displayName": "Ray Curtis",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "nick-sheedy",
+      "displayName": "Nick Sheedy",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "kimberly-a-persico",
+      "displayName": "Kimberly A  Persico",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Ryan Busse",
+      "party": "D",
+      "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
+      "candidateId": "H6MT01145",
+      "totalReceipts": 530043.18,
+      "totalDisbursments": 161897.79,
+      "cashOnHand": 368145.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Aaron Flint",
+      "party": "R",
+      "candidateCommitteeName": "FLINT FOR MONTANA",
+      "candidateId": "H6MT01152",
+      "totalReceipts": 453652.78,
+      "totalDisbursments": 24253.33,
+      "cashOnHand": 429399.45,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Russell Cleveland",
+      "party": "D",
+      "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+      "candidateId": "H6MT01103",
+      "totalReceipts": 325863.85,
+      "totalDisbursments": 260761.57,
+      "cashOnHand": 65102.28,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christi Jacobsen",
+      "party": "R",
+      "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+      "candidateId": "H6MT01160",
+      "totalReceipts": 260061,
+      "totalDisbursments": 6673.61,
+      "cashOnHand": 253387.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Matt Rains",
+      "party": "D",
+      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+      "candidateId": "H6MT01129",
+      "totalReceipts": 113774.15,
+      "totalDisbursments": 67362.72,
+      "cashOnHand": 46411.43,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Forstag",
+      "party": "D",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Yes. I think we should also look at other conditions to trigger mandatory Congressional approval. If a \"conflict\" includes ground troops or exceeds $1B in spending, it should be treated as a war and require Congressional approval. No more allowing one person to drag nations into endless wars.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Congress should pass a Medicare for All + system that covers not just healthcare, but eyes, ears, teeth, mental health, and rural transportation costs. Our rural hospitals rely on Medicare and Medicaid funding to stay above water. By expanding this system to every Montanan and American, we can deliver better healthcare at a lower price.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "1.) Rural Access. While there are other rural states, Montana's size and small cities make the issue worse. Many rural Montanans are forced to drive two or more hours for access to specialists all while footing the bill for gas, food on the road, and many times, overnight stays. We cannot continue to drain the pockets of rural Montanans just for accessing healthcare. The federal government should reimburse the costs, and I would be glad to pass it.\n\n2.) Data Centers. Montana’s space, small population, and clean water has made it a target for data center development. I would oppose the creation of every data center unless transparent safeguards are met. First, data centers cannot increase utility rates, and must provide islanded power by generating their own electricity. We must also protect our water. Closed loop cooling systems must not contain PFAs or forever chemicals to protect our water when coolants are flushed. Montanans also do not want these centers to power mass surveillance companies like Palantir to spy on Americans. Lastly, if these centers meet these standards and can be developed responsibly, they must be built with union labor.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "While part of the issue is supply, the larger issue is wages. On the topic of supply, the federal government can subsidize affordable housing across the country and provide conditional grants to municipalities and states with pro-affordable housing statutes and laws (like removing minimum lot size requirements for multi-unit housing). To address wages, I propose a 50:1 ratio on executive to frontline worker pay. This means, the highest paid employee cannot make more than 50x the lowest paid employee. If the business owners/shareholders want to make more money, everyone in the company must do better too. I ran my business this way. We became the first company in the country to open remote learning centers and the largest childcare provider in Colorado by taking care of families and our employees. We paid our workers 30% more than competitors and charged families 20% less all while maintaining the highest quality of care. By increasing pay for corporate workers, we can make local economies healthier, which support small businesses. Increased pay puts home ownership in far better reach than building our way out of the crisis.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "I would serve Montana for the people and by the people. Ryan Zinke served as a consultant for ConocoPhillips, who turned around and donated hundreds of thousands to him while in office. Likewise, Mr. Zinke's worth grew from around $1M to over $30M in his time in office. I promise to put people, not corporations, at the forefront of my leadership in a way that Mr. Zinke never did.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-1",
+    "raceDisplayName": "U.S. House District 1 (West)",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "MONICA TRANEL",
+        "party": "D",
+        "votes": 59192,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

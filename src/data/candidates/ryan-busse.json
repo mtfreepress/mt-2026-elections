@@ -1,0 +1,196 @@
+{
+  "slug": "ryan-busse",
+  "displayName": "Ryan Busse",
+  "lastName": "Busse",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "H6MT01145",
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-1",
+  "raceDisplayName": "U.S. House District 1 (West)",
+  "opponents": [
+    {
+      "slug": "russell-cleveland",
+      "displayName": "Russell Cleveland",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "matt-rains",
+      "displayName": "Matt Rains",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "ryan-busse",
+      "displayName": "Ryan Busse",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-forstag",
+      "displayName": "Sam Forstag",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "al-doc-olszewski",
+      "displayName": "Al 'Doc' Olszewski",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "aaron-flint",
+      "displayName": "Aaron Flint",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "christi-jacobsen",
+      "displayName": "Christi Jacobsen",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "ray-curtis",
+      "displayName": "Ray Curtis",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "nick-sheedy",
+      "displayName": "Nick Sheedy",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "kimberly-a-persico",
+      "displayName": "Kimberly A  Persico",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Ryan Busse",
+      "party": "D",
+      "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
+      "candidateId": "H6MT01145",
+      "totalReceipts": 530043.18,
+      "totalDisbursments": 161897.79,
+      "cashOnHand": 368145.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Aaron Flint",
+      "party": "R",
+      "candidateCommitteeName": "FLINT FOR MONTANA",
+      "candidateId": "H6MT01152",
+      "totalReceipts": 453652.78,
+      "totalDisbursments": 24253.33,
+      "cashOnHand": 429399.45,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Russell Cleveland",
+      "party": "D",
+      "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+      "candidateId": "H6MT01103",
+      "totalReceipts": 325863.85,
+      "totalDisbursments": 260761.57,
+      "cashOnHand": 65102.28,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christi Jacobsen",
+      "party": "R",
+      "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+      "candidateId": "H6MT01160",
+      "totalReceipts": 260061,
+      "totalDisbursments": 6673.61,
+      "cashOnHand": 253387.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Matt Rains",
+      "party": "D",
+      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+      "candidateId": "H6MT01129",
+      "totalReceipts": 113774.15,
+      "totalDisbursments": 67362.72,
+      "cashOnHand": 46411.43,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Forstag",
+      "party": "D",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "The unchecked growth and deployment of executive power is dangerous for our country. Not only should the War Powers Resolution be enforced, but Congress must also step up and act on a myriad of other responsibilities. \n\nThe current sycophants in Congress have done far too little to push back on disastrous tariffs that are driving up costs and killing Western Montana businesses. The current majority in Congress refuses to hold hundreds of powerful men who trafficked and abused young girls criminally accountable. Congress also refuses to exercise oversight over, or limit funding for, poorly trained masked ICE agents who have killed American citizens. \n\nThis Congressional majority openly bows to the executive branch by cheering the war in Iran and hiding from its responsibility. This war is costing billions of dollars per day and driving up fuel prices, even as the same Congress says we don’t have money for healthcare and housing in this country. \n\nIt’s past time for Congress to grow a spine and do its job.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "This Congress has purposely imperiled our rural hospitals by gutting Medicaid coverage and slashing ACA tax credits, both of which are dramatically reducing health coverage for rural Montanans and dangerously lowering funding for rural hospitals. And they’ve been clear about why: they needed to cut these services so that the wealthiest Americans, like Elon Musk, could receive a huge tax cut. \n\nI am proudly fighting not just to reverse these disastrous policies but to institute universal health care for all Americans.\n\nIt’s time to stop letting wealthy insurance corporations rig the system and instead insist on basic decency and security for the people who make this country work. The people with lobbyists and attorneys and piles of money don’t have to worry about healthcare, but all of the rest of us do.\n\nDoing this will require tenacity and courage, and it will require dealing with the truth, which is that far too many Democrats have stood in the way of this, too. I’m not afraid to elbow them out of the way either. \n\nI’m committed to fighting for immediate conversion to universal healthcare, which would shore up our rural healthcare system and help all Montanans.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "Data Centers:  Current proposals to rapidly develop data centers in Montana without a strong regulatory framework are dangerous. I am devoted to fighting to make certain that no favors are done for tech billionaires. I am devoted to ensuring that we do not risk a single gallon of water quality and that power rates for Montanans are not raised a single penny, so that AI companies can profit from our state. Here again, I will be a forceful advocate for the people of this state over the powerful corporate interests seeking to exploit this state.\n\nRoadless Rule and Wilderness Study Areas:  Our Senior senator is in favor of removing protections for millions of acres of the most important public land in this state, and I intend to represent Montanans who are standing up to oppose these hard-won conservation protections. I’m a hunter and a fisherman, and I know that some of the best habitat in the state is protected in these places, and I am devoted to fighting for them.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "Instead of spending hundreds of billions of dollars on foreign wars and an out-of-control ICE budget, we should be expanding federal programs that help Montanans purchase homes. These programs should include expanded down payment assistance for first-time home buyers. We should also institute a federally guaranteed low-interest program for homebuyers. \n\nI am also in favor of exploring other federal programs that expand the use of modular homes and equity-sharing programs. \n\nI realize this question asked for only two suggestions, but we should be pushing a multitude of buttons and developing new ones with the urgency this situation demands.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "1) I value and enjoy meeting with people and answering questions. Ryan Zinke and the entire Republican delegation refuse to hold open meetings or town halls. That’s a disservice to the people of this state, and I am dedicated to holding regular public meetings. \n\n2) Ryan Zinke and his chosen heir, Aaron Flint, refuse to criticize their party even over policies that are obviously horrible for Montanans, like tariffs or a foreign war that drives up costs for all of us. I am not afraid to take on my own party and fight for Montanans. No one should be able to trade stocks and become wealthy as a representative, and this goes for people in both parties.\n\nFurthermore, there are too many Democrats who have been influenced by the big lobbying money that seems to prohibit them from making good decisions on policies like universal healthcare. Frankly, I think I owe it to Montanans to hold people in my own party to a higher standard, and I am not afraid to do it.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-1",
+    "raceDisplayName": "U.S. House District 1 (West)",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "MONICA TRANEL",
+        "party": "D",
+        "votes": 59192,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

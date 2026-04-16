@@ -1,0 +1,252 @@
+{
+  "slug": "lee-calhoun",
+  "displayName": "Lee Calhoun",
+  "lastName": "Calhoun",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "R",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": "https://calhounformt.com",
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "The 1973 War Powers Resolution is currently law and there for should be enforced unless or until it is rescinded by congress.  The law was enacted precisely to control overreach by the executive branch relative to wasting the lives and resources of our military in an unnecessary war.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Nearly a dozen of Montana's rural hospitals are in danger of closing due to lack of funding caused by our broken medical system in America.  Americans pay 50% more for health care than the next most expensive system in the industrialized world even though we have the worst measurable outcomes of all other industrialized countries. Let that sink in.  .... We pay way more and get less.\nThe solution to this problem is actually simple, America needs a universal health care system.  There are for profit and not for profit examples that work very well but no one has had the political will to buck the entrenched special interests in the US that prevent our citizens from getting what they need and deserve in a health care system.  The financial benefits to both small and large businesses of a universal health care system would be huge.  Large businesses could better compete globally and small businesses would not be strapped by health insurance costs.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "Homeowner’s insurance, fire insurance and medical costs have all gone through the roof because of direct climate change impacts on those costs for insurance companies.  The extra costs can be calculated by the insurance companies.  I would introduce a bill to get those extra climate change costs transferred from the companies causing the problem to the insurers and credited directly to customers bills.\n  \nRising utility costs are killing Montana families. The clean energy subsidies were eliminated by the OBBB passed last July.  The next step is to remove the direct and indirect federal fossil fuel subsidies totaling close to a Trillion (with a T) dollars each year.  I would introduce a bill to do that.  When there is a level playing field for all energy sources the issues around Colestrip and the Snake river dams can easily be resolved by the PSC, legislature and BPA.\n\nI would also introduce bills for federal term limits and mandatory retirement ages for all three branches of government.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "I would get the National Laboratory of the Rockies (formerly NREL) to initiate a \"low cost\" home competition similar to the old Solar Home competition.  Builders, contractors and the legislature would be able use the best ideas to help drive down home ownership costs here in Montana.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "The differences between myself and Mr. Daines or any other current US Senate candidates are as follows.\n1.  I will be a one term Senator so I will not be fundraising from the Epstein Class for a next election nor would I be \"owned\" by them.  I would be working for all Montanans instead of just the modern day “Copper Kings”.\n2.  I'm not funded or \"owned\" by any dark money, pacts or other special interests.\n3.  I will hold regular town halls if I'm elected.\n4.  The reasons for my votes will be transparent and readily available.\n5.  I will donate my first year’s salary (minus expenses) to a Montana non-profit(s) of my choice.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "R",
+    "resultsTotal": [
+      {
+        "candidate": "TIM SHEEHY",
+        "party": "R",
+        "votes": 138202,
+        "isWinner": true,
+        "votePercent": 0.7363115693012601
+      },
+      {
+        "candidate": "BRAD JOHNSON",
+        "party": "R",
+        "votes": 36460,
+        "isWinner": false,
+        "votePercent": 0.1942513119688857
+      },
+      {
+        "candidate": "CHARLES WALKINGCHILD SR",
+        "party": "R",
+        "votes": 13033,
+        "isWinner": false,
+        "votePercent": 0.06943711872985428
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

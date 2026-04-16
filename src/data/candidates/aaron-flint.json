@@ -1,0 +1,203 @@
+{
+  "slug": "aaron-flint",
+  "displayName": "Aaron Flint",
+  "lastName": "Flint",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "R",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "H6MT01152",
+  "campaignWebsite": "https://flintformontana.com",
+  "campaignFB": null,
+  "campaignTW": "https://x.com/aaronflint",
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-1",
+  "raceDisplayName": "U.S. House District 1 (West)",
+  "opponents": [
+    {
+      "slug": "russell-cleveland",
+      "displayName": "Russell Cleveland",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "matt-rains",
+      "displayName": "Matt Rains",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "ryan-busse",
+      "displayName": "Ryan Busse",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-forstag",
+      "displayName": "Sam Forstag",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "al-doc-olszewski",
+      "displayName": "Al 'Doc' Olszewski",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "aaron-flint",
+      "displayName": "Aaron Flint",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "christi-jacobsen",
+      "displayName": "Christi Jacobsen",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "ray-curtis",
+      "displayName": "Ray Curtis",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "nick-sheedy",
+      "displayName": "Nick Sheedy",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "kimberly-a-persico",
+      "displayName": "Kimberly A  Persico",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Ryan Busse",
+      "party": "D",
+      "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
+      "candidateId": "H6MT01145",
+      "totalReceipts": 530043.18,
+      "totalDisbursments": 161897.79,
+      "cashOnHand": 368145.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Aaron Flint",
+      "party": "R",
+      "candidateCommitteeName": "FLINT FOR MONTANA",
+      "candidateId": "H6MT01152",
+      "totalReceipts": 453652.78,
+      "totalDisbursments": 24253.33,
+      "cashOnHand": 429399.45,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Russell Cleveland",
+      "party": "D",
+      "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+      "candidateId": "H6MT01103",
+      "totalReceipts": 325863.85,
+      "totalDisbursments": 260761.57,
+      "cashOnHand": 65102.28,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christi Jacobsen",
+      "party": "R",
+      "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+      "candidateId": "H6MT01160",
+      "totalReceipts": 260061,
+      "totalDisbursments": 6673.61,
+      "cashOnHand": 253387.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Matt Rains",
+      "party": "D",
+      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+      "candidateId": "H6MT01129",
+      "totalReceipts": 113774.15,
+      "totalDisbursments": 67362.72,
+      "cashOnHand": 46411.43,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Forstag",
+      "party": "D",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Everyone is sick of forever wars in the Middle East. I fought in Iraq and Afghanistan and I know what it means to be stuck in a nation-building quagmire with no clear end in sight. We owe it to the men and women who serve to be clear about our mission and not drag them into endless conflicts that cost lives and waste your tax dollars. That being said, the Department of War and the President must have the ability to defend Americans and stop threats before they reach our shores. We live in a dangerous world, and hesitation can cost lives. Regarding the war in Iran, President Trump did not start this war. He is ending it. Iran has attacked and killed U.S. forces for decades with no consequences. Trump ended that and I am happy to see an end to the conflict in sight. Regarding the War Powers Act, I would not support anything that ties the hands of our military or prevents the President from acting quickly when American lives are at risk.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Let’s start with what Republicans have already done to help rural hospitals. In the One Big Beautiful Bill, $50 billion was set aside specifically for rural healthcare. Montana received $233 million, the fourth highest allocation in the country. That is real money that will go directly to helping our hospitals stay open, expand services, and ease the financial strain they are under. That is the kind of targeted support I will focus on. One-size-fits-all policies pushed by the left do not work for Montana. Too often those dollars end up flowing to large urban systems in places like New York and Los Angeles while our rural providers struggle to keep the lights on. We need to make sure funding actually reaches the communities that need it most and stop funneling money to big insurance companies and massive hospital networks over rural America.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "First is access to our public lands. Montanans depend on these lands for recreation, jobs, and our way of life. More and more, we are seeing pressure from federal agencies and outside groups trying to lock up land or restrict access without listening to the people who actually live here. That is not how it should work. I will fight to keep these lands in public hands, keep them accessible, and make sure Montanans have a seat at the table when decisions are made.\n\nSecond is the decline of the timber industry. Communities across northwest Montana have been hit hard by mill closures and overregulation. Those jobs supported families and entire towns, and we have watched them disappear. I will work to cut unnecessary red tape, increase responsible timber harvests, and push back on policies that are killing good-paying jobs. Montana should be producing its own resources, supporting its own workers, and keeping those communities alive instead of letting them fade away.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "The increased population is one reason for higher home prices, and I understand why so many people are moving their families from high-tax and ultra-regulation states in favor of Montana values. But we need to make sure the Montana dream is affordable. Step one: stop Wall Street investing firms from buying Montana family homes. Next, cut the red tape around building homes. Regulations add cost and time to projects. $100,000 of a house’s price is in permitting before a hole is dug. We can bring these costs down. A renewed focus must also be put on producing building materials here at home. A strong domestic logging industry lowers costs and keeps money in our local economy. Finally, we need more skilled workers. Investing in apprenticeships and trade training will help build more homes and create good-paying jobs at the same time. That combination will help bring costs down and give Montanans more opportunities to own a home.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "First off, I would like to thank Congressman Zinke for his 35 years of public service to Montana. I would carry the torch on issues like keeping public lands in public hands and delivering infrastructure funding for Montana. That said, Montana is ready for a new generation of leadership.\n\nI represent that generation. The average age of a first-time home buyer has jumped from late 20s to early 40s due to a number of factors, like lingering Biden inflation and high interest rates. The ability for younger people to build prosperity and financial resilience is growing more difficult. Jessica and I face the same challenges buying a home and are actually locked into renting while raising three kids. That is the reality for many Montanans right now.\n\nI started hosting a statewide radio show 17 years ago, talking with Montanans every day. I have heard firsthand their frustrations with government and what they believe needs to change. That has given me a different perspective than most candidates. I am not guessing what people want; I have been listening to them for nearly two decades. I am ready to take that experience to Washington and fight for the people of this state.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-1",
+    "raceDisplayName": "U.S. House District 1 (West)",
+    "party": "R",
+    "resultsTotal": [
+      {
+        "candidate": "RYAN K ZINKE",
+        "party": "R",
+        "votes": 65247,
+        "isWinner": true,
+        "votePercent": 0.7380381422075425
+      },
+      {
+        "candidate": "MARY TODD",
+        "party": "R",
+        "votes": 23159,
+        "isWinner": false,
+        "votePercent": 0.2619618577924575
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

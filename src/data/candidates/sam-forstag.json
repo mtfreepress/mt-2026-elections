@@ -1,0 +1,196 @@
+{
+  "slug": "sam-forstag",
+  "displayName": "Sam Forstag",
+  "lastName": "Forstag",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "H6MT01137",
+  "campaignWebsite": "https://samformontana.com",
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": "https://www.instagram.com/samforstag/",
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-1",
+  "raceDisplayName": "U.S. House District 1 (West)",
+  "opponents": [
+    {
+      "slug": "russell-cleveland",
+      "displayName": "Russell Cleveland",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "matt-rains",
+      "displayName": "Matt Rains",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "ryan-busse",
+      "displayName": "Ryan Busse",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-forstag",
+      "displayName": "Sam Forstag",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "al-doc-olszewski",
+      "displayName": "Al 'Doc' Olszewski",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "aaron-flint",
+      "displayName": "Aaron Flint",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "christi-jacobsen",
+      "displayName": "Christi Jacobsen",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "ray-curtis",
+      "displayName": "Ray Curtis",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "nick-sheedy",
+      "displayName": "Nick Sheedy",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "kimberly-a-persico",
+      "displayName": "Kimberly A  Persico",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Ryan Busse",
+      "party": "D",
+      "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
+      "candidateId": "H6MT01145",
+      "totalReceipts": 530043.18,
+      "totalDisbursments": 161897.79,
+      "cashOnHand": 368145.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Aaron Flint",
+      "party": "R",
+      "candidateCommitteeName": "FLINT FOR MONTANA",
+      "candidateId": "H6MT01152",
+      "totalReceipts": 453652.78,
+      "totalDisbursments": 24253.33,
+      "cashOnHand": 429399.45,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Russell Cleveland",
+      "party": "D",
+      "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+      "candidateId": "H6MT01103",
+      "totalReceipts": 325863.85,
+      "totalDisbursments": 260761.57,
+      "cashOnHand": 65102.28,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christi Jacobsen",
+      "party": "R",
+      "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+      "candidateId": "H6MT01160",
+      "totalReceipts": 260061,
+      "totalDisbursments": 6673.61,
+      "cashOnHand": 253387.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Matt Rains",
+      "party": "D",
+      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+      "candidateId": "H6MT01129",
+      "totalReceipts": 113774.15,
+      "totalDisbursments": 67362.72,
+      "cashOnHand": 46411.43,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Forstag",
+      "party": "D",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Yes. This isn’t just a constitutional or legal question, it’s a moral one. The decision to go to war carries an immense human and monetary cost, and it should be a last resort that national leaders do all they can to avoid. When our representatives are too corrupt or cowardly to vote on whether we go to war - let alone to stop it - they’re handing an immense amount of power over to the corporations that profit from endless wars while poor and working people pay the price.\nCongress should do their job as outlined in the War Powers Resolution and Article I of the U.S. Constitution, stop this stupid and costly war with Iran, and finally stop the endless wars that have us spilling blood and treasure abroad while working people at home struggle to afford the basics.\n\nI would vote to end this war with Iran and instead invest that money here at home. Let’s use those resources to start tackling our housing crisis, fixing our broken healthcare system, and getting every Montana family access to free childcare and pre-K so that we can afford to raise our families here at home.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Today, too many of us are stuck paying more every year for bad coverage while insurance companies profit at our expense. In Congress, I’ll fight to give every American the option of free or affordable healthcare. We do that by giving everyone the choice to buy into Medicare and expanding ACA subsidies to make it free for working people. \n\nBut affordable care only matters if folks can access it. Too many Montanans in rural communities are forced to drive for hours just to get a checkup or fill a prescription. In Congress I’ll support rural hospitals and clinics, not through one-time payouts like Republicans used in last year’s budget to mask the billions they cut from Medicaid, but by increasing reimbursement rates so rural providers can serve their patients while keeping their doors open.\n\nI’ll also work to rebuild our broken mental health system by expanding funding for community-based mental health services, lower prescription costs by allowing Medicare to negotiate prices for all prescription drugs directly, and expand funding for long-term care options, including community-based and in-home care.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "In Western Montana, we’ve gone from having dozens of zens of operating lumber mills to just a few today. That’s thousands of good-paying jobs lost that used to support families and communities from the Bitterroot to the Flathead. It’s more critical than ever that we protect and sustainably manage our forests and public lands–but we can do that while still responsibly harvesting trees in a way that makes our forest healthier, enriches our communities, and contributes to solving the housing crisis folks in our state are living through.\nThis district contains 16 counties and 2 sovereign Tribal Nations, and western Montana deserves a congressman who will be a partner and advocate for Native people. I’ll fight in Congress to make the federal government work for Montana’s Tribal communities. That means honoring trust and treaty obligations, respecting the government-to-government relationship with Tribal nations, and empowering constituents to enact change where the federal government has fallen short for too long. I’ll work to be a representative for every Montanan and a partner for the tribal nations in MT-01.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "Like most Montanans, I’m used to seeing more and more of my paycheck go to housing every year. Most folks in DC don’t know what that’s like, and that’s a big part of why they haven’t done anything to fix it. My housing platform will: \n\n- Deliver significant federal investment in housing that’s equal in scale to the crisis we’re facing. I’ll fight to deliver robust investments to build more homes in the places we need them, and I’ll push for incentives to build dense, infill housing with rent restrictions to ensure public investment results in housing Montanans can afford. \n- Incentivize zoning and regulatory reform in places where outdated zoning laws prevent housing from being built where working people need it most.\n- End corporate home ownership by banning the purchase of residential property by hedge funds and private equity firms, and eliminating tax breaks for institutional investors and corporations.\n- Expand apprenticeships and trade school opportunities and dramatically increase the number of good, union jobs available in construction and the trades.\n- Bring back the first-time homebuyer tax credit to make it cheaper for young and working people to buy and own a home.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "My perspective as a working-class Montanan is the chief difference between myself and our current congressman. Unlike most members of Congress, I’m not a millionaire. I was raised largely by a single mom who picked up extra shifts as a nurse to pay the bills, and I’ve spent much of my life working two or three jobs at a time to do the same. I spent the last 8 years working as a wildland firefighter, the last two as a union leader, and the last decade organizing and fighting for public education and libraries, housing and healthcare, reforming our justice system, and defending our civil liberties to make life better for working Montanans like me, who have lived on the wrong end of our broken systems. That work taught me how to work with people in both parties on incredibly difficult policy issues, and how to connect with folks who have been forgotten by our current leaders.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-1",
+    "raceDisplayName": "U.S. House District 1 (West)",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "MONICA TRANEL",
+        "party": "D",
+        "votes": 59192,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

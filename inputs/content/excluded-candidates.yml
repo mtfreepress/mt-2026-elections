@@ -1,0 +1,22 @@
+---
+# Candidates to exclude from site display
+#
+# Use this file to hide candidates who appear in source data (CandidateList.csv
+# or races.yml) but should not be shown on the site — for example, candidates
+# who have informally dropped out before the Secretary of State updates their
+# status, or candidates whose pages should be suppressed for editorial reasons.
+#
+# DO NOT use this for candidates who have officially withdrawn — those are
+# automatically handled via the "Withdrawn" status in CandidateList.csv (for
+# legislative races) or via the `status` field in the candidate YAML file
+# (for major races).
+#
+# Format:
+#   - slug: the-candidate-slug
+#     reason: "Why this candidate is being excluded"
+#     since: "YYYY-MM-DD"
+
+excluded:
+  - slug: jonathan-windy-boy
+    reason: "Will be withdrawing per Democratic party statement on 2026-04-16"
+    since: "2026-04-16"
