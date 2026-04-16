@@ -240,18 +240,6 @@
     "cap_tracker_2025_link": null
   },
   {
-    "slug": "jonathan-windy-boy",
-    "path": "candidates",
-    "displayName": "Jonathan Windy Boy",
-    "summaryLine": null,
-    "race": "U.S. House District 2 (East)",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 0,
-    "cap_tracker_2025_link": null
-  },
-  {
     "slug": "joe-dooling",
     "path": "candidates",
     "displayName": "Joe Dooling",
@@ -259,6 +247,7 @@
     "race": "Public Service Commission (Seat 5)",
     "party": "R",
     "status": "active",
+    "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -282,6 +271,7 @@
     "race": "Public Service Commission (Seat 1)",
     "party": "R",
     "status": "active",
+    "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -293,6 +283,7 @@
     "race": "Public Service Commission (Seat 5)",
     "party": "R",
     "status": "active",
+    "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -304,6 +295,7 @@
     "race": "State Supreme Court (Seat 4)",
     "party": "NP",
     "status": "active",
+    "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -327,6 +319,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "R",
     "status": "active",
+    "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -374,6 +367,7 @@
     "race": "Public Service Commission (Seat 1)",
     "party": "D",
     "status": "active",
+    "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -385,6 +379,7 @@
     "race": "State Supreme Court (Seat 4)",
     "party": "NP",
     "status": "active",
+    "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
@@ -408,6 +403,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "R",
     "status": "active",
+    "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },

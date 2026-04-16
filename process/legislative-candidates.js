@@ -1,5 +1,6 @@
 const fs = require('fs')
 const csv = require('async-csv')
+const YAML = require('yaml')
 
 const writeJson = (path, data) => {
     fs.writeFile(path, JSON.stringify(data, null, 2), err => {
@@ -53,6 +54,12 @@ const MANUAL_ADD_CANDIDATES = [
 const MANUAL_DROPOUTS = [
     // 'CANDIDATE NAME',
 ]
+
+// Load manual exclusions shared with the major-race pipeline.
+// Excluded legislative candidates are treated as withdrawn so they don't
+// appear in opponents lists or active candidate counts.
+const excludedCandidatesYml = YAML.parse(fs.readFileSync('./inputs/content/excluded-candidates.yml', 'utf8'))
+const EXCLUDED_SLUGS = new Set((excludedCandidatesYml.excluded || []).map(e => e.slug))
 
 // --- HELPERS ---
 
@@ -195,6 +202,7 @@ async function main() {
 
             let status = 'active'
             if (MANUAL_DROPOUTS.includes(name)) status = 'withdrawn'
+            if (EXCLUDED_SLUGS.has(urlize(name))) status = 'withdrawn'
 
             return {
                 raceSlug,

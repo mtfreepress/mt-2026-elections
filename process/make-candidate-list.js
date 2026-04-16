@@ -9,31 +9,25 @@ const writeJson = (path, data) => {
     );
 }
 
-const filterToSummaryFields = c => ({
-    // Include only fields necessary for summary page
+// candidates-index.json has the summary fields pre-computed by process/main.js,
+// so no heavier per-candidate files need to be loaded here.
+const candidatesIndex = getJson('./src/data/candidates-index.json')
+
+const allCandidates = candidatesIndex.map(c => ({
     slug: c.slug,
-    path: c.path,
+    path: 'candidates',
     displayName: c.displayName,
     summaryLine: c.summaryLine,
     race: c.raceDisplayName,
     party: c.party,
     status: c.status,
-    hasResponses: c.questionnaire ? c.questionnaire.hasResponses : false,
-    numMTFParticles: c.coverage ? c.coverage.length : 0,
-    cap_tracker_2025_link: c.cap_tracker_2025_link || null,
-})
-
-
-const majorRaceCandidates = getJson('./src/data/candidates.json')
-
-majorRaceCandidates.forEach(d => d.path = 'candidates')
+    hasResponses: c.hasResponses,
+    numMTFParticles: c.numMTFParticles,
+    cap_tracker_2025_link: null,
+}))
 
 // Legislative candidates are excluded from name search since they
 // don't have individual pages — they're shown via the district selector instead
-const allCandidates = majorRaceCandidates
-    .map(filterToSummaryFields)
 
 writeJson('./src/data/all-candidate-summary.json', allCandidates)
-
-
 
