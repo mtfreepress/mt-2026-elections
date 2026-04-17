@@ -1,0 +1,51 @@
+{
+  "slug": "angeline-cheek",
+  "displayName": "Angeline Cheek",
+  "lastName": "Cheek",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "psc-1",
+  "raceDisplayName": "Public Service Commission (Seat 1)",
+  "opponents": [
+    {
+      "slug": "jeff-pattison",
+      "displayName": "Jeff Pattison",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "jeremy-trebas",
+      "displayName": "Jeremy Trebas",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "angeline-cheek",
+      "displayName": "Angeline Cheek",
+      "summaryLine": null,
+      "party": "D"
+    }
+  ],
+  "coverage": [],
+  "finance": null,
+  "questionnaire": {
+    "hasResponses": false,
+    "responses": []
+  },
+  "primaryResults": {
+    "race": "psc-1",
+    "raceDisplayName": "Public Service Commission (Seat 1)",
+    "party": "D",
+    "resultsTotal": null
+  }
+}

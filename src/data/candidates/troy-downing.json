@@ -1,0 +1,210 @@
+{
+  "slug": "troy-downing",
+  "displayName": "Troy Downing",
+  "lastName": "Downing",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "R",
+  "isIncumbent": true,
+  "status": "active",
+  "fecId": "H4MT02098",
+  "campaignWebsite": "https://troydowning.com",
+  "campaignFB": "https://www.facebook.com/TroyDowning4MT/",
+  "campaignTW": "https://x.com/DowningforMT",
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-2",
+  "raceDisplayName": "U.S. House District 2 (East)",
+  "opponents": [
+    {
+      "slug": "brian-j-miller",
+      "displayName": "Brian J Miller",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-lux",
+      "displayName": "Sam Lux",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "troy-downing",
+      "displayName": "Troy Downing",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "patrick-mccracken",
+      "displayName": "Patrick Mccracken",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-d-eisenhauer",
+      "displayName": "Michael D Eisenhauer",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Troy Downing",
+      "party": "R",
+      "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
+      "candidateId": "H4MT02098",
+      "totalReceipts": 1633759.13,
+      "totalDisbursments": 1299370.16,
+      "cashOnHand": 445919.47,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael D Eisenhauer",
+      "party": "I",
+      "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
+      "candidateId": "H6MT02168",
+      "totalReceipts": 208448.87,
+      "totalDisbursments": 74738.17,
+      "cashOnHand": 133710.7,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Brian J Miller",
+      "party": "D",
+      "candidateCommitteeName": "MILLER FOR CONGRESS",
+      "candidateId": "H6MT02150",
+      "totalReceipts": 15220.25,
+      "totalDisbursments": 9389.55,
+      "cashOnHand": 1820.79,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Lux",
+      "party": "D",
+      "candidateCommitteeName": "LUX FOR MONTANA",
+      "candidateId": "H6MT02143",
+      "totalReceipts": 8255.17,
+      "totalDisbursments": 7577.94,
+      "cashOnHand": 854.18,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Patrick Mccracken",
+      "party": "L",
+      "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+      "candidateId": "H6MT02176",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Congress has a constitutional responsibility to declare war, and the War Powers Resolution of 1973 was intended to reinforce that role.\nThe Constitution also designates the President as Commander in Chief, with the authority to act swiftly to protect Americans and our interests. In recent situations, the President notified congressional leadership and acted within the framework that allows limited military engagement while Congress reviews the situation.\nIf operations extend into sustained combat, Congress must provide formal authorization or determine the appropriate course forward.\nThis balance ensures the President can respond to immediate threats while preserving Congress’s constitutional duty to oversee and authorize extended acts of war.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Rural healthcare and critical access facilities are essential to Montana. I make it a priority to visit these communities and understand the realities facing this vital part of rural infrastructure.\nWorkforce development is one of the most pressing challenges. Many facilities struggle to recruit and retain the providers and caregivers they need to serve their communities effectively.\nFacilities must also be right-sized to meet the needs of their regions, ensuring they have the capacity not only for emergency services, but also for routine care and, in many cases, long-term care.\nFunding remains critical. With aging populations across rural Montana, Medicare and Medicaid account for a significant portion of facility revenue. Reforms to Medicaid will help ensure more resources go directly to patient care while reducing waste and fraud. I also strongly supported the $50 billion in Rural Healthcare Transformation funding appropriated last year, with Montana receiving a significant share of these much-needed investments.\nFinally, we must improve CMS accountability. Delays in hospital reimbursements and Medicaid redeterminations are unreasonable and place unnecessary strain on providers, especially in rural areas with limited resources.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "Energy and Resource Jobs: Montana plays a vital role in American energy production. I will continue to support policies that protect good-paying jobs and ensure a reliable, affordable energy supply. At the same time, I believe we must position the United States as a leader in innovation by advancing technologies that strengthen our energy future and drive economic growth.\n\nPublic Land Access: Access to public lands is central to Montana’s way of life. I’m proud of the work I’ve done and will continue working with local stakeholders to maintain access while supporting responsible land management and natural resource development.\nAs a member of the bipartisan Public Lands Caucus, I have consistently opposed proposals to sell off our public land. I believe these lands are a shared resource that must be preserved, protected, and responsibly managed for current and future generations of Montanans.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "In Congress, Ive taken a practical, supply-focused approach to improving housing access and supporting homeownership. By introducing the Whole-Home Repairs Act to help families afford critical repairs, preserve existing housing stock, and keep Montanans in their homes.\nI've also supported policies that expand access to capital and reduce regulatory barriers that make it harder to build new housing. Increasing supply and encouraging responsible development are essential to improving affordability.\nI have also introduced a bipartisan bill to reauthorize the Native American Housing Assistance and Self Determination Act (NAHASDA) to make sure that Indian Country is not forgotten in our national discussions on housing.\nMy focus is on real solutions, protecting existing homes, supporting new construction, and ensuring more Montanans have the opportunity to achieve the American Dream of homeownership.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "My approach is grounded in accessibility, accountability, and results. I’ve focused on constituent services, returning resources to communities, and maintaining a strong presence across the district. I have and will continue to prioritize listening to all Montanans, addressing concerns directly, and working to deliver practical outcomes no matter what side of the isle you are on.\nIt is the honor of a lifetime to serve Montana in Congress and I don't take this responsibility lightly.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-2",
+    "raceDisplayName": "U.S. House District 2 (East)",
+    "party": "R",
+    "resultsTotal": [
+      {
+        "candidate": "TROY DOWNING",
+        "party": "R",
+        "votes": 36050,
+        "isWinner": true,
+        "votePercent": 0.36150135876377565
+      },
+      {
+        "candidate": "DENNY REHBERG",
+        "party": "R",
+        "votes": 17070,
+        "isWinner": false,
+        "votePercent": 0.17117415240215397
+      },
+      {
+        "candidate": "STACY ZINN",
+        "party": "R",
+        "votes": 13478,
+        "isWinner": false,
+        "votePercent": 0.13515437762602409
+      },
+      {
+        "candidate": "ELSIE ARNTZEN",
+        "party": "R",
+        "votes": 9394,
+        "isWinner": false,
+        "votePercent": 0.09420093659436639
+      },
+      {
+        "candidate": "KEN BOGNER",
+        "party": "R",
+        "votes": 8969,
+        "isWinner": false,
+        "votePercent": 0.08993913139396127
+      },
+      {
+        "candidate": "RIC HOLDEN",
+        "party": "R",
+        "votes": 7063,
+        "isWinner": false,
+        "votePercent": 0.07082618854226207
+      },
+      {
+        "candidate": "JOEL G. KRAUTTER",
+        "party": "R",
+        "votes": 3409,
+        "isWinner": false,
+        "votePercent": 0.03418469159572014
+      },
+      {
+        "candidate": "KYLE AUSTIN",
+        "party": "R",
+        "votes": 3138,
+        "isWinner": false,
+        "votePercent": 0.031467164044402994
+      },
+      {
+        "candidate": "ED WALKER",
+        "party": "R",
+        "votes": 1152,
+        "isWinner": false,
+        "votePercent": 0.011551999037333413
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

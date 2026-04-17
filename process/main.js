@@ -19,6 +19,22 @@ const writeJson = (path, data) => {
 
 const races = getYml('./inputs/content/races.yml')
 const text = getYml('./inputs/content/text.yml')
+
+// Load manual exclusions — candidates to hide from the site without editing
+// source data. See inputs/content/excluded-candidates.yml for usage notes.
+const excludedCandidates = getYml('./inputs/content/excluded-candidates.yml')
+const excludedSlugs = new Set((excludedCandidates.excluded || []).map(e => e.slug))
+if (excludedSlugs.size > 0) {
+    console.log(`Excluding ${excludedSlugs.size} candidate(s):`, [...excludedSlugs].join(', '))
+    // Remove excluded slugs from every race's candidate list so they
+    // won't appear in opponents listings or active counts.
+    races.forEach(race => {
+        if (Array.isArray(race.candidates)) {
+            race.candidates = race.candidates.filter(s => !excludedSlugs.has(s))
+        }
+    })
+}
+
 // Only load YAMLs for candidates actually referenced in races.yml.
 // Legislative candidates have their own pipeline (process/legislative-candidates.js).
 const raceCandidateSlugs = new Set(races.flatMap(r => r.candidates || []))
@@ -55,7 +71,7 @@ const FEC_DATA_EXCLUDE = [
     'MORAN, CORY',
     'ROSENDALE, MATT MR.',
     // Independent candidates who don't have candidate pages
-    'NEILL, REILLY'
+    // 'NEILL, REILLY'
 ]
 
 // Sort coverage array once rather than on every candidate iteration (avoids repeated mutation)
@@ -148,7 +164,7 @@ candidates.forEach(candidate => {
     const questionnaireMatch = questionnaires.find(d => d.nameSlug === candidate.slug)
     if (!questionnaireMatch) console.log(`${candidate.slug} missing questionnaire answers`)
     candidate.questionnaire = {
-        hasResponses: (questionnaireMatch && questionnaireMatch.questionnaireMaterial[0].response !== null),
+        hasResponses: !!(questionnaireMatch && questionnaireMatch.questionnaireMaterial[0].response !== null),
         responses: (questionnaireMatch && questionnaireMatch.questionnaireMaterial !== null) ?
             questionnaireMatch.questionnaireMaterial.map(d => ({ question: d.question, answer: d.response }))
             : []
@@ -189,7 +205,43 @@ const overviewRaces = races.map(race => {
 console.log(candidates.length, 'candidates')
 console.log(candidates.filter(d => d.questionnaire.hasResponses).length, 'responded to questionnaire')
 
-writeJson('./src/data/candidates.json', candidates) // Data for candidate pages
+// Write per-candidate JSON files — each candidate page loads only its own file
+// instead of the entire candidates array. This keeps individual page bundles small.
+const candidatesDir = './src/data/candidates'
+fs.mkdirSync(candidatesDir, { recursive: true })
+candidates.forEach(candidate => {
+    writeJson(`${candidatesDir}/${candidate.slug}.json`, candidate)
+})
+
+// Remove stale per-candidate JSON files for excluded candidates.
+// These may have been written in a previous run before the candidate was excluded.
+excludedSlugs.forEach(slug => {
+    const stalePath = `${candidatesDir}/${slug}.json`
+    if (fs.existsSync(stalePath)) {
+        fs.unlinkSync(stalePath)
+        console.log(`Deleted stale candidate JSON for excluded candidate: ${slug}`)
+    }
+})
+
+// Write thin index — used by getAllCandidateIds() and the search/overview pipeline.
+// Does NOT include opponents, finance, questionnaire responses, or coverage (those
+// live in the per-candidate files). This file stays small regardless of how many
+// candidates or how long their questionnaire answers are.
+const candidatesIndex = candidates.map(c => ({
+    slug: c.slug,
+    displayName: c.displayName,
+    lastName: c.lastName,
+    summaryLine: c.summaryLine,
+    party: c.party,
+    raceSlug: c.raceSlug,
+    raceDisplayName: c.raceDisplayName,
+    status: c.status,
+    isIncumbent: c.isIncumbent,
+    hasResponses: c.questionnaire.hasResponses,
+    numMTFParticles: c.coverage.length,
+}))
+writeJson('./src/data/candidates-index.json', candidatesIndex)
+
 writeJson('./src/data/overview-races.json', overviewRaces) // Data for landing page
 writeJson('./src/data/ballot-initiatives.json', ballotInitiatives) // Pass through - ballot initiative structured test
 writeJson('./src/data/text.json', text) // simple pass through logic for now

@@ -325,6 +325,24 @@ function main() {
 
   console.log(`\nDone. ${written} file(s) written, ${skipped} skipped (already existed).`)
 
+  // Remove YML files for candidates who have officially withdrawn or been removed.
+  // This keeps inputs/content/candidates/ in sync with CandidateList.csv automatically.
+  const WITHDRAWN_STATUSES = new Set(['WITHDRAWN', 'REMOVED'])
+  let deleted = 0
+  for (const candidate of all) {
+    const status = String(candidate['Status'] || '').trim().toUpperCase()
+    if (!WITHDRAWN_STATUSES.has(status)) continue
+    const slug = nameToSlug(candidate['Name'])
+    const filename = `${slug}.yml`
+    const outPath = path.join(OUT_DIR, filename)
+    if (fs.existsSync(outPath)) {
+      fs.unlinkSync(outPath)
+      console.log(`  deleted (withdrawn): ${filename}`)
+      deleted++
+    }
+  }
+  if (deleted > 0) console.log(`\nRemoved ${deleted} YML file(s) for withdrawn candidates.`)
+
   buildRacesYml(all)
 }
 

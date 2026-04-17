@@ -1,0 +1,245 @@
+{
+  "slug": "michael-hummert",
+  "displayName": "Michael Hummert",
+  "lastName": "Hummert",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "S4MT00217",
+  "campaignWebsite": "https://www.mikeformontana.com",
+  "campaignFB": "https://www.facebook.com/profile.php?id=61557318835411",
+  "campaignTW": "https://twitter.com/mikeformt",
+  "campaignIG": "https://www.instagram.com/mikeformt/",
+  "campaignYT": "https://www.youtube.com/channel/UCIonkgwxOMsnMI2x3xC8xZg",
+  "campaignTT": "https://www.tiktok.com/@mikeformt?lang=en",
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Yes, the War Powers Resolution should be enforced. If a president deploys U.S. forces into combat for a month or longer without authorization, Congress cannot be treated as optional. The 1973 law requires the president to notify Congress within 48 hours and generally bars unauthorized hostilities from continuing beyond 60 days.\nBut the larger problem is the 2001 Authorization for Use of Military Force signed after September 11. That law is still in effect and has been stretched far beyond its original purpose by successive presidents. I would repeal it and replace it, if necessary, with a narrowly written authorization tied to a specific enemy, place, and time limit.\nAmerica should not drift into open-ended war through vague authorizations and executive habit. If force is used in our name, Congress must debate it, authorize it, and own the decision.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Rural hospitals and clinics are essential, and once they close, they are extremely difficult to bring back. Congress should start by reversing Medicaid changes that will push more patients off coverage and increase uncompensated care for rural providers. New Medicaid work requirements begin January 1, 2027, and major cuts in federal Medicaid spending are expected to increase the uninsured and add more pressure to rural hospitals.\nBeyond that, Washington should focus on keeping core services open, not dictating every local decision. Some communities may need consolidation, fewer layers of administration, or a more realistic mix of services to stay solvent. Montana’s own rural health plan notes that inpatient use in many rural hospitals is already below 50% of staffed capacity.\nMy priority would be simple: keep rural providers open, protect Medicaid support, and give communities the flexibility to make practical changes before a temporary crisis becomes a permanent closure.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "Three Montana issues I intend to address are forest management, illegal immigration, and drug prevention for children.\nFirst, Montana needs active forest management, not a policy of watching usable timber burn. We should increase responsible timber harvest, reduce fuel loads, and support sawmills and wood-product manufacturing. That would reduce wildfire risk, strengthen rural jobs, and make better use of our natural resources.\nSecond, Montana is a border state, and illegal immigration is not just a southern border issue. A broken national system affects every state, including ours. I would support stronger immigration enforcement and serious reform so Montana is not left dealing with the consequences of federal failure.\nThird, we need a more honest approach to drug prevention. “Just say no” is not enough. Children need to be told the truth about what drugs do, how addiction develops over time, and how lives are slowly destroyed by it. Prevention starts with honesty, not slogans.\nHow would I get it done? By respecting the proper federal role, working with Montana communities, and pushing practical solutions instead of empty talking points.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "Home ownership and cost of living in Montana are affected by federal policy, but they are primarily state and local issues. The most important thing the federal government can do is restore fiscal discipline. A Balanced Budget Amendment would help reduce inflationary pressure, stabilize the economy, and ease the long-term forces that drive up interest rates, mortgage costs, and everyday prices. Mortgage rates remain elevated nationally, and the Federal Reserve continues to say inflation is still somewhat elevated.\nBeyond that, Washington should stop making the problem worse. The federal government should reduce unnecessary regulatory burdens, protect the value of the dollar, and avoid the kind of deficit spending that raises costs for everyone. Montana’s affordability problems are real, but the detailed solutions should come mostly from the state, local governments, and local communities, not one-size-fits-all mandates from Washington.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "What would distinguish my service is simple: integrity, honesty, and putting people before corporations and political theater. Too many elected officials spend their time feeding division and arguing over wedge issues while the country’s biggest problems are ignored.\nI believe both parties have drifted away from the everyday American. We should be rallying the country around serious goals like a Balanced Budget Amendment, term limits, election reform, and restoring trust in government. Instead, too much energy is spent on spectacle rather than solutions.\nI would serve differently by speaking plainly, leading with principle, and focusing on what actually moves the country forward. I am not interested in being another career politician. I am interested in helping fix a government that has lost its discipline, its honesty, and too often its sense of duty.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "JON TESTER",
+        "party": "D",
+        "votes": 103347,
+        "isWinner": true,
+        "votePercent": 0.9698752780202146
+      },
+      {
+        "candidate": "MICHAEL HUMMERT",
+        "party": "D",
+        "votes": 3210,
+        "isWinner": false,
+        "votePercent": 0.030124721979785468
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

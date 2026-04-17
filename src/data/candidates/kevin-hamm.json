@@ -1,0 +1,70 @@
+{
+  "slug": "kevin-hamm",
+  "displayName": "Kevin Hamm",
+  "lastName": "Hamm",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": "https://kevinhamm.com",
+  "campaignFB": "http://facebook.com/kevhamm4montana",
+  "campaignTW": null,
+  "campaignIG": "http://instagram.com/kevhamm",
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "psc-5",
+  "raceDisplayName": "Public Service Commission (Seat 5)",
+  "opponents": [
+    {
+      "slug": "david-sanders",
+      "displayName": "David Sanders",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "annie-bukacek",
+      "displayName": "Annie Bukacek",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "joe-dooling",
+      "displayName": "Joe Dooling",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kevin-hamm",
+      "displayName": "Kevin Hamm",
+      "summaryLine": null,
+      "party": "D"
+    }
+  ],
+  "coverage": [],
+  "finance": null,
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "What should be the PSC's role, if any, in regulating data center development in Montana?",
+        "answer": "Datacenters as they are “planned” now are so egregiously destructive to the area they are in that they need to be stopped. The PSC has the authority to make sure that any infrastructure upgrades needed to service these monstrosities are paid for by the actual customer, not by the people of Montana. The increase in electricity demand can also be shunted to the customers making it rather than foisting that bill onto residential customers. The water use and pollution are not, in most cases, directly regulated by the PSC but that doesn’t mean that we can’t lean in and force discussions about what’s best for Montanans.\nThe current farce of just taking the AI companies’ talking points and saying “Oh, this will be fine” cannot continue. Throughout Montana’s history we see, time and again, that monied interests lie through their teeth to build something in Montana—from a mine that will destroy the land and water nearby, to land buys that block the public from public lands—it’s always greedy elites that are trying to sell the beauty of Montana and abscond with bags of cash. And the people of Montana are left to pay the piper, time and again. It has to stop, and the PSC can lead the way.\n\n"
+      },
+      {
+        "question": "How should the PSC approach the NorthWestern/Black Hills Corp. merger?",
+        "answer": "That the result had better put the cost per kW back to a reasonable rate, which honestly should be at or below what was charged when deregulation was put through. The whole goal of deregulation was to reduce the costs for consumers, and that has never happened. It absolutely should. Given that every merger is billed as a cost-savings for the companies as they find ‘synergies’ and ‘remove redundancies’ and all those savings are passed on to the shareholders after a hefty chunk of change is pocketed by the executive suite, I’m not holding my breath that this is going to be a good thing for anyone. I intend to press them both on how they are going to fix their aged infrastructure, replace outdated equipment and rethink how the entire grid in Montana is working, and make sure that they are not just taking more money from the people of Montana because the past PSC has had the oversight skills of a blind lapdog. We cannot continue to allow the executives at these utilities to boost their own wealth to undreamt of heights while the rest of us struggle to afford to keep the lights on. It’s ridiculous and Montanans deserve better.\n\n"
+      },
+      {
+        "question": "What is one industry under the PSC's purview that could use more scrutiny than it's currently getting, and what might that increased scrutiny look like?",
+        "answer": "Trains. The state’s railroads are outdated and absurd. We should have mandated infrastructure upgrades for all industries the PSC oversees, but we haven’t. Railroads should have been modernizing for decades with modern tracks, better engines, smarter and more traffic-friendly schedules, improved relations with workers’ unions, and technological advancements. There’s no reason that Montana Avenue is constantly blocked by multiple trains at high-traffic times in Helena when a simple upgrade to smarter scheduling tools would allow BNSF to avoid these conflicts. Or they could invest money into their tracks and crossings so that they are bridged or tunneled away from traffic. It’s 2026, yet we still have ancient steel tracks instead of having upgrades that could include high-speed bullet trains for passenger rail, when Japan has had this for half a century. And yes, we could adapt it for all our uses including cargo. We’re not dumb, the elites are just greedy.\nAdditionally, water systems need to ensure they serve their ratepayers effectively, rather than just extracting money for their ownership.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "psc-5",
+    "raceDisplayName": "Public Service Commission (Seat 5)",
+    "party": "D",
+    "resultsTotal": null
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "slug": "christopher-kehoe",
+  "displayName": "Christopher Kehoe",
+  "lastName": "Kehoe",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "S6MT00303",
+  "campaignWebsite": "https://www.christopherkehoe.com",
+  "campaignFB": "https://facebook.com/voteformeehoe/",
+  "campaignTW": "https://x.com/voteformeehoe",
+  "campaignIG": "https://www.instagram.com/voteformeehoe/",
+  "campaignYT": null,
+  "campaignTT": "https://tiktok.com/@voteformeehoe",
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "War, the saying goes, has changed. In 2026, military action is much faster and much more technological than it was in 1973. I advocate for replacing the \"30 days\" timeframe of War Powers Resolution with \"7 days,\" and interpreting \"military action\" as anything involving a bullet or a missile—a far lower threshold than boots on the ground. It is absolutely imperative that the deliberative body of Congress be the only national entity to declare war (implicitly or explicitly); the Commander-in-Chief is the one to manage and execute war, not lead us to it. Violation of the War Powers Resolution should be an immediate impeachable offense ... what puts American lives at risk more than beginning needless, ego-driven wars?\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "We can correct this problem from two angles.\n\nFirst: low patient volume can be directly tied to an intentionally opaque and exploitative health care insurance industry. People still get sick and break bones, but now they're terrified that a single wrong move on hospital grounds will force them to bankruptcy. A single-payer healthcare solution—even a modest one that covers a minimal amount of care—would force the health care insurance industry to become more transparent and humane, and do wonders for rural Montanans to seek medical care when they first need it. \n\nSecond: the vast majority of hospitals are nonprofit organizations, which means we can address tight budget margins through federal grants. Not only can we make grant funds available, we can target eligibility for hospitals operating in counties with specific population densities, and to scope those funds for specific operational costs. If we have money to go to war, we have money for a rural hospital.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "Data center construction needs to be a thoughtful dialogue with the community steering the conversation. I'm not against data centers outright; I believe there needs to be clear \"rules of the road;\" that the community understands all the environmental hazards, costs, and long-term impacts before agreeing to a data center in their backyard. I support and want to amplify Ro Khanna's work to articulate both modern concerns and modern opportunities for domestic data centers, as well as Bernie Sanders' and AOC's bill for a short-term data center construction moratorium.\n\nMissing and Murdered Indigenous People (and women especially) is a chronic failure of Tribal Police, local law enforcement, and the FBI to coordinate efforts and close cases. While these agencies operate under unclear and contradictory parameters, actual human beings and their families are suffering and tribal lands effectively become dumping grounds for United States immorality. I would undertake a national review of relationships between Tribal Police agencies and local United States law enforcement to see where good practices already exist, and to develop new and clear protocols that every state could easily adopt.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "I ultimately look to ease cost of ownership through a good ol' supply and demand curve. We need more housing, so Montana can look to ease zoning requirements and see where long-forgotten commercial property can become residential property. I believe Montana can get more athletic with property taxes for homes that are not a primary residence—if a Californian-owned home used for 3 months out of the year can become a Montanan-owned home used for 12 months out of the year, that's a win for Montana.\n\nBut these are state-level solutions. I also propose a federal vacancy tax for commercial real estate that sits empty for 6 months or more, and which would compound aggressively every 6 months the real estate continues to sit vacant. We currently have a system where it's more beneficial for landlords to let storefronts sit empty than to sign a lease for a small business to begin operating. More small businesses in operation means more people working and more local economic development. I'm also in support of closing the gap between income tax and capital gains tax (and more tax brackets overall), so hourly paycheck earners aren't stuck footing an unequal amount of the bill every April 15.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "I do solemnly swear not to break a protestor's hand in a door. I suppose you could call that trait \"basic humanity.\"\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "JON TESTER",
+        "party": "D",
+        "votes": 103347,
+        "isWinner": true,
+        "votePercent": 0.9698752780202146
+      },
+      {
+        "candidate": "MICHAEL HUMMERT",
+        "party": "D",
+        "votes": 3210,
+        "isWinner": false,
+        "votePercent": 0.030124721979785468
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

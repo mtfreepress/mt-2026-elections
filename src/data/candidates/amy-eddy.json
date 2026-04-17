@@ -1,0 +1,45 @@
+{
+  "slug": "amy-eddy",
+  "displayName": "Amy Eddy",
+  "lastName": "Eddy",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "NP",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": "https://amyeddyforjustice.com",
+  "campaignFB": null,
+  "campaignTW": "https://x.com/amyeddy4justice",
+  "campaignIG": "http://instagram.com/",
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "supco-4",
+  "raceDisplayName": "State Supreme Court (Seat 4)",
+  "opponents": [
+    {
+      "slug": "dan-wilson",
+      "displayName": "Dan Wilson",
+      "summaryLine": null,
+      "party": "NP"
+    },
+    {
+      "slug": "amy-eddy",
+      "displayName": "Amy Eddy",
+      "summaryLine": null,
+      "party": "NP"
+    }
+  ],
+  "coverage": [],
+  "finance": null,
+  "questionnaire": {
+    "hasResponses": false,
+    "responses": []
+  },
+  "primaryResults": {
+    "race": "supco-4",
+    "raceDisplayName": "State Supreme Court (Seat 4)",
+    "party": "NP",
+    "resultsTotal": null
+  }
+}

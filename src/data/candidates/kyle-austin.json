@@ -1,0 +1,229 @@
+{
+  "slug": "kyle-austin",
+  "displayName": "Kyle Austin",
+  "lastName": "Austin",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "L",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "S6MT00261",
+  "campaignWebsite": "https://www.kyleaustinmt.com",
+  "campaignFB": "https://www.facebook.com/profile.php?id=61556644971084",
+  "campaignTW": "https://x.com/austin4senatemt",
+  "campaignIG": null,
+  "campaignYT": "https://www.youtube.com/@MyFellowMontanans",
+  "campaignTT": "https://www.tiktok.com/@austin4senatemt",
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Yes, the War Powers Resolution of 1973 should be enforced.   Under the resolution, the president has the authority to take immediate action with military force and must withdraw troop within 60 days if congress does not authorize further use of force.  I do feel this is a great balance of power, and necessary for the United States to have the ability to quickly make decisions and mobilize our troops for the protection of our country.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "As a pharmacist for 18 years in Montana, I understand the issues we have with healthcare very well.   I have a plan, called Healthcare 2.0, that will overhaul our entire healthcare system to eliminate wasted money, eliminate the insurance corruption, and eliminate the government overreach.   Doing so will allow our healthcare to run effectively and efficiently.   American citizens and small businesses will see affordable healthcare plans with no annual deductibles and lower monthly premiums.   While providers will see better reimbursements and a future of prosperity.   This can all be done without adding any additional costs to the taxpayers.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "The first issue I would like to address as Montana’s next United States Senator would be to eliminate government overreach and wasteful spending.    For example, the Montana Department of Labor and Industry currently receives $93 million dollars in federal funding and has also overtaxed small businesses in our state creating a trust fund of over $643 million dollars.    This is unacceptable!   I plan to cut the fat, deregulation businesses and lower taxes for everyone. \nThe second issue is to revitalize our agriculture community’s.   We need to 1. Overhaul and strengthen the United States Department of Agriculture. 2. Leave our farmers and ranches out of the trade wars.  3. Eliminate the corruption and fraud of the markets that leave our farmers and ranchers with the bottom dollar.  4. Redirect the wasteful spending into offering 0% financing through the USDA to our farmers and ranchers. 5. Assist and facilitate the construction of fertilizer production facilities so our farmers are no longer having to be dependent on importation.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "As a United States Senator, I would focus my efforts to help lowering the cost of living in Montana and home ownership in a few ways.  1. I would work on lowering the interest rates.  2. I would reduce the construction barriers that have been driving up the costs of construction.  3. I would promote zero tariffs so we can get construction supplies at a more affordable price.  And 4. I would promote responsible logging and lumber mills to create jobs and resources right here in our great State of Montana.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "As a 4th generation Montanan, I am a very bold, highly education individual that does not back down from a fight.   I stand my ground and often find creative solutions to problems nobody else has a vision for.   My hard work and background as a farmer, pharmacist, and small business owner will not only impress the voters of Montana when I am in office, it will inspire my colleagues in Washington DC.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "L",
+    "resultsTotal": null
+  }
+}

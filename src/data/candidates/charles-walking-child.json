@@ -1,0 +1,252 @@
+{
+  "slug": "charles-walking-child",
+  "displayName": "Charles Walking Child",
+  "lastName": "Child",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "R",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "S4MT00209",
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Yes, the War Powers Resolution of 1973 should be enforced when a president deploys U.S. armed forces into combat for a month or longer without congressional authorization.The Constitution is crystal clear: Article I, Section 8 gives Congress—not the president—the sole power to declare war. Our Founders designed it this way deliberately to prevent any one person from dragging America into endless, unnecessary conflicts that cost our sons and daughters their lives and drain our treasury. George Washington himself warned against foreign entanglements, and I look to his wisdom as a guiding principle.The War Powers Resolution was passed to reclaim that constitutional authority after presidents increasingly bypassed Congress in places like Vietnam. If a president sends troops into sustained combat without approval, Congress must enforce the law—demand withdrawal if unauthorized, or provide explicit authorization if the mission truly serves American interests.I would not support revising, replacing, or discarding the War Powers Resolution. It needs stronger enforcement, not weakening. Too many career politicians in Washington have let presidents—both parties—ignore it for decades, leading to disastrous, unconstitutional wars that never end and benefit foreign interests or defense contractors more than Montana families.As your Senator, I’ll fight to restore real congressional oversight: no more blank checks for endless wars, no more American blood spilled without the people's representatives voting yes. Montana's voice demands peace through strength, not endless intervention. America First means Congress reclaims its constitutional duty to protect our troops and our sovereignty.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Congress has a vital role in supporting Montana’s rural hospitals and clinics, which are lifelines for our small towns, ranchers, farmers, veterans, and Native communities—folks who often face long drives just to get basic care.Montana's rural providers are squeezed by low patient volumes, rising costs, workforce shortages, and unfair reimbursement rates from big federal programs like Medicare and Medicaid. As your Senator, I’d fight for targeted, common-sense federal action that empowers local solutions rather than creating more bureaucracy or dependency.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "Responsible management of our federal public lands\n\nThe financial crisis facing our rural hospitals and clinics\n\nThese are Montana-specific fights that demand a Senator who knows our land, our people, and our values—not a career politician beholden to elites. I'll bring common-sense, America First solutions home: protecting families, tribes, small ag, and opportunity while restoring constitutional balance. Montana families first—always.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "As your next U.S. Senator, I will fight to make homeownership achievable again for Montana families, veterans, young people, and working Montanans who are being priced out by skyrocketing costs, low supply, and out-of-state pressures.\n\nSlash federal red tape that drives up building costs\n\nLower everyday energy and living costs\n\nProvide targeted tax relief and reduce demand pressure\n\nBring home infrastructure funding with local control\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "The current office holder is stepping down but these are the differences.\n\nI am not a career politician. I am an independent, outsider voice rooted in real Montana life—no decades in D.C., no lifetime of establishment deals, no corporate PAC millions funding my campaign.Key distinctions in how I would serve:\n\nOutsider independence vs. establishment ties\n\nMontana-first pragmatism vs. partisan gridlock\n\nReal-world experience vs. professional politics\n\nDirect accountability vs. insulated tenure\n\nThe current officeholder represents Washington to Montana.\nI will represent Montana to Washington—fiercely, independently, and without apology.Montana families first. America First. Always.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "R",
+    "resultsTotal": [
+      {
+        "candidate": "TIM SHEEHY",
+        "party": "R",
+        "votes": 138202,
+        "isWinner": true,
+        "votePercent": 0.7363115693012601
+      },
+      {
+        "candidate": "BRAD JOHNSON",
+        "party": "R",
+        "votes": 36460,
+        "isWinner": false,
+        "votePercent": 0.1942513119688857
+      },
+      {
+        "candidate": "CHARLES WALKINGCHILD SR",
+        "party": "R",
+        "votes": 13033,
+        "isWinner": false,
+        "votePercent": 0.06943711872985428
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

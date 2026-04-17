@@ -1,0 +1,175 @@
+{
+  "slug": "brian-j-miller",
+  "displayName": "Brian J Miller",
+  "lastName": "Miller",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "H6MT02150",
+  "campaignWebsite": "https://www.miller4congress.com",
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-2",
+  "raceDisplayName": "U.S. House District 2 (East)",
+  "opponents": [
+    {
+      "slug": "brian-j-miller",
+      "displayName": "Brian J Miller",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-lux",
+      "displayName": "Sam Lux",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "troy-downing",
+      "displayName": "Troy Downing",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "patrick-mccracken",
+      "displayName": "Patrick Mccracken",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-d-eisenhauer",
+      "displayName": "Michael D Eisenhauer",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Troy Downing",
+      "party": "R",
+      "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
+      "candidateId": "H4MT02098",
+      "totalReceipts": 1633759.13,
+      "totalDisbursments": 1299370.16,
+      "cashOnHand": 445919.47,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael D Eisenhauer",
+      "party": "I",
+      "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
+      "candidateId": "H6MT02168",
+      "totalReceipts": 208448.87,
+      "totalDisbursments": 74738.17,
+      "cashOnHand": 133710.7,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Brian J Miller",
+      "party": "D",
+      "candidateCommitteeName": "MILLER FOR CONGRESS",
+      "candidateId": "H6MT02150",
+      "totalReceipts": 15220.25,
+      "totalDisbursments": 9389.55,
+      "cashOnHand": 1820.79,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Lux",
+      "party": "D",
+      "candidateCommitteeName": "LUX FOR MONTANA",
+      "candidateId": "H6MT02143",
+      "totalReceipts": 8255.17,
+      "totalDisbursments": 7577.94,
+      "cashOnHand": 854.18,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Patrick Mccracken",
+      "party": "L",
+      "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+      "candidateId": "H6MT02176",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "The Constitution is self-evident here; only Congress has the power to declare war.  Madison was very clear about his fear of standing armies in Federalist No. 41 and 47, and this stricture is embedded deep in the Constitution.  As the branch closest to the People, the war power is lodged with the Congress.  This is not accidental or trivial because the social, economic, and moral costs of war are always borne by the People.   But we have gotten way out of that mode since Vietnam.  The “military industrial complex” (and now the State of Israel) has hijacked our national government on matters of war.  The late Ozzy Osborne had a name for these people; he called them “warpigs”.  If I’m elected to Congress, I will make sure that we put Congress back in charge of any use of military force against any foreign nation, no matter how slight.  We need to “Trump-proof” our government on the use of military force, so that this never happens again.  In fact, I will not vote for one penny for the “Department of War” until all of our military stuff is out of the Middle East.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "First, we need to repeal and replace the One Big Beautiful Bill, which cut $ 1 trillion from Medicaid in order to give $ 1Trillion dollars in tax cuts to the Top 1%.  We need to reverse that equation. We also need to spend money on restoring ACA subsidies, instead of spending hundreds of billions of dollars fighting a war in the Middle East that we have already lost.  But these are just emergency measures to help stabilize things.  Beyond that, we need to do comprehensive healthcare reform.  There are two things stopping us from having a decent healthcare system: greed and stupidity.  Part of the reasons why rural hospital and clinics don’t have money is because the CEOs and shareholders of private insurance companies are making insane profits; we need to reverse that trend.  We also need to modernize our healthcare systems, using the best technologies and approaches to reduce costs.   We need to be smarter about how we deliver healthcare. We can save money and improve outcomes in rural healthcare by using a mix of telehealth and in-home monitoring devices and technologies to serve patients better because of the distances and lack of facilities available in rural areas.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "One is the crisis of Missing and Murdered Indigenous Women within the reservations in our state.  This is a serious moral crisis in our state, and as Montanans we should all be concerned about it.  There are moves being done in the right direction, with more federal resources being directed to this issue, but we really need to speed it up.  As a Congressman, I would like to work on getting everyone around the same table at the same time and figuring this thing out.  Related to this, is sex and labor trafficking, which is not just limited to the tribal lands.  We need to devote more resources to this issue.  I would like to see the creation of elite task forces that are dedicating to destroying sex and labor trafficking rings in this state.  I want sex and human traffickers to fear coming into Montana.  This has to be a joint effort between federal, state, tribal, and local authorities, and it is something worth spending money on.   Let’s quit wasting money on bombs in the Middle East, and start taking care of each other here in Montana.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "I’ve looked at Ezra Klein’s work on this issue in his book “Abundance” and can speak to some of the issues he raises.  First off, the regulatory environment in America has gotten out of hand, and it takes too long and is too expensive to build houses when compared to other countries.  We need to streamline that process if we want to get serious about this issue.   Second, we are going to have to understand that if we increase the housing stock, it is going to lower equity for homeowners, so we need to make sure that people are okay with that.  On affordability, we need deep structural change in our economic system.  The top 10% hold 66% of the National Net Worth; the bottom 50% only hold 4%.  We need to change that dynamic.  I am in favor of exploring options like wage subsidies and universal basic income in order to change this dynamic.  We should also look at things like sovereign wealth funds which countries like Saudi Arabia and Norway have to ensure that the People benefit from economic productivity gains.  We must put an end to excessive financial speculation and insane income inequality in America.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "Here are big things I would do right off the bat for Montana if elected: (1) repeal the Canadian tariffs: (2) Mandatory country of origin labelling: (3) Right to repair, and (4) Restore Medicaid funding and the ACA subsidies. Beyond that, if I am elected, it would be my intention to be a very accessible Congressional representative. I would do in-person townhalls at every Congressional recess, and I would do as many zoom townhalls with different groups as I could when in D.C.  I wouldn’t censor people and would make myself available to people who want to criticize and yell at me, just as much as those who might like what I’m doing. I would try to do weekly press gaggles as well, where outlets like Montana Free Press could beat up on me in public and make me look stupid.  I am also interested in exploring the use of digital technologies (such as the creation of an app), which would allow verified, registered voters to track what I’m doing, what I’m working on, and do things like create polls on certain issues, so that I could gauge public sentiment in real time.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-2",
+    "raceDisplayName": "U.S. House District 2 (East)",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "JOHN B DRISCOLL",
+        "party": "D",
+        "votes": 13317,
+        "isWinner": true,
+        "votePercent": 0.3331165420116567
+      },
+      {
+        "candidate": "STEVE HELD",
+        "party": "D",
+        "votes": 10583,
+        "isWinner": false,
+        "votePercent": 0.2647272181504365
+      },
+      {
+        "candidate": "MING CABRERA",
+        "party": "D",
+        "votes": 8341,
+        "isWinner": false,
+        "votePercent": 0.2086449708582435
+      },
+      {
+        "candidate": "KEVIN HAMM",
+        "party": "D",
+        "votes": 7736,
+        "isWinner": false,
+        "votePercent": 0.1935112689796633
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

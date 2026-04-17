@@ -1,0 +1,196 @@
+{
+  "slug": "matt-rains",
+  "displayName": "Matt Rains",
+  "lastName": "Rains",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "H6MT01129",
+  "campaignWebsite": "https://www.mattrainsformontana.com",
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-1",
+  "raceDisplayName": "U.S. House District 1 (West)",
+  "opponents": [
+    {
+      "slug": "russell-cleveland",
+      "displayName": "Russell Cleveland",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "matt-rains",
+      "displayName": "Matt Rains",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "ryan-busse",
+      "displayName": "Ryan Busse",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-forstag",
+      "displayName": "Sam Forstag",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "al-doc-olszewski",
+      "displayName": "Al 'Doc' Olszewski",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "aaron-flint",
+      "displayName": "Aaron Flint",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "christi-jacobsen",
+      "displayName": "Christi Jacobsen",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "ray-curtis",
+      "displayName": "Ray Curtis",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "nick-sheedy",
+      "displayName": "Nick Sheedy",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "kimberly-a-persico",
+      "displayName": "Kimberly A  Persico",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Ryan Busse",
+      "party": "D",
+      "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
+      "candidateId": "H6MT01145",
+      "totalReceipts": 530043.18,
+      "totalDisbursments": 161897.79,
+      "cashOnHand": 368145.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Aaron Flint",
+      "party": "R",
+      "candidateCommitteeName": "FLINT FOR MONTANA",
+      "candidateId": "H6MT01152",
+      "totalReceipts": 453652.78,
+      "totalDisbursments": 24253.33,
+      "cashOnHand": 429399.45,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Russell Cleveland",
+      "party": "D",
+      "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+      "candidateId": "H6MT01103",
+      "totalReceipts": 325863.85,
+      "totalDisbursments": 260761.57,
+      "cashOnHand": 65102.28,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christi Jacobsen",
+      "party": "R",
+      "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+      "candidateId": "H6MT01160",
+      "totalReceipts": 260061,
+      "totalDisbursments": 6673.61,
+      "cashOnHand": 253387.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Matt Rains",
+      "party": "D",
+      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+      "candidateId": "H6MT01129",
+      "totalReceipts": 113774.15,
+      "totalDisbursments": 67362.72,
+      "cashOnHand": 46411.43,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Forstag",
+      "party": "D",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "ran is the world’s leading state sponsor of terrorism and we must put an end to Iran’s nuclear enrichment capability, never allow them to develop a nuclear weapon, stop their sponsorship of terrorism and halt their ballistic missile development, but this war is not the answer.\nI served in Iraq, and have seen the consequences of an ill-thought out and misguided war. President Trump has not been honest with the American public about his war in Iran. He has failed to articulate his justification for putting American Service Members in harm’s way, and changes the objective nearly every day. He is ignoring military experts and has no plan.\nNow, we are all paying the cost. American service members are dying. The price of gasoline and fertilizer are skyrocketing, and we are spending over a billion dollars a day on this war, all while President Trump cuts Medicaid, forces rural hospitals to close and strips Montanans of their health care.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Our healthcare system is broken and this administration’s devastating Medicaid cuts to pay for tax breaks for the wealthiest mean that rural hospitals and health clinics have been put on the chopping block. I myself am 45 minutes from the nearest emergency room. The lack of services in rural areas is a crisis, and one that disproportionately impacts our Tribal communities. Congress needs to protect and fully fund Critical Access Hospitals operating on razor-thin margins and expand loan repayment programs to recruit and retain doctors, nurses, and providers in rural and Tribal communities that have gone without long enough.\nBut rural hospitals can't survive if their patients can't afford to be patients. That's why I'll fight to make expanded ACA premium tax credits permanent, expand the number of prescription drugs Medicare can negotiate on, and extend Medicare to cover dental, vision, and hearing. I'll fight to stop Wall Street private equity from buying up rural hospitals, stripping them for profit, and leaving communities with nothing. Meanwhile, I'll fight to outlaw insurance companies from using AI to deny coverage decisions — because Montanans deserve a healthcare system that answers to patients, not profits.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "As a fourth-generation Montana rancher and former Chief of Staff for the Montana Farmers Union, I know ag families are the backbone of our state. I helped create a USDA-certified meat-processing co-op so producers could keep more of their hard-earned money and put it back into their communities. In Congress, I'll fight to give small processors a fighting chance, require country of origin labeling so Montanans always know where their beef is from, and pass right-to-repair so when a tractor breaks at harvest, a farmer can fix their own equipment without waiting weeks for a corporate technician.\nMontana is losing its next generation. Young Montanans are being priced out by lack of opportunity and a false choice between expensive degrees and leaving the state. Apprenticeships and trade schools offer a better path. They let Montanans work from day one without crushing tuition debt and into jobs averaging more than $60,000 a year. I'll fight to expand federal investment in apprenticeships and career and technical education so every young Montanan has a real path to a good-paying job right here at home. But a good job only keeps people here if they can afford a place to live.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "Montana home prices have risen more than 60% in the last five years. Hard-working families are being priced out of communities they've lived in for generations, and Wall Street is making it worse. Corporate investors are buying up single-family homes, driving up prices, and turning Montana neighborhoods into profit centers. I'll fight to pass the Stop Wall Street Landlords Act to end the tax breaks that subsidize this practice and put those homes back in the hands of Montana families — this is one issue where even this administration agrees.\nBut stopping the bleeding isn't enough. We need to build more housing. I'll fight for federal incentives for affordable housing construction tailored to each community's needs, and expand first-time homebuyer tax credits so that when a young Montanan is ready to put down roots, they can actually afford to.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "I’m not a career politician and I’m not who either party in Washington has picked for this seat. That’s because I’m going to fight for our way of life no matter what and I’ll stand up to anyone who will continue to make life harder for our community.\nMontana is a unique and special place. My family ranch has been part of the landscape since the 1800s. My roots here run damn deep. And now our way of life is under attack. Families can’t afford homes. Every young Montanan who grew up here like me deserves to stay here. We’re losing the next generation of Montanans to an affordability crisis. All while this administration and our current federal delegation watch as their tariffs target our ranchers and farmers who are doing everything they can just to get by.\nI swore an oath to my country when I was 18 years old, I flew Blackhawk helicopters and served in Iraq and I’ve been serving ever since. Corporate interests, billionaires, millionaires, and corrupt out-of-touch politicians have decided that they get to make the rules. And I’m standing up to that. That’s what this campaign is about.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-1",
+    "raceDisplayName": "U.S. House District 1 (West)",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "MONICA TRANEL",
+        "party": "D",
+        "votes": 59192,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

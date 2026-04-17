@@ -1,0 +1,57 @@
+{
+  "slug": "david-sanders",
+  "displayName": "David Sanders",
+  "lastName": "Sanders",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "R",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "psc-5",
+  "raceDisplayName": "Public Service Commission (Seat 5)",
+  "opponents": [
+    {
+      "slug": "david-sanders",
+      "displayName": "David Sanders",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "annie-bukacek",
+      "displayName": "Annie Bukacek",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "joe-dooling",
+      "displayName": "Joe Dooling",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kevin-hamm",
+      "displayName": "Kevin Hamm",
+      "summaryLine": null,
+      "party": "D"
+    }
+  ],
+  "coverage": [],
+  "finance": null,
+  "questionnaire": {
+    "hasResponses": false,
+    "responses": []
+  },
+  "primaryResults": {
+    "race": "psc-5",
+    "raceDisplayName": "Public Service Commission (Seat 5)",
+    "party": "R",
+    "resultsTotal": null
+  }
+}

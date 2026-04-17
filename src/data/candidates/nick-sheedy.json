@@ -1,0 +1,203 @@
+{
+  "slug": "nick-sheedy",
+  "displayName": "Nick Sheedy",
+  "lastName": "Sheedy",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "L",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-1",
+  "raceDisplayName": "U.S. House District 1 (West)",
+  "opponents": [
+    {
+      "slug": "russell-cleveland",
+      "displayName": "Russell Cleveland",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "matt-rains",
+      "displayName": "Matt Rains",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "ryan-busse",
+      "displayName": "Ryan Busse",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-forstag",
+      "displayName": "Sam Forstag",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "al-doc-olszewski",
+      "displayName": "Al 'Doc' Olszewski",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "aaron-flint",
+      "displayName": "Aaron Flint",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "christi-jacobsen",
+      "displayName": "Christi Jacobsen",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "ray-curtis",
+      "displayName": "Ray Curtis",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "nick-sheedy",
+      "displayName": "Nick Sheedy",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "kimberly-a-persico",
+      "displayName": "Kimberly A  Persico",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Ryan Busse",
+      "party": "D",
+      "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
+      "candidateId": "H6MT01145",
+      "totalReceipts": 530043.18,
+      "totalDisbursments": 161897.79,
+      "cashOnHand": 368145.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Aaron Flint",
+      "party": "R",
+      "candidateCommitteeName": "FLINT FOR MONTANA",
+      "candidateId": "H6MT01152",
+      "totalReceipts": 453652.78,
+      "totalDisbursments": 24253.33,
+      "cashOnHand": 429399.45,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Russell Cleveland",
+      "party": "D",
+      "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+      "candidateId": "H6MT01103",
+      "totalReceipts": 325863.85,
+      "totalDisbursments": 260761.57,
+      "cashOnHand": 65102.28,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christi Jacobsen",
+      "party": "R",
+      "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+      "candidateId": "H6MT01160",
+      "totalReceipts": 260061,
+      "totalDisbursments": 6673.61,
+      "cashOnHand": 253387.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Matt Rains",
+      "party": "D",
+      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+      "candidateId": "H6MT01129",
+      "totalReceipts": 113774.15,
+      "totalDisbursments": 67362.72,
+      "cashOnHand": 46411.43,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Forstag",
+      "party": "D",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "The War Powers Resolution of 1973 should be strengthened so that the President cannot engage in war without Congress declaring war, as prescribed by the US Constitution.  Moreover, I would advocate to reform the organization of the National Guard and ensure that our national guardsmen are not called into federal service or deployed for foreign wars except for the purposes clearly stated in the US Constitution -- to execute the laws of the union, suppress insurrections and repel Invasions.  The constitutional power to call forth the militia for federal service is vested in Congress -- not the President.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "While federal laws and policies should not hinder healthcare services to rural areas, I am not sure the federal government has or should have a significant role to play when it comes to local hospitals and clinics – except for federally-operated resources like VA hospitals and clinics that serve our veterans.  I believe that the best way for Congress to improve access to healthcare generally would be to lower the regulatory burden, which artificially restricts the supply of healthcare providers.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "I believe that the \"Montana Plan\" to limit corporate influence in elections and our voter registration system that does not have voters declare a party affiliation can be good models for improving our election system across the country.\n\nI would like to see federal legislation pass that nullifies the 2012 Supreme Court decision in American Tradition Partnership v. Bullock that struck down Montana’s century-old 1912 Corrupt Practices Act.  I would also like to see federal legislation pass that nullifies the Supreme Court's 2010 decision in Citizens United v. Federal Election Commission by limiting all financial contributions to political campaigns and committees to persons who are eligible to vote in the United States.  Corporations obviously cannot and should not enjoy all of the natural or constitutional rights, privileges and immunities that a natural person has -- for instance, corporations and unions do not have a right to life because they are not alive, and they cannot register to vote.  It is absurd that corporations and unions should be recognized as persons with First Amendment rights to free speech that allows them to make unlimited expenditures to influence elections.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "The most important thing that federal officeholders can do to address home ownership and cost of living in Montana and across the country is monetary reform that does not allow the value of our currency to be eroded continually.  We should end the Federal Reserve and the federal banking cartel that has destroyed the value of the US Dollar with continual inflationary policies, money-supply controls and interest rate manipulation.  The US Constitution grants Congress the exclusive authority to coin money, regulate the value of money in the United States, and regulate the value of foreign money.  Congress cannot divest itself of a constitutional power or delegate this authority to any other branch of government, much less a quasi-public entity with very little accountability to Congress or the American people.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "As a Libertarian, I am not beholden to my party or my party leadership.  My only obligations would be to my constituents, my oath to uphold the US Constitution, and my own conscience.  I would have an advantage in a Congress that is primarily controlled by two dinosaur parties, which largely serve their own ambition for power and control.  This would place me in a favorable position to curry favor when votes on legislation may be tight, to influence legislation and other members of Congress, and to advocate for my constituents in Montana.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-1",
+    "raceDisplayName": "U.S. House District 1 (West)",
+    "party": "L",
+    "resultsTotal": [
+      {
+        "candidate": "DENNIS HAYES",
+        "party": "L",
+        "votes": 379,
+        "isWinner": true,
+        "votePercent": 0.6523235800344234
+      },
+      {
+        "candidate": "ERNIE NOBLE",
+        "party": "L",
+        "votes": 202,
+        "isWinner": false,
+        "votePercent": 0.3476764199655766
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

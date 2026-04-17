@@ -1,0 +1,175 @@
+{
+  "slug": "sam-lux",
+  "displayName": "Sam Lux",
+  "lastName": "Lux",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "H6MT02143",
+  "campaignWebsite": "https://luxformontana.com",
+  "campaignFB": "https://www.facebook.com/profile.php?id=61578387818006",
+  "campaignTW": "https://x.com/luxformontana",
+  "campaignIG": "https://www.instagram.com/luxformontana/",
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-2",
+  "raceDisplayName": "U.S. House District 2 (East)",
+  "opponents": [
+    {
+      "slug": "brian-j-miller",
+      "displayName": "Brian J Miller",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-lux",
+      "displayName": "Sam Lux",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "troy-downing",
+      "displayName": "Troy Downing",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "patrick-mccracken",
+      "displayName": "Patrick Mccracken",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-d-eisenhauer",
+      "displayName": "Michael D Eisenhauer",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Troy Downing",
+      "party": "R",
+      "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
+      "candidateId": "H4MT02098",
+      "totalReceipts": 1633759.13,
+      "totalDisbursments": 1299370.16,
+      "cashOnHand": 445919.47,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael D Eisenhauer",
+      "party": "I",
+      "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
+      "candidateId": "H6MT02168",
+      "totalReceipts": 208448.87,
+      "totalDisbursments": 74738.17,
+      "cashOnHand": 133710.7,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Brian J Miller",
+      "party": "D",
+      "candidateCommitteeName": "MILLER FOR CONGRESS",
+      "candidateId": "H6MT02150",
+      "totalReceipts": 15220.25,
+      "totalDisbursments": 9389.55,
+      "cashOnHand": 1820.79,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Lux",
+      "party": "D",
+      "candidateCommitteeName": "LUX FOR MONTANA",
+      "candidateId": "H6MT02143",
+      "totalReceipts": 8255.17,
+      "totalDisbursments": 7577.94,
+      "cashOnHand": 854.18,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Patrick Mccracken",
+      "party": "L",
+      "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+      "candidateId": "H6MT02176",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "It should absolutely be enforced. As stated in Article I, Section 8 of the U.S. Constitution, the legislative branch has the sole power to declare war. No President, regardless of political affiliation, should be allowed to put the lives of our servicemen and servicewomen at risk, destabilize global relations, and damage our economy unilaterally. Not only is it unconstitutional, but such a consequential decision, which should never be taken lightly, should by necessity require the input of the peoples Representative's.\n\nThe only revision I would support of the War Powers Act would be to increase Congresses ability to protect our troops more swiftly from unauthorized and illegal military actions.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "I am a proponent of the extreme need we have in Montana to increase investment into rural infrastructure. One of the most pressing is to address the healthcare deserts in Eastern Montana and beyond.\n\nCongress can do two things right away to immediately address this issue. The first is to fund rural primary care facilities that can provide basic health services to a wider range of rural communities. I firmly believe that the cost of investing in these smaller facilities and staffing them will be a net positive for not only these communities, but the nation as a whole, as increased access to even basic care would decrease the number of severe and debilitating conditions that often go unchecked.\n\nThe second thing, and a major component of my campaign, is to aggressively audit and relocate unnecessary subsidies paid to privatized health insurance and pharmaceutical companies towards a single payer healthcare system that can reduce the cost of providing care for all our communities.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "The hot topic of today is data centers. We have seen what they have done in other states, driving up utility rates, draining local water supplies, and polluting the communities they go into. It will be a priority of mine to radically crack down on this largely unregulated industry and ensure the same does not happen here in Montana. I support a short term moratorium on new data center construction, while we pass legislation to ban open loop data center, require any new construction to invest in a minimum of 115% of their expected power consumption in renewable energy, and create a new tax bracket for these largely automated industries that will mandate that those funds go to local communities infrastructure, education, and workforce development\n\nAdditionally, I think a lot of Montana's other unique challenges can all be solved by the introduction of a comprehensive Rural Infrastructure Bill, to help us address aging water systems like the Milk River, increase grants for public transit between smaller towns, and provide subsidies for critical infrastructure development in our agrarian communities to address the food and healthcare deserts that make life harder for Montanans.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "I think we can all agree that housing is a major concern for almost every Montanan these days. Costs are going up, and we can't afford it. \n\nI will aggressively pursue legislation to change how grant and subsidy programs for new housing are issued so that they prioritize building affordable homes and incentivize their sale to residents of the state over out of staters.\n\nWe need to make sure that when homes are built using federal grant money, they are being built to meet the market demand of LOCAL communities.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "I won't speak to the actions of others, but I will promise that I will be here, in Montana, in the Eastern District, and accessible and accountable to each and every one of my neighbors from Helena to Sidney and everywhere in between.\n\nMost importantly, I won't tell communities what I think they need. I will listen to what the people I am supposed to represent tell me they need, and then I will work tirelessly to make it happen for them.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-2",
+    "raceDisplayName": "U.S. House District 2 (East)",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "JOHN B DRISCOLL",
+        "party": "D",
+        "votes": 13317,
+        "isWinner": true,
+        "votePercent": 0.3331165420116567
+      },
+      {
+        "candidate": "STEVE HELD",
+        "party": "D",
+        "votes": 10583,
+        "isWinner": false,
+        "votePercent": 0.2647272181504365
+      },
+      {
+        "candidate": "MING CABRERA",
+        "party": "D",
+        "votes": 8341,
+        "isWinner": false,
+        "votePercent": 0.2086449708582435
+      },
+      {
+        "candidate": "KEVIN HAMM",
+        "party": "D",
+        "votes": 7736,
+        "isWinner": false,
+        "votePercent": 0.1935112689796633
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}

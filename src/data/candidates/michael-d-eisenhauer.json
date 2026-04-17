@@ -1,0 +1,145 @@
+{
+  "slug": "michael-d-eisenhauer",
+  "displayName": "Michael D Eisenhauer",
+  "lastName": "Eisenhauer",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "I",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "H6MT02168",
+  "campaignWebsite": "https://eisenhauerforcongress.com",
+  "campaignFB": "https://www.facebook.com/profile.php?id=61586057669240",
+  "campaignTW": "https://x.com/EisenhauerMT2",
+  "campaignIG": "https://www.instagram.com/eisenhauerforcongress/",
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-2",
+  "raceDisplayName": "U.S. House District 2 (East)",
+  "opponents": [
+    {
+      "slug": "brian-j-miller",
+      "displayName": "Brian J Miller",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-lux",
+      "displayName": "Sam Lux",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "troy-downing",
+      "displayName": "Troy Downing",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "patrick-mccracken",
+      "displayName": "Patrick Mccracken",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-d-eisenhauer",
+      "displayName": "Michael D Eisenhauer",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Troy Downing",
+      "party": "R",
+      "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
+      "candidateId": "H4MT02098",
+      "totalReceipts": 1633759.13,
+      "totalDisbursments": 1299370.16,
+      "cashOnHand": 445919.47,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael D Eisenhauer",
+      "party": "I",
+      "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
+      "candidateId": "H6MT02168",
+      "totalReceipts": 208448.87,
+      "totalDisbursments": 74738.17,
+      "cashOnHand": 133710.7,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Brian J Miller",
+      "party": "D",
+      "candidateCommitteeName": "MILLER FOR CONGRESS",
+      "candidateId": "H6MT02150",
+      "totalReceipts": 15220.25,
+      "totalDisbursments": 9389.55,
+      "cashOnHand": 1820.79,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Lux",
+      "party": "D",
+      "candidateCommitteeName": "LUX FOR MONTANA",
+      "candidateId": "H6MT02143",
+      "totalReceipts": 8255.17,
+      "totalDisbursments": 7577.94,
+      "cashOnHand": 854.18,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Patrick Mccracken",
+      "party": "L",
+      "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+      "candidateId": "H6MT02176",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "I believe strongly in the principles of constitutional governance, accountability, and adherence to the rule of law. In that context, the War Powers Resolution of 1973 (WPA) should be enforced. The WPA is federal law designed to limit the President's authority to wage war without congressional authorization, requiring the president to notify Congress within 48 hours of deploying troops and limiting engagement to 60 days unless Congress authorizes longer action. By law, the President must also provide a full account of the “circumstances under which such hostilities were initiated, the estimated scope and duration of such hostilities, and the constitutional and legislative authority under which the introduction of hostilities took place.” I believe that that no branch of government should act unilaterally in matters as serious as war, and existing laws designed to preserve that balance should be upheld and improved rather than ignored.\n\n     If there are concerns about ambiguity or lack of compliance, the priority would not be to discard the law but to strengthen or clarify it so that its requirements are more explicit and enforceable.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Montana’s critical-access and rural healthcare system must be maintained. As a Cardiologist, I know that delays of even an hour in the care for emergencies such as a heart attack or stroke can mean the difference between life and death.\n\n     That said, 20% of our economy is now spent on healthcare, which is unsustainable. Millions of Americans are now seeing their health insurance costs increasing disproportionately because of the One Big Beautiful Bill (OBBB), which also canceled Medicaid support and eliminated subsidies. About 2/3 of Montana Medicaid recipients reside in rural areas. There is no question that the OBBB directly threatens the ability for Montana’s 47 rural health facilities to remain financially viable (or maintain current service levels).\n\n     An Independent Representative can think out of the box in ways that differ from others who are constrained by party dogma. Any successful effort must first protect the ability to see the doctor of your choice, and must retain coverage for preexisting conditions. I do not think a single-payer system will work. Above all else, I will fight hard to protect rural healthcare in Montana, because I believe in it and know what it does.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "The Montana Plan:  I strongly support the Transparent Election Initiative (TEI) that aims to ban corporations from “dark money” spending money on elections or ballot issues, and is intended to counter the effects of Citizens United.  The broader TEI also increases transparency, and improves confidence in the electoral system by returning more control back to citizen voters.\n•  If elected, I will champion the Montana Plan in Congress!\n\n   Family Farms and Ranches underpin Montana’s economy, our national security, and our way of life.  Due to blunders in trade policy and consolidation at every level of the industry, we face a perfect storm; our federal government too often underwrites multi-national corporations at the expense of family farmers.  \n•  Conventional short-term bailouts do not help; we need long-term solutions.\n•  The sale of agricultural lands or assets to foreign and large multi-national corporate entities must be curtailed.\n•  We must address the lack of competition for input suppliers (equipment, seed and fertilizer, etc.); this will very likely require significant anti-trust legislation and legal enforcement.\n•  Congress must take back control over tariffs and trade policy.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "When comparing average income to Montana’s average home price, we have the single least affordable market in the nation.  Fixing this housing crisis will require an “all of the above solution”:\n\n•\tEnact new laws that will allow all mortgages to be transferable with minimal penalty, thereby freeing up home equity\n•\tTax incentives to municipalities (and builders) to open larger tracts of land for development and remove barriers to multi-family housing in residential areas.\n•\tEnforce antitrust laws against real estate entities that are “price-fixing” rents\n•\tSignificant down-payment assistance to 1st-time homebuyers\n•\tProperty tax relief to qualified homeowners, and to 1st-time homebuyers for the first 3 years\n•\tTargeted reductions in capital gains taxes for older homeowners who want to downsize\n•\tImprove financing terms (rate adjustments or subsidies) for qualified purchase/rehab/repair loans\n•\tPrioritize offers from buyers at foreclosure auctions who plan to live in the home \n•\tIncrease property tax rates for corporate or large-volume private-equity landlords (this will require these increases are not passed through to individual renters)\n•\tReduce tariffs on lumber and building supplies\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "I am not a typical politician; my thinking is framed as moving away from a traditional political or ideological approach, to a less partisan one grounded in professional expertise, public service, and practical problem-solving – along with a strong emphasis on accountability, constitutional principles, and real-world outcomes. \n\n   My career as a physician and longtime senior military officer has given me significant experience in making high-stakes decisions under pressure, using an evidence- or merit-based approach to decision making while maintaining a focus on patient (constituent) well-being.\n\n   Leading with anger or combativeness is not effective – there is far too much vitriol in today’s politics. I am offering a less partisan and more pragmatic approach to representation as an ‘adult in the room’ so-to-speak, while working to reduce political polarization by collaborating with others from both sides of the aisle who can put the needs of the people above party.\n\n   As an Independent Representative, I will align my votes with Montanans’ needs or desires, and will not be beholden to either party bosses or political elites. I won’t wait for others to tell me what to do or how to vote.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-2",
+    "raceDisplayName": "U.S. House District 2 (East)",
+    "party": "I",
+    "resultsTotal": null
+  }
+}

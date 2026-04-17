@@ -1,0 +1,229 @@
+{
+  "slug": "seth-bodnar",
+  "displayName": "Seth Bodnar",
+  "lastName": "Bodnar",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "I",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "S6MT00287",
+  "campaignWebsite": "https://www.sethformontana.com",
+  "campaignFB": null,
+  "campaignTW": "https://x.com/SethBodnar",
+  "campaignIG": "https://www.instagram.com/sethbodnar/",
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-hummert",
+      "displayName": "Michael Hummert",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "michael-black-wolf",
+      "displayName": "Michael Black Wolf",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "reilly-neill",
+      "displayName": "Reilly Neill",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "lee-calhoun",
+      "displayName": "Lee Calhoun",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "christopher-kehoe",
+      "displayName": "Christopher Kehoe",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "charles-walking-child",
+      "displayName": "Charles Walking Child",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "party": "I",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 1358574.95,
+      "totalDisbursments": 213586.76,
+      "cashOnHand": 1144988.19,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "party": "R",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 924643.51,
+      "totalDisbursments": 15686.66,
+      "cashOnHand": 908956.85,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "party": "L",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 262094.97,
+      "totalDisbursments": 226081.96,
+      "cashOnHand": 36013.01,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "party": "D",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 15240.06,
+      "totalDisbursments": 5775,
+      "cashOnHand": 10625.06,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 13598,
+      "totalDisbursments": 4922.16,
+      "cashOnHand": 8675.84,
+      "coverageEndDate": "2025-12-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael Hummert",
+      "party": "D",
+      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
+      "candidateId": "S4MT00217",
+      "totalReceipts": 10900,
+      "totalDisbursments": 3125,
+      "cashOnHand": 8519.73,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Charles Walking Child",
+      "party": "R",
+      "candidateCommitteeName": "CHARLES WALKINGCHILD",
+      "candidateId": "S4MT00209",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christopher Kehoe",
+      "party": "D",
+      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
+      "candidateId": "S6MT00303",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Tom Jandron",
+      "party": "L",
+      "candidateCommitteeName": "JANDRON 4 US SENATE",
+      "candidateId": "S6MT00311",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "As someone who served this nation in combat, I know firsthand the gravity of sending America’s sons and daughters to war. It is the Constitutional responsibility of Congress to declare war, and Congress needs to do its job. Congress is a coequal branch of government to the Executive, but because of the partisan warfare infecting Washington, members of Congress are more interested in serving their party than they are in living up to their Constitutional responsibilities. As a result, members of Congress are ceding far too much power to the executive branch. \n\n\nI’m running as an Independent because our political system has been broken by party elites who care more about trading power back and forth than doing what’s right for Montana or the American people.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Our rural hospitals are a lifeline to communities across Montana, but politicians in Washington, DC are making it harder for them to serve folks in rural America. The recent budget bill, which passed on a partisan, party-line vote, will kick more than 30,000 Montanans off their healthcare and cause our rural hospitals to lose more than $5 billion in critical resources, all to pay for tax cuts to the wealthiest Americans. That is Washington working for the wealthy and connected, while leaving families in our state out in the cold. That’s unacceptable.  \n\n\nAs an Independent, I will work with Senators from all sides to build commonsense solutions that will give our rural hospitals the resources they need to serve communities across our state. I will also support telehealth expansion and rural healthcare workforce incentives to close the access gap in underserved communities and get more doctors and nurses into rural communities. I will oppose any attempt  to cut resources to our state’s critical access hospitals, and I will defend Medicaid Expansion and oppose reckless cuts that would strip coverage from working Montanans.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "Montana farmers and ranchers feed the world, and we need to have their back. We need commonsense trade policy that protects critical industries and opens key markets, not a chaotic, ever-changing tariff policy that drives up costs, crushes export markets, and creates instability for our producers and small businesses. Tariffs should be used as tools, not toys. I will reassert Congress's authority and push back when the careless use of tariffs hurts hard-working Montanans. \n\nThe Sentinel missile program is a multibillion dollar program to modernize our nation's nuclear deterrent. I will fight to ensure the Sentinel project uses Union Montana workers - not out-of-state contractors- and that the surrounding communities benefit from the economic activity, with proper infrastructure support.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "Housing affordability is a challenge facing Montanans at every stage of their lives. The average age of a first-time home buyer in Montana has gone up by nearly a decade, and many of our young people cannot afford to buy a home in the community where they grew up. And I recently heard from a retiree at one of our events in Helena that she will soon have to spend nearly 75% of our Social Security check (her only source of income) just to pay her rent. She’s likely to be forced to move. The current situation is unacceptable. If you’re willing to show up and put in a hard day’s work, you should be able to put a roof over your family’s head. \n\n\nThe answer is clear: we need to build more houses. We can start by cutting red tape, using incentives in the tax code, and fixing supply chain issues that make it harder to build new, affordable homes. And we need to put rules in place that prevent big private equity firms from buying up huge numbers of single-family homes. \n\n\nPossible solutions are there, but we need to fix the partisan gridlock of our broken political system and actually get things done for Montana families. Congress needs to spend less time fighting with each other and actually get to work addressing this issue.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "I’ve spent my entire career leading institutions that are supposed to serve people – and I know the difference between an institution that’s fulfilling its mission and one that’s been captured by the people running it. As a Green Beret, you learn fast that rank and title mean little if you’re not actually serving the mission and the people beside you. That standard shouldn’t change in the Senate. \n\nMontanans deserve an Independent Senator that is not beholden to political insiders in DC and who knows that the people of Montana are his boss, not party leaders. That's the main difference between me and my Republican opponent. He was handed the Republican nomination through an insider deal orchestrated by party elites, and that’s who he’ll work for if elected. When I’m elected, I’ll work each and every day to serve the people of this great state. \n\nWashington doesn’t need more politicians who know how to game the system. It needs people who are focused on fixing it.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "I",
+    "resultsTotal": null
+  }
+}

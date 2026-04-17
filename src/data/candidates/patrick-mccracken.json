@@ -1,0 +1,145 @@
+{
+  "slug": "patrick-mccracken",
+  "displayName": "Patrick Mccracken",
+  "lastName": "Mccracken",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "L",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": "H6MT02176",
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-2",
+  "raceDisplayName": "U.S. House District 2 (East)",
+  "opponents": [
+    {
+      "slug": "brian-j-miller",
+      "displayName": "Brian J Miller",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-lux",
+      "displayName": "Sam Lux",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "troy-downing",
+      "displayName": "Troy Downing",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "patrick-mccracken",
+      "displayName": "Patrick Mccracken",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-d-eisenhauer",
+      "displayName": "Michael D Eisenhauer",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Troy Downing",
+      "party": "R",
+      "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
+      "candidateId": "H4MT02098",
+      "totalReceipts": 1633759.13,
+      "totalDisbursments": 1299370.16,
+      "cashOnHand": 445919.47,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael D Eisenhauer",
+      "party": "I",
+      "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
+      "candidateId": "H6MT02168",
+      "totalReceipts": 208448.87,
+      "totalDisbursments": 74738.17,
+      "cashOnHand": 133710.7,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Brian J Miller",
+      "party": "D",
+      "candidateCommitteeName": "MILLER FOR CONGRESS",
+      "candidateId": "H6MT02150",
+      "totalReceipts": 15220.25,
+      "totalDisbursments": 9389.55,
+      "cashOnHand": 1820.79,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Lux",
+      "party": "D",
+      "candidateCommitteeName": "LUX FOR MONTANA",
+      "candidateId": "H6MT02143",
+      "totalReceipts": 8255.17,
+      "totalDisbursments": 7577.94,
+      "cashOnHand": 854.18,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Patrick Mccracken",
+      "party": "L",
+      "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+      "candidateId": "H6MT02176",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Congress has always had the power to declare war and the power of the purse. They don't use either. War pays. Incentives matter.\n\nPresidents deploy forces in language carefully chosen to avoid triggering the constraints Congress wrote for itself - and Congress lets them, because enforcing those constraints would mean owning the consequences.\n\nWe have to make war a personal decision, not a financial one. Right now, it is a calculation of convenience for people whose own children may not be at risk.\n\nI will bring a bill to the House that drafts the sons and daughters of the President, Cabinet members, Senators, and Congresspeople first.\n\nCall it the \"Send Baron Act.\"\n\nOur country's leadership needs its incentives aligned with the citizens it purports to serve.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "There is no free market anywhere near American healthcare. It is managed pricing, managed access, and managed scarcity — and the people managing it are not the patients or the doctors. That's not a solution. That's a hostage situation.\n\nWe pay hospitals by the patient. When there aren't enough patients over a large area, it doesn't pencil. We pay fire departments to be on standby — not hospitals. Fee for service doesn't work when there aren't enough fees.\n\n52 of our 56 counties are medically underserved. Medicaid expansion is the single biggest thing keeping the lights on in rural Montana healthcare. Governor Gianforte signed HB 245 removing the sunset on the state's funding portion. Our delegation needs to protect the federal side — full stop.\n\nFix what made us this dependent. Start with price transparency — the bills exist. The House passed the Lower Costs, More Transparency Act 320-71. The PRICE Transparency Act is in committee now. The votes are there. The will to finish is not. I intend to provide it. Price transparency is the first step on a long journey.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "First: data centers. NorthWestern Energy has agreements to supply over 1,400 megawatts to data centers — nearly doubling Montana's electrical demand for minimal jobs. The PSC ruled the contracts don't have to be public. The White House got seven tech companies to sign a Ratepayer Protection Pledge, but it has no enforcement and no penalties. The White House asked Congress to codify it. No one has written the bill. I will. Montanans built this grid. Data centers pay full cost or they don't belong here.\n\nSecond: country-of-origin labeling. Four meatpackers control 85% of beef processing. That's a monopoly. The rancher's share of the beef dollar has dropped from 80 cents to 37 cents while consumers pay record prices. The White House launched a voluntary \"Product of USA\" sticker. Voluntary. Meanwhile 80,000 metric tons of Argentine beef entered our market with no mandatory label. A sticker isn't enough. I'll co-sponsor the American Beef Labeling Act and push for mandatory COOL in the Farm Bill.\n\nThese two issues have the same pattern. D.C. offers pledges and stickers. Montanans need good laws out of Washington, not more of the same broken promises.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "Housing in Montana has become unaffordable for the people who live and work here. Wages haven't kept pace, and they won't — because Montanans aren't competing in a housing market anymore. They're competing in an asset market. When the Federal Reserve prints trillions, that money has to go somewhere. It flows into anything that can be financed — homes, rentals, land. Your house isn't a shelter anymore. It's an inflationary asset.\n\nThis is what happens when you let a central bank run monetary policy for the benefit of the monied instead of the people who live and work here. Everything becomes a financial product. Everything goes up in price. That's not a housing crisis — it's a monetary crisis showing up in your mortgage payment.\n\nI'll support the 21st Century ROAD to Housing Act — the Senate passed it 89-10. Banning institutional investors from buying single-family homes is common sense. But it treats the symptom. The disease is cheap money and a Federal Reserve that answers to no one. Fix the money and you fix the speculation. Until then, we're putting band-aids on a bullet wound.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "Troy Downing sits on the House Financial Services Committee — the committee that handles banking law. Montana's cannabis industry did $327 million in sales last year and paid $60 million in state taxes. Our businesses still can't bank normally. The SAFE Banking Act has passed the House seven times. Senator Daines championed it from the Senate — and he's leaving. Sheehy hasn't said a word. Montana has no cannabis banking champion left in its federal delegation. Downing could be that champion tomorrow. He won't.\n\nHe hasn't co-sponsored a single COOL bill. R-CALF called him out by name. He sent a letter asking for \"clarity\" on Argentine beef. Clarity. 27,000 ranches needed a vote, not a letter.\n\nHe lives at the Yellowstone Club. I've worked lifts and banged nails there. He's comfortable in an R+15 district. I'm not comfortable with what that comfort has cost Montana.\n\nI will write the bill to codify the Ratepayer Protection Pledge. I will co-sponsor the American Beef Labeling Act. I will champion SAFE Banking from the committee Downing is sitting in. These aren't hard issues. They require someone willing to do the work for Montana.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-2",
+    "raceDisplayName": "U.S. House District 2 (East)",
+    "party": "L",
+    "resultsTotal": null
+  }
+}

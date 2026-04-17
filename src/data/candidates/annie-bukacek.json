@@ -1,0 +1,70 @@
+{
+  "slug": "annie-bukacek",
+  "displayName": "Annie Bukacek",
+  "lastName": "Bukacek",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "R",
+  "isIncumbent": true,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "psc-5",
+  "raceDisplayName": "Public Service Commission (Seat 5)",
+  "opponents": [
+    {
+      "slug": "david-sanders",
+      "displayName": "David Sanders",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "annie-bukacek",
+      "displayName": "Annie Bukacek",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "joe-dooling",
+      "displayName": "Joe Dooling",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "kevin-hamm",
+      "displayName": "Kevin Hamm",
+      "summaryLine": null,
+      "party": "D"
+    }
+  ],
+  "coverage": [],
+  "finance": null,
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "What should be the PSC's role, if any, in regulating data center development in Montana?",
+        "answer": "The jurisdictional role the PSC has in data center development is scrutinizing the large load tariffs relevant to data centers. This will be scrutinized carefully by PSC staff and commissioners with an eye to ensure that residential and mom and pop businesses will not be saddled with any of the data center’s share of energy generation demand, transmission, integration and service costs, to protect current residential and business users from rate and reliability adverse events.\n\n"
+      },
+      {
+        "question": "How should the PSC approach the NorthWestern/Black Hills Corp. merger?",
+        "answer": "The PSC will approach the merger as it approaches other contested issues that come before the agency. The PSC is currently collecting public comments and prehearing testimony from the parties involved. PSC staff and commissioners use this information to develop questions for the parties during the proposed hearing this May in order to make the evidentiary record as robust as possible. Thereafter, we review the evidence available to us. A staff memorandum and possibly recommendation will be written, and the commissioners will make a decision.\n\n"
+      },
+      {
+        "question": "What is one industry under the PSC's purview that could use more scrutiny than it's currently getting, and what might that increased scrutiny look like?",
+        "answer": "The PSC does its best to scrutinize every company it is tasked with overseeing and every matter that comes before it.  The time we have to do this is usually restricted by law.  The amount of staff hours that can be spent on items is dictated by the staff hours budgeted for us by the Legislature.  We always do our best to prioritize as to the item, financial impact, and relative need.  Commissioners and staff are working for the taxpayer and do not accumulate the expertise that management and workers do in their regulated industries.  The PSC is one of Montana's smallest state agencies.  The PSC could use additional funding to hire industry-related and experienced forensic examiners.  But money is tight, taxes are already high, and we will continue to do the best we can with the resources allocated.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "psc-5",
+    "raceDisplayName": "Public Service Commission (Seat 5)",
+    "party": "R",
+    "resultsTotal": null
+  }
+}
