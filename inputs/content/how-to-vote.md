@@ -1,17 +1,18 @@
 ### When are Montana’s 2026 elections?
 
-Voters picked party nominees for the November general election in the June 2 primary. The November General Election that will decide the ultimate winner in each race is set for Tuesday, Nov. 3.
+Voters will select party nominees for the November general election in the June 2 primary. The November general election that will decide the ultimate winner in each race is set for Tuesday, Nov. 3.
 
 ### Who runs Montana’s elections?
 
-Montana elections are administered at the county level. The process is overseen by county clerks and election administrators, who help to train and monitor the volunteer election judges that staff the polls. Ballots are typically processed and counted at central county locations, with the results reported to the Montana secretary of state’s office via a statewide software system called ElectMT.
+Montana elections are administered at the county level. The process is overseen by county clerks and election administrators, who help to train and monitor the volunteer election judges who staff the polls. Ballots are typically processed and counted at central county locations, with the results reported to the Montana secretary of state’s office via a statewide software system called ElectMT.
 
-Once polls close, the secretary of state’s office provides results through its website. The state-level office also provides guidance to local election administrators to ensure compliance with state election laws. Additionally, enforcing compliance with some laws governing political campaigns, particularly those involving campaign finance, falls to a separate office known as the Commissioner of Political Practices.
+Once polls close, the secretary of state’s office provides results through its website. The state-level office also provides guidance to local election administrators to ensure compliance with state election laws. Enforcing compliance with some laws governing political campaigns, particularly those involving campaign finance, falls to a separate office known as the Commissioner of Political Practices.
+
 
 ### Do I need to be registered in order to vote?
 
 Yes. If you’re unsure about your registration status, you can check it through the [Montana secretary of state's My Voter Page](https://app.mt.gov/voterinfo/).
-You can register to vote by stopping by your county election office any time during regular business hours to pick up an application. After you’ve filled it out, you’ll need to get it back to your county election office by mail or in person (the latter option is strongly recommended close to Election Day to ensure your application is received in time). If you do present your application in person, you’ll have to provide a photo ID or the last four digits of your Social Security number. If you happen to be applying for a Montana driver’s license or identification card before the election, you can register to vote at the same time.
+You can register to vote by stopping by your county election office any time during regular business hours to pick up an application. After you’ve filled it out, you’ll need to get the application back to your county election office by mail or in person (the latter option is strongly recommended close to Election Day to ensure your application is received in time). If you do present your application in person, you’ll have to provide a photo ID or the last four digits of your Social Security number. If you happen to be applying for a Montana driver’s license or identification card before the election, you can register to vote at the same time.
 
 ### Can I register to vote on Election Day?
 
@@ -23,7 +24,7 @@ Yes, you will be required to present identification when voting at the polls. Ho
 
 ### Are there situations where I wouldn't be eligible to vote?
 
-According to state law, you can't vote if you'll be under age 18 on Election Day, are not a U.S. citizen, or have lived in Montana less than 30 days. Convicted felons who are currently incarcerated in a penal facility and people whom judges have ruled to be of "unsound mind" are also ineligible to vote. Otherwise, you're good to go.
+According to state law, you can't vote if you'll be under age 18 on Election Day, are not a U.S. citizen, or have lived in Montana for less than 30 days. Convicted felons who are currently incarcerated in a penal facility and people whom judges have ruled to be of "unsound mind" are also ineligible to vote. Otherwise, you're good to go.
 
 ### Can I vote online?
 
@@ -34,6 +35,8 @@ No, that’s not an option in Montana.
 Yes, you can sign up as an absentee voter by checking a box on your voter registration form. If you’re already registered to vote, you can fill out a separate form and submit it to your county election office.
 
 If you’re registered as an absentee voter, a ballot should be mailed to you a few weeks in advance of each election day. You can make sure your address is current via the [My Voter page](https://app.mt.gov/voterinfo/). County election officials are slated to mail ballots to voters for the November 2026 General Election Oct. 9.
+
+In 2025, legislators passed a law requiring that voters write their year of birth in addition to their signature on the affirmation envelope for their ballot to be accepted. 
 
 You can return ballots by mail, or drop them off in person at your county’s election office. Either way, the election office must receive your ballot by 8 p.m. on Election Day in order to count it.
 
@@ -46,4 +49,4 @@ Yes, you can. The Montana Legislature did make some changes to ballot collection
 
 ### Who should I vote for?
 
-That’s your call, not ours. We hope the information we present on this guide is helpful as you make that decision for yourself, though.
+That’s your call, not ours. We hope the information presented in this guide is helpful as you make your decision.

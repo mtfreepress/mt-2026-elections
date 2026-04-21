@@ -7,7 +7,7 @@
   level: Federal Delegation
   campaignFinanceAgency: fec
   category: us-senate
-  description: One of Montana's two U.S. Senate seats, elected with a statewide vote. Elected to a six-year term.
+  description: One of Montana's two U.S. Senate seats, elected by statewide vote. U.S. senators are elected to six-year terms. The office is without an incumbent following Sen. Steve Daines’ decision not to run for reelection.
   note: 
   candidates:
     - kyle-austin
@@ -27,7 +27,7 @@
   level: Federal Delegation
   campaignFinanceAgency: fec
   category: us-house
-  description: Western Montana representative in Congress. District includes Missoula, Bozeman, Kalispell and Butte. Elected to a two-year term.
+  description: Western Montana’s representative in the U.S. House of Representatives. The Western District includes Missoula, Bozeman, Kalispell and Butte. U.S. representatives are elected to two-year terms. The office is without an incumbent following Rep. Ryan Zinke’s decision not to run for reelection
   note: 
   candidates:
     - russell-cleveland
@@ -46,7 +46,7 @@
   level: Federal Delegation
   campaignFinanceAgency: fec
   category: us-house
-  description: Eastern Montana representative in Congress. District includes Billings, Great Falls, Helena, Havre and Miles City. Elected to a two-year term.
+  description: Eastern Montana’s representative in the U.S. House of Representatives. The Eastern District includes Billings, Great Falls, Helena, Havre and Miles City. U.S. representatives are elected to two-year terms.
   note: 
   candidates:
     - brian-j-miller
@@ -62,7 +62,7 @@
   displayName: Public Service Commission (Seat 1)
   level: Public Service Commission
   category: psc
-  description: One of five seats on the state's utility regulation board, elected to a four-year term. The district spans eastern Montana, including Billings and Miles City.
+  description: One of five seats on the state's utility regulation board, elected to a four-year term. District 1 spans much of eastern Montana, including Billings and Miles City.
   note: 
   candidates:
     - jeff-pattison
@@ -73,7 +73,7 @@
   displayName: Public Service Commission (Seat 5)
   level: Public Service Commission
   category: psc
-  description: One of five seats on the state's utility regulation board, elected to a four-year term. The district spans western Montana, including Missoula and Kalispell.
+  description: One of five seats on the state's utility regulation board, elected to a four-year term. District 5 spans much of western Montana, including Missoula and Kalispell.
   note: 
   candidates:
     - david-sanders
@@ -87,7 +87,7 @@
   displayName: State Supreme Court (Seat 4)
   level: Montana Supreme Court
   category: supco-4
-  description: One of seven seats on the state's high court, which takes appeals from lower courts and administers the Montana legal system. Elected to an eight-year term via a statewide election.
+  description: One of seven seats on the state's highest court, which takes appeals from lower courts and administers the Montana legal system. State Supreme Court justices appear on the ballot without partisan affiliation, and are elected to eight-year terms via a statewide election. Primary elections for Supreme Court automatically forward the two top vote-getters to the general election in November. Because there are only two candidates for the open seat in 2026, both will appear on the general election ballot. 
   note: 
   candidates:
     - dan-wilson

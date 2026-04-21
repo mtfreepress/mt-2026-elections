@@ -100,7 +100,7 @@ export default function RaceFinance(props) {
             }
 
         </div>
-        <div className="outro"> The FEC summary page may include candidates who did not file for the ballot in this race with the Montana secretary of state. Additionally, some active candidates may not appear on this list because they are not required to file paperwork with the FEC until they raise or spend $5,000 on their campaigns.</div>
+        <div className="outro"> The FEC summary page may include candidates who did not file for the ballot in this race with the Montana Secretary of State. Additionally, some active candidates may not appear on this list because they are not required to file paperwork with the FEC until they raise or spend at least $5,000 on their campaigns.</div>
     </div>
 }
 

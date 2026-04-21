@@ -146,7 +146,7 @@ export default function CandidatePageOpponents({
 }) {
     return <div css={opponentsContainerStyle}>
         <h4>Active candidates for {raceDisplayName}</h4>
-        <div className="note">General election nominees will be selected via the June 2, 2026 primary.</div>
+        <div className="note">Republican, Democratic, and Libertarian general election nominees will be selected via the June 2, 2026, primary election. Independent candidates are currently gathering signatures in an attempt to qualify for the general election ballot. Independent candidates do not participate in primary elections. </div>
         <div className="party-buckets">
             {
                 PARTIES
