@@ -150,26 +150,32 @@ export default function CandidatePageOpponents({
     return <div css={opponentsContainerStyle}>
         <h4>Active candidates for {raceDisplayName}</h4>
         <div className="note">Republican, Democratic, and Libertarian general election nominees will be selected via the June 2, 2026, primary election. Independent candidates are currently gathering signatures in an attempt to qualify for the general election ballot. Independent candidates do not participate in primary elections. </div>
-        <div className="party-buckets">
-            {
-                PARTIES
-                    // .sort((a, b) => a.key === candidateParty ? -1 : 1) // sort candidate's party first
-                    .map(party => {
-                        const opponentsInParty = opponents.filter(d => d.party === party.key)
-                        if (opponentsInParty.length === 0) return null
-                        return <div className="party-bucket" key={party.key} style={{ borderLeft: `px solid ${party.color}` }}>
-                            <h4 style={{
-                                color: party.color
-                            }}>{pluralize(party.noun, opponentsInParty.length)}</h4>
-                            <div className="party-list">{opponentsInParty.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits}
-                                route={route}
-                                isCurrentPage={currentPage === d.slug}
-                            />)}</div>
-                        </div>
-                    })
+        {(() => {
+            const activeBuckets = PARTIES.filter(party => opponents.some(d => d.party === party.key))
+            const isSingleParty = activeBuckets.length === 1
+            if (isSingleParty) {
+                const party = activeBuckets[0]
+                return <div className="party-buckets">
+                    <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
+                        <h4 style={{ color: party.color }}>{pluralize(party.noun, opponents.length)}</h4>
+                        <div className="party-list">{opponents.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits} route={route} isCurrentPage={currentPage === d.slug} />)}</div>
+                    </div>
+                </div>
             }
-
-        </div>
+            return <div className="party-buckets">
+                {PARTIES.map(party => {
+                    const opponentsInParty = opponents.filter(d => d.party === party.key)
+                    if (opponentsInParty.length === 0) return null
+                    return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
+                        <h4 style={{ color: party.color }}>{pluralize(party.noun, opponentsInParty.length)}</h4>
+                        <div className="party-list">{opponentsInParty.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits}
+                            route={route}
+                            isCurrentPage={currentPage === d.slug}
+                        />)}</div>
+                    </div>
+                })}
+            </div>
+        })()}
 
     </div>
 }

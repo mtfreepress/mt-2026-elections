@@ -181,39 +181,43 @@ export default function MajorRaceOverview({ race, showMap }) {
                 />
             </div>
         </div>}
-        <div className="party-buckets">
-            {
-                PARTIES.map(party => {
-                    const candidatesInBucket = candidates.filter(d => d.party === party.key)
-                    if (candidatesInBucket.length === 0) return null
-                    return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
-                        <h4 style={{
-                            color: party.color
-                        }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
-                        <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
-                    </div>
-                })
-            }
-
-        </div>
+        {(() => {
+            const activeBuckets = PARTIES.filter(party => candidates.some(d => d.party === party.key))
+            const isSingleParty = activeBuckets.length === 1
+            return <div className="party-buckets">
+                {isSingleParty
+                    ? candidates.map(d => <Candidate key={d.slug} {...d} />)
+                    : PARTIES.map(party => {
+                        const candidatesInBucket = candidates.filter(d => d.party === party.key)
+                        if (candidatesInBucket.length === 0) return null
+                        return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
+                            <h4 style={{ color: party.color }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
+                            <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
+                        </div>
+                    })
+                }
+            </div>
+        })()}
         {
             (inactiveCandidates.length > 0) && <details>
                 <summary>Candidates defeated in June 2 primary election</summary>
-                <div className="party-buckets">
-                    {
-                        PARTIES.map(party => {
-                            const candidatesInBucket = inactiveCandidates.filter(d => d.party === party.key)
-                            if (candidatesInBucket.length === 0) return null
-                            return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
-                                <h4 style={{
-                                    color: party.color
-                                }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
-                                <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
-                            </div>
-                        })
-                    }
-
-                </div>
+                {(() => {
+                    const activeInactiveBuckets = PARTIES.filter(party => inactiveCandidates.some(d => d.party === party.key))
+                    const isSingleParty = activeInactiveBuckets.length === 1
+                    return <div className="party-buckets">
+                        {isSingleParty
+                            ? inactiveCandidates.map(d => <Candidate key={d.slug} {...d} />)
+                            : PARTIES.map(party => {
+                                const candidatesInBucket = inactiveCandidates.filter(d => d.party === party.key)
+                                if (candidatesInBucket.length === 0) return null
+                                return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
+                                    <h4 style={{ color: party.color }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
+                                    <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
+                                </div>
+                            })
+                        }
+                    </div>
+                })()}
             </details>
         }
 
