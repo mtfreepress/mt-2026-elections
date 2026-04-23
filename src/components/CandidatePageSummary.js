@@ -17,10 +17,13 @@ const summaryStyle = css`
     
     .portrait-col {
         flex: 1 0 100px;
+        max-width: 400px;
     }
     .portrait-container {
         width: 100%;
         aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        overflow: hidden;
         background-color: #666;
         display: flex;
         justify-content: center;
@@ -91,7 +94,8 @@ export default function CandidatePageSummary(props) {
                     priority
                     style={{
                         width: '100%',
-                        height: 'auto',
+                        height: '100%',
+                        objectFit: 'cover',
                     }}
                 />
             </div>

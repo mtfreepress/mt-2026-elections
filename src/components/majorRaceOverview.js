@@ -63,6 +63,8 @@ const candidateStyle = css`
     .portrait-container {
         width: 100px;
         height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
         background-color: #666;
         display: flex;
         justify-content: center;
@@ -124,7 +126,8 @@ function Candidate(props) {
                     height={100}
                     style={{
                         width: '100%',
-                        height: 'auto',
+                        height: '100%',
+                        objectFit: 'cover',
                     }}
                 />
             </div>
