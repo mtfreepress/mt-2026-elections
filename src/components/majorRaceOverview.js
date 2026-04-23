@@ -108,9 +108,8 @@ const candidateStyle = css`
 `
 
 function Candidate(props) {
-    const { slug, displayName, summaryLine, party, numMTFParticles, hasResponses, hasPortrait } = props
+    const { slug, displayName, summaryLine, party, numMTFParticles, hasResponses, hasPortrait, raceSlug } = props
     const partyInfo = PARTIES_BY_KEY.get(party)
-
     const router = useRouter()
     const portraitSrc = hasPortrait
         ? `${router.basePath}/portraits/${slug}.jpg`
@@ -137,7 +136,7 @@ function Candidate(props) {
             <div className="summary-line">{summaryLine}</div>
             <div className="tag-line">
                 {hasResponses && <span className="tag">✏️ Candidate Q&A</span>}
-                {!hasResponses && <span className="tag">🚫 No Q&A response</span>}
+                {!hasResponses && !raceSlug.includes('supco') && <span className="tag">🚫 No Q&A response</span>}
                 {(numMTFParticles > 0) && <span className="tag">📰 <strong>{numMTFParticles}</strong> {(numMTFParticles === 1) ? 'article' : 'articles'}</span>}
             </div>
             <div className="fakelink">

@@ -47,9 +47,9 @@ const candidatePageStyle = css`
     .link-block {
         margin: 0.5em 0;
 
-        span:not(:last-child):after{
-            content: ' • '
-        }
+    //     span:not(:last-child):after{
+    //         content: ' • '
+    //     }
     }
 `
 
@@ -108,9 +108,16 @@ export default function CandidatePage({ pageData, votingFAQ }) {
             <div className="link-block">
                 {/* TODO: Add back bio, results sections after primary.  */}
                 {/* <Link href="#opponents">Opponents</Link> */}
+                {/* <span> • </span> */}
                 {/* <span><Link href="#bio">About {lastName}</Link></span> */}
-                <span><Link href="#issues">On the issues</Link></span>
+                {/* <span> • </span> */}
+                <span>
+                    {!raceSlug.includes('supco') && <Link href="#issues">On the issues</Link>}
+                    {!raceSlug.includes('supco') && <span> • </span>}
+                </span>
                 <span><Link href="#coverage">{lastName} in MTFP coverage</Link></span>
+                <span> • </span>
+                <span><Link href="#finance">{lastName} Campaign finance</Link></span>
                 {/* <span><Link href="#results">Election results</Link></span> */}
                 {/* <span><Link href="#voting-faq">Voting in Montana</Link></span> */}
                 {/* <span><Link href="#about">About this project</Link></span> */}
@@ -139,6 +146,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
 
             {/* QUESTIONNAIRE RESPONSES */}
             <a className="link-anchor" id="issues"></a>
+            {!raceSlug.includes('supco') && 
             <section>
                 <h2>ON THE ISSUES</h2>
                 <Markdown>{questionnaireStateOfficeLedein}</Markdown>
@@ -152,6 +160,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                     <div className="note">No responses at this time.</div>
                 }
             </section>
+            }
 
             {/* MTFP COVERAGE */}
             <a className="link-anchor" id="coverage"></a>
@@ -187,12 +196,12 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                         : <p>No party primary was conducted.</p>
                 }
             </section> */}
-
-            <section>
+{/* Leave this off */}
+            {/* <section>
                 <a className="link-anchor" id="voting-faq"></a>
                 <h2>COMMON VOTING QUESTIONS</h2>
                 <Markdown>{votingFAQ}</Markdown>
-            </section>
+            </section> */}
 
             <section>
                 <a className="link-anchor" id="about"></a>
