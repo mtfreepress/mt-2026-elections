@@ -106,13 +106,14 @@ export default function CandidatePage({ pageData, votingFAQ }) {
         >
             <CandidatePageSummary {...pageData} />
             <div className="link-block">
+                {/* TODO: Add back bio, results sections after primary.  */}
                 {/* <Link href="#opponents">Opponents</Link> */}
-                <span><Link href="#bio">About {lastName}</Link></span>
+                {/* <span><Link href="#bio">About {lastName}</Link></span> */}
                 <span><Link href="#issues">On the issues</Link></span>
                 <span><Link href="#coverage">{lastName} in MTFP coverage</Link></span>
-                <span><Link href="#results">Election results</Link></span>
-                <span><Link href="#voting-faq">Voting in Montana</Link></span>
-                <span><Link href="#about">About this project</Link></span>
+                {/* <span><Link href="#results">Election results</Link></span> */}
+                {/* <span><Link href="#voting-faq">Voting in Montana</Link></span> */}
+                {/* <span><Link href="#about">About this project</Link></span> */}
             </div>
 
             <section id="opponents" className="race-candidates">

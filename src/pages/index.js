@@ -132,7 +132,7 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
 
             <SearchForCandidate candidates={fullCandidateList} />
 
-            <AddressLookup selDistricts={selDistricts} setSelDistricts={setSelDistricts} legislativeRaces={legislativeRaces} />
+            <AddressLookup selDistricts={selDistricts} setSelDistricts={setSelDistricts} legislativeRaces={legislativeRaces} races={races} />
 
 
             <section>
@@ -169,6 +169,7 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
 
             <section>
                 <a className="link-anchor" id="legislature"></a>
+                <a className="link-anchor" id="montana-legislature"></a>
                 <h2>Montana State Legislature</h2>
                 <Markdown>{overviewLegislatureLedeIn}</Markdown>
                 <LegislativeDistrictSelector
@@ -231,7 +232,7 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
                 <Markdown>{overviewBallotInitiatives}</Markdown>
                 <BallotInitiativeOverview ballotIssues={ballotIssues} />
             </section> */}
-
+{/* TODO: Enable for general */}
             <section>
                 <h2>Other ballot items</h2>
                 <Markdown>{overviewAlsoOnYourBallot}</Markdown>

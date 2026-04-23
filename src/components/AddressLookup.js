@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import { css } from "@emotion/react";
+import { useRouter } from 'next/router';
 import mapDistrictCode from "../lib/mapDistrictCode";
 import DistrictFinder from '../lib/DistrictFinder';
 import { PARTIES, PARTIES_BY_KEY } from "@/lib/styles";
@@ -210,14 +211,22 @@ function displayUrl(url) {
     return url.replace(/^https?:\/\//, '').replace(/\/$/, '')
 }
 
-function LegislativeCandidateBlock({ district, label }) {
+function normalizeRaceSlug(value) {
+    if (!value) return null
+    const str = String(value).toLowerCase()
+    const match = str.match(/^(us-house|psc)-0*(\d+)$/)
+    if (!match) return str
+    return `${match[1]}-${Number(match[2])}`
+}
+
+function LegislativeCandidateBlock({ district, label, legislatureUrl }) {
     if (!district) return null
 
     const inCycleValue = district ? (district.in_cycle_2026 ?? district.in_cycle_2024) : undefined
     const isOutOfCycle = inCycleValue === 'no'
 
     return <div css={legeBlockStyle}>
-        <h4>{label}</h4>
+        <h4>{legislatureUrl ? <a href={legislatureUrl} style={{ color: 'inherit', textDecoration: 'underline' }}>{label}</a> : label}</h4>
         {isOutOfCycle ? (
             <div className="out-of-cycle">
                 This seat is not up for election in 2026.
@@ -256,7 +265,9 @@ export default function AddressLookup({
     selDistricts,
     setSelDistricts,
     legislativeRaces,
+    races,
 }) {
+    const router = useRouter();
     const { usHouse, psc, mtHouse, mtSenate, matchedAddress } = selDistricts;
     const [value, setValue] = useState(null);
     const [error, setError] = useState(null);
@@ -297,12 +308,26 @@ export default function AddressLookup({
         setError(null);
     }
 
+    const activeRaceSlugs = useMemo(
+        () => new Set((races || []).map(r => normalizeRaceSlug(r.raceSlug))),
+        [races]
+    );
+
     const mappedDistricts = {
         usHouse: mapDistrictCode(selDistricts.usHouse),
         psc: mapDistrictCode(selDistricts.psc),
         mtHouse: mapDistrictCode(selDistricts.mtHouse),
         mtSenate: mapDistrictCode(selDistricts.mtSenate)
     };
+
+    const usHouseSlug = normalizeRaceSlug(selDistricts.usHouse);
+    const pscSlug = normalizeRaceSlug(selDistricts.psc);
+    const usHouseActive = !!usHouseSlug && activeRaceSlugs.has(usHouseSlug);
+    const pscActive = !!pscSlug && activeRaceSlugs.has(pscSlug);
+    const guideRoot = `${router.basePath}/`;
+    const usHouseUrl = usHouseActive ? `${guideRoot}#${usHouseSlug}` : null;
+    const pscUrl = pscActive ? `${guideRoot}#${pscSlug}` : null;
+    const legislatureUrl = `${guideRoot}#montana-legislature`;
 
     // Look up matched legislative districts from the full dataset
     const selHouseDistrict = useMemo(
@@ -336,16 +361,26 @@ export default function AddressLookup({
                             <div css={headerTitleStyle}>Districts for <strong>{matchedAddress}</strong>:</div>
                         </div>
                         <div css={topRowStyle}>
-                            <div css={distResStyle}>{mappedDistricts.usHouse}</div>
-                            <div css={distResStyle}>{mappedDistricts.psc}</div>
+                            <div css={distResStyle}>
+                                {usHouseActive && usHouseUrl
+                                    ? <a href={usHouseUrl}>{mappedDistricts.usHouse}</a>
+                                    : <>{mappedDistricts.usHouse}<br /><small>(Not in cycle)</small></>}
+                            </div>
+                            <div css={distResStyle}>
+                                {pscActive && pscUrl
+                                    ? <a href={pscUrl}>{mappedDistricts.psc}</a>
+                                    : <>{mappedDistricts.psc}<br /><small>(Not in cycle)</small></>}
+                            </div>
                         </div>
                         <LegislativeCandidateBlock
                             district={selHouseDistrict}
                             label={mappedDistricts.mtHouse}
+                            legislatureUrl={legislatureUrl}
                         />
                         <LegislativeCandidateBlock
                             district={selSenateDistrict}
                             label={mappedDistricts.mtSenate}
+                            legislatureUrl={legislatureUrl}
                         />
                         <a onClick={reset} css={resetStyle}>Reset</a>
                     </div>

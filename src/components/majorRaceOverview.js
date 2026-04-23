@@ -165,6 +165,7 @@ export default function MajorRaceOverview({ race, showMap }) {
 
 
     return <div key={raceSlug} css={raceStyle}>
+        <a className="link-anchor" id={raceSlug}></a>
         <h3>{displayName}</h3>
         <div className="description">{description}</div>
         {showMap && <div className="map-row">
