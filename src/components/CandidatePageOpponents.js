@@ -106,8 +106,8 @@ function Candidate(props) {
     const partyInfo = PARTIES_BY_KEY.get(party)
     const router = useRouter()
     const portraitSrc = hasPortrait
-        ? `${router.basePath}/portraits/${slug}.jpg`
-        : `${router.basePath}/portraits/no-match.jpg`
+        ? `${router.basePath}/portraits/${slug}.webp`
+        : `${router.basePath}/portraits/no-match.webp`
     return <div css={candidateStyle}
         style={{
             borderTop: `3px solid ${partyInfo.color}`,
@@ -153,27 +153,21 @@ export default function CandidatePageOpponents({
         {(() => {
             const activeBuckets = PARTIES.filter(party => opponents.some(d => d.party === party.key))
             const isSingleParty = activeBuckets.length === 1
-            if (isSingleParty) {
-                const party = activeBuckets[0]
-                return <div className="party-buckets">
-                    <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
-                        <h4 style={{ color: party.color }}>{pluralize(party.noun, opponents.length)}</h4>
-                        <div className="party-list">{opponents.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits} route={route} isCurrentPage={currentPage === d.slug} />)}</div>
-                    </div>
-                </div>
-            }
             return <div className="party-buckets">
-                {PARTIES.map(party => {
-                    const opponentsInParty = opponents.filter(d => d.party === party.key)
-                    if (opponentsInParty.length === 0) return null
-                    return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
-                        <h4 style={{ color: party.color }}>{pluralize(party.noun, opponentsInParty.length)}</h4>
-                        <div className="party-list">{opponentsInParty.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits}
-                            route={route}
-                            isCurrentPage={currentPage === d.slug}
-                        />)}</div>
-                    </div>
-                })}
+                {isSingleParty
+                    ? opponents.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits} route={route} isCurrentPage={currentPage === d.slug} />)
+                    : PARTIES.map(party => {
+                        const opponentsInParty = opponents.filter(d => d.party === party.key)
+                        if (opponentsInParty.length === 0) return null
+                        return <div className="party-bucket" key={party.key} style={{ borderLeft: `px solid ${party.color}` }}>
+                            <h4 style={{ color: party.color }}>{pluralize(party.noun, opponentsInParty.length)}</h4>
+                            <div className="party-list">{opponentsInParty.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits}
+                                route={route}
+                                isCurrentPage={currentPage === d.slug}
+                            />)}</div>
+                        </div>
+                    })
+                }
             </div>
         })()}
 

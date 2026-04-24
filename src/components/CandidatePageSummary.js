@@ -79,8 +79,8 @@ export default function CandidatePageSummary(props) {
     const partyInfo = PARTIES_BY_KEY.get(party) || { color: '#000', adjective: party || '' }
     const router = useRouter()
     const portraitSrc = hasPortrait
-        ? `${router.basePath}/portraits/${slug}.jpg`
-        : `${router.basePath}/portraits/no-match.jpg`
+        ? `${router.basePath}/portraits/${slug}.webp`
+        : `${router.basePath}/portraits/no-match.webp`
 
     return <div css={summaryStyle} style={{ borderTop: `5px solid ${partyInfo.color}` }}>
 

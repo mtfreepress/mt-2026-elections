@@ -112,8 +112,8 @@ function Candidate(props) {
     const partyInfo = PARTIES_BY_KEY.get(party)
     const router = useRouter()
     const portraitSrc = hasPortrait
-        ? `${router.basePath}/portraits/${slug}.jpg`
-        : `${router.basePath}/portraits/no-match.jpg`
+        ? `${router.basePath}/portraits/${slug}.webp`
+        : `${router.basePath}/portraits/no-match.webp`
 
     return <div css={candidateStyle} style={{ borderTop: `5px solid ${partyInfo.color}` }}><Link href={`/candidates/${slug}`}>
         <div className="portrait-col" >
