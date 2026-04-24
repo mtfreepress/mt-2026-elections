@@ -123,6 +123,18 @@
       "candidateStatus": "active"
     },
     {
+      "displayName": "Michael Black Wolf",
+      "party": "D",
+      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+      "candidateId": "S6MT00246",
+      "totalReceipts": 26144,
+      "totalDisbursments": 25616.21,
+      "cashOnHand": 527.79,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
       "displayName": "Alani Bankhead",
       "party": "D",
       "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
@@ -132,18 +144,6 @@
       "cashOnHand": 10625.06,
       "coverageEndDate": "2026-03-31",
       "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Michael Black Wolf",
-      "party": "D",
-      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
-      "candidateId": "S6MT00246",
-      "totalReceipts": 13598,
-      "totalDisbursments": 4922.16,
-      "cashOnHand": 8675.84,
-      "coverageEndDate": "2025-12-31",
-      "isThisCandidate": true,
       "candidateStatus": "active"
     },
     {

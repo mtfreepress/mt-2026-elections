@@ -105,6 +105,18 @@
       "candidateStatus": "active"
     },
     {
+      "displayName": "Sam Forstag",
+      "party": "D",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 449612.13,
+      "totalDisbursments": 237069.76,
+      "cashOnHand": 212542.37,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
       "displayName": "Russell Cleveland",
       "party": "D",
       "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
@@ -126,30 +138,6 @@
       "cashOnHand": 253387.39,
       "coverageEndDate": "2026-03-31",
       "isThisCandidate": true,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Matt Rains",
-      "party": "D",
-      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
-      "candidateId": "H6MT01129",
-      "totalReceipts": 113774.15,
-      "totalDisbursments": 67362.72,
-      "cashOnHand": 46411.43,
-      "coverageEndDate": "2025-12-31",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Sam Forstag",
-      "party": "D",
-      "candidateCommitteeName": "SAM FOR MONTANA",
-      "candidateId": "H6MT01137",
-      "totalReceipts": 0,
-      "totalDisbursments": 0,
-      "cashOnHand": 0,
-      "coverageEndDate": null,
-      "isThisCandidate": false,
       "candidateStatus": "active"
     }
   ],
