@@ -159,7 +159,7 @@ export default function MajorRaceOverview({ race, showMap }) {
     let mapPath = null
     const router = useRouter()
     if (showMap) {
-        mapPath = `${router.basePath}/maps/${raceSlug}.jpg`
+        mapPath = `${router.basePath}/maps/${raceSlug}.webp`
     }
 
 
