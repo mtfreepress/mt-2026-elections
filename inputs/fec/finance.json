@@ -77,6 +77,22 @@
         },
         {
           "candidate_election_year": 2026,
+          "candidate_id": "S6MT00246",
+          "candidate_name": "BLACKWOLF, MICHAEL JAMES MR.",
+          "candidate_pcc_id": "C00919936",
+          "candidate_pcc_name": "BLACKWOLF FOR MONTANA",
+          "cash_on_hand_end_period": 527.79,
+          "committee_ids": [
+            "C00919936"
+          ],
+          "coverage_end_date": "2026-03-31",
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "DEMOCRATIC PARTY",
+          "total_disbursements": 25616.21,
+          "total_receipts": 26144
+        },
+        {
+          "candidate_election_year": 2026,
           "candidate_id": "S6MT00253",
           "candidate_name": "BANKHEAD, ALANI INES",
           "candidate_pcc_id": "C00937201",
@@ -90,22 +106,6 @@
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 5775,
           "total_receipts": 15240.06
-        },
-        {
-          "candidate_election_year": 2026,
-          "candidate_id": "S6MT00246",
-          "candidate_name": "BLACKWOLF, MICHAEL JAMES MR.",
-          "candidate_pcc_id": "C00919936",
-          "candidate_pcc_name": "BLACKWOLF FOR MONTANA",
-          "cash_on_hand_end_period": 8675.84,
-          "committee_ids": [
-            "C00919936"
-          ],
-          "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Open seat",
-          "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 4922.16,
-          "total_receipts": 13598
         },
         {
           "candidate_election_year": 2026,
@@ -236,6 +236,22 @@
         },
         {
           "candidate_election_year": 2026,
+          "candidate_id": "H6MT01137",
+          "candidate_name": "FORSTAG, SAMUEL KELLEY",
+          "candidate_pcc_id": "C00932822",
+          "candidate_pcc_name": "SAM FOR MONTANA",
+          "cash_on_hand_end_period": 212542.37,
+          "committee_ids": [
+            "C00932822"
+          ],
+          "coverage_end_date": "2026-03-31",
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "DEMOCRATIC PARTY",
+          "total_disbursements": 237069.76,
+          "total_receipts": 449612.13
+        },
+        {
+          "candidate_election_year": 2026,
           "candidate_id": "H6MT01103",
           "candidate_name": "CLEVELAND, RUSSELL TYLER",
           "candidate_pcc_id": "C00902395",
@@ -268,35 +284,19 @@
         },
         {
           "candidate_election_year": 2026,
-          "candidate_id": "H6MT01129",
+          "candidate_id": "H0MT00116",
           "candidate_name": "RAINS, MATTHEW",
           "candidate_pcc_id": "C00924258",
           "candidate_pcc_name": "MATT RAINS FOR MONTANA",
-          "cash_on_hand_end_period": 46411.43,
+          "cash_on_hand_end_period": 107129.68,
           "committee_ids": [
             "C00924258"
           ],
-          "coverage_end_date": "2025-12-31",
-          "incumbent_challenge_full": "Open seat",
+          "coverage_end_date": "2026-03-31",
+          "incumbent_challenge_full": null,
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 67362.72,
-          "total_receipts": 113774.15
-        },
-        {
-          "candidate_election_year": 2026,
-          "candidate_id": "H6MT01137",
-          "candidate_name": "FORSTAG, SAMUEL KELLEY",
-          "candidate_pcc_id": "C00932822",
-          "candidate_pcc_name": "SAM FOR MONTANA",
-          "cash_on_hand_end_period": 0,
-          "committee_ids": [
-            "C00932822"
-          ],
-          "coverage_end_date": null,
-          "incumbent_challenge_full": "Open seat",
-          "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 0,
-          "total_receipts": 0
+          "total_disbursements": 108209.77,
+          "total_receipts": 215339.45
         }
       ]
     }

@@ -140,6 +140,16 @@
         "coverageEndDate": "2026-03-31"
       },
       {
+        "displayName": "Michael Black Wolf",
+        "party": "D",
+        "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
+        "candidateId": "S6MT00246",
+        "totalReceipts": 26144,
+        "totalDisbursments": 25616.21,
+        "cashOnHand": 527.79,
+        "coverageEndDate": "2026-03-31"
+      },
+      {
         "displayName": "Alani Bankhead",
         "party": "D",
         "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
@@ -148,16 +158,6 @@
         "totalDisbursments": 5775,
         "cashOnHand": 10625.06,
         "coverageEndDate": "2026-03-31"
-      },
-      {
-        "displayName": "Michael Black Wolf",
-        "party": "D",
-        "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
-        "candidateId": "S6MT00246",
-        "totalReceipts": 13598,
-        "totalDisbursments": 4922.16,
-        "cashOnHand": 8675.84,
-        "coverageEndDate": "2025-12-31"
       },
       {
         "displayName": "Michael Hummert",
@@ -324,6 +324,16 @@
         "coverageEndDate": "2026-03-31"
       },
       {
+        "displayName": "Sam Forstag",
+        "party": "D",
+        "candidateCommitteeName": "SAM FOR MONTANA",
+        "candidateId": "H6MT01137",
+        "totalReceipts": 449612.13,
+        "totalDisbursments": 237069.76,
+        "cashOnHand": 212542.37,
+        "coverageEndDate": "2026-03-31"
+      },
+      {
         "displayName": "Russell Cleveland",
         "party": "D",
         "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
@@ -342,26 +352,6 @@
         "totalDisbursments": 6673.61,
         "cashOnHand": 253387.39,
         "coverageEndDate": "2026-03-31"
-      },
-      {
-        "displayName": "Matt Rains",
-        "party": "D",
-        "candidateCommitteeName": "MATT RAINS FOR MONTANA",
-        "candidateId": "H6MT01129",
-        "totalReceipts": 113774.15,
-        "totalDisbursments": 67362.72,
-        "cashOnHand": 46411.43,
-        "coverageEndDate": "2025-12-31"
-      },
-      {
-        "displayName": "Sam Forstag",
-        "party": "D",
-        "candidateCommitteeName": "SAM FOR MONTANA",
-        "candidateId": "H6MT01137",
-        "totalReceipts": 0,
-        "totalDisbursments": 0,
-        "cashOnHand": 0,
-        "coverageEndDate": null
       }
     ],
     "inactiveCandidates": []
