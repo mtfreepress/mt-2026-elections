@@ -19,28 +19,28 @@ export const headerDonateLink = "https://montanafreepress.org/donate?utm_source=
 export const footerLogoUrl = 'https://montanafreepress.org/wp-content/uploads/2020/05/website-footer-logo-1.png'
 
 export const footerMenus = [
-    {
-        label: 'Projects',
-        items: [
-            {
-                label: 'The Long Streets Project',
-                url: 'https://montanafreepress.org/long-streets/',
-            },
-            {
-                label: '2025 Capitol Tracker',
-                url: 'https://projects.montanafreepress.org/capitol-tracker-2025/',
-            },
-            {
-                label: 'Shared State',
-                url: 'https://montanafreepress.org/election/',
-            },
+    // {
+    //     label: 'Projects',
+    //     items: [
+    //         {
+    //             label: 'The Long Streets Project',
+    //             url: 'https://montanafreepress.org/long-streets/',
+    //         },
+    //         {
+    //             label: '2025 Capitol Tracker',
+    //             url: 'https://projects.montanafreepress.org/capitol-tracker-2025/',
+    //         },
+    //         {
+    //             label: 'Shared State',
+    //             url: 'https://montanafreepress.org/election/',
+    //         },
 
-            {
-                label: 'The Session',
-                url: 'https://montanafreepress.org/the-session/',
-            },
-        ]
-    },
+    //         {
+    //             label: 'The Session',
+    //             url: 'https://montanafreepress.org/the-session/',
+    //         },
+    //     ]
+    // },
     {
         label: 'About',
         items: [

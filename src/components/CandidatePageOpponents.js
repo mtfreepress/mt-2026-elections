@@ -59,6 +59,8 @@ const candidateStyle = css`
     .portrait-container {
         width: 40px;
         height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
         background-color: #666;
         display: flex;
         justify-content: center;
@@ -104,8 +106,8 @@ function Candidate(props) {
     const partyInfo = PARTIES_BY_KEY.get(party)
     const router = useRouter()
     const portraitSrc = hasPortrait
-        ? `${router.basePath}/portraits/${slug}.jpg`
-        : `${router.basePath}/portraits/no-match.jpg`
+        ? `${router.basePath}/portraits/${slug}.webp`
+        : `${router.basePath}/portraits/no-match.webp`
     return <div css={candidateStyle}
         style={{
             borderTop: `3px solid ${partyInfo.color}`,
@@ -122,7 +124,8 @@ function Candidate(props) {
                         height={40}
                         style={{
                             width: '100%',
-                            height: 'auto',
+                            height: '100%',
+                            objectFit: 'cover',
                         }}
                     />
                 </div>}
@@ -146,27 +149,27 @@ export default function CandidatePageOpponents({
 }) {
     return <div css={opponentsContainerStyle}>
         <h4>Active candidates for {raceDisplayName}</h4>
-        <div className="note">General election nominees will be selected via the June 2, 2026 primary.</div>
-        <div className="party-buckets">
-            {
-                PARTIES
-                    // .sort((a, b) => a.key === candidateParty ? -1 : 1) // sort candidate's party first
-                    .map(party => {
+        <div className="note">Republican, Democratic, and Libertarian general election nominees will be selected via the June 2, 2026, primary election. Independent candidates are currently gathering signatures in an attempt to qualify for the general election ballot. Independent candidates do not participate in primary elections. </div>
+        {(() => {
+            const activeBuckets = PARTIES.filter(party => opponents.some(d => d.party === party.key))
+            const isSingleParty = activeBuckets.length === 1
+            return <div className="party-buckets">
+                {isSingleParty
+                    ? opponents.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits} route={route} isCurrentPage={currentPage === d.slug} />)
+                    : PARTIES.map(party => {
                         const opponentsInParty = opponents.filter(d => d.party === party.key)
                         if (opponentsInParty.length === 0) return null
                         return <div className="party-bucket" key={party.key} style={{ borderLeft: `px solid ${party.color}` }}>
-                            <h4 style={{
-                                color: party.color
-                            }}>{pluralize(party.noun, opponentsInParty.length)}</h4>
+                            <h4 style={{ color: party.color }}>{pluralize(party.noun, opponentsInParty.length)}</h4>
                             <div className="party-list">{opponentsInParty.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits}
                                 route={route}
                                 isCurrentPage={currentPage === d.slug}
                             />)}</div>
                         </div>
                     })
-            }
-
-        </div>
+                }
+            </div>
+        })()}
 
     </div>
 }

@@ -1,8 +1,9 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { css } from "@emotion/react";
+import { useRouter } from 'next/router';
 import mapDistrictCode from "../lib/mapDistrictCode";
 import DistrictFinder from '../lib/DistrictFinder';
-import { PARTIES, PARTIES_BY_KEY } from "@/lib/styles";
+import { PARTIES } from "@/lib/styles";
 
 // Instantiated once at module level — class has no per-render state
 const districtFinder = new DistrictFinder();
@@ -10,6 +11,10 @@ const districtFinder = new DistrictFinder();
 const ELECTION_MODE = process.env.ELECTION_MODE || 'primary';
 const PLACEHOLDER = 'Enter address (e.g., 1301 E 6th Ave, Helena)';
 const DEFAULT_MESSAGE = 'Look up districts for your address by entering it above.';
+const MIN_SUGGEST_CHARS = 4;
+const SUGGEST_DEBOUNCE_MS = 180;
+const SUGGESTIONS_LIST_ID = 'mt-address-suggestions';
+const SUGGESTION_OPTION_ID_PREFIX = 'mt-address-suggestion-option';
 
 const resultsContainerStyle = css`
     display: flex;
@@ -158,11 +163,59 @@ const lookupStyle = css`
         margin-bottom: 1em;
     }
 
+    .input-wrap {
+        position: relative;
+        flex: 4 1 15rem;
+        min-width: 12rem;
+    }
+
+    .form-note {
+        width: 100%;
+        margin-top: 0.35em;
+        font-size: 0.85em;
+        color: var(--gray5);
+    }
+
     input {
         margin: -1px;
-        flex: 4 1 15rem;
+        width: 100%;
         height: 2em;
         padding: 0.25em;
+    }
+
+    .suggestions-list {
+        position: absolute;
+        top: calc(100% + 2px);
+        left: 0;
+        right: 0;
+        z-index: 5;
+        margin: 0;
+        padding: 0.25em 0;
+        list-style: none;
+        border: 1px solid var(--gray4);
+        background: white;
+        max-height: 14rem;
+        overflow-y: auto;
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+        font-family: futura-pt, Arial, Helvetica, sans-serif;
+    }
+
+    .suggestion-item {
+        padding: 0.45em 0.65em;
+        cursor: pointer;
+        color: var(--gray7);
+        font-size: 0.95em;
+        line-height: 1.25;
+    }
+
+    .suggestion-item + .suggestion-item {
+        border-top: 1px solid var(--gray1);
+    }
+
+    .suggestion-item:hover,
+    .suggestion-item.is-active {
+        background-color: var(--tan1);
+        color: var(--gray8);
     }
 
     button {
@@ -210,14 +263,22 @@ function displayUrl(url) {
     return url.replace(/^https?:\/\//, '').replace(/\/$/, '')
 }
 
-function LegislativeCandidateBlock({ district, label }) {
+function normalizeRaceSlug(value) {
+    if (!value) return null
+    const str = String(value).toLowerCase()
+    const match = str.match(/^(us-house|psc)-0*(\d+)$/)
+    if (!match) return str
+    return `${match[1]}-${Number(match[2])}`
+}
+
+function LegislativeCandidateBlock({ district, label, legislatureUrl }) {
     if (!district) return null
 
     const inCycleValue = district ? (district.in_cycle_2026 ?? district.in_cycle_2024) : undefined
     const isOutOfCycle = inCycleValue === 'no'
 
     return <div css={legeBlockStyle}>
-        <h4>{label}</h4>
+        <h4>{legislatureUrl ? <a href={legislatureUrl} style={{ color: 'inherit', textDecoration: 'underline' }}>{label}</a> : label}</h4>
         {isOutOfCycle ? (
             <div className="out-of-cycle">
                 This seat is not up for election in 2026.
@@ -256,30 +317,121 @@ export default function AddressLookup({
     selDistricts,
     setSelDistricts,
     legislativeRaces,
+    races,
 }) {
+    const router = useRouter();
     const { usHouse, psc, mtHouse, mtSenate, matchedAddress } = selDistricts;
     const [value, setValue] = useState(null);
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(false);
+    const [suggestions, setSuggestions] = useState([]);
+    const [suggestionsOpen, setSuggestionsOpen] = useState(false);
+    const [highlightedIndex, setHighlightedIndex] = useState(-1);
+
+    const showSuggestions = suggestionsOpen && suggestions.length > 0;
+    const activeDescendantId =
+        highlightedIndex >= 0
+            ? `${SUGGESTION_OPTION_ID_PREFIX}-${highlightedIndex}`
+            : undefined;
+
+    useEffect(() => {
+        const query = (value || '').trim();
+        if (query.length < MIN_SUGGEST_CHARS) {
+            setSuggestions([]);
+            setSuggestionsOpen(false);
+            setHighlightedIndex(-1);
+            return;
+        }
+
+        const controller = new AbortController();
+        const timeoutId = setTimeout(async () => {
+            try {
+                const nextSuggestions = await districtFinder.suggestAddresses(query, {
+                    maxLocations: 6,
+                    signal: controller.signal,
+                });
+                setSuggestions(nextSuggestions);
+                setSuggestionsOpen(nextSuggestions.length > 0);
+                setHighlightedIndex(-1);
+            } catch (err) {
+                if (err?.name !== 'AbortError') {
+                    setSuggestions([]);
+                    setSuggestionsOpen(false);
+                    setHighlightedIndex(-1);
+                }
+            }
+        }, SUGGEST_DEBOUNCE_MS);
+
+        return () => {
+            controller.abort();
+            clearTimeout(timeoutId);
+        };
+    }, [value]);
 
     function handleChange(event) {
         const input = event.target.value;
         setValue(input);
         setError(null);
+        setSuggestionsOpen(true);
+        setHighlightedIndex(-1);
+    }
+
+    function selectSuggestion(selectedAddress) {
+        setValue(selectedAddress);
+        setSuggestionsOpen(false);
+        setHighlightedIndex(-1);
+        setError(null);
+    }
+
+    function handleInputKeyDown(event) {
+        if (!suggestions.length) return;
+
+        if (event.key === 'ArrowDown') {
+            event.preventDefault();
+            setSuggestionsOpen(true);
+            setHighlightedIndex(prev => Math.min(prev + 1, suggestions.length - 1));
+            return;
+        }
+
+        if (event.key === 'ArrowUp') {
+            event.preventDefault();
+            setSuggestionsOpen(true);
+            setHighlightedIndex(prev => Math.max(prev - 1, 0));
+            return;
+        }
+
+        if (event.key === 'Escape') {
+            setSuggestionsOpen(false);
+            setHighlightedIndex(-1);
+            return;
+        }
+
+        if (event.key === 'Enter' && showSuggestions && highlightedIndex >= 0) {
+            event.preventDefault();
+            selectSuggestion(suggestions[highlightedIndex]);
+        }
     }
 
     function handleSubmit(event) {
         event.preventDefault();
+        if (!(value || '').trim()) {
+            setError('Please enter an address.');
+            return;
+        }
+
         setLoading(true);
-        const result = districtFinder.matchAddressToDistricts(
+        setSuggestionsOpen(false);
+        setHighlightedIndex(-1);
+        districtFinder.matchAddressToDistricts(
             value,
             match => {
                 setSelDistricts(match);
                 setError(null);
+                setValue(match.matchedAddress || value);
                 setLoading(false);
             },
             err => {
-                setError(` Invalid address, please make sure you enter it in this format: 1301 E 6th Ave, Helena`);
+                setError('No Montana address match found. Please enter a valid Montana address, like 1301 E 6th Ave, Helena.');
                 setLoading(false);
             }
         );
@@ -295,7 +447,15 @@ export default function AddressLookup({
         });
         setValue(null);
         setError(null);
+        setSuggestions([]);
+        setSuggestionsOpen(false);
+        setHighlightedIndex(-1);
     }
+
+    const activeRaceSlugs = useMemo(
+        () => new Set((races || []).map(r => normalizeRaceSlug(r.raceSlug))),
+        [races]
+    );
 
     const mappedDistricts = {
         usHouse: mapDistrictCode(selDistricts.usHouse),
@@ -303,6 +463,15 @@ export default function AddressLookup({
         mtHouse: mapDistrictCode(selDistricts.mtHouse),
         mtSenate: mapDistrictCode(selDistricts.mtSenate)
     };
+
+    const usHouseSlug = normalizeRaceSlug(selDistricts.usHouse);
+    const pscSlug = normalizeRaceSlug(selDistricts.psc);
+    const usHouseActive = !!usHouseSlug && activeRaceSlugs.has(usHouseSlug);
+    const pscActive = !!pscSlug && activeRaceSlugs.has(pscSlug);
+    const guideRoot = `${router.basePath}/`;
+    const usHouseUrl = usHouseActive ? `${guideRoot}#${usHouseSlug}` : null;
+    const pscUrl = pscActive ? `${guideRoot}#${pscSlug}` : null;
+    const legislatureUrl = `${guideRoot}#montana-legislature`;
 
     // Look up matched legislative districts from the full dataset
     const selHouseDistrict = useMemo(
@@ -317,11 +486,56 @@ export default function AddressLookup({
     return (
         <div css={lookupStyle}>
             <div className="ledein">Show only candidates for your voting address</div>
-            <form>
-                <input onChange={handleChange} type="address" value={value || ''} placeholder={PLACEHOLDER} />
-                <button onClick={handleSubmit} disabled={loading} css={buttonStyle}>
+            <form onSubmit={handleSubmit}>
+                <div className="input-wrap">
+                    <input
+                        onChange={handleChange}
+                        onKeyDown={handleInputKeyDown}
+                        onFocus={() => {
+                            if (suggestions.length > 0) {
+                                setSuggestionsOpen(true);
+                            }
+                        }}
+                        onBlur={() => {
+                            setSuggestionsOpen(false);
+                            setHighlightedIndex(-1);
+                        }}
+                        type="text"
+                        value={value || ''}
+                        placeholder={PLACEHOLDER}
+                        autoComplete="off"
+                        role="combobox"
+                        aria-autocomplete="list"
+                        aria-expanded={showSuggestions}
+                        aria-controls={SUGGESTIONS_LIST_ID}
+                        aria-activedescendant={activeDescendantId}
+                    />
+                    {showSuggestions && (
+                        <ul id={SUGGESTIONS_LIST_ID} className="suggestions-list" role="listbox">
+                            {suggestions.map((suggestion, index) => {
+                                const optionId = `${SUGGESTION_OPTION_ID_PREFIX}-${index}`;
+                                const isActive = index === highlightedIndex;
+                                return (
+                                    <li
+                                        id={optionId}
+                                        key={`${suggestion}-${index}`}
+                                        className={`suggestion-item${isActive ? ' is-active' : ''}`}
+                                        role="option"
+                                        aria-selected={isActive}
+                                        onMouseDown={event => event.preventDefault()}
+                                        onClick={() => selectSuggestion(suggestion)}
+                                    >
+                                        {suggestion}
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                    )}
+                </div>
+                <button type="submit" disabled={loading} css={buttonStyle}>
                     {loading ? 'Searching...' : 'Look up'}
                 </button>
+                <div className="form-note">Suggestions are limited to Montana addresses.</div>
             </form>
             <div className="message">
                 {error && (
@@ -336,16 +550,26 @@ export default function AddressLookup({
                             <div css={headerTitleStyle}>Districts for <strong>{matchedAddress}</strong>:</div>
                         </div>
                         <div css={topRowStyle}>
-                            <div css={distResStyle}>{mappedDistricts.usHouse}</div>
-                            <div css={distResStyle}>{mappedDistricts.psc}</div>
+                            <div css={distResStyle}>
+                                {usHouseActive && usHouseUrl
+                                    ? <a href={usHouseUrl}>{mappedDistricts.usHouse}</a>
+                                    : <>{mappedDistricts.usHouse}<br /><small>(Not in cycle)</small></>}
+                            </div>
+                            <div css={distResStyle}>
+                                {pscActive && pscUrl
+                                    ? <a href={pscUrl}>{mappedDistricts.psc}</a>
+                                    : <>{mappedDistricts.psc}<br /><small>(Not in cycle)</small></>}
+                            </div>
                         </div>
                         <LegislativeCandidateBlock
                             district={selHouseDistrict}
                             label={mappedDistricts.mtHouse}
+                            legislatureUrl={legislatureUrl}
                         />
                         <LegislativeCandidateBlock
                             district={selSenateDistrict}
                             label={mappedDistricts.mtSenate}
+                            legislatureUrl={legislatureUrl}
                         />
                         <a onClick={reset} css={resetStyle}>Reset</a>
                     </div>

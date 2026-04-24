@@ -8,7 +8,7 @@ function getPortraitSlugSet() {
         const dir = path.join(process.cwd(), 'public', 'portraits')
         slugSet = new Set(
             fs.readdirSync(dir)
-                .filter(f => /\.(jpg|jpeg|png)$/i.test(f))
+                .filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f))
                 .map(f => path.basename(f, path.extname(f)))
         )
     }

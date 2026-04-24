@@ -8,6 +8,20 @@ const STATE_HOUSE_DISTRICT_API_URL = `${BASE_PATH}/hd-lookup`
 const CONGRESSIONAL_DISTRICT_API_URL = `${BASE_PATH}/congressional-lookup`
 const GEOCODE_API_URL = `${BASE_PATH}/geocode`
 
+// Restrict geocoding to Montana at the API layer for better relevance and fewer results.
+const MONTANA_SEARCH_EXTENT = JSON.stringify({
+    xmin: -116.3,
+    ymin: 44.1,
+    xmax: -104.0,
+    ymax: 49.3,
+    spatialReference: { wkid: 4326 }
+})
+
+const MONTANA_GEOCODE_DEFAULTS = {
+    sourceCountry: 'USA',
+    searchExtent: MONTANA_SEARCH_EXTENT,
+}
+
 export default class DistrictFinder {
 
     async matchAddressToDistricts(address, callback, fallback) {
@@ -52,17 +66,33 @@ export default class DistrictFinder {
 
     }
 
-    async geocode(address) {
+    async geocode(address, options = {}) {
+        const { maxLocations, signal } = options
         const payload = {
             SingleLine: address,
             f: 'pjson',
-            outSR: '102100'
+            outSR: '102100',
+            ...MONTANA_GEOCODE_DEFAULTS,
+            ...(maxLocations ? { maxLocations } : {}),
         }
         const url = this.makeQuery(GEOCODE_API_URL, payload)
-        const data = await fetch(url)
+        const data = await fetch(url, { signal })
             .then(resp => resp.json())
             .catch(err => console.log(err))
         return data
+    }
+
+    async suggestAddresses(address, options = {}) {
+        const query = (address || '').trim()
+        if (!query) return []
+
+        const { maxLocations = 6, signal } = options
+        const geocodeResponse = await this.geocode(query, { maxLocations, signal })
+        const candidates = geocodeResponse && geocodeResponse.candidates ? geocodeResponse.candidates : []
+
+        return candidates
+            .filter(candidate => !!candidate && !!candidate.address)
+            .map(candidate => candidate.address)
     }
 
     async getDistrict({ apiUrl, coords, fields }) {

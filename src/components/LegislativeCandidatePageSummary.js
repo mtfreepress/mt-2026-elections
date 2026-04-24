@@ -89,7 +89,7 @@ export default function CandidatePageSummary(props) {
         raceSlug,
         cap_tracker_2025_link,
     } = props
-    
+
     const router = useRouter()
     const partyInfo = PARTIES_BY_KEY.get(party)
     return <div css={summaryStyle} style={{ borderTop: `5px solid ${partyInfo.color}` }}>
@@ -108,9 +108,9 @@ export default function CandidatePageSummary(props) {
         <div className="map-col">
             {(() => {
                 const m = String(raceSlug).match(/^([A-Z]{2}-)(\d+)$/)
-                const file = m ? `${m[1]}${m[2].padStart(2, '0')}.jpg` : `${raceSlug}.jpg`
+                const file = m ? `${m[1]}${m[2].padStart(2, '0')}.webp` : `${districtKey}.webp`
                 return (
-                    <Image src={`${router.basePath}/maps/lege-maps-600px/${file}`}
+                    <Image src={`${router.basePath}/maps/webp-maps-600px/${file}`}
                         width={300}
                         height={300}
                         alt={`Map of ${raceDisplayName}`}

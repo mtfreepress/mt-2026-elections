@@ -193,6 +193,7 @@ const overviewRaces = races.map(race => {
         party: c.party,
         hasResponses: c.questionnaire.hasResponses,
         numMTFParticles: c.coverage.length,
+        raceSlug: c.raceSlug,
     })
     if (!(candidatesInRace.length > 0)) console.error('-- No candidates for race', race.raceSlug)
     return {

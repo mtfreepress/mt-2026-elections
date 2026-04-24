@@ -17,10 +17,13 @@ const summaryStyle = css`
     
     .portrait-col {
         flex: 1 0 100px;
+        max-width: 400px;
     }
     .portrait-container {
         width: 100%;
         aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        overflow: hidden;
         background-color: #666;
         display: flex;
         justify-content: center;
@@ -76,8 +79,8 @@ export default function CandidatePageSummary(props) {
     const partyInfo = PARTIES_BY_KEY.get(party) || { color: '#000', adjective: party || '' }
     const router = useRouter()
     const portraitSrc = hasPortrait
-        ? `${router.basePath}/portraits/${slug}.jpg`
-        : `${router.basePath}/portraits/no-match.jpg`
+        ? `${router.basePath}/portraits/${slug}.webp`
+        : `${router.basePath}/portraits/no-match.webp`
 
     return <div css={summaryStyle} style={{ borderTop: `5px solid ${partyInfo.color}` }}>
 
@@ -91,7 +94,8 @@ export default function CandidatePageSummary(props) {
                     priority
                     style={{
                         width: '100%',
-                        height: 'auto',
+                        height: '100%',
+                        objectFit: 'cover',
                     }}
                 />
             </div>

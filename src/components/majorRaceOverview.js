@@ -63,6 +63,8 @@ const candidateStyle = css`
     .portrait-container {
         width: 100px;
         height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
         background-color: #666;
         display: flex;
         justify-content: center;
@@ -106,13 +108,12 @@ const candidateStyle = css`
 `
 
 function Candidate(props) {
-    const { slug, displayName, summaryLine, party, numMTFParticles, hasResponses, hasPortrait } = props
+    const { slug, displayName, summaryLine, party, numMTFParticles, hasResponses, hasPortrait, raceSlug } = props
     const partyInfo = PARTIES_BY_KEY.get(party)
-
     const router = useRouter()
     const portraitSrc = hasPortrait
-        ? `${router.basePath}/portraits/${slug}.jpg`
-        : `${router.basePath}/portraits/no-match.jpg`
+        ? `${router.basePath}/portraits/${slug}.webp`
+        : `${router.basePath}/portraits/no-match.webp`
 
     return <div css={candidateStyle} style={{ borderTop: `5px solid ${partyInfo.color}` }}><Link href={`/candidates/${slug}`}>
         <div className="portrait-col" >
@@ -124,7 +125,8 @@ function Candidate(props) {
                     height={100}
                     style={{
                         width: '100%',
-                        height: 'auto',
+                        height: '100%',
+                        objectFit: 'cover',
                     }}
                 />
             </div>
@@ -134,7 +136,7 @@ function Candidate(props) {
             <div className="summary-line">{summaryLine}</div>
             <div className="tag-line">
                 {hasResponses && <span className="tag">✏️ Candidate Q&A</span>}
-                {!hasResponses && <span className="tag">🚫 No Q&A response</span>}
+                {!hasResponses && !raceSlug.includes('supco') && <span className="tag">🚫 No Q&A response</span>}
                 {(numMTFParticles > 0) && <span className="tag">📰 <strong>{numMTFParticles}</strong> {(numMTFParticles === 1) ? 'article' : 'articles'}</span>}
             </div>
             <div className="fakelink">
@@ -157,11 +159,12 @@ export default function MajorRaceOverview({ race, showMap }) {
     let mapPath = null
     const router = useRouter()
     if (showMap) {
-        mapPath = `${router.basePath}/maps/${raceSlug}.jpg`
+        mapPath = `${router.basePath}/maps/${raceSlug}.webp`
     }
 
 
     return <div key={raceSlug} css={raceStyle}>
+        <a className="link-anchor" id={raceSlug}></a>
         <h3>{displayName}</h3>
         <div className="description">{description}</div>
         {showMap && <div className="map-row">
@@ -178,39 +181,43 @@ export default function MajorRaceOverview({ race, showMap }) {
                 />
             </div>
         </div>}
-        <div className="party-buckets">
-            {
-                PARTIES.map(party => {
-                    const candidatesInBucket = candidates.filter(d => d.party === party.key)
-                    if (candidatesInBucket.length === 0) return null
-                    return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
-                        <h4 style={{
-                            color: party.color
-                        }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
-                        <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
-                    </div>
-                })
-            }
-
-        </div>
+        {(() => {
+            const activeBuckets = PARTIES.filter(party => candidates.some(d => d.party === party.key))
+            const isSingleParty = activeBuckets.length === 1
+            return <div className="party-buckets">
+                {isSingleParty
+                    ? candidates.map(d => <Candidate key={d.slug} {...d} />)
+                    : PARTIES.map(party => {
+                        const candidatesInBucket = candidates.filter(d => d.party === party.key)
+                        if (candidatesInBucket.length === 0) return null
+                        return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
+                            <h4 style={{ color: party.color }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
+                            <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
+                        </div>
+                    })
+                }
+            </div>
+        })()}
         {
             (inactiveCandidates.length > 0) && <details>
                 <summary>Candidates defeated in June 2 primary election</summary>
-                <div className="party-buckets">
-                    {
-                        PARTIES.map(party => {
-                            const candidatesInBucket = inactiveCandidates.filter(d => d.party === party.key)
-                            if (candidatesInBucket.length === 0) return null
-                            return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
-                                <h4 style={{
-                                    color: party.color
-                                }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
-                                <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
-                            </div>
-                        })
-                    }
-
-                </div>
+                {(() => {
+                    const activeInactiveBuckets = PARTIES.filter(party => inactiveCandidates.some(d => d.party === party.key))
+                    const isSingleParty = activeInactiveBuckets.length === 1
+                    return <div className="party-buckets">
+                        {isSingleParty
+                            ? inactiveCandidates.map(d => <Candidate key={d.slug} {...d} />)
+                            : PARTIES.map(party => {
+                                const candidatesInBucket = inactiveCandidates.filter(d => d.party === party.key)
+                                if (candidatesInBucket.length === 0) return null
+                                return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
+                                    <h4 style={{ color: party.color }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
+                                    <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
+                                </div>
+                            })
+                        }
+                    </div>
+                })()}
             </details>
         }
 

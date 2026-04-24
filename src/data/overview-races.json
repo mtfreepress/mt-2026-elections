@@ -5,7 +5,7 @@
     "level": "Federal Delegation",
     "campaignFinanceAgency": "fec",
     "category": "us-senate",
-    "description": "One of Montana's two U.S. Senate seats, elected with a statewide vote. Elected to a six-year term.",
+    "description": "One of Montana's two U.S. Senate seats, elected by statewide vote. U.S. senators are elected to six-year terms. The office is without an incumbent following Sen. Steve Daines’ decision not to run for reelection.",
     "note": null,
     "candidates": [
       {
@@ -14,7 +14,8 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "michael-hummert",
@@ -22,7 +23,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "alani-bankhead",
@@ -30,7 +32,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "michael-black-wolf",
@@ -38,7 +41,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "reilly-neill",
@@ -46,7 +50,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "lee-calhoun",
@@ -54,7 +59,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "tom-jandron",
@@ -62,7 +68,8 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "christopher-kehoe",
@@ -70,7 +77,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "charles-walking-child",
@@ -78,7 +86,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "kurt-alme",
@@ -86,7 +95,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       },
       {
         "slug": "seth-bodnar",
@@ -94,7 +104,8 @@
         "summaryLine": null,
         "party": "I",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-senate"
       }
     ],
     "finance": [
@@ -197,7 +208,7 @@
     "level": "Federal Delegation",
     "campaignFinanceAgency": "fec",
     "category": "us-house",
-    "description": "Western Montana representative in Congress. District includes Missoula, Bozeman, Kalispell and Butte. Elected to a two-year term.",
+    "description": "Western Montana’s representative in the U.S. House of Representatives. The Western District includes Missoula, Bozeman, Kalispell and Butte. U.S. representatives are elected to two-year terms. The office is without an incumbent following Rep. Ryan Zinke’s decision not to run for reelection",
     "note": null,
     "candidates": [
       {
@@ -206,7 +217,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       },
       {
         "slug": "matt-rains",
@@ -214,7 +226,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       },
       {
         "slug": "ryan-busse",
@@ -222,7 +235,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       },
       {
         "slug": "sam-forstag",
@@ -230,7 +244,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       },
       {
         "slug": "al-doc-olszewski",
@@ -238,7 +253,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": false,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       },
       {
         "slug": "aaron-flint",
@@ -246,7 +262,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       },
       {
         "slug": "christi-jacobsen",
@@ -254,7 +271,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": false,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       },
       {
         "slug": "ray-curtis",
@@ -262,7 +280,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       },
       {
         "slug": "nick-sheedy",
@@ -270,7 +289,8 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       },
       {
         "slug": "kimberly-a-persico",
@@ -278,7 +298,8 @@
         "summaryLine": null,
         "party": "I",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-1"
       }
     ],
     "finance": [
@@ -351,7 +372,7 @@
     "level": "Federal Delegation",
     "campaignFinanceAgency": "fec",
     "category": "us-house",
-    "description": "Eastern Montana representative in Congress. District includes Billings, Great Falls, Helena, Havre and Miles City. Elected to a two-year term.",
+    "description": "Eastern Montana’s representative in the U.S. House of Representatives. The Eastern District includes Billings, Great Falls, Helena, Havre and Miles City. U.S. representatives are elected to two-year terms.",
     "note": null,
     "candidates": [
       {
@@ -360,7 +381,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-2"
       },
       {
         "slug": "sam-lux",
@@ -368,7 +390,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-2"
       },
       {
         "slug": "troy-downing",
@@ -376,7 +399,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-2"
       },
       {
         "slug": "patrick-mccracken",
@@ -384,7 +408,8 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-2"
       },
       {
         "slug": "michael-d-eisenhauer",
@@ -392,7 +417,8 @@
         "summaryLine": null,
         "party": "I",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "us-house-2"
       }
     ],
     "finance": [
@@ -454,7 +480,7 @@
     "displayName": "Public Service Commission (Seat 1)",
     "level": "Public Service Commission",
     "category": "psc",
-    "description": "One of five seats on the state's utility regulation board, elected to a four-year term. The district spans eastern Montana, including Billings and Miles City.",
+    "description": "One of five seats on the state's utility regulation board, elected to a four-year term. District 1 spans much of eastern Montana, including Billings and Miles City.",
     "note": null,
     "candidates": [
       {
@@ -463,7 +489,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": false,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "psc-1"
       },
       {
         "slug": "jeremy-trebas",
@@ -471,7 +498,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "psc-1"
       },
       {
         "slug": "angeline-cheek",
@@ -479,7 +507,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": false,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "psc-1"
       }
     ],
     "finance": null,
@@ -490,7 +519,7 @@
     "displayName": "Public Service Commission (Seat 5)",
     "level": "Public Service Commission",
     "category": "psc",
-    "description": "One of five seats on the state's utility regulation board, elected to a four-year term. The district spans western Montana, including Missoula and Kalispell.",
+    "description": "One of five seats on the state's utility regulation board, elected to a four-year term. District 5 spans much of western Montana, including Missoula and Kalispell.",
     "note": null,
     "candidates": [
       {
@@ -499,7 +528,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": false,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "psc-5"
       },
       {
         "slug": "annie-bukacek",
@@ -507,7 +537,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "psc-5"
       },
       {
         "slug": "joe-dooling",
@@ -515,7 +546,8 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": false,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "psc-5"
       },
       {
         "slug": "kevin-hamm",
@@ -523,7 +555,8 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "psc-5"
       }
     ],
     "finance": null,
@@ -534,7 +567,7 @@
     "displayName": "State Supreme Court (Seat 4)",
     "level": "Montana Supreme Court",
     "category": "supco-4",
-    "description": "One of seven seats on the state's high court, which takes appeals from lower courts and administers the Montana legal system. Elected to an eight-year term via a statewide election.",
+    "description": "One of seven seats on the state's highest court, which takes appeals from lower courts and administers the Montana legal system. State Supreme Court justices appear on the ballot without partisan affiliation, and are elected to eight-year terms via a statewide election. Primary elections for Supreme Court automatically forward the two top vote-getters to the general election in November. Because there are only two candidates for the open seat in 2026, both will appear on the general election ballot.",
     "note": null,
     "candidates": [
       {
@@ -543,7 +576,8 @@
         "summaryLine": null,
         "party": "NP",
         "hasResponses": false,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "supco-4"
       },
       {
         "slug": "amy-eddy",
@@ -551,7 +585,8 @@
         "summaryLine": null,
         "party": "NP",
         "hasResponses": false,
-        "numMTFParticles": 0
+        "numMTFParticles": 0,
+        "raceSlug": "supco-4"
       }
     ],
     "finance": null,
