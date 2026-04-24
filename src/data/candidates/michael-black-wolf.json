@@ -84,7 +84,33 @@
       "party": "I"
     }
   ],
-  "coverage": [],
+  "coverage": [
+    {
+      "title": "Democratic primary candidates for House seats, Senate, take questions in capital debate",
+      "date": "2026-04-12T22:18:24",
+      "link": "https://montanafreepress.org/2026/04/12/montana-democratic-primary-candidates-house-senate-take-questions-capital-debate/",
+      "tags": [
+        "2026 elections",
+        "Alana Bankhead",
+        "Brian Miller",
+        "ElectionDev",
+        "Jonathan Windy Boy",
+        "Matt Rains",
+        "Michael Black Wolf",
+        "Michael Hummert",
+        "REILLY NEILL",
+        "Russell Cleveland",
+        "Ryan Busse",
+        "Sam Forstag",
+        "Sam Lux"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260412_135640/",
+      "author": "Tom Lutey"
+    }
+  ],
   "finance": [
     {
       "displayName": "Seth Bodnar",

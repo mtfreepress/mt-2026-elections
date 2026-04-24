@@ -172,6 +172,8 @@ export default function MajorRaceOverview({ race, showMap }) {
                 <Image
                     alt={`Map of ${displayName}`}
                     src={mapPath}
+                    // TODO: Decide if eager makes sense or if there's a way to just load the visible map without eager-loading all maps
+                    // loading="eager"
                     width={1200}
                     height={800}
                     style={{
