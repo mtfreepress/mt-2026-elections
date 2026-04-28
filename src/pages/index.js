@@ -1,8 +1,9 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useEffect, useState } from 'react'
 import { css } from "@emotion/react";
 
 import Layout from '../design/Layout'
 import LowdownCTA from '../design/LowdownCTA'
+import CapitolizedCTA from '../design/CapitolizedCTA'
 import Link from 'next/link';
 
 import Markdown from 'react-markdown'
@@ -27,7 +28,7 @@ import { hasPortrait } from '../lib/portraits'
 
 const RACE_LEVELS = [
     'Federal Delegation',
-    'State Officials',
+    // 'State Officials',
     'Montana Supreme Court',
     'Public Service Commission'
 ]
@@ -61,6 +62,8 @@ const overviewStyles = css`
         text-transform: uppercase;
     }
 `
+
+
 
 export async function getStaticProps() {
     const races = getRaceOverviews().map(race => ({
@@ -96,6 +99,13 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
         mtSenate: 'SD-1', // e.g. 'SD-1'
         matchedAddress: null
     })
+
+    const [showLowdown, setShowLowdown] = useState(null);
+
+    useEffect(() => {
+        setShowLowdown(Math.random() < 0.5);
+    }, []);
+
 
     const {
         overviewLedeIn,
@@ -137,7 +147,7 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
 
             <section>
                 <div>
-                    {raceLevels.slice(0, 2).map(rl => {
+                    {raceLevels.slice(0, 1).map(rl => {
                         return <div key={rl.level}>
                             <a className="link-anchor" id={urlize(rl.level)}></a>
                             <h2>{rl.level}</h2>
@@ -165,7 +175,10 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
             </section>
             <hr />
 
-            <LowdownCTA />
+            {showLowdown === true && <LowdownCTA />}
+            {showLowdown === false && <CapitolizedCTA />}
+
+
 
             <section>
                 <a className="link-anchor" id="legislature"></a>
@@ -197,7 +210,7 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
 
             <section>
                 <div>
-                    {raceLevels.slice(2,).map(rl => {
+                    {raceLevels.slice(1,).map(rl => {
                         return <div key={rl.level}>
                             <a className="link-anchor" id={urlize(rl.level)}></a>
                             <h2>{rl.level}</h2>
@@ -225,14 +238,14 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
             </section>
             <hr />
 
-{/* TODO: Enable once we have ballot initiatives */}
+            {/* TODO: Enable once we have ballot initiatives */}
             {/* <section>
                 <a className="link-anchor" id="ballot-initiatives"></a>
                 <h2>Ballot initiatives</h2>
                 <Markdown>{overviewBallotInitiatives}</Markdown>
                 <BallotInitiativeOverview ballotIssues={ballotIssues} />
             </section> */}
-{/* TODO: Enable for general */}
+            {/* TODO: Enable for general */}
             <section>
                 <h2>Other ballot items</h2>
                 <Markdown>{overviewAlsoOnYourBallot}</Markdown>

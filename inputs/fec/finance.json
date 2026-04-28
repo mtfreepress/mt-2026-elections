@@ -195,7 +195,7 @@
     "finances": {
       "api_version": "1.0",
       "pagination": {
-        "count": 6,
+        "count": 7,
         "is_count_exact": true,
         "page": 1,
         "pages": 1,
@@ -265,6 +265,22 @@
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 260761.57,
           "total_receipts": 325863.85
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "H2MT02084",
+          "candidate_name": "OLSZEWSKI, ALBERT",
+          "candidate_pcc_id": "C00783381",
+          "candidate_pcc_name": "AL FOR MONTANA",
+          "cash_on_hand_end_period": 282121.94,
+          "committee_ids": [
+            "C00783381"
+          ],
+          "coverage_end_date": "2026-03-31",
+          "incumbent_challenge_full": null,
+          "party_full": "REPUBLICAN PARTY",
+          "total_disbursements": 10233.72,
+          "total_receipts": 282406.59
         },
         {
           "candidate_election_year": 2026,

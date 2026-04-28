@@ -3,6 +3,8 @@ import Image from 'next/image'
 
 import { footerMenus, footerLogoUrl } from '../config'
 
+import mtfpLogo from '../../public/mtfp-logo.webp'
+
 const footerStyle = css`
 
     font-size: 13px;
@@ -96,9 +98,9 @@ const Footer = (props) => {
             <div css={footerInfoStyle}>
                 <span>© {new Date().getFullYear()} Montana Free Press. </span>
                 <a href="https://montanafreepress.org/about-mtfp/privacy-policy/">Privacy Policy</a>
-                <Image alt="MTFP logo" width={121} height={47} css={footerImgStyle} src={footerLogoUrl} />
+                <Image alt="MTFP logo" width={121} css={footerImgStyle} src={mtfpLogo} />
             </div>
-        </div>
+        </div>Í
 
     </footer>
 }

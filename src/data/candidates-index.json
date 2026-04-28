@@ -23,7 +23,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "seth-bodnar",
@@ -62,7 +62,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "ryan-busse",
@@ -75,7 +75,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "russell-cleveland",
@@ -88,7 +88,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "reilly-neill",
@@ -127,7 +127,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "nick-sheedy",
@@ -140,7 +140,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "michael-hummert",
@@ -192,7 +192,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "lee-calhoun",
@@ -218,7 +218,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "kurt-alme",

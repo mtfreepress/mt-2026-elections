@@ -93,14 +93,14 @@ const Header = () => {
   const { webSubtitle } = metaData
   const router = useRouter()
   return <div css={headerStyle} style={{
-    backgroundImage: `linear-gradient( rgba(23, 24, 24, 0.2), rgba(23, 24, 24, 0.5) ), url(${router.basePath}/2022-ballot-background.jpg)`
+    backgroundImage: `linear-gradient( rgba(23, 24, 24, 0.2), rgba(23, 24, 24, 0.5) ), url(${router.basePath}/2022-ballot-background.webp)`
   }}>
     <h2 className="ledein">Montana Free Press</h2>
     <h1 className="title"><Link href="/">
       Election <span className="mid-title-icon" style={{
-        backgroundImage: `url(${router.basePath}/mt-outline-white-fill.png)`
+        backgroundImage: `url(${router.basePath}/mt-outline-white-fill.webp)`
       }}>2026</span> Guide
-    </Link></h1>
+    </Link></h1>2
     <h2 className="subtitle">{webSubtitle}</h2>
     <div className="mtfp-blurb">
       A digital project by <MTFPLogo />| <a className="donate-link" href={headerDonateLink}>Support this work</a>
