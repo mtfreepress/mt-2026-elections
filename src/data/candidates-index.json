@@ -10,7 +10,7 @@
     "status": "active",
     "isIncumbent": true,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "tom-jandron",
@@ -23,7 +23,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "seth-bodnar",
@@ -36,7 +36,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 4
   },
   {
     "slug": "sam-lux",
@@ -49,7 +49,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 3
   },
   {
     "slug": "sam-forstag",
@@ -62,7 +62,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 3
   },
   {
     "slug": "ryan-busse",
@@ -75,7 +75,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 3
   },
   {
     "slug": "russell-cleveland",
@@ -101,7 +101,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "ray-curtis",
@@ -153,7 +153,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "michael-d-eisenhauer",
@@ -166,7 +166,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "michael-black-wolf",
@@ -179,7 +179,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "matt-rains",
@@ -205,7 +205,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "kyle-austin",
@@ -218,7 +218,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "kurt-alme",
@@ -231,7 +231,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "kimberly-a-persico",
@@ -348,7 +348,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": false,
-    "numMTFParticles": 4
+    "numMTFParticles": 5
   },
   {
     "slug": "charles-walking-child",
@@ -361,7 +361,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "brian-j-miller",
@@ -374,7 +374,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 3
   },
   {
     "slug": "annie-bukacek",
@@ -426,7 +426,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "al-doc-olszewski",
@@ -439,7 +439,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": false,
-    "numMTFParticles": 0
+    "numMTFParticles": 5
   },
   {
     "slug": "aaron-flint",

@@ -44,6 +44,12 @@ const DISPLAY_NAME_BY_SLUG_OVERRIDE = {
 const LAST_NAME_BY_SLUG_OVERRIDE = {
     'Mccracken': 'McCracken',
 }
+// Allows for easier tags in articles and automated processing of candidate names
+const SLUG_ALIASES = {
+    'brian-j-miller': ['brian-miller'],
+    'al-doc-olszewski': ['al-olszewski'],
+    'michael-d-eisenhauer': ['michael-eisenhauer'],
+}
 
 // Normalize party codes so the site components can consistently bucket parties
 const normalizeParty = (p) => {
@@ -153,8 +159,9 @@ candidates.forEach(candidate => {
         })
 
     // merge in MTFP coverage data
+    const coverageSlugs = new Set([candidate.slug, ...(SLUG_ALIASES[candidate.slug] || [])])
     candidate.coverage = sortedCoverage
-        .filter(article => article.tags.some(t => urlize(t) === candidate.slug))
+        .filter(article => article.tags.some(t => coverageSlugs.has(urlize(t))))
 
 
     // merge in campaign finance data 

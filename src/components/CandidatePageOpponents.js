@@ -47,7 +47,7 @@ const candidateStyle = css`
     /* width: 140px; */
     a {
         
-        height: 40px;
+        height: 43px;
         display: flex;
         align-items: stretch;
         background-color: var(--tan1);
@@ -66,6 +66,8 @@ const candidateStyle = css`
     .portrait-container {
         width: 40px;
         height: 40px;
+        margin-top: 0.1em;
+        margin-left: 0.2em;
         border-radius: 50%;
         overflow: hidden;
         background-color: #666;

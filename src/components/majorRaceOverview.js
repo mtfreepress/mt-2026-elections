@@ -28,7 +28,7 @@ const raceStyle = css`
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        margin-top: 0.5em;
+        margin-top: -1em;
         gap: 0.5em;
      }
     .party-bucket {
@@ -63,7 +63,7 @@ const raceStyle = css`
     }
 `
 const candidateStyle = css`
-    margin: 0.5em 0;
+    margin: 0.5em 0.2em;
     width: min(100%, 310px);
     a {
         width: 100%;
@@ -73,6 +73,7 @@ const candidateStyle = css`
         box-shadow: 2px 2px 3px #aaa;
         color: black;
         min-width: 0;
+        height: 105px;
     }
     a:hover {
         opacity: 0.8;
@@ -94,7 +95,8 @@ const candidateStyle = css`
         justify-content: center;
         align-items: center;
         color: white;
-    }
+        margin-left: 0.06em;
+        margin-top: 0.15em;}
     .info-col {
         flex: 1 1 200px;
         padding: 0.5em 0.5em;
