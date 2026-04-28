@@ -1,6 +1,7 @@
 const fs = require('fs')
 const csv = require('async-csv')
 const YAML = require('yaml')
+const glob = require('glob')
 
 const writeJson = (path, data) => {
     fs.writeFile(path, JSON.stringify(data, null, 2), err => {
@@ -18,7 +19,14 @@ const getCsv = async (path) => {
     })
 }
 
+const getYml = (path) => YAML.parse(fs.readFileSync(path, 'utf8'))
+const collectYmls = (globPath) => glob.sync(globPath).map(getYml)
+
 const urlize = str => str.toLowerCase().replaceAll(/\s/g, '-')
+
+const canonicalizeName = str => (str || '')
+    .toLowerCase()
+    .replaceAll(/[^a-z0-9]/g, '')
 
 // --- CONFIGURATION ---
 
@@ -163,6 +171,12 @@ function computeInCycleForYear(d) {
 async function main() {
     let candidates = await getCsv('./inputs/filings/CandidateList.csv')
     const legeDistricts = await getCsv('./inputs/legislative-districts/districts.csv')
+    const candidateYmls = collectYmls('./inputs/content/candidates/*.yml')
+
+    const ymlBySlug = new Map(candidateYmls.map(c => [c.slug, c]))
+    const ymlByName = new Map(candidateYmls
+        .filter(c => c.displayName)
+        .map(c => [canonicalizeName(c.displayName), c]))
 
     // Load legislator roster (used to fill holdover senators not up this cycle)
     let roster = []
@@ -204,15 +218,20 @@ async function main() {
             if (MANUAL_DROPOUTS.includes(name)) status = 'withdrawn'
             if (EXCLUDED_SLUGS.has(urlize(name))) status = 'withdrawn'
 
+            const candidateSlug = urlize(name)
+            const ymlCandidate = ymlBySlug.get(candidateSlug) || ymlByName.get(canonicalizeName(name))
+            const isIncumbent = Boolean(ymlCandidate && ymlCandidate.isIncumbent)
+
             return {
                 raceSlug,
                 raceDisplayName: raceSlug
                     .replace('HD-', 'House District ')
                     .replace('SD-', 'Senate District '),
-                slug: urlize(name),
+                slug: candidateSlug,
                 displayName: name,
                 party,
                 status,
+                isIncumbent,
                 campaignWebsite: extractWebsite(d['Email/Web Address']),
             }
         })
@@ -227,6 +246,7 @@ async function main() {
                 slug: d.slug,
                 displayName: d.displayName,
                 party: d.party,
+                isIncumbent: d.isIncumbent,
                 campaignWebsite: d.campaignWebsite,
             })),
     }))
@@ -241,6 +261,7 @@ async function main() {
                 displayName: c.displayName,
                 party: c.party,
                 status: c.status,
+                isIncumbent: c.isIncumbent,
                 campaignWebsite: c.campaignWebsite,
             }))
 

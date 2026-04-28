@@ -202,10 +202,14 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
                     selHouseDistrict={selHouseDistrict}
                     selSenateDistrict={selSenateDistrict}
                 />
-                <div className='note'>
-                    <Link href="/legislative-candidates-by-district/">See all candidates listed by district.</Link>
+                <div class="note-row">
+                    <div className='note'>
+                        <Link href="/legislative-candidates-by-district/">See all candidates listed by district.</Link>
+                    </div>
+                    <div className='note2'>
+                        <span><span style={{ fontSize: '1.8em', verticalAlign: 'text-bottom' }}>*</span>Denotes incumbent candidate</span>
+                    </div>
                 </div>
-
             </section>
 
             <section>

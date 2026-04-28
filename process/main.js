@@ -38,6 +38,9 @@ if (excludedSlugs.size > 0) {
 // Only load YAMLs for candidates actually referenced in races.yml.
 // Legislative candidates have their own pipeline (process/legislative-candidates.js).
 const raceCandidateSlugs = new Set(races.flatMap(r => r.candidates || []))
+const DISPLAY_NAME_BY_SLUG_OVERRIDE = {
+    'patrick-mccracken': 'Patrick McCraken',
+}
 // Normalize party codes so the site components can consistently bucket parties
 const normalizeParty = (p) => {
     if (p === null || p === undefined) return p
@@ -53,7 +56,11 @@ const normalizeParty = (p) => {
 
 const candidates = collectYmls('./inputs/content/candidates/*.yml')
     .filter(c => raceCandidateSlugs.has(c.slug))
-    .map(c => ({ ...c, party: normalizeParty(c.party) }))
+    .map(c => ({
+        ...c,
+        displayName: DISPLAY_NAME_BY_SLUG_OVERRIDE[c.slug] || c.displayName,
+        party: normalizeParty(c.party),
+    }))
 const ballotInitiatives = getYml('./inputs/content/ballot-initiatives.yml')
 const coverage = getJson('./inputs/coverage/articles.json')
 const howToVoteContent = getMD('./inputs/content/how-to-vote.md')

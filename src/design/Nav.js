@@ -92,7 +92,7 @@ const navSecondaryStyle = css`
     border: 1px solid var(--gray2);
     padding: 0.2em 0.5em;
     
-    margin: 0em 0.25em;
+    margin: .25em 0.25em;
     margin-bottom: 0.25em;
 `
 
@@ -107,7 +107,7 @@ const activeStyle = css`
 const PAGE_LINKS = [
     { path: '/', label: 'All Races' },
     { path: '/#federal-delegation', label: 'Federal Delegation' },
-    { path: '/#state-officials', label: 'State Officials' },
+    // { path: '/#state-officials', label: 'State Officials' },
     { path: '/#legislature', label: 'Montana Legislature' },
     { path: '/#montana-supreme-court', label: 'Other offices' },
 // TODO: Enable once we have ballot initiatives

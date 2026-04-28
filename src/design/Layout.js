@@ -99,10 +99,10 @@ export default function Layout({
             "author": [
               {
                   "@type": "Person",
-                  "name": "Eric Dietrich"
+                  "name": "Jacob Olness"
               }
             ],
-            "creator": "Eric Dietrich",
+            "creator": "Jacob Olness",
             "publisher": {
                 "@type": "Organization",
                 "name": "Montana Free Press",
