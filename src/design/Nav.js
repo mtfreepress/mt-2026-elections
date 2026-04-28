@@ -92,7 +92,7 @@ const navSecondaryStyle = css`
     border: 1px solid var(--gray2);
     padding: 0.2em 0.5em;
     
-    margin: .25em 0.25em;
+    margin: 0em 0.25em;
     margin-bottom: 0.25em;
 `
 
