@@ -39,8 +39,12 @@ if (excludedSlugs.size > 0) {
 // Legislative candidates have their own pipeline (process/legislative-candidates.js).
 const raceCandidateSlugs = new Set(races.flatMap(r => r.candidates || []))
 const DISPLAY_NAME_BY_SLUG_OVERRIDE = {
-    'patrick-mccracken': 'Patrick McCraken',
+    'patrick-mccracken': 'Patrick McCracken',
 }
+const LAST_NAME_BY_SLUG_OVERRIDE = {
+    'Mccracken': 'McCracken',
+}
+
 // Normalize party codes so the site components can consistently bucket parties
 const normalizeParty = (p) => {
     if (p === null || p === undefined) return p
@@ -59,8 +63,10 @@ const candidates = collectYmls('./inputs/content/candidates/*.yml')
     .map(c => ({
         ...c,
         displayName: DISPLAY_NAME_BY_SLUG_OVERRIDE[c.slug] || c.displayName,
+        lastName: LAST_NAME_BY_SLUG_OVERRIDE[c.lastName] || c.lastName,
         party: normalizeParty(c.party),
     }))
+console.log(candidates)
 const ballotInitiatives = getYml('./inputs/content/ballot-initiatives.yml')
 const coverage = getJson('./inputs/coverage/articles.json')
 const howToVoteContent = getMD('./inputs/content/how-to-vote.md')

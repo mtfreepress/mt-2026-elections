@@ -22,6 +22,7 @@ const summaryStyle = css`
     .portrait-container {
         width: 100%;
         aspect-ratio: 1 / 1;
+        margin: 0.5em auto;
         border-radius: 50%;
         overflow: hidden;
         background-color: #666;
@@ -77,6 +78,10 @@ const summaryStyle = css`
         .position-line {
             font-size: 1.1em;
         }
+        .portrait-container {
+            margin-top: .35em;
+            margin-bottom: -.75em;
+        }
     }
 `
 
@@ -105,7 +110,6 @@ export default function CandidatePageSummary(props) {
                     src={portraitSrc}
                     width={250}
                     height={250}
-                    priority
                     style={{
                         width: '100%',
                         height: '100%',

@@ -46,10 +46,12 @@ const candidatePageStyle = css`
 
     .link-block {
         margin: 0.5em 0;
-
-    //     span:not(:last-child):after{
-    //         content: ' • '
-    //     }
+    }
+// TODO: ADJUST THIS WHEN BIO SECTIONS ARE ADDED BACK IN
+     @media screen and (max-width: 600px) {
+        .link-block {
+            font-size: .9349999em;
+        }
     }
 `
 
@@ -146,20 +148,20 @@ export default function CandidatePage({ pageData, votingFAQ }) {
 
             {/* QUESTIONNAIRE RESPONSES */}
             <a className="link-anchor" id="issues"></a>
-            {!raceSlug.includes('supco') && 
-            <section>
-                <h2>ON THE ISSUES</h2>
-                <Markdown>{questionnaireStateOfficeLedein}</Markdown>
-                {questionnaire ?
-                    <CandidateQuestionnaire
-                        responses={questionnaire.responses}
-                        displayName={displayName}
-                        currentCandidateSlug={slug}
-                        opponents={opponents}
-                    /> :
-                    <div className="note">No responses at this time.</div>
-                }
-            </section>
+            {!raceSlug.includes('supco') &&
+                <section>
+                    <h2>ON THE ISSUES</h2>
+                    <Markdown>{questionnaireStateOfficeLedein}</Markdown>
+                    {questionnaire ?
+                        <CandidateQuestionnaire
+                            responses={questionnaire.responses}
+                            displayName={displayName}
+                            currentCandidateSlug={slug}
+                            opponents={opponents}
+                        /> :
+                        <div className="note">No responses at this time.</div>
+                    }
+                </section>
             }
 
             {/* MTFP COVERAGE */}
@@ -183,7 +185,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                 }
             </section>
 
-{/* TODO: Add back after primary results are available */}
+            {/* TODO: Add back after primary results are available */}
             {/* <section>
                 <a className="link-anchor" id="results"></a>
                 <h2>Election outcomes</h2>
@@ -196,7 +198,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                         : <p>No party primary was conducted.</p>
                 }
             </section> */}
-{/* Leave this off */}
+            {/* Leave this off */}
             {/* <section>
                 <a className="link-anchor" id="voting-faq"></a>
                 <h2>COMMON VOTING QUESTIONS</h2>
