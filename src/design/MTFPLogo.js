@@ -1,7 +1,7 @@
 import { css } from '@emotion/react'
 import Image from 'next/image'
 
-import mtfpLogo from "../../public/mtfp-logo.png"
+import mtfpLogo from "../../public/mtfp-logo.webp"
 
 const containerCss = css`
     display: inline-block;

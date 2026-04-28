@@ -140,6 +140,10 @@ const candidateStyle = css`
         font-size: 1.1em;
         margin-bottom: 0;
     }
+    .incumbent-marker {
+        margin-left: 0.15em;
+        font-weight: 700;
+    }
     .tag-line {
         font-size: 0.8em;
         margin-top: 0.2em;
@@ -170,16 +174,18 @@ const candidateStyle = css`
 `
 
 function Candidate(props) {
-    const { displayName, party, campaignWebsite } = props
+    const { displayName, party, campaignWebsite, isIncumbent } = props
     const partyInfo = PARTIES_BY_KEY.get(party)
-
     const inner = <>
         <div className="portrait-col" >
             <div className="party" style={{ background: partyInfo.color }}>{party}</div>
         </div>
         <div className="info-col">
             <div>
-                <div className="name">{displayName}</div>
+                <div className="name">
+                    {displayName}
+                    {isIncumbent && <span className="incumbent-marker" aria-label="Incumbent">*</span>}
+                </div>
             </div>
             {campaignWebsite && <div className="fakelink">Website »</div>}
         </div>

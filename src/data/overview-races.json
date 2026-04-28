@@ -14,7 +14,7 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 1,
         "raceSlug": "us-senate"
       },
       {
@@ -23,7 +23,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 1,
         "raceSlug": "us-senate"
       },
       {
@@ -41,7 +41,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 1,
         "raceSlug": "us-senate"
       },
       {
@@ -50,7 +50,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 1,
         "raceSlug": "us-senate"
       },
       {
@@ -68,7 +68,7 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 1,
         "raceSlug": "us-senate"
       },
       {
@@ -217,7 +217,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-1"
       },
       {
@@ -226,7 +226,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-1"
       },
       {
@@ -235,7 +235,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-1"
       },
       {
@@ -244,7 +244,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-1"
       },
       {
@@ -262,7 +262,7 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 4,
         "raceSlug": "us-house-1"
       },
       {
@@ -271,7 +271,7 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": false,
-        "numMTFParticles": 0,
+        "numMTFParticles": 4,
         "raceSlug": "us-house-1"
       },
       {
@@ -289,7 +289,7 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 1,
         "raceSlug": "us-house-1"
       },
       {
@@ -380,7 +380,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-2"
       },
       {
@@ -394,11 +394,11 @@
       },
       {
         "slug": "patrick-mccracken",
-        "displayName": "Patrick Mccracken",
+        "displayName": "Patrick McCraken",
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 0,
+        "numMTFParticles": 1,
         "raceSlug": "us-house-2"
       },
       {
@@ -453,7 +453,7 @@
         "coverageEndDate": "2026-03-31"
       },
       {
-        "displayName": "Patrick Mccracken",
+        "displayName": "Patrick McCraken",
         "party": "L",
         "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
         "candidateId": "H6MT02176",

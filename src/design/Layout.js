@@ -38,7 +38,7 @@ export default function Layout({
   } = metaData
 
   const pageUrl = relativePath === '/' ? `${baseUrl}/` : `${baseUrl}/${relativePath}/`
-  const featureImage = pageFeatureImage || `${baseUrl}/election-guide-2024-feature-art.jpg`
+  const featureImage = pageFeatureImage || `${baseUrl}/election-guide-2026-feature-art.jpg`
   return (
     <div>
       <Head>
@@ -99,10 +99,10 @@ export default function Layout({
             "author": [
               {
                   "@type": "Person",
-                  "name": "Eric Dietrich"
+                  "name": "Jacob Olness"
               }
             ],
-            "creator": "Eric Dietrich",
+            "creator": "Jacob Olness",
             "publisher": {
                 "@type": "Organization",
                 "name": "Montana Free Press",

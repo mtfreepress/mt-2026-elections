@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { css } from '@emotion/react'
 
 import Image from 'next/image';
-import wideCapitolizedLogo from "../../public/mt-lowdown-banner-post.webp"
+import wideCapitolizedLogo from "../../public/Capitolized400x147.webp"
 
 const style = css`
     background: #191919;
@@ -82,11 +82,11 @@ const style = css`
 `
 
 // Temporary link approach
-export default function LowdownCTA() {
+export default function CapitolizedCTA() {
     return <div css={style}>
         <div className="row">
             <div className="img-col">
-                <a href="https://montanafreepress.org/mt-lowdown/">
+                <a href="https://montanafreepress.org/newsletters-sign-up/">
                     <Image
                         src={wideCapitolizedLogo}
                         alt="Capitolized newsletter"
@@ -98,25 +98,12 @@ export default function LowdownCTA() {
             </div>
             <div className="words-col">
                 {/* <div className="message">Sign up for CAPITOLIZED</div> */}
-                <div className="message-2">Want original Montana Free Press reporting and analysis sent to your inbox each week?</div>
+                <div className="message-2">Expert reporting and insight from the Montana Capitol, emailed Thursdays.</div>
                 <br />
                 <div className="signup">
-                    👉 <a href="https://montanafreepress.org/mt-lowdown/"> SIGN UP HERE</a>
+                    👉 <a href="https://montanafreepress.org/newsletters-sign-up/"> SIGN UP HERE</a>
                 </div >
             </div>
         </div>
     </div >
 }
-// const CTA_LINK = 'https://montanafreepress.org/mt-lowdown/'
-
-// export default function LowdownCTA() {
-//     return <div css={ctaStyle}>
-//         <div className="message">Want original Montana Free Press reporting and analysis sent to your inbox each week?</div>
-//         <a href={CTA_LINK}>
-//             <div className="button">Sign up for the free</div>
-//             <Image className="lowdownBanner" src={lowdownLogo} alt="Montana Lowdown newsletter" width={450} marginTop={10}/>
-//             <div className="button">Lowdown newsletter</div>
-//         </a>
-//         <div className="outro">Delivered Friday afternoons</div>
-//     </div>
-// }

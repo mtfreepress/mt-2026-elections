@@ -107,14 +107,30 @@ h4 {
     visibility: hidden;
 }
 
-.note {
-    /* Deliberate choice to not use future-pt here*/
+.note-row {
+    display: flex;
+    gap: 0.5rem; /* optional spacing between columns */
+}
+
+.note-row .note,
+.note-row .note2 {
+    width: 50%;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
     font-size: 0.9em;
     line-height: 1.2em;
     font-style: italic;
     color: var(--gray4);
-    margin-bottom: 0.5em;
-    margin-top: 0.3em;
+}
+
+.note-row .note {
+    text-align: left;
+    margin-left: .6em;
+}
+
+.note-row .note2 {
+    text-align: right;
+    margin-right: .6em;
 }
 
 button {

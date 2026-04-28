@@ -3,7 +3,7 @@ export const PARTIES = [
     { key: 'D', noun: 'Democrat', adjective: 'Democratic', color: '#4575b4' },
     { key: 'L', noun: 'Libertarian', adjective: 'Libertarian', color: '#e89a0b' },
     { key: 'G', noun: 'Green', adjective: 'Green Party', color: '#4b9441' },
-     { key: 'I', noun: 'Independent', adjective: 'Independent', color: '#8748f7' },
+     { key: 'I', noun: 'Independent', adjective: 'Independent', color: '#6f5bb5' },
     { key: 'NP', noun: 'Nonpartisan', adjective: 'Nonpartisan', color: '#e76f41' },
     // { key: 'I', noun: 'Independent', adjective: 'Independent', color: '#666' },
     // { key: 'NP', noun: 'Nonpartisan', adjective: 'Nonpartisan', color: '#666' },

@@ -107,7 +107,7 @@ const activeStyle = css`
 const PAGE_LINKS = [
     { path: '/', label: 'All Races' },
     { path: '/#federal-delegation', label: 'Federal Delegation' },
-    { path: '/#state-officials', label: 'State Officials' },
+    // { path: '/#state-officials', label: 'State Officials' },
     { path: '/#legislature', label: 'Montana Legislature' },
     { path: '/#montana-supreme-court', label: 'Other offices' },
 // TODO: Enable once we have ballot initiatives

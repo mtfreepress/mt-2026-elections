@@ -16,11 +16,11 @@ You can register to vote by stopping by your county election office any time dur
 
 ### Can I register to vote on Election Day?
 
-Yes. The state Legislature has sought to enact an earlier registration deadline, but under a March 2024 ruling by the Montana Supreme Court, same-day voter registration remains legal in Montana. Residents can register to vote or update their voter registration at their county’s election office prior to 8 p.m. on Election Day.
+Yes, but with some changes resulting from new laws passed by the 2025 Legislature. In the past, would-be voters could register up until 8 p.m. on Election Day. Now, thanks to [Senate Bill 490](https://projects.montanafreepress.org/capitol-tracker-2025/bills/sb-490/), qualified citizens can register to vote only between 8 a.m. and noon on Election Day. Other late-registration changes to be aware of: You can no longer register to vote on the Monday before Election Day, and you can now register to vote up until 5 p.m. on the Saturday before Election Day
 
 ### Does Montana have voter ID requirements?
 
-Yes, you will be required to present identification when voting at the polls. However, under the Montana Supreme Court’s March ruling, changes made to those requirements by the 2021 Legislature remain blocked. The current forms of identification voters can use at the polls are a current Montana driver’s license, state-issued photo ID, tribal or military photo ID, a U.S. passport or a student ID. If you don’t have a photo ID, you can use a utility bill, a bank statement, a voter confirmation card or any other government document that shows your name and address.
+Yes, and some of them are new after the 2025 legislative session. That’s when lawmakers passed and Gov. Greg Gianforte signed [Senate Bill 276](https://projects.montanafreepress.org/capitol-tracker-2025/bills/sb-276/), which implements a new photo ID requirement. (Previously, registrants could use mail addressed to them or fill out a form to vote without photo ID.) Accepted forms of photo ID for voting in 2026 are a valid Montana driver's license or Real ID, Montana state identification card, military ID, tribal photo ID, U.S. passport, Montana concealed carry permit, or Montana university system photo ID. 
 
 ### Are there situations where I wouldn't be eligible to vote?
 
@@ -40,12 +40,14 @@ In 2025, legislators passed a law requiring that voters write their year of birt
 
 You can return ballots by mail, or drop them off in person at your county’s election office. Either way, the election office must receive your ballot by 8 p.m. on Election Day in order to count it.
 
+Be aware that another 2025 law, [House Bill 719](https://projects.montanafreepress.org/capitol-tracker-2025/bills/hb-719/), now requires that voters write their year of birth alongside the required signature on all mail ballot envelopes. Mail ballot envelopes without a birth year may be rejected. Again, you can [check the status of your ballot](https://voterportal.mt.gov/WhereToVote.aspx) on the secretary of state’s website.
+
 ### How do I vote in person?
 
 If you plan to vote at the polls, just be sure you know where your polling location is and head there between 7 a.m. and 8 p.m. on Election Day. You'll need to provide a photo ID or other accepted form of identification and sign the precinct register, at which point you’ll get your ballot and be directed to a voting booth. If you have any technical questions or run into any problems, the election judges at your polling place should be able to help you.
 
 ### I have a friend or family member who isn't able to drop off his or her mail-in ballot. Can I do it for them?
-Yes, you can. The Montana Legislature did make some changes to ballot collection laws in 2021 related to paid ballot collection, but those changes have also been blocked by the Montana Supreme Court.
+Yes, you can.
 
 ### Who should I vote for?
 

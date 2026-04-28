@@ -1,6 +1,6 @@
 {
   "slug": "patrick-mccracken",
-  "displayName": "Patrick Mccracken",
+  "displayName": "Patrick McCraken",
   "lastName": "Mccracken",
   "summaryLine": null,
   "summaryNarrative": null,
@@ -37,7 +37,7 @@
     },
     {
       "slug": "patrick-mccracken",
-      "displayName": "Patrick Mccracken",
+      "displayName": "Patrick McCraken",
       "summaryLine": null,
       "party": "L"
     },
@@ -48,7 +48,27 @@
       "party": "I"
     }
   ],
-  "coverage": [],
+  "coverage": [
+    {
+      "title": "Is Montana having a Libertarian moment?",
+      "date": "2026-03-18T07:00:00",
+      "link": "https://montanafreepress.org/2026/03/18/is-montana-having-a-libertarian-moment/",
+      "tags": [
+        "2026 elections",
+        "ElectionDev",
+        "Kyle Austin",
+        "libertarian",
+        "Nick Sheedy",
+        "Patrick McCracken",
+        "Tom Jandron"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/2026/03/18/is-montana-having-a-libertarian-moment/untitled_design_-_2026-03-17t163646-683-libertarian-purple-outside_720/",
+      "author": "Tom Lutey"
+    }
+  ],
   "finance": [
     {
       "displayName": "Troy Downing",
@@ -99,7 +119,7 @@
       "candidateStatus": "active"
     },
     {
-      "displayName": "Patrick Mccracken",
+      "displayName": "Patrick McCraken",
       "party": "L",
       "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
       "candidateId": "H6MT02176",

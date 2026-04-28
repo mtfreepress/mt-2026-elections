@@ -16,6 +16,7 @@
         "displayName": "MICHELLE BIANCO",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://bianco4mt2026.com"
       },
       {
@@ -23,6 +24,7 @@
         "displayName": "ROBERTA MCCANSE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -30,6 +32,7 @@
         "displayName": "DAKOTA V ADAMS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://adamsforlegislature.com"
       }
     ]
@@ -51,6 +54,7 @@
         "displayName": "TOM MILLETT",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://millett4montana.com"
       },
       {
@@ -58,6 +62,7 @@
         "displayName": "JANE MAAHS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -79,6 +84,7 @@
         "displayName": "CATHY MITCHELL",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://cathymitchellformontana.com"
       },
       {
@@ -86,6 +92,7 @@
         "displayName": "DEREK PEACHEY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://peacheyformontana.com"
       },
       {
@@ -93,6 +100,7 @@
         "displayName": "DEBO POWERS",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://powersforthepeople.us"
       }
     ]
@@ -114,6 +122,7 @@
         "displayName": "SHAUN PANDINA",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://pandinaformontana.com"
       },
       {
@@ -121,6 +130,7 @@
         "displayName": "LYN BENNETT",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://lynbennettformontanahd4.com"
       },
       {
@@ -128,6 +138,7 @@
         "displayName": "NATHAN PURDY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -135,6 +146,7 @@
         "displayName": "PAULA KOCH",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kochbestformontanahd4.org"
       }
     ]
@@ -156,6 +168,7 @@
         "displayName": "BRAXTON MITCHELL",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -163,6 +176,7 @@
         "displayName": "LUCA WELLE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://lucaformontana.com"
       }
     ]
@@ -184,6 +198,7 @@
         "displayName": "JIM RILEY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://jimrileyforhd6.com"
       },
       {
@@ -191,6 +206,7 @@
         "displayName": "ARTHUR DUNN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -198,6 +214,7 @@
         "displayName": "DARREN FIX",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://fix4hd6.com"
       }
     ]
@@ -219,6 +236,7 @@
         "displayName": "LUKE MAXWELL",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://maxwellformontana.com"
       },
       {
@@ -226,6 +244,7 @@
         "displayName": "COURTENAY SPRUNGER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://courtenaysprunger.com"
       },
       {
@@ -233,6 +252,7 @@
         "displayName": "MADISON EVANS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://madisonformontana.com"
       }
     ]
@@ -254,6 +274,7 @@
         "displayName": "LUKAS SCHUBERT",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://lukasschubertmt.com"
       },
       {
@@ -261,6 +282,7 @@
         "displayName": "CALVIN LIME",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -282,6 +304,7 @@
         "displayName": "STEVEN C KELLY",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://kellyforhd9.com"
       },
       {
@@ -289,6 +312,7 @@
         "displayName": "KATE MCLAUGHLIN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://k84mt.com"
       }
     ]
@@ -310,6 +334,7 @@
         "displayName": "TERRY FALK",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -317,6 +342,7 @@
         "displayName": "CATHERINE C ALLEN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://catherineallenformontana.com"
       }
     ]
@@ -338,6 +364,7 @@
         "displayName": "ED BYRNE",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -345,6 +372,7 @@
         "displayName": "MAEVE KINTZLER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -366,6 +394,7 @@
         "displayName": "TRACY A SHARP",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://tracysharpmt12.com"
       },
       {
@@ -373,6 +402,7 @@
         "displayName": "CINDY L BRUCKNER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -394,6 +424,7 @@
         "displayName": "LINDA REKSTEN",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://reksten4mt.com"
       },
       {
@@ -401,6 +432,7 @@
         "displayName": "FINLEY WARDEN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://finleyformontana.com"
       },
       {
@@ -408,6 +440,7 @@
         "displayName": "DALTON BRADFORD",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -429,6 +462,7 @@
         "displayName": "PAUL FIELDER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -436,6 +470,7 @@
         "displayName": "COLLEEN HINDS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -457,6 +492,7 @@
         "displayName": "RALPH FOSTER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -464,6 +500,7 @@
         "displayName": "THEDIS B CROWE",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -471,6 +508,7 @@
         "displayName": "ADRIEN OWEN WAGNER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -492,6 +530,7 @@
         "displayName": "LONA R RUNNING WOLF",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -513,6 +552,7 @@
         "displayName": "JUSTIN W CLEVELAND",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -520,6 +560,7 @@
         "displayName": "SUSAN GEISE",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://susanforhd17.com"
       },
       {
@@ -527,6 +568,7 @@
         "displayName": "MICHAEL J FASBENDER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -534,6 +576,7 @@
         "displayName": "CHRIS BECHTOLD",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -555,6 +598,7 @@
         "displayName": "BRUCE \"BUTCH\" GILLESPIE",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -576,6 +620,7 @@
         "displayName": "DERREN AUGER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -583,6 +628,7 @@
         "displayName": "HANNAH TREBAS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -590,6 +636,7 @@
         "displayName": "JANE WEBER",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://weberforhd19"
       }
     ]
@@ -611,6 +658,7 @@
         "displayName": "TONY ROSALES",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://rosalesformt.com"
       },
       {
@@ -618,6 +666,7 @@
         "displayName": "MELISSA NIKOLAKAKOS",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://melissaforus.com"
       },
       {
@@ -625,6 +674,7 @@
         "displayName": "STEVE KELLER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://n"
       }
     ]
@@ -646,6 +696,7 @@
         "displayName": "TREVOR P FUNSETH",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://funsethformontana.com"
       },
       {
@@ -653,6 +704,7 @@
         "displayName": "ERIC PETERSON",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://ericpetersonmedia.com"
       },
       {
@@ -660,6 +712,7 @@
         "displayName": "LELA GRAHAM",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://lelagraham.com"
       }
     ]
@@ -681,6 +734,7 @@
         "displayName": "JASON LORANG",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -688,6 +742,7 @@
         "displayName": "KEVIN LEATHERBARROW",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kevinleatherbarrow.com"
       },
       {
@@ -695,6 +750,7 @@
         "displayName": "NEAL MILLER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -702,6 +758,7 @@
         "displayName": "DAVE VON ESCHEN",
         "party": "L",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -723,6 +780,7 @@
         "displayName": "ERIC TILLEMAN",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://tillemanforhd23.com"
       },
       {
@@ -730,6 +788,7 @@
         "displayName": "BRETT MILLS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://millsformontana.com"
       },
       {
@@ -737,6 +796,7 @@
         "displayName": "REBECCA BOGDEN-RICHARDS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -758,6 +818,7 @@
         "displayName": "STEVE FITZPATRICK",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://fitzpatrickformt.com"
       },
       {
@@ -765,6 +826,7 @@
         "displayName": "PAM CARROLL",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://pamelacarroll.com"
       }
     ]
@@ -786,6 +848,7 @@
         "displayName": "STEVE GIST",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://stevegistformontana.com"
       },
       {
@@ -793,6 +856,7 @@
         "displayName": "JERRY FERDERER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -814,6 +878,7 @@
         "displayName": "RUSSEL MINER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -821,6 +886,7 @@
         "displayName": "PAUL JEFFERSON",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -842,6 +908,7 @@
         "displayName": "PAUL TUSS",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://paultuss.com"
       },
       {
@@ -849,6 +916,7 @@
         "displayName": "JORDAN OPHUS",
         "party": "L",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -870,6 +938,7 @@
         "displayName": "JOHN SOUTH",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -877,6 +946,7 @@
         "displayName": "CHISHOLM B CHRISTENSEN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -898,6 +968,7 @@
         "displayName": "LINDA HARMON",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://harmon4house.com"
       },
       {
@@ -905,6 +976,7 @@
         "displayName": "VALERIE MOORE",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -912,6 +984,7 @@
         "displayName": "TESS FAHLGREN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -919,6 +992,7 @@
         "displayName": "RACHEL SUNDHEIM",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -940,6 +1014,7 @@
         "displayName": "MORGAN THIEL",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -947,6 +1022,7 @@
         "displayName": "JASON BOESHORE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -968,6 +1044,7 @@
         "displayName": "LANCE ELLIOT FOURSTAR",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -975,6 +1052,7 @@
         "displayName": "NATALIE ONEAL",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://natalie4montana.com"
       }
     ]
@@ -996,6 +1074,7 @@
         "displayName": "MIKE FOX",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -1017,6 +1096,7 @@
         "displayName": "RIC HOLDEN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1024,6 +1104,7 @@
         "displayName": "BRANDON LER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -1031,6 +1112,7 @@
         "displayName": "TRISTAN VEVERKA",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1052,6 +1134,7 @@
         "displayName": "JERRY SCHILLINGER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -1059,6 +1142,7 @@
         "displayName": "JASON ELLSWORTH",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1066,6 +1150,7 @@
         "displayName": "JASMINE ERICKSON",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1087,6 +1172,7 @@
         "displayName": "GARY PARRY",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -1094,6 +1180,7 @@
         "displayName": "NATALIE PARKER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1115,6 +1202,7 @@
         "displayName": "TY LINGER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1122,6 +1210,7 @@
         "displayName": "LOREN HINEBAUCH",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1129,6 +1218,7 @@
         "displayName": "BENJAMIN KEYES",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1150,6 +1240,7 @@
         "displayName": "SHANE KLAKKEN",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://shaneklakken.com"
       },
       {
@@ -1157,6 +1248,7 @@
         "displayName": "TRACEY MILLER KARCHER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://yourvoicehd37.com"
       }
     ]
@@ -1178,6 +1270,7 @@
         "displayName": "GREG OBLANDER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://gregoblander4montana"
       }
     ]
@@ -1199,6 +1292,7 @@
         "displayName": "KERRI SEEKINS CROWE",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://kerriseekinscrowe.com"
       },
       {
@@ -1206,6 +1300,7 @@
         "displayName": "MELISSA SMITH",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://smithformontana.com"
       }
     ]
@@ -1227,6 +1322,7 @@
         "displayName": "MIKE VINTON",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://vintonformontana.com"
       },
       {
@@ -1234,6 +1330,7 @@
         "displayName": "GUNNER CESNIK",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1241,6 +1338,7 @@
         "displayName": "GABRIEL  BRADSHAW",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1262,6 +1360,7 @@
         "displayName": "JADE SOOKTIS",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -1283,6 +1382,7 @@
         "displayName": "JEREMIAH JABS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://jabsformt.com"
       },
       {
@@ -1290,6 +1390,7 @@
         "displayName": "SIDNEY CHIP FITZPATRICK",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -1311,6 +1412,7 @@
         "displayName": "LARRY BREWSTER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://none"
       },
       {
@@ -1318,6 +1420,7 @@
         "displayName": "RUDOLF HADEN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1339,6 +1442,7 @@
         "displayName": "KATIE ZOLNIKOV",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://katiezolnikov.com"
       },
       {
@@ -1346,6 +1450,7 @@
         "displayName": "MIKE EATON",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1367,6 +1472,7 @@
         "displayName": "BRYCE WALSTON",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1374,6 +1480,7 @@
         "displayName": "DENISE BAUM",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://baumformontana.com"
       }
     ]
@@ -1395,6 +1502,7 @@
         "displayName": "KIM WELZENBACH",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kimformontana.org"
       },
       {
@@ -1402,6 +1510,7 @@
         "displayName": "DENISE JOY",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -1409,6 +1518,7 @@
         "displayName": "ERIN R TATE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1430,6 +1540,7 @@
         "displayName": "RON J STEVENS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://ronjstevens.com"
       },
       {
@@ -1437,6 +1548,7 @@
         "displayName": "JOHN MAXWELL",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://maxwellformontana.com"
       },
       {
@@ -1444,6 +1556,7 @@
         "displayName": "JAMES REAVIS",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://reavisformontana.com"
       }
     ]
@@ -1465,6 +1578,7 @@
         "displayName": "CURTIS SCHOMER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -1472,6 +1586,7 @@
         "displayName": "TUCKER COLVIN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1493,6 +1608,7 @@
         "displayName": "CHARLIE LOVERIDGE",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://loveridgeformontana.com"
       },
       {
@@ -1500,6 +1616,7 @@
         "displayName": "OLE HEDSTROM",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1507,6 +1624,7 @@
         "displayName": "REBECCA NOELL",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1528,6 +1646,7 @@
         "displayName": "STEWART HARRIS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1535,6 +1654,7 @@
         "displayName": "MARK PETERS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1556,6 +1676,7 @@
         "displayName": "JODEE ETCHART",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://jodeeformt.com"
       },
       {
@@ -1563,6 +1684,7 @@
         "displayName": "LANA MARIE TIBBETTS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1570,6 +1692,7 @@
         "displayName": "PRECIOUS MCKENZIE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1591,6 +1714,7 @@
         "displayName": "STACY ZINN",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -1598,6 +1722,7 @@
         "displayName": "ED WALKER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://walkerformt.com"
       },
       {
@@ -1605,6 +1730,7 @@
         "displayName": "ELIZABETH HEALD",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1626,6 +1752,7 @@
         "displayName": "NELLY NICOL",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://nelly4montana.com"
       },
       {
@@ -1633,6 +1760,7 @@
         "displayName": "TROY CHARBONNEAU",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1640,6 +1768,7 @@
         "displayName": "MATTHEW J HANKINS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://n"
       }
     ]
@@ -1661,6 +1790,7 @@
         "displayName": "LEE DEMING",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://leeformontana.org"
       },
       {
@@ -1668,6 +1798,7 @@
         "displayName": "JANINE COOLE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1689,6 +1820,7 @@
         "displayName": "MARY HORMAN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://maryhormancarboncounty.com"
       },
       {
@@ -1696,6 +1828,7 @@
         "displayName": "BRAD BARKER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://bradbarker.com"
       },
       {
@@ -1703,6 +1836,7 @@
         "displayName": "RICHARD GESSLING",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1724,6 +1858,7 @@
         "displayName": "FIONA B NAVE",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -1745,6 +1880,7 @@
         "displayName": "BOB CRANK",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://electcrankmt.com"
       },
       {
@@ -1752,6 +1888,7 @@
         "displayName": "JORDAN VIEGUT",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1773,6 +1910,7 @@
         "displayName": "JOSHUA CONGLETON",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1780,6 +1918,7 @@
         "displayName": "JAMIE L ISALY",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://jamieisaly.com"
       }
     ]
@@ -1801,6 +1940,7 @@
         "displayName": "MARC GREENDORFER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://marc4hd59.com"
       },
       {
@@ -1808,6 +1948,7 @@
         "displayName": "KATIE FIRE THUNDER",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -1829,6 +1970,7 @@
         "displayName": "GREG LEMAN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://leman4mt.org"
       },
       {
@@ -1836,6 +1978,7 @@
         "displayName": "ALANAH GRIFFITH",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://griffithformt.com"
       }
     ]
@@ -1857,6 +2000,7 @@
         "displayName": "ERIC JACOBS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1864,6 +2008,7 @@
         "displayName": "RIO ROLAND",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://rioformt.com"
       },
       {
@@ -1871,6 +2016,7 @@
         "displayName": "CHRIS GRAY",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1892,6 +2038,7 @@
         "displayName": "ESTHER FISHBAUGH",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://estherformontana.com"
       },
       {
@@ -1899,6 +2046,7 @@
         "displayName": "JOSHUA A SECKINGER",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://seck4mt.com"
       }
     ]
@@ -1920,6 +2068,7 @@
         "displayName": "LAWRENCE R MOORE",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1927,6 +2076,7 @@
         "displayName": "PETER STRAND",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://repstrand.com"
       }
     ]
@@ -1948,6 +2098,7 @@
         "displayName": "DANIEL RICARDO MARTINEZ",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://martinezforthepeople.com"
       },
       {
@@ -1955,6 +2106,7 @@
         "displayName": "BRADY BREMER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -1976,6 +2128,7 @@
         "displayName": "JOE FLYNN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1983,6 +2136,7 @@
         "displayName": "BRIAN CLOSE",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://brianclose4montana.net"
       }
     ]
@@ -2004,6 +2158,7 @@
         "displayName": "OWEN LANG",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2011,6 +2166,7 @@
         "displayName": "ERIC MATTHEWS",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://matthewsformt.com"
       }
     ]
@@ -2032,6 +2188,7 @@
         "displayName": "JEDEDIAH HINKLE",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://jedediahhinkle.com"
       },
       {
@@ -2039,6 +2196,7 @@
         "displayName": "RUSSELL C NELSON",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2046,6 +2204,7 @@
         "displayName": "LOGAN HENKE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2067,6 +2226,7 @@
         "displayName": "JENNIFER CARLSON",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://carlsonforliberty.com"
       },
       {
@@ -2074,6 +2234,7 @@
         "displayName": "RANDY CHAMBERLIN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://randy4mt.com"
       },
       {
@@ -2081,6 +2242,7 @@
         "displayName": "JOCELYN KENT",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2102,6 +2264,7 @@
         "displayName": "TREVOR WALTER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://trevorwalterformontana.com"
       },
       {
@@ -2109,6 +2272,7 @@
         "displayName": "KEN WALSH",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://walsh4montana.com"
       }
     ]
@@ -2130,6 +2294,7 @@
         "displayName": "SHANNON MANESS",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://manessformontana.com"
       },
       {
@@ -2137,6 +2302,7 @@
         "displayName": "KOBI CRADDOCK",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2158,6 +2324,7 @@
         "displayName": "SUZZANN NORDWICK",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://nordwick.com"
       },
       {
@@ -2165,6 +2332,7 @@
         "displayName": "SCOTT DEMAROIS",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -2186,6 +2354,7 @@
         "displayName": "MICHAEL SAUL",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2193,6 +2362,7 @@
         "displayName": "DONAVON HAWK",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -2214,6 +2384,7 @@
         "displayName": "GERRY KENNEDY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2221,6 +2392,7 @@
         "displayName": "JENNIFER LYNCH",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -2242,6 +2414,7 @@
         "displayName": "TRENIN BAYLESS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2249,6 +2422,7 @@
         "displayName": "MARC J LEE",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -2270,6 +2444,7 @@
         "displayName": "MARK REINSCHMIDT",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2277,6 +2452,7 @@
         "displayName": "PATRICK SULLIVAN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2284,6 +2460,7 @@
         "displayName": "GREG DEVRIES",
         "party": "L",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2305,6 +2482,7 @@
         "displayName": "TRISH SCHREIBER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://trishformontana.com"
       },
       {
@@ -2312,6 +2490,7 @@
         "displayName": "JOHN FITZPATRICK",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://fitzfor76.com"
       }
     ]
@@ -2333,6 +2512,7 @@
         "displayName": "JANE GILLETTE",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://drjanegillette.com"
       },
       {
@@ -2340,6 +2520,7 @@
         "displayName": "DEBORAH ANNE HANSEN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2361,6 +2542,7 @@
         "displayName": "RANDYN GREGG",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://randynformontana.com"
       },
       {
@@ -2368,6 +2550,7 @@
         "displayName": "MARK WHITE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2389,6 +2572,7 @@
         "displayName": "CHIKO OLSON",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2396,6 +2580,7 @@
         "displayName": "LUKE MUSZKIEWICZ",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://lukeformontana.org"
       }
     ]
@@ -2417,6 +2602,7 @@
         "displayName": "KATIE FRUITS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://katie4montana.com"
       },
       {
@@ -2424,6 +2610,7 @@
         "displayName": "QASIM W ABDUL-BAKI",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://qasimforhelena.com"
       },
       {
@@ -2431,6 +2618,7 @@
         "displayName": "MEGAN LANE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2452,6 +2640,7 @@
         "displayName": "JOHN J LOONEY SR",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://looneyformontana.com"
       },
       {
@@ -2459,6 +2648,7 @@
         "displayName": "BENJAMIN KUIPER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://wwwbenkuiperforlegislature.com"
       },
       {
@@ -2466,6 +2656,7 @@
         "displayName": "JANET ELLIS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://jantellis4mt.com"
       }
     ]
@@ -2487,6 +2678,7 @@
         "displayName": "CLINTON MCKAY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2494,6 +2686,7 @@
         "displayName": "PETE ELVERUM",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://peteformontana.com"
       }
     ]
@@ -2515,6 +2708,7 @@
         "displayName": "AARON J LEAS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2522,6 +2716,7 @@
         "displayName": "JOE COHENOUR",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2543,6 +2738,7 @@
         "displayName": "ROY CALDWELL",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://caldwellforhd84.com"
       },
       {
@@ -2550,6 +2746,7 @@
         "displayName": "JAMES MARSHAL",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://marshal4montana.com"
       },
       {
@@ -2557,6 +2754,7 @@
         "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2564,6 +2762,7 @@
         "displayName": "TIA NELSON",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2585,6 +2784,7 @@
         "displayName": "MICHELE BINKLEY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://binkleyformontana.com"
       },
       {
@@ -2592,6 +2792,7 @@
         "displayName": "KIM DAILEY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kimdailey.com"
       },
       {
@@ -2599,6 +2800,7 @@
         "displayName": "LAURA JACKSON",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2620,6 +2822,7 @@
         "displayName": "WAYNE RUSK",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://waynerusk.com"
       },
       {
@@ -2627,6 +2830,7 @@
         "displayName": "KENNETH E ALLEN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://allenformontana.com"
       },
       {
@@ -2634,6 +2838,7 @@
         "displayName": "ARCHIE THOMAS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2655,6 +2860,7 @@
         "displayName": "TERRY NELSON",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -2662,6 +2868,7 @@
         "displayName": "BILL JONES",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2683,6 +2890,7 @@
         "displayName": "GREG OVERSTREET",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://gregoverstreet.com"
       },
       {
@@ -2690,6 +2898,7 @@
         "displayName": "EVAN SCHROEDEL",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2711,6 +2920,7 @@
         "displayName": "LYN HELLEGAARD",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://lynformontana.com"
       },
       {
@@ -2718,6 +2928,7 @@
         "displayName": "MARK A THANE",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://thaneformontana.com"
       }
     ]
@@ -2739,6 +2950,7 @@
         "displayName": "CURTIS J COCHRAN",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -2746,6 +2958,7 @@
         "displayName": "JEFF STANEK",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -2767,6 +2980,7 @@
         "displayName": "CHARLES HEADLEY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2774,6 +2988,7 @@
         "displayName": "SHELLY FYANT",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://shellyformontana.com"
       }
     ]
@@ -2795,6 +3010,7 @@
         "displayName": "REGGIE SPAULDING",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://reggiespauldingformt.org"
       },
       {
@@ -2802,6 +3018,7 @@
         "displayName": "MONICA TRANEL",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://monicatranel.com"
       }
     ]
@@ -2823,6 +3040,7 @@
         "displayName": "ROY HANDLEY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2830,6 +3048,7 @@
         "displayName": "NICK KUJAWA",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kujawa4montana.com"
       },
       {
@@ -2837,6 +3056,7 @@
         "displayName": "SAM KULLA",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://votesamkulla.com"
       },
       {
@@ -2844,6 +3064,7 @@
         "displayName": "BEN DAVIS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://davisformontana.com"
       }
     ]
@@ -2865,6 +3086,7 @@
         "displayName": "GREG WOODWARD",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2872,6 +3094,7 @@
         "displayName": "ROBIN KENDALL",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://robinkendall4montana.org"
       },
       {
@@ -2879,6 +3102,7 @@
         "displayName": "LISA VERLANIC FOWLER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://montanansforlisa.com"
       }
     ]
@@ -2900,6 +3124,7 @@
         "displayName": "ZOOEY ZEPHYR",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -2921,6 +3146,7 @@
         "displayName": "BOB CARTER",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://cartermt.us"
       }
     ]
@@ -2942,6 +3168,7 @@
         "displayName": "MICHAEL P HAGESTAD",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2949,6 +3176,7 @@
         "displayName": "MELODY J CUNNINGHAM",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://melodyformontana.org"
       }
     ]
@@ -2970,6 +3198,7 @@
         "displayName": "BRYAN MUZZANA",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -2977,6 +3206,7 @@
         "displayName": "JONATHAN KARLEN",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://jonathankarlen.net"
       }
     ]
@@ -2998,6 +3228,7 @@
         "displayName": "RYAN DARLING",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3005,6 +3236,7 @@
         "displayName": "TOM FRANCE",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://tomfranceformontana.com"
       }
     ]
@@ -3026,6 +3258,7 @@
         "displayName": "MICHAEL DANIEL BOWLES",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://michaeldanielbowles.carrd.co"
       },
       {
@@ -3033,6 +3266,7 @@
         "displayName": "SJ HOWELL",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -3040,6 +3274,7 @@
         "displayName": "JC WINDMUELLER",
         "party": "L",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3061,6 +3296,7 @@
         "displayName": "STEVE GUNDERSON",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://gunderson4senate.com"
       },
       {
@@ -3068,6 +3304,7 @@
         "displayName": "VINCENT BACKEN",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3075,6 +3312,7 @@
         "displayName": "NEIL DURAM",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3082,6 +3320,7 @@
         "displayName": "JONATHAN RUSSELL JAMESON",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3129,6 +3368,7 @@
         "displayName": "AMY REGIER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://amyformontana.com"
       },
       {
@@ -3136,6 +3376,7 @@
         "displayName": "KYLE WATERMAN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kyle4kalispell.com"
       }
     ]
@@ -3170,6 +3411,7 @@
         "displayName": "MARK NOLAND",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -3177,6 +3419,7 @@
         "displayName": "PATRICK FITZPATRICK",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3211,6 +3454,7 @@
         "displayName": "CHRISTOPHER PAUL BUCKLES",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3218,6 +3462,7 @@
         "displayName": "TYSON T RUNNING WOLF",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3225,6 +3470,7 @@
         "displayName": "JADE-HEATHER M ACKERMAN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3246,6 +3492,7 @@
         "displayName": "ZACK WIRTH",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://zackformontana"
       },
       {
@@ -3253,6 +3500,7 @@
         "displayName": "LLEW JONES",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://votellewjones.com"
       },
       {
@@ -3260,6 +3508,7 @@
         "displayName": "NOY HOLLAND",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3281,6 +3530,7 @@
         "displayName": "JESSICA DYRDAHL",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://jessicaformontana.com"
       },
       {
@@ -3288,6 +3538,7 @@
         "displayName": "MAXIMUS DASCOULIAS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3295,6 +3546,7 @@
         "displayName": "MARGARET MITCHELL",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://mitchell406.com"
       }
     ]
@@ -3316,6 +3568,7 @@
         "displayName": "STEVEN GALLOWAY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://stevenformontana.com"
       },
       {
@@ -3323,6 +3576,7 @@
         "displayName": "ED BUTTREY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://buttrey4montana.com"
       },
       {
@@ -3330,6 +3584,7 @@
         "displayName": "VALYNDA HOLLAND",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3337,6 +3592,7 @@
         "displayName": "MARK WINTERS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3358,6 +3614,7 @@
         "displayName": "RANDY PINOCCI",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://pinocciforsd12.com"
       },
       {
@@ -3365,6 +3622,7 @@
         "displayName": "GEORGE NIKOLAKAKOS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://georgeforus.com"
       },
       {
@@ -3372,6 +3630,7 @@
         "displayName": "JAMES G  WHITAKER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3379,6 +3638,7 @@
         "displayName": "MINDY LEACH",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://mindy4mt.com"
       }
     ]
@@ -3413,6 +3673,7 @@
         "displayName": "ERIC ALBUS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://albus for senate"
       },
       {
@@ -3420,6 +3681,7 @@
         "displayName": "MARK L WICKS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://wicks4freedom.com"
       },
       {
@@ -3427,6 +3689,7 @@
         "displayName": "BLAKE BORST",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3487,6 +3750,7 @@
         "displayName": "GREG KMETZ",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://gregkmetzforsenate.com"
       },
       {
@@ -3494,6 +3758,7 @@
         "displayName": "DOUG MARTENS",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3501,6 +3766,7 @@
         "displayName": "STAN TAYLOR",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3522,6 +3788,7 @@
         "displayName": "BARRY USHER",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://barryusher.com"
       },
       {
@@ -3529,6 +3796,7 @@
         "displayName": "CHRIS RINDAL",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3536,6 +3804,7 @@
         "displayName": "DEANNA J DAIGREPONT",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3583,6 +3852,7 @@
         "displayName": "DANIEL ZOLNIKOV",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://danielzolnikov.com"
       }
     ]
@@ -3604,6 +3874,7 @@
         "displayName": "JOANNA OBLANDER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3611,6 +3882,7 @@
         "displayName": "EMMA KERR-CARPENTER",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://emmaformontana.org"
       }
     ]
@@ -3645,6 +3917,7 @@
         "displayName": "DENNIS LENZ",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       },
       {
@@ -3652,6 +3925,7 @@
         "displayName": "TOM BICK",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3659,6 +3933,7 @@
         "displayName": "JULIE HIPPLER",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://hipplerformontana.com"
       }
     ]
@@ -3706,6 +3981,7 @@
         "displayName": "FORREST J MANDEVILLE",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://facebook.com/MANDEVILLEFORMONTANA"
       },
       {
@@ -3713,6 +3989,7 @@
         "displayName": "KELLY HALE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kellyhaleformontana.com"
       }
     ]
@@ -3734,6 +4011,7 @@
         "displayName": "JASON GUNDERSON",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://jgundersonmt.com"
       },
       {
@@ -3741,6 +4019,7 @@
         "displayName": "SCOTT ROSENZWEIG",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://rosenzweigformontana.com"
       }
     ]
@@ -3775,6 +4054,7 @@
         "displayName": "RICHARD AUNGIER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3782,6 +4062,7 @@
         "displayName": "KATHLEEN WILLIAMS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kathleenformontana.com"
       }
     ]
@@ -3803,6 +4084,7 @@
         "displayName": "NEAL GANSER",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://ganserforthegallatin.com"
       },
       {
@@ -3810,6 +4092,7 @@
         "displayName": "BECKY EDWARDS",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://beckyformontana.com"
       },
       {
@@ -3817,6 +4100,7 @@
         "displayName": "KELLY KORTUM",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kellyformt.com"
       }
     ]
@@ -3851,6 +4135,7 @@
         "displayName": "SHELLEY VANCE",
         "party": "R",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://vanceforsenate.com"
       },
       {
@@ -3858,6 +4143,7 @@
         "displayName": "CALEB HINKLE",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -3865,6 +4151,7 @@
         "displayName": "CARL ANDERSON",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3964,6 +4251,7 @@
         "displayName": "ERIN FARRIS-OLSEN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://erin4montana.com"
       },
       {
@@ -3971,6 +4259,7 @@
         "displayName": "DANA TOOLE",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://danatooleformontana.com"
       },
       {
@@ -3978,6 +4267,7 @@
         "displayName": "DRU KOESTER",
         "party": "L",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -3999,6 +4289,7 @@
         "displayName": "STEPHEN LAPRAIM",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://lapraim4mt.com"
       },
       {
@@ -4006,6 +4297,7 @@
         "displayName": "NICHOLAS LANCETTE",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://nickformontana.com"
       },
       {
@@ -4013,6 +4305,7 @@
         "displayName": "MIKE TALIA",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://miketalia.com"
       },
       {
@@ -4020,6 +4313,7 @@
         "displayName": "MARY ANN DUNWELL",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://maryanndunwell.com"
       }
     ]
@@ -4041,6 +4335,7 @@
         "displayName": "DAVID BEDEY",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://davidbedey.com"
       },
       {
@@ -4048,6 +4343,7 @@
         "displayName": "KATHY LOVE",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": "https://kathyloveformontana.com"
       },
       {
@@ -4055,6 +4351,7 @@
         "displayName": "STEPHEN LEUCHTMAN",
         "party": "D",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       }
     ]
@@ -4128,6 +4425,7 @@
         "displayName": "ANDREA OLSEN",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": "https://andreaolsenmt.com"
       }
     ]
@@ -4149,6 +4447,7 @@
         "displayName": "BRAD TSCHIDA",
         "party": "R",
         "status": "active",
+        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -4156,6 +4455,7 @@
         "displayName": "WILLIS CURDY",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
@@ -4177,6 +4477,7 @@
         "displayName": "SHANE A MORIGEAU",
         "party": "D",
         "status": "active",
+        "isIncumbent": true,
         "campaignWebsite": null
       }
     ]
