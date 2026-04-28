@@ -21,7 +21,7 @@ const raceStyle = css`
 
     .map-container {
         max-width: 600px;
-        
+        margin-top: -1em;
     }
 
     .party-buckets {
@@ -41,6 +41,10 @@ const raceStyle = css`
         }
         border-left: 3px solid gray;    
         margin-bottom: 1em;
+    }
+    .description {
+        margin-bottom: 1.4em;
+        font-style: 1.1em;
     }
 
     @media screen and (max-width: 700px) {
