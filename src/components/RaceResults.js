@@ -35,7 +35,7 @@ const style = css`
         font-weight: bold;
         padding: 0.2em 0.5em;
         margin-right: 0.4em;
-        margin-left: -4px;
+        margin-left: 0;
     }
     .result-row-name {
         flex: 0 0 13em;

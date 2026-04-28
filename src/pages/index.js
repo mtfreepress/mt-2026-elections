@@ -34,9 +34,11 @@ const RACE_LEVELS = [
 ]
 
 const overviewStyles = css`
+    --section-inline-padding: clamp(0.35rem, 2vw, 0.75rem);
+
     section {
         display: block;
-        padding: 0 0.5em;
+        padding: 0 var(--section-inline-padding);
     }
 
     h2 {
@@ -50,8 +52,8 @@ const overviewStyles = css`
         text-transform: uppercase;
         margin-bottom: 1em;
         margin-top: 1em;
-        margin-left: -1em;
-        margin-right: -1em;
+        margin-left: 0;
+        margin-right: 0;
     }
     h3 {
         text-align: center;
@@ -202,7 +204,7 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
                     selHouseDistrict={selHouseDistrict}
                     selSenateDistrict={selSenateDistrict}
                 />
-                <div class="note-row">
+                <div className="note-row">
                     <div className='note'>
                         <Link href="/legislative-candidates-by-district/">See all candidates listed by district.</Link>
                     </div>

@@ -18,6 +18,10 @@ const headerStyle = css`
   margin-bottom: 10px;
   padding: 1em;
 
+  @media screen and (max-width: 468px) {
+    padding: 0.8em 0.7em;
+  }
+
   .title {
     color: var(--tan4);
     font-size: 3em;
@@ -47,6 +51,11 @@ const headerStyle = css`
     margin-right: 5px;
     margin-top: 5px;
     font-weight: normal;
+
+    @media screen and (max-width: 468px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
   .mtfp-blurb {
     text-align: center;
@@ -100,7 +109,7 @@ const Header = () => {
       Election <span className="mid-title-icon" style={{
         backgroundImage: `url(${router.basePath}/mt-outline-white-fill.webp)`
       }}>2026</span> Guide
-    </Link></h1>2
+    </Link></h1>
     <h2 className="subtitle">{webSubtitle}</h2>
     <div className="mtfp-blurb">
       A digital project by <MTFPLogo />| <a className="donate-link" href={headerDonateLink}>Support this work</a>

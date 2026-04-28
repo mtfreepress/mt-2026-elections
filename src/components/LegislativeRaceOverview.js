@@ -18,8 +18,15 @@ const legislativeOverviewStyle = css`
     align-items: stretch;
 
     .col {
-        flex: 1 0 300px;
+        flex: 1 1 300px;
+        min-width: min(100%, 300px);
         margin: 0.5em;
+    }
+
+    @media screen and (max-width: 720px) {
+        .col {
+            margin: 0.5em 0;
+        }
     }
 `
 
@@ -61,10 +68,11 @@ const districtStyle = css`
         margin-bottom: 1em;
     }
     .holdover {
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
         border: 1px solid var(--tan5);
         background: var(--gray1);
-        height: 37px;
+        min-height: 37px;
         padding-right: 1em;
         box-shadow: 2px 2px 3px #aaa;
         margin-bottom: 0.5em;
@@ -76,21 +84,34 @@ const districtStyle = css`
         color: var(--link);
     }
     .holdover-party-icon {
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         color: white;
         width: 40px;
-        height: 30px;
+        height: 100%;
         font-size: 1.1em;
         margin-right: 0.5em;
         position: relative;
         top: 0px;
-        padding-top: 7px;
+        padding-top: 0;
 
     }
     .holdover-name {
         font-size: 1.1em;
         text-transform: uppercase;
         
+    }
+
+    @media screen and (max-width: 420px) {
+        .holdover {
+            width: 100%;
+            padding-right: 0.65em;
+        }
+
+        .holdover-name {
+            font-size: 1em;
+        }
     }
 `
 

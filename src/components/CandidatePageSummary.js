@@ -56,13 +56,27 @@ const summaryStyle = css`
     }
     .name {
         font-weight: bold;
-        font-size: 3em;
+        font-size: clamp(2rem, 8vw, 3em);
         text-align: center;
     }
     .summary-line {
         font-style: italic;
-        font-size: 1.3em;
+        font-size: clamp(1rem, 4.5vw, 1.3em);
         text-align: center;
+    }
+
+    @media screen and (max-width: 600px) {
+        .info-col {
+            padding: 0.75em;
+        }
+
+        .intro-line {
+            font-size: 1.05em;
+        }
+
+        .position-line {
+            font-size: 1.1em;
+        }
     }
 `
 

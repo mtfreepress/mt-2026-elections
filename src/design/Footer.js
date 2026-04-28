@@ -31,13 +31,18 @@ const footerColumnsStyle = css`
     justify-content: space-between;
     flex-wrap: wrap;
 
-    margin-left: 39px;
-    margin-right: 39px;
-    max-width: 90%;
+    margin-left: clamp(12px, 4vw, 39px);
+    margin-right: clamp(12px, 4vw, 39px);
+    max-width: none;
 `
 
 const menuStyle = css`
     margin-right: 40px;
+
+    @media (max-width: 700px) {
+        margin-right: 0;
+        width: 100%;
+    }
 `
 
 const menuListStyle = css`
@@ -66,9 +71,14 @@ const footerInfoStyle = css`
     flex-wrap: wrap;
 
     padding-bottom: 20px;
-    margin-left: 39px;
-    margin-right: 39px;
+    margin-left: clamp(12px, 4vw, 39px);
+    margin-right: clamp(12px, 4vw, 39px);
     color: #aa986a;
+
+    @media (max-width: 700px) {
+        align-items: flex-start;
+        gap: 0.75em;
+    }
 
     a {
         color: #aa986a;
@@ -100,7 +110,7 @@ const Footer = (props) => {
                 <a href="https://montanafreepress.org/about-mtfp/privacy-policy/">Privacy Policy</a>
                 <Image alt="MTFP logo" width={121} css={footerImgStyle} src={mtfpLogo} />
             </div>
-        </div>Í
+        </div>
 
     </footer>
 }
