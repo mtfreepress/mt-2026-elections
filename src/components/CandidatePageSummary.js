@@ -22,7 +22,8 @@ const summaryStyle = css`
     .portrait-container {
         width: 100%;
         aspect-ratio: 1 / 1;
-        margin: 0.5em auto;
+        margin: 0.4em;
+        margin-top: 0.3em;
         border-radius: 50%;
         overflow: hidden;
         background-color: #666;

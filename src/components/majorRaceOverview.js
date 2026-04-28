@@ -63,7 +63,7 @@ const raceStyle = css`
     }
 `
 const candidateStyle = css`
-    margin: 0.5em auto 0;
+    margin: 0.5em 0;
     width: min(100%, 310px);
     a {
         width: 100%;

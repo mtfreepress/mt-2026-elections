@@ -26,10 +26,6 @@ Yes, and some of them are new after the 2025 legislative session. That’s when 
 
 According to state law, you can't vote if you'll be under age 18 on Election Day, are not a U.S. citizen, or have lived in Montana for less than 30 days. Convicted felons who are currently incarcerated in a penal facility and people whom judges have ruled to be of "unsound mind" are also ineligible to vote. Otherwise, you're good to go.
 
-### Can I vote online?
-
-No, that’s not an option in Montana.
-
 ### Can I vote by mail?
 
 Yes, you can sign up as an absentee voter by checking a box on your voter registration form. If you’re already registered to vote, you can fill out a separate form and submit it to your county election office.
