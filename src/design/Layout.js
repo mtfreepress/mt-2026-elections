@@ -38,7 +38,7 @@ export default function Layout({
   } = metaData
 
   const pageUrl = relativePath === '/' ? `${baseUrl}/` : `${baseUrl}/${relativePath}/`
-  const featureImage = pageFeatureImage || `${baseUrl}/election-guide-2024-feature-art.jpg`
+  const featureImage = pageFeatureImage || `${baseUrl}/election-guide-2026-feature-art.jpg`
   return (
     <div>
       <Head>
