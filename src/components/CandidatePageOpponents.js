@@ -9,15 +9,17 @@ import { pluralize } from "@/lib/utils";
 
 const opponentsContainerStyle = css`
     border: 1px solid var(--gray2);
-    padding: 0.5em;
+    padding: .5em;
     margin-bottom: 0.5em;
 
     h4 {
         margin-top: 0;
+        margin-left: .2em;
     }
     .party-buckets {
         display: flex;
         flex-wrap: wrap;
+        margin-top: .8em;
         /* Note RE justifyy-content: what works well for 4x-party races doesn't work for two-party races */
         justify-content: space-around;
      }
@@ -28,9 +30,14 @@ const opponentsContainerStyle = css`
             text-transform: uppercase;
             text-align: center;
         }
-        margin-bottom: 1em;
-        margin-right: 1em;
+        margin-bottom: .8em;
+        margin-right: .5em;
+        margin-left: .5em;
     } 
+        .note {
+            font-size: 1em;
+            margin-left: .3em;
+
 `
 
 const candidateStyle = css`
@@ -40,7 +47,7 @@ const candidateStyle = css`
     /* width: 140px; */
     a {
         
-        height: 40px;
+        height: 43px;
         display: flex;
         align-items: stretch;
         background-color: var(--tan1);
@@ -59,6 +66,8 @@ const candidateStyle = css`
     .portrait-container {
         width: 40px;
         height: 40px;
+        margin-top: 0.1em;
+        margin-left: 0.2em;
         border-radius: 50%;
         overflow: hidden;
         background-color: #666;

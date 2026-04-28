@@ -39,8 +39,18 @@ if (excludedSlugs.size > 0) {
 // Legislative candidates have their own pipeline (process/legislative-candidates.js).
 const raceCandidateSlugs = new Set(races.flatMap(r => r.candidates || []))
 const DISPLAY_NAME_BY_SLUG_OVERRIDE = {
-    'patrick-mccracken': 'Patrick McCraken',
+    'patrick-mccracken': 'Patrick McCracken',
 }
+const LAST_NAME_BY_SLUG_OVERRIDE = {
+    'Mccracken': 'McCracken',
+}
+// Allows for easier tags in articles and automated processing of candidate names
+const SLUG_ALIASES = {
+    'brian-j-miller': ['brian-miller'],
+    'al-doc-olszewski': ['al-olszewski'],
+    'michael-d-eisenhauer': ['michael-eisenhauer'],
+}
+
 // Normalize party codes so the site components can consistently bucket parties
 const normalizeParty = (p) => {
     if (p === null || p === undefined) return p
@@ -59,8 +69,10 @@ const candidates = collectYmls('./inputs/content/candidates/*.yml')
     .map(c => ({
         ...c,
         displayName: DISPLAY_NAME_BY_SLUG_OVERRIDE[c.slug] || c.displayName,
+        lastName: LAST_NAME_BY_SLUG_OVERRIDE[c.lastName] || c.lastName,
         party: normalizeParty(c.party),
     }))
+console.log(candidates)
 const ballotInitiatives = getYml('./inputs/content/ballot-initiatives.yml')
 const coverage = getJson('./inputs/coverage/articles.json')
 const howToVoteContent = getMD('./inputs/content/how-to-vote.md')
@@ -147,8 +159,9 @@ candidates.forEach(candidate => {
         })
 
     // merge in MTFP coverage data
+    const coverageSlugs = new Set([candidate.slug, ...(SLUG_ALIASES[candidate.slug] || [])])
     candidate.coverage = sortedCoverage
-        .filter(article => article.tags.some(t => urlize(t) === candidate.slug))
+        .filter(article => article.tags.some(t => coverageSlugs.has(urlize(t))))
 
 
     // merge in campaign finance data 

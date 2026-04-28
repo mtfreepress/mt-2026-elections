@@ -1,25 +1,21 @@
 import { css } from '@emotion/react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 
 const navContainerStyle = css`
     position: sticky;
     top: 0px;
     background-color: white;
-    margin: -10px;
-    padding: 10px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem 0.65rem 0;
     z-index: 1000;
 `
 
 const navStyle = css`
     border-bottom: 1px solid #444;
     margin-bottom: 0.5em;
-    margin-left: -2px;
-    margin-right: -2px;
-    padding-left: 2px;
-    padding-right: 2px;
     box-shadow: 0px 3px 3px -3px #000;
     width: 100%;
 `
@@ -32,10 +28,15 @@ const navRowPrimary = css`
     margin: 0 -0.25em; /* Aligns items to edges*/
 `
 const navRowSecondary = css`
-    justify-content: space-between;
-    margin-left: -0.5em;
-    margin-right: -0.5em;
+    justify-content: center;
     font-size: 15px;
+    gap: 0.25em;
+
+    @media screen and (max-width: 600px) {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: stretch;
+    }
 `
 
 const navItemStyle = css`
@@ -54,6 +55,11 @@ const navItemStyle = css`
     align-items: center;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
+
+    @media screen and (max-width: 600px) {
+        margin: 0;
+        width: 100%;
+    }
 `
 const navPrimaryStyle = css`
     flex: 1 1 4em;
@@ -87,13 +93,27 @@ const navPrimaryInfo = css`
     /* font-weight: bold; */
 `
 const navSecondaryStyle = css`
-    flex: 1 0 8em;
+    flex: 1 1 10em;
+    max-width: 14em;
     display: block;
     border: 1px solid var(--gray2);
     padding: 0.2em 0.5em;
     
     margin: 0em 0.25em;
     margin-bottom: 0.25em;
+
+    @media screen and (max-width: 600px) {
+        flex: initial;
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+    }
+`
+
+const navSecondaryFirstFullStyle = css`
+    @media screen and (max-width: 600px) {
+        grid-column: 1 / -1;
+    }
 `
 
 const activeStyle = css`
@@ -119,9 +139,16 @@ const Nav = ({ location }) => {
     // const currentPath = `${location.pathname}${location.hash}`
     // const isActiveStyle = (currentPath === l.path) ? activeStyle : null]
     const isActiveStyle = null
+    const hasOddCount = PAGE_LINKS.length % 2 === 1
+    const pathname = usePathname()
 
-    const links = PAGE_LINKS.map(l => {
-        return <Link key={l.path} css={[navItemStyle, navSecondaryStyle, isActiveStyle]} href={l.path}>{l.label}</Link>
+    const links = PAGE_LINKS.map((l, i) => {
+        const firstFullStyle = (hasOddCount && i === 0) ? navSecondaryFirstFullStyle : null
+        const handleClick = (l.path === '/' && pathname === '/') ? (e) => {
+            e.preventDefault()
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+        } : undefined
+        return <Link key={l.path} css={[navItemStyle, navSecondaryStyle, firstFullStyle, isActiveStyle]} href={l.path} onClick={handleClick}>{l.label}</Link>
     })
 
     return <div css={navContainerStyle}>

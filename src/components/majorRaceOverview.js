@@ -21,16 +21,19 @@ const raceStyle = css`
 
     .map-container {
         max-width: 600px;
-        
+        margin-top: -1em;
     }
 
     .party-buckets {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        margin-top: 0.5em;
+        margin-top: -1em;
+        gap: 0.5em;
      }
     .party-bucket {
+        flex: 1 1 280px;
+        min-width: min(100%, 280px);
         padding: 0 0.5em;
         h4 {
             margin: 0;
@@ -38,17 +41,43 @@ const raceStyle = css`
         }
         border-left: 3px solid gray;    
         margin-bottom: 1em;
-    }   
+    }
+    .description {
+        margin-bottom: 1.4em;
+        font-style: 1.1em;
+    }
+
+    @media screen and (max-width: 700px) {
+        .party-buckets {
+            justify-content: center;
+            margin-left: 5%;
+        }
+
+        .party-bucket {
+            flex: 1 1 100%;
+            max-width: 360px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+        }
+
+        .party-bucket h4 {
+            text-align: center;
+        }
+    }
 `
 const candidateStyle = css`
-    margin-top: 0.5em;
+    margin: 0.5em 0.2em;
+    width: min(100%, 310px);
     a {
-        width: 310px;
+        width: 100%;
         display: flex;
         align-items: stretch;
         background-color: var(--tan1);
         box-shadow: 2px 2px 3px #aaa;
         color: black;
+        min-width: 0;
+        height: 105px;
     }
     a:hover {
         opacity: 0.8;
@@ -70,11 +99,13 @@ const candidateStyle = css`
         justify-content: center;
         align-items: center;
         color: white;
-    }
+        margin-left: 0.06em;
+        margin-top: 0.15em;}
     .info-col {
-        flex: 0 1 200px;
+        flex: 1 1 200px;
         padding: 0.5em 0.5em;
         position: relative;
+        min-width: 0;
        
     }
     .name {
@@ -104,6 +135,26 @@ const candidateStyle = css`
         right: 8px;
         color: var(--tan5);
         font-size: 0.9em;
+    }
+
+    @media screen and (max-width: 400px) {
+        .portrait-col {
+            flex: 0 0 84px;
+        }
+
+        .portrait-container {
+            width: 84px;
+            height: 84px;
+        }
+
+        .name {
+            font-size: 1.05em;
+        }
+
+        .fakelink {
+            position: static;
+            margin-top: 0.35em;
+        }
     }
 `
 

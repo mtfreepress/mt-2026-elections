@@ -27,6 +27,18 @@
     /* party/outcome colors handled via different system */
 }
 
+html,
+body {
+    width: 100%;
+    overflow-x: clip;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 
 body {
     /* Default to futura-pt for text elements */
@@ -109,7 +121,7 @@ h4 {
 
 .note-row {
     display: flex;
-    gap: 0.5rem; /* optional spacing between columns */
+    gap: 0.5rem;
 }
 
 .note-row .note,
@@ -131,6 +143,21 @@ h4 {
 .note-row .note2 {
     text-align: right;
     margin-right: .6em;
+}
+
+@media screen and (max-width: 600px) {
+    .note-row {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .note-row .note,
+    .note-row .note2 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
 }
 
 button {
@@ -180,7 +207,8 @@ hr {
 
 img {
     margin-bottom: 0;
-    /* overwrites default */
+    max-width: 100%;
+    height: auto;
 }
 
 details {

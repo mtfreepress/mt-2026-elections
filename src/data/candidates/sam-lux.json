@@ -37,7 +37,7 @@
     },
     {
       "slug": "patrick-mccracken",
-      "displayName": "Patrick McCraken",
+      "displayName": "Patrick McCracken",
       "summaryLine": null,
       "party": "L"
     },
@@ -49,6 +49,32 @@
     }
   ],
   "coverage": [
+    {
+      "title": "Republican, independent candidates outraise Democrats in federal races",
+      "date": "2026-04-17T15:44:02",
+      "link": "https://montanafreepress.org/2026/04/17/republican-independent-candidates-outraise-democrats-in-federal-races/",
+      "tags": [
+        "2026 elections",
+        "Al Olszewski",
+        "Brian Miller",
+        "Charles Walking Child",
+        "Christi Jacobsen",
+        "ElectionDev",
+        "Kurt Alme",
+        "Lee Calhoun",
+        "Michael Eisenhauer",
+        "Ryan Busse",
+        "Sam Forstag",
+        "Sam Lux",
+        "seth bodnar",
+        "Troy Downing"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260307lm-sethbodnar-0005-jpg/",
+      "author": "Tom Lutey"
+    },
     {
       "title": "State Sen. Jonathan Windy Boy withdraws from Eastern District House primary amid ‘allegations of serious sexual abuse’",
       "date": "2026-04-16T12:23:50",
@@ -144,7 +170,7 @@
       "candidateStatus": "active"
     },
     {
-      "displayName": "Patrick McCraken",
+      "displayName": "Patrick McCracken",
       "party": "L",
       "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
       "candidateId": "H6MT02176",

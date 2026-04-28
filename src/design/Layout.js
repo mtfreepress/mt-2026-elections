@@ -14,10 +14,10 @@ const bodyStyle = css`
 `
 
 const contentStyle = css`
-    padding: 10px;
+  padding: clamp(10px, 2.8vw, 16px);
     padding-top: 0;
-    max-width: 800px;
-    margin: auto;
+  width: min(100%, 800px);
+  margin: 0 auto;
 `
 
 export default function Layout({
@@ -43,6 +43,7 @@ export default function Layout({
     <div>
       <Head>
         <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <title>{siteSeoTitle}</title>
         <meta name="description" content={pageDescription} />
         <meta name="image" content={featureImage} />

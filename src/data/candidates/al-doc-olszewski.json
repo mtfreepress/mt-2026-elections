@@ -78,7 +78,114 @@
       "party": "I"
     }
   ],
-  "coverage": [],
+  "coverage": [
+    {
+      "title": "GOP congressional candidates Aaron Flint and Al Olszewski face off in Bozeman",
+      "date": "2026-04-21T22:35:28",
+      "link": "https://montanafreepress.org/2026/04/21/gop-congressional-candidates-aaron-flint-and-al-olszewski-face-off-in-bozeman/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Al Olszewski",
+        "Art Wittich",
+        "Christi Jacobsen",
+        "Montana GOP",
+        "U.S. Congress",
+        "WesternDev"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260421lm-gopdebate-0003-jpg/",
+      "author": "Tom Lutey"
+    },
+    {
+      "title": "Republican, independent candidates outraise Democrats in federal races",
+      "date": "2026-04-17T15:44:02",
+      "link": "https://montanafreepress.org/2026/04/17/republican-independent-candidates-outraise-democrats-in-federal-races/",
+      "tags": [
+        "2026 elections",
+        "Al Olszewski",
+        "Brian Miller",
+        "Charles Walking Child",
+        "Christi Jacobsen",
+        "ElectionDev",
+        "Kurt Alme",
+        "Lee Calhoun",
+        "Michael Eisenhauer",
+        "Ryan Busse",
+        "Sam Forstag",
+        "Sam Lux",
+        "seth bodnar",
+        "Troy Downing"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260307lm-sethbodnar-0005-jpg/",
+      "author": "Tom Lutey"
+    },
+    {
+      "title": "Can Montana’s most popular Republican microtarget her way to Congress? ",
+      "date": "2026-04-17T07:00:00",
+      "link": "https://montanafreepress.org/2026/04/17/can-montanas-most-popular-republican-microtarget-her-way-to-congress/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Al Olszewski",
+        "Christi Jacobsen",
+        "Corey Stapleton",
+        "Scott Sales",
+        "Theresa Manzella",
+        "U.S. Congress"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260413ap-westernrepubs-0004-jpg/",
+      "author": "Tom Lutey"
+    },
+    {
+      "title": "Can a Republican ride to Congress without Trump’s coattails?",
+      "date": "2026-04-15T07:00:00",
+      "link": "https://montanafreepress.org/2026/04/15/can-al-olszewski-get-into-congress-through-the-outside/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Al Olszewski",
+        "Christi Jacobsen",
+        "Ryan Zinke",
+        "Scott Sales",
+        "U.S. Congress",
+        "Western Congressional District",
+        "WesternDev"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/2022/05/19/how-will-voters-define-montanas-western-congressional-district/screen-shot-2022-05-19-at-2-16-02-pm/",
+      "author": "Tom Lutey"
+    },
+    {
+      "title": "Why Aaron Flint says Congress should be more like talk radio",
+      "date": "2026-04-13T07:00:00",
+      "link": "https://montanafreepress.org/2026/04/13/in-montanas-western-district-aaron-flint-is-the-talked-up-candidate-for-congress/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Al Olszewski",
+        "Christi Jacobsen",
+        "Ryan Zinke",
+        "U.S. Congress",
+        "WesternDev"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/4-10-26_john-stember_87861-jpg/",
+      "author": "Tom Lutey"
+    }
+  ],
   "finance": [
     {
       "displayName": "Ryan Busse",
