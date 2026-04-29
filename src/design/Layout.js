@@ -74,14 +74,14 @@ export default function Layout({
       {/* Apply the preloaded Typekit CSS after initial paint — by then it's likely already downloaded */}
       <Script id="typekit" strategy="afterInteractive">{`var l=document.querySelector('link[href*="fsd6htq.css"]');if(l)l.rel='stylesheet';`}</Script>
       {/* Google Analytics */}
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PC1205XZ5F"></Script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-E33J6TV0GZ"></Script>
       <Script id="ga">
         {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){window.dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-PC1205XZ5F');
+        gtag('config', 'G-E33J6TV0GZ');
       `}
       </Script>
       {/* Parsely information */}
