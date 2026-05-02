@@ -7,10 +7,10 @@
   "party": "R",
   "isIncumbent": true,
   "status": "active",
-  "fecId": "H4MT02098",
+  "fecId": null,
   "campaignWebsite": "https://troydowning.com",
-  "campaignFB": "https://www.facebook.com/TroyDowning4MT/",
-  "campaignTW": "https://x.com/DowningforMT",
+  "campaignFB": null,
+  "campaignTW": null,
   "campaignIG": null,
   "campaignYT": null,
   "campaignTT": null,
@@ -79,7 +79,9 @@
   "finance": [
     {
       "displayName": "Troy Downing",
+      "candidateSlug": "troy-downing",
       "party": "R",
+      "matchType": "name",
       "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
       "candidateId": "H4MT02098",
       "totalReceipts": 1633759.13,
@@ -91,7 +93,9 @@
     },
     {
       "displayName": "Michael D Eisenhauer",
+      "candidateSlug": "michael-d-eisenhauer",
       "party": "I",
+      "matchType": "name",
       "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
       "candidateId": "H6MT02168",
       "totalReceipts": 208448.87,
@@ -103,7 +107,9 @@
     },
     {
       "displayName": "Brian J Miller",
+      "candidateSlug": "brian-j-miller",
       "party": "D",
+      "matchType": "name-first-last",
       "candidateCommitteeName": "MILLER FOR CONGRESS",
       "candidateId": "H6MT02150",
       "totalReceipts": 15220.25,
@@ -115,7 +121,9 @@
     },
     {
       "displayName": "Sam Lux",
+      "candidateSlug": "sam-lux",
       "party": "D",
+      "matchType": "name",
       "candidateCommitteeName": "LUX FOR MONTANA",
       "candidateId": "H6MT02143",
       "totalReceipts": 8255.17,
@@ -127,7 +135,9 @@
     },
     {
       "displayName": "Patrick McCracken",
+      "candidateSlug": "patrick-mccracken",
       "party": "L",
+      "matchType": "name-first-last",
       "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
       "candidateId": "H6MT02176",
       "totalReceipts": 0,

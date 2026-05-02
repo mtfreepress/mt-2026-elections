@@ -17,6 +17,8 @@ const CSV_HEADERS = [
   'Party Preference', 'Ballot Order'
 ]
 
+const DEFAULT_OUT_PATH = path.join(__dirname, 'CandidateList.csv')
+
 // html parsing
 
 function extractHiddenField(html, fieldName) {
@@ -234,6 +236,15 @@ async function main() {
   const outPath = path.join(__dirname, fileName)
   const arr = await res.arrayBuffer()
   const buf = Buffer.from(arr)
+  const csvText = buf.toString('utf8')
+
+  const hasExpectedHeader = csvText.includes('"Status"') && csvText.includes('"Name"')
+  const looksLikeHtmlError = /<html|<!doctype html/i.test(csvText)
+  if (!hasExpectedHeader || looksLikeHtmlError || buf.length < 500) {
+    console.warn('Downloaded CandidateList payload looked invalid or empty; keeping existing CandidateList.csv')
+    if (fs.existsSync(outPath)) return
+    throw new Error('Downloaded CandidateList payload invalid and no existing fallback file found')
+  }
 
   // compute sha256 of existing file (if present) and downloaded content
   const newHash = crypto.createHash('sha256').update(buf).digest('hex')
@@ -251,6 +262,11 @@ async function main() {
 }
 
 main().catch(err => {
+  if (fs.existsSync(DEFAULT_OUT_PATH)) {
+    console.warn(`Filings fetch failed (${err.message}); keeping existing CandidateList.csv`)
+    process.exit(0)
+  }
+
   console.error('Error:', err)
   process.exit(1)
 })

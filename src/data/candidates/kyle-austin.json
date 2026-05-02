@@ -7,13 +7,13 @@
   "party": "L",
   "isIncumbent": false,
   "status": "active",
-  "fecId": "S6MT00261",
+  "fecId": null,
   "campaignWebsite": "https://www.kyleaustinmt.com",
-  "campaignFB": "https://www.facebook.com/profile.php?id=61556644971084",
-  "campaignTW": "https://x.com/austin4senatemt",
+  "campaignFB": null,
+  "campaignTW": null,
   "campaignIG": null,
-  "campaignYT": "https://www.youtube.com/@MyFellowMontanans",
-  "campaignTT": "https://www.tiktok.com/@austin4senatemt",
+  "campaignYT": null,
+  "campaignTT": null,
   "raceSlug": "us-senate",
   "raceDisplayName": "U.S. Senate",
   "opponents": [
@@ -54,12 +54,6 @@
       "party": "R"
     },
     {
-      "slug": "tom-jandron",
-      "displayName": "Tom Jandron",
-      "summaryLine": null,
-      "party": "L"
-    },
-    {
       "slug": "christopher-kehoe",
       "displayName": "Christopher Kehoe",
       "summaryLine": null,
@@ -82,6 +76,12 @@
       "displayName": "Seth Bodnar",
       "summaryLine": null,
       "party": "I"
+    },
+    {
+      "slug": "tom-jandron",
+      "displayName": "Tom Jandron",
+      "summaryLine": null,
+      "party": "L"
     }
   ],
   "coverage": [
@@ -129,7 +129,9 @@
   "finance": [
     {
       "displayName": "Seth Bodnar",
+      "candidateSlug": "seth-bodnar",
       "party": "I",
+      "matchType": "name",
       "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
       "candidateId": "S6MT00287",
       "totalReceipts": 1358574.95,
@@ -141,7 +143,9 @@
     },
     {
       "displayName": "Kurt Alme",
+      "candidateSlug": "kurt-alme",
       "party": "R",
+      "matchType": "name",
       "candidateCommitteeName": "ALME FOR SENATE",
       "candidateId": "S6MT00295",
       "totalReceipts": 924643.51,
@@ -152,8 +156,24 @@
       "candidateStatus": "active"
     },
     {
+      "displayName": "Reilly Neill",
+      "candidateSlug": "reilly-neill",
+      "party": "D",
+      "matchType": "override-id",
+      "candidateCommitteeName": "REILLY FOR MONTANA",
+      "candidateId": "S6MT00238",
+      "totalReceipts": 277088.5,
+      "totalDisbursments": 173150.14,
+      "cashOnHand": 103938.36,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
       "displayName": "Kyle Austin",
+      "candidateSlug": "kyle-austin",
       "party": "L",
+      "matchType": "name",
       "candidateCommitteeName": "AUSTIN FOR CONGRESS",
       "candidateId": "S6MT00261",
       "totalReceipts": 262094.97,
@@ -164,20 +184,10 @@
       "candidateStatus": "active"
     },
     {
-      "displayName": "Michael Black Wolf",
-      "party": "D",
-      "candidateCommitteeName": "BLACKWOLF FOR MONTANA",
-      "candidateId": "S6MT00246",
-      "totalReceipts": 26144,
-      "totalDisbursments": 25616.21,
-      "cashOnHand": 527.79,
-      "coverageEndDate": "2026-03-31",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
       "displayName": "Alani Bankhead",
+      "candidateSlug": "alani-bankhead",
       "party": "D",
+      "matchType": "name-first-last",
       "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
       "candidateId": "S6MT00253",
       "totalReceipts": 15240.06,
@@ -189,7 +199,9 @@
     },
     {
       "displayName": "Michael Hummert",
+      "candidateSlug": "michael-hummert",
       "party": "D",
+      "matchType": "name",
       "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
       "candidateId": "S4MT00217",
       "totalReceipts": 10900,
@@ -200,20 +212,10 @@
       "candidateStatus": "active"
     },
     {
-      "displayName": "Charles Walking Child",
-      "party": "R",
-      "candidateCommitteeName": "CHARLES WALKINGCHILD",
-      "candidateId": "S4MT00209",
-      "totalReceipts": 0,
-      "totalDisbursments": 0,
-      "cashOnHand": 0,
-      "coverageEndDate": null,
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
       "displayName": "Christopher Kehoe",
+      "candidateSlug": "christopher-kehoe",
       "party": "D",
+      "matchType": "name",
       "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
       "candidateId": "S6MT00303",
       "totalReceipts": 0,
@@ -225,7 +227,9 @@
     },
     {
       "displayName": "Tom Jandron",
+      "candidateSlug": "tom-jandron",
       "party": "L",
+      "matchType": "name",
       "candidateCommitteeName": "JANDRON 4 US SENATE",
       "candidateId": "S6MT00311",
       "totalReceipts": 0,
