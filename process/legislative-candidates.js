@@ -63,6 +63,14 @@ const MANUAL_DROPOUTS = [
     // 'CANDIDATE NAME',
 ]
 
+// Manual per-candidate field overrides by cleaned display name.
+// Useful when SoS filing data is missing/incorrect for a specific field.
+const CANDIDATE_FIELD_OVERRIDES = {
+    'Jamie Van Valkenburg': {
+        campaignWebsite: 'https://jamievv.com',
+    },
+}
+
 // Load manual exclusions shared with the major-race pipeline.
 // Excluded legislative candidates are treated as withdrawn so they don't
 // appear in opponents lists or active candidate counts.
@@ -221,6 +229,7 @@ async function main() {
             const candidateSlug = urlize(name)
             const ymlCandidate = ymlBySlug.get(candidateSlug) || ymlByName.get(canonicalizeName(name))
             const isIncumbent = Boolean(ymlCandidate && ymlCandidate.isIncumbent)
+            const fieldOverrides = CANDIDATE_FIELD_OVERRIDES[name] || {}
 
             return {
                 raceSlug,
@@ -232,7 +241,7 @@ async function main() {
                 party,
                 status,
                 isIncumbent,
-                campaignWebsite: extractWebsite(d['Email/Web Address']),
+                campaignWebsite: fieldOverrides.campaignWebsite ?? extractWebsite(d['Email/Web Address']),
             }
         })
 
