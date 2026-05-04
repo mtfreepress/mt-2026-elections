@@ -7976,7 +7976,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": null,
+    "campaignWebsite": "https://jamievv.com",
     "opponents": [
       {
         "slug": "roy-caldwell",
@@ -7997,7 +7997,7 @@
         "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://jamievv.com"
       },
       {
         "slug": "tia-nelson",
@@ -8037,7 +8037,7 @@
         "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://jamievv.com"
       },
       {
         "slug": "tia-nelson",
@@ -8077,7 +8077,7 @@
         "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://jamievv.com"
       },
       {
         "slug": "tia-nelson",
@@ -8117,7 +8117,7 @@
         "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://jamievv.com"
       },
       {
         "slug": "tia-nelson",
