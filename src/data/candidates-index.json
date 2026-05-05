@@ -10,7 +10,7 @@
     "status": "active",
     "isIncumbent": true,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "tom-jandron",
@@ -49,7 +49,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 3
+    "numMTFParticles": 4
   },
   {
     "slug": "sam-forstag",
@@ -374,7 +374,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 3
+    "numMTFParticles": 4
   },
   {
     "slug": "annie-bukacek",

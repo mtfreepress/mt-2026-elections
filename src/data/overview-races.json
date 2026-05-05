@@ -399,7 +399,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 3,
+        "numMTFParticles": 4,
         "raceSlug": "us-house-2"
       },
       {
@@ -408,7 +408,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 3,
+        "numMTFParticles": 4,
         "raceSlug": "us-house-2"
       },
       {
@@ -417,7 +417,7 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 1,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-2"
       },
       {

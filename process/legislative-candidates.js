@@ -69,6 +69,9 @@ const CANDIDATE_FIELD_OVERRIDES = {
     'JAMIE VAN VALKENBURG': {
         campaignWebsite: 'https://jamievv.com',
     },
+    'RICHARD GESSLING': {
+        campaignWebsite: 'https://richard-gessling-4-montana.com/',
+    },
 }
 
 // Load manual exclusions shared with the major-race pipeline.

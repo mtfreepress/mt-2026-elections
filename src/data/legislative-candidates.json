@@ -6193,7 +6193,7 @@
         "displayName": "RICHARD GESSLING",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://richard-gessling-4-montana.com/"
       }
     ]
   },
@@ -6226,7 +6226,7 @@
         "displayName": "RICHARD GESSLING",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://richard-gessling-4-montana.com/"
       }
     ]
   },
@@ -6238,7 +6238,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": null,
+    "campaignWebsite": "https://richard-gessling-4-montana.com/",
     "opponents": [
       {
         "slug": "mary-horman",
@@ -6259,7 +6259,7 @@
         "displayName": "RICHARD GESSLING",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://richard-gessling-4-montana.com/"
       }
     ]
   },
