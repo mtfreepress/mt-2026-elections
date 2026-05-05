@@ -146,6 +146,7 @@ const Nav = ({ location }) => {
         const firstFullStyle = (hasOddCount && i === 0) ? navSecondaryFirstFullStyle : null
         const handleClick = (l.path === '/' && pathname === '/') ? (e) => {
             e.preventDefault()
+            window.history.replaceState(null, '', '/election-guide-2026/')
             window.scrollTo({ top: 0, behavior: 'smooth' })
         } : undefined
         return <Link key={l.path} css={[navItemStyle, navSecondaryStyle, firstFullStyle, isActiveStyle]} href={l.path} onClick={handleClick}>{l.label}</Link>

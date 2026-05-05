@@ -102,7 +102,9 @@
   "finance": [
     {
       "displayName": "Ryan Busse",
+      "candidateSlug": "ryan-busse",
       "party": "D",
+      "matchType": "name",
       "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
       "candidateId": "H6MT01145",
       "totalReceipts": 530043.18,
@@ -114,7 +116,9 @@
     },
     {
       "displayName": "Aaron Flint",
+      "candidateSlug": "aaron-flint",
       "party": "R",
+      "matchType": "name",
       "candidateCommitteeName": "FLINT FOR MONTANA",
       "candidateId": "H6MT01152",
       "totalReceipts": 453652.78,
@@ -125,20 +129,10 @@
       "candidateStatus": "active"
     },
     {
-      "displayName": "Sam Forstag",
-      "party": "D",
-      "candidateCommitteeName": "SAM FOR MONTANA",
-      "candidateId": "H6MT01137",
-      "totalReceipts": 449612.13,
-      "totalDisbursments": 237069.76,
-      "cashOnHand": 212542.37,
-      "coverageEndDate": "2026-03-31",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
       "displayName": "Russell Cleveland",
+      "candidateSlug": "russell-cleveland",
       "party": "D",
+      "matchType": "name-first-last",
       "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
       "candidateId": "H6MT01103",
       "totalReceipts": 325863.85,
@@ -149,13 +143,43 @@
       "candidateStatus": "active"
     },
     {
-      "displayName": "Christi Jacobsen",
+      "displayName": "Al 'Doc' Olszewski",
+      "candidateSlug": "al-doc-olszewski",
       "party": "R",
+      "matchType": "override-id",
+      "candidateCommitteeName": "AL FOR MONTANA",
+      "candidateId": "H2MT02084",
+      "totalReceipts": 282406.59,
+      "totalDisbursments": 10233.72,
+      "cashOnHand": 282121.94,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Christi Jacobsen",
+      "candidateSlug": "christi-jacobsen",
+      "party": "R",
+      "matchType": "name",
       "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
       "candidateId": "H6MT01160",
       "totalReceipts": 260061,
       "totalDisbursments": 6673.61,
       "cashOnHand": 253387.39,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Matt Rains",
+      "candidateSlug": "matt-rains",
+      "party": "D",
+      "matchType": "override-id",
+      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
+      "candidateId": "H0MT00116",
+      "totalReceipts": 215339.45,
+      "totalDisbursments": 108209.77,
+      "cashOnHand": 107129.68,
       "coverageEndDate": "2026-03-31",
       "isThisCandidate": false,
       "candidateStatus": "active"

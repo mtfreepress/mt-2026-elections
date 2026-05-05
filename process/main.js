@@ -85,13 +85,76 @@ const primaryResults = getJson('./inputs/results/cleaned/2024-primary-statewide.
 const questionnaires = getYml('./inputs/mtfp-questionnaire/copy-edited-answers.yml')
 
 const FEC_DATA_EXCLUDE = [
-    // Pre-ballot printing dropouts 
+    // Pre-ballot printing dropouts
     'MYGLAND, JEREMY',
     'MORAN, CORY',
     'ROSENDALE, MATT MR.',
-    // Independent candidates who don't have candidate pages
-    // 'NEILL, REILLY'
 ]
+
+// Explicit FEC-ID overrides for known edge cases where IDs are stale or not set
+// in candidate YAML files.
+const FEC_CANDIDATE_ID_TO_SLUG_OVERRIDE = {
+    S6MT00238: 'reilly-neill',
+    H2MT02084: 'al-doc-olszewski',
+    H0MT00116: 'matt-rains',
+    H6MT02226: 'jonathan-windy-boy',
+    S6MT00279: 'kate-mclaughlin',
+}
+
+// Known FEC records that are not currently active site candidates.
+const FEC_UNMATCHED_OK = new Set([
+    'H6MT02226', // Jonathan Windy Boy is intentionally excluded
+    'S6MT00279', // Kate McLaughlin is not in active race list
+])
+
+const FIRST_NAME_ALIASES = {
+    al: ['albert'],
+    albert: ['al'],
+    matt: ['matthew'],
+    matthew: ['matt'],
+    mike: ['michael'],
+    michael: ['mike'],
+    jon: ['jonathan'],
+    jonathan: ['jon'],
+    chris: ['christopher'],
+    christopher: ['chris'],
+    tom: ['thomas'],
+    thomas: ['tom'],
+}
+
+const normalizeNameForMatching = (name) => {
+    if (!name) return ''
+
+    const raw = String(name).toLowerCase().trim()
+    const reordered = raw.includes(',')
+        ? `${raw.split(',').slice(1).join(' ')} ${raw.split(',')[0]}`
+        : raw
+
+    return reordered
+        .replace(/-/g, ' ')
+        .replace(/[.'"]/g, ' ')
+        .replace(/\b(jr|sr|mr|mrs|ms|dr|ii|iii|iv)\b/g, ' ')
+        .replace(/[^a-z0-9\s]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+}
+
+const getNameMatchKeysForCandidate = (candidate) => {
+    const keys = new Set()
+    const displayNameKey = normalizeNameForMatching(candidate.displayName)
+    if (displayNameKey) keys.add(displayNameKey)
+
+    const tokens = displayNameKey.split(' ').filter(Boolean)
+    const first = tokens[0]
+    const last = normalizeNameForMatching(candidate.lastName || tokens[tokens.length - 1])
+
+    if (first && last) {
+        keys.add(`${first} ${last}`)
+        ;(FIRST_NAME_ALIASES[first] || []).forEach(alias => keys.add(`${alias} ${last}`))
+    }
+
+    return [...keys]
+}
 
 // Sort coverage array once rather than on every candidate iteration (avoids repeated mutation)
 const sortedCoverage = [...coverage].sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -100,23 +163,95 @@ const sortedCoverage = [...coverage].sort((a, b) => new Date(b.date) - new Date(
 const candidatesBySlug = new Map(candidates.map(c => [c.slug, c]))
 const candidatesByFecId = new Map(candidates.filter(c => c.fecId).map(c => [c.fecId, c]))
 
+const candidatesByNameKey = new Map()
+candidates.forEach(candidate => {
+    getNameMatchKeysForCandidate(candidate).forEach(key => {
+        const existing = candidatesByNameKey.get(key)
+        if (!existing) {
+            candidatesByNameKey.set(key, candidate)
+            return
+        }
+
+        if (existing.slug !== candidate.slug) {
+            candidatesByNameKey.set(key, null)
+        }
+    })
+})
+
+const matchCandidateForFecRow = (fecData, race) => {
+    const raceCandidateSlugs = new Set(race.candidates || [])
+
+    const matchFromOverride = FEC_CANDIDATE_ID_TO_SLUG_OVERRIDE[fecData.candidate_id]
+    if (matchFromOverride) {
+        const candidate = candidatesBySlug.get(matchFromOverride)
+        if (candidate && raceCandidateSlugs.has(candidate.slug)) {
+            return { candidate, matchType: 'override-id' }
+        }
+    }
+
+    const byFecId = candidatesByFecId.get(fecData.candidate_id)
+    if (byFecId && raceCandidateSlugs.has(byFecId.slug)) {
+        return { candidate: byFecId, matchType: 'fec-id' }
+    }
+
+    const normalizedName = normalizeNameForMatching(fecData.candidate_name)
+    const byName = candidatesByNameKey.get(normalizedName)
+    if (byName && raceCandidateSlugs.has(byName.slug)) {
+        return { candidate: byName, matchType: 'name' }
+    }
+
+    const nameTokens = normalizedName.split(' ').filter(Boolean)
+    if (nameTokens.length >= 2) {
+        const first = nameTokens[0]
+        const last = nameTokens[nameTokens.length - 1]
+        const key = `${first} ${last}`
+        const byFirstLast = candidatesByNameKey.get(key)
+        if (byFirstLast && raceCandidateSlugs.has(byFirstLast.slug)) {
+            return { candidate: byFirstLast, matchType: 'name-first-last' }
+        }
+
+        for (const alias of FIRST_NAME_ALIASES[first] || []) {
+            const byAlias = candidatesByNameKey.get(`${alias} ${last}`)
+            if (byAlias && raceCandidateSlugs.has(byAlias.slug)) {
+                return { candidate: byAlias, matchType: 'name-alias' }
+            }
+        }
+    }
+
+    return { candidate: null, matchType: null }
+}
+
 // Clean campaign finance data
 
 races.forEach(race => {
     if (race.candidates === null) race.candidates = [] // fallback for unpopulated races
 
     if (race.campaignFinanceAgency === 'fec') {
-        race.finance = federalCampaignFinance.find(d => d.raceSlug == race.raceSlug).finances.results
+        const raceFinance = federalCampaignFinance.find(d => d.raceSlug === race.raceSlug)
+        const financeResults = raceFinance && raceFinance.finances && Array.isArray(raceFinance.finances.results)
+            ? raceFinance.finances.results
+            : []
+
+        if (!raceFinance) {
+            console.warn(`Missing FEC finance data for race ${race.raceSlug}`)
+        }
+
+        race.finance = financeResults
             .filter(c => !FEC_DATA_EXCLUDE.includes(c.candidate_name))
             .map(fecData => {
-                const candidateMatch = candidatesByFecId.get(fecData.candidate_id)
+                const { candidate: candidateMatch, matchType } = matchCandidateForFecRow(fecData, race)
                 if (!candidateMatch) {
-                    console.warn(`Missing FEC ID match for ${fecData.candidate_name} (${fecData.candidate_id}) — skipping`)
+                    if (!FEC_UNMATCHED_OK.has(fecData.candidate_id)) {
+                        console.warn(`Missing candidate match for ${fecData.candidate_name} (${fecData.candidate_id}) — skipping`)
+                    }
                     return null
                 }
+
                 return {
                     displayName: candidateMatch.displayName,
+                    candidateSlug: candidateMatch.slug,
                     party: candidateMatch.party,
+                    matchType,
                     candidateCommitteeName: fecData.candidate_pcc_name,
                     candidateId: fecData.candidate_id,
                     totalReceipts: fecData.total_receipts,
@@ -168,10 +303,10 @@ candidates.forEach(candidate => {
     // currently for federal candidates only
     if (race.finance) {
         candidate.finance = race.finance.map(competitor => {
-            const match = candidatesByFecId.get(competitor.candidateId)
+            const match = candidatesBySlug.get(competitor.candidateSlug)
             return {
                 ...competitor,
-                isThisCandidate: (competitor.displayName === candidate.displayName),
+                isThisCandidate: competitor.candidateSlug === candidate.slug,
                 candidateStatus: match ? match.status : null
             }
         })

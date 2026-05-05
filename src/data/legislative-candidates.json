@@ -6193,7 +6193,7 @@
         "displayName": "RICHARD GESSLING",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://richard-gessling-4-montana.com/"
       }
     ]
   },
@@ -6226,7 +6226,7 @@
         "displayName": "RICHARD GESSLING",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://richard-gessling-4-montana.com/"
       }
     ]
   },
@@ -6238,7 +6238,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": null,
+    "campaignWebsite": "https://richard-gessling-4-montana.com/",
     "opponents": [
       {
         "slug": "mary-horman",
@@ -6259,7 +6259,7 @@
         "displayName": "RICHARD GESSLING",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://richard-gessling-4-montana.com/"
       }
     ]
   },
@@ -7461,32 +7461,6 @@
   {
     "raceSlug": "HD-76",
     "raceDisplayName": "House District 76",
-    "slug": "trish-schreiber",
-    "displayName": "TRISH SCHREIBER",
-    "party": "R",
-    "status": "active",
-    "isIncumbent": false,
-    "campaignWebsite": "https://trishformontana.com",
-    "opponents": [
-      {
-        "slug": "trish-schreiber",
-        "displayName": "TRISH SCHREIBER",
-        "party": "R",
-        "isIncumbent": false,
-        "campaignWebsite": "https://trishformontana.com"
-      },
-      {
-        "slug": "john-fitzpatrick",
-        "displayName": "JOHN FITZPATRICK",
-        "party": "R",
-        "isIncumbent": true,
-        "campaignWebsite": "https://fitzfor76.com"
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-76",
-    "raceDisplayName": "House District 76",
     "slug": "john-fitzpatrick",
     "displayName": "JOHN FITZPATRICK",
     "party": "R",
@@ -7495,18 +7469,44 @@
     "campaignWebsite": "https://fitzfor76.com",
     "opponents": [
       {
+        "slug": "john-fitzpatrick",
+        "displayName": "JOHN FITZPATRICK",
+        "party": "R",
+        "isIncumbent": true,
+        "campaignWebsite": "https://fitzfor76.com"
+      },
+      {
         "slug": "trish-schreiber",
         "displayName": "TRISH SCHREIBER",
         "party": "R",
         "isIncumbent": false,
         "campaignWebsite": "https://trishformontana.com"
-      },
+      }
+    ]
+  },
+  {
+    "raceSlug": "HD-76",
+    "raceDisplayName": "House District 76",
+    "slug": "trish-schreiber",
+    "displayName": "TRISH SCHREIBER",
+    "party": "R",
+    "status": "active",
+    "isIncumbent": false,
+    "campaignWebsite": "https://trishformontana.com",
+    "opponents": [
       {
         "slug": "john-fitzpatrick",
         "displayName": "JOHN FITZPATRICK",
         "party": "R",
         "isIncumbent": true,
         "campaignWebsite": "https://fitzfor76.com"
+      },
+      {
+        "slug": "trish-schreiber",
+        "displayName": "TRISH SCHREIBER",
+        "party": "R",
+        "isIncumbent": false,
+        "campaignWebsite": "https://trishformontana.com"
       }
     ]
   },
@@ -7976,7 +7976,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": null,
+    "campaignWebsite": "https://jamievv.com",
     "opponents": [
       {
         "slug": "roy-caldwell",
@@ -7997,7 +7997,7 @@
         "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://jamievv.com"
       },
       {
         "slug": "tia-nelson",
@@ -8037,7 +8037,7 @@
         "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://jamievv.com"
       },
       {
         "slug": "tia-nelson",
@@ -8077,7 +8077,7 @@
         "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://jamievv.com"
       },
       {
         "slug": "tia-nelson",
@@ -8117,7 +8117,7 @@
         "displayName": "JAMIE VAN VALKENBURG",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://jamievv.com"
       },
       {
         "slug": "tia-nelson",
