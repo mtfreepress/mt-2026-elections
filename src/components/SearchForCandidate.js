@@ -3,6 +3,11 @@ import { css } from "@emotion/react";
 import Link from "next/link";
 
 import { PARTIES, PARTIES_BY_KEY, STATUS } from "@/lib/styles";
+import {
+    getCorrespondingSenateDistrictNumber,
+    getCorrespondingHouseDistrictNumbers,
+    getDistrictNumber,
+} from "@/lib/utils";
 
 const STATUS_BY_KEY = new Map(STATUS.map(s => [s.key, s]))
 
@@ -138,6 +143,21 @@ const candidateStyle = css`
 
 const PLACEHOLDER = 'Enter candidate (e.g., Troy Downing)'
 
+const legeNavStyle = css`
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: var(--gray5);
+    a {
+        color: var(--link);
+    }
+`
+
+const legislativeCandidateStyle = css`
+    margin: 0.5em 0;
+    max-width: none;
+    width: 100%;
+`
+
 function Candidate(props) {
     const { slug, path, displayName, party, status, race,
         summaryLine, cap_tracker_2025_link, hasResponses, numMTFParticles } = props
@@ -167,10 +187,76 @@ function Candidate(props) {
     </Link ></div >
 }
 
+function LegislativeCandidate({ displayName, party, status, districtKey, chamber, isIncumbent, onSelect }) {
+    const partyInfo = PARTIES_BY_KEY.get(party) || { color: '#999', noun: party }
+    const statusInfo = STATUS_BY_KEY.get(status) || { label: status }
+    const districtNum = getDistrictNumber(districtKey)
+    const chamberLabel = chamber === 'senate' ? 'Senate District' : 'House District'
+    const raceLabel = `${chamberLabel} ${districtNum}`
+    return <div css={[candidateStyle, legislativeCandidateStyle]} style={{ borderTop: `3px solid ${partyInfo.color}` }}>
+        <Link href="/#montana-legislature" onClick={onSelect}>
+            <div className="portrait-col">
+                <div className="party" style={{ background: partyInfo.color }}>{party}</div>
+            </div>
+            <div className="info-col">
+                <div>
+                    <div className="name">{displayName}</div>
+                    {isIncumbent && <div className="current">Incumbent</div>}
+                    <div className="position">
+                        <span style={{ color: partyInfo.color }}>{partyInfo.noun}</span> for {raceLabel}
+                    </div>
+                    <div className="status">{statusInfo.label}</div>
+                </div>
+                <div className="fakelink">View district »</div>
+            </div>
+        </Link>
+    </div>
+}
+
 export default function SearchForCandidate({
     candidates,
+    legislativeRaces,
+    setSelDistricts,
+    selDistricts,
 }) {
     const [searchText, setSearchText] = useState('')
+
+    // Flatten legislative candidates from all districts for searching
+    const legislativeCandidates = useMemo(() => {
+        if (!legislativeRaces) return []
+        const flat = []
+        for (const district of legislativeRaces) {
+            for (const c of district.candidates) {
+                if (c.status === 'active') {
+                    flat.push({
+                        ...c,
+                        districtKey: district.districtKey,
+                        chamber: district.chamber,
+                        district: district.district,
+                        region: district.region,
+                        isLegislative: true,
+                    })
+                }
+            }
+
+            if (district.chamber === 'senate' && district.holdover_senator) {
+                flat.push({
+                    slug: `holdover-${district.districtKey}`,
+                    displayName: district.holdover_senator,
+                    party: district.holdover_party || '?',
+                    status: 'Not up for election in 2026',
+                    isIncumbent: true,
+                    districtKey: district.districtKey,
+                    chamber: district.chamber,
+                    district: district.district,
+                    region: district.region,
+                    isLegislative: true,
+                    isHoldover: true,
+                })
+            }
+        }
+        return flat
+    }, [legislativeRaces])
 
     const matchingCandidates = useMemo(() => {
         if (!searchText || searchText.length < 3) return []
@@ -180,21 +266,55 @@ export default function SearchForCandidate({
             .slice(0, 5)
     }, [searchText, candidates])
 
+    const matchingLegislative = useMemo(() => {
+        if (!searchText || searchText.length < 3) return []
+        const q = searchText.toUpperCase()
+        return legislativeCandidates
+            .filter(d => d.displayName.toUpperCase().includes(q))
+            .slice(0, 5)
+    }, [searchText, legislativeCandidates])
+
     function handleChange(event) {
         const input = event.target.value
         setSearchText(input)
     }
 
+    function handleLegeSelect(candidate) {
+        if (!setSelDistricts || !selDistricts) return
+        let mtHouse, mtSenate
+        if (candidate.chamber === 'senate') {
+            const firstHouseNum = getCorrespondingHouseDistrictNumbers(candidate.districtKey)[0]
+            mtHouse = `HD-${firstHouseNum}`
+            mtSenate = candidate.districtKey
+        } else {
+            mtHouse = candidate.districtKey
+            mtSenate = `SD-${getCorrespondingSenateDistrictNumber(candidate.districtKey)}`
+        }
+        setSelDistricts({
+            ...selDistricts,
+            mtHouse,
+            mtSenate,
+        })
+    }
+
     return <div css={lookupStyle}>
         <div className="ledein">Search 2026 Montana candidates by name</div>
-        <div className="note">This guide includes federal and statewide candidates. State legislators, county commissioners, and other local positions are excluded.</div>
+        <div className="note">This guide includes federal, statewide, and state legislative candidates.</div>
         <form>
             <input onChange={handleChange} type="text" value={searchText} placeholder={PLACEHOLDER} />
         </form>
         <div>
-            {
-                matchingCandidates.map(c => <Candidate key={c.slug} {...c} />)
-            }
+            {matchingCandidates.map(c => <Candidate key={c.slug} {...c} />)}
+            {matchingLegislative.map(c => (
+                <LegislativeCandidate
+                    key={`${c.districtKey}-${c.slug}`}
+                    {...c}
+                    onSelect={() => handleLegeSelect(c)}
+                />
+            ))}
+        </div>
+        <div css={legeNavStyle}>
+            <Link href="/#montana-legislature">Browse all legislative candidates →</Link>
         </div>
     </div>
 }
