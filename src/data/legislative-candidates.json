@@ -7461,32 +7461,6 @@
   {
     "raceSlug": "HD-76",
     "raceDisplayName": "House District 76",
-    "slug": "trish-schreiber",
-    "displayName": "TRISH SCHREIBER",
-    "party": "R",
-    "status": "active",
-    "isIncumbent": false,
-    "campaignWebsite": "https://trishformontana.com",
-    "opponents": [
-      {
-        "slug": "trish-schreiber",
-        "displayName": "TRISH SCHREIBER",
-        "party": "R",
-        "isIncumbent": false,
-        "campaignWebsite": "https://trishformontana.com"
-      },
-      {
-        "slug": "john-fitzpatrick",
-        "displayName": "JOHN FITZPATRICK",
-        "party": "R",
-        "isIncumbent": true,
-        "campaignWebsite": "https://fitzfor76.com"
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-76",
-    "raceDisplayName": "House District 76",
     "slug": "john-fitzpatrick",
     "displayName": "JOHN FITZPATRICK",
     "party": "R",
@@ -7495,18 +7469,44 @@
     "campaignWebsite": "https://fitzfor76.com",
     "opponents": [
       {
+        "slug": "john-fitzpatrick",
+        "displayName": "JOHN FITZPATRICK",
+        "party": "R",
+        "isIncumbent": true,
+        "campaignWebsite": "https://fitzfor76.com"
+      },
+      {
         "slug": "trish-schreiber",
         "displayName": "TRISH SCHREIBER",
         "party": "R",
         "isIncumbent": false,
         "campaignWebsite": "https://trishformontana.com"
-      },
+      }
+    ]
+  },
+  {
+    "raceSlug": "HD-76",
+    "raceDisplayName": "House District 76",
+    "slug": "trish-schreiber",
+    "displayName": "TRISH SCHREIBER",
+    "party": "R",
+    "status": "active",
+    "isIncumbent": false,
+    "campaignWebsite": "https://trishformontana.com",
+    "opponents": [
       {
         "slug": "john-fitzpatrick",
         "displayName": "JOHN FITZPATRICK",
         "party": "R",
         "isIncumbent": true,
         "campaignWebsite": "https://fitzfor76.com"
+      },
+      {
+        "slug": "trish-schreiber",
+        "displayName": "TRISH SCHREIBER",
+        "party": "R",
+        "isIncumbent": false,
+        "campaignWebsite": "https://trishformontana.com"
       }
     ]
   },

@@ -240,7 +240,13 @@ export default function SearchForCandidate({
                 }
             }
 
-            if (district.chamber === 'senate' && district.holdover_senator) {
+            const isOutOfCycleSenate = district.chamber === 'senate' && district.in_cycle_2026 === 'no'
+            const hasRunningHoldover = district.candidates.some(c => {
+                if (!district.holdover_senator) return false
+                return String(c.displayName || '').toUpperCase() === String(district.holdover_senator).toUpperCase()
+            })
+
+            if (isOutOfCycleSenate && district.holdover_senator && !hasRunningHoldover) {
                 flat.push({
                     slug: `holdover-${district.districtKey}`,
                     displayName: district.holdover_senator,

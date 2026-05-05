@@ -2478,20 +2478,20 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "trish-schreiber",
-        "displayName": "TRISH SCHREIBER",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://trishformontana.com"
-      },
-      {
         "slug": "john-fitzpatrick",
         "displayName": "JOHN FITZPATRICK",
         "party": "R",
         "status": "active",
         "isIncumbent": true,
         "campaignWebsite": "https://fitzfor76.com"
+      },
+      {
+        "slug": "trish-schreiber",
+        "displayName": "TRISH SCHREIBER",
+        "party": "R",
+        "status": "active",
+        "isIncumbent": false,
+        "campaignWebsite": "https://trishformontana.com"
       }
     ]
   },
