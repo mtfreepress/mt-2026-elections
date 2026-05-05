@@ -75,6 +75,9 @@ const CANDIDATE_FIELD_OVERRIDES = {
     'CHRIS GRAY': {
         campaignWebsite: 'http://www.cgraymontana.com/',
     },
+    'KATE MCLAUGHLIN' : {
+        campaignWebsite: 'https://mclaughlinformontana.com/',
+    }
 }
 
 // Load manual exclusions shared with the major-race pipeline.
