@@ -72,6 +72,9 @@ const CANDIDATE_FIELD_OVERRIDES = {
     'RICHARD GESSLING': {
         campaignWebsite: 'https://richard-gessling-4-montana.com/',
     },
+    'CHRIS GRAY': {
+        campaignWebsite: 'http://www.cgraymontana.com/',
+    },
 }
 
 // Load manual exclusions shared with the major-race pipeline.

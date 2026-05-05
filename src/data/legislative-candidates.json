@@ -6519,7 +6519,7 @@
         "displayName": "CHRIS GRAY",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "http://www.cgraymontana.com/"
       }
     ]
   },
@@ -6531,7 +6531,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": null,
+    "campaignWebsite": "http://www.cgraymontana.com/",
     "opponents": [
       {
         "slug": "eric-jacobs",
@@ -6552,7 +6552,7 @@
         "displayName": "CHRIS GRAY",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "http://www.cgraymontana.com/"
       }
     ]
   },
@@ -6585,7 +6585,7 @@
         "displayName": "CHRIS GRAY",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "http://www.cgraymontana.com/"
       }
     ]
   },
