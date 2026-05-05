@@ -52,11 +52,12 @@ const lookupStyle = css`
 `
 
 const candidateStyle = css`
-    margin: 0.5em auto;
+    margin: 0.5em 0;
     margin-top: 0.5em;
     border: 1px solid var(--tan5);
     box-shadow: 2px 2px 3px #aaa;
-    max-width: 400px;
+    max-width: none;
+    width: 100%;
     a {
         /* width: 180px; */
         min-height: 40px;
@@ -299,7 +300,7 @@ export default function SearchForCandidate({
 
     return <div css={lookupStyle}>
         <div className="ledein">Search 2026 Montana candidates by name</div>
-        <div className="note">This guide includes federal, statewide, and state legislative candidates.</div>
+        <div className="note">This guide includes federal, state-level and legislative candidates. County commissioners and other local positions are excluded.</div>
         <form>
             <input onChange={handleChange} type="text" value={searchText} placeholder={PLACEHOLDER} />
         </form>
