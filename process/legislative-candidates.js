@@ -77,6 +77,12 @@ const CANDIDATE_FIELD_OVERRIDES = {
     },
     'KATE MCLAUGHLIN' : {
         campaignWebsite: 'https://mclaughlinformontana.com/',
+    },
+    'JANET ELLIS': {
+        campaignWebsite: 'https://janetellis4mt.com/',
+    },
+    'BENJAMIN KUIPER': {
+        campaignWebsite: 'https://www.benkuiperforlegislature.com/',
     }
 }
 
