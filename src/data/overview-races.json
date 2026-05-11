@@ -421,6 +421,15 @@
         "raceSlug": "us-house-2"
       },
       {
+        "slug": "jonathan-windy-boy",
+        "displayName": "Jonathan Windy Boy",
+        "summaryLine": null,
+        "party": "D",
+        "hasResponses": true,
+        "numMTFParticles": 5,
+        "raceSlug": "us-house-2"
+      },
+      {
         "slug": "patrick-mccracken",
         "displayName": "Patrick McCracken",
         "summaryLine": null,
@@ -495,6 +504,18 @@
         "matchType": "name-first-last",
         "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
         "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Jonathan Windy Boy",
+        "candidateSlug": "jonathan-windy-boy",
+        "party": "D",
+        "matchType": "override-id",
+        "candidateCommitteeName": "WINDYBOY4CONGRESS",
+        "candidateId": "H6MT02226",
         "totalReceipts": 0,
         "totalDisbursments": 0,
         "cashOnHand": 0,

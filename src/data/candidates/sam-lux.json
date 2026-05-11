@@ -36,6 +36,12 @@
       "party": "R"
     },
     {
+      "slug": "jonathan-windy-boy",
+      "displayName": "Jonathan Windy Boy",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
       "slug": "patrick-mccracken",
       "displayName": "Patrick McCracken",
       "summaryLine": null,
@@ -206,6 +212,20 @@
       "matchType": "name-first-last",
       "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
       "candidateId": "H6MT02176",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Jonathan Windy Boy",
+      "candidateSlug": "jonathan-windy-boy",
+      "party": "D",
+      "matchType": "override-id",
+      "candidateCommitteeName": "WINDYBOY4CONGRESS",
+      "candidateId": "H6MT02226",
       "totalReceipts": 0,
       "totalDisbursments": 0,
       "cashOnHand": 0,

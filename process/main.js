@@ -22,8 +22,9 @@ const text = getYml('./inputs/content/text.yml')
 
 // Load manual exclusions — candidates to hide from the site without editing
 // source data. See inputs/content/excluded-candidates.yml for usage notes.
-const excludedCandidates = getYml('./inputs/content/excluded-candidates.yml')
-const excludedSlugs = new Set((excludedCandidates.excluded || []).map(e => e.slug))
+const excludedCandidates = getYml('./inputs/content/excluded-candidates.yml') || {}
+const excludedEntries = Array.isArray(excludedCandidates.excluded) ? excludedCandidates.excluded : []
+const excludedSlugs = new Set(excludedEntries.map(e => e.slug).filter(Boolean))
 if (excludedSlugs.size > 0) {
     console.log(`Excluding ${excludedSlugs.size} candidate(s):`, [...excludedSlugs].join(', '))
     // Remove excluded slugs from every race's candidate list so they
@@ -103,7 +104,7 @@ const FEC_CANDIDATE_ID_TO_SLUG_OVERRIDE = {
 
 // Known FEC records that are not currently active site candidates.
 const FEC_UNMATCHED_OK = new Set([
-    'H6MT02226', // Jonathan Windy Boy is intentionally excluded
+    // 'H6MT02226', // Jonathan Windy Boy is intentionally excluded
     'S6MT00279', // Kate McLaughlin is not in active race list
 ])
 

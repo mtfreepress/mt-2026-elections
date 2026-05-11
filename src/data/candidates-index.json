@@ -260,6 +260,19 @@
     "numMTFParticles": 0
   },
   {
+    "slug": "jonathan-windy-boy",
+    "displayName": "Jonathan Windy Boy",
+    "lastName": "Boy",
+    "summaryLine": null,
+    "party": "D",
+    "raceSlug": "us-house-2",
+    "raceDisplayName": "U.S. House District 2 (East)",
+    "status": "active",
+    "isIncumbent": false,
+    "hasResponses": true,
+    "numMTFParticles": 5
+  },
+  {
     "slug": "joe-dooling",
     "displayName": "Joe Dooling",
     "lastName": "Dooling",
