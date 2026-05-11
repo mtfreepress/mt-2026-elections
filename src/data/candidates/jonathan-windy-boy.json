@@ -1,0 +1,309 @@
+{
+  "slug": "jonathan-windy-boy",
+  "displayName": "Jonathan Windy Boy",
+  "lastName": "Boy",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "D",
+  "isIncumbent": false,
+  "status": "active",
+  "fecId": null,
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-house-2",
+  "raceDisplayName": "U.S. House District 2 (East)",
+  "opponents": [
+    {
+      "slug": "brian-j-miller",
+      "displayName": "Brian J Miller",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "sam-lux",
+      "displayName": "Sam Lux",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "troy-downing",
+      "displayName": "Troy Downing",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
+      "slug": "jonathan-windy-boy",
+      "displayName": "Jonathan Windy Boy",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
+      "slug": "patrick-mccracken",
+      "displayName": "Patrick McCracken",
+      "summaryLine": null,
+      "party": "L"
+    },
+    {
+      "slug": "michael-d-eisenhauer",
+      "displayName": "Michael D Eisenhauer",
+      "summaryLine": null,
+      "party": "I"
+    }
+  ],
+  "coverage": [
+    {
+      "title": "Former legislator Jen Gross attaches her name to 2018 sexual misconduct complaint against Jonathan Windy Boy",
+      "date": "2026-05-08T14:56:08",
+      "link": "https://montanafreepress.org/2026/05/08/former-legislator-jen-gross-attaches-her-name-to-2018-sexual-misconduct-complaint-against-jonathan-windy-boy/",
+      "tags": [
+        "2026 elections",
+        "ElectionDev",
+        "Jen Gross",
+        "Jonathan Windy Boy"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/2023/02/01/child-welfare-advocates-rally-behind-montana-icwa-bill/img_1041/",
+      "author": "Zeke Lloyd"
+    },
+    {
+      "title": "Windy Boy restarts campaign for Montana’s eastern U.S. House seat",
+      "date": "2026-05-06T16:04:19",
+      "link": "https://montanafreepress.org/2026/05/06/windy-boy-restarts-campaign-for-house-seat/",
+      "tags": [
+        "2026 elections",
+        "Box Elder",
+        "Brian Miller",
+        "Democrat",
+        "ElectionDev",
+        "Jonathan Windy Boy",
+        "Montana’s Eastern Congressional District",
+        "MT-02",
+        "U.S. House"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260403lm-mansfieldmetcalf-0044-jpg/",
+      "author": "Zeke Lloyd"
+    },
+    {
+      "title": "No one thinks a Democrat can win Montana’s eastern U.S. House seat — except the two Democrats facing off for a chance to try ",
+      "date": "2026-05-04T07:00:00",
+      "link": "https://montanafreepress.org/2026/05/04/montana-eastern-congressional-democrats-2026/",
+      "tags": [
+        "2026 elections",
+        "Brian Miller",
+        "Eastern Congressional District",
+        "Jeremy Johnson",
+        "Jessi Bennion",
+        "Jonathan Windy Boy",
+        "Matt Rosendale",
+        "Montana Democratic Party",
+        "Sam Lux",
+        "Troy Downing"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/2026/05/04/montana-eastern-congressional-democrats-2026/eastern-3/",
+      "author": "Zeke Lloyd"
+    },
+    {
+      "title": "State Sen. Jonathan Windy Boy withdraws from Eastern District House primary amid ‘allegations of serious sexual abuse’",
+      "date": "2026-04-16T12:23:50",
+      "link": "https://montanafreepress.org/2026/04/16/state-sen-jonathan-windy-boys-withdrawal-from-eastern-district-house-primary/",
+      "tags": [
+        "2026 elections",
+        "Brian Miller",
+        "ElectionDev",
+        "Jonathan Windy Boy",
+        "Montana Democratic Party",
+        "Sam Lux",
+        "Shannon O’Brien"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/2026/04/16/state-sen-jonathan-windy-boys-withdrawal-from-eastern-district-house-primary/20260403lm-mansfieldmetcalf-0044/",
+      "author": "Zeke Lloyd"
+    },
+    {
+      "title": "Democratic primary candidates for House seats, Senate, take questions in capital debate",
+      "date": "2026-04-12T22:18:24",
+      "link": "https://montanafreepress.org/2026/04/12/montana-democratic-primary-candidates-house-senate-take-questions-capital-debate/",
+      "tags": [
+        "2026 elections",
+        "Alana Bankhead",
+        "Brian Miller",
+        "ElectionDev",
+        "Jonathan Windy Boy",
+        "Matt Rains",
+        "Michael Black Wolf",
+        "Michael Hummert",
+        "REILLY NEILL",
+        "Russell Cleveland",
+        "Ryan Busse",
+        "Sam Forstag",
+        "Sam Lux"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260412_135640/",
+      "author": "Tom Lutey"
+    }
+  ],
+  "finance": [
+    {
+      "displayName": "Troy Downing",
+      "candidateSlug": "troy-downing",
+      "party": "R",
+      "matchType": "name",
+      "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
+      "candidateId": "H4MT02098",
+      "totalReceipts": 1633759.13,
+      "totalDisbursments": 1299370.16,
+      "cashOnHand": 445919.47,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Michael D Eisenhauer",
+      "candidateSlug": "michael-d-eisenhauer",
+      "party": "I",
+      "matchType": "name",
+      "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
+      "candidateId": "H6MT02168",
+      "totalReceipts": 208448.87,
+      "totalDisbursments": 74738.17,
+      "cashOnHand": 133710.7,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Brian J Miller",
+      "candidateSlug": "brian-j-miller",
+      "party": "D",
+      "matchType": "name-first-last",
+      "candidateCommitteeName": "MILLER FOR CONGRESS",
+      "candidateId": "H6MT02150",
+      "totalReceipts": 15220.25,
+      "totalDisbursments": 9389.55,
+      "cashOnHand": 1820.79,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Lux",
+      "candidateSlug": "sam-lux",
+      "party": "D",
+      "matchType": "name",
+      "candidateCommitteeName": "LUX FOR MONTANA",
+      "candidateId": "H6MT02143",
+      "totalReceipts": 8255.17,
+      "totalDisbursments": 7577.94,
+      "cashOnHand": 854.18,
+      "coverageEndDate": "2026-03-31",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Patrick McCracken",
+      "candidateSlug": "patrick-mccracken",
+      "party": "L",
+      "matchType": "name-first-last",
+      "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
+      "candidateId": "H6MT02176",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Jonathan Windy Boy",
+      "candidateSlug": "jonathan-windy-boy",
+      "party": "D",
+      "matchType": "override-id",
+      "candidateCommitteeName": "WINDYBOY4CONGRESS",
+      "candidateId": "H6MT02226",
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": true,
+    "responses": [
+      {
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&nbsp;which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "answer": "Definitely. There is a process the US goes in to war. And the congress is the only one to authorize the move. Until that resolution is amended or repealed. Any other action should be considered null and void. Nobody is above the law. Nit even the President. Should it be replaced. NO, because it removes the separation of powers between the Administration and Legislature.\n\n"
+      },
+      {
+        "question": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+        "answer": "Rural hospitals and clinic have lower patient flow because of the elimination of Medicaid and other access to affordable healthcare. Medicaid access to Medicaid needs to be restored  more resources needs to be brought back to Montana to keep these facilities open. $4.8 trillion dollars have been added to national debt. We need to take care of our own people rather than the top 1% of rich peiple.\n\n"
+      },
+      {
+        "question": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+        "answer": "There are many. 1) Restore Indigenous rights and honor treaties of tribes (health, education and welfare). 2) healthcare for all. 3) Pass a farm bill. There are many more. But thats a start.\n\n"
+      },
+      {
+        "question": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+        "answer": "Implement fair practices and policies. One way would create lower interest rates. Pass a farm bill to encourage our farmers and ranchers produce.\n\n"
+      },
+      {
+        "question": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+        "answer": "The service I've provided in the last 28 years are proven. My record, votes and position can easily be fact checked. Im a no nonsense, get to the point and tell it like it is individual. My working with Republican as a Democrat is proven and successful. My knowledge base is broad. Bottom line, I believe im the most qualified candidate to represent Montana. Im born and raised in Montana. I have mamy generations of being a Montanan behind me. And the investments i have in Montana is never in question.\n\n"
+      }
+    ]
+  },
+  "primaryResults": {
+    "race": "us-house-2",
+    "raceDisplayName": "U.S. House District 2 (East)",
+    "party": "D",
+    "resultsTotal": [
+      {
+        "candidate": "JOHN B DRISCOLL",
+        "party": "D",
+        "votes": 13317,
+        "isWinner": true,
+        "votePercent": 0.3331165420116567
+      },
+      {
+        "candidate": "STEVE HELD",
+        "party": "D",
+        "votes": 10583,
+        "isWinner": false,
+        "votePercent": 0.2647272181504365
+      },
+      {
+        "candidate": "MING CABRERA",
+        "party": "D",
+        "votes": 8341,
+        "isWinner": false,
+        "votePercent": 0.2086449708582435
+      },
+      {
+        "candidate": "KEVIN HAMM",
+        "party": "D",
+        "votes": 7736,
+        "isWinner": false,
+        "votePercent": 0.1935112689796633
+      }
+    ],
+    "reportingTime": "6/10/2024 12:53:48 PM"
+  }
+}
