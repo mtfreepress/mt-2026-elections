@@ -83,14 +83,21 @@ const CANDIDATE_FIELD_OVERRIDES = {
     },
     'BENJAMIN KUIPER': {
         campaignWebsite: 'https://www.benkuiperforlegislature.com/',
-    }
+    },
+    'JOHN MAXWELL' : {
+        campaignWebsite: 'https://www.maxwellforhouse.com/',
+    },
 }
+
+const CANDIDATE_FIELD_OVERRIDES_CANONICAL = Object.fromEntries(
+    Object.entries(CANDIDATE_FIELD_OVERRIDES).map(([name, overrides]) => [canonicalizeName(name), overrides])
+)
 
 // Load manual exclusions shared with the major-race pipeline.
 // Excluded legislative candidates are treated as withdrawn so they don't
 // appear in opponents lists or active candidate counts.
-const excludedCandidatesYml = YAML.parse(fs.readFileSync('./inputs/content/excluded-candidates.yml', 'utf8'))
-const EXCLUDED_SLUGS = new Set((excludedCandidatesYml.excluded || []).map(e => e.slug))
+const excludedCandidatesYml = YAML.parse(fs.readFileSync('./inputs/content/excluded-candidates.yml', 'utf8')) || {}
+const EXCLUDED_SLUGS = new Set(((excludedCandidatesYml.excluded || [])).map(e => e.slug))
 
 // --- HELPERS ---
 
@@ -244,7 +251,7 @@ async function main() {
             const candidateSlug = urlize(name)
             const ymlCandidate = ymlBySlug.get(candidateSlug) || ymlByName.get(canonicalizeName(name))
             const isIncumbent = Boolean(ymlCandidate && ymlCandidate.isIncumbent)
-            const fieldOverrides = CANDIDATE_FIELD_OVERRIDES[name] || {}
+            const fieldOverrides = CANDIDATE_FIELD_OVERRIDES_CANONICAL[canonicalizeName(name)] || {}
 
             return {
                 raceSlug,
