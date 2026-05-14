@@ -222,7 +222,7 @@
         "displayName": "Russell Cleveland",
         "summaryLine": null,
         "party": "D",
-        "hasResponses": true,
+        "hasResponses": false,
         "numMTFParticles": 2,
         "raceSlug": "us-house-1"
       },

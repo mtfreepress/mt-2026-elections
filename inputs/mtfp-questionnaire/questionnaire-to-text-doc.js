@@ -111,11 +111,12 @@ function processResponse(row) {
         if (!k) continue
         if (candidateKey && k === candidateKey) continue
         if (isExcludedHeader(k)) continue
-        const response = (row[k] || '').toString().trim()
+        const question = k.replace(/&nbsp;/g, '& ')
+        const response = (row[k] || '').toString().trim().replace(/&nbsp;/g, '& ')
         if (isBioQuestion(k)) {
-            bioMaterial.push({ question: k, response: response + '\n\n' })
+            bioMaterial.push({ question, response: response + '\n\n' })
         } else {
-            questionnaireMaterial.push({ question: k, response: response + '\n\n' })
+            questionnaireMaterial.push({ question, response: response + '\n\n' })
         }
     }
 

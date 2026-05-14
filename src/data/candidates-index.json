@@ -87,7 +87,7 @@
     "raceDisplayName": "U.S. House District 1 (West)",
     "status": "active",
     "isIncumbent": false,
-    "hasResponses": true,
+    "hasResponses": false,
     "numMTFParticles": 2
   },
   {
