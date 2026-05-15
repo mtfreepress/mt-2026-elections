@@ -32,7 +32,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 1,
+        "numMTFParticles": 2,
         "raceSlug": "us-senate"
       },
       {
@@ -176,10 +176,10 @@
         "matchType": "name",
         "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
         "candidateId": "S4MT00217",
-        "totalReceipts": 10900,
-        "totalDisbursments": 3125,
-        "cashOnHand": 8519.73,
-        "coverageEndDate": "2026-03-31"
+        "totalReceipts": 12230,
+        "totalDisbursments": 3191.98,
+        "cashOnHand": 9782.75,
+        "coverageEndDate": "2026-05-13"
       },
       {
         "displayName": "Christopher Kehoe",
@@ -222,7 +222,7 @@
         "displayName": "Russell Cleveland",
         "summaryLine": null,
         "party": "D",
-        "hasResponses": false,
+        "hasResponses": true,
         "numMTFParticles": 2,
         "raceSlug": "us-house-1"
       },

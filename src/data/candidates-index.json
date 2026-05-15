@@ -87,7 +87,7 @@
     "raceDisplayName": "U.S. House District 1 (West)",
     "status": "active",
     "isIncumbent": false,
-    "hasResponses": false,
+    "hasResponses": true,
     "numMTFParticles": 2
   },
   {
@@ -439,7 +439,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "al-doc-olszewski",

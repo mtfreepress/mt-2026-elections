@@ -79,7 +79,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "D",
     "status": "active",
-    "hasResponses": false,
+    "hasResponses": true,
     "numMTFParticles": 2,
     "cap_tracker_2025_link": null
   },
@@ -404,7 +404,7 @@
     "party": "D",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 1,
+    "numMTFParticles": 2,
     "cap_tracker_2025_link": null
   },
   {
