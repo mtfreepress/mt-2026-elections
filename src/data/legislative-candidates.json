@@ -563,46 +563,6 @@
   {
     "raceSlug": "SD-11",
     "raceDisplayName": "Senate District 11",
-    "slug": "valynda-holland",
-    "displayName": "VALYNDA HOLLAND",
-    "party": "D",
-    "status": "active",
-    "isIncumbent": false,
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "steven-galloway",
-        "displayName": "STEVEN GALLOWAY",
-        "party": "R",
-        "isIncumbent": false,
-        "campaignWebsite": "https://stevenformontana.com"
-      },
-      {
-        "slug": "ed-buttrey",
-        "displayName": "ED BUTTREY",
-        "party": "R",
-        "isIncumbent": false,
-        "campaignWebsite": "https://buttrey4montana.com"
-      },
-      {
-        "slug": "valynda-holland",
-        "displayName": "VALYNDA HOLLAND",
-        "party": "D",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "mark-winters",
-        "displayName": "MARK WINTERS",
-        "party": "D",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "SD-11",
-    "raceDisplayName": "Senate District 11",
     "slug": "steven-galloway",
     "displayName": "STEVEN GALLOWAY",
     "party": "R",
@@ -625,15 +585,15 @@
         "campaignWebsite": "https://buttrey4montana.com"
       },
       {
-        "slug": "valynda-holland",
-        "displayName": "VALYNDA HOLLAND",
+        "slug": "mark-winters",
+        "displayName": "MARK WINTERS",
         "party": "D",
         "isIncumbent": false,
         "campaignWebsite": null
       },
       {
-        "slug": "mark-winters",
-        "displayName": "MARK WINTERS",
+        "slug": "valynda-holland",
+        "displayName": "VALYNDA HOLLAND",
         "party": "D",
         "isIncumbent": false,
         "campaignWebsite": null
@@ -665,15 +625,15 @@
         "campaignWebsite": "https://buttrey4montana.com"
       },
       {
-        "slug": "valynda-holland",
-        "displayName": "VALYNDA HOLLAND",
+        "slug": "mark-winters",
+        "displayName": "MARK WINTERS",
         "party": "D",
         "isIncumbent": false,
         "campaignWebsite": null
       },
       {
-        "slug": "mark-winters",
-        "displayName": "MARK WINTERS",
+        "slug": "valynda-holland",
+        "displayName": "VALYNDA HOLLAND",
         "party": "D",
         "isIncumbent": false,
         "campaignWebsite": null
@@ -705,15 +665,55 @@
         "campaignWebsite": "https://buttrey4montana.com"
       },
       {
-        "slug": "valynda-holland",
-        "displayName": "VALYNDA HOLLAND",
+        "slug": "mark-winters",
+        "displayName": "MARK WINTERS",
         "party": "D",
         "isIncumbent": false,
         "campaignWebsite": null
       },
       {
+        "slug": "valynda-holland",
+        "displayName": "VALYNDA HOLLAND",
+        "party": "D",
+        "isIncumbent": false,
+        "campaignWebsite": null
+      }
+    ]
+  },
+  {
+    "raceSlug": "SD-11",
+    "raceDisplayName": "Senate District 11",
+    "slug": "valynda-holland",
+    "displayName": "VALYNDA HOLLAND",
+    "party": "D",
+    "status": "active",
+    "isIncumbent": false,
+    "campaignWebsite": null,
+    "opponents": [
+      {
+        "slug": "steven-galloway",
+        "displayName": "STEVEN GALLOWAY",
+        "party": "R",
+        "isIncumbent": false,
+        "campaignWebsite": "https://stevenformontana.com"
+      },
+      {
+        "slug": "ed-buttrey",
+        "displayName": "ED BUTTREY",
+        "party": "R",
+        "isIncumbent": false,
+        "campaignWebsite": "https://buttrey4montana.com"
+      },
+      {
         "slug": "mark-winters",
         "displayName": "MARK WINTERS",
+        "party": "D",
+        "isIncumbent": false,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "valynda-holland",
+        "displayName": "VALYNDA HOLLAND",
         "party": "D",
         "isIncumbent": false,
         "campaignWebsite": null
@@ -7695,7 +7695,7 @@
         "displayName": "MEGAN LANE",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://www.megan4montana.com"
       }
     ]
   },
@@ -7728,7 +7728,7 @@
         "displayName": "MEGAN LANE",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://www.megan4montana.com"
       }
     ]
   },
@@ -7740,7 +7740,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": null,
+    "campaignWebsite": "https://www.megan4montana.com",
     "opponents": [
       {
         "slug": "katie-fruits",
@@ -7761,7 +7761,7 @@
         "displayName": "MEGAN LANE",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://www.megan4montana.com"
       }
     ]
   },

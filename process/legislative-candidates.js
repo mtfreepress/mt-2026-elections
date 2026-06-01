@@ -87,6 +87,9 @@ const CANDIDATE_FIELD_OVERRIDES = {
     'JOHN MAXWELL' : {
         campaignWebsite: 'https://www.maxwellforhouse.com/',
     },
+    'MEGAN LANE': {
+        campaignWebsite: 'https://www.megan4montana.com',
+    }
 }
 
 const CANDIDATE_FIELD_OVERRIDES_CANONICAL = Object.fromEntries(

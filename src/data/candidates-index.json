@@ -36,7 +36,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 5
+    "numMTFParticles": 7
   },
   {
     "slug": "sam-lux",
@@ -101,7 +101,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 3
+    "numMTFParticles": 4
   },
   {
     "slug": "ray-curtis",
@@ -322,7 +322,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": false,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "dan-wilson",
@@ -400,7 +400,7 @@
     "status": "active",
     "isIncumbent": true,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "angeline-cheek",
@@ -439,7 +439,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 3
   },
   {
     "slug": "al-doc-olszewski",

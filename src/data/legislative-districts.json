@@ -2619,7 +2619,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "campaignWebsite": "https://www.megan4montana.com"
       }
     ]
   },
@@ -3580,16 +3580,16 @@
         "campaignWebsite": "https://buttrey4montana.com"
       },
       {
-        "slug": "valynda-holland",
-        "displayName": "VALYNDA HOLLAND",
+        "slug": "mark-winters",
+        "displayName": "MARK WINTERS",
         "party": "D",
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": null
       },
       {
-        "slug": "mark-winters",
-        "displayName": "MARK WINTERS",
+        "slug": "valynda-holland",
+        "displayName": "VALYNDA HOLLAND",
         "party": "D",
         "status": "active",
         "isIncumbent": false,
