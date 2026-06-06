@@ -36,6 +36,12 @@
       "party": "R"
     },
     {
+      "slug": "jonathan-windy-boy",
+      "displayName": "Jonathan Windy Boy",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
       "slug": "patrick-mccracken",
       "displayName": "Patrick McCracken",
       "summaryLine": null,
@@ -49,6 +55,27 @@
     }
   ],
   "coverage": [
+    {
+      "title": "Windy Boy restarts campaign for Montana’s eastern U.S. House seat",
+      "date": "2026-05-06T16:04:19",
+      "link": "https://montanafreepress.org/2026/05/06/windy-boy-restarts-campaign-for-house-seat/",
+      "tags": [
+        "2026 elections",
+        "Box Elder",
+        "Brian Miller",
+        "Democrat",
+        "ElectionDev",
+        "Jonathan Windy Boy",
+        "Montana’s Eastern Congressional District",
+        "MT-02",
+        "U.S. House"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260403lm-mansfieldmetcalf-0044-jpg/",
+      "author": "Zeke Lloyd"
+    },
     {
       "title": "No one thinks a Democrat can win Montana’s eastern U.S. House seat — except the two Democrats facing off for a chance to try ",
       "date": "2026-05-04T07:00:00",
@@ -150,10 +177,10 @@
       "matchType": "name",
       "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
       "candidateId": "H4MT02098",
-      "totalReceipts": 1633759.13,
-      "totalDisbursments": 1299370.16,
-      "cashOnHand": 445919.47,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 1794757.26,
+      "totalDisbursments": 1512717.48,
+      "cashOnHand": 393570.28,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -164,10 +191,10 @@
       "matchType": "name",
       "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
       "candidateId": "H6MT02168",
-      "totalReceipts": 208448.87,
-      "totalDisbursments": 74738.17,
-      "cashOnHand": 133710.7,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 259927.3,
+      "totalDisbursments": 124165.76,
+      "cashOnHand": 135761.54,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -192,10 +219,10 @@
       "matchType": "name",
       "candidateCommitteeName": "LUX FOR MONTANA",
       "candidateId": "H6MT02143",
-      "totalReceipts": 8255.17,
-      "totalDisbursments": 7577.94,
-      "cashOnHand": 854.18,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 9610.76,
+      "totalDisbursments": 8845.02,
+      "cashOnHand": 942.69,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -218,7 +245,7 @@
     "hasResponses": true,
     "responses": [
       {
-        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,& which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
         "answer": "The Constitution is self-evident here; only Congress has the power to declare war.  Madison was very clear about his fear of standing armies in Federalist No. 41 and 47, and this stricture is embedded deep in the Constitution.  As the branch closest to the People, the war power is lodged with the Congress.  This is not accidental or trivial because the social, economic, and moral costs of war are always borne by the People.   But we have gotten way out of that mode since Vietnam.  The “military industrial complex” (and now the State of Israel) has hijacked our national government on matters of war.  The late Ozzy Osborne had a name for these people; he called them “warpigs”.  If I’m elected to Congress, I will make sure that we put Congress back in charge of any use of military force against any foreign nation, no matter how slight.  We need to “Trump-proof” our government on the use of military force, so that this never happens again.  In fact, I will not vote for one penny for the “Department of War” until all of our military stuff is out of the Middle East.\n\n"
       },
       {

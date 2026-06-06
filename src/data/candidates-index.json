@@ -36,7 +36,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 4
+    "numMTFParticles": 7
   },
   {
     "slug": "sam-lux",
@@ -101,7 +101,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 4
   },
   {
     "slug": "ray-curtis",
@@ -153,7 +153,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 3
   },
   {
     "slug": "michael-d-eisenhauer",
@@ -179,7 +179,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 3
   },
   {
     "slug": "matt-rains",
@@ -231,7 +231,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "kimberly-a-persico",
@@ -258,6 +258,19 @@
     "isIncumbent": false,
     "hasResponses": true,
     "numMTFParticles": 0
+  },
+  {
+    "slug": "jonathan-windy-boy",
+    "displayName": "Jonathan Windy Boy",
+    "lastName": "Boy",
+    "summaryLine": null,
+    "party": "D",
+    "raceSlug": "us-house-2",
+    "raceDisplayName": "U.S. House District 2 (East)",
+    "status": "active",
+    "isIncumbent": false,
+    "hasResponses": true,
+    "numMTFParticles": 5
   },
   {
     "slug": "joe-dooling",
@@ -309,7 +322,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": false,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "dan-wilson",
@@ -348,7 +361,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": false,
-    "numMTFParticles": 5
+    "numMTFParticles": 6
   },
   {
     "slug": "charles-walking-child",
@@ -374,7 +387,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 4
+    "numMTFParticles": 5
   },
   {
     "slug": "annie-bukacek",
@@ -387,7 +400,7 @@
     "status": "active",
     "isIncumbent": true,
     "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "angeline-cheek",
@@ -426,7 +439,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 3
   },
   {
     "slug": "al-doc-olszewski",
@@ -438,7 +451,7 @@
     "raceDisplayName": "U.S. House District 1 (West)",
     "status": "active",
     "isIncumbent": false,
-    "hasResponses": false,
+    "hasResponses": true,
     "numMTFParticles": 5
   },
   {

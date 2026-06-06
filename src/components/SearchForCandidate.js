@@ -34,7 +34,7 @@ const lookupStyle = css`
     input {
         margin: -1px;
         flex: 4 1 15rem;
-        height: 2em;
+        height: 2.5em;
         padding: 0.25em;
     }
 

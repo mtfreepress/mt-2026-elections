@@ -72,13 +72,35 @@ const CANDIDATE_FIELD_OVERRIDES = {
     'RICHARD GESSLING': {
         campaignWebsite: 'https://richard-gessling-4-montana.com/',
     },
+    'CHRIS GRAY': {
+        campaignWebsite: 'http://www.cgraymontana.com/',
+    },
+    'KATE MCLAUGHLIN' : {
+        campaignWebsite: 'https://mclaughlinformontana.com/',
+    },
+    'JANET ELLIS': {
+        campaignWebsite: 'https://janetellis4mt.com/',
+    },
+    'BENJAMIN KUIPER': {
+        campaignWebsite: 'https://www.benkuiperforlegislature.com/',
+    },
+    'JOHN MAXWELL' : {
+        campaignWebsite: 'https://www.maxwellforhouse.com/',
+    },
+    'MEGAN LANE': {
+        campaignWebsite: 'https://www.megan4montana.com',
+    }
 }
+
+const CANDIDATE_FIELD_OVERRIDES_CANONICAL = Object.fromEntries(
+    Object.entries(CANDIDATE_FIELD_OVERRIDES).map(([name, overrides]) => [canonicalizeName(name), overrides])
+)
 
 // Load manual exclusions shared with the major-race pipeline.
 // Excluded legislative candidates are treated as withdrawn so they don't
 // appear in opponents lists or active candidate counts.
-const excludedCandidatesYml = YAML.parse(fs.readFileSync('./inputs/content/excluded-candidates.yml', 'utf8'))
-const EXCLUDED_SLUGS = new Set((excludedCandidatesYml.excluded || []).map(e => e.slug))
+const excludedCandidatesYml = YAML.parse(fs.readFileSync('./inputs/content/excluded-candidates.yml', 'utf8')) || {}
+const EXCLUDED_SLUGS = new Set(((excludedCandidatesYml.excluded || [])).map(e => e.slug))
 
 // --- HELPERS ---
 
@@ -232,7 +254,7 @@ async function main() {
             const candidateSlug = urlize(name)
             const ymlCandidate = ymlBySlug.get(candidateSlug) || ymlByName.get(canonicalizeName(name))
             const isIncumbent = Boolean(ymlCandidate && ymlCandidate.isIncumbent)
-            const fieldOverrides = CANDIDATE_FIELD_OVERRIDES[name] || {}
+            const fieldOverrides = CANDIDATE_FIELD_OVERRIDES_CANONICAL[canonicalizeName(name)] || {}
 
             return {
                 raceSlug,

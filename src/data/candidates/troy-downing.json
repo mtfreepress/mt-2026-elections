@@ -36,6 +36,12 @@
       "party": "R"
     },
     {
+      "slug": "jonathan-windy-boy",
+      "displayName": "Jonathan Windy Boy",
+      "summaryLine": null,
+      "party": "D"
+    },
+    {
       "slug": "patrick-mccracken",
       "displayName": "Patrick McCracken",
       "summaryLine": null,
@@ -106,10 +112,10 @@
       "matchType": "name",
       "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
       "candidateId": "H4MT02098",
-      "totalReceipts": 1633759.13,
-      "totalDisbursments": 1299370.16,
-      "cashOnHand": 445919.47,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 1794757.26,
+      "totalDisbursments": 1512717.48,
+      "cashOnHand": 393570.28,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": true,
       "candidateStatus": "active"
     },
@@ -120,10 +126,10 @@
       "matchType": "name",
       "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
       "candidateId": "H6MT02168",
-      "totalReceipts": 208448.87,
-      "totalDisbursments": 74738.17,
-      "cashOnHand": 133710.7,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 259927.3,
+      "totalDisbursments": 124165.76,
+      "cashOnHand": 135761.54,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -148,10 +154,10 @@
       "matchType": "name",
       "candidateCommitteeName": "LUX FOR MONTANA",
       "candidateId": "H6MT02143",
-      "totalReceipts": 8255.17,
-      "totalDisbursments": 7577.94,
-      "cashOnHand": 854.18,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 9610.76,
+      "totalDisbursments": 8845.02,
+      "cashOnHand": 942.69,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -174,7 +180,7 @@
     "hasResponses": true,
     "responses": [
       {
-        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,& which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
         "answer": "Congress has a constitutional responsibility to declare war, and the War Powers Resolution of 1973 was intended to reinforce that role.\nThe Constitution also designates the President as Commander in Chief, with the authority to act swiftly to protect Americans and our interests. In recent situations, the President notified congressional leadership and acted within the framework that allows limited military engagement while Congress reviews the situation.\nIf operations extend into sustained combat, Congress must provide formal authorization or determine the appropriate course forward.\nThis balance ensures the President can respond to immediate threats while preserving Congress’s constitutional duty to oversee and authorize extended acts of war.\n\n"
       },
       {

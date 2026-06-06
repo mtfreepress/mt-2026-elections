@@ -42,7 +42,26 @@
       "party": "D"
     }
   ],
-  "coverage": [],
+  "coverage": [
+    {
+      "title": "In bounds, or out?",
+      "date": "2026-05-07T17:46:27",
+      "link": "https://montanafreepress.org/2026/05/07/in-bounds-or-out/",
+      "tags": [
+        "2026 elections",
+        "Annie Bukacek",
+        "David Sanders",
+        "homepage hidden",
+        "suppress"
+      ],
+      "categories": [
+        "Capitolized",
+        "No Republish"
+      ],
+      "featuredImage": "https://montanafreepress.org/capitolized/capitolized1200x675/",
+      "author": "Tom Lutey"
+    }
+  ],
   "finance": null,
   "questionnaire": {
     "hasResponses": true,

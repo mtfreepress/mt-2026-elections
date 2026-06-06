@@ -6,6 +6,11 @@ const yaml = require('js-yaml')
 const RAW_DIR = path.join('.', 'inputs', 'mtfp-questionnaire', 'raw-answers')
 const OUT_PATH = path.join('.', 'inputs', 'mtfp-questionnaire', 'copy-for-edit.yml')
 
+// Maps lowercase candidate name variants (as submitted) to their canonical form
+const CANDIDATE_NAME_OVERRIDES = {
+    'russ cleveland': 'Russell Cleveland',
+}
+
 const CANDIDATE_NAME_VARIANTS = [
     "What is the candidate's name as it will appear on the ballot?",
     "What is the candidate’s name as it will appear on the ballot?",
@@ -100,7 +105,8 @@ function isBioQuestion(header) {
 
 function processResponse(row) {
     const candidateKey = findCandidateKeyInRow(row)
-    const candidateName = candidateKey ? (row[candidateKey] || '').trim() : ''
+    const rawName = candidateKey ? (row[candidateKey] || '').trim() : ''
+    const candidateName = CANDIDATE_NAME_OVERRIDES[rawName.toLowerCase()] ?? rawName
     const nameSlug = generateNameSlug(candidateName)
 
     const allKeys = Object.keys(row)
@@ -111,11 +117,12 @@ function processResponse(row) {
         if (!k) continue
         if (candidateKey && k === candidateKey) continue
         if (isExcludedHeader(k)) continue
-        const response = (row[k] || '').toString().trim()
+        const question = k.replace(/&nbsp;/g, '& ')
+        const response = (row[k] || '').toString().trim().replace(/&nbsp;/g, '& ')
         if (isBioQuestion(k)) {
-            bioMaterial.push({ question: k, response: response + '\n\n' })
+            bioMaterial.push({ question, response: response + '\n\n' })
         } else {
-            questionnaireMaterial.push({ question: k, response: response + '\n\n' })
+            questionnaireMaterial.push({ question, response: response + '\n\n' })
         }
     }
 

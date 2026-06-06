@@ -16,7 +16,7 @@ You can register to vote by stopping by your county election office any time dur
 
 ### Can I register to vote on Election Day?
 
-Yes, but with some changes resulting from new laws passed by the 2025 Legislature. In the past, would-be voters could register up until 8 p.m. on Election Day. Now, thanks to [Senate Bill 490](https://projects.montanafreepress.org/capitol-tracker-2025/bills/sb-490/), qualified citizens can register to vote only between 8 a.m. and noon on Election Day. Other late-registration changes to be aware of: You can no longer register to vote on the Monday before Election Day, and you can now register to vote up until 5 p.m. on the Saturday before Election Day
+Yes. The 2025 Legislature tried to restrict Election Day voter registration, but a May 11 court order blocked those changes, so, at least through the June 2 primary election, voters can still register to vote up until 8 p.m. on Election Day. 
 
 ### Does Montana have voter ID requirements?
 

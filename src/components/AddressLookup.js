@@ -179,7 +179,7 @@ const lookupStyle = css`
     input {
         margin: -1px;
         width: 100%;
-        height: 2em;
+        height: 2.7em;
         padding: 0.25em;
     }
 
@@ -239,6 +239,7 @@ const buttonStyle = css`
     text-align: center;
     padding: 0.5em 1em;
     width: 120px;
+    height: 2.7em;
     display: inline-flex;
     align-items: center;
     justify-content: center;

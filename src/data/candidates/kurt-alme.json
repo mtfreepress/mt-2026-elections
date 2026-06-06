@@ -86,6 +86,28 @@
   ],
   "coverage": [
     {
+      "title": "In Senate race, underfunded Democrats try to fend off a challenge from the middle",
+      "date": "2026-05-08T17:17:24",
+      "link": "https://montanafreepress.org/2026/05/08/in-senate-race-underfunded-democrats-try-to-fend-off-a-challenge/",
+      "tags": [
+        "2026 elections",
+        "Alani Banhead",
+        "Christopher Keho",
+        "ElectionDev",
+        "Jon Tester",
+        "Kurt Alme",
+        "Michael Black Wolf",
+        "Michael Hummert",
+        "REILLY NEILL",
+        "seth bodnar"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/2026/05/08/in-senate-race-underfunded-democrats-try-to-fend-off-a-challenge/2026-senate-dem-primary-1200x800_720/",
+      "author": "Tom Lutey"
+    },
+    {
       "title": "Republican, independent candidates outraise Democrats in federal races",
       "date": "2026-04-17T15:44:02",
       "link": "https://montanafreepress.org/2026/04/17/republican-independent-candidates-outraise-democrats-in-federal-races/",
@@ -120,10 +142,10 @@
       "matchType": "name",
       "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
       "candidateId": "S6MT00287",
-      "totalReceipts": 1358574.95,
-      "totalDisbursments": 213586.76,
-      "cashOnHand": 1144988.19,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 2113231.28,
+      "totalDisbursments": 1149309.96,
+      "cashOnHand": 963921.32,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -134,10 +156,10 @@
       "matchType": "name",
       "candidateCommitteeName": "ALME FOR SENATE",
       "candidateId": "S6MT00295",
-      "totalReceipts": 924643.51,
-      "totalDisbursments": 15686.66,
-      "cashOnHand": 908956.85,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 1184127.39,
+      "totalDisbursments": 261874.72,
+      "cashOnHand": 922252.67,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": true,
       "candidateStatus": "active"
     },
@@ -148,10 +170,10 @@
       "matchType": "override-id",
       "candidateCommitteeName": "REILLY FOR MONTANA",
       "candidateId": "S6MT00238",
-      "totalReceipts": 277088.5,
-      "totalDisbursments": 173150.14,
-      "cashOnHand": 103938.36,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 293990,
+      "totalDisbursments": 220637.41,
+      "cashOnHand": 73352.59,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -163,9 +185,9 @@
       "candidateCommitteeName": "AUSTIN FOR CONGRESS",
       "candidateId": "S6MT00261",
       "totalReceipts": 262094.97,
-      "totalDisbursments": 226081.96,
-      "cashOnHand": 36013.01,
-      "coverageEndDate": "2026-03-31",
+      "totalDisbursments": 233572.46,
+      "cashOnHand": 28522.51,
+      "coverageEndDate": "2026-05-20",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -176,10 +198,10 @@
       "matchType": "name-first-last",
       "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
       "candidateId": "S6MT00253",
-      "totalReceipts": 15240.06,
-      "totalDisbursments": 5775,
-      "cashOnHand": 10625.06,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 23884.15,
+      "totalDisbursments": 11306.73,
+      "cashOnHand": 13737.42,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -190,10 +212,10 @@
       "matchType": "name",
       "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
       "candidateId": "S4MT00217",
-      "totalReceipts": 10900,
-      "totalDisbursments": 3125,
-      "cashOnHand": 8519.73,
-      "coverageEndDate": "2026-03-31",
+      "totalReceipts": 12230,
+      "totalDisbursments": 3191.98,
+      "cashOnHand": 9782.75,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -204,10 +226,10 @@
       "matchType": "name",
       "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
       "candidateId": "S6MT00303",
-      "totalReceipts": 0,
-      "totalDisbursments": 0,
-      "cashOnHand": 0,
-      "coverageEndDate": null,
+      "totalReceipts": 1000.03,
+      "totalDisbursments": 80,
+      "cashOnHand": 920.03,
+      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -230,7 +252,7 @@
     "hasResponses": true,
     "responses": [
       {
-        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973, which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+        "question": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,& which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
         "answer": "The Constitution is very clear: Congress holds the power to formally declare war. We must take that solemn responsibility seriously.\n\nThe War Powers Resolution of 1973 aimed to establish guardrails and provide a framework for accountability. Unfortunately, it’s been inconsistently enforced by both parties for decades. Congress must consistently enforce its constitutional role. \n\nThe most solemn duty of our government is to keep us safe. We must ensure our commanders-in-chief can take quick, decisive action to protect Americans and defend our freedoms. It’s dangerous to tie our commander-in-chief and troops’ hands behind their backs. Especially when Americans are being targeted by adversaries and threats, and the world’s largest state sponsor of terror is trying to get its hands on nuclear weapons. \n\nOur military is a completely voluntary service. The brave men and women of our armed forces sign up to put their lives on the line in service to our great nation. We owe these Americans a debt of gratitude for their commitment and sacrifice. \n\nSending Americans into harm’s way is one of the most serious decisions our government makes. Montanans, and all Americans, deserve transparency, accountability, and a clear voice through their elected representatives. As Senator, I will work to ensure Montanans’ voices are heard loud and clear.\n\n"
       },
       {
