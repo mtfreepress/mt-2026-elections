@@ -151,6 +151,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                         results={primaryResults}
                         primaryParty={party} // null for general elex results
                         title={`June 2 primary`}
+                        raceSlug={raceSlug}
                     />
                         : <p>No party primary was conducted.</p>
                 }

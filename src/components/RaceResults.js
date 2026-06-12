@@ -149,7 +149,8 @@ const style = css`
 `
 
 const RaceResults = props => {
-    const { title, primaryParty, results } = props
+    const { title, primaryParty, results, raceSlug } = props
+    const topTwoRace = raceSlug === 'supco-4'
     const timestamp = results.reportingTime
     const primaryPartyLabel = primaryParty ? PARTIES_BY_KEY.get(primaryParty).adjective : null
 
@@ -166,10 +167,11 @@ const RaceResults = props => {
             <tbody>{
                 results.resultsTotal
                     .sort((a, b) => b.votes - a.votes)
-                    .map((d, i) => <Row key={String(i)} {...d} />)
+                    .map((d, i) => <Row key={String(i)} {...d} isWinner={topTwoRace ? true : d.isWinner} />)
             }</tbody>
         </table>
         <div className="date">Count reported by Montana secretary of state as of {formatDate(new Date(timestamp))}.</div>
+        {topTwoRace && <div className="date">Top two candidates by vote share advance to general election.</div>}
     </div>
 }
 
