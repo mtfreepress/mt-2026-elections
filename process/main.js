@@ -79,7 +79,7 @@ const coverage = getJson('./inputs/coverage/articles.json')
 const howToVoteContent = getMD('./inputs/content/how-to-vote.md')
 const federalCampaignFinance = getJson('./inputs/fec/finance.json')
 // TODO: Update for 2026 cycle
-const primaryResults = getJson('./inputs/results/cleaned/2024-primary-statewide.json')
+const primaryResults = getJson('./inputs/results/cleaned/2026-primary-statewide.json')
 
 
 // const questionnaires = getJson('./inputs/mtfp-questionnaire/dummy-answers.json')

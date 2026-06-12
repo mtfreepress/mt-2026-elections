@@ -9,8 +9,8 @@ const writeJson = (path, data) => {
 }
 
 // TODO: Update paths
-const PATH_STATEWIDE = './inputs/results/raw/2024_06_10_primary-statewide.xlsx'
-const PATH_LEGISLATIVE = './inputs/results/raw/2024_06_10_primary-legislative.xlsx'
+const PATH_STATEWIDE = './inputs/results/raw/2026_06_12_primary-statewide.xlsx'
+const PATH_LEGISLATIVE = './inputs/results/raw/2026_06_12_primary-legislative.xlsx'
 // TODO: Update races
 const STATEWIDE_RACES_TO_INCLUDE = {
     'UNITED STATES SENATOR': 'us-senate',
@@ -85,7 +85,7 @@ async function main() {
     statewide.forEach(d => {
         d.race = STATEWIDE_RACES_TO_INCLUDE[d.race]
     })
-    writeJson('./inputs/results/cleaned/2024-primary-statewide.json', statewide)
+    writeJson('./inputs/results/cleaned/2026-primary-statewide.json', statewide)
 
     const legislativeSheets = await readXlsxFile(PATH_LEGISLATIVE)
     const legislative = legislativeSheets
@@ -96,7 +96,7 @@ async function main() {
             .replace('STATE REPRESENTATIVE DISTRICT ', 'HD-')
             .replace('STATE SENATOR DISTRICT ', 'SD-')
     })
-    writeJson('./inputs/results/cleaned/2024-primary-legislative.json', legislative)
+    writeJson('./inputs/results/cleaned/2026-primary-legislative.json', legislative)
 }
 
 main().catch(console.error)
