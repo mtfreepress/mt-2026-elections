@@ -129,15 +129,15 @@
           "candidate_name": "KEHOE, CHRISTOPHER",
           "candidate_pcc_id": "C00943530",
           "candidate_pcc_name": "CHRISTOPHER KEHOE FOR SENATE LLC",
-          "cash_on_hand_end_period": 920.03,
+          "cash_on_hand_end_period": 920.05,
           "committee_ids": [
             "C00943530"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-09",
           "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 80,
-          "total_receipts": 1000.03
+          "total_receipts": 1000.05
         },
         {
           "candidate_election_year": 2026,
@@ -242,13 +242,14 @@
           "candidate_pcc_name": "FLINT FOR MONTANA",
           "cash_on_hand_end_period": 384673.66,
           "committee_ids": [
-            "C00941575"
+            "C00941575",
+            "C00941963"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-10",
           "incumbent_challenge_full": "Open seat",
           "party_full": "REPUBLICAN PARTY",
-          "total_disbursements": 292415.38,
-          "total_receipts": 677089.04
+          "total_disbursements": 299577.16,
+          "total_receipts": 684250.82
         },
         {
           "candidate_election_year": 2026,
@@ -367,15 +368,15 @@
           "candidate_name": "MILLER, BRIAN JAMES",
           "candidate_pcc_id": "C00922831",
           "candidate_pcc_name": "MILLER FOR CONGRESS",
-          "cash_on_hand_end_period": 1820.79,
+          "cash_on_hand_end_period": 5600.09,
           "committee_ids": [
             "C00922831"
           ],
-          "coverage_end_date": "2026-03-31",
+          "coverage_end_date": "2026-05-13",
           "incumbent_challenge_full": "Challenger",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 9389.55,
-          "total_receipts": 15220.25
+          "total_disbursements": 9404.93,
+          "total_receipts": 16195.25
         },
         {
           "candidate_election_year": 2026,

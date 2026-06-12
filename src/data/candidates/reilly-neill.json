@@ -86,6 +86,25 @@
   ],
   "coverage": [
     {
+      "title": "What the June 2 primary results tell us about politics in Montana",
+      "date": "2026-06-05T16:27:26",
+      "link": "https://montanafreepress.org/2026/06/05/5-takeaways-montana-primary-election/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Alani Bankhead",
+        "Donald Trump",
+        "Kurt Alme",
+        "REILLY NEILL",
+        "Sam Forstag"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260602lm-primarymorning-0014-jpg/",
+      "author": "Stephanie Farmer"
+    },
+    {
       "title": "The Sheehy-supporting PAC trying to define Montana’s Democratic Senate candidates ",
       "date": "2026-05-26T14:52:42",
       "link": "https://montanafreepress.org/2026/05/26/the-sheehy-supporting-pac-trying-to-define-montanas-democratic-senate-candidates/",
@@ -264,10 +283,10 @@
       "matchType": "name",
       "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
       "candidateId": "S6MT00303",
-      "totalReceipts": 1000.03,
+      "totalReceipts": 1000.05,
       "totalDisbursments": 80,
-      "cashOnHand": 920.03,
-      "coverageEndDate": "2026-05-13",
+      "cashOnHand": 920.05,
+      "coverageEndDate": "2026-06-09",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },

@@ -80,6 +80,25 @@
   ],
   "coverage": [
     {
+      "title": "What the June 2 primary results tell us about politics in Montana",
+      "date": "2026-06-05T16:27:26",
+      "link": "https://montanafreepress.org/2026/06/05/5-takeaways-montana-primary-election/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Alani Bankhead",
+        "Donald Trump",
+        "Kurt Alme",
+        "REILLY NEILL",
+        "Sam Forstag"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260602lm-primarymorning-0014-jpg/",
+      "author": "Stephanie Farmer"
+    },
+    {
       "title": "Four brands of Democrat make their case in Montana’s western congressional primary",
       "date": "2026-04-27T07:00:00",
       "link": "https://montanafreepress.org/2026/04/27/four-brands-of-democrat-make-their-case-in-montanas-western-congressional-primary/",
@@ -172,10 +191,10 @@
       "matchType": "name",
       "candidateCommitteeName": "FLINT FOR MONTANA",
       "candidateId": "H6MT01152",
-      "totalReceipts": 677089.04,
-      "totalDisbursments": 292415.38,
+      "totalReceipts": 684250.82,
+      "totalDisbursments": 299577.16,
       "cashOnHand": 384673.66,
-      "coverageEndDate": "2026-05-13",
+      "coverageEndDate": "2026-06-10",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },

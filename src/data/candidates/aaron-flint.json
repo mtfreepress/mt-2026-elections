@@ -80,6 +80,25 @@
   ],
   "coverage": [
     {
+      "title": "What the June 2 primary results tell us about politics in Montana",
+      "date": "2026-06-05T16:27:26",
+      "link": "https://montanafreepress.org/2026/06/05/5-takeaways-montana-primary-election/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Alani Bankhead",
+        "Donald Trump",
+        "Kurt Alme",
+        "REILLY NEILL",
+        "Sam Forstag"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260602lm-primarymorning-0014-jpg/",
+      "author": "Stephanie Farmer"
+    },
+    {
       "title": "GOP congressional candidates Aaron Flint and Al Olszewski face off in Bozeman",
       "date": "2026-04-21T22:35:28",
       "link": "https://montanafreepress.org/2026/04/21/gop-congressional-candidates-aaron-flint-and-al-olszewski-face-off-in-bozeman/",
@@ -116,7 +135,7 @@
       "categories": [
         "2026 elections"
       ],
-      "featuredImage": "https://montanafreepress.org/20260413ap-westernrepubs-0004-jpg/",
+      "featuredImage": "https://montanafreepress.org/2026/04/17/can-montanas-most-popular-republican-microtarget-her-way-to-congress/untitled-design-3-15/",
       "author": "Tom Lutey"
     },
     {
@@ -182,10 +201,10 @@
       "matchType": "name",
       "candidateCommitteeName": "FLINT FOR MONTANA",
       "candidateId": "H6MT01152",
-      "totalReceipts": 677089.04,
-      "totalDisbursments": 292415.38,
+      "totalReceipts": 684250.82,
+      "totalDisbursments": 299577.16,
       "cashOnHand": 384673.66,
-      "coverageEndDate": "2026-05-13",
+      "coverageEndDate": "2026-06-10",
       "isThisCandidate": true,
       "candidateStatus": "active"
     },

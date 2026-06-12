@@ -32,7 +32,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 3,
+        "numMTFParticles": 4,
         "raceSlug": "us-senate"
       },
       {
@@ -50,7 +50,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 4,
+        "numMTFParticles": 5,
         "raceSlug": "us-senate"
       },
       {
@@ -86,7 +86,7 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 2,
+        "numMTFParticles": 3,
         "raceSlug": "us-senate"
       },
       {
@@ -188,10 +188,10 @@
         "matchType": "name",
         "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
         "candidateId": "S6MT00303",
-        "totalReceipts": 1000.03,
+        "totalReceipts": 1000.05,
         "totalDisbursments": 80,
-        "cashOnHand": 920.03,
-        "coverageEndDate": "2026-05-13"
+        "cashOnHand": 920.05,
+        "coverageEndDate": "2026-06-09"
       },
       {
         "displayName": "Tom Jandron",
@@ -250,7 +250,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 3,
+        "numMTFParticles": 4,
         "raceSlug": "us-house-1"
       },
       {
@@ -268,7 +268,7 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 4,
+        "numMTFParticles": 5,
         "raceSlug": "us-house-1"
       },
       {
@@ -328,10 +328,10 @@
         "matchType": "name",
         "candidateCommitteeName": "FLINT FOR MONTANA",
         "candidateId": "H6MT01152",
-        "totalReceipts": 677089.04,
-        "totalDisbursments": 292415.38,
+        "totalReceipts": 684250.82,
+        "totalDisbursments": 299577.16,
         "cashOnHand": 384673.66,
-        "coverageEndDate": "2026-05-13"
+        "coverageEndDate": "2026-06-10"
       },
       {
         "displayName": "Christi Jacobsen",
@@ -480,10 +480,10 @@
         "matchType": "name-first-last",
         "candidateCommitteeName": "MILLER FOR CONGRESS",
         "candidateId": "H6MT02150",
-        "totalReceipts": 15220.25,
-        "totalDisbursments": 9389.55,
-        "cashOnHand": 1820.79,
-        "coverageEndDate": "2026-03-31"
+        "totalReceipts": 16195.25,
+        "totalDisbursments": 9404.93,
+        "cashOnHand": 5600.09,
+        "coverageEndDate": "2026-05-13"
       },
       {
         "displayName": "Sam Lux",
