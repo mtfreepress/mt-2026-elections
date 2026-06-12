@@ -61,6 +61,9 @@ const style = css`
         align-items: center;
         gap: 0.5em;
     }
+    thead .result-row-bar {
+        justify-content: flex-end;
+    }
     .result-row-bar svg {
         flex: 1 1 auto;
         min-width: 0;
@@ -70,6 +73,8 @@ const style = css`
         white-space: nowrap;
         color: var(--gray4);
         font-weight: normal;
+        min-width: 3.8em;
+        text-align: right;
     }
     .date {
         font-style: italic;
@@ -99,18 +104,37 @@ const style = css`
             flex-wrap: wrap;
             padding-left: 0.8em;
         }
+        thead .result-row {
+            min-height: auto;
+            font-size: 18px;
+            flex-wrap: nowrap;
+            padding-left: 0;
+        }
         .result-row-name {
             flex: 0 0 100%;
             margin-bottom: 0.6em;
             padding-left: 0;
         }
+        thead .result-row-name {
+            flex: 0 0 9em;
+            margin-bottom: 0;
+        }
         .result-row-percent {
             flex: 0 0 auto;
             margin-right: 0.5em;
         }
+        thead .result-row-percent {
+            margin-right: 0;
+            text-align: left;
+        }
         .result-row-bar {
             flex: 1 1 auto;
             width: calc(100% - 0.8em);
+        }
+        thead .result-row-bar {
+            width: auto;
+            justify-content: flex-end;
+            padding-right: 0.4em;
         }
         .winner-icon {
             padding: 0.4em 0.7em;
@@ -119,6 +143,7 @@ const style = css`
         }
         .result-percent-label {
             font-size: 21px;
+            padding-right: 0.3em;
         }
     }
 `
@@ -150,7 +175,7 @@ const RaceResults = props => {
 
 export default RaceResults
 
-const BAR_RANGE = 200
+const BAR_RANGE = 100
 const Row = ({ candidate, votes, votePercent, isWinner, party }) => {
     const partyInfo = PARTIES_BY_KEY.get(party)
     const barWidth = votePercent * BAR_RANGE
@@ -164,7 +189,7 @@ const Row = ({ candidate, votes, votePercent, isWinner, party }) => {
             {candidate}
         </td>
         <td className="result-row-percent">{numberFormat(votes)}</td>
-        <td className="result-row-bar"><svg width="100%" height={50} viewBox={`0 0 ${BAR_RANGE + 20} 50`} preserveAspectRatio="xMinYMid meet">
+        <td className="result-row-bar"><svg width="100%" height={50} viewBox={`0 0 ${BAR_RANGE} 50`} preserveAspectRatio="none">
             <rect fill={partyInfo.color} x={0} y={5} height={40} width={barWidth} />
         </svg>
         <span className="result-percent-label">{percentFormat(votePercent)}</span></td>
