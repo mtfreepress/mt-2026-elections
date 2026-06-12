@@ -1,0 +1,331 @@
+[
+  {
+    "race": "us-senate",
+    "party": "R",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "KURT ALME",
+        "party": "R",
+        "votes": 128706,
+        "isWinner": true,
+        "votePercent": 0.7613622247067383
+      },
+      {
+        "candidate": "LEE CALHOUN",
+        "party": "R",
+        "votes": 23870,
+        "isWinner": false,
+        "votePercent": 0.14120333398403995
+      },
+      {
+        "candidate": "CHARLES WALKING CHILD",
+        "party": "R",
+        "votes": 16471,
+        "isWinner": false,
+        "votePercent": 0.0974344413092217
+      }
+    ]
+  },
+  {
+    "race": "us-senate",
+    "party": "D",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "ALANI BANKHEAD",
+        "party": "D",
+        "votes": 48772,
+        "isWinner": true,
+        "votePercent": 0.4364736309859407
+      },
+      {
+        "candidate": "REILLY NEILL",
+        "party": "D",
+        "votes": 36880,
+        "isWinner": false,
+        "votePercent": 0.3300489524883436
+      },
+      {
+        "candidate": "MICHAEL BLACK WOLF",
+        "party": "D",
+        "votes": 14676,
+        "isWinner": false,
+        "votePercent": 0.13133943673315973
+      },
+      {
+        "candidate": "CHRISTOPHER KEHOE",
+        "party": "D",
+        "votes": 7108,
+        "isWinner": false,
+        "votePercent": 0.06361138704683152
+      },
+      {
+        "candidate": "MICHAEL HUMMERT",
+        "party": "D",
+        "votes": 4305,
+        "isWinner": false,
+        "votePercent": 0.03852659274572449
+      }
+    ]
+  },
+  {
+    "race": "us-senate",
+    "party": "L",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "KYLE AUSTIN",
+        "party": "L",
+        "votes": 1819,
+        "isWinner": true,
+        "votePercent": 0.5332746995016124
+      },
+      {
+        "candidate": "TOM JANDRON",
+        "party": "L",
+        "votes": 1592,
+        "isWinner": false,
+        "votePercent": 0.46672530049838756
+      }
+    ]
+  },
+  {
+    "race": "us-house-1",
+    "party": "R",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "AARON FLINT",
+        "party": "R",
+        "votes": 41170,
+        "isWinner": true,
+        "votePercent": 0.5008211179368651
+      },
+      {
+        "candidate": "CHRISTI JACOBSEN",
+        "party": "R",
+        "votes": 18873,
+        "isWinner": false,
+        "votePercent": 0.2295845751474971
+      },
+      {
+        "candidate": "AL DOC OLSZEWSKI",
+        "party": "R",
+        "votes": 16685,
+        "isWinner": false,
+        "votePercent": 0.20296818928289034
+      },
+      {
+        "candidate": "RAY CURTIS",
+        "party": "R",
+        "votes": 5477,
+        "isWinner": false,
+        "votePercent": 0.0666261176327474
+      }
+    ]
+  },
+  {
+    "race": "us-house-1",
+    "party": "D",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "SAM FORSTAG",
+        "party": "D",
+        "votes": 26276,
+        "isWinner": true,
+        "votePercent": 0.374158087345323
+      },
+      {
+        "candidate": "RYAN BUSSE",
+        "party": "D",
+        "votes": 23196,
+        "isWinner": false,
+        "votePercent": 0.3303003118458712
+      },
+      {
+        "candidate": "RUSSELL CLEVELAND",
+        "party": "D",
+        "votes": 15237,
+        "isWinner": false,
+        "votePercent": 0.2169678328847879
+      },
+      {
+        "candidate": "MATT RAINS",
+        "party": "D",
+        "votes": 5518,
+        "isWinner": false,
+        "votePercent": 0.07857376792401782
+      }
+    ]
+  },
+  {
+    "race": "us-house-1",
+    "party": "L",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "NICK SHEEDY",
+        "party": "L",
+        "votes": 1202,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ]
+  },
+  {
+    "race": "us-house-2",
+    "party": "R",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "TROY DOWNING",
+        "party": "R",
+        "votes": 82075,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ]
+  },
+  {
+    "race": "us-house-2",
+    "party": "D",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "BRIAN J MILLER",
+        "party": "D",
+        "votes": 24033,
+        "isWinner": true,
+        "votePercent": 0.555342453091783
+      },
+      {
+        "candidate": "SAM LUX",
+        "party": "D",
+        "votes": 11759,
+        "isWinner": false,
+        "votePercent": 0.2717210463074221
+      },
+      {
+        "candidate": "JONATHAN WINDY BOY",
+        "party": "D",
+        "votes": 7484,
+        "isWinner": false,
+        "votePercent": 0.1729365006007949
+      }
+    ]
+  },
+  {
+    "race": "us-house-2",
+    "party": "L",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "PATRICK MCCRACKEN",
+        "party": "L",
+        "votes": 1844,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ]
+  },
+  {
+    "race": "psc-1",
+    "party": "R",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "JEFF PATTISON",
+        "party": "R",
+        "votes": 22070,
+        "isWinner": true,
+        "votePercent": 0.6658822109582428
+      },
+      {
+        "candidate": "JEREMY TREBAS",
+        "party": "R",
+        "votes": 11074,
+        "isWinner": false,
+        "votePercent": 0.3341177890417572
+      }
+    ]
+  },
+  {
+    "race": "psc-1",
+    "party": "D",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "ANGELINE CHEEK",
+        "party": "D",
+        "votes": 12294,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ]
+  },
+  {
+    "race": "psc-5",
+    "party": "R",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "ANNIE BUKACEK",
+        "party": "R",
+        "votes": 10924,
+        "isWinner": true,
+        "votePercent": 0.35527513984649406
+      },
+      {
+        "candidate": "JOE DOOLING",
+        "party": "R",
+        "votes": 10149,
+        "isWinner": false,
+        "votePercent": 0.3300702484714453
+      },
+      {
+        "candidate": "DAVID SANDERS",
+        "party": "R",
+        "votes": 9675,
+        "isWinner": false,
+        "votePercent": 0.3146546116820606
+      }
+    ]
+  },
+  {
+    "race": "psc-5",
+    "party": "D",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "KEVIN HAMM",
+        "party": "D",
+        "votes": 22014,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ]
+  },
+  {
+    "race": "supco-4",
+    "party": "NP",
+    "reportingTime": "6/12/2026 10:57:30 AM",
+    "resultsTotal": [
+      {
+        "candidate": "AMY EDDY",
+        "party": "NP",
+        "votes": 140045,
+        "isWinner": true,
+        "votePercent": 0.514009601550342
+      },
+      {
+        "candidate": "DAN WILSON",
+        "party": "NP",
+        "votes": 132411,
+        "isWinner": false,
+        "votePercent": 0.4859903984496579
+      }
+    ]
+  }
+]
