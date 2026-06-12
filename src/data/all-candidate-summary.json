@@ -12,6 +12,18 @@
     "cap_tracker_2025_link": null
   },
   {
+    "slug": "seth-bodnar",
+    "path": "candidates",
+    "displayName": "Seth Bodnar",
+    "summaryLine": null,
+    "race": "U.S. Senate",
+    "party": "I",
+    "status": "active",
+    "hasResponses": true,
+    "numMTFParticles": 7,
+    "cap_tracker_2025_link": null
+  },
+  {
     "slug": "sam-forstag",
     "path": "candidates",
     "displayName": "Sam Forstag",
@@ -48,6 +60,18 @@
     "cap_tracker_2025_link": null
   },
   {
+    "slug": "michael-d-eisenhauer",
+    "path": "candidates",
+    "displayName": "Michael D Eisenhauer",
+    "summaryLine": null,
+    "race": "U.S. House District 2 (East)",
+    "party": "I",
+    "status": "active",
+    "hasResponses": true,
+    "numMTFParticles": 1,
+    "cap_tracker_2025_link": null
+  },
+  {
     "slug": "kyle-austin",
     "path": "candidates",
     "displayName": "Kyle Austin",
@@ -69,6 +93,18 @@
     "status": "active",
     "hasResponses": true,
     "numMTFParticles": 3,
+    "cap_tracker_2025_link": null
+  },
+  {
+    "slug": "kimberly-a-persico",
+    "path": "candidates",
+    "displayName": "Kimberly A  Persico",
+    "summaryLine": null,
+    "race": "U.S. House District 1 (West)",
+    "party": "I",
+    "status": "active",
+    "hasResponses": true,
+    "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
   {

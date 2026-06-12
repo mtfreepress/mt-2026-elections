@@ -158,7 +158,7 @@ export default function CandidatePageOpponents({
 }) {
     return <div css={opponentsContainerStyle}>
         <h4>Active candidates for {raceDisplayName}</h4>
-        <div className="note">Republican, Democratic, and Libertarian general election nominees will be selected via the June 2, 2026, primary election. Independent candidates are currently gathering signatures in an attempt to qualify for the general election ballot. Independent candidates do not participate in primary elections. </div>
+        <div className="note">Republican, Democratic, and Libertarian general election nominees were selected via the June 2, 2026, primary election. Independent candidates have submitted petition signatures in an attempt to qualify for the general election ballot. The secretary of state’s office certifies or denies independent candidacies for the November general election ballot this summer. </div>
         {(() => {
             const activeBuckets = PARTIES.filter(party => opponents.some(d => d.party === party.key))
             const isSingleParty = activeBuckets.length === 1
