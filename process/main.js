@@ -52,7 +52,6 @@ const SLUG_ALIASES = {
     'michael-d-eisenhauer': ['michael-eisenhauer'],
 }
 
-// Normalize party codes so the site components can consistently bucket parties
 const normalizeParty = (p) => {
     if (p === null || p === undefined) return p
     const up = String(p).trim().toUpperCase()
@@ -65,6 +64,23 @@ const normalizeParty = (p) => {
     return up
 }
 
+const normalizeNameForMatching = (name) => {
+    if (!name) return ''
+
+    const raw = String(name).toLowerCase().trim()
+    const reordered = raw.includes(',')
+        ? `${raw.split(',').slice(1).join(' ')} ${raw.split(',')[0]}`
+        : raw
+
+    return reordered
+        .replace(/-/g, ' ')
+        .replace(/[.'"]/g, ' ')
+        .replace(/\b(jr|sr|mr|mrs|ms|dr|ii|iii|iv)\b/g, ' ')
+        .replace(/[^a-z0-9\s]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+}
+
 const candidates = collectYmls('./inputs/content/candidates/*.yml')
     .filter(c => raceCandidateSlugs.has(c.slug))
     .map(c => ({
@@ -73,7 +89,6 @@ const candidates = collectYmls('./inputs/content/candidates/*.yml')
         lastName: LAST_NAME_BY_SLUG_OVERRIDE[c.lastName] || c.lastName,
         party: normalizeParty(c.party),
     }))
-console.log(candidates)
 const ballotInitiatives = getYml('./inputs/content/ballot-initiatives.yml')
 const coverage = getJson('./inputs/coverage/articles.json')
 const howToVoteContent = getMD('./inputs/content/how-to-vote.md')
@@ -81,6 +96,86 @@ const federalCampaignFinance = getJson('./inputs/fec/finance.json')
 // TODO: Update for 2026 cycle
 const primaryResults = getJson('./inputs/results/cleaned/2026-primary-statewide.json')
 
+// Primary advancement rules:
+// - default: use `isWinner` from results feed
+// - race overrides: support non-standard advancement (e.g. top 2 advance)
+// - excludedRaces: skip races entirely from winner filtering
+const PRIMARY_ADVANCEMENT_RULES = {
+    excludedRaces: new Set([]),
+    raceRules: {
+        'supco-4': { mode: 'topN', count: 2 },
+    },
+}
+
+// Helper function to extract primary winner names from primary results
+const getPrimaryWinnersNames = () => {
+    const winnerNames = new Set()
+
+    primaryResults.forEach(result => {
+        if (PRIMARY_ADVANCEMENT_RULES.excludedRaces.has(result.race)) {
+            return
+        }
+
+        if (!Array.isArray(result.resultsTotal)) {
+            return
+        }
+
+        const raceRule = PRIMARY_ADVANCEMENT_RULES.raceRules[result.race] || { mode: 'isWinner' }
+        let advancingCandidates = []
+
+        if (raceRule.mode === 'topN') {
+            const count = Math.max(0, Number(raceRule.count) || 0)
+            advancingCandidates = [...result.resultsTotal]
+                .sort((a, b) => (Number(b.votes) || 0) - (Number(a.votes) || 0))
+                .slice(0, count)
+        } else {
+            advancingCandidates = result.resultsTotal.filter(candidate => candidate.isWinner)
+        }
+
+        advancingCandidates.forEach(candidate => {
+            winnerNames.add(normalizeNameForMatching(candidate.candidate))
+        })
+
+        if (raceRule.mode !== 'isWinner') {
+            console.log(`Applied primary advancement rule for ${result.race}:`, raceRule)
+        }
+    })
+
+    return winnerNames
+}
+
+// Build race/party lookup to determine whether a candidate had a primary.
+const raceSlugByCandidateSlug = new Map()
+races.forEach(race => {
+    ;(race.candidates || []).forEach(candidateSlug => {
+        raceSlugByCandidateSlug.set(candidateSlug, race.raceSlug)
+    })
+})
+
+const primaryRacePartyKeys = new Set(primaryResults.map(result => `${result.race}::${normalizeParty(result.party)}`))
+
+// Keep primary winners where primaries were held; keep all candidates in
+// race/party combinations that had no primary (e.g., many independents).
+const primaryWinnerNames = getPrimaryWinnersNames()
+const candidatesFilteredByPrimary = candidates.filter(candidate => {
+    const raceSlug = raceSlugByCandidateSlug.get(candidate.slug)
+    if (!raceSlug) {
+        console.warn(`No race mapping found for candidate ${candidate.slug} — keeping candidate`)
+        return true
+    }
+
+    const racePartyKey = `${raceSlug}::${candidate.party}`
+    if (!primaryRacePartyKeys.has(racePartyKey)) {
+        return true
+    }
+
+    const candidateNameKey = normalizeNameForMatching(candidate.displayName)
+    return primaryWinnerNames.has(candidateNameKey)
+})
+const remainingCandidateSlugs = new Set(candidatesFilteredByPrimary.map(c => c.slug))
+
+console.log(`Filtered from ${candidates.length} to ${candidatesFilteredByPrimary.length} remaining candidates`)
+console.log(candidatesFilteredByPrimary)
 
 // const questionnaires = getJson('./inputs/mtfp-questionnaire/dummy-answers.json')
 const questionnaires = getYml('./inputs/mtfp-questionnaire/copy-edited-answers.yml')
@@ -123,23 +218,6 @@ const FIRST_NAME_ALIASES = {
     thomas: ['tom'],
 }
 
-const normalizeNameForMatching = (name) => {
-    if (!name) return ''
-
-    const raw = String(name).toLowerCase().trim()
-    const reordered = raw.includes(',')
-        ? `${raw.split(',').slice(1).join(' ')} ${raw.split(',')[0]}`
-        : raw
-
-    return reordered
-        .replace(/-/g, ' ')
-        .replace(/[.'"]/g, ' ')
-        .replace(/\b(jr|sr|mr|mrs|ms|dr|ii|iii|iv)\b/g, ' ')
-        .replace(/[^a-z0-9\s]/g, ' ')
-        .replace(/\s+/g, ' ')
-        .trim()
-}
-
 const getNameMatchKeysForCandidate = (candidate) => {
     const keys = new Set()
     const displayNameKey = normalizeNameForMatching(candidate.displayName)
@@ -160,7 +238,9 @@ const getNameMatchKeysForCandidate = (candidate) => {
 // Sort coverage array once rather than on every candidate iteration (avoids repeated mutation)
 const sortedCoverage = [...coverage].sort((a, b) => new Date(b.date) - new Date(a.date))
 
-// Build lookup maps to replace O(n) .find() calls inside loops
+// Build lookup maps to replace O(n) .find() calls inside loops.
+// Use all loaded race candidates so finance/opponents can include all
+// active contenders, not only those in the primary-winner page set.
 const candidatesBySlug = new Map(candidates.map(c => [c.slug, c]))
 const candidatesByFecId = new Map(candidates.filter(c => c.fecId).map(c => [c.fecId, c]))
 
@@ -267,7 +347,7 @@ races.forEach(race => {
     }
 })
 
-candidates.forEach(candidate => {
+candidatesFilteredByPrimary.forEach(candidate => {
     // merge in necessary race information
     const race = races.find(r => r.candidates.includes(candidate.slug))
     if (!race) console.error('-- No race for candidate', candidate.slug)
@@ -284,7 +364,7 @@ candidates.forEach(candidate => {
             if (!match) console.log('No candidateSlug match for', candidateSlug)
             return match
         })
-        .filter(c => c && c.status === 'active')
+        .filter(c => c && c.status === 'active' && remainingCandidateSlugs.has(c.slug))
         .map(c => {
             return {// include only fields necessary for opponent listings on candidate pages
                 slug: c.slug,
@@ -304,13 +384,17 @@ candidates.forEach(candidate => {
     // currently for federal candidates only
     if (race.finance) {
         candidate.finance = race.finance.map(competitor => {
+            if (!remainingCandidateSlugs.has(competitor.candidateSlug)) {
+                return null
+            }
+
             const match = candidatesBySlug.get(competitor.candidateSlug)
             return {
                 ...competitor,
                 isThisCandidate: competitor.candidateSlug === candidate.slug,
                 candidateStatus: match ? match.status : null
             }
-        })
+        }).filter(Boolean)
     } else {
         candidate.finance = null
     }
@@ -338,7 +422,7 @@ candidates.forEach(candidate => {
 
 const overviewRaces = races.map(race => {
 
-    const candidatesInRace = race.candidates.map(candidateSlug => candidates.find(c => c.slug === candidateSlug))
+    const candidatesInRace = race.candidates.map(candidateSlug => candidatesFilteredByPrimary.find(c => c.slug === candidateSlug))
     const activeCandidatesInRace = candidatesInRace.filter(d => d && d.status === 'active')
     const inactiveCandidatesInRace = candidatesInRace.filter(d => d && d.status !== 'active')
     const filterToSummaryFields = c => ({
@@ -359,32 +443,36 @@ const overviewRaces = races.map(race => {
     }
 })
 
-console.log(candidates.length, 'candidates')
-console.log(candidates.filter(d => d.questionnaire.hasResponses).length, 'responded to questionnaire')
+console.log(candidatesFilteredByPrimary.length, 'candidates')
+console.log(candidatesFilteredByPrimary.filter(d => d.questionnaire.hasResponses).length, 'responded to questionnaire')
 
 // Write per-candidate JSON files — each candidate page loads only its own file
 // instead of the entire candidates array. This keeps individual page bundles small.
 const candidatesDir = './src/data/candidates'
 fs.mkdirSync(candidatesDir, { recursive: true })
-candidates.forEach(candidate => {
+candidatesFilteredByPrimary.forEach(candidate => {
     writeJson(`${candidatesDir}/${candidate.slug}.json`, candidate)
 })
 
-// Remove stale per-candidate JSON files for excluded candidates.
-// These may have been written in a previous run before the candidate was excluded.
-excludedSlugs.forEach(slug => {
-    const stalePath = `${candidatesDir}/${slug}.json`
-    if (fs.existsSync(stalePath)) {
-        fs.unlinkSync(stalePath)
-        console.log(`Deleted stale candidate JSON for excluded candidate: ${slug}`)
-    }
-})
+// Remove stale per-candidate JSON files that are no longer in this run's output.
+// This keeps src/data/candidates in sync with candidates-index.json after filtering.
+const activeCandidateSlugs = new Set(candidatesFilteredByPrimary.map(c => c.slug))
+fs.readdirSync(candidatesDir)
+    .filter(name => name.endsWith('.json'))
+    .forEach(name => {
+        const slug = name.replace('.json', '')
+        if (!activeCandidateSlugs.has(slug)) {
+            const stalePath = `${candidatesDir}/${name}`
+            fs.unlinkSync(stalePath)
+            console.log(`Deleted stale candidate JSON: ${slug}`)
+        }
+    })
 
 // Write thin index — used by getAllCandidateIds() and the search/overview pipeline.
 // Does NOT include opponents, finance, questionnaire responses, or coverage (those
 // live in the per-candidate files). This file stays small regardless of how many
 // candidates or how long their questionnaire answers are.
-const candidatesIndex = candidates.map(c => ({
+const candidatesIndex = candidatesFilteredByPrimary.map(c => ({
     slug: c.slug,
     displayName: c.displayName,
     lastName: c.lastName,

@@ -24,12 +24,6 @@
       "party": "R"
     },
     {
-      "slug": "jeremy-trebas",
-      "displayName": "Jeremy Trebas",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
       "slug": "angeline-cheek",
       "displayName": "Angeline Cheek",
       "summaryLine": null,
@@ -46,6 +40,22 @@
     "race": "psc-1",
     "raceDisplayName": "Public Service Commission (Seat 1)",
     "party": "R",
-    "resultsTotal": null
+    "resultsTotal": [
+      {
+        "candidate": "JEFF PATTISON",
+        "party": "R",
+        "votes": 22070,
+        "isWinner": true,
+        "votePercent": 0.6658822109582428
+      },
+      {
+        "candidate": "JEREMY TREBAS",
+        "party": "R",
+        "votes": 11074,
+        "isWinner": false,
+        "votePercent": 0.3341177890417572
+      }
+    ],
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

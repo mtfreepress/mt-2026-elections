@@ -18,66 +18,12 @@
         "raceSlug": "us-senate"
       },
       {
-        "slug": "michael-hummert",
-        "displayName": "Michael Hummert",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 3,
-        "raceSlug": "us-senate"
-      },
-      {
         "slug": "alani-bankhead",
         "displayName": "Alani Bankhead",
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
         "numMTFParticles": 4,
-        "raceSlug": "us-senate"
-      },
-      {
-        "slug": "michael-black-wolf",
-        "displayName": "Michael Black Wolf",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 3,
-        "raceSlug": "us-senate"
-      },
-      {
-        "slug": "reilly-neill",
-        "displayName": "Reilly Neill",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 5,
-        "raceSlug": "us-senate"
-      },
-      {
-        "slug": "lee-calhoun",
-        "displayName": "Lee Calhoun",
-        "summaryLine": null,
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 1,
-        "raceSlug": "us-senate"
-      },
-      {
-        "slug": "christopher-kehoe",
-        "displayName": "Christopher Kehoe",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 0,
-        "raceSlug": "us-senate"
-      },
-      {
-        "slug": "charles-walking-child",
-        "displayName": "Charles Walking Child",
-        "summaryLine": null,
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 1,
         "raceSlug": "us-senate"
       },
       {
@@ -96,15 +42,6 @@
         "party": "I",
         "hasResponses": true,
         "numMTFParticles": 7,
-        "raceSlug": "us-senate"
-      },
-      {
-        "slug": "tom-jandron",
-        "displayName": "Tom Jandron",
-        "summaryLine": null,
-        "party": "L",
-        "hasResponses": true,
-        "numMTFParticles": 2,
         "raceSlug": "us-senate"
       }
     ],
@@ -218,33 +155,6 @@
     "note": null,
     "candidates": [
       {
-        "slug": "russell-cleveland",
-        "displayName": "Russell Cleveland",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 2,
-        "raceSlug": "us-house-1"
-      },
-      {
-        "slug": "matt-rains",
-        "displayName": "Matt Rains",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 2,
-        "raceSlug": "us-house-1"
-      },
-      {
-        "slug": "ryan-busse",
-        "displayName": "Ryan Busse",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 3,
-        "raceSlug": "us-house-1"
-      },
-      {
         "slug": "sam-forstag",
         "displayName": "Sam Forstag",
         "summaryLine": null,
@@ -254,39 +164,12 @@
         "raceSlug": "us-house-1"
       },
       {
-        "slug": "al-doc-olszewski",
-        "displayName": "Al 'Doc' Olszewski",
-        "summaryLine": null,
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 5,
-        "raceSlug": "us-house-1"
-      },
-      {
         "slug": "aaron-flint",
         "displayName": "Aaron Flint",
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
         "numMTFParticles": 5,
-        "raceSlug": "us-house-1"
-      },
-      {
-        "slug": "christi-jacobsen",
-        "displayName": "Christi Jacobsen",
-        "summaryLine": null,
-        "party": "R",
-        "hasResponses": false,
-        "numMTFParticles": 6,
-        "raceSlug": "us-house-1"
-      },
-      {
-        "slug": "ray-curtis",
-        "displayName": "Ray Curtis",
-        "summaryLine": null,
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 0,
         "raceSlug": "us-house-1"
       },
       {
@@ -403,30 +286,12 @@
         "raceSlug": "us-house-2"
       },
       {
-        "slug": "sam-lux",
-        "displayName": "Sam Lux",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 4,
-        "raceSlug": "us-house-2"
-      },
-      {
         "slug": "troy-downing",
         "displayName": "Troy Downing",
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
         "numMTFParticles": 2,
-        "raceSlug": "us-house-2"
-      },
-      {
-        "slug": "jonathan-windy-boy",
-        "displayName": "Jonathan Windy Boy",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 5,
         "raceSlug": "us-house-2"
       },
       {
@@ -530,15 +395,6 @@
         "raceSlug": "psc-1"
       },
       {
-        "slug": "jeremy-trebas",
-        "displayName": "Jeremy Trebas",
-        "summaryLine": null,
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 0,
-        "raceSlug": "psc-1"
-      },
-      {
         "slug": "angeline-cheek",
         "displayName": "Angeline Cheek",
         "summaryLine": null,
@@ -560,30 +416,12 @@
     "note": null,
     "candidates": [
       {
-        "slug": "david-sanders",
-        "displayName": "David Sanders",
-        "summaryLine": null,
-        "party": "R",
-        "hasResponses": false,
-        "numMTFParticles": 1,
-        "raceSlug": "psc-5"
-      },
-      {
         "slug": "annie-bukacek",
         "displayName": "Annie Bukacek",
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
         "numMTFParticles": 1,
-        "raceSlug": "psc-5"
-      },
-      {
-        "slug": "joe-dooling",
-        "displayName": "Joe Dooling",
-        "summaryLine": null,
-        "party": "R",
-        "hasResponses": false,
-        "numMTFParticles": 0,
         "raceSlug": "psc-5"
       },
       {

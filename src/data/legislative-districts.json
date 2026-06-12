@@ -20,14 +20,6 @@
         "campaignWebsite": "https://bianco4mt2026.com"
       },
       {
-        "slug": "roberta-mccanse",
-        "displayName": "ROBERTA MCCANSE",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "dakota-v-adams",
         "displayName": "DAKOTA V ADAMS",
         "party": "D",
@@ -80,14 +72,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "cathy-mitchell",
-        "displayName": "CATHY MITCHELL",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://cathymitchellformontana.com"
-      },
-      {
         "slug": "derek-peachey",
         "displayName": "DEREK PEACHEY",
         "party": "R",
@@ -124,22 +108,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://pandinaformontana.com"
-      },
-      {
-        "slug": "lyn-bennett",
-        "displayName": "LYN BENNETT",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": true,
-        "campaignWebsite": "https://lynbennettformontanahd4.com"
-      },
-      {
-        "slug": "nathan-purdy",
-        "displayName": "NATHAN PURDY",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
       },
       {
         "slug": "paula-koch",
@@ -202,14 +170,6 @@
         "campaignWebsite": "https://jimrileyforhd6.com"
       },
       {
-        "slug": "arthur-dunn",
-        "displayName": "ARTHUR DUNN",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "darren-fix",
         "displayName": "DARREN FIX",
         "party": "D",
@@ -231,14 +191,6 @@
     "holdover_party": null,
     "holdover_link": null,
     "candidates": [
-      {
-        "slug": "luke-maxwell",
-        "displayName": "LUKE MAXWELL",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://maxwellformontana.com"
-      },
       {
         "slug": "courtenay-sprunger",
         "displayName": "COURTENAY SPRUNGER",
@@ -420,14 +372,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "linda-reksten",
-        "displayName": "LINDA REKSTEN",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": true,
-        "campaignWebsite": "https://reksten4mt.com"
-      },
-      {
         "slug": "finley-warden",
         "displayName": "FINLEY WARDEN",
         "party": "R",
@@ -502,14 +446,6 @@
         "status": "active",
         "isIncumbent": true,
         "campaignWebsite": null
-      },
-      {
-        "slug": "adrien-owen-wagner",
-        "displayName": "ADRIEN OWEN WAGNER",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
       }
     ]
   },
@@ -550,22 +486,6 @@
       {
         "slug": "justin-w-cleveland",
         "displayName": "JUSTIN W CLEVELAND",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "susan-geise",
-        "displayName": "SUSAN GEISE",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://susanforhd17.com"
-      },
-      {
-        "slug": "michael-j-fasbender",
-        "displayName": "MICHAEL J FASBENDER",
         "party": "R",
         "status": "active",
         "isIncumbent": false,
@@ -616,14 +536,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "derren-auger",
-        "displayName": "DERREN AUGER",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "hannah-trebas",
         "displayName": "HANNAH TREBAS",
         "party": "R",
@@ -653,14 +565,6 @@
     "holdover_party": null,
     "holdover_link": null,
     "candidates": [
-      {
-        "slug": "tony-rosales",
-        "displayName": "TONY ROSALES",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://rosalesformt.com"
-      },
       {
         "slug": "melissa-nikolakakos",
         "displayName": "MELISSA NIKOLAKAKOS",
@@ -700,14 +604,6 @@
         "campaignWebsite": "https://funsethformontana.com"
       },
       {
-        "slug": "eric-peterson",
-        "displayName": "ERIC PETERSON",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://ericpetersonmedia.com"
-      },
-      {
         "slug": "lela-graham",
         "displayName": "LELA GRAHAM",
         "party": "D",
@@ -736,14 +632,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": null
-      },
-      {
-        "slug": "kevin-leatherbarrow",
-        "displayName": "KEVIN LEATHERBARROW",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://kevinleatherbarrow.com"
       },
       {
         "slug": "neal-miller",
@@ -782,14 +670,6 @@
         "status": "active",
         "isIncumbent": true,
         "campaignWebsite": "https://tillemanforhd23.com"
-      },
-      {
-        "slug": "brett-mills",
-        "displayName": "BRETT MILLS",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://millsformontana.com"
       },
       {
         "slug": "rebecca-bogden-richards",
@@ -934,14 +814,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "john-south",
-        "displayName": "JOHN SOUTH",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "chisholm-b-christensen",
         "displayName": "CHISHOLM B CHRISTENSEN",
         "party": "R",
@@ -964,14 +836,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "linda-harmon",
-        "displayName": "LINDA HARMON",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://harmon4house.com"
-      },
-      {
         "slug": "valerie-moore",
         "displayName": "VALERIE MOORE",
         "party": "R",
@@ -982,14 +846,6 @@
       {
         "slug": "tess-fahlgren",
         "displayName": "TESS FAHLGREN",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "rachel-sundheim",
-        "displayName": "RACHEL SUNDHEIM",
         "party": "D",
         "status": "active",
         "isIncumbent": false,
@@ -1040,14 +896,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "lance-elliot-fourstar",
-        "displayName": "LANCE ELLIOT FOURSTAR",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "natalie-oneal",
         "displayName": "NATALIE ONEAL",
         "party": "D",
@@ -1092,14 +940,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "ric-holden",
-        "displayName": "RIC HOLDEN",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "brandon-ler",
         "displayName": "BRANDON LER",
         "party": "R",
@@ -1135,14 +975,6 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "jason-ellsworth",
-        "displayName": "JASON ELLSWORTH",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -1200,14 +1032,6 @@
       {
         "slug": "ty-linger",
         "displayName": "TY LINGER",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "loren-hinebauch",
-        "displayName": "LOREN HINEBAUCH",
         "party": "R",
         "status": "active",
         "isIncumbent": false,
@@ -1326,14 +1150,6 @@
         "campaignWebsite": "https://vintonformontana.com"
       },
       {
-        "slug": "gunner-cesnik",
-        "displayName": "GUNNER CESNIK",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "gabriel--bradshaw",
         "displayName": "GABRIEL  BRADSHAW",
         "party": "D",
@@ -1384,14 +1200,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://jabsformt.com"
-      },
-      {
-        "slug": "sidney-chip-fitzpatrick",
-        "displayName": "SIDNEY CHIP FITZPATRICK",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": true,
-        "campaignWebsite": null
       }
     ]
   },
@@ -1512,14 +1320,6 @@
         "status": "active",
         "isIncumbent": true,
         "campaignWebsite": null
-      },
-      {
-        "slug": "erin-r-tate",
-        "displayName": "ERIN R TATE",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
       }
     ]
   },
@@ -1535,14 +1335,6 @@
     "holdover_party": null,
     "holdover_link": null,
     "candidates": [
-      {
-        "slug": "ron-j-stevens",
-        "displayName": "RON J STEVENS",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://ronjstevens.com"
-      },
       {
         "slug": "john-maxwell",
         "displayName": "JOHN MAXWELL",
@@ -1612,14 +1404,6 @@
         "campaignWebsite": "https://loveridgeformontana.com"
       },
       {
-        "slug": "ole-hedstrom",
-        "displayName": "OLE HEDSTROM",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "rebecca-noell",
         "displayName": "REBECCA NOELL",
         "party": "D",
@@ -1680,14 +1464,6 @@
         "campaignWebsite": "https://jodeeformt.com"
       },
       {
-        "slug": "lana-marie-tibbetts",
-        "displayName": "LANA MARIE TIBBETTS",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "precious-mckenzie",
         "displayName": "PRECIOUS MCKENZIE",
         "party": "D",
@@ -1718,14 +1494,6 @@
         "campaignWebsite": null
       },
       {
-        "slug": "ed-walker",
-        "displayName": "ED WALKER",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://walkerformt.com"
-      },
-      {
         "slug": "elizabeth-heald",
         "displayName": "ELIZABETH HEALD",
         "party": "D",
@@ -1747,14 +1515,6 @@
     "holdover_party": null,
     "holdover_link": null,
     "candidates": [
-      {
-        "slug": "nelly-nicol",
-        "displayName": "NELLY NICOL",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": true,
-        "campaignWebsite": "https://nelly4montana.com"
-      },
       {
         "slug": "troy-charbonneau",
         "displayName": "TROY CHARBONNEAU",
@@ -1815,14 +1575,6 @@
     "holdover_party": null,
     "holdover_link": null,
     "candidates": [
-      {
-        "slug": "mary-horman",
-        "displayName": "MARY HORMAN",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://maryhormancarboncounty.com"
-      },
       {
         "slug": "brad-barker",
         "displayName": "BRAD BARKER",
@@ -2010,14 +1762,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://rioformt.com"
-      },
-      {
-        "slug": "chris-gray",
-        "displayName": "CHRIS GRAY",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "http://www.cgraymontana.com/"
       }
     ]
   },
@@ -2192,14 +1936,6 @@
         "campaignWebsite": "https://jedediahhinkle.com"
       },
       {
-        "slug": "russell-c-nelson",
-        "displayName": "RUSSELL C NELSON",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "logan-henke",
         "displayName": "LOGAN HENKE",
         "party": "D",
@@ -2221,14 +1957,6 @@
     "holdover_party": null,
     "holdover_link": null,
     "candidates": [
-      {
-        "slug": "jennifer-carlson",
-        "displayName": "JENNIFER CARLSON",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://carlsonforliberty.com"
-      },
       {
         "slug": "randy-chamberlin",
         "displayName": "RANDY CHAMBERLIN",
@@ -2266,14 +1994,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://trevorwalterformontana.com"
-      },
-      {
-        "slug": "ken-walsh",
-        "displayName": "KEN WALSH",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": true,
-        "campaignWebsite": "https://walsh4montana.com"
       }
     ]
   },
@@ -2478,14 +2198,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "john-fitzpatrick",
-        "displayName": "JOHN FITZPATRICK",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": true,
-        "campaignWebsite": "https://fitzfor76.com"
-      },
-      {
         "slug": "trish-schreiber",
         "displayName": "TRISH SCHREIBER",
         "party": "R",
@@ -2606,14 +2318,6 @@
         "campaignWebsite": "https://katie4montana.com"
       },
       {
-        "slug": "qasim-w-abdul-baki",
-        "displayName": "QASIM W ABDUL-BAKI",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://qasimforhelena.com"
-      },
-      {
         "slug": "megan-lane",
         "displayName": "MEGAN LANE",
         "party": "D",
@@ -2642,14 +2346,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://looneyformontana.com"
-      },
-      {
-        "slug": "benjamin-kuiper",
-        "displayName": "BENJAMIN KUIPER",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://www.benkuiperforlegislature.com/"
       },
       {
         "slug": "janet-ellis",
@@ -2742,22 +2438,6 @@
         "campaignWebsite": "https://caldwellforhd84.com"
       },
       {
-        "slug": "james-marshal",
-        "displayName": "JAMES MARSHAL",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://marshal4montana.com"
-      },
-      {
-        "slug": "jamie-van-valkenburg",
-        "displayName": "JAMIE VAN VALKENBURG",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://jamievv.com"
-      },
-      {
         "slug": "tia-nelson",
         "displayName": "TIA NELSON",
         "party": "D",
@@ -2779,14 +2459,6 @@
     "holdover_party": null,
     "holdover_link": null,
     "candidates": [
-      {
-        "slug": "michele-binkley",
-        "displayName": "MICHELE BINKLEY",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://binkleyformontana.com"
-      },
       {
         "slug": "kim-dailey",
         "displayName": "KIM DAILEY",
@@ -2824,14 +2496,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://waynerusk.com"
-      },
-      {
-        "slug": "kenneth-e-allen",
-        "displayName": "KENNETH E ALLEN",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://allenformontana.com"
       },
       {
         "slug": "archie-thomas",
@@ -2946,14 +2610,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "curtis-j-cochran",
-        "displayName": "CURTIS J COCHRAN",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": true,
-        "campaignWebsite": null
-      },
-      {
         "slug": "jeff-stanek",
         "displayName": "JEFF STANEK",
         "party": "R",
@@ -3006,14 +2662,6 @@
     "holdover_link": null,
     "candidates": [
       {
-        "slug": "reggie-spaulding",
-        "displayName": "REGGIE SPAULDING",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://reggiespauldingformt.org"
-      },
-      {
         "slug": "monica-tranel",
         "displayName": "MONICA TRANEL",
         "party": "D",
@@ -3042,22 +2690,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": null
-      },
-      {
-        "slug": "nick-kujawa",
-        "displayName": "NICK KUJAWA",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://kujawa4montana.com"
-      },
-      {
-        "slug": "sam-kulla",
-        "displayName": "SAM KULLA",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://votesamkulla.com"
       },
       {
         "slug": "ben-davis",
@@ -3096,14 +2728,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://robinkendall4montana.org"
-      },
-      {
-        "slug": "lisa-verlanic-fowler",
-        "displayName": "LISA VERLANIC FOWLER",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://montanansforlisa.com"
       }
     ]
   },
@@ -3300,22 +2924,6 @@
         "campaignWebsite": "https://gunderson4senate.com"
       },
       {
-        "slug": "vincent-backen",
-        "displayName": "VINCENT BACKEN",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "neil-duram",
-        "displayName": "NEIL DURAM",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "jonathan-russell-jameson",
         "displayName": "JONATHAN RUSSELL JAMESON",
         "party": "D",
@@ -3464,14 +3072,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": null
-      },
-      {
-        "slug": "jade-heather-m-ackerman",
-        "displayName": "JADE-HEATHER M ACKERMAN",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
       }
     ]
   },
@@ -3487,14 +3087,6 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Bruce-Gillespie/",
     "candidates": [
-      {
-        "slug": "zack-wirth",
-        "displayName": "ZACK WIRTH",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://zackformontana"
-      },
       {
         "slug": "llew-jones",
         "displayName": "LLEW JONES",
@@ -3534,14 +3126,6 @@
         "campaignWebsite": "https://jessicaformontana.com"
       },
       {
-        "slug": "maximus-dascoulias",
-        "displayName": "MAXIMUS DASCOULIAS",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "margaret-mitchell",
         "displayName": "MARGARET MITCHELL",
         "party": "D",
@@ -3572,22 +3156,6 @@
         "campaignWebsite": "https://stevenformontana.com"
       },
       {
-        "slug": "ed-buttrey",
-        "displayName": "ED BUTTREY",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://buttrey4montana.com"
-      },
-      {
-        "slug": "mark-winters",
-        "displayName": "MARK WINTERS",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "valynda-holland",
         "displayName": "VALYNDA HOLLAND",
         "party": "D",
@@ -3610,28 +3178,12 @@
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Wendy-McKamey/",
     "candidates": [
       {
-        "slug": "randy-pinocci",
-        "displayName": "RANDY PINOCCI",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://pinocciforsd12.com"
-      },
-      {
         "slug": "george-nikolakakos",
         "displayName": "GEORGE NIKOLAKAKOS",
         "party": "R",
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://georgeforus.com"
-      },
-      {
-        "slug": "james-g--whitaker",
-        "displayName": "JAMES G  WHITAKER",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
       },
       {
         "slug": "mindy-leach",
@@ -3675,14 +3227,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://albus for senate"
-      },
-      {
-        "slug": "mark-l-wicks",
-        "displayName": "MARK L WICKS",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://wicks4freedom.com"
       },
       {
         "slug": "blake-borst",
@@ -3754,14 +3298,6 @@
         "campaignWebsite": "https://gregkmetzforsenate.com"
       },
       {
-        "slug": "doug-martens",
-        "displayName": "DOUG MARTENS",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
         "slug": "stan-taylor",
         "displayName": "STAN TAYLOR",
         "party": "D",
@@ -3783,14 +3319,6 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Barry-Usher/",
     "candidates": [
-      {
-        "slug": "barry-usher",
-        "displayName": "BARRY USHER",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": true,
-        "campaignWebsite": "https://barryusher.com"
-      },
       {
         "slug": "chris-rindal",
         "displayName": "CHRIS RINDAL",
@@ -3918,14 +3446,6 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "tom-bick",
-        "displayName": "TOM BICK",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
         "campaignWebsite": null
       },
       {
@@ -4088,14 +3608,6 @@
         "campaignWebsite": "https://ganserforthegallatin.com"
       },
       {
-        "slug": "becky-edwards",
-        "displayName": "BECKY EDWARDS",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://beckyformontana.com"
-      },
-      {
         "slug": "kelly-kortum",
         "displayName": "KELLY KORTUM",
         "party": "D",
@@ -4130,14 +3642,6 @@
     "holdover_party": "R",
     "holdover_link": "https://apps.montanafreepress.org/capitol-tracker-2023/lawmakers/Shelley-Vance/",
     "candidates": [
-      {
-        "slug": "shelley-vance",
-        "displayName": "SHELLEY VANCE",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": true,
-        "campaignWebsite": "https://vanceforsenate.com"
-      },
       {
         "slug": "caleb-hinkle",
         "displayName": "CALEB HINKLE",
@@ -4255,14 +3759,6 @@
         "campaignWebsite": "https://erin4montana.com"
       },
       {
-        "slug": "dana-toole",
-        "displayName": "DANA TOOLE",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://danatooleformontana.com"
-      },
-      {
         "slug": "dru-koester",
         "displayName": "DRU KOESTER",
         "party": "L",
@@ -4293,22 +3789,6 @@
         "campaignWebsite": "https://lapraim4mt.com"
       },
       {
-        "slug": "nicholas-lancette",
-        "displayName": "NICHOLAS LANCETTE",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://nickformontana.com"
-      },
-      {
-        "slug": "mike-talia",
-        "displayName": "MIKE TALIA",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://miketalia.com"
-      },
-      {
         "slug": "mary-ann-dunwell",
         "displayName": "MARY ANN DUNWELL",
         "party": "D",
@@ -4337,14 +3817,6 @@
         "status": "active",
         "isIncumbent": false,
         "campaignWebsite": "https://davidbedey.com"
-      },
-      {
-        "slug": "kathy-love",
-        "displayName": "KATHY LOVE",
-        "party": "R",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": "https://kathyloveformontana.com"
       },
       {
         "slug": "stephen-leuchtman",

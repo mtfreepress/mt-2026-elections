@@ -13,19 +13,6 @@
     "numMTFParticles": 2
   },
   {
-    "slug": "tom-jandron",
-    "displayName": "Tom Jandron",
-    "lastName": "Jandron",
-    "summaryLine": null,
-    "party": "L",
-    "raceSlug": "us-senate",
-    "raceDisplayName": "U.S. Senate",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 2
-  },
-  {
     "slug": "seth-bodnar",
     "displayName": "Seth Bodnar",
     "lastName": "Bodnar",
@@ -39,19 +26,6 @@
     "numMTFParticles": 7
   },
   {
-    "slug": "sam-lux",
-    "displayName": "Sam Lux",
-    "lastName": "Lux",
-    "summaryLine": null,
-    "party": "D",
-    "raceSlug": "us-house-2",
-    "raceDisplayName": "U.S. House District 2 (East)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 4
-  },
-  {
     "slug": "sam-forstag",
     "displayName": "Sam Forstag",
     "lastName": "Forstag",
@@ -63,58 +37,6 @@
     "isIncumbent": false,
     "hasResponses": true,
     "numMTFParticles": 4
-  },
-  {
-    "slug": "ryan-busse",
-    "displayName": "Ryan Busse",
-    "lastName": "Busse",
-    "summaryLine": null,
-    "party": "D",
-    "raceSlug": "us-house-1",
-    "raceDisplayName": "U.S. House District 1 (West)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 3
-  },
-  {
-    "slug": "russell-cleveland",
-    "displayName": "Russell Cleveland",
-    "lastName": "Cleveland",
-    "summaryLine": null,
-    "party": "D",
-    "raceSlug": "us-house-1",
-    "raceDisplayName": "U.S. House District 1 (West)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 2
-  },
-  {
-    "slug": "reilly-neill",
-    "displayName": "Reilly Neill",
-    "lastName": "Neill",
-    "summaryLine": null,
-    "party": "D",
-    "raceSlug": "us-senate",
-    "raceDisplayName": "U.S. Senate",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 5
-  },
-  {
-    "slug": "ray-curtis",
-    "displayName": "Ray Curtis",
-    "lastName": "Curtis",
-    "summaryLine": null,
-    "party": "R",
-    "raceSlug": "us-house-1",
-    "raceDisplayName": "U.S. House District 1 (West)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 0
   },
   {
     "slug": "patrick-mccracken",
@@ -143,19 +65,6 @@
     "numMTFParticles": 1
   },
   {
-    "slug": "michael-hummert",
-    "displayName": "Michael Hummert",
-    "lastName": "Hummert",
-    "summaryLine": null,
-    "party": "D",
-    "raceSlug": "us-senate",
-    "raceDisplayName": "U.S. Senate",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 3
-  },
-  {
     "slug": "michael-d-eisenhauer",
     "displayName": "Michael D Eisenhauer",
     "lastName": "Eisenhauer",
@@ -163,45 +72,6 @@
     "party": "I",
     "raceSlug": "us-house-2",
     "raceDisplayName": "U.S. House District 2 (East)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 1
-  },
-  {
-    "slug": "michael-black-wolf",
-    "displayName": "Michael Black Wolf",
-    "lastName": "Wolf",
-    "summaryLine": null,
-    "party": "D",
-    "raceSlug": "us-senate",
-    "raceDisplayName": "U.S. Senate",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 3
-  },
-  {
-    "slug": "matt-rains",
-    "displayName": "Matt Rains",
-    "lastName": "Rains",
-    "summaryLine": null,
-    "party": "D",
-    "raceSlug": "us-house-1",
-    "raceDisplayName": "U.S. House District 1 (West)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 2
-  },
-  {
-    "slug": "lee-calhoun",
-    "displayName": "Lee Calhoun",
-    "lastName": "Calhoun",
-    "summaryLine": null,
-    "party": "R",
-    "raceSlug": "us-senate",
-    "raceDisplayName": "U.S. Senate",
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
@@ -260,45 +130,6 @@
     "numMTFParticles": 0
   },
   {
-    "slug": "jonathan-windy-boy",
-    "displayName": "Jonathan Windy Boy",
-    "lastName": "Boy",
-    "summaryLine": null,
-    "party": "D",
-    "raceSlug": "us-house-2",
-    "raceDisplayName": "U.S. House District 2 (East)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 5
-  },
-  {
-    "slug": "joe-dooling",
-    "displayName": "Joe Dooling",
-    "lastName": "Dooling",
-    "summaryLine": null,
-    "party": "R",
-    "raceSlug": "psc-5",
-    "raceDisplayName": "Public Service Commission (Seat 5)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": false,
-    "numMTFParticles": 0
-  },
-  {
-    "slug": "jeremy-trebas",
-    "displayName": "Jeremy Trebas",
-    "lastName": "Trebas",
-    "summaryLine": null,
-    "party": "R",
-    "raceSlug": "psc-1",
-    "raceDisplayName": "Public Service Commission (Seat 1)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 0
-  },
-  {
     "slug": "jeff-pattison",
     "displayName": "Jeff Pattison",
     "lastName": "Pattison",
@@ -312,19 +143,6 @@
     "numMTFParticles": 0
   },
   {
-    "slug": "david-sanders",
-    "displayName": "David Sanders",
-    "lastName": "Sanders",
-    "summaryLine": null,
-    "party": "R",
-    "raceSlug": "psc-5",
-    "raceDisplayName": "Public Service Commission (Seat 5)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": false,
-    "numMTFParticles": 1
-  },
-  {
     "slug": "dan-wilson",
     "displayName": "Dan Wilson",
     "lastName": "Wilson",
@@ -336,45 +154,6 @@
     "isIncumbent": false,
     "hasResponses": false,
     "numMTFParticles": 0
-  },
-  {
-    "slug": "christopher-kehoe",
-    "displayName": "Christopher Kehoe",
-    "lastName": "Kehoe",
-    "summaryLine": null,
-    "party": "D",
-    "raceSlug": "us-senate",
-    "raceDisplayName": "U.S. Senate",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 0
-  },
-  {
-    "slug": "christi-jacobsen",
-    "displayName": "Christi Jacobsen",
-    "lastName": "Jacobsen",
-    "summaryLine": null,
-    "party": "R",
-    "raceSlug": "us-house-1",
-    "raceDisplayName": "U.S. House District 1 (West)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": false,
-    "numMTFParticles": 6
-  },
-  {
-    "slug": "charles-walking-child",
-    "displayName": "Charles Walking Child",
-    "lastName": "Child",
-    "summaryLine": null,
-    "party": "R",
-    "raceSlug": "us-senate",
-    "raceDisplayName": "U.S. Senate",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 1
   },
   {
     "slug": "brian-j-miller",
@@ -440,19 +219,6 @@
     "isIncumbent": false,
     "hasResponses": true,
     "numMTFParticles": 4
-  },
-  {
-    "slug": "al-doc-olszewski",
-    "displayName": "Al 'Doc' Olszewski",
-    "lastName": "Olszewski",
-    "summaryLine": null,
-    "party": "R",
-    "raceSlug": "us-house-1",
-    "raceDisplayName": "U.S. House District 1 (West)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 5
   },
   {
     "slug": "aaron-flint",

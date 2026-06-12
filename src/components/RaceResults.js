@@ -22,7 +22,7 @@ const style = css`
         padding: 0.5em 0;
         height: auto;
         min-height: 50px;
-        font-size: 13px;
+        font-size: 16px;
 
         border-bottom: 1px solid var(--gray2);
 
@@ -57,6 +57,19 @@ const style = css`
     .result-row-bar {
         flex: 1 1 auto;
         min-width: 0;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+    }
+    .result-row-bar svg {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    .result-percent-label {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        color: var(--gray4);
+        font-weight: normal;
     }
     .date {
         font-style: italic;
@@ -81,13 +94,14 @@ const style = css`
 
     @media screen and (max-width: 600px) {
         .result-row {
-            min-height: 40px;
-            font-size: 11px;
+            min-height: 50px;
+            font-size: 21px;
             flex-wrap: wrap;
+            padding-left: 0.8em;
         }
         .result-row-name {
             flex: 0 0 100%;
-            margin-bottom: 0.4em;
+            margin-bottom: 0.6em;
             padding-left: 0;
         }
         .result-row-percent {
@@ -96,6 +110,15 @@ const style = css`
         }
         .result-row-bar {
             flex: 1 1 auto;
+            width: calc(100% - 0.8em);
+        }
+        .winner-icon {
+            padding: 0.4em 0.7em;
+            margin-right: 0.6em;
+            font-size: 16px;
+        }
+        .result-percent-label {
+            font-size: 21px;
         }
     }
 `
@@ -141,9 +164,9 @@ const Row = ({ candidate, votes, votePercent, isWinner, party }) => {
             {candidate}
         </td>
         <td className="result-row-percent">{numberFormat(votes)}</td>
-        <td className="result-row-bar"><svg width="100%" height={50} viewBox={`0 0 ${BAR_RANGE + 20} 50`} preserveAspectRatio="none">
+        <td className="result-row-bar"><svg width="100%" height={50} viewBox={`0 0 ${BAR_RANGE + 20} 50`} preserveAspectRatio="xMinYMid meet">
             <rect fill={partyInfo.color} x={0} y={5} height={40} width={barWidth} />
-            <text x={barWidth + 5} y={32} fontSize="13" fill="var(--gray4)" dominantBaseline="middle">{percentFormat(votePercent)}</text>
-        </svg></td>
+        </svg>
+        <span className="result-percent-label">{percentFormat(votePercent)}</span></td>
     </tr>
 }

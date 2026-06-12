@@ -18,20 +18,8 @@
   "raceDisplayName": "Public Service Commission (Seat 5)",
   "opponents": [
     {
-      "slug": "david-sanders",
-      "displayName": "David Sanders",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
       "slug": "annie-bukacek",
       "displayName": "Annie Bukacek",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
-      "slug": "joe-dooling",
-      "displayName": "Joe Dooling",
       "summaryLine": null,
       "party": "R"
     },
@@ -65,6 +53,15 @@
     "race": "psc-5",
     "raceDisplayName": "Public Service Commission (Seat 5)",
     "party": "D",
-    "resultsTotal": null
+    "resultsTotal": [
+      {
+        "candidate": "KEVIN HAMM",
+        "party": "D",
+        "votes": 22014,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ],
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

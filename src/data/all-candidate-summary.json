@@ -12,42 +12,6 @@
     "cap_tracker_2025_link": null
   },
   {
-    "slug": "tom-jandron",
-    "path": "candidates",
-    "displayName": "Tom Jandron",
-    "summaryLine": null,
-    "race": "U.S. Senate",
-    "party": "L",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 2,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "seth-bodnar",
-    "path": "candidates",
-    "displayName": "Seth Bodnar",
-    "summaryLine": null,
-    "race": "U.S. Senate",
-    "party": "I",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 7,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "sam-lux",
-    "path": "candidates",
-    "displayName": "Sam Lux",
-    "summaryLine": null,
-    "race": "U.S. House District 2 (East)",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 4,
-    "cap_tracker_2025_link": null
-  },
-  {
     "slug": "sam-forstag",
     "path": "candidates",
     "displayName": "Sam Forstag",
@@ -57,54 +21,6 @@
     "status": "active",
     "hasResponses": true,
     "numMTFParticles": 4,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "ryan-busse",
-    "path": "candidates",
-    "displayName": "Ryan Busse",
-    "summaryLine": null,
-    "race": "U.S. House District 1 (West)",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 3,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "russell-cleveland",
-    "path": "candidates",
-    "displayName": "Russell Cleveland",
-    "summaryLine": null,
-    "race": "U.S. House District 1 (West)",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 2,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "reilly-neill",
-    "path": "candidates",
-    "displayName": "Reilly Neill",
-    "summaryLine": null,
-    "race": "U.S. Senate",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 5,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "ray-curtis",
-    "path": "candidates",
-    "displayName": "Ray Curtis",
-    "summaryLine": null,
-    "race": "U.S. House District 1 (West)",
-    "party": "R",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 0,
     "cap_tracker_2025_link": null
   },
   {
@@ -126,66 +42,6 @@
     "summaryLine": null,
     "race": "U.S. House District 1 (West)",
     "party": "L",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 1,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "michael-hummert",
-    "path": "candidates",
-    "displayName": "Michael Hummert",
-    "summaryLine": null,
-    "race": "U.S. Senate",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 3,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "michael-d-eisenhauer",
-    "path": "candidates",
-    "displayName": "Michael D Eisenhauer",
-    "summaryLine": null,
-    "race": "U.S. House District 2 (East)",
-    "party": "I",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 1,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "michael-black-wolf",
-    "path": "candidates",
-    "displayName": "Michael Black Wolf",
-    "summaryLine": null,
-    "race": "U.S. Senate",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 3,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "matt-rains",
-    "path": "candidates",
-    "displayName": "Matt Rains",
-    "summaryLine": null,
-    "race": "U.S. House District 1 (West)",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 2,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "lee-calhoun",
-    "path": "candidates",
-    "displayName": "Lee Calhoun",
-    "summaryLine": null,
-    "race": "U.S. Senate",
-    "party": "R",
     "status": "active",
     "hasResponses": true,
     "numMTFParticles": 1,
@@ -216,60 +72,12 @@
     "cap_tracker_2025_link": null
   },
   {
-    "slug": "kimberly-a-persico",
-    "path": "candidates",
-    "displayName": "Kimberly A  Persico",
-    "summaryLine": null,
-    "race": "U.S. House District 1 (West)",
-    "party": "I",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 0,
-    "cap_tracker_2025_link": null
-  },
-  {
     "slug": "kevin-hamm",
     "path": "candidates",
     "displayName": "Kevin Hamm",
     "summaryLine": null,
     "race": "Public Service Commission (Seat 5)",
     "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 0,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "jonathan-windy-boy",
-    "path": "candidates",
-    "displayName": "Jonathan Windy Boy",
-    "summaryLine": null,
-    "race": "U.S. House District 2 (East)",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 5,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "joe-dooling",
-    "path": "candidates",
-    "displayName": "Joe Dooling",
-    "summaryLine": null,
-    "race": "Public Service Commission (Seat 5)",
-    "party": "R",
-    "status": "active",
-    "hasResponses": false,
-    "numMTFParticles": 0,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "jeremy-trebas",
-    "path": "candidates",
-    "displayName": "Jeremy Trebas",
-    "summaryLine": null,
-    "race": "Public Service Commission (Seat 1)",
-    "party": "R",
     "status": "active",
     "hasResponses": true,
     "numMTFParticles": 0,
@@ -288,18 +96,6 @@
     "cap_tracker_2025_link": null
   },
   {
-    "slug": "david-sanders",
-    "path": "candidates",
-    "displayName": "David Sanders",
-    "summaryLine": null,
-    "race": "Public Service Commission (Seat 5)",
-    "party": "R",
-    "status": "active",
-    "hasResponses": false,
-    "numMTFParticles": 1,
-    "cap_tracker_2025_link": null
-  },
-  {
     "slug": "dan-wilson",
     "path": "candidates",
     "displayName": "Dan Wilson",
@@ -309,42 +105,6 @@
     "status": "active",
     "hasResponses": false,
     "numMTFParticles": 0,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "christopher-kehoe",
-    "path": "candidates",
-    "displayName": "Christopher Kehoe",
-    "summaryLine": null,
-    "race": "U.S. Senate",
-    "party": "D",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 0,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "christi-jacobsen",
-    "path": "candidates",
-    "displayName": "Christi Jacobsen",
-    "summaryLine": null,
-    "race": "U.S. House District 1 (West)",
-    "party": "R",
-    "status": "active",
-    "hasResponses": false,
-    "numMTFParticles": 6,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "charles-walking-child",
-    "path": "candidates",
-    "displayName": "Charles Walking Child",
-    "summaryLine": null,
-    "race": "U.S. Senate",
-    "party": "R",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 1,
     "cap_tracker_2025_link": null
   },
   {
@@ -405,18 +165,6 @@
     "status": "active",
     "hasResponses": true,
     "numMTFParticles": 4,
-    "cap_tracker_2025_link": null
-  },
-  {
-    "slug": "al-doc-olszewski",
-    "path": "candidates",
-    "displayName": "Al 'Doc' Olszewski",
-    "summaryLine": null,
-    "race": "U.S. House District 1 (West)",
-    "party": "R",
-    "status": "active",
-    "hasResponses": true,
-    "numMTFParticles": 5,
     "cap_tracker_2025_link": null
   },
   {

@@ -18,20 +18,8 @@
   "raceDisplayName": "Public Service Commission (Seat 5)",
   "opponents": [
     {
-      "slug": "david-sanders",
-      "displayName": "David Sanders",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
       "slug": "annie-bukacek",
       "displayName": "Annie Bukacek",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
-      "slug": "joe-dooling",
-      "displayName": "Joe Dooling",
       "summaryLine": null,
       "party": "R"
     },
@@ -84,6 +72,29 @@
     "race": "psc-5",
     "raceDisplayName": "Public Service Commission (Seat 5)",
     "party": "R",
-    "resultsTotal": null
+    "resultsTotal": [
+      {
+        "candidate": "ANNIE BUKACEK",
+        "party": "R",
+        "votes": 10924,
+        "isWinner": true,
+        "votePercent": 0.35527513984649406
+      },
+      {
+        "candidate": "JOE DOOLING",
+        "party": "R",
+        "votes": 10149,
+        "isWinner": false,
+        "votePercent": 0.3300702484714453
+      },
+      {
+        "candidate": "DAVID SANDERS",
+        "party": "R",
+        "votes": 9675,
+        "isWinner": false,
+        "votePercent": 0.3146546116820606
+      }
+    ],
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

@@ -24,46 +24,10 @@
       "party": "L"
     },
     {
-      "slug": "michael-hummert",
-      "displayName": "Michael Hummert",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
       "slug": "alani-bankhead",
       "displayName": "Alani Bankhead",
       "summaryLine": null,
       "party": "D"
-    },
-    {
-      "slug": "michael-black-wolf",
-      "displayName": "Michael Black Wolf",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
-      "slug": "reilly-neill",
-      "displayName": "Reilly Neill",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
-      "slug": "lee-calhoun",
-      "displayName": "Lee Calhoun",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
-      "slug": "christopher-kehoe",
-      "displayName": "Christopher Kehoe",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
-      "slug": "charles-walking-child",
-      "displayName": "Charles Walking Child",
-      "summaryLine": null,
-      "party": "R"
     },
     {
       "slug": "kurt-alme",
@@ -76,12 +40,6 @@
       "displayName": "Seth Bodnar",
       "summaryLine": null,
       "party": "I"
-    },
-    {
-      "slug": "tom-jandron",
-      "displayName": "Tom Jandron",
-      "summaryLine": null,
-      "party": "L"
     }
   ],
   "coverage": [
@@ -189,20 +147,6 @@
       "candidateStatus": "active"
     },
     {
-      "displayName": "Reilly Neill",
-      "candidateSlug": "reilly-neill",
-      "party": "D",
-      "matchType": "override-id",
-      "candidateCommitteeName": "REILLY FOR MONTANA",
-      "candidateId": "S6MT00238",
-      "totalReceipts": 293990,
-      "totalDisbursments": 220637.41,
-      "cashOnHand": 73352.59,
-      "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
       "displayName": "Kyle Austin",
       "candidateSlug": "kyle-austin",
       "party": "L",
@@ -228,48 +172,6 @@
       "cashOnHand": 13737.42,
       "coverageEndDate": "2026-05-13",
       "isThisCandidate": true,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Michael Hummert",
-      "candidateSlug": "michael-hummert",
-      "party": "D",
-      "matchType": "name",
-      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
-      "candidateId": "S4MT00217",
-      "totalReceipts": 12230,
-      "totalDisbursments": 3191.98,
-      "cashOnHand": 9782.75,
-      "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Christopher Kehoe",
-      "candidateSlug": "christopher-kehoe",
-      "party": "D",
-      "matchType": "name",
-      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
-      "candidateId": "S6MT00303",
-      "totalReceipts": 1000.05,
-      "totalDisbursments": 80,
-      "cashOnHand": 920.05,
-      "coverageEndDate": "2026-06-09",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Tom Jandron",
-      "candidateSlug": "tom-jandron",
-      "party": "L",
-      "matchType": "name",
-      "candidateCommitteeName": "JANDRON 4 US SENATE",
-      "candidateId": "S6MT00311",
-      "totalReceipts": 0,
-      "totalDisbursments": 0,
-      "cashOnHand": 0,
-      "coverageEndDate": null,
-      "isThisCandidate": false,
       "candidateStatus": "active"
     }
   ],
