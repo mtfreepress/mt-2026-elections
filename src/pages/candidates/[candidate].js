@@ -129,6 +129,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                 <CandidatePageOpponents
                     opponents={opponents} candidateParty={party}
                     route='candidates'
+                    raceSlug={raceSlug}
                     raceDisplayName={raceDisplayName}
                     currentPage={slug}
                     hasPortraits={true}

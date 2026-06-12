@@ -101,6 +101,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                     opponents={opponents}
                     candidateParty={party}
                     route='legislature'
+                    raceSlug={raceSlug}
                     raceDisplayName={raceDisplayName}
                     currentPage={slug}
 

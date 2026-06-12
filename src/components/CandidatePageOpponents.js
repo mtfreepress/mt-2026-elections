@@ -152,13 +152,18 @@ export default function CandidatePageOpponents({
     opponents,
     // candidateParty,
     route,
+    raceSlug,
     raceDisplayName,
     currentPage,
     hasPortraits
 }) {
+    const noteText = raceSlug?.startsWith('supco')
+        ? 'Supreme Court candidates were selected via the June 2, 2026, primary election. The top two vote-getters, advance to November’s general election ballot.'
+        : 'Republican, Democratic, and Libertarian general election nominees were selected via the June 2, 2026, primary election. Independent candidates have submitted petition signatures in an attempt to qualify for the general election ballot. The secretary of state’s office certifies or denies independent candidacies for the November general election ballot this summer. '
+
     return <div css={opponentsContainerStyle}>
         <h4>Active candidates for {raceDisplayName}</h4>
-        <div className="note">Republican, Democratic, and Libertarian general election nominees were selected via the June 2, 2026, primary election. Independent candidates have submitted petition signatures in an attempt to qualify for the general election ballot. The secretary of state’s office certifies or denies independent candidacies for the November general election ballot this summer. </div>
+        <div className="note">{noteText}</div>
         {(() => {
             const activeBuckets = PARTIES.filter(party => opponents.some(d => d.party === party.key))
             const isSingleParty = activeBuckets.length === 1

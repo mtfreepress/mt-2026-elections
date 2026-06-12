@@ -92,7 +92,7 @@
     "party": "R",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 3,
+    "numMTFParticles": 4,
     "cap_tracker_2025_link": null
   },
   {
@@ -200,7 +200,7 @@
     "party": "D",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 4,
+    "numMTFParticles": 5,
     "cap_tracker_2025_link": null
   },
   {
