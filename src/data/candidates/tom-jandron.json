@@ -269,6 +269,22 @@
     "race": "us-senate",
     "raceDisplayName": "U.S. Senate",
     "party": "L",
-    "resultsTotal": null
+    "resultsTotal": [
+      {
+        "candidate": "KYLE AUSTIN",
+        "party": "L",
+        "votes": 1819,
+        "isWinner": true,
+        "votePercent": 0.5332746995016124
+      },
+      {
+        "candidate": "TOM JANDRON",
+        "party": "L",
+        "votes": 1592,
+        "isWinner": false,
+        "votePercent": 0.46672530049838756
+      }
+    ],
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

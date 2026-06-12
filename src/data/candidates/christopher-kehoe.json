@@ -230,20 +230,41 @@
     "party": "D",
     "resultsTotal": [
       {
-        "candidate": "JON TESTER",
+        "candidate": "ALANI BANKHEAD",
         "party": "D",
-        "votes": 103347,
+        "votes": 48772,
         "isWinner": true,
-        "votePercent": 0.9698752780202146
+        "votePercent": 0.4364736309859407
+      },
+      {
+        "candidate": "REILLY NEILL",
+        "party": "D",
+        "votes": 36880,
+        "isWinner": false,
+        "votePercent": 0.3300489524883436
+      },
+      {
+        "candidate": "MICHAEL BLACK WOLF",
+        "party": "D",
+        "votes": 14676,
+        "isWinner": false,
+        "votePercent": 0.13133943673315973
+      },
+      {
+        "candidate": "CHRISTOPHER KEHOE",
+        "party": "D",
+        "votes": 7108,
+        "isWinner": false,
+        "votePercent": 0.06361138704683152
       },
       {
         "candidate": "MICHAEL HUMMERT",
         "party": "D",
-        "votes": 3210,
+        "votes": 4305,
         "isWinner": false,
-        "votePercent": 0.030124721979785468
+        "votePercent": 0.03852659274572449
       }
     ],
-    "reportingTime": "6/10/2024 12:53:48 PM"
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

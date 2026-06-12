@@ -18,9 +18,11 @@ const style = css`
     }
     .result-row {
         display: flex;
-        padding: 0.2em 0;
-        height: 16px;
-        font-size: 12px;
+        align-items: center;
+        padding: 0.5em 0;
+        height: auto;
+        min-height: 50px;
+        font-size: 13px;
 
         border-bottom: 1px solid var(--gray2);
 
@@ -33,31 +35,68 @@ const style = css`
         background-color: #666;
         color: white;
         font-weight: bold;
-        padding: 0.2em 0.5em;
-        margin-right: 0.4em;
+        padding: 0.3em 0.6em;
+        margin-right: 0.6em;
         margin-left: 0;
+        flex-shrink: 0;
     }
     .result-row-name {
         flex: 0 0 13em;
         color: var(--gray4);
-        margin-right: 0.5em;
+        margin-right: 0.8em;
         padding-left: 5px;
-        
-
+        display: flex;
+        align-items: center;
     }
     .result-row-percent {
         flex: 0 0 4em;
-        margin-right: 0.5em;
+        margin-right: 1em;
         text-align: right;
+        flex-shrink: 0;
     }
     .result-row-bar {
-        flex: 0 0 auto;
+        flex: 1 1 auto;
+        min-width: 0;
     }
     .date {
         font-style: italic;
         font-size: 14px;
         margin-top: 1em;
         margin-left: 0.3em;
+    }
+
+    @media screen and (max-width: 768px) {
+        .result-row {
+            min-height: 45px;
+            font-size: 12px;
+        }
+        .result-row-name {
+            flex: 0 0 11em;
+        }
+        .winner-icon {
+            padding: 0.2em 0.5em;
+            margin-right: 0.4em;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .result-row {
+            min-height: 40px;
+            font-size: 11px;
+            flex-wrap: wrap;
+        }
+        .result-row-name {
+            flex: 0 0 100%;
+            margin-bottom: 0.4em;
+            padding-left: 0;
+        }
+        .result-row-percent {
+            flex: 0 0 auto;
+            margin-right: 0.5em;
+        }
+        .result-row-bar {
+            flex: 1 1 auto;
+        }
     }
 `
 
@@ -88,7 +127,7 @@ const RaceResults = props => {
 
 export default RaceResults
 
-const BAR_RANGE = 60
+const BAR_RANGE = 200
 const Row = ({ candidate, votes, votePercent, isWinner, party }) => {
     const partyInfo = PARTIES_BY_KEY.get(party)
     const barWidth = votePercent * BAR_RANGE
@@ -102,9 +141,9 @@ const Row = ({ candidate, votes, votePercent, isWinner, party }) => {
             {candidate}
         </td>
         <td className="result-row-percent">{numberFormat(votes)}</td>
-        <td className="result-row-bar"><svg width={BAR_RANGE + 50} height={14}>
-            <rect fill={partyInfo.color} x={0} y={0} height={18} width={barWidth} />
-            <text x={barWidth + 5} y={12}>{percentFormat(votePercent)}</text>
+        <td className="result-row-bar"><svg width="100%" height={50} viewBox={`0 0 ${BAR_RANGE + 20} 50`} preserveAspectRatio="none">
+            <rect fill={partyInfo.color} x={0} y={5} height={40} width={barWidth} />
+            <text x={barWidth + 5} y={32} fontSize="13" fill="var(--gray4)" dominantBaseline="middle">{percentFormat(votePercent)}</text>
         </svg></td>
     </tr>
 }

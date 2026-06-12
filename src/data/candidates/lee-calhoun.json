@@ -257,27 +257,27 @@
     "party": "R",
     "resultsTotal": [
       {
-        "candidate": "TIM SHEEHY",
+        "candidate": "KURT ALME",
         "party": "R",
-        "votes": 138202,
+        "votes": 128706,
         "isWinner": true,
-        "votePercent": 0.7363115693012601
+        "votePercent": 0.7613622247067383
       },
       {
-        "candidate": "BRAD JOHNSON",
+        "candidate": "LEE CALHOUN",
         "party": "R",
-        "votes": 36460,
+        "votes": 23870,
         "isWinner": false,
-        "votePercent": 0.1942513119688857
+        "votePercent": 0.14120333398403995
       },
       {
-        "candidate": "CHARLES WALKINGCHILD SR",
+        "candidate": "CHARLES WALKING CHILD",
         "party": "R",
-        "votes": 13033,
+        "votes": 16471,
         "isWinner": false,
-        "votePercent": 0.06943711872985428
+        "votePercent": 0.0974344413092217
       }
     ],
-    "reportingTime": "6/10/2024 12:53:48 PM"
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

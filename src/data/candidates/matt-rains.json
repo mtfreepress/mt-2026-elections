@@ -239,15 +239,6 @@
     "race": "us-house-1",
     "raceDisplayName": "U.S. House District 1 (West)",
     "party": "D",
-    "resultsTotal": [
-      {
-        "candidate": "MONICA TRANEL",
-        "party": "D",
-        "votes": 59192,
-        "isWinner": true,
-        "votePercent": 1
-      }
-    ],
-    "reportingTime": "6/10/2024 12:53:48 PM"
+    "resultsTotal": null
   }
 }

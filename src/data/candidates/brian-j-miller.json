@@ -270,36 +270,6 @@
     "race": "us-house-2",
     "raceDisplayName": "U.S. House District 2 (East)",
     "party": "D",
-    "resultsTotal": [
-      {
-        "candidate": "JOHN B DRISCOLL",
-        "party": "D",
-        "votes": 13317,
-        "isWinner": true,
-        "votePercent": 0.3331165420116567
-      },
-      {
-        "candidate": "STEVE HELD",
-        "party": "D",
-        "votes": 10583,
-        "isWinner": false,
-        "votePercent": 0.2647272181504365
-      },
-      {
-        "candidate": "MING CABRERA",
-        "party": "D",
-        "votes": 8341,
-        "isWinner": false,
-        "votePercent": 0.2086449708582435
-      },
-      {
-        "candidate": "KEVIN HAMM",
-        "party": "D",
-        "votes": 7736,
-        "isWinner": false,
-        "votePercent": 0.1935112689796633
-      }
-    ],
-    "reportingTime": "6/10/2024 12:53:48 PM"
+    "resultsTotal": null
   }
 }

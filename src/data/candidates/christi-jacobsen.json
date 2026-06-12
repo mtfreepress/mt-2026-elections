@@ -300,22 +300,6 @@
     "race": "us-house-1",
     "raceDisplayName": "U.S. House District 1 (West)",
     "party": "R",
-    "resultsTotal": [
-      {
-        "candidate": "RYAN K ZINKE",
-        "party": "R",
-        "votes": 65247,
-        "isWinner": true,
-        "votePercent": 0.7380381422075425
-      },
-      {
-        "candidate": "MARY TODD",
-        "party": "R",
-        "votes": 23159,
-        "isWinner": false,
-        "votePercent": 0.2619618577924575
-      }
-    ],
-    "reportingTime": "6/10/2024 12:53:48 PM"
+    "resultsTotal": null
   }
 }

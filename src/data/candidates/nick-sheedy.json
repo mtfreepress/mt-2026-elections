@@ -214,22 +214,6 @@
     "race": "us-house-1",
     "raceDisplayName": "U.S. House District 1 (West)",
     "party": "L",
-    "resultsTotal": [
-      {
-        "candidate": "DENNIS HAYES",
-        "party": "L",
-        "votes": 379,
-        "isWinner": true,
-        "votePercent": 0.6523235800344234
-      },
-      {
-        "candidate": "ERNIE NOBLE",
-        "party": "L",
-        "votes": 202,
-        "isWinner": false,
-        "votePercent": 0.3476764199655766
-      }
-    ],
-    "reportingTime": "6/10/2024 12:53:48 PM"
+    "resultsTotal": null
   }
 }
