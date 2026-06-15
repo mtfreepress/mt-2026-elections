@@ -67,12 +67,11 @@ export default function Layout({
         {/* Preconnect to font domains — establishes connection before preload fires */}
         <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://p.typekit.net" crossOrigin="anonymous" />
-        {/* Preload the font CSS immediately at HTML parse time — avoids the extra typekit.js round trip */}
+        {/* Preload and apply font CSS in the initial head to reduce delayed text/font pop-in. */}
         <link rel="preload" href="https://use.typekit.net/fsd6htq.css" as="style" crossOrigin="anonymous" />
+        <link rel="stylesheet" href="https://use.typekit.net/fsd6htq.css" crossOrigin="anonymous" />
 
       </Head>
-      {/* Apply the preloaded Typekit CSS after initial paint — by then it's likely already downloaded */}
-      <Script id="typekit" strategy="afterInteractive">{`var l=document.querySelector('link[href*="fsd6htq.css"]');if(l)l.rel='stylesheet';`}</Script>
       {/* Google Analytics */}
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-E33J6TV0GZ"></Script>
       <Script id="ga">

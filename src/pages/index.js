@@ -1,5 +1,6 @@
 import React, { useMemo, useEffect, useState } from 'react'
 import { css } from "@emotion/react";
+import dynamic from 'next/dynamic'
 
 import Layout from '../design/Layout'
 import LowdownCTA from '../design/LowdownCTA'
@@ -8,12 +9,9 @@ import Link from 'next/link';
 
 import Markdown from 'react-markdown'
 
-import AddressLookup from '../components/AddressLookup'
 import SearchForCandidate from '../components/SearchForCandidate'
 import MajorRaceOverview from '../components/majorRaceOverview'
-import LegislativeRaceOverview from '../components/LegislativeRaceOverview'
-import LegislativeDistrictSelector from '../components/LegislativeDistrictSelector'
-import BallotInitiativeOverview from '../components/BallotInitiativeOverview'
+import DeferredSection from '../components/DeferredSection'
 
 import { urlize } from '../lib/utils'
 import {
@@ -25,6 +23,11 @@ import {
     getFullCandidateList,
 } from '../lib/overview'
 import { hasPortrait } from '../lib/portraits'
+
+const DeferredAddressLookup = dynamic(() => import('../components/AddressLookup'))
+const DeferredMajorRaceOverview = dynamic(() => import('../components/majorRaceOverview'))
+const DeferredLegislativeRaceOverview = dynamic(() => import('../components/LegislativeRaceOverview'))
+const DeferredLegislativeDistrictSelector = dynamic(() => import('../components/LegislativeDistrictSelector'))
 
 const RACE_LEVELS = [
     'Federal Delegation',
@@ -62,6 +65,11 @@ const overviewStyles = css`
         padding: 0.3em 0.5em;
         color: white;
         text-transform: uppercase;
+    }
+
+    .deferred-content {
+        content-visibility: auto;
+        contain-intrinsic-size: 900px;
     }
 `
 
@@ -117,10 +125,36 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
         overviewAboutThisProject,
     } = text
 
-    const raceLevels = useMemo(() => RACE_LEVELS.map(level => ({
-        level,
-        races: races.filter(d => d.level === level),
-    })), [races])
+    const raceLevels = useMemo(() => {
+        const byLevel = new Map(RACE_LEVELS.map(level => [level, []]))
+
+        races.forEach(r => {
+            if (r.category === 'us-house' && selDistricts.usHouse !== null && selDistricts.usHouse !== r.raceSlug) {
+                return
+            }
+            if (r.category === 'psc' && selDistricts.psc !== null && selDistricts.psc !== r.raceSlug) {
+                return
+            }
+            if (byLevel.has(r.level)) {
+                byLevel.get(r.level).push(r)
+            }
+        })
+
+        return RACE_LEVELS.map(level => ({
+            level,
+            races: byLevel.get(level) || [],
+        }))
+    }, [races, selDistricts.usHouse, selDistricts.psc])
+
+    const houseDistrictOptions = useMemo(
+        () => legislativeRaces.filter(d => d.chamber === 'house').map(d => d.districtKey),
+        [legislativeRaces]
+    )
+
+    const senateDistrictOptions = useMemo(
+        () => legislativeRaces.filter(d => d.chamber === 'senate').map(d => d.districtKey),
+        [legislativeRaces]
+    )
 
     const legislativeRacesByKey = useMemo(
         () => new Map(legislativeRaces.map(d => [d.districtKey, d])),
@@ -144,7 +178,9 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
 
             <SearchForCandidate candidates={fullCandidateList} legislativeRaces={legislativeRaces} selDistricts={selDistricts} setSelDistricts={setSelDistricts} />
 
-            <AddressLookup selDistricts={selDistricts} setSelDistricts={setSelDistricts} legislativeRaces={legislativeRaces} races={races} />
+            <DeferredSection className="deferred-content" minHeight={230} idleTimeout={800} rootMargin="260px 0px">
+                <DeferredAddressLookup selDistricts={selDistricts} setSelDistricts={setSelDistricts} legislativeRaces={legislativeRaces} races={races} />
+            </DeferredSection>
 
 
             <section>
@@ -155,17 +191,6 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
                             <h2>{rl.level}</h2>
                             {
                                 rl.races
-                                    .filter(r => {
-                                        // excludes non-selected races when filter view is active
-                                        if (r.category === 'us-house' && selDistricts.usHouse !== null) {
-                                            return (selDistricts.usHouse === r.raceSlug)
-                                        }
-                                        else if (r.category === 'psc' && selDistricts.psc !== null) {
-                                            return (selDistricts.psc === r.raceSlug)
-                                        } else {
-                                            return true
-                                        }
-                                    })
                                     .map(r => <MajorRaceOverview key={r.raceSlug}
                                         race={r}
                                         showMap={['Federal Delegation', 'Public Service Commission'].includes(r.level)}
@@ -182,66 +207,58 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
 
 
 
-            <section>
-                <a className="link-anchor" id="legislature"></a>
-                <a className="link-anchor" id="montana-legislature"></a>
-                <h2>Montana State Legislature</h2>
-                <Markdown>{overviewLegislatureLedeIn}</Markdown>
-                <LegislativeDistrictSelector
-                    houseDistrictOptions={legislativeRaces.filter(d => d.chamber === 'house').map(d => d.districtKey)}
-                    senateDistrictOptions={legislativeRaces.filter(d => d.chamber === 'senate').map(d => d.districtKey)}
-                    selHd={selDistricts.mtHouse}
-                    selSd={selDistricts.mtSenate}
-                    setLegislativeDistricts={(mtHouse, mtSenate) => {
-                        setSelDistricts({
-                            ...selDistricts,
-                            mtHouse,
-                            mtSenate,
-                        })
-                    }}
-                />
-                <LegislativeRaceOverview
-                    selHouseDistrict={selHouseDistrict}
-                    selSenateDistrict={selSenateDistrict}
-                />
-                <div className="note-row">
-                    <div className='note'>
-                        <Link href="/legislative-candidates-by-district/">See all candidates listed by district.</Link>
+            <DeferredSection className="deferred-content" minHeight={760} idleTimeout={1200}>
+                <section>
+                    <a className="link-anchor" id="legislature"></a>
+                    <a className="link-anchor" id="montana-legislature"></a>
+                    <h2>Montana State Legislature</h2>
+                    <Markdown>{overviewLegislatureLedeIn}</Markdown>
+                    <DeferredLegislativeDistrictSelector
+                        houseDistrictOptions={houseDistrictOptions}
+                        senateDistrictOptions={senateDistrictOptions}
+                        selHd={selDistricts.mtHouse}
+                        selSd={selDistricts.mtSenate}
+                        setLegislativeDistricts={(mtHouse, mtSenate) => {
+                            setSelDistricts({
+                                ...selDistricts,
+                                mtHouse,
+                                mtSenate,
+                            })
+                        }}
+                    />
+                    <DeferredLegislativeRaceOverview
+                        selHouseDistrict={selHouseDistrict}
+                        selSenateDistrict={selSenateDistrict}
+                    />
+                    <div className="note-row">
+                        <div className='note'>
+                            <Link href="/legislative-candidates-by-district/">See all candidates listed by district.</Link>
+                        </div>
+                        <div className='note2'>
+                            <span><span style={{ fontSize: '1.8em', verticalAlign: 'text-bottom' }}>*</span>Denotes incumbent candidate</span>
+                        </div>
                     </div>
-                    <div className='note2'>
-                        <span><span style={{ fontSize: '1.8em', verticalAlign: 'text-bottom' }}>*</span>Denotes incumbent candidate</span>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </DeferredSection>
 
-            <section>
-                <div>
-                    {raceLevels.slice(1,).map(rl => {
-                        return <div key={rl.level}>
-                            <a className="link-anchor" id={urlize(rl.level)}></a>
-                            <h2>{rl.level}</h2>
-                            {
-                                rl.races
-                                    .filter(r => {
-                                        // excludes non-selected races when filter view is active
-                                        if (r.category === 'us-house' && selDistricts.usHouse !== null) {
-                                            return (selDistricts.usHouse === r.raceSlug)
-                                        }
-                                        else if (r.category === 'psc' && selDistricts.psc !== null) {
-                                            return (selDistricts.psc === r.raceSlug)
-                                        } else {
-                                            return true
-                                        }
-                                    })
-                                    .map(r => <MajorRaceOverview key={r.raceSlug}
+            <DeferredSection className="deferred-content" minHeight={1100} idleTimeout={1500}>
+                <section>
+                    <div>
+                        {raceLevels.slice(1,).map(rl => {
+                            return <div key={rl.level}>
+                                <a className="link-anchor" id={urlize(rl.level)}></a>
+                                <h2>{rl.level}</h2>
+                                {
+                                    rl.races.map(r => <DeferredMajorRaceOverview key={r.raceSlug}
                                         race={r}
                                         showMap={['Federal Delegation', 'Public Service Commission'].includes(r.level)}
                                     />)
-                            }
-                        </div>
-                    })}
-                </div>
-            </section>
+                                }
+                            </div>
+                        })}
+                    </div>
+                </section>
+            </DeferredSection>
             <hr />
 
             {/* TODO: Enable once we have ballot initiatives */}
@@ -252,22 +269,24 @@ export default function Home({ races, legislativeRaces, ballotIssues, text, voti
                 <BallotInitiativeOverview ballotIssues={ballotIssues} />
             </section> */}
             {/* TODO: Enable for general */}
-            <section>
-                <h2>Other ballot items</h2>
-                <Markdown>{overviewAlsoOnYourBallot}</Markdown>
-            </section>
+            <DeferredSection className="deferred-content" minHeight={700} idleTimeout={1800}>
+                <section>
+                    <h2>Other ballot items</h2>
+                    <Markdown>{overviewAlsoOnYourBallot}</Markdown>
+                </section>
 
-            <section>
-                <a className="link-anchor" id="voter-faq"></a>
-                <h2>Common Voting Questions</h2>
-                <Markdown>{votingFAQ}</Markdown>
-            </section>
+                <section>
+                    <a className="link-anchor" id="voter-faq"></a>
+                    <h2>Common Voting Questions</h2>
+                    <Markdown>{votingFAQ}</Markdown>
+                </section>
 
-            <section>
-                <a className="link-anchor" id="about"></a>
-                <h2>About this project</h2>
-                <Markdown>{overviewAboutThisProject}</Markdown>
-            </section>
+                <section>
+                    <a className="link-anchor" id="about"></a>
+                    <h2>About this project</h2>
+                    <Markdown>{overviewAboutThisProject}</Markdown>
+                </section>
+            </DeferredSection>
 
         </Layout >
     );

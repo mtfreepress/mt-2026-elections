@@ -222,32 +222,48 @@ export default function SearchForCandidate({
 }) {
     const [searchText, setSearchText] = useState('')
 
-    // Flatten legislative candidates from all districts for searching
-    const legislativeCandidates = useMemo(() => {
-        if (!legislativeRaces) return []
-        const flat = []
+    const normalizedSearch = useMemo(() => (searchText || '').trim().toUpperCase(), [searchText])
+
+    const matchingCandidates = useMemo(() => {
+        if (!normalizedSearch || normalizedSearch.length < 3) return []
+        return candidates
+            .filter(d => d.displayName.toUpperCase().includes(normalizedSearch))
+            .slice(0, 5)
+    }, [normalizedSearch, candidates])
+
+    const matchingLegislative = useMemo(() => {
+        if (!normalizedSearch || normalizedSearch.length < 3 || !legislativeRaces) return []
+
+        const matches = []
+
         for (const district of legislativeRaces) {
             for (const c of district.candidates) {
-                if (c.status === 'active') {
-                    flat.push({
-                        ...c,
-                        districtKey: district.districtKey,
-                        chamber: district.chamber,
-                        district: district.district,
-                        region: district.region,
-                        isLegislative: true,
-                    })
-                }
+                if (c.status !== 'active') continue
+                if (!String(c.displayName || '').toUpperCase().includes(normalizedSearch)) continue
+
+                matches.push({
+                    ...c,
+                    districtKey: district.districtKey,
+                    chamber: district.chamber,
+                    district: district.district,
+                    region: district.region,
+                    isLegislative: true,
+                })
+
+                if (matches.length >= 5) return matches
             }
 
             const isOutOfCycleSenate = district.chamber === 'senate' && district.in_cycle_2026 === 'no'
-            const hasRunningHoldover = district.candidates.some(c => {
-                if (!district.holdover_senator) return false
-                return String(c.displayName || '').toUpperCase() === String(district.holdover_senator).toUpperCase()
-            })
+            if (!isOutOfCycleSenate || !district.holdover_senator) continue
 
-            if (isOutOfCycleSenate && district.holdover_senator && !hasRunningHoldover) {
-                flat.push({
+            const hasRunningHoldover = district.candidates.some(c =>
+                String(c.displayName || '').toUpperCase() === String(district.holdover_senator).toUpperCase()
+            )
+
+            if (hasRunningHoldover) continue
+
+            if (String(district.holdover_senator).toUpperCase().includes(normalizedSearch)) {
+                matches.push({
                     slug: `holdover-${district.districtKey}`,
                     displayName: district.holdover_senator,
                     party: district.holdover_party || '?',
@@ -260,26 +276,13 @@ export default function SearchForCandidate({
                     isLegislative: true,
                     isHoldover: true,
                 })
+
+                if (matches.length >= 5) return matches
             }
         }
-        return flat
-    }, [legislativeRaces])
 
-    const matchingCandidates = useMemo(() => {
-        if (!searchText || searchText.length < 3) return []
-        const q = searchText.toUpperCase()
-        return candidates
-            .filter(d => d.displayName.toUpperCase().includes(q))
-            .slice(0, 5)
-    }, [searchText, candidates])
-
-    const matchingLegislative = useMemo(() => {
-        if (!searchText || searchText.length < 3) return []
-        const q = searchText.toUpperCase()
-        return legislativeCandidates
-            .filter(d => d.displayName.toUpperCase().includes(q))
-            .slice(0, 5)
-    }, [searchText, legislativeCandidates])
+        return matches
+    }, [normalizedSearch, legislativeRaces])
 
     function handleChange(event) {
         const input = event.target.value
