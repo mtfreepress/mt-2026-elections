@@ -120,7 +120,8 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                 <span><Link href="#coverage">{lastName} in MTFP coverage</Link></span>
                 <span> • </span>
                 <span><Link href="#finance">{lastName} Campaign finance</Link></span>
-                {/* <span><Link href="#results">Election results</Link></span> */}
+                <span> • </span>
+                <span><Link href="#results">Election results</Link></span>
                 {/* <span><Link href="#voting-faq">Voting in Montana</Link></span> */}
                 {/* <span><Link href="#about">About this project</Link></span> */}
             </div>

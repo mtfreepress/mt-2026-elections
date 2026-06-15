@@ -8,10 +8,10 @@ const writeJson = (path, data) => {
     })
 }
 
-// TODO: Update paths
+// DONE: Update paths
 const PATH_STATEWIDE = './inputs/results/raw/2026_06_12_primary-statewide.xlsx'
 const PATH_LEGISLATIVE = './inputs/results/raw/2026_06_12_primary-legislative.xlsx'
-// TODO: Update races
+// DONE: Update races
 const STATEWIDE_RACES_TO_INCLUDE = {
     'UNITED STATES SENATOR': 'us-senate',
     'UNITED STATES REPRESENTATIVE 1ST CONGRESSIONAL': 'us-house-1',

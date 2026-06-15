@@ -143,7 +143,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                 <LinksList articles={coverage} />
             </section>
 
-{/* TODO: Add back after primary results are available */}
+{/* DONE: Add back after primary results are available */}
             <section>
                 <a className="link-anchor" id="results"></a>
                 <h2>Election outcomes</h2>

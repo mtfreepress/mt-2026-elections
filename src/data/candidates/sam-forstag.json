@@ -135,6 +135,20 @@
   ],
   "finance": [
     {
+      "displayName": "Sam Forstag",
+      "candidateSlug": "sam-forstag",
+      "party": "D",
+      "matchType": "override-id",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 694569.59,
+      "totalDisbursments": 533132.46,
+      "cashOnHand": 161437.13,
+      "coverageEndDate": "2026-05-13",
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    },
+    {
       "displayName": "Aaron Flint",
       "candidateSlug": "aaron-flint",
       "party": "R",

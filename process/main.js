@@ -195,6 +195,8 @@ const FEC_CANDIDATE_ID_TO_SLUG_OVERRIDE = {
     H0MT00116: 'matt-rains',
     H6MT02226: 'jonathan-windy-boy',
     S6MT00279: 'kate-mclaughlin',
+    H6MT01137: 'sam-forstag'
+
 }
 
 // Known FEC records that are not currently active site candidates.
