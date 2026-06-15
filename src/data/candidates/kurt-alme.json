@@ -24,46 +24,10 @@
       "party": "L"
     },
     {
-      "slug": "michael-hummert",
-      "displayName": "Michael Hummert",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
       "slug": "alani-bankhead",
       "displayName": "Alani Bankhead",
       "summaryLine": null,
       "party": "D"
-    },
-    {
-      "slug": "michael-black-wolf",
-      "displayName": "Michael Black Wolf",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
-      "slug": "reilly-neill",
-      "displayName": "Reilly Neill",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
-      "slug": "lee-calhoun",
-      "displayName": "Lee Calhoun",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
-      "slug": "christopher-kehoe",
-      "displayName": "Christopher Kehoe",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
-      "slug": "charles-walking-child",
-      "displayName": "Charles Walking Child",
-      "summaryLine": null,
-      "party": "R"
     },
     {
       "slug": "kurt-alme",
@@ -76,15 +40,26 @@
       "displayName": "Seth Bodnar",
       "summaryLine": null,
       "party": "I"
-    },
-    {
-      "slug": "tom-jandron",
-      "displayName": "Tom Jandron",
-      "summaryLine": null,
-      "party": "L"
     }
   ],
   "coverage": [
+    {
+      "title": "Alani Bankhead’s bankroll bind",
+      "date": "2026-06-12T14:12:41",
+      "link": "https://montanafreepress.org/2026/06/12/alani-bankheads-bankroll-bind/",
+      "tags": [
+        "2026 elections",
+        "Alani Bankhead",
+        "Kurt Alme",
+        "Montana Democratic Party",
+        "Progressive Vet PAC"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260403lm-mansfieldmetcalf-0055-jpg/",
+      "author": "Brad Tyer"
+    },
     {
       "title": "What the June 2 primary results tell us about politics in Montana",
       "date": "2026-06-05T16:27:26",
@@ -183,20 +158,6 @@
       "candidateStatus": "active"
     },
     {
-      "displayName": "Reilly Neill",
-      "candidateSlug": "reilly-neill",
-      "party": "D",
-      "matchType": "override-id",
-      "candidateCommitteeName": "REILLY FOR MONTANA",
-      "candidateId": "S6MT00238",
-      "totalReceipts": 293990,
-      "totalDisbursments": 220637.41,
-      "cashOnHand": 73352.59,
-      "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
       "displayName": "Kyle Austin",
       "candidateSlug": "kyle-austin",
       "party": "L",
@@ -221,48 +182,6 @@
       "totalDisbursments": 11306.73,
       "cashOnHand": 13737.42,
       "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Michael Hummert",
-      "candidateSlug": "michael-hummert",
-      "party": "D",
-      "matchType": "name",
-      "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
-      "candidateId": "S4MT00217",
-      "totalReceipts": 12230,
-      "totalDisbursments": 3191.98,
-      "cashOnHand": 9782.75,
-      "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Christopher Kehoe",
-      "candidateSlug": "christopher-kehoe",
-      "party": "D",
-      "matchType": "name",
-      "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
-      "candidateId": "S6MT00303",
-      "totalReceipts": 1000.05,
-      "totalDisbursments": 80,
-      "cashOnHand": 920.05,
-      "coverageEndDate": "2026-06-09",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Tom Jandron",
-      "candidateSlug": "tom-jandron",
-      "party": "L",
-      "matchType": "name",
-      "candidateCommitteeName": "JANDRON 4 US SENATE",
-      "candidateId": "S6MT00311",
-      "totalReceipts": 0,
-      "totalDisbursments": 0,
-      "cashOnHand": 0,
-      "coverageEndDate": null,
       "isThisCandidate": false,
       "candidateStatus": "active"
     }
@@ -298,27 +217,27 @@
     "party": "R",
     "resultsTotal": [
       {
-        "candidate": "TIM SHEEHY",
+        "candidate": "KURT ALME",
         "party": "R",
-        "votes": 138202,
+        "votes": 128706,
         "isWinner": true,
-        "votePercent": 0.7363115693012601
+        "votePercent": 0.7613622247067383
       },
       {
-        "candidate": "BRAD JOHNSON",
+        "candidate": "LEE CALHOUN",
         "party": "R",
-        "votes": 36460,
+        "votes": 23870,
         "isWinner": false,
-        "votePercent": 0.1942513119688857
+        "votePercent": 0.14120333398403995
       },
       {
-        "candidate": "CHARLES WALKINGCHILD SR",
+        "candidate": "CHARLES WALKING CHILD",
         "party": "R",
-        "votes": 13033,
+        "votes": 16471,
         "isWinner": false,
-        "votePercent": 0.06943711872985428
+        "votePercent": 0.0974344413092217
       }
     ],
-    "reportingTime": "6/10/2024 12:53:48 PM"
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

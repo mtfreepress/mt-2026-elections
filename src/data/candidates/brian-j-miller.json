@@ -24,22 +24,10 @@
       "party": "D"
     },
     {
-      "slug": "sam-lux",
-      "displayName": "Sam Lux",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
       "slug": "troy-downing",
       "displayName": "Troy Downing",
       "summaryLine": null,
       "party": "R"
-    },
-    {
-      "slug": "jonathan-windy-boy",
-      "displayName": "Jonathan Windy Boy",
-      "summaryLine": null,
-      "party": "D"
     },
     {
       "slug": "patrick-mccracken",
@@ -213,20 +201,6 @@
       "candidateStatus": "active"
     },
     {
-      "displayName": "Sam Lux",
-      "candidateSlug": "sam-lux",
-      "party": "D",
-      "matchType": "name",
-      "candidateCommitteeName": "LUX FOR MONTANA",
-      "candidateId": "H6MT02143",
-      "totalReceipts": 9610.76,
-      "totalDisbursments": 8845.02,
-      "cashOnHand": 942.69,
-      "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
       "displayName": "Patrick McCracken",
       "candidateSlug": "patrick-mccracken",
       "party": "L",
@@ -272,34 +246,27 @@
     "party": "D",
     "resultsTotal": [
       {
-        "candidate": "JOHN B DRISCOLL",
+        "candidate": "BRIAN J MILLER",
         "party": "D",
-        "votes": 13317,
+        "votes": 24033,
         "isWinner": true,
-        "votePercent": 0.3331165420116567
+        "votePercent": 0.555342453091783
       },
       {
-        "candidate": "STEVE HELD",
+        "candidate": "SAM LUX",
         "party": "D",
-        "votes": 10583,
+        "votes": 11759,
         "isWinner": false,
-        "votePercent": 0.2647272181504365
+        "votePercent": 0.2717210463074221
       },
       {
-        "candidate": "MING CABRERA",
+        "candidate": "JONATHAN WINDY BOY",
         "party": "D",
-        "votes": 8341,
+        "votes": 7484,
         "isWinner": false,
-        "votePercent": 0.2086449708582435
-      },
-      {
-        "candidate": "KEVIN HAMM",
-        "party": "D",
-        "votes": 7736,
-        "isWinner": false,
-        "votePercent": 0.1935112689796633
+        "votePercent": 0.1729365006007949
       }
     ],
-    "reportingTime": "6/10/2024 12:53:48 PM"
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

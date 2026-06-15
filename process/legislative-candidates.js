@@ -199,6 +199,43 @@ function computeInCycleForYear(d) {
     return 'yes'
 }
 
+/**
+ * Extract primary winner names from the primary results JSON.
+ * This is used to filter candidates to only show primary winners.
+ */
+function getPrimaryWinnerNames() {
+    try {
+        const primaryResults = JSON.parse(fs.readFileSync('./inputs/results/cleaned/2026-primary-legislative.json', 'utf8'))
+        const winnerNames = new Set()
+        
+        primaryResults.forEach(result => {
+            if (result.resultsTotal && Array.isArray(result.resultsTotal)) {
+                result.resultsTotal.forEach(candidate => {
+                    if (candidate.isWinner) {
+                        // Normalize the name for matching
+                        const normalized = candidateNameNormalized(candidate.candidate)
+                        winnerNames.add(normalized)
+                    }
+                })
+            }
+        })
+        
+        return winnerNames
+    } catch (e) {
+        console.warn('Could not read primary results:', e && e.message)
+        return new Set() // Return empty set if file doesn't exist
+    }
+}
+
+/**
+ * Normalize candidate name for matching between different sources.
+ * Converts to lowercase and removes special characters.
+ */
+function candidateNameNormalized(name) {
+    if (!name) return ''
+    return name.toLowerCase().trim()
+}
+
 // --- MAIN ---
 
 async function main() {
@@ -237,7 +274,7 @@ async function main() {
     })
 
     // Filter to legislative candidates, clean, and transform
-    const legislativeCandidates = candidates
+    const allLegislativeCandidates = candidates
         .filter(d => d.Status === 'FILED')
         .filter(d => ['Senate', 'House'].includes(d['District Type']))
         .map(d => {
@@ -269,6 +306,15 @@ async function main() {
                 campaignWebsite: fieldOverrides.campaignWebsite ?? extractWebsite(d['Email/Web Address']),
             }
         })
+
+    // Filter to only include primary winners
+    const primaryWinnerNames = getPrimaryWinnerNames()
+    const legislativeCandidates = allLegislativeCandidates.filter(candidate => {
+        const normalizedName = candidateNameNormalized(candidate.displayName)
+        return primaryWinnerNames.has(normalizedName)
+    })
+
+    console.log(`Filtered from ${allLegislativeCandidates.length} to ${legislativeCandidates.length} primary winners`)
 
     // Attach opponents list to each candidate
     const candidateOutput = legislativeCandidates.map(c => ({

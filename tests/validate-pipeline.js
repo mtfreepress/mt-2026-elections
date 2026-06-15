@@ -197,7 +197,16 @@ function validateOverviewRaces() {
         check(race.raceSlug, `${label}: missing "raceSlug"`)
         check(Array.isArray(race.candidates), `${label}: "candidates" should be an array`)
         check(Array.isArray(race.inactiveCandidates), `${label}: "inactiveCandidates" should be an array`)
-        warnIf(race.candidates && race.candidates.length > 0, `${label}: no active candidates`)
+
+        // Post-primary filtering can intentionally leave some races with no
+        // candidates if that race has no winner data yet. Only warn when a
+        // race has candidate records but zero active candidates.
+        const activeCount = (race.candidates || []).length
+        const inactiveCount = (race.inactiveCandidates || []).length
+        const hasAnyCandidates = (activeCount + inactiveCount) > 0
+        if (hasAnyCandidates) {
+            warnIf(activeCount > 0, `${label}: no active candidates`)
+        }
     })
 }
 

@@ -101,6 +101,7 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                     opponents={opponents}
                     candidateParty={party}
                     route='legislature'
+                    raceSlug={raceSlug}
                     raceDisplayName={raceDisplayName}
                     currentPage={slug}
 
@@ -142,8 +143,8 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                 <LinksList articles={coverage} />
             </section>
 
-{/* TODO: Add back after primary results are available */}
-            {/* <section>
+{/* DONE: Add back after primary results are available */}
+            <section>
                 <a className="link-anchor" id="results"></a>
                 <h2>Election outcomes</h2>
                 {
@@ -151,10 +152,11 @@ export default function CandidatePage({ pageData, votingFAQ }) {
                         results={primaryResults}
                         primaryParty={party} // null for general elex results
                         title={`June 2 primary`}
+                        raceSlug={raceSlug}
                     />
                         : <p>No party primary was conducted.</p>
                 }
-            </section> */}
+            </section>
 
             <section>
                 <a className="link-anchor" id="voting-faq"></a>

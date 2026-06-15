@@ -18,9 +18,11 @@ const style = css`
     }
     .result-row {
         display: flex;
-        padding: 0.2em 0;
-        height: 16px;
-        font-size: 12px;
+        align-items: center;
+        padding: 0.5em 0;
+        height: auto;
+        min-height: 50px;
+        font-size: 16px;
 
         border-bottom: 1px solid var(--gray2);
 
@@ -33,25 +35,46 @@ const style = css`
         background-color: #666;
         color: white;
         font-weight: bold;
-        padding: 0.2em 0.5em;
-        margin-right: 0.4em;
+        padding: 0.3em 0.6em;
+        margin-right: 0.6em;
         margin-left: 0;
+        flex-shrink: 0;
     }
     .result-row-name {
         flex: 0 0 13em;
         color: var(--gray4);
-        margin-right: 0.5em;
+        margin-right: 0.8em;
         padding-left: 5px;
-        
-
+        display: flex;
+        align-items: center;
     }
     .result-row-percent {
         flex: 0 0 4em;
-        margin-right: 0.5em;
+        margin-right: 1em;
         text-align: right;
+        flex-shrink: 0;
     }
     .result-row-bar {
+        flex: 1 1 auto;
+        min-width: 0;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+    }
+    thead .result-row-bar {
+        justify-content: flex-end;
+    }
+    .result-row-bar svg {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    .result-percent-label {
         flex: 0 0 auto;
+        white-space: nowrap;
+        color: var(--gray4);
+        font-weight: normal;
+        min-width: 3.8em;
+        text-align: right;
     }
     .date {
         font-style: italic;
@@ -59,10 +82,75 @@ const style = css`
         margin-top: 1em;
         margin-left: 0.3em;
     }
+
+    @media screen and (max-width: 768px) {
+        .result-row {
+            min-height: 45px;
+            font-size: 12px;
+        }
+        .result-row-name {
+            flex: 0 0 11em;
+        }
+        .winner-icon {
+            padding: 0.2em 0.5em;
+            margin-right: 0.4em;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .result-row {
+            min-height: 50px;
+            font-size: 21px;
+            flex-wrap: wrap;
+            padding-left: 0.8em;
+        }
+        thead .result-row {
+            min-height: auto;
+            font-size: 18px;
+            flex-wrap: nowrap;
+            padding-left: 0;
+        }
+        .result-row-name {
+            flex: 0 0 100%;
+            margin-bottom: 0.6em;
+            padding-left: 0;
+        }
+        thead .result-row-name {
+            flex: 0 0 9em;
+            margin-bottom: 0;
+        }
+        .result-row-percent {
+            flex: 0 0 auto;
+            margin-right: 0.5em;
+        }
+        thead .result-row-percent {
+            margin-right: 0;
+            text-align: left;
+        }
+        .result-row-bar {
+            flex: 1 1 auto;
+            width: calc(100% - 0.8em);
+        }
+        thead .result-row-bar {
+            width: auto;
+            justify-content: flex-end;
+            padding-right: 0.4em;
+        }
+        .winner-icon {
+            padding: 0.4em 0.7em;
+            margin-right: 0.6em;
+            font-size: 16px;
+        }
+        .result-percent-label {
+            font-size: 21px;
+            padding-right: 0.3em;
+        }
+    }
 `
 
 const RaceResults = props => {
-    const { title, primaryParty, results } = props
+    const { title, primaryParty, results, raceSlug } = props
+    const topTwoRace = raceSlug === 'supco-4'
     const timestamp = results.reportingTime
     const primaryPartyLabel = primaryParty ? PARTIES_BY_KEY.get(primaryParty).adjective : null
 
@@ -79,16 +167,17 @@ const RaceResults = props => {
             <tbody>{
                 results.resultsTotal
                     .sort((a, b) => b.votes - a.votes)
-                    .map((d, i) => <Row key={String(i)} {...d} />)
+                    .map((d, i) => <Row key={String(i)} {...d} isWinner={topTwoRace ? true : d.isWinner} />)
             }</tbody>
         </table>
         <div className="date">Count reported by Montana secretary of state as of {formatDate(new Date(timestamp))}.</div>
+        {topTwoRace && <div className="date">Top two candidates by vote share advance to general election.</div>}
     </div>
 }
 
 export default RaceResults
 
-const BAR_RANGE = 60
+const BAR_RANGE = 100
 const Row = ({ candidate, votes, votePercent, isWinner, party }) => {
     const partyInfo = PARTIES_BY_KEY.get(party)
     const barWidth = votePercent * BAR_RANGE
@@ -102,9 +191,9 @@ const Row = ({ candidate, votes, votePercent, isWinner, party }) => {
             {candidate}
         </td>
         <td className="result-row-percent">{numberFormat(votes)}</td>
-        <td className="result-row-bar"><svg width={BAR_RANGE + 50} height={14}>
-            <rect fill={partyInfo.color} x={0} y={0} height={18} width={barWidth} />
-            <text x={barWidth + 5} y={12}>{percentFormat(votePercent)}</text>
-        </svg></td>
+        <td className="result-row-bar"><svg width="100%" height={50} viewBox={`0 0 ${BAR_RANGE} 50`} preserveAspectRatio="none">
+            <rect fill={partyInfo.color} x={0} y={5} height={40} width={barWidth} />
+        </svg>
+        <span className="result-percent-label">{percentFormat(votePercent)}</span></td>
     </tr>
 }

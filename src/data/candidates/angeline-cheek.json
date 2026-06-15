@@ -24,12 +24,6 @@
       "party": "R"
     },
     {
-      "slug": "jeremy-trebas",
-      "displayName": "Jeremy Trebas",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
       "slug": "angeline-cheek",
       "displayName": "Angeline Cheek",
       "summaryLine": null,
@@ -46,6 +40,15 @@
     "race": "psc-1",
     "raceDisplayName": "Public Service Commission (Seat 1)",
     "party": "D",
-    "resultsTotal": null
+    "resultsTotal": [
+      {
+        "candidate": "ANGELINE CHEEK",
+        "party": "D",
+        "votes": 12294,
+        "isWinner": true,
+        "votePercent": 1
+      }
+    ],
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

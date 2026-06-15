@@ -24,22 +24,10 @@
       "party": "D"
     },
     {
-      "slug": "sam-lux",
-      "displayName": "Sam Lux",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
       "slug": "troy-downing",
       "displayName": "Troy Downing",
       "summaryLine": null,
       "party": "R"
-    },
-    {
-      "slug": "jonathan-windy-boy",
-      "displayName": "Jonathan Windy Boy",
-      "summaryLine": null,
-      "party": "D"
     },
     {
       "slug": "patrick-mccracken",
@@ -121,20 +109,6 @@
       "totalReceipts": 16195.25,
       "totalDisbursments": 9404.93,
       "cashOnHand": 5600.09,
-      "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Sam Lux",
-      "candidateSlug": "sam-lux",
-      "party": "D",
-      "matchType": "name",
-      "candidateCommitteeName": "LUX FOR MONTANA",
-      "candidateId": "H6MT02143",
-      "totalReceipts": 9610.76,
-      "totalDisbursments": 8845.02,
-      "cashOnHand": 942.69,
       "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"

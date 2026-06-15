@@ -18,50 +18,14 @@
   "raceDisplayName": "U.S. House District 1 (West)",
   "opponents": [
     {
-      "slug": "russell-cleveland",
-      "displayName": "Russell Cleveland",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
-      "slug": "matt-rains",
-      "displayName": "Matt Rains",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
-      "slug": "ryan-busse",
-      "displayName": "Ryan Busse",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
       "slug": "sam-forstag",
       "displayName": "Sam Forstag",
       "summaryLine": null,
       "party": "D"
     },
     {
-      "slug": "al-doc-olszewski",
-      "displayName": "Al 'Doc' Olszewski",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
       "slug": "aaron-flint",
       "displayName": "Aaron Flint",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
-      "slug": "christi-jacobsen",
-      "displayName": "Christi Jacobsen",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
-      "slug": "ray-curtis",
-      "displayName": "Ray Curtis",
       "summaryLine": null,
       "party": "R"
     },
@@ -101,15 +65,15 @@
   ],
   "finance": [
     {
-      "displayName": "Ryan Busse",
-      "candidateSlug": "ryan-busse",
+      "displayName": "Sam Forstag",
+      "candidateSlug": "sam-forstag",
       "party": "D",
-      "matchType": "name",
-      "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
-      "candidateId": "H6MT01145",
-      "totalReceipts": 702446.55,
-      "totalDisbursments": 551915.23,
-      "cashOnHand": 150531.32,
+      "matchType": "override-id",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 694569.59,
+      "totalDisbursments": 533132.46,
+      "cashOnHand": 161437.13,
       "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
@@ -125,62 +89,6 @@
       "totalDisbursments": 299577.16,
       "cashOnHand": 384673.66,
       "coverageEndDate": "2026-06-10",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Christi Jacobsen",
-      "candidateSlug": "christi-jacobsen",
-      "party": "R",
-      "matchType": "name",
-      "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
-      "candidateId": "H6MT01160",
-      "totalReceipts": 447271,
-      "totalDisbursments": 352505.23,
-      "cashOnHand": 94765.77,
-      "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Russell Cleveland",
-      "candidateSlug": "russell-cleveland",
-      "party": "D",
-      "matchType": "name-first-last",
-      "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
-      "candidateId": "H6MT01103",
-      "totalReceipts": 418450.02,
-      "totalDisbursments": 363895.36,
-      "cashOnHand": 54554.66,
-      "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Al 'Doc' Olszewski",
-      "candidateSlug": "al-doc-olszewski",
-      "party": "R",
-      "matchType": "override-id",
-      "candidateCommitteeName": "AL FOR MONTANA",
-      "candidateId": "H2MT02084",
-      "totalReceipts": 411337.59,
-      "totalDisbursments": 317276.38,
-      "cashOnHand": 104010.28,
-      "coverageEndDate": "2026-05-13",
-      "isThisCandidate": false,
-      "candidateStatus": "active"
-    },
-    {
-      "displayName": "Matt Rains",
-      "candidateSlug": "matt-rains",
-      "party": "D",
-      "matchType": "override-id",
-      "candidateCommitteeName": "MATT RAINS FOR MONTANA",
-      "candidateId": "H0MT00116",
-      "totalReceipts": 265118.99,
-      "totalDisbursments": 230813.5,
-      "cashOnHand": 34305.49,
-      "coverageEndDate": "2026-05-13",
       "isThisCandidate": false,
       "candidateStatus": "active"
     }
@@ -216,20 +124,13 @@
     "party": "L",
     "resultsTotal": [
       {
-        "candidate": "DENNIS HAYES",
+        "candidate": "NICK SHEEDY",
         "party": "L",
-        "votes": 379,
+        "votes": 1202,
         "isWinner": true,
-        "votePercent": 0.6523235800344234
-      },
-      {
-        "candidate": "ERNIE NOBLE",
-        "party": "L",
-        "votes": 202,
-        "isWinner": false,
-        "votePercent": 0.3476764199655766
+        "votePercent": 1
       }
     ],
-    "reportingTime": "6/10/2024 12:53:48 PM"
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }

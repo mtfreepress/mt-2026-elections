@@ -8,25 +8,25 @@ const writeJson = (path, data) => {
     })
 }
 
-// TODO: Update paths
-const PATH_STATEWIDE = './inputs/results/raw/2024_06_10_primary-statewide.xlsx'
-const PATH_LEGISLATIVE = './inputs/results/raw/2024_06_10_primary-legislative.xlsx'
-// TODO: Update races
+// DONE: Update paths
+const PATH_STATEWIDE = './inputs/results/raw/2026_06_12_primary-statewide.xlsx'
+const PATH_LEGISLATIVE = './inputs/results/raw/2026_06_12_primary-legislative.xlsx'
+// DONE: Update races
 const STATEWIDE_RACES_TO_INCLUDE = {
     'UNITED STATES SENATOR': 'us-senate',
-    'US REPRESENTATIVE DIST 1': 'us-house-1',
-    'US REPRESENTATIVE DIST 2': 'us-house-2',
-    'GOVERNOR & LT. GOVERNOR': 'governor',
-    'SECRETARY OF STATE': 'secretary-of-state',
-    'ATTORNEY GENERAL': 'attorney-general',
-    'STATE AUDITOR': 'state-auditor',
+    'UNITED STATES REPRESENTATIVE 1ST CONGRESSIONAL': 'us-house-1',
+    'UNITED STATES REPRESENTATIVE 2ND CONGRESSIONAL': 'us-house-2',
+    // 'GOVERNOR & LT. GOVERNOR': 'governor',
+    // 'SECRETARY OF STATE': 'secretary-of-state',
+    // 'ATTORNEY GENERAL': 'attorney-general',
+    // 'STATE AUDITOR': 'state-auditor',
     'STATE SUPERINTENDENT OF PUBLIC INSTRUCTION': 'superintendent',
-    'PUBLIC SERVICE COMMISSIONER, DISTRICT 2': 'psc-2',
-    'PUBLIC SERVICE COMMISSIONER, DISTRICT 3': 'psc-3',
-    'PUBLIC SERVICE COMMISSIONER, DISTRICT 4': 'psc-4',
-    'CLERK OF THE SUPREME COURT': 'clerk-of-court',
-    'SUPREME COURT CHIEF JUSTICE': 'supco-chief-justice',
-    'SUPREME COURT JUSTICE #3': 'supco-3',
+    'PUBLIC SERVICE COMMISSIONER, DISTRICT 1': 'psc-1',
+    'PUBLIC SERVICE COMMISSIONER, DISTRICT 5': 'psc-5',
+    // 'PUBLIC SERVICE COMMISSIONER, DISTRICT 4': 'psc-4',
+    // 'CLERK OF THE SUPREME COURT': 'clerk-of-court',
+    // 'SUPREME COURT CHIEF JUSTICE': 'supco-chief-justice',
+    'SUPREME COURT JUSTICE #4': 'supco-4',
 }
 
 const NAME_SUBS = {
@@ -85,7 +85,7 @@ async function main() {
     statewide.forEach(d => {
         d.race = STATEWIDE_RACES_TO_INCLUDE[d.race]
     })
-    writeJson('./inputs/results/cleaned/2024-primary-statewide.json', statewide)
+    writeJson('./inputs/results/cleaned/2026-primary-statewide.json', statewide)
 
     const legislativeSheets = await readXlsxFile(PATH_LEGISLATIVE)
     const legislative = legislativeSheets
@@ -96,7 +96,7 @@ async function main() {
             .replace('STATE REPRESENTATIVE DISTRICT ', 'HD-')
             .replace('STATE SENATOR DISTRICT ', 'SD-')
     })
-    writeJson('./inputs/results/cleaned/2024-primary-legislative.json', legislative)
+    writeJson('./inputs/results/cleaned/2026-primary-legislative.json', legislative)
 }
 
 main().catch(console.error)

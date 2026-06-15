@@ -1,6 +1,6 @@
 ### When are Montana’s 2026 elections?
 
-Voters will select party nominees for the November general election in the June 2 primary. The November general election that will decide the ultimate winner in each race is set for Tuesday, Nov. 3.
+Voters selected party nominees for the November general election in the June 2 primary. The November general election that will decide the ultimate winner in each race is set for Tuesday, Nov. 3.
 
 ### Who runs Montana’s elections?
 
@@ -16,7 +16,7 @@ You can register to vote by stopping by your county election office any time dur
 
 ### Can I register to vote on Election Day?
 
-Yes. The 2025 Legislature tried to restrict Election Day voter registration, but a May 11 court order blocked those changes, so, at least through the June 2 primary election, voters can still register to vote up until 8 p.m. on Election Day. 
+Yes. The 2025 Legislature tried to restrict Election Day voter registration, but a May 11 court order blocked those changes, so pending further court action, voters can still register to vote up until 8 p.m. on Election Day. 
 
 ### Does Montana have voter ID requirements?
 

@@ -40,6 +40,22 @@
     "race": "supco-4",
     "raceDisplayName": "State Supreme Court (Seat 4)",
     "party": "NP",
-    "resultsTotal": null
+    "resultsTotal": [
+      {
+        "candidate": "AMY EDDY",
+        "party": "NP",
+        "votes": 140045,
+        "isWinner": true,
+        "votePercent": 0.514009601550342
+      },
+      {
+        "candidate": "DAN WILSON",
+        "party": "NP",
+        "votes": 132411,
+        "isWinner": false,
+        "votePercent": 0.4859903984496579
+      }
+    ],
+    "reportingTime": "6/12/2026 10:57:30 AM"
   }
 }
