@@ -4,10 +4,8 @@ const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fet
 const OUT_PATH = './inputs/coverage/articles.json'
 
 const writeJson = (path, data) => {
-  fs.writeFile(path, JSON.stringify(data, null, 2), err => {
-    if (err) throw err
-    console.log('JSON written to', path)
-  })
+  fs.writeFileSync(path, JSON.stringify(data, null, 2))
+  console.log('JSON written to', path)
 }
 
 const readExistingJson = path => {
@@ -131,9 +129,13 @@ async function main() {
   console.log(`Returned ${filtered.length} excluding tag ${EXCLUDE_TAG}`)
 
   if (filtered.length === 0 && Array.isArray(existing) && existing.length > 0) {
-    console.warn('Coverage API returned zero stories; keeping existing coverage/articles.json data')
+    console.error('ERROR: Coverage API returned zero stories; keeping existing coverage/articles.json data')
     console.log('MTFP articles fetch done (fallback)\n')
     return
+  }
+
+  if (filtered.length === 0) {
+    throw new Error('Coverage API returned zero stories and no previous coverage data is available')
   }
 
   const cleaned = filtered.map(clean)

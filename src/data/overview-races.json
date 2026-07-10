@@ -23,7 +23,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 5,
+        "numMTFParticles": 6,
         "raceSlug": "us-senate"
       },
       {
@@ -32,7 +32,7 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 4,
+        "numMTFParticles": 5,
         "raceSlug": "us-senate"
       },
       {
@@ -41,7 +41,7 @@
         "summaryLine": null,
         "party": "I",
         "hasResponses": true,
-        "numMTFParticles": 7,
+        "numMTFParticles": 9,
         "raceSlug": "us-senate"
       }
     ],
@@ -89,10 +89,10 @@
         "matchType": "name",
         "candidateCommitteeName": "AUSTIN FOR CONGRESS",
         "candidateId": "S6MT00261",
-        "totalReceipts": 262094.97,
-        "totalDisbursments": 233572.46,
-        "cashOnHand": 28522.51,
-        "coverageEndDate": "2026-05-20"
+        "totalReceipts": 262194.97,
+        "totalDisbursments": 242362.46,
+        "cashOnHand": 19832.51,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Alani Bankhead",
@@ -113,10 +113,10 @@
         "matchType": "name",
         "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
         "candidateId": "S4MT00217",
-        "totalReceipts": 12230,
-        "totalDisbursments": 3191.98,
-        "cashOnHand": 9782.75,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 12330,
+        "totalDisbursments": 4447.18,
+        "cashOnHand": 8627.55,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Christopher Kehoe",
@@ -180,15 +180,6 @@
         "hasResponses": true,
         "numMTFParticles": 1,
         "raceSlug": "us-house-1"
-      },
-      {
-        "slug": "kimberly-a-persico",
-        "displayName": "Kimberly A  Persico",
-        "summaryLine": null,
-        "party": "I",
-        "hasResponses": true,
-        "numMTFParticles": 0,
-        "raceSlug": "us-house-1"
       }
     ],
     "finance": [
@@ -199,10 +190,10 @@
         "matchType": "name",
         "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
         "candidateId": "H6MT01145",
-        "totalReceipts": 702446.55,
-        "totalDisbursments": 551915.23,
-        "cashOnHand": 150531.32,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 790340.3,
+        "totalDisbursments": 788347.16,
+        "cashOnHand": 1993.14,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Sam Forstag",
@@ -229,6 +220,18 @@
         "coverageEndDate": "2026-06-10"
       },
       {
+        "displayName": "Russell Cleveland",
+        "candidateSlug": "russell-cleveland",
+        "party": "D",
+        "matchType": "name-first-last",
+        "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
+        "candidateId": "H6MT01103",
+        "totalReceipts": 457635.36,
+        "totalDisbursments": 445912.84,
+        "cashOnHand": 0.04,
+        "coverageEndDate": "2026-06-30"
+      },
+      {
         "displayName": "Christi Jacobsen",
         "candidateSlug": "christi-jacobsen",
         "party": "R",
@@ -238,18 +241,6 @@
         "totalReceipts": 447271,
         "totalDisbursments": 352505.23,
         "cashOnHand": 94765.77,
-        "coverageEndDate": "2026-05-13"
-      },
-      {
-        "displayName": "Russell Cleveland",
-        "candidateSlug": "russell-cleveland",
-        "party": "D",
-        "matchType": "name-first-last",
-        "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
-        "candidateId": "H6MT01103",
-        "totalReceipts": 418450.02,
-        "totalDisbursments": 363895.36,
-        "cashOnHand": 54554.66,
         "coverageEndDate": "2026-05-13"
       },
       {
@@ -321,7 +312,7 @@
         "summaryLine": null,
         "party": "I",
         "hasResponses": true,
-        "numMTFParticles": 1,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-2"
       }
     ],

@@ -4,10 +4,8 @@ const YAML = require('yaml')
 const glob = require('glob')
 
 const writeJson = (path, data) => {
-    fs.writeFile(path, JSON.stringify(data, null, 2), err => {
-        if (err) throw err
-        console.log('JSON written to', path)
-    })
+    fs.writeFileSync(path, JSON.stringify(data, null, 2))
+    console.log('JSON written to', path)
 }
 
 const getCsv = async (path) => {
@@ -42,6 +40,10 @@ const HOST_REPLACE = {
     'pattisonformontana': 'pattisonformontana.com'
 }
 const PARTY_ORDER = ['R', 'D', 'L', 'G', 'I']
+// The Secretary of State changes primary winners from FILED to NOMINATED
+// after certification. Both values represent candidates who should remain in
+// the active input set before it is matched against election results.
+const ACTIVE_FILING_STATUSES = new Set(['FILED', 'NOMINATED'])
 // Current election cycle year (update for each cycle)
 const CYCLE_YEAR = 2026
 const OLD_CYCLE_FIELD = 'in_cycle_2024'
@@ -236,12 +238,42 @@ function candidateNameNormalized(name) {
     return name.toLowerCase().trim()
 }
 
+function hasNonEmptyJsonArray(path) {
+    try {
+        const value = JSON.parse(fs.readFileSync(path, 'utf8'))
+        return Array.isArray(value) && value.length > 0
+    } catch (_err) {
+        return false
+    }
+}
+
+function keepPreviousOutputs(message) {
+    const outputPaths = [
+        './src/data/legislative-candidates.json',
+        './src/data/legislative-districts.json',
+    ]
+
+    console.error(`ERROR: ${message}. Keeping the previous legislative output files.`)
+    if (!outputPaths.every(hasNonEmptyJsonArray)) {
+        throw new Error(`${message}; no valid previous legislative outputs are available`)
+    }
+}
+
 // --- MAIN ---
 
 async function main() {
     let candidates = await getCsv('./inputs/filings/CandidateList.csv')
     const legeDistricts = await getCsv('./inputs/legislative-districts/districts.csv')
     const candidateYmls = collectYmls('./inputs/content/candidates/*.yml')
+
+    if (!Array.isArray(candidates) || candidates.length === 0) {
+        keepPreviousOutputs('CandidateList.csv contained no candidate rows')
+        return
+    }
+    if (!Array.isArray(legeDistricts) || legeDistricts.length === 0) {
+        keepPreviousOutputs('districts.csv contained no legislative districts')
+        return
+    }
 
     const ymlBySlug = new Map(candidateYmls.map(c => [c.slug, c]))
     const ymlByName = new Map(candidateYmls
@@ -275,7 +307,7 @@ async function main() {
 
     // Filter to legislative candidates, clean, and transform
     const allLegislativeCandidates = candidates
-        .filter(d => d.Status === 'FILED')
+        .filter(d => ACTIVE_FILING_STATUSES.has((d.Status || '').trim().toUpperCase()))
         .filter(d => ['Senate', 'House'].includes(d['District Type']))
         .map(d => {
             const name = cleanName(d.Name)
@@ -307,14 +339,28 @@ async function main() {
             }
         })
 
+    if (allLegislativeCandidates.length === 0) {
+        keepPreviousOutputs('CandidateList.csv contained no active FILED or NOMINATED legislative candidates')
+        return
+    }
+
     // Filter to only include primary winners
     const primaryWinnerNames = getPrimaryWinnerNames()
+    if (primaryWinnerNames.size === 0) {
+        keepPreviousOutputs('primary results contained no legislative winners')
+        return
+    }
     const legislativeCandidates = allLegislativeCandidates.filter(candidate => {
         const normalizedName = candidateNameNormalized(candidate.displayName)
         return primaryWinnerNames.has(normalizedName)
     })
 
     console.log(`Filtered from ${allLegislativeCandidates.length} to ${legislativeCandidates.length} primary winners`)
+
+    if (legislativeCandidates.length === 0) {
+        keepPreviousOutputs('no filing records matched the legislative primary winners')
+        return
+    }
 
     // Attach opponents list to each candidate
     const candidateOutput = legislativeCandidates.map(c => ({
@@ -385,9 +431,17 @@ async function main() {
         }
     })
 
+    if (districtOutput.length === 0) {
+        keepPreviousOutputs('legislative district processing produced no districts')
+        return
+    }
+
     console.log(candidateOutput.length, 'legislative candidates')
     writeJson('./src/data/legislative-candidates.json', candidateOutput)
     writeJson('./src/data/legislative-districts.json', districtOutput)
 }
 
-main()
+main().catch(err => {
+    console.error('Legislative candidate processing failed:', err.message)
+    process.exit(1)
+})
