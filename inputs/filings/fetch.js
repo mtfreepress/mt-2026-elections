@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const crypto = require('crypto')
+const { parse } = require('csv-parse/sync')
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args))
 
 // SoS website for candidate filings
@@ -18,6 +19,26 @@ const CSV_HEADERS = [
 ]
 
 const DEFAULT_OUT_PATH = path.join(__dirname, 'CandidateList.csv')
+const ACTIVE_FILING_STATUSES = new Set(['FILED', 'NOMINATED'])
+
+function validateCandidateCsv(csvText) {
+  try {
+    const records = parse(csvText, {
+      bom: true,
+      columns: true,
+      relax_column_count: true,
+      skip_empty_lines: true,
+    })
+    const hasCandidates = records.length > 0
+    const hasLegislativeCandidates = records.some(row =>
+      ['House', 'Senate'].includes(row['District Type'])
+      && ACTIVE_FILING_STATUSES.has((row.Status || '').trim().toUpperCase())
+    )
+    return hasCandidates && hasLegislativeCandidates
+  } catch (_err) {
+    return false
+  }
+}
 
 // html parsing
 
@@ -240,8 +261,9 @@ async function main() {
 
   const hasExpectedHeader = csvText.includes('"Status"') && csvText.includes('"Name"')
   const looksLikeHtmlError = /<html|<!doctype html/i.test(csvText)
-  if (!hasExpectedHeader || looksLikeHtmlError || buf.length < 500) {
-    console.warn('Downloaded CandidateList payload looked invalid or empty; keeping existing CandidateList.csv')
+  const hasUsableCandidateRows = validateCandidateCsv(csvText)
+  if (!hasExpectedHeader || looksLikeHtmlError || buf.length < 500 || !hasUsableCandidateRows) {
+    console.error('ERROR: Downloaded CandidateList payload was invalid or empty; keeping existing CandidateList.csv')
     if (fs.existsSync(outPath)) return
     throw new Error('Downloaded CandidateList payload invalid and no existing fallback file found')
   }
@@ -263,7 +285,7 @@ async function main() {
 
 main().catch(err => {
   if (fs.existsSync(DEFAULT_OUT_PATH)) {
-    console.warn(`Filings fetch failed (${err.message}); keeping existing CandidateList.csv`)
+    console.error(`ERROR: Filings fetch failed (${err.message}); keeping existing CandidateList.csv`)
     process.exit(0)
   }
 

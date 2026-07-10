@@ -9,6 +9,13 @@ const getJson = (path) => JSON.parse(fs.readFileSync(path, 'utf8'))
 const getYml = (path) => YAML.parse(fs.readFileSync(path, 'utf8'))
 const collectYmls = (glob_path) => glob.sync(glob_path).map(getYml)
 
+const requireNonEmptyArray = (data, label) => {
+    if (!Array.isArray(data) || data.length === 0) {
+        console.error(`ERROR: ${label} is empty; keeping the previous generated site data.`)
+        process.exit(1)
+    }
+}
+
 const writeJson = (path, data) => {
     fs.writeFile(path, JSON.stringify(data, null, 2), err => {
         if (err) throw err
@@ -19,6 +26,7 @@ const writeJson = (path, data) => {
 
 const races = getYml('./inputs/content/races.yml')
 const text = getYml('./inputs/content/text.yml')
+requireNonEmptyArray(races, 'inputs/content/races.yml')
 
 // Load manual exclusions — candidates to hide from the site without editing
 // source data. See inputs/content/excluded-candidates.yml for usage notes.
@@ -89,12 +97,16 @@ const candidates = collectYmls('./inputs/content/candidates/*.yml')
         lastName: LAST_NAME_BY_SLUG_OVERRIDE[c.lastName] || c.lastName,
         party: normalizeParty(c.party),
     }))
+requireNonEmptyArray(candidates, 'major-race candidate inputs')
 const ballotInitiatives = getYml('./inputs/content/ballot-initiatives.yml')
 const coverage = getJson('./inputs/coverage/articles.json')
+requireNonEmptyArray(coverage, 'inputs/coverage/articles.json')
 const howToVoteContent = getMD('./inputs/content/how-to-vote.md')
 const federalCampaignFinance = getJson('./inputs/fec/finance.json')
+requireNonEmptyArray(federalCampaignFinance, 'inputs/fec/finance.json')
 // TODO: Update for 2026 cycle
 const primaryResults = getJson('./inputs/results/cleaned/2026-primary-statewide.json')
+requireNonEmptyArray(primaryResults, 'inputs/results/cleaned/2026-primary-statewide.json')
 
 // Primary advancement rules:
 // - default: use `isWinner` from results feed
@@ -172,6 +184,7 @@ const candidatesFilteredByPrimary = candidates.filter(candidate => {
     const candidateNameKey = normalizeNameForMatching(candidate.displayName)
     return primaryWinnerNames.has(candidateNameKey)
 })
+requireNonEmptyArray(candidatesFilteredByPrimary, 'processed major-race candidate list')
 const remainingCandidateSlugs = new Set(candidatesFilteredByPrimary.map(c => c.slug))
 
 console.log(`Filtered from ${candidates.length} to ${candidatesFilteredByPrimary.length} remaining candidates`)
@@ -179,6 +192,7 @@ console.log(candidatesFilteredByPrimary)
 
 // const questionnaires = getJson('./inputs/mtfp-questionnaire/dummy-answers.json')
 const questionnaires = getYml('./inputs/mtfp-questionnaire/copy-edited-answers.yml')
+requireNonEmptyArray(questionnaires, 'inputs/mtfp-questionnaire/copy-edited-answers.yml')
 
 const FEC_DATA_EXCLUDE = [
     // Pre-ballot printing dropouts
@@ -494,6 +508,4 @@ writeJson('./src/data/ballot-initiatives.json', ballotInitiatives) // Pass throu
 writeJson('./src/data/text.json', text) // simple pass through logic for now
 writeJson('./src/data/how-to-vote.json', howToVoteContent)
 writeJson('./src/data/update-time.json', { updateTime: new Date() })
-
-
 

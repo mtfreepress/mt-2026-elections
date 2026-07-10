@@ -23,7 +23,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 7
+    "numMTFParticles": 9
   },
   {
     "slug": "sam-forstag",
@@ -75,7 +75,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 1
+    "numMTFParticles": 2
   },
   {
     "slug": "kyle-austin",
@@ -101,20 +101,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 4
-  },
-  {
-    "slug": "kimberly-a-persico",
-    "displayName": "Kimberly A  Persico",
-    "lastName": "Persico",
-    "summaryLine": null,
-    "party": "I",
-    "raceSlug": "us-house-1",
-    "raceDisplayName": "U.S. House District 1 (West)",
-    "status": "active",
-    "isIncumbent": false,
-    "hasResponses": true,
-    "numMTFParticles": 0
+    "numMTFParticles": 5
   },
   {
     "slug": "kevin-hamm",
@@ -218,7 +205,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 5
+    "numMTFParticles": 6
   },
   {
     "slug": "aaron-flint",

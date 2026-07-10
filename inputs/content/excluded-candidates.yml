@@ -16,7 +16,7 @@
 #     reason: "Why this candidate is being excluded"
 #     since: "YYYY-MM-DD"
 
-# excluded:
-#   - slug: jonathan-windy-boy
-#     reason: "Will be withdrawing per Democratic party statement on 2026-04-16"
-#     since: "2026-04-16"
+excluded:
+  - slug: kimberly-a-persico
+    reason: "Did not collect enough signatures to qualify for the ballot"
+    since: "2026-07-10"

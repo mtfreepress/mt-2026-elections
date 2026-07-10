@@ -21,10 +21,8 @@ const RACES = [
 ]
 
 const writeJson = (path, data) => {
-  fs.writeFile(path, JSON.stringify(data, null, 2), err => {
-    if (err) throw err
-    console.log('JSON written to', path)
-  })
+  fs.writeFileSync(path, JSON.stringify(data, null, 2))
+  console.log('JSON written to', path)
 }
 
 const readExistingJson = path => {
@@ -87,19 +85,19 @@ async function main() {
     }
 
     if (fetched && !hasNonEmptyResults(fetched)) {
-      console.warn(`FEC returned empty results for ${race.raceSlug}; preserving last good local data.`)
+      console.error(`ERROR: FEC returned empty results for ${race.raceSlug}; preserving last good local data.`)
     }
 
     if (existingFinance && hasNonEmptyResults(existingFinance)) {
       return { raceSlug: race.raceSlug, finances: existingFinance }
     }
 
-    console.warn(`No fallback data available for ${race.raceSlug}; writing fetched payload as-is.`)
-    return {
-      raceSlug: race.raceSlug,
-      finances: fetched || existingFinance || { api_version: '1.0', pagination: {}, results: [] },
-    }
+    throw new Error(`FEC returned no results for ${race.raceSlug} and no previous data is available`)
   })
+
+  if (combined.length === 0) {
+    throw new Error('FEC processing produced no race data; keeping existing finance.json')
+  }
 
   writeJson(OUT_PATH, combined)
   console.log('FEC fetch done\n')

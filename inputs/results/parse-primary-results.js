@@ -1,11 +1,12 @@
 const fs = require('fs')
 const readXlsxFile = require('read-excel-file/node')
 
-const writeJson = (path, data) => {
-    fs.writeFile(path, JSON.stringify(data, null, 2), err => {
-        if (err) throw err
-        console.log('JSON written to', path)
-    })
+const writeNonEmptyJson = (path, data, label) => {
+    if (!Array.isArray(data) || data.length === 0) {
+        throw new Error(`${label} processing returned no races; keeping the previous ${path}`)
+    }
+    fs.writeFileSync(path, JSON.stringify(data, null, 2))
+    console.log('JSON written to', path)
 }
 
 // DONE: Update paths
@@ -85,7 +86,7 @@ async function main() {
     statewide.forEach(d => {
         d.race = STATEWIDE_RACES_TO_INCLUDE[d.race]
     })
-    writeJson('./inputs/results/cleaned/2026-primary-statewide.json', statewide)
+    writeNonEmptyJson('./inputs/results/cleaned/2026-primary-statewide.json', statewide, 'Statewide primary result')
 
     const legislativeSheets = await readXlsxFile(PATH_LEGISLATIVE)
     const legislative = legislativeSheets
@@ -96,7 +97,10 @@ async function main() {
             .replace('STATE REPRESENTATIVE DISTRICT ', 'HD-')
             .replace('STATE SENATOR DISTRICT ', 'SD-')
     })
-    writeJson('./inputs/results/cleaned/2026-primary-legislative.json', legislative)
+    writeNonEmptyJson('./inputs/results/cleaned/2026-primary-legislative.json', legislative, 'Legislative primary result')
 }
 
-main().catch(console.error)
+main().catch(err => {
+    console.error('Primary result processing failed:', err.message)
+    process.exit(1)
+})

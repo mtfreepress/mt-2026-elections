@@ -65,15 +65,15 @@
           "candidate_name": "AUSTIN, KYLE",
           "candidate_pcc_id": "C00870352",
           "candidate_pcc_name": "AUSTIN FOR CONGRESS",
-          "cash_on_hand_end_period": 28522.51,
+          "cash_on_hand_end_period": 19832.51,
           "committee_ids": [
             "C00870352"
           ],
-          "coverage_end_date": "2026-05-20",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "LIBERTARIAN PARTY",
-          "total_disbursements": 233572.46,
-          "total_receipts": 262094.97
+          "total_disbursements": 242362.46,
+          "total_receipts": 262194.97
         },
         {
           "candidate_election_year": 2026,
@@ -113,15 +113,15 @@
           "candidate_name": "HUMMERT, MICHAEL",
           "candidate_pcc_id": "C00873166",
           "candidate_pcc_name": "MICHAEL HUMMERT US SENATE CANDIDATE",
-          "cash_on_hand_end_period": 9782.75,
+          "cash_on_hand_end_period": 8627.55,
           "committee_ids": [
             "C00873166"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 3191.98,
-          "total_receipts": 12230
+          "total_disbursements": 4447.18,
+          "total_receipts": 12330
         },
         {
           "candidate_election_year": 2026,
@@ -208,15 +208,15 @@
           "candidate_name": "BUSSE, RYAN",
           "candidate_pcc_id": "C00933473",
           "candidate_pcc_name": "RYAN BUSSE FOR MONTANA",
-          "cash_on_hand_end_period": 150531.32,
+          "cash_on_hand_end_period": 1993.14,
           "committee_ids": [
             "C00933473"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 551915.23,
-          "total_receipts": 702446.55
+          "total_disbursements": 788347.16,
+          "total_receipts": 790340.3
         },
         {
           "candidate_election_year": 2026,
@@ -253,6 +253,22 @@
         },
         {
           "candidate_election_year": 2026,
+          "candidate_id": "H6MT01103",
+          "candidate_name": "CLEVELAND, RUSSELL TYLER",
+          "candidate_pcc_id": "C00902395",
+          "candidate_pcc_name": "CLEVELAND FOR CONGRESS",
+          "cash_on_hand_end_period": 0.04,
+          "committee_ids": [
+            "C00902395"
+          ],
+          "coverage_end_date": "2026-06-30",
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "DEMOCRATIC PARTY",
+          "total_disbursements": 445912.84,
+          "total_receipts": 457635.36
+        },
+        {
+          "candidate_election_year": 2026,
           "candidate_id": "H6MT01160",
           "candidate_name": "JACOBSEN, CHRISTI",
           "candidate_pcc_id": "C00941583",
@@ -266,22 +282,6 @@
           "party_full": "REPUBLICAN PARTY",
           "total_disbursements": 352505.23,
           "total_receipts": 447271
-        },
-        {
-          "candidate_election_year": 2026,
-          "candidate_id": "H6MT01103",
-          "candidate_name": "CLEVELAND, RUSSELL TYLER",
-          "candidate_pcc_id": "C00902395",
-          "candidate_pcc_name": "CLEVELAND FOR CONGRESS",
-          "cash_on_hand_end_period": 54554.66,
-          "committee_ids": [
-            "C00902395"
-          ],
-          "coverage_end_date": "2026-05-13",
-          "incumbent_challenge_full": "Open seat",
-          "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 363895.36,
-          "total_receipts": 418450.02
         },
         {
           "candidate_election_year": 2026,

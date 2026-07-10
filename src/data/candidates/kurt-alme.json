@@ -44,6 +44,23 @@
   ],
   "coverage": [
     {
+      "title": "Bodnar’s big gamble: Why the independent is pushing for Montana’s nonpartisan era",
+      "date": "2026-06-26T12:33:45",
+      "link": "https://montanafreepress.org/2026/06/26/how-seth-bodnar-plans-to-become-montana-first-nonpartisan-u-s-senator/",
+      "tags": [
+        "2026 elections",
+        "Kurt Alme",
+        "Michael Eisenhauer",
+        "seth bodnar",
+        "U.S. Senate"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260307lm-sethbodnar-0005-jpg/",
+      "author": "Brad Tyer"
+    },
+    {
       "title": "Alani Bankhead’s bankroll bind",
       "date": "2026-06-12T14:12:41",
       "link": "https://montanafreepress.org/2026/06/12/alani-bankheads-bankroll-bind/",
@@ -164,10 +181,10 @@
       "matchType": "name",
       "candidateCommitteeName": "AUSTIN FOR CONGRESS",
       "candidateId": "S6MT00261",
-      "totalReceipts": 262094.97,
-      "totalDisbursments": 233572.46,
-      "cashOnHand": 28522.51,
-      "coverageEndDate": "2026-05-20",
+      "totalReceipts": 262194.97,
+      "totalDisbursments": 242362.46,
+      "cashOnHand": 19832.51,
+      "coverageEndDate": "2026-06-30",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
