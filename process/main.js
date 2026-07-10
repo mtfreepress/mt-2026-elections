@@ -93,7 +93,7 @@ const ballotInitiatives = getYml('./inputs/content/ballot-initiatives.yml')
 const coverage = getJson('./inputs/coverage/articles.json')
 const howToVoteContent = getMD('./inputs/content/how-to-vote.md')
 const federalCampaignFinance = getJson('./inputs/fec/finance.json')
-// TODO: Update for 2026 cycle
+// DONE: Update for 2026 cycle
 const primaryResults = getJson('./inputs/results/cleaned/2026-primary-statewide.json')
 
 // Primary advancement rules:
