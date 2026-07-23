@@ -17,15 +17,15 @@
           "candidate_name": "BODNAR, SETH",
           "candidate_pcc_id": "C00941708",
           "candidate_pcc_name": "SETH BODNAR FOR MONTANA",
-          "cash_on_hand_end_period": 963921.32,
+          "cash_on_hand_end_period": 977779.31,
           "committee_ids": [
             "C00941708"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "INDEPENDENT",
-          "total_disbursements": 1149309.96,
-          "total_receipts": 2113231.28
+          "total_disbursements": 2260371.43,
+          "total_receipts": 3238150.74
         },
         {
           "candidate_election_year": 2026,
@@ -33,15 +33,15 @@
           "candidate_name": "ALME, KURT",
           "candidate_pcc_id": "C00942060",
           "candidate_pcc_name": "ALME FOR SENATE",
-          "cash_on_hand_end_period": 922252.67,
+          "cash_on_hand_end_period": 1450718.79,
           "committee_ids": [
             "C00942060"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "REPUBLICAN PARTY",
-          "total_disbursements": 261874.72,
-          "total_receipts": 1184127.39
+          "total_disbursements": 534142.12,
+          "total_receipts": 1984860.91
         },
         {
           "candidate_election_year": 2026,
@@ -49,15 +49,15 @@
           "candidate_name": "NEILL, REILLY",
           "candidate_pcc_id": "C00892505",
           "candidate_pcc_name": "REILLY FOR MONTANA",
-          "cash_on_hand_end_period": 73352.59,
+          "cash_on_hand_end_period": 24307.72,
           "committee_ids": [
             "C00892505"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 220637.41,
-          "total_receipts": 293990
+          "total_disbursements": 274669.83,
+          "total_receipts": 298977.55
         },
         {
           "candidate_election_year": 2026,
@@ -77,6 +77,22 @@
         },
         {
           "candidate_election_year": 2026,
+          "candidate_id": "S6MT00253",
+          "candidate_name": "BANKHEAD, ALANI INES",
+          "candidate_pcc_id": "C00937201",
+          "candidate_pcc_name": "FRIENDS OF ALANI BANKHEAD",
+          "cash_on_hand_end_period": 21484.67,
+          "committee_ids": [
+            "C00937201"
+          ],
+          "coverage_end_date": "2026-06-30",
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "DEMOCRATIC PARTY",
+          "total_disbursements": 37011.39,
+          "total_receipts": 58829.06
+        },
+        {
+          "candidate_election_year": 2026,
           "candidate_id": "S6MT00246",
           "candidate_name": "BLACKWOLF, MICHAEL JAMES MR.",
           "candidate_pcc_id": "C00919936",
@@ -90,22 +106,6 @@
           "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 25616.21,
           "total_receipts": 26144
-        },
-        {
-          "candidate_election_year": 2026,
-          "candidate_id": "S6MT00253",
-          "candidate_name": "BANKHEAD, ALANI INES",
-          "candidate_pcc_id": "C00937201",
-          "candidate_pcc_name": "FRIENDS OF ALANI BANKHEAD",
-          "cash_on_hand_end_period": 13737.42,
-          "committee_ids": [
-            "C00937201"
-          ],
-          "coverage_end_date": "2026-05-13",
-          "incumbent_challenge_full": "Open seat",
-          "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 11306.73,
-          "total_receipts": 23884.15
         },
         {
           "candidate_election_year": 2026,
@@ -204,6 +204,39 @@
       "results": [
         {
           "candidate_election_year": 2026,
+          "candidate_id": "H6MT01137",
+          "candidate_name": "FORSTAG, SAMUEL KELLEY",
+          "candidate_pcc_id": "C00932822",
+          "candidate_pcc_name": "SAM FOR MONTANA",
+          "cash_on_hand_end_period": 550079.11,
+          "committee_ids": [
+            "C00932822"
+          ],
+          "coverage_end_date": "2026-06-30",
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "DEMOCRATIC PARTY",
+          "total_disbursements": 832794.19,
+          "total_receipts": 1382873.3
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "H6MT01152",
+          "candidate_name": "FLINT, AARON",
+          "candidate_pcc_id": "C00941575",
+          "candidate_pcc_name": "FLINT FOR MONTANA",
+          "cash_on_hand_end_period": 502201.11,
+          "committee_ids": [
+            "C00941575",
+            "C00941963"
+          ],
+          "coverage_end_date": "2026-06-30",
+          "incumbent_challenge_full": "Open seat",
+          "party_full": "REPUBLICAN PARTY",
+          "total_disbursements": 801192.61,
+          "total_receipts": 1303393.72
+        },
+        {
+          "candidate_election_year": 2026,
           "candidate_id": "H6MT01145",
           "candidate_name": "BUSSE, RYAN",
           "candidate_pcc_id": "C00933473",
@@ -220,36 +253,19 @@
         },
         {
           "candidate_election_year": 2026,
-          "candidate_id": "H6MT01137",
-          "candidate_name": "FORSTAG, SAMUEL KELLEY",
-          "candidate_pcc_id": "C00932822",
-          "candidate_pcc_name": "SAM FOR MONTANA",
-          "cash_on_hand_end_period": 161437.13,
+          "candidate_id": "H6MT01160",
+          "candidate_name": "JACOBSEN, CHRISTI",
+          "candidate_pcc_id": "C00941583",
+          "candidate_pcc_name": "CHRISTI JACOBSEN FOR CONGRESS",
+          "cash_on_hand_end_period": 1705.06,
           "committee_ids": [
-            "C00932822"
+            "C00941583"
           ],
-          "coverage_end_date": "2026-05-13",
-          "incumbent_challenge_full": "Open seat",
-          "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 533132.46,
-          "total_receipts": 694569.59
-        },
-        {
-          "candidate_election_year": 2026,
-          "candidate_id": "H6MT01152",
-          "candidate_name": "FLINT, AARON",
-          "candidate_pcc_id": "C00941575",
-          "candidate_pcc_name": "FLINT FOR MONTANA",
-          "cash_on_hand_end_period": 384673.66,
-          "committee_ids": [
-            "C00941575",
-            "C00941963"
-          ],
-          "coverage_end_date": "2026-06-10",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "REPUBLICAN PARTY",
-          "total_disbursements": 299577.16,
-          "total_receipts": 684250.82
+          "total_disbursements": 551038.4,
+          "total_receipts": 552743.46
         },
         {
           "candidate_election_year": 2026,
@@ -269,35 +285,19 @@
         },
         {
           "candidate_election_year": 2026,
-          "candidate_id": "H6MT01160",
-          "candidate_name": "JACOBSEN, CHRISTI",
-          "candidate_pcc_id": "C00941583",
-          "candidate_pcc_name": "CHRISTI JACOBSEN FOR CONGRESS",
-          "cash_on_hand_end_period": 94765.77,
-          "committee_ids": [
-            "C00941583"
-          ],
-          "coverage_end_date": "2026-05-13",
-          "incumbent_challenge_full": "Open seat",
-          "party_full": "REPUBLICAN PARTY",
-          "total_disbursements": 352505.23,
-          "total_receipts": 447271
-        },
-        {
-          "candidate_election_year": 2026,
           "candidate_id": "H2MT02084",
           "candidate_name": "OLSZEWSKI, ALBERT",
           "candidate_pcc_id": "C00783381",
           "candidate_pcc_name": "AL FOR MONTANA",
-          "cash_on_hand_end_period": 104010.28,
+          "cash_on_hand_end_period": 0,
           "committee_ids": [
             "C00783381"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "REPUBLICAN PARTY",
-          "total_disbursements": 317276.38,
-          "total_receipts": 411337.59
+          "total_disbursements": 436921.66,
+          "total_receipts": 426972.59
         },
         {
           "candidate_election_year": 2026,
@@ -305,15 +305,15 @@
           "candidate_name": "RAINS, MATTHEW",
           "candidate_pcc_id": "C00924258",
           "candidate_pcc_name": "MATT RAINS FOR MONTANA",
-          "cash_on_hand_end_period": 34305.49,
+          "cash_on_hand_end_period": 33976.35,
           "committee_ids": [
             "C00924258"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 230813.5,
-          "total_receipts": 265118.99
+          "total_disbursements": 238593.09,
+          "total_receipts": 272569.44
         }
       ]
     }
@@ -323,7 +323,7 @@
     "finances": {
       "api_version": "1.0",
       "pagination": {
-        "count": 5,
+        "count": 6,
         "is_count_exact": true,
         "page": 1,
         "pages": 1,
@@ -336,15 +336,15 @@
           "candidate_name": "DOWNING, TROY",
           "candidate_pcc_id": "C00855288",
           "candidate_pcc_name": "TROY DOWNING FOR CONGRESS",
-          "cash_on_hand_end_period": 393570.28,
+          "cash_on_hand_end_period": 650464.37,
           "committee_ids": [
             "C00855288"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Incumbent",
           "party_full": "REPUBLICAN PARTY",
-          "total_disbursements": 1512717.48,
-          "total_receipts": 1794757.26
+          "total_disbursements": 1588993.08,
+          "total_receipts": 2127926.95
         },
         {
           "candidate_election_year": 2026,
@@ -352,15 +352,15 @@
           "candidate_name": "EISENHAUER, MICHAEL D. DR.",
           "candidate_pcc_id": "C00930750",
           "candidate_pcc_name": "EISENHAUER FOR CONGRESS",
-          "cash_on_hand_end_period": 135761.54,
+          "cash_on_hand_end_period": 140121.56,
           "committee_ids": [
             "C00930750"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Challenger",
           "party_full": "INDEPENDENT",
-          "total_disbursements": 124165.76,
-          "total_receipts": 259927.3
+          "total_disbursements": 164059.59,
+          "total_receipts": 296252.93
         },
         {
           "candidate_election_year": 2026,
@@ -368,15 +368,15 @@
           "candidate_name": "MILLER, BRIAN JAMES",
           "candidate_pcc_id": "C00922831",
           "candidate_pcc_name": "MILLER FOR CONGRESS",
-          "cash_on_hand_end_period": 5600.09,
+          "cash_on_hand_end_period": 3165.53,
           "committee_ids": [
             "C00922831"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Challenger",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 9404.93,
-          "total_receipts": 16195.25
+          "total_disbursements": 14573,
+          "total_receipts": 19173.73
         },
         {
           "candidate_election_year": 2026,
@@ -384,15 +384,15 @@
           "candidate_name": "LUX, SAM",
           "candidate_pcc_id": "C00913327",
           "candidate_pcc_name": "LUX FOR MONTANA",
-          "cash_on_hand_end_period": 942.69,
+          "cash_on_hand_end_period": 5675.02,
           "committee_ids": [
             "C00913327"
           ],
-          "coverage_end_date": "2026-05-13",
+          "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Challenger",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 8845.02,
-          "total_receipts": 9610.76
+          "total_disbursements": 9584.69,
+          "total_receipts": 15082.76
         },
         {
           "candidate_election_year": 2026,
@@ -407,6 +407,22 @@
           "coverage_end_date": null,
           "incumbent_challenge_full": "Challenger",
           "party_full": "LIBERTARIAN PARTY",
+          "total_disbursements": 0,
+          "total_receipts": 0
+        },
+        {
+          "candidate_election_year": 2026,
+          "candidate_id": "H6MT02226",
+          "candidate_name": "WINDY BOY, JONATHAN MR.",
+          "candidate_pcc_id": "C00941757",
+          "candidate_pcc_name": "WINDYBOY4CONGRESS",
+          "cash_on_hand_end_period": 0,
+          "committee_ids": [
+            "C00941757"
+          ],
+          "coverage_end_date": null,
+          "incumbent_challenge_full": "Challenger",
+          "party_full": "DEMOCRATIC PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
         }

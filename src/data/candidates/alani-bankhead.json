@@ -44,6 +44,29 @@
   ],
   "coverage": [
     {
+      "title": "Campaign finance filings show Democrats — except Sam Forstag — far behind",
+      "date": "2026-07-16T16:03:49",
+      "link": "https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Alani Bankhead",
+        "Brian Miller",
+        "Kurt Alme",
+        "Kyle Austin",
+        "Nick Sheedy",
+        "Patrick McCracken",
+        "Sam Forstag",
+        "seth bodnar",
+        "Troy Downing. Michael Eisenhauer"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/untitled-design-12-2/",
+      "author": "Tom Lutey"
+    },
+    {
       "title": "Mystery PAC that boosted Bankhead exits Senate race, leaving a financial void",
       "date": "2026-07-06T07:00:00",
       "link": "https://montanafreepress.org/2026/07/06/mystery-pac-that-boosted-bankhead-exits-senate-race-leaving-a-financial-void/",
@@ -177,10 +200,10 @@
       "matchType": "name",
       "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
       "candidateId": "S6MT00287",
-      "totalReceipts": 2113231.28,
-      "totalDisbursments": 1149309.96,
-      "cashOnHand": 963921.32,
-      "coverageEndDate": "2026-05-13",
+      "totalReceipts": 3238150.74,
+      "totalDisbursments": 2260371.43,
+      "cashOnHand": 977779.31,
+      "coverageEndDate": "2026-06-30",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -191,10 +214,10 @@
       "matchType": "name",
       "candidateCommitteeName": "ALME FOR SENATE",
       "candidateId": "S6MT00295",
-      "totalReceipts": 1184127.39,
-      "totalDisbursments": 261874.72,
-      "cashOnHand": 922252.67,
-      "coverageEndDate": "2026-05-13",
+      "totalReceipts": 1984860.91,
+      "totalDisbursments": 534142.12,
+      "cashOnHand": 1450718.79,
+      "coverageEndDate": "2026-06-30",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -219,10 +242,10 @@
       "matchType": "name-first-last",
       "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
       "candidateId": "S6MT00253",
-      "totalReceipts": 23884.15,
-      "totalDisbursments": 11306.73,
-      "cashOnHand": 13737.42,
-      "coverageEndDate": "2026-05-13",
+      "totalReceipts": 58829.06,
+      "totalDisbursments": 37011.39,
+      "cashOnHand": 21484.67,
+      "coverageEndDate": "2026-06-30",
       "isThisCandidate": true,
       "candidateStatus": "active"
     }

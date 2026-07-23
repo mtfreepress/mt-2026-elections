@@ -38,6 +38,29 @@
   ],
   "coverage": [
     {
+      "title": "Campaign finance filings show Democrats — except Sam Forstag — far behind",
+      "date": "2026-07-16T16:03:49",
+      "link": "https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Alani Bankhead",
+        "Brian Miller",
+        "Kurt Alme",
+        "Kyle Austin",
+        "Nick Sheedy",
+        "Patrick McCracken",
+        "Sam Forstag",
+        "seth bodnar",
+        "Troy Downing. Michael Eisenhauer"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/untitled-design-12-2/",
+      "author": "Tom Lutey"
+    },
+    {
       "title": "What the June 2 primary results tell us about politics in Montana",
       "date": "2026-06-05T16:27:26",
       "link": "https://montanafreepress.org/2026/06/05/5-takeaways-montana-primary-election/",
@@ -135,10 +158,10 @@
       "matchType": "override-id",
       "candidateCommitteeName": "SAM FOR MONTANA",
       "candidateId": "H6MT01137",
-      "totalReceipts": 694569.59,
-      "totalDisbursments": 533132.46,
-      "cashOnHand": 161437.13,
-      "coverageEndDate": "2026-05-13",
+      "totalReceipts": 1382873.3,
+      "totalDisbursments": 832794.19,
+      "cashOnHand": 550079.11,
+      "coverageEndDate": "2026-06-30",
       "isThisCandidate": true,
       "candidateStatus": "active"
     },
@@ -149,10 +172,10 @@
       "matchType": "name",
       "candidateCommitteeName": "FLINT FOR MONTANA",
       "candidateId": "H6MT01152",
-      "totalReceipts": 684250.82,
-      "totalDisbursments": 299577.16,
-      "cashOnHand": 384673.66,
-      "coverageEndDate": "2026-06-10",
+      "totalReceipts": 1303393.72,
+      "totalDisbursments": 801192.61,
+      "cashOnHand": 502201.11,
+      "coverageEndDate": "2026-06-30",
       "isThisCandidate": false,
       "candidateStatus": "active"
     }

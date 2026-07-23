@@ -44,6 +44,29 @@
   ],
   "coverage": [
     {
+      "title": "Campaign finance filings show Democrats — except Sam Forstag — far behind",
+      "date": "2026-07-16T16:03:49",
+      "link": "https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Alani Bankhead",
+        "Brian Miller",
+        "Kurt Alme",
+        "Kyle Austin",
+        "Nick Sheedy",
+        "Patrick McCracken",
+        "Sam Forstag",
+        "seth bodnar",
+        "Troy Downing. Michael Eisenhauer"
+      ],
+      "categories": [
+        "2026 elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/untitled-design-12-2/",
+      "author": "Tom Lutey"
+    },
+    {
       "title": "Is Montana having a Libertarian moment?",
       "date": "2026-03-18T07:00:00",
       "link": "https://montanafreepress.org/2026/03/18/is-montana-having-a-libertarian-moment/",
@@ -71,10 +94,10 @@
       "matchType": "name",
       "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
       "candidateId": "H4MT02098",
-      "totalReceipts": 1794757.26,
-      "totalDisbursments": 1512717.48,
-      "cashOnHand": 393570.28,
-      "coverageEndDate": "2026-05-13",
+      "totalReceipts": 2127926.95,
+      "totalDisbursments": 1588993.08,
+      "cashOnHand": 650464.37,
+      "coverageEndDate": "2026-06-30",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -85,10 +108,10 @@
       "matchType": "name",
       "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
       "candidateId": "H6MT02168",
-      "totalReceipts": 259927.3,
-      "totalDisbursments": 124165.76,
-      "cashOnHand": 135761.54,
-      "coverageEndDate": "2026-05-13",
+      "totalReceipts": 296252.93,
+      "totalDisbursments": 164059.59,
+      "cashOnHand": 140121.56,
+      "coverageEndDate": "2026-06-30",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
@@ -99,10 +122,10 @@
       "matchType": "name-first-last",
       "candidateCommitteeName": "MILLER FOR CONGRESS",
       "candidateId": "H6MT02150",
-      "totalReceipts": 16195.25,
-      "totalDisbursments": 9404.93,
-      "cashOnHand": 5600.09,
-      "coverageEndDate": "2026-05-13",
+      "totalReceipts": 19173.73,
+      "totalDisbursments": 14573,
+      "cashOnHand": 3165.53,
+      "coverageEndDate": "2026-06-30",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },

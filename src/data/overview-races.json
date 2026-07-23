@@ -14,7 +14,7 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 2,
+        "numMTFParticles": 3,
         "raceSlug": "us-senate"
       },
       {
@@ -23,7 +23,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 7,
+        "numMTFParticles": 8,
         "raceSlug": "us-senate"
       },
       {
@@ -32,7 +32,7 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 6,
+        "numMTFParticles": 7,
         "raceSlug": "us-senate"
       },
       {
@@ -41,7 +41,7 @@
         "summaryLine": null,
         "party": "I",
         "hasResponses": true,
-        "numMTFParticles": 10,
+        "numMTFParticles": 11,
         "raceSlug": "us-senate"
       }
     ],
@@ -53,10 +53,10 @@
         "matchType": "name",
         "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
         "candidateId": "S6MT00287",
-        "totalReceipts": 2113231.28,
-        "totalDisbursments": 1149309.96,
-        "cashOnHand": 963921.32,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 3238150.74,
+        "totalDisbursments": 2260371.43,
+        "cashOnHand": 977779.31,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Kurt Alme",
@@ -65,10 +65,10 @@
         "matchType": "name",
         "candidateCommitteeName": "ALME FOR SENATE",
         "candidateId": "S6MT00295",
-        "totalReceipts": 1184127.39,
-        "totalDisbursments": 261874.72,
-        "cashOnHand": 922252.67,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 1984860.91,
+        "totalDisbursments": 534142.12,
+        "cashOnHand": 1450718.79,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Reilly Neill",
@@ -77,10 +77,10 @@
         "matchType": "override-id",
         "candidateCommitteeName": "REILLY FOR MONTANA",
         "candidateId": "S6MT00238",
-        "totalReceipts": 293990,
-        "totalDisbursments": 220637.41,
-        "cashOnHand": 73352.59,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 298977.55,
+        "totalDisbursments": 274669.83,
+        "cashOnHand": 24307.72,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Kyle Austin",
@@ -101,10 +101,10 @@
         "matchType": "name-first-last",
         "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
         "candidateId": "S6MT00253",
-        "totalReceipts": 23884.15,
-        "totalDisbursments": 11306.73,
-        "cashOnHand": 13737.42,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 58829.06,
+        "totalDisbursments": 37011.39,
+        "cashOnHand": 21484.67,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Michael Hummert",
@@ -160,7 +160,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 4,
+        "numMTFParticles": 5,
         "raceSlug": "us-house-1"
       },
       {
@@ -169,7 +169,7 @@
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
-        "numMTFParticles": 5,
+        "numMTFParticles": 6,
         "raceSlug": "us-house-1"
       },
       {
@@ -178,11 +178,35 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 1,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-1"
       }
     ],
     "finance": [
+      {
+        "displayName": "Sam Forstag",
+        "candidateSlug": "sam-forstag",
+        "party": "D",
+        "matchType": "override-id",
+        "candidateCommitteeName": "SAM FOR MONTANA",
+        "candidateId": "H6MT01137",
+        "totalReceipts": 1382873.3,
+        "totalDisbursments": 832794.19,
+        "cashOnHand": 550079.11,
+        "coverageEndDate": "2026-06-30"
+      },
+      {
+        "displayName": "Aaron Flint",
+        "candidateSlug": "aaron-flint",
+        "party": "R",
+        "matchType": "name",
+        "candidateCommitteeName": "FLINT FOR MONTANA",
+        "candidateId": "H6MT01152",
+        "totalReceipts": 1303393.72,
+        "totalDisbursments": 801192.61,
+        "cashOnHand": 502201.11,
+        "coverageEndDate": "2026-06-30"
+      },
       {
         "displayName": "Ryan Busse",
         "candidateSlug": "ryan-busse",
@@ -196,28 +220,16 @@
         "coverageEndDate": "2026-06-30"
       },
       {
-        "displayName": "Sam Forstag",
-        "candidateSlug": "sam-forstag",
-        "party": "D",
-        "matchType": "override-id",
-        "candidateCommitteeName": "SAM FOR MONTANA",
-        "candidateId": "H6MT01137",
-        "totalReceipts": 694569.59,
-        "totalDisbursments": 533132.46,
-        "cashOnHand": 161437.13,
-        "coverageEndDate": "2026-05-13"
-      },
-      {
-        "displayName": "Aaron Flint",
-        "candidateSlug": "aaron-flint",
+        "displayName": "Christi Jacobsen",
+        "candidateSlug": "christi-jacobsen",
         "party": "R",
         "matchType": "name",
-        "candidateCommitteeName": "FLINT FOR MONTANA",
-        "candidateId": "H6MT01152",
-        "totalReceipts": 684250.82,
-        "totalDisbursments": 299577.16,
-        "cashOnHand": 384673.66,
-        "coverageEndDate": "2026-06-10"
+        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
+        "candidateId": "H6MT01160",
+        "totalReceipts": 552743.46,
+        "totalDisbursments": 551038.4,
+        "cashOnHand": 1705.06,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Russell Cleveland",
@@ -232,28 +244,16 @@
         "coverageEndDate": "2026-06-30"
       },
       {
-        "displayName": "Christi Jacobsen",
-        "candidateSlug": "christi-jacobsen",
-        "party": "R",
-        "matchType": "name",
-        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
-        "candidateId": "H6MT01160",
-        "totalReceipts": 447271,
-        "totalDisbursments": 352505.23,
-        "cashOnHand": 94765.77,
-        "coverageEndDate": "2026-05-13"
-      },
-      {
         "displayName": "Al 'Doc' Olszewski",
         "candidateSlug": "al-doc-olszewski",
         "party": "R",
         "matchType": "override-id",
         "candidateCommitteeName": "AL FOR MONTANA",
         "candidateId": "H2MT02084",
-        "totalReceipts": 411337.59,
-        "totalDisbursments": 317276.38,
-        "cashOnHand": 104010.28,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 426972.59,
+        "totalDisbursments": 436921.66,
+        "cashOnHand": 0,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Matt Rains",
@@ -262,10 +262,10 @@
         "matchType": "override-id",
         "candidateCommitteeName": "MATT RAINS FOR MONTANA",
         "candidateId": "H0MT00116",
-        "totalReceipts": 265118.99,
-        "totalDisbursments": 230813.5,
-        "cashOnHand": 34305.49,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 272569.44,
+        "totalDisbursments": 238593.09,
+        "cashOnHand": 33976.35,
+        "coverageEndDate": "2026-06-30"
       }
     ],
     "inactiveCandidates": []
@@ -285,7 +285,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 5,
+        "numMTFParticles": 6,
         "raceSlug": "us-house-2"
       },
       {
@@ -303,7 +303,7 @@
         "summaryLine": null,
         "party": "L",
         "hasResponses": true,
-        "numMTFParticles": 1,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-2"
       },
       {
@@ -324,10 +324,10 @@
         "matchType": "name",
         "candidateCommitteeName": "TROY DOWNING FOR CONGRESS",
         "candidateId": "H4MT02098",
-        "totalReceipts": 1794757.26,
-        "totalDisbursments": 1512717.48,
-        "cashOnHand": 393570.28,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 2127926.95,
+        "totalDisbursments": 1588993.08,
+        "cashOnHand": 650464.37,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Michael D Eisenhauer",
@@ -336,10 +336,10 @@
         "matchType": "name",
         "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
         "candidateId": "H6MT02168",
-        "totalReceipts": 259927.3,
-        "totalDisbursments": 124165.76,
-        "cashOnHand": 135761.54,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 296252.93,
+        "totalDisbursments": 164059.59,
+        "cashOnHand": 140121.56,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Brian J Miller",
@@ -348,10 +348,10 @@
         "matchType": "name-first-last",
         "candidateCommitteeName": "MILLER FOR CONGRESS",
         "candidateId": "H6MT02150",
-        "totalReceipts": 16195.25,
-        "totalDisbursments": 9404.93,
-        "cashOnHand": 5600.09,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 19173.73,
+        "totalDisbursments": 14573,
+        "cashOnHand": 3165.53,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Sam Lux",
@@ -360,10 +360,10 @@
         "matchType": "name",
         "candidateCommitteeName": "LUX FOR MONTANA",
         "candidateId": "H6MT02143",
-        "totalReceipts": 9610.76,
-        "totalDisbursments": 8845.02,
-        "cashOnHand": 942.69,
-        "coverageEndDate": "2026-05-13"
+        "totalReceipts": 15082.76,
+        "totalDisbursments": 9584.69,
+        "cashOnHand": 5675.02,
+        "coverageEndDate": "2026-06-30"
       },
       {
         "displayName": "Patrick McCracken",
@@ -372,6 +372,18 @@
         "matchType": "name-first-last",
         "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
         "candidateId": "H6MT02176",
+        "totalReceipts": 0,
+        "totalDisbursments": 0,
+        "cashOnHand": 0,
+        "coverageEndDate": null
+      },
+      {
+        "displayName": "Jonathan Windy Boy",
+        "candidateSlug": "jonathan-windy-boy",
+        "party": "D",
+        "matchType": "override-id",
+        "candidateCommitteeName": "WINDYBOY4CONGRESS",
+        "candidateId": "H6MT02226",
         "totalReceipts": 0,
         "totalDisbursments": 0,
         "cashOnHand": 0,

@@ -20,7 +20,7 @@
     "party": "I",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 10,
+    "numMTFParticles": 11,
     "cap_tracker_2025_link": null
   },
   {
@@ -32,7 +32,7 @@
     "party": "D",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 4,
+    "numMTFParticles": 5,
     "cap_tracker_2025_link": null
   },
   {
@@ -44,7 +44,7 @@
     "party": "L",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 1,
+    "numMTFParticles": 2,
     "cap_tracker_2025_link": null
   },
   {
@@ -56,7 +56,7 @@
     "party": "L",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 1,
+    "numMTFParticles": 2,
     "cap_tracker_2025_link": null
   },
   {
@@ -80,7 +80,7 @@
     "party": "L",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 2,
+    "numMTFParticles": 3,
     "cap_tracker_2025_link": null
   },
   {
@@ -92,7 +92,7 @@
     "party": "R",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 6,
+    "numMTFParticles": 7,
     "cap_tracker_2025_link": null
   },
   {
@@ -140,7 +140,7 @@
     "party": "D",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 5,
+    "numMTFParticles": 6,
     "cap_tracker_2025_link": null
   },
   {
@@ -188,7 +188,7 @@
     "party": "D",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 7,
+    "numMTFParticles": 8,
     "cap_tracker_2025_link": null
   },
   {
@@ -200,7 +200,7 @@
     "party": "R",
     "status": "active",
     "hasResponses": true,
-    "numMTFParticles": 5,
+    "numMTFParticles": 6,
     "cap_tracker_2025_link": null
   }
 ]
