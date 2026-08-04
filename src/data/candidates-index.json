@@ -23,7 +23,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 11
+    "numMTFParticles": 13
   },
   {
     "slug": "sam-forstag",
@@ -101,7 +101,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 7
+    "numMTFParticles": 9
   },
   {
     "slug": "kevin-hamm",
@@ -205,7 +205,7 @@
     "status": "active",
     "isIncumbent": false,
     "hasResponses": true,
-    "numMTFParticles": 8
+    "numMTFParticles": 10
   },
   {
     "slug": "aaron-flint",
