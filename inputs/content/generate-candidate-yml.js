@@ -4,6 +4,11 @@ const path = require('path')
 const CSV_INPUT = path.join(__dirname, '..', 'filings', 'CandidateList.csv')
 const OUT_DIR   = path.join(__dirname, 'candidates')
 
+// The Secretary of State changes primary winners from FILED to NOMINATED.
+// Both statuses remain active for the general-election guide; primary losers
+// are removed later by process/main.js using the certified results.
+const ACTIVE_CANDIDATE_STATUSES = new Set(['FILED', 'NOMINATED', 'PENDING PETITION'])
+
 function parseCsvRow(line) {
   const cells = []
   let i = 0
@@ -72,12 +77,18 @@ function getDisplayName(name) {
 
 // website parsing
 
-const EMPTY_SITE_VALUES = new Set(['not provided', 'na', '', 'N/A'])
+// Values are compared after trimming and lowercasing.
+const EMPTY_SITE_VALUES = new Set(['', 'not provided', 'na', 'n/a', 'none'])
 
 // Known host typos/omissions to substitute (lowercase keys, no protocol/www/trailing slash)
 const HOST_REPLACE = {
+  'albus for senate': 'albusformontana.com',
+  'gregoblander4montana': 'gregoblander4montana.com',
   'peeformontana.com': 'peteformontana.com',
   'pattisonformontana': 'pattisonformontana.com',
+  'weberforhd19': 'weberforhd19.com',
+  'wwwbenkuiperforlegislature.com': 'www.benkuiperforlegislature.com',
+  'zackformontana': 'zackformontana.com',
 }
 
 function normalizeHost(raw) {
@@ -98,15 +109,30 @@ function applyHostReplace(url) {
 }
 
 function parseWebsite(emailWeb) {
-  const parts = emailWeb.split('<br />')
+  const parts = emailWeb.split(/<br\s*\/?>/i)
   if (parts.length < 2) return ''
   const raw = parts[1].trim()
-  if (EMPTY_SITE_VALUES.has(raw.toLowerCase())) return ''
+  const normalizedRaw = raw.toLowerCase()
+  if (EMPTY_SITE_VALUES.has(normalizedRaw)) return ''
   // already has a scheme
-  const url = raw.toLowerCase().startsWith('http')
-    ? raw.toLowerCase()
-    : 'https://' + raw.toLowerCase()
-  return applyHostReplace(url)
+  const url = normalizedRaw.startsWith('http')
+    ? normalizedRaw
+    : 'https://' + normalizedRaw
+  const correctedUrl = applyHostReplace(url)
+
+  try {
+    const parsed = new URL(correctedUrl)
+    const isHttp = parsed.protocol === 'http:' || parsed.protocol === 'https:'
+    const hasDomainSuffix = parsed.hostname.includes('.')
+    if (isHttp && hasDomainSuffix && !/\s/.test(parsed.hostname)) {
+      return correctedUrl
+    }
+  } catch (_err) {
+    // Invalid values are reported below and omitted from generated YAML.
+  }
+
+  console.warn(`  WARNING: skipping invalid campaign website value "${raw}"`)
+  return ''
 }
 
 // party mapping
@@ -237,14 +263,12 @@ const RACE_META = [
 ]
 
 function buildRacesYml(all) {
-  const ACTIVE_STATUSES = new Set(['FILED', 'PENDING PETITION'])
-
   // group active candidates by district|race key
   const byRace = new Map()
   for (const candidate of all) {
     if (!RACES_DISTRICT_TYPES.has(candidate['District Type'])) continue
     const status = String(candidate['Status'] || '').trim().toUpperCase()
-    if (!ACTIVE_STATUSES.has(status)) continue
+    if (!ACTIVE_CANDIDATE_STATUSES.has(status)) continue
     const key = candidate['District'].trim().toUpperCase() + '|' + candidate['Race'].trim().toUpperCase()
     if (!byRace.has(key)) byRace.set(key, [])
     byRace.get(key).push(nameToSlug(candidate['Name']))
@@ -290,11 +314,10 @@ function main() {
   const all = parseCSV(fs.readFileSync(CSV_INPUT, 'utf8'))
   console.log(`Loaded ${all.length} rows from CandidateList.csv`)
 
-  // FILED and PENDING PETITION candidates make it into the candidates/ folder.
-  // Withdrawn and REMOVED are excluded.
-  const ACTIVE_STATUSES = new Set(['FILED', 'PENDING PETITION'])
-  const filed = all.filter(c => ACTIVE_STATUSES.has(String(c['Status'] || '').trim().toUpperCase()))
-  console.log(`${filed.length} active candidates (FILED or PENDING PETITION)\n`)
+  // Active candidates, including post-primary nominees, make it into the
+  // candidates/ folder. Withdrawn and REMOVED candidates are excluded.
+  const filed = all.filter(c => ACTIVE_CANDIDATE_STATUSES.has(String(c['Status'] || '').trim().toUpperCase()))
+  console.log(`${filed.length} active candidates (FILED, NOMINATED, or PENDING PETITION)\n`)
 
   const slugsSeen = new Map()
   let written  = 0
@@ -346,4 +369,8 @@ function main() {
   buildRacesYml(all)
 }
 
-main()
+if (require.main === module) {
+  main()
+}
+
+module.exports = { parseWebsite }

@@ -18,6 +18,18 @@
   "raceDisplayName": "U.S. Senate",
   "opponents": [
     {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I"
+    },
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R"
+    },
+    {
       "slug": "kyle-austin",
       "displayName": "Kyle Austin",
       "summaryLine": null,
@@ -28,18 +40,6 @@
       "displayName": "Alani Bankhead",
       "summaryLine": null,
       "party": "D"
-    },
-    {
-      "slug": "kurt-alme",
-      "displayName": "Kurt Alme",
-      "summaryLine": null,
-      "party": "R"
-    },
-    {
-      "slug": "seth-bodnar",
-      "displayName": "Seth Bodnar",
-      "summaryLine": null,
-      "party": "I"
     }
   ],
   "coverage": [

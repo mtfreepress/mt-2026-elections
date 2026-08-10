@@ -8,6 +8,7 @@
 node inputs/fec/fetch.js # FEC data
 node inputs/coverage/fetch.js # MTFP coverage data
 node inputs/filings/fetch.js # MT SoS candidate filings
+node inputs/content/generate-candidate-yml.js # Sync candidate/race inputs with filings
 
 # Process and combine data
 node process/legislative-candidates.js

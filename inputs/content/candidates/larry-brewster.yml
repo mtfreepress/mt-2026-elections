@@ -9,7 +9,7 @@ isIncumbent: true
 status: active
 fecId:
 ## Campaign web links
-campaignWebsite: https://none
+campaignWebsite:
 campaignFB:
 campaignTW:
 campaignIG:

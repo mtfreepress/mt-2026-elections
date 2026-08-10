@@ -18,16 +18,16 @@
   "raceDisplayName": "U.S. House District 1 (West)",
   "opponents": [
     {
-      "slug": "sam-forstag",
-      "displayName": "Sam Forstag",
-      "summaryLine": null,
-      "party": "D"
-    },
-    {
       "slug": "aaron-flint",
       "displayName": "Aaron Flint",
       "summaryLine": null,
       "party": "R"
+    },
+    {
+      "slug": "sam-forstag",
+      "displayName": "Sam Forstag",
+      "summaryLine": null,
+      "party": "D"
     },
     {
       "slug": "nick-sheedy",

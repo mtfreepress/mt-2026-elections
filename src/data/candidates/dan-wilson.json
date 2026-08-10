@@ -18,14 +18,14 @@
   "raceDisplayName": "State Supreme Court (Seat 4)",
   "opponents": [
     {
-      "slug": "dan-wilson",
-      "displayName": "Dan Wilson",
+      "slug": "amy-eddy",
+      "displayName": "Amy Eddy",
       "summaryLine": null,
       "party": "NP"
     },
     {
-      "slug": "amy-eddy",
-      "displayName": "Amy Eddy",
+      "slug": "dan-wilson",
+      "displayName": "Dan Wilson",
       "summaryLine": null,
       "party": "NP"
     }

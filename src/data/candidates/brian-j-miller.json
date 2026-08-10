@@ -18,10 +18,10 @@
   "raceDisplayName": "U.S. House District 2 (East)",
   "opponents": [
     {
-      "slug": "brian-j-miller",
-      "displayName": "Brian J Miller",
+      "slug": "michael-d-eisenhauer",
+      "displayName": "Michael D Eisenhauer",
       "summaryLine": null,
-      "party": "D"
+      "party": "I"
     },
     {
       "slug": "troy-downing",
@@ -36,10 +36,10 @@
       "party": "L"
     },
     {
-      "slug": "michael-d-eisenhauer",
-      "displayName": "Michael D Eisenhauer",
+      "slug": "brian-j-miller",
+      "displayName": "Brian J Miller",
       "summaryLine": null,
-      "party": "I"
+      "party": "D"
     }
   ],
   "coverage": [

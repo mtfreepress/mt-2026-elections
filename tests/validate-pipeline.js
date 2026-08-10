@@ -13,6 +13,7 @@
 
 const fs = require('fs')
 const path = require('path')
+const YAML = require('yaml')
 
 const ROOT = path.join(__dirname, '..')
 const SRC_DATA = path.join(ROOT, 'src/data')
@@ -41,6 +42,16 @@ function check(condition, message) {
 /** Assert condition is truthy; record a warning (non-fatal) otherwise. */
 function warnIf(condition, message) {
     if (!condition) warn(message)
+}
+
+function isValidHttpWebsite(value) {
+    try {
+        const parsed = new URL(value)
+        const isHttp = parsed.protocol === 'http:' || parsed.protocol === 'https:'
+        return isHttp && parsed.hostname.includes('.') && !/\s/.test(parsed.hostname)
+    } catch (_err) {
+        return false
+    }
 }
 
 // I/O helpers
@@ -117,12 +128,43 @@ function validateCoverageArticles() {
     }
 }
 
+function validateCandidateInputWebsites() {
+    const candidatesDir = path.join(INPUTS, 'content/candidates')
+    const files = fs.readdirSync(candidatesDir).filter(file => file.endsWith('.yml'))
+
+    files.forEach(file => {
+        const candidate = YAML.parse(fs.readFileSync(path.join(candidatesDir, file), 'utf8'))
+        const website = candidate && candidate.campaignWebsite
+        if (!website) return
+
+        check(
+            isValidHttpWebsite(website),
+            `content/candidates/${file}: invalid campaignWebsite "${website}"`
+        )
+    })
+}
+
 function validateCandidatesIndex() {
     const index = readJson(path.join(SRC_DATA, 'candidates-index.json'))
     if (!index) return
 
     check(Array.isArray(index), 'candidates-index.json: expected an array at top level')
     if (!check(index.length > 0, 'candidates-index.json: array is empty — no candidates found')) return
+
+    // Every statewide primary contest produces at least one general-election
+    // candidate. This catches status-sync failures where NOMINATED candidates
+    // disappear and only candidates without primaries remain.
+    const primaryResults = readJson(path.join(INPUTS, 'results/cleaned/2026-primary-statewide.json'))
+    if (Array.isArray(primaryResults)) {
+        const primaryContestsWithCandidates = primaryResults.filter(result =>
+            Array.isArray(result.resultsTotal) && result.resultsTotal.length > 0
+        ).length
+        check(
+            index.length >= primaryContestsWithCandidates,
+            `candidates-index.json: only ${index.length} major-race candidate(s), but `
+            + `${primaryContestsWithCandidates} statewide primary contests produced nominees`
+        )
+    }
 
     const REQUIRED = ['slug', 'displayName', 'party', 'raceSlug', 'raceDisplayName', 'status']
     index.forEach(c => {
@@ -236,6 +278,15 @@ function validateLegislativeCandidates() {
         `legislative-candidates.json: ${badSlugs.length} candidate(s) have unexpected raceSlug format`
         + (badSlugs.length ? ` — first: "${badSlugs[0].raceSlug}"` : '')
     )
+
+    candidates.forEach(candidate => {
+        if (candidate.campaignWebsite) {
+            check(
+                isValidHttpWebsite(candidate.campaignWebsite),
+                `legislative-candidates.json [${candidate.slug}]: invalid campaignWebsite "${candidate.campaignWebsite}"`
+            )
+        }
+    })
 }
 
 function validateLegislativeDistricts() {
@@ -311,6 +362,7 @@ function main() {
 
     validateFecFinance()
     validateCoverageArticles()
+    validateCandidateInputWebsites()
     const index = validateCandidatesIndex()
     validatePerCandidateFiles(index)
     validateOverviewRaces()
