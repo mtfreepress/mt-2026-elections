@@ -10,17 +10,17 @@
   description: One of Montana's two U.S. Senate seats, elected with a statewide vote. Elected to a six-year term.
   note: 
   candidates:
+    - seth-bodnar
+    - kurt-alme
     - kyle-austin
-    - michael-hummert
     - alani-bankhead
     - michael-black-wolf
-    - reilly-neill
     - lee-calhoun
-    - christopher-kehoe
-    - charles-walking-child
-    - kurt-alme
-    - seth-bodnar
+    - michael-hummert
     - tom-jandron
+    - christopher-kehoe
+    - reilly-neill
+    - charles-walking-child
 
 - raceSlug: us-house-1
   displayName: U.S. House District 1 (West)
@@ -30,16 +30,16 @@
   description: Western Montana representative in Congress. District includes Missoula, Bozeman, Kalispell and Butte. Elected to a two-year term.
   note: 
   candidates:
-    - russell-cleveland
-    - matt-rains
-    - ryan-busse
-    - sam-forstag
-    - al-doc-olszewski
-    - aaron-flint
-    - christi-jacobsen
-    - ray-curtis
-    - nick-sheedy
     - kimberly-a-persico
+    - ryan-busse
+    - russell-cleveland
+    - ray-curtis
+    - aaron-flint
+    - sam-forstag
+    - christi-jacobsen
+    - al-doc-olszewski
+    - matt-rains
+    - nick-sheedy
 
 - raceSlug: us-house-2
   displayName: U.S. House District 2 (East)
@@ -49,12 +49,12 @@
   description: Eastern Montana representative in Congress. District includes Billings, Great Falls, Helena, Havre and Miles City. Elected to a two-year term.
   note: 
   candidates:
-    - brian-j-miller
-    - sam-lux
-    - troy-downing
-    - jonathan-windy-boy
-    - patrick-mccracken
     - michael-d-eisenhauer
+    - troy-downing
+    - sam-lux
+    - patrick-mccracken
+    - brian-j-miller
+    - jonathan-windy-boy
 
 # STATE DISTRICT
 
@@ -65,9 +65,9 @@
   description: One of five seats on the state's utility regulation board, elected to a four-year term. The district spans eastern Montana, including Billings and Miles City.
   note: 
   candidates:
+    - angeline-cheek
     - jeff-pattison
     - jeremy-trebas
-    - angeline-cheek
 
 - raceSlug: psc-5
   displayName: Public Service Commission (Seat 5)
@@ -76,10 +76,10 @@
   description: One of five seats on the state's utility regulation board, elected to a four-year term. The district spans western Montana, including Missoula and Kalispell.
   note: 
   candidates:
-    - david-sanders
     - annie-bukacek
     - joe-dooling
     - kevin-hamm
+    - david-sanders
 
 # MONTANA SUPREME COURT
 
@@ -90,5 +90,5 @@
   description: One of seven seats on the state's high court, which takes appeals from lower courts and administers the Montana legal system. Elected to an eight-year term via a statewide election.
   note: 
   candidates:
-    - dan-wilson
     - amy-eddy
+    - dan-wilson

@@ -9,6 +9,24 @@
     "note": null,
     "candidates": [
       {
+        "slug": "seth-bodnar",
+        "displayName": "Seth Bodnar",
+        "summaryLine": null,
+        "party": "I",
+        "hasResponses": true,
+        "numMTFParticles": 14,
+        "raceSlug": "us-senate"
+      },
+      {
+        "slug": "kurt-alme",
+        "displayName": "Kurt Alme",
+        "summaryLine": null,
+        "party": "R",
+        "hasResponses": true,
+        "numMTFParticles": 9,
+        "raceSlug": "us-senate"
+      },
+      {
         "slug": "kyle-austin",
         "displayName": "Kyle Austin",
         "summaryLine": null,
@@ -24,24 +42,6 @@
         "party": "D",
         "hasResponses": true,
         "numMTFParticles": 11,
-        "raceSlug": "us-senate"
-      },
-      {
-        "slug": "kurt-alme",
-        "displayName": "Kurt Alme",
-        "summaryLine": null,
-        "party": "R",
-        "hasResponses": true,
-        "numMTFParticles": 9,
-        "raceSlug": "us-senate"
-      },
-      {
-        "slug": "seth-bodnar",
-        "displayName": "Seth Bodnar",
-        "summaryLine": null,
-        "party": "I",
-        "hasResponses": true,
-        "numMTFParticles": 14,
         "raceSlug": "us-senate"
       }
     ],
@@ -155,21 +155,21 @@
     "note": null,
     "candidates": [
       {
-        "slug": "sam-forstag",
-        "displayName": "Sam Forstag",
-        "summaryLine": null,
-        "party": "D",
-        "hasResponses": true,
-        "numMTFParticles": 5,
-        "raceSlug": "us-house-1"
-      },
-      {
         "slug": "aaron-flint",
         "displayName": "Aaron Flint",
         "summaryLine": null,
         "party": "R",
         "hasResponses": true,
         "numMTFParticles": 6,
+        "raceSlug": "us-house-1"
+      },
+      {
+        "slug": "sam-forstag",
+        "displayName": "Sam Forstag",
+        "summaryLine": null,
+        "party": "D",
+        "hasResponses": true,
+        "numMTFParticles": 5,
         "raceSlug": "us-house-1"
       },
       {
@@ -280,12 +280,12 @@
     "note": null,
     "candidates": [
       {
-        "slug": "brian-j-miller",
-        "displayName": "Brian J Miller",
+        "slug": "michael-d-eisenhauer",
+        "displayName": "Michael D Eisenhauer",
         "summaryLine": null,
-        "party": "D",
+        "party": "I",
         "hasResponses": true,
-        "numMTFParticles": 6,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-2"
       },
       {
@@ -307,12 +307,12 @@
         "raceSlug": "us-house-2"
       },
       {
-        "slug": "michael-d-eisenhauer",
-        "displayName": "Michael D Eisenhauer",
+        "slug": "brian-j-miller",
+        "displayName": "Brian J Miller",
         "summaryLine": null,
-        "party": "I",
+        "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 2,
+        "numMTFParticles": 6,
         "raceSlug": "us-house-2"
       }
     ],
@@ -401,19 +401,19 @@
     "note": null,
     "candidates": [
       {
-        "slug": "jeff-pattison",
-        "displayName": "Jeff Pattison",
+        "slug": "angeline-cheek",
+        "displayName": "Angeline Cheek",
         "summaryLine": null,
-        "party": "R",
+        "party": "D",
         "hasResponses": false,
         "numMTFParticles": 0,
         "raceSlug": "psc-1"
       },
       {
-        "slug": "angeline-cheek",
-        "displayName": "Angeline Cheek",
+        "slug": "jeff-pattison",
+        "displayName": "Jeff Pattison",
         "summaryLine": null,
-        "party": "D",
+        "party": "R",
         "hasResponses": false,
         "numMTFParticles": 0,
         "raceSlug": "psc-1"
@@ -461,8 +461,8 @@
     "note": null,
     "candidates": [
       {
-        "slug": "dan-wilson",
-        "displayName": "Dan Wilson",
+        "slug": "amy-eddy",
+        "displayName": "Amy Eddy",
         "summaryLine": null,
         "party": "NP",
         "hasResponses": false,
@@ -470,8 +470,8 @@
         "raceSlug": "supco-4"
       },
       {
-        "slug": "amy-eddy",
-        "displayName": "Amy Eddy",
+        "slug": "dan-wilson",
+        "displayName": "Dan Wilson",
         "summaryLine": null,
         "party": "NP",
         "hasResponses": false,

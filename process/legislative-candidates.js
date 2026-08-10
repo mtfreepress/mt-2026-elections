@@ -2,6 +2,7 @@ const fs = require('fs')
 const csv = require('async-csv')
 const YAML = require('yaml')
 const glob = require('glob')
+const { parseWebsite } = require('../inputs/content/generate-candidate-yml')
 
 const writeJson = (path, data) => {
     fs.writeFileSync(path, JSON.stringify(data, null, 2))
@@ -34,11 +35,6 @@ const NAME_REPLACE = {
     // e.g. 'FILING NAME': 'PREFERRED DISPLAY NAME',
 }
 
-// Known host typos to substitute (lowercase keys)
-const HOST_REPLACE = {
-    'peeformontana.com': 'peteformontana.com',
-    'pattisonformontana': 'pattisonformontana.com'
-}
 const PARTY_ORDER = ['R', 'D', 'L', 'G', 'I']
 // The Secretary of State changes primary winners from FILED to NOMINATED
 // after certification. Both values represent candidates who should remain in
@@ -111,69 +107,7 @@ const EXCLUDED_SLUGS = new Set(((excludedCandidatesYml.excluded || [])).map(e =>
  * Format is "email@example.com<br />website.com" or "...<br />Not Provided"
  */
 function extractWebsite(emailWebField) {
-    if (!emailWebField) return null
-    // Expect format like "email@example.com<br />website.com" or "...<br />Not Provided"
-    const parts = emailWebField.split(/<br\s*\/?\>/i)
-    if (parts.length < 2) return null
-    const websiteRaw = parts[1].trim()
-    if (!websiteRaw || websiteRaw.toLowerCase() === 'not provided') return null
-    const trimmed = websiteRaw.trim()
-
-    // normalize a host string for matching
-    const normalizeHost = (h) => {
-        if (!h) return ''
-        let host = h.toString().toLowerCase().trim()
-        host = host.replace(/^https?:\/\//, '')
-        host = host.replace(/^www\./, '')
-        host = host.replace(/:\d+$/, '')
-        host = host.replace(/\/.*$/, '')
-        return host
-    }
-
-    const stripToHostname = (s) => s.replace(/^https?:\/\//i, '').replace(/^www\./i, '').replace(/\/.*$/, '').replace(/:\d+$/, '').toLowerCase()
-
-    const findReplacement = (host) => {
-        const h = normalizeHost(host)
-        if (!h) return null
-        if (HOST_REPLACE[h]) return HOST_REPLACE[h]
-        if (!h.includes('.') && HOST_REPLACE[h + '.com']) return HOST_REPLACE[h + '.com']
-        if (h.endsWith('.com')) {
-            const withoutCom = h.replace(/\.com$/, '')
-            if (HOST_REPLACE[withoutCom]) return HOST_REPLACE[withoutCom]
-        }
-        // last-resort fuzzy match: ignore dots when comparing
-        const noDots = h.replace(/\./g, '')
-        for (const key of Object.keys(HOST_REPLACE)) {
-            if (key.replace(/\./g, '') === noDots) return HOST_REPLACE[key]
-        }
-        return null
-    }
-
-    // If input includes a protocol, preserve the protocol and path when possible
-    if (/^https?:\/\//i.test(trimmed)) {
-        try {
-            const u = new URL(trimmed)
-            const hostNoWww = stripToHostname(u.hostname)
-            const replacement = findReplacement(hostNoWww)
-            if (replacement) {
-                const repHost = normalizeHost(replacement)
-                u.hostname = repHost
-                return u.toString().replace(/\/$/, '')
-            }
-            u.hostname = hostNoWww
-            return u.toString().replace(/\/$/, '')
-        } catch (e) {
-            const host = normalizeHost(trimmed)
-            const replacement = findReplacement(host) || host
-            return `https://${replacement}`
-        }
-    }
-
-    // Bare host (no protocol) — normalize and return https://<host>
-    const host = normalizeHost(trimmed)
-    const replacement = findReplacement(host) || host
-    const finalHost = replacement.replace(/^https?:\/\//i, '').replace(/\/$/, '')
-    return `https://${finalHost}`
+    return parseWebsite(emailWebField || '') || null
 }
 
 /**

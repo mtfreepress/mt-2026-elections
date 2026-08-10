@@ -1,12 +1,16 @@
 import { HD_TO_PSC } from './../data/hd-to-psc'
 import { getCorrespondingSenateDistrictNumber } from './utils'
 
-// Local testing of proxy - change before deploying
-// const BASE_PATH = 'http://localhost:3000' 
-const BASE_PATH = 'https://39tcu96a0k.execute-api.us-west-2.amazonaws.com/prod'
-const STATE_HOUSE_DISTRICT_API_URL = `${BASE_PATH}/hd-lookup`
-const CONGRESSIONAL_DISTRICT_API_URL = `${BASE_PATH}/congressional-lookup`
-const GEOCODE_API_URL = `${BASE_PATH}/geocode`
+// Montana moved these services from gisservicemt.gov to gisservice.mt.gov in
+// June 2026. The replacement ArcGIS server supports browser CORS, so requests
+// can go directly to the source instead of depending on the legacy AWS proxy.
+const ARCGIS_BASE_URL = 'https://gisservice.mt.gov/arcgis/rest/services'
+const BOUNDARIES_BASE_URL = `${ARCGIS_BASE_URL}/msdi_administrative_boundaries_map_v1/MapServer`
+const ADDRESS_LOCATOR_BASE_URL = `${ARCGIS_BASE_URL}/msdi_address_locator_geocode_v1/GeocodeServer`
+const STATE_HOUSE_DISTRICT_API_URL = `${BOUNDARIES_BASE_URL}/63/query`
+const CONGRESSIONAL_DISTRICT_API_URL = `${BOUNDARIES_BASE_URL}/34/query`
+const GEOCODE_API_URL = `${ADDRESS_LOCATOR_BASE_URL}/findAddressCandidates`
+const SUGGEST_API_URL = `${ADDRESS_LOCATOR_BASE_URL}/suggest`
 
 // Restrict geocoding to Montana at the API layer for better relevance and fewer results.
 const MONTANA_SEARCH_EXTENT = JSON.stringify({
@@ -25,33 +29,38 @@ const MONTANA_GEOCODE_DEFAULTS = {
 export default class DistrictFinder {
 
     async matchAddressToDistricts(address, callback, fallback) {
+        try {
+            const geocodeResponse = await this.geocode(address)
+            const place = this.pickAddress(geocodeResponse.candidates)
+            if (!place || !place.location) {
+                fallback(null)
+                return
+            }
 
-        const geocodeResponse = await this.geocode(address)
-        const place = this.pickAddress(geocodeResponse.candidates)
-        if (place) {
             const matchedAddress = place.address
-            // Note URLs rerouted in next.config.mjs to avoid CORS issue
-            const houseDistrictResponse = await this.getDistrict({
-                apiUrl: STATE_HOUSE_DISTRICT_API_URL,
-                coords: place.location,
-                fields: 'District'
-            })
-            const hd = houseDistrictResponse &&
-                houseDistrictResponse.features[0].attributes['District'] ||
-                null
+            const [houseDistrictResponse, congressionalDistrictResponse] = await Promise.all([
+                this.getDistrict({
+                    apiUrl: STATE_HOUSE_DISTRICT_API_URL,
+                    coords: place.location,
+                    fields: 'District'
+                }),
+                this.getDistrict({
+                    apiUrl: CONGRESSIONAL_DISTRICT_API_URL,
+                    coords: place.location,
+                    fields: 'DistrictNumber'
+                })
+            ])
+
+            const hd = houseDistrictResponse?.features?.[0]?.attributes?.District
+            const usHouse = congressionalDistrictResponse?.features?.[0]?.attributes?.DistrictNumber
+            if (!hd || !usHouse) {
+                fallback(null)
+                return
+            }
 
             // State senate and PSC districts derived from state house disrict
             const sd = getCorrespondingSenateDistrictNumber(hd)
             const psc = HD_TO_PSC[hd]
-
-            const congressionalDistrictResponse = await this.getDistrict({
-                apiUrl: CONGRESSIONAL_DISTRICT_API_URL,
-                coords: place.location,
-                fields: 'DistrictNumber'
-            })
-            const usHouse = congressionalDistrictResponse &&
-                congressionalDistrictResponse.features[0].attributes['DistrictNumber'] ||
-                null
 
             callback({
                 matchedAddress,
@@ -60,10 +69,10 @@ export default class DistrictFinder {
                 psc,
                 usHouse: `us-house-${usHouse}`,
             })
-        } else {
-            fallback()
+        } catch (error) {
+            console.error('District lookup failed:', error)
+            fallback(error)
         }
-
     }
 
     async geocode(address, options = {}) {
@@ -76,10 +85,7 @@ export default class DistrictFinder {
             ...(maxLocations ? { maxLocations } : {}),
         }
         const url = this.makeQuery(GEOCODE_API_URL, payload)
-        const data = await fetch(url, { signal })
-            .then(resp => resp.json())
-            .catch(err => console.log(err))
-        return data
+        return this.fetchArcGisJson(url, { signal })
     }
 
     async suggestAddresses(address, options = {}) {
@@ -87,12 +93,23 @@ export default class DistrictFinder {
         if (!query) return []
 
         const { maxLocations = 6, signal } = options
-        const geocodeResponse = await this.geocode(query, { maxLocations, signal })
-        const candidates = geocodeResponse && geocodeResponse.candidates ? geocodeResponse.candidates : []
+        const payload = {
+            text: query,
+            f: 'pjson',
+            maxSuggestions: maxLocations,
+            category: 'Address',
+            countryCode: 'USA',
+            searchExtent: MONTANA_SEARCH_EXTENT,
+        }
+        const suggestResponse = await this.fetchArcGisJson(
+            this.makeQuery(SUGGEST_API_URL, payload),
+            { signal }
+        )
+        const suggestions = suggestResponse?.suggestions || []
 
-        return candidates
-            .filter(candidate => !!candidate && !!candidate.address)
-            .map(candidate => candidate.address)
+        return suggestions
+            .filter(suggestion => !!suggestion && !!suggestion.text)
+            .map(suggestion => suggestion.text)
     }
 
     async getDistrict({ apiUrl, coords, fields }) {
@@ -103,15 +120,26 @@ export default class DistrictFinder {
             spatialRel: 'esriSpatialRelIntersects',
             geometry: `{"x":${coords.x},"y":${coords.y},"spatialReference":{"wkid":102100,"latestWkid":3857}}`,
             geometryType: 'esriGeometryPoint',
+            inSR: '102100',
             outFields: fields,
         }
         const url = this.makeQuery(apiUrl, payload)
-        console.log(url)
-        const data = await fetch(url)
-            .then(data => data.json())
-            .then(res => res)
-            .catch(err => console.log(err))
-        if (!data || !data.features) return null
+        return this.fetchArcGisJson(url)
+    }
+
+    async fetchArcGisJson(url, options = {}) {
+        const response = await fetch(url, options)
+        if (!response.ok) {
+            throw new Error(`Montana GIS request failed with HTTP ${response.status}`)
+        }
+
+        const data = await response.json()
+        if (!data || typeof data !== 'object' || Array.isArray(data)) {
+            throw new Error('Montana GIS returned an unexpected response')
+        }
+        if (data.error) {
+            throw new Error(data.error.message || 'Montana GIS returned an error')
+        }
         return data
     }
 
@@ -131,4 +159,3 @@ export default class DistrictFinder {
         return locations[0]
     }
 }
-
