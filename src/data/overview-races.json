@@ -23,7 +23,7 @@
         "summaryLine": null,
         "party": "D",
         "hasResponses": true,
-        "numMTFParticles": 10,
+        "numMTFParticles": 11,
         "raceSlug": "us-senate"
       },
       {
@@ -41,7 +41,7 @@
         "summaryLine": null,
         "party": "I",
         "hasResponses": true,
-        "numMTFParticles": 13,
+        "numMTFParticles": 14,
         "raceSlug": "us-senate"
       }
     ],
