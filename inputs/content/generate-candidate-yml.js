@@ -72,7 +72,7 @@ function getDisplayName(name) {
 
 // website parsing
 
-const EMPTY_SITE_VALUES = new Set(['not provided', 'na', ''])
+const EMPTY_SITE_VALUES = new Set(['not provided', 'na', '', 'N/A'])
 
 // Known host typos/omissions to substitute (lowercase keys, no protocol/www/trailing slash)
 const HOST_REPLACE = {

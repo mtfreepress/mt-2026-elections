@@ -432,7 +432,9 @@ export default function AddressLookup({
                 setLoading(false);
             },
             err => {
-                setError('No Montana address match found. Please enter a valid Montana address, like 1301 E 6th Ave, Helena.');
+                setError(err
+                    ? 'The Montana address service is temporarily unavailable. Please try again in a few minutes.'
+                    : 'No Montana address match found. Please enter a valid Montana address, like 1301 E 6th Ave, Helena.');
                 setLoading(false);
             }
         );
