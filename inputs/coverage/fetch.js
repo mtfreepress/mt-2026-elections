@@ -18,11 +18,12 @@ const readExistingJson = path => {
   }
 }
 
-const TAG = '2026-elections' // Replace spaces in tag as seen in CMS with hyphens here
+// Replace spaces in tags as seen in CMS with hyphens here
+const TAGS = ['2026-elections', '2026-election-guide']
 const EXCLUDE_TAG = 'Tracker Exclude'
 const QUERY_LIMIT = 100
 
-async function getStories(cursor) {
+async function getStories(tag, cursor) {
   const response = await fetch('https://montanafreepress.org/graphql', {
     method: 'POST',
     headers: {
@@ -31,7 +32,7 @@ async function getStories(cursor) {
     body: JSON.stringify({
       query: `
         {
-          posts(after: "${cursor}", first: ${QUERY_LIMIT}, where: {tag: "${TAG}"}) {
+          posts(after: "${cursor}", first: ${QUERY_LIMIT}, where: {tag: "${tag}"}) {
             pageInfo {
               hasPreviousPage
               hasNextPage
@@ -104,15 +105,18 @@ async function main() {
   const existing = readExistingJson(OUT_PATH)
 
   let stories = []
-  let hasNextPage = true
-  let cursor = ''
 
   try {
-    while (hasNextPage) {
-      const query = await getStories(cursor)
-      stories = stories.concat(query.nodes)
-      cursor = query.pageInfo.endCursor
-      hasNextPage = query.pageInfo.hasNextPage
+    for (const tag of TAGS) {
+      let hasNextPage = true
+      let cursor = ''
+
+      while (hasNextPage) {
+        const query = await getStories(tag, cursor)
+        stories = stories.concat(query.nodes)
+        cursor = query.pageInfo.endCursor
+        hasNextPage = query.pageInfo.hasNextPage
+      }
     }
   } catch (err) {
     console.warn(`Coverage fetch failed: ${err.message}`)
@@ -124,8 +128,9 @@ async function main() {
     throw err
   }
 
-  const filtered = stories.filter(d => !(d.tags?.nodes || []).map(t => t.name).includes(EXCLUDE_TAG))
-  console.log(`Found ${stories.length} MTFP stories tagged ${TAG}`)
+  const uniqueStories = [...new Map(stories.map(story => [story.link, story])).values()]
+  const filtered = uniqueStories.filter(d => !(d.tags?.nodes || []).map(t => t.name).includes(EXCLUDE_TAG))
+  console.log(`Found ${uniqueStories.length} unique MTFP stories tagged ${TAGS.join(', ')}`)
   console.log(`Returned ${filtered.length} excluding tag ${EXCLUDE_TAG}`)
 
   if (filtered.length === 0 && Array.isArray(existing) && existing.length > 0) {
