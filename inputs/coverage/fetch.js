@@ -19,7 +19,7 @@ const readExistingJson = path => {
 }
 
 // Replace spaces in tags as seen in CMS with hyphens here
-const TAGS = ['2026-elections', '2026-election-guide']
+const TAGS = ['2026-elections', '2026-election-guide', '2026-Elections']
 const EXCLUDE_TAG = 'Tracker Exclude'
 const QUERY_LIMIT = 100
 
