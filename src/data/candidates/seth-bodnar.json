@@ -55,7 +55,7 @@
         "seth bodnar"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/img_1379-jpeg/",
       "author": "Tom Lutey"
@@ -65,12 +65,13 @@
       "date": "2026-08-07T16:43:54",
       "link": "https://montanafreepress.org/2026/08/07/bodnar-in-billings-not-bowing-out/",
       "tags": [
+        "2026 election guide",
         "2026 elections",
         "Alani Bankhead",
         "seth bodnar"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/2026/08/07/bodnar-in-billings-not-bowing-out/screenshot-8/",
       "author": "Tom Lutey"
@@ -80,6 +81,7 @@
       "date": "2026-08-03T18:09:34",
       "link": "https://montanafreepress.org/2026/08/03/democratic-party-weighs-legal-options-in-turbulent-senate-race/",
       "tags": [
+        "2026 election guide",
         "2026 elections",
         "Alani Bankhead",
         "Kurt Alme",
@@ -88,7 +90,7 @@
         "Shannon O’Brien"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/2026/08/03/democratic-party-weighs-legal-options-in-turbulent-senate-race/untitled-design-12-3/",
       "author": "Tom Lutey"
@@ -98,13 +100,14 @@
       "date": "2026-07-31T14:28:12",
       "link": "https://montanafreepress.org/2026/07/31/montana-senate-bodnar-bankhead-withdrawal-deadline/",
       "tags": [
+        "2026 election guide",
         "2026 elections",
         "Alani Bankhead",
         "Kurt Alme",
         "seth bodnar"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/20260602lm-primarymorning-0028-jpg/",
       "author": "Tom Lutey"
@@ -127,7 +130,7 @@
         "Troy Downing. Michael Eisenhauer"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/untitled-design-12-2/",
       "author": "Tom Lutey"
@@ -147,7 +150,7 @@
         "U.S. Senate"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/20260403lm-mansfieldmetcalf-0055-jpg/",
       "author": "Tom Lutey"
@@ -164,7 +167,7 @@
         "U.S. Senate"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/20260307lm-sethbodnar-0005-jpg/",
       "author": "Brad Tyer"
@@ -179,7 +182,7 @@
         "seth bodnar"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/20250908lm-missoula-0093-jpg-2/",
       "author": "Brad Tyer"
@@ -197,7 +200,7 @@
         "seth bodnar"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/20260403lm-mansfieldmetcalf-0046-jpg/",
       "author": "Stephanie Farmer"
@@ -215,7 +218,7 @@
         "Shayne Morgan"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/2021/03/12/raising-the-ballot-initiative-bar/picket-and-collect-signatures/",
       "author": "Stephanie Farmer"
@@ -237,7 +240,7 @@
         "seth bodnar"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/2026/05/08/in-senate-race-underfunded-democrats-try-to-fend-off-a-challenge/2026-senate-dem-primary-1200x800_720/",
       "author": "Tom Lutey"
@@ -263,7 +266,7 @@
         "Troy Downing"
       ],
       "categories": [
-        "2026 elections"
+        "Elections"
       ],
       "featuredImage": "https://montanafreepress.org/20260307lm-sethbodnar-0005-jpg/",
       "author": "Tom Lutey"
@@ -284,7 +287,7 @@
         "WesternDev"
       ],
       "categories": [
-        "Politics"
+        "Government & Politics"
       ],
       "featuredImage": "https://montanafreepress.org/2026/03/04/bodnar-launches-montana-senate-run/um_bodnar-e1768434105939-2/",
       "author": "Tom Lutey"
@@ -301,7 +304,7 @@
         "University of Montana"
       ],
       "categories": [
-        "Politics"
+        "Government & Politics"
       ],
       "featuredImage": "https://montanafreepress.org/um_bodnar-e1768434105939/",
       "author": "Tom Lutey"
@@ -318,9 +321,9 @@
         "Steve Daines"
       ],
       "categories": [
-        "Politics"
+        "Government & Politics"
       ],
-      "featuredImage": "https://montanafreepress.org/?attachment_id=223726",
+      "featuredImage": null,
       "author": "Tom Lutey"
     }
   ],
@@ -362,7 +365,7 @@
       "candidateId": "S6MT00261",
       "totalReceipts": 262194.97,
       "totalDisbursments": 242362.46,
-      "cashOnHand": 19832.51,
+      "cashOnHand": 8750.55,
       "coverageEndDate": "2026-06-30",
       "isThisCandidate": false,
       "candidateStatus": "active"
