@@ -28,6 +28,14 @@ including withdrawals, replacement candidates and write-ins.
 
 ## Helpful Commands
 
+- To generate local Apple News Format bundles for Apple's News Preview app, run:
+
+        npm run build:apple-news-preview
+
+  Then drag one of the article directories in `apple-news-preview/` into News Preview. The
+  generated `apple-news-preview/README.md` lists every bundle and explains the local-link limitation.
+  Run `npm run check:apple-news-preview` to verify that the generated bundles are current.
+
 - To update all YAML files (so the page updates) run `./update-data.sh` in the command line. 
 
     #### - This will run:

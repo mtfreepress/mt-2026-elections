@@ -1,0 +1,254 @@
+{
+  "version": "1.7",
+  "identifier": "apple-news-election-guide-annie-bukacek",
+  "language": "en-US",
+  "title": "Annie Bukacek: 2026 Montana Election Guide",
+  "layout": {
+    "columns": 12,
+    "width": 1024,
+    "margin": 60,
+    "gutter": 20
+  },
+  "documentStyle": {
+    "backgroundColor": "#FFFFFF"
+  },
+  "metadata": {
+    "canonicalURL": "https://projects.montanafreepress.org/election-guide-2026/candidates/annie-bukacek/",
+    "thumbnailURL": "bundle://annie-bukacek.webp",
+    "excerpt": "Annie Bukacek is a Republican candidate for Public Service Commission (Seat 5). Read the candidate's background, issue responses, finance information and election results.",
+    "authors": [
+      "Montana Free Press"
+    ],
+    "datePublished": "2026-08-22T20:20:32.993Z",
+    "dateModified": "2026-08-22T20:20:32.993Z"
+  },
+  "components": [
+    {
+      "role": "title",
+      "text": "Annie Bukacek: 2026 Montana Election Guide",
+      "layout": "body"
+    },
+    {
+      "role": "author",
+      "text": "Montana Free Press",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kevin-hamm/\">Kevin Hamm</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "portrait",
+      "URL": "bundle://annie-bukacek.webp",
+      "accessibilityCaption": "Portrait of Annie Bukacek",
+      "layout": "portrait"
+    },
+    {
+      "role": "body",
+      "text": "<p><strong>Annie Bukacek</strong> is a Republican candidate for Public Service Commission (Seat 5) in Montana's 2026 election. The candidate is an incumbent.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Other candidates in this race",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kevin-hamm/\">Kevin Hamm (D)</a></li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "On the issues",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The responses reproduced here were solicited from candidates via a written questionnaire conducted by Montana Free Press in March 2026. Responses were limited to 1,000 characters and have not been edited or fact-checked.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "What should be the PSC&#039;s role, if any, in regulating data center development in Montana?",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The jurisdictional role the PSC has in data center development is scrutinizing the large load tariffs relevant to data centers. This will be scrutinized carefully by PSC staff and commissioners with an eye to ensure that residential and mom and pop businesses will not be saddled with any of the data center’s share of energy generation demand, transmission, integration and service costs, to protect current residential and business users from rate and reliability adverse events.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "How should the PSC approach the NorthWestern/Black Hills Corp. merger?",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The PSC will approach the merger as it approaches other contested issues that come before the agency. The PSC is currently collecting public comments and prehearing testimony from the parties involved. PSC staff and commissioners use this information to develop questions for the parties during the proposed hearing this May in order to make the evidentiary record as robust as possible. Thereafter, we review the evidence available to us. A staff memorandum and possibly recommendation will be written, and the commissioners will make a decision.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "What is one industry under the PSC&#039;s purview that could use more scrutiny than it&#039;s currently getting, and what might that increased scrutiny look like?",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The PSC does its best to scrutinize every company it is tasked with overseeing and every matter that comes before it.  The time we have to do this is usually restricted by law.  The amount of staff hours that can be spent on items is dictated by the staff hours budgeted for us by the Legislature.  We always do our best to prioritize as to the item, financial impact, and relative need.  Commissioners and staff are working for the taxpayer and do not accumulate the expertise that management and workers do in their regulated industries.  The PSC is one of Montana&#x27;s smallest state agencies.  The PSC could use additional funding to hire industry-related and experienced forensic examiners.  But money is tight, taxes are already high, and we will continue to do the best we can with the resources allocated.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "MTFP coverage",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://montanafreepress.org/2026/05/07/in-bounds-or-out/\">In bounds, or out?</a> — May 7, 2026, by Tom Lutey</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Campaign finance",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Campaign finance information for this race is not presented in the guide. State-level filings are available through the Montana Commissioner of Political Practices.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Election outcomes",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "htmltable",
+      "html": "<table>\n<caption>June 2 primary results for Public Service Commission (Seat 5)</caption>\n<thead><tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Share</th></tr></thead>\n<tbody>\n<tr><td>✓ ANNIE BUKACEK</td><td>R</td><td>10,924</td><td>35.5%</td></tr>\n<tr><td>JOE DOOLING</td><td>R</td><td>10,149</td><td>33%</td></tr>\n<tr><td>DAVID SANDERS</td><td>R</td><td>9,675</td><td>31.5%</td></tr>\n</tbody>\n</table>",
+      "layout": "wide"
+    },
+    {
+      "role": "body",
+      "text": "<p><em>Count reported by the Montana secretary of state as of 6/12/2026 10:57:30 AM.</em></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "About this project",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This guide was produced by the Montana Free Press newsroom with production by Tom Lutey, Brad Tyer, Amanda Eggert and Jacob Olness, web development by Jacob Olness, editing by Brad Tyer, and contributions from Mara Silvers, Zeke Lloyd and Stephanie Farmer. Contact Jacob Olness with questions, corrections or suggestions at jolness@montanafreepress.org.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montana Free Press is a nonpartisan 501(c)(3) nonprofit, reader-supported news organization serving Montana. MTFP&#x27;s donor base includes supporters from across Montana&#x27;s political spectrum, including some Montanans who are candidates in this year&#x27;s election. MTFP&#x27;s <a href=\"https://montanafreepress.org/donor-transparency\">major donors are listed here</a>, and a current list of <a href=\"https://montanafreepress.org/mtfp-members/\">other supporters is available here</a>. MTFP news decisions are made without donor involvement.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This material is available for republication by other media outlets under Montana Free Press&#x27; <a href=\"https://montanafreepress.org/publish-our-stories/\">standard distribution terms</a>.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kevin-hamm/\">Kevin Hamm</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    }
+  ],
+  "componentLayouts": {
+    "body": {
+      "columnStart": 1,
+      "columnSpan": 10,
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
+    },
+    "portrait": {
+      "columnStart": 3,
+      "columnSpan": 6,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    },
+    "wide": {
+      "columnStart": 0,
+      "columnSpan": 12,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    }
+  },
+  "componentTextStyles": {
+    "default": {
+      "fontName": "Helvetica",
+      "fontSize": 18,
+      "lineHeight": 26,
+      "textColor": "#222222",
+      "linkStyle": {
+        "textColor": "#006699"
+      }
+    },
+    "default-title": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 42,
+      "lineHeight": 48,
+      "textColor": "#111111"
+    },
+    "default-author": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 15,
+      "textColor": "#555555"
+    },
+    "default-heading2": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 28,
+      "lineHeight": 34,
+      "textColor": "#111111"
+    },
+    "default-heading3": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 21,
+      "lineHeight": 27,
+      "textColor": "#222222"
+    }
+  },
+  "textStyles": {
+    "default-tag-pre": {
+      "fontName": "Menlo-Regular",
+      "fontSize": 15,
+      "lineHeight": 22,
+      "textColor": "#333333"
+    }
+  }
+}
