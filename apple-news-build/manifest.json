@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-22T20:20:32.993Z",
+  "category": {
+    "slug": "apple-news-election-guide-2026",
+    "name": "Apple News Election Guide 2026"
+  },
+  "source": "https://projects.montanafreepress.org/election-guide-2026",
+  "counts": {
+    "articles": 21,
+    "candidates": 17,
+    "legislativeCandidates": 235
+  },
+  "articles": [
+    {
+      "key": "guide",
+      "slug": "apple-news-2026-montana-election-guide",
+      "type": "flagship",
+      "title": "The Montana Free Press 2026 Election Guide",
+      "excerpt": "Explore Montana’s 2026 candidates, races, legislative contests and voting information in this Apple News edition of the Montana Free Press Election Guide.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/",
+      "featuredImage": {
+        "localPath": "public/election-guide-2026-feature-art.jpg",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/election-guide-2026-feature-art.jpg",
+        "altText": "Montana Free Press 2026 Election Guide"
+      },
+      "contentHash": "acc1a60c38fee954d4deadb0457394d5ebd0b6618a48cc7f25253cf36ba7a553",
+      "htmlPath": "articles/apple-news-2026-montana-election-guide.html",
+      "templatePath": "templates/apple-news-2026-montana-election-guide.html"
+    },
+    {
+      "key": "candidate-troy-downing",
+      "slug": "apple-news-election-guide-troy-downing",
+      "type": "candidate",
+      "title": "Troy Downing: 2026 Montana Election Guide",
+      "excerpt": "Troy Downing is a Republican candidate for U.S. House District 2 (East). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/troy-downing/",
+      "featuredImage": {
+        "localPath": "public/portraits/troy-downing.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/troy-downing.webp",
+        "altText": "Portrait of Troy Downing"
+      },
+      "contentHash": "7bc952276d4fb0c88bb614f3a7a930de414dbdb15aef503a24c0880c973947d0",
+      "htmlPath": "articles/apple-news-election-guide-troy-downing.html",
+      "templatePath": "templates/apple-news-election-guide-troy-downing.html"
+    },
+    {
+      "key": "candidate-seth-bodnar",
+      "slug": "apple-news-election-guide-seth-bodnar",
+      "type": "candidate",
+      "title": "Seth Bodnar: 2026 Montana Election Guide",
+      "excerpt": "Seth Bodnar is a Independent candidate for U.S. Senate. Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/seth-bodnar/",
+      "featuredImage": {
+        "localPath": "public/portraits/seth-bodnar.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/seth-bodnar.webp",
+        "altText": "Portrait of Seth Bodnar"
+      },
+      "contentHash": "4829f0f523f9ae0f6b4abe0108d6dab0c27ae197593ee1e7ba70f7a430f9666e",
+      "htmlPath": "articles/apple-news-election-guide-seth-bodnar.html",
+      "templatePath": "templates/apple-news-election-guide-seth-bodnar.html"
+    },
+    {
+      "key": "candidate-sam-forstag",
+      "slug": "apple-news-election-guide-sam-forstag",
+      "type": "candidate",
+      "title": "Sam Forstag: 2026 Montana Election Guide",
+      "excerpt": "Sam Forstag is a Democratic candidate for U.S. House District 1 (West). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/sam-forstag/",
+      "featuredImage": {
+        "localPath": "public/portraits/sam-forstag.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/sam-forstag.webp",
+        "altText": "Portrait of Sam Forstag"
+      },
+      "contentHash": "bc0299eb0073575bb5df6d39f998fbd31f816927f26149efdeba04a28f1e0740",
+      "htmlPath": "articles/apple-news-election-guide-sam-forstag.html",
+      "templatePath": "templates/apple-news-election-guide-sam-forstag.html"
+    },
+    {
+      "key": "candidate-patrick-mccracken",
+      "slug": "apple-news-election-guide-patrick-mccracken",
+      "type": "candidate",
+      "title": "Patrick McCracken: 2026 Montana Election Guide",
+      "excerpt": "Patrick McCracken is a Libertarian candidate for U.S. House District 2 (East). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/patrick-mccracken/",
+      "featuredImage": {
+        "localPath": "public/portraits/patrick-mccracken.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/patrick-mccracken.webp",
+        "altText": "Portrait of Patrick McCracken"
+      },
+      "contentHash": "de95ba144c855f31dab9036ad97fa51dbc9c860e6ceb466d6a49d508460996cc",
+      "htmlPath": "articles/apple-news-election-guide-patrick-mccracken.html",
+      "templatePath": "templates/apple-news-election-guide-patrick-mccracken.html"
+    },
+    {
+      "key": "candidate-nick-sheedy",
+      "slug": "apple-news-election-guide-nick-sheedy",
+      "type": "candidate",
+      "title": "Nick Sheedy: 2026 Montana Election Guide",
+      "excerpt": "Nick Sheedy is a Libertarian candidate for U.S. House District 1 (West). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/nick-sheedy/",
+      "featuredImage": {
+        "localPath": "public/portraits/nick-sheedy.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/nick-sheedy.webp",
+        "altText": "Portrait of Nick Sheedy"
+      },
+      "contentHash": "2ce5d4daecc97a7c66bde190422f33564ccb00f4528ca7ff62116174cd64d0dd",
+      "htmlPath": "articles/apple-news-election-guide-nick-sheedy.html",
+      "templatePath": "templates/apple-news-election-guide-nick-sheedy.html"
+    },
+    {
+      "key": "candidate-michael-d-eisenhauer",
+      "slug": "apple-news-election-guide-michael-d-eisenhauer",
+      "type": "candidate",
+      "title": "Michael D Eisenhauer: 2026 Montana Election Guide",
+      "excerpt": "Michael D Eisenhauer is a Independent candidate for U.S. House District 2 (East). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/michael-d-eisenhauer/",
+      "featuredImage": {
+        "localPath": "public/portraits/michael-d-eisenhauer.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/michael-d-eisenhauer.webp",
+        "altText": "Portrait of Michael D Eisenhauer"
+      },
+      "contentHash": "5583b8c775d1a1ee973624e48a38e8b9cb4a7187440e9447eafe9c11726b3f8d",
+      "htmlPath": "articles/apple-news-election-guide-michael-d-eisenhauer.html",
+      "templatePath": "templates/apple-news-election-guide-michael-d-eisenhauer.html"
+    },
+    {
+      "key": "candidate-kyle-austin",
+      "slug": "apple-news-election-guide-kyle-austin",
+      "type": "candidate",
+      "title": "Kyle Austin: 2026 Montana Election Guide",
+      "excerpt": "Kyle Austin is a Libertarian candidate for U.S. Senate. Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/kyle-austin/",
+      "featuredImage": {
+        "localPath": "public/portraits/kyle-austin.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/kyle-austin.webp",
+        "altText": "Portrait of Kyle Austin"
+      },
+      "contentHash": "ea5b80494bf60d8c19c414755d763740cc21dbc6b2e5d02d80cca43edefead02",
+      "htmlPath": "articles/apple-news-election-guide-kyle-austin.html",
+      "templatePath": "templates/apple-news-election-guide-kyle-austin.html"
+    },
+    {
+      "key": "candidate-kurt-alme",
+      "slug": "apple-news-election-guide-kurt-alme",
+      "type": "candidate",
+      "title": "Kurt Alme: 2026 Montana Election Guide",
+      "excerpt": "Kurt Alme is a Republican candidate for U.S. Senate. Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/",
+      "featuredImage": {
+        "localPath": "public/portraits/kurt-alme.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/kurt-alme.webp",
+        "altText": "Portrait of Kurt Alme"
+      },
+      "contentHash": "0118a9b2f204cc6e3b3a7e6e4bfa69a9a78cb9855c4e0ad5d9f32b61b2965d0a",
+      "htmlPath": "articles/apple-news-election-guide-kurt-alme.html",
+      "templatePath": "templates/apple-news-election-guide-kurt-alme.html"
+    },
+    {
+      "key": "candidate-kevin-hamm",
+      "slug": "apple-news-election-guide-kevin-hamm",
+      "type": "candidate",
+      "title": "Kevin Hamm: 2026 Montana Election Guide",
+      "excerpt": "Kevin Hamm is a Democratic candidate for Public Service Commission (Seat 5). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/kevin-hamm/",
+      "featuredImage": {
+        "localPath": "public/portraits/kevin-hamm.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/kevin-hamm.webp",
+        "altText": "Portrait of Kevin Hamm"
+      },
+      "contentHash": "9652e2bb400ee7b0cee1482d961aaf1e1b581e51f365b0e4410aa320c88051fb",
+      "htmlPath": "articles/apple-news-election-guide-kevin-hamm.html",
+      "templatePath": "templates/apple-news-election-guide-kevin-hamm.html"
+    },
+    {
+      "key": "candidate-jeff-pattison",
+      "slug": "apple-news-election-guide-jeff-pattison",
+      "type": "candidate",
+      "title": "Jeff Pattison: 2026 Montana Election Guide",
+      "excerpt": "Jeff Pattison is a Republican candidate for Public Service Commission (Seat 1). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/jeff-pattison/",
+      "featuredImage": {
+        "localPath": "public/portraits/jeff-pattison.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/jeff-pattison.webp",
+        "altText": "Portrait of Jeff Pattison"
+      },
+      "contentHash": "3dddfee34fe45e906043b4f398cb85e40b1ba922e5e8f6cf5fee1764c35abdae",
+      "htmlPath": "articles/apple-news-election-guide-jeff-pattison.html",
+      "templatePath": "templates/apple-news-election-guide-jeff-pattison.html"
+    },
+    {
+      "key": "candidate-dan-wilson",
+      "slug": "apple-news-election-guide-dan-wilson",
+      "type": "candidate",
+      "title": "Dan Wilson: 2026 Montana Election Guide",
+      "excerpt": "Dan Wilson is a Nonpartisan candidate for State Supreme Court (Seat 4). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/dan-wilson/",
+      "featuredImage": {
+        "localPath": "public/portraits/dan-wilson.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/dan-wilson.webp",
+        "altText": "Portrait of Dan Wilson"
+      },
+      "contentHash": "2435aad48ef3ef980c5894f250fc45de040f1c5648281c1f19b9417cd5a29bb1",
+      "htmlPath": "articles/apple-news-election-guide-dan-wilson.html",
+      "templatePath": "templates/apple-news-election-guide-dan-wilson.html"
+    },
+    {
+      "key": "candidate-brian-j-miller",
+      "slug": "apple-news-election-guide-brian-j-miller",
+      "type": "candidate",
+      "title": "Brian J Miller: 2026 Montana Election Guide",
+      "excerpt": "Brian J Miller is a Democratic candidate for U.S. House District 2 (East). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/brian-j-miller/",
+      "featuredImage": {
+        "localPath": "public/portraits/brian-j-miller.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/brian-j-miller.webp",
+        "altText": "Portrait of Brian J Miller"
+      },
+      "contentHash": "56e71668c359130a2508b1b095b612c9651ad9da52c3081495224d6a63be137c",
+      "htmlPath": "articles/apple-news-election-guide-brian-j-miller.html",
+      "templatePath": "templates/apple-news-election-guide-brian-j-miller.html"
+    },
+    {
+      "key": "candidate-annie-bukacek",
+      "slug": "apple-news-election-guide-annie-bukacek",
+      "type": "candidate",
+      "title": "Annie Bukacek: 2026 Montana Election Guide",
+      "excerpt": "Annie Bukacek is a Republican candidate for Public Service Commission (Seat 5). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/annie-bukacek/",
+      "featuredImage": {
+        "localPath": "public/portraits/annie-bukacek.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/annie-bukacek.webp",
+        "altText": "Portrait of Annie Bukacek"
+      },
+      "contentHash": "80f82f885fe937a276074c6ce3224527b07e1fdc2223e8f997726a3fcc7fc6b4",
+      "htmlPath": "articles/apple-news-election-guide-annie-bukacek.html",
+      "templatePath": "templates/apple-news-election-guide-annie-bukacek.html"
+    },
+    {
+      "key": "candidate-angeline-cheek",
+      "slug": "apple-news-election-guide-angeline-cheek",
+      "type": "candidate",
+      "title": "Angeline Cheek: 2026 Montana Election Guide",
+      "excerpt": "Angeline Cheek is a Democratic candidate for Public Service Commission (Seat 1). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/angeline-cheek/",
+      "featuredImage": {
+        "localPath": "public/portraits/angeline-cheek.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/angeline-cheek.webp",
+        "altText": "Portrait of Angeline Cheek"
+      },
+      "contentHash": "63d82425f79657a2e7a3f585ab2f7619ae2c33f2e7db3f677a016b6daf46adf3",
+      "htmlPath": "articles/apple-news-election-guide-angeline-cheek.html",
+      "templatePath": "templates/apple-news-election-guide-angeline-cheek.html"
+    },
+    {
+      "key": "candidate-amy-eddy",
+      "slug": "apple-news-election-guide-amy-eddy",
+      "type": "candidate",
+      "title": "Amy Eddy: 2026 Montana Election Guide",
+      "excerpt": "Amy Eddy is a Nonpartisan candidate for State Supreme Court (Seat 4). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/amy-eddy/",
+      "featuredImage": {
+        "localPath": "public/portraits/amy-eddy.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/amy-eddy.webp",
+        "altText": "Portrait of Amy Eddy"
+      },
+      "contentHash": "38d19d98f0354d55e5e6cdf149a453c58c996cac6b7027e2efc88e536a4c41e5",
+      "htmlPath": "articles/apple-news-election-guide-amy-eddy.html",
+      "templatePath": "templates/apple-news-election-guide-amy-eddy.html"
+    },
+    {
+      "key": "candidate-alani-bankhead",
+      "slug": "apple-news-election-guide-alani-bankhead",
+      "type": "candidate",
+      "title": "Alani Bankhead: 2026 Montana Election Guide",
+      "excerpt": "Alani Bankhead is a Democratic candidate for U.S. Senate. Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/",
+      "featuredImage": {
+        "localPath": "public/portraits/alani-bankhead.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/alani-bankhead.webp",
+        "altText": "Portrait of Alani Bankhead"
+      },
+      "contentHash": "33363ccc4d301c42d864fc82b39c7d6d14e62278be3e6eb15f32934b4b4dc8e8",
+      "htmlPath": "articles/apple-news-election-guide-alani-bankhead.html",
+      "templatePath": "templates/apple-news-election-guide-alani-bankhead.html"
+    },
+    {
+      "key": "candidate-aaron-flint",
+      "slug": "apple-news-election-guide-aaron-flint",
+      "type": "candidate",
+      "title": "Aaron Flint: 2026 Montana Election Guide",
+      "excerpt": "Aaron Flint is a Republican candidate for U.S. House District 1 (West). Read the candidate's background, issue responses, finance information and election results.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/candidates/aaron-flint/",
+      "featuredImage": {
+        "localPath": "public/portraits/aaron-flint.webp",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/portraits/aaron-flint.webp",
+        "altText": "Portrait of Aaron Flint"
+      },
+      "contentHash": "f1930b6cd9e37faad063a02f3a878b54dcd44fdb76b9c42ae8eb547add492ba9",
+      "htmlPath": "articles/apple-news-election-guide-aaron-flint.html",
+      "templatePath": "templates/apple-news-election-guide-aaron-flint.html"
+    },
+    {
+      "key": "legislature-house",
+      "slug": "apple-news-2026-montana-house-candidates",
+      "type": "legislature",
+      "title": "2026 Montana House Candidates by District",
+      "excerpt": "A district-by-district directory of candidates for the Montana House in Montana’s 2026 election, including party, incumbency, campaign links and seats that are not on this year’s ballot.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/legislative-candidates-by-district/",
+      "featuredImage": {
+        "localPath": "public/election-guide-2026-feature-art.jpg",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/election-guide-2026-feature-art.jpg",
+        "altText": "Montana Free Press 2026 Election Guide"
+      },
+      "contentHash": "1f0932c0a370379376e93dfbd670670e001514837af68cbee5938d51868cbef5",
+      "htmlPath": "articles/apple-news-2026-montana-house-candidates.html",
+      "templatePath": "templates/apple-news-2026-montana-house-candidates.html"
+    },
+    {
+      "key": "legislature-senate",
+      "slug": "apple-news-2026-montana-senate-candidates",
+      "type": "legislature",
+      "title": "2026 Montana Senate Candidates by District",
+      "excerpt": "A district-by-district directory of candidates for the Montana Senate in Montana’s 2026 election, including party, incumbency, campaign links and seats that are not on this year’s ballot.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/legislative-candidates-by-district/",
+      "featuredImage": {
+        "localPath": "public/election-guide-2026-feature-art.jpg",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/election-guide-2026-feature-art.jpg",
+        "altText": "Montana Free Press 2026 Election Guide"
+      },
+      "contentHash": "fd813e510ac67d688ebd7f6e5e4530fba3d000045214f0f934a95e8461d8c48c",
+      "htmlPath": "articles/apple-news-2026-montana-senate-candidates.html",
+      "templatePath": "templates/apple-news-2026-montana-senate-candidates.html"
+    },
+    {
+      "key": "voting-info",
+      "slug": "apple-news-2026-montana-voting-information",
+      "type": "voting",
+      "title": "How to Vote in Montana’s 2026 Election",
+      "excerpt": "Important dates, voter registration, identification requirements, absentee and mail voting, polling-place procedures and Election Day information for Montana voters in 2026.",
+      "sourceUrl": "https://projects.montanafreepress.org/election-guide-2026/#voting-faq",
+      "featuredImage": {
+        "localPath": "public/election-guide-2026-feature-art.jpg",
+        "publicUrl": "https://projects.montanafreepress.org/election-guide-2026/election-guide-2026-feature-art.jpg",
+        "altText": "Montana Free Press 2026 Election Guide"
+      },
+      "contentHash": "53ae579db217e88280d61387fe994b29ab4cfe3fa936f518aca4ebc06b89e9ad",
+      "htmlPath": "articles/apple-news-2026-montana-voting-information.html",
+      "templatePath": "templates/apple-news-2026-montana-voting-information.html"
+    }
+  ]
+}
