@@ -1,0 +1,729 @@
+{
+  "version": "1.7",
+  "identifier": "apple-news-2026-montana-senate-candidates",
+  "language": "en-US",
+  "title": "2026 Montana Senate Candidates by District",
+  "layout": {
+    "columns": 12,
+    "width": 1024,
+    "margin": 60,
+    "gutter": 20
+  },
+  "documentStyle": {
+    "backgroundColor": "#FFFFFF"
+  },
+  "metadata": {
+    "canonicalURL": "https://projects.montanafreepress.org/election-guide-2026/legislative-candidates-by-district/",
+    "thumbnailURL": "bundle://election-guide-2026-feature-art.jpg",
+    "excerpt": "A district-by-district directory of candidates for the Montana Senate in Montana’s 2026 election, including party, incumbency, campaign links and seats that are not on this year’s ballot.",
+    "authors": [
+      "Montana Free Press"
+    ],
+    "datePublished": "2026-08-22T20:20:32.993Z",
+    "dateModified": "2026-08-22T20:20:32.993Z"
+  },
+  "components": [
+    {
+      "role": "title",
+      "text": "2026 Montana Senate Candidates by District",
+      "layout": "body"
+    },
+    {
+      "role": "author",
+      "text": "Montana Free Press",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/legislative-candidates-by-district/\">House candidates</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montanans elect 100 state representatives to two-year terms and 25 of 50 state senators to four-year terms in each even-year election. This year&#x27;s election is the second to be conducted using a new legislative district map drawn to account for population shifts recorded by the 2020 census. Each Senate district is composed of two House districts.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/#montana-legislature\">Use the interactive address lookup to find your legislative districts</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 1: Western Montana — Libby, Troy, Eureka",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://gunderson4senate.com\">STEVE GUNDERSON</a> — Republican</li>\n<li>JONATHAN RUSSELL JAMESON — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 2: Flathead Valley — Whitefish, Columbia Falls, West Glacier",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Dave Fern (D).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 3: Flathead Valley — Hungry Horse, Central Flathead Valley",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Carl Glimm (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 4: Flathead Valley — Central Kalispell",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://amyformontana.com\">AMY REGIER</a> — Republican</li>\n<li><a href=\"https://kyle4kalispell.com\">KYLE WATERMAN</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 5: Flathead Valley — South and West of Kalispell",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Matt Regier (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 6: Flathead Valley — Bigfork, East of Kalispell",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li>MARK NOLAND — Republican (incumbent)</li>\n<li>PATRICK FITZPATRICK — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 7: Western Montana — Plains, Thompson Falls, Noxon, Hot Springs",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Greg Hertz (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 8: Western Montana — Browning, Cut Bank, Heart Butte, St. Ignatius",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li>CHRISTOPHER PAUL BUCKLES — Republican</li>\n<li>TYSON T RUNNING WOLF — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 9: North-central Montana — Shelby, Conrad, Choteau, Wolf Creek, Lincoln",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://www.votellewjones.com\">LLEW JONES</a> — Republican</li>\n<li>NOY HOLLAND — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 10: Great Falls area — Central Great Falls",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://jessicaformontana.com\">JESSICA DYRDAHL</a> — Republican</li>\n<li><a href=\"https://mitchell406.com\">MARGARET MITCHELL</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 11: Great Falls area — North and East Great Falls, Malmstrom Air Force Base",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://stevenformontana.com\">STEVEN GALLOWAY</a> — Republican</li>\n<li>VALYNDA HOLLAND — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 12: Great Falls area — South and West Great Falls",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://georgeforus.com\">GEORGE NIKOLAKAKOS</a> — Republican</li>\n<li><a href=\"https://mindy4mt.com\">MINDY LEACH</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 13: North-central Montana — Cascade, Vaughn, Fort Benton, Big Sandy",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Josh Kassmier (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 14: North-central Montana — Havre, Chester, Chinook, Malta, Opheim",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://albusformontana.com\">ERIC ALBUS</a> — Republican</li>\n<li>BLAKE BORST — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 15: Eastern Montana — Sidney, Scobey, Plentywood",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Gregg Hunter (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 16: Eastern Montana — Rocky Boy&#039;s, Harlem, Wolf Point, Poplar",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Jonathan Windy Boy (D).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 17: Eastern Montana — Glandive, Circle, Baker, Ekalaka, Broadus",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Bob Phalen (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 18: Eastern Montana — Miles City, Forsyth, Colstrip, Jordan",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://www.gregkmetzforsenate.com\">GREG KMETZ</a> — Republican</li>\n<li>STAN TAYLOR — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 19: Central Montana — Lewistown, Winifred, Winnett, Roundup",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li>CHRIS RINDAL — Republican</li>\n<li>DEANNA J DAIGREPONT — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 20: Billings area — Billings Heights, Lockwood",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Sue Vinton (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 21: Billings area — Hardin, Crow Agency, Lame Deer, Lodge Grass, Pryor",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Gayle Lammers (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 22: Billings area — North Billings, Shepherd",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://danielzolnikov.com\">DANIEL ZOLNIKOV</a> — Republican (incumbent)</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 23: Billings area — Central Billings",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li>JOANNA OBLANDER — Republican</li>\n<li><a href=\"https://emmaformontana.org\">EMMA KERR-CARPENTER</a> — Democratic (incumbent)</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 24: Billings area — Downtown and South Billings",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Mike Yakawich (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 25: Billings area — West Billings",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li>DENNIS LENZ — Republican (incumbent)</li>\n<li><a href=\"https://hipplerformontana.com\">JULIE HIPPLER</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 26: Billings area — Northwest Billings",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Tom McGillvray (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 27: South-central Montana — Laurel, South of Billings",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Vince Ricci (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 28: South-central Montana — Red Lodge, Columbus",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://www.facebook.com/mandevilleformontana\">FORREST J MANDEVILLE</a> — Republican (incumbent)</li>\n<li><a href=\"https://kellyhaleformontana.com\">KELLY HALE</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 29: Bozeman area — Livingston, Gardiner, east downtown Bozeman",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://jgundersonmt.com\">JASON GUNDERSON</a> — Republican</li>\n<li><a href=\"https://rosenzweigformontana.com\">SCOTT ROSENZWEIG</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 30: Bozeman area — South Bozeman, Big Sky, West Yellowstone",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Cora Neumann (D).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 31: Bozeman area — South Bozeman, Huffine Lane",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://richardformontana.com\">RICHARD AUNGIER</a> — Republican</li>\n<li><a href=\"https://kathleenformontana.com\">KATHLEEN WILLIAMS</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 32: Bozeman area — Northwest Bozeman",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://ganserforthegallatin.com\">NEAL GANSER</a> — Republican</li>\n<li><a href=\"https://kellyformt.com\">KELLY KORTUM</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 33: Bozeman area — Central Bozeman, north of Bozeman",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Chris Pope (D).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 34: Bozeman area — Belgrade, west of Bozeman",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li>CALEB HINKLE — Republican</li>\n<li>CARL ANDERSON — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 35: Southwest Montana — Ennis, Dillon, Twin Bridges",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Tony Tezak (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 36: Butte/Anaconda — Anaconda, Warm Springs, west Butte",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Sara Novak (D).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 37: Butte/Anaconda — Central and south Butte",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Derek Harvey (D).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 38: Southwest Montana — Boulder, Deer Lodge, Philipsburg, Drummond",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Becky Beard (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 39: Central Montana — White Sulphur Springs, Belt, Stanford, Harlowton",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Wylie Galt (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 40: Helena area — West Helena and western Helena Valley",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Laura Smith (D).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 41: Helena area — Central Helena and Helena Valley",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://www.erin4montana.com\">ERIN FARRIS-OLSEN</a> — Democratic</li>\n<li>DRU KOESTER — Libertarian</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 42: Helena area — East Helena and northeast Helena Valley",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://lapraim4mt.com\">STEPHEN LAPRAIM</a> — Republican</li>\n<li><a href=\"https://maryanndunwell.com\">MARY ANN DUNWELL</a> — Democratic (incumbent)</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 43: Bitterroot Valley — Hamilton and southern Bitterroot Valley",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://davidbedey.com\">DAVID BEDEY</a> — Republican</li>\n<li>STEPHEN LEUCHTMAN — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 44: Bitterroot Valley — Northern Bitterroot Valley",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Theresa Manzella (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 45: Missoula area — I-90 corridor from Frenchtown to Idaho border",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Denley Loge (R).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 46: Missoula area — East Missoula, Rattlesnake, Ronan",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Jacinda Morigeau (D).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 47: Missoula area — Southeast Missoula, Clinton",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No election is scheduled for this seat in 2026. Holdover senator: Ellie Boldman (D).</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 48: Missoula area — Central Missoula, west of Missoula",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://www.andreaolsenmt.com\">ANDREA OLSEN</a> — Democratic (incumbent)</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 49: Missoula area — West Missoula",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li>BRAD TSCHIDA — Republican</li>\n<li>WILLIS CURDY — Democratic (incumbent)</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "SD 50: Missoula area — Downtown and north of Missoula",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li>SHANE A MORIGEAU — Democratic (incumbent)</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Return to the election guide</a></p>",
+      "format": "html",
+      "layout": "body"
+    }
+  ],
+  "componentLayouts": {
+    "body": {
+      "columnStart": 1,
+      "columnSpan": 10,
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
+    },
+    "portrait": {
+      "columnStart": 3,
+      "columnSpan": 6,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    },
+    "wide": {
+      "columnStart": 0,
+      "columnSpan": 12,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    }
+  },
+  "componentTextStyles": {
+    "default": {
+      "fontName": "Helvetica",
+      "fontSize": 18,
+      "lineHeight": 26,
+      "textColor": "#222222",
+      "linkStyle": {
+        "textColor": "#006699"
+      }
+    },
+    "default-title": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 42,
+      "lineHeight": 48,
+      "textColor": "#111111"
+    },
+    "default-author": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 15,
+      "textColor": "#555555"
+    },
+    "default-heading2": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 28,
+      "lineHeight": 34,
+      "textColor": "#111111"
+    },
+    "default-heading3": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 21,
+      "lineHeight": 27,
+      "textColor": "#222222"
+    }
+  },
+  "textStyles": {
+    "default-tag-pre": {
+      "fontName": "Menlo-Regular",
+      "fontSize": 15,
+      "lineHeight": 22,
+      "textColor": "#333333"
+    }
+  }
+}

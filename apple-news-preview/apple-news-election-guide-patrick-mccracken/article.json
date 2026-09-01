@@ -1,0 +1,373 @@
+{
+  "version": "1.7",
+  "identifier": "apple-news-election-guide-patrick-mccracken",
+  "language": "en-US",
+  "title": "Patrick McCracken: 2026 Montana Election Guide",
+  "layout": {
+    "columns": 12,
+    "width": 1024,
+    "margin": 60,
+    "gutter": 20
+  },
+  "documentStyle": {
+    "backgroundColor": "#FFFFFF"
+  },
+  "metadata": {
+    "canonicalURL": "https://projects.montanafreepress.org/election-guide-2026/candidates/patrick-mccracken/",
+    "thumbnailURL": "bundle://patrick-mccracken.webp",
+    "excerpt": "Patrick McCracken is a Libertarian candidate for U.S. House District 2 (East). Read the candidate's background, issue responses, finance information and election results.",
+    "authors": [
+      "Montana Free Press"
+    ],
+    "datePublished": "2026-08-22T20:20:32.993Z",
+    "dateModified": "2026-08-22T20:20:32.993Z"
+  },
+  "components": [
+    {
+      "role": "title",
+      "text": "Patrick McCracken: 2026 Montana Election Guide",
+      "layout": "body"
+    },
+    {
+      "role": "author",
+      "text": "Montana Free Press",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/michael-d-eisenhauer/\">Michael D Eisenhauer</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/troy-downing/\">Troy Downing</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/brian-j-miller/\">Brian J Miller</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "portrait",
+      "URL": "bundle://patrick-mccracken.webp",
+      "accessibilityCaption": "Portrait of Patrick McCracken",
+      "layout": "portrait"
+    },
+    {
+      "role": "body",
+      "text": "<p><strong>Patrick McCracken</strong> is a Libertarian candidate for U.S. House District 2 (East) in Montana's 2026 election.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Other candidates in this race",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/michael-d-eisenhauer/\">Michael D Eisenhauer (I)</a></li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/troy-downing/\">Troy Downing (R)</a></li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/brian-j-miller/\">Brian J Miller (D)</a></li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "On the issues",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The responses reproduced here were solicited from candidates via a written questionnaire conducted by Montana Free Press in March 2026. Responses were limited to 1,000 characters and have not been edited or fact-checked.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&amp; which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Congress has always had the power to declare war and the power of the purse. They don&#x27;t use either. War pays. Incentives matter.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Presidents deploy forces in language carefully chosen to avoid triggering the constraints Congress wrote for itself - and Congress lets them, because enforcing those constraints would mean owning the consequences.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>We have to make war a personal decision, not a financial one. Right now, it is a calculation of convenience for people whose own children may not be at risk.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>I will bring a bill to the House that drafts the sons and daughters of the President, Cabinet members, Senators, and Congresspeople first.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Call it the &quot;Send Baron Act.&quot;</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Our country&#x27;s leadership needs its incentives aligned with the citizens it purports to serve.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Many of Montana&#039;s rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>There is no free market anywhere near American healthcare. It is managed pricing, managed access, and managed scarcity — and the people managing it are not the patients or the doctors. That&#x27;s not a solution. That&#x27;s a hostage situation.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>We pay hospitals by the patient. When there aren&#x27;t enough patients over a large area, it doesn&#x27;t pencil. We pay fire departments to be on standby — not hospitals. Fee for service doesn&#x27;t work when there aren&#x27;t enough fees.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>52 of our 56 counties are medically underserved. Medicaid expansion is the single biggest thing keeping the lights on in rural Montana healthcare. Governor Gianforte signed HB 245 removing the sunset on the state&#x27;s funding portion. Our delegation needs to protect the federal side — full stop.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Fix what made us this dependent. Start with price transparency — the bills exist. The House passed the Lower Costs, More Transparency Act 320-71. The PRICE Transparency Act is in committee now. The votes are there. The will to finish is not. I intend to provide it. Price transparency is the first step on a long journey.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>First: data centers. NorthWestern Energy has agreements to supply over 1,400 megawatts to data centers — nearly doubling Montana&#x27;s electrical demand for minimal jobs. The PSC ruled the contracts don&#x27;t have to be public. The White House got seven tech companies to sign a Ratepayer Protection Pledge, but it has no enforcement and no penalties. The White House asked Congress to codify it. No one has written the bill. I will. Montanans built this grid. Data centers pay full cost or they don&#x27;t belong here.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Second: country-of-origin labeling. Four meatpackers control 85% of beef processing. That&#x27;s a monopoly. The rancher&#x27;s share of the beef dollar has dropped from 80 cents to 37 cents while consumers pay record prices. The White House launched a voluntary &quot;Product of USA&quot; sticker. Voluntary. Meanwhile 80,000 metric tons of Argentine beef entered our market with no mandatory label. A sticker isn&#x27;t enough. I&#x27;ll co-sponsor the American Beef Labeling Act and push for mandatory COOL in the Farm Bill.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>These two issues have the same pattern. D.C. offers pledges and stickers. Montanans need good laws out of Washington, not more of the same broken promises.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Housing in Montana has become unaffordable for the people who live and work here. Wages haven&#x27;t kept pace, and they won&#x27;t — because Montanans aren&#x27;t competing in a housing market anymore. They&#x27;re competing in an asset market. When the Federal Reserve prints trillions, that money has to go somewhere. It flows into anything that can be financed — homes, rentals, land. Your house isn&#x27;t a shelter anymore. It&#x27;s an inflationary asset.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This is what happens when you let a central bank run monetary policy for the benefit of the monied instead of the people who live and work here. Everything becomes a financial product. Everything goes up in price. That&#x27;s not a housing crisis — it&#x27;s a monetary crisis showing up in your mortgage payment.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>I&#x27;ll support the 21st Century ROAD to Housing Act — the Senate passed it 89-10. Banning institutional investors from buying single-family homes is common sense. But it treats the symptom. The disease is cheap money and a Federal Reserve that answers to no one. Fix the money and you fix the speculation. Until then, we&#x27;re putting band-aids on a bullet wound.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Troy Downing sits on the House Financial Services Committee — the committee that handles banking law. Montana&#x27;s cannabis industry did $327 million in sales last year and paid $60 million in state taxes. Our businesses still can&#x27;t bank normally. The SAFE Banking Act has passed the House seven times. Senator Daines championed it from the Senate — and he&#x27;s leaving. Sheehy hasn&#x27;t said a word. Montana has no cannabis banking champion left in its federal delegation. Downing could be that champion tomorrow. He won&#x27;t.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>He hasn&#x27;t co-sponsored a single COOL bill. R-CALF called him out by name. He sent a letter asking for &quot;clarity&quot; on Argentine beef. Clarity. 27,000 ranches needed a vote, not a letter.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>He lives at the Yellowstone Club. I&#x27;ve worked lifts and banged nails there. He&#x27;s comfortable in an R+15 district. I&#x27;m not comfortable with what that comfort has cost Montana.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>I will write the bill to codify the Ratepayer Protection Pledge. I will co-sponsor the American Beef Labeling Act. I will champion SAFE Banking from the committee Downing is sitting in. These aren&#x27;t hard issues. They require someone willing to do the work for Montana.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "MTFP coverage",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/\">Campaign finance filings show Democrats — except Sam Forstag — far behind</a> — July 16, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/03/18/is-montana-having-a-libertarian-moment/\">Is Montana having a Libertarian moment?</a> — March 18, 2026, by Tom Lutey</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Campaign finance",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Figures are based on reporting required by the U.S. Federal Election Commission.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "htmltable",
+      "html": "<table>\n<caption>Federal campaign finance for U.S. House District 2 (East)</caption>\n<thead><tr><th>Candidate</th><th>Raised</th><th>Spent</th><th>Cash on hand</th><th>Through</th></tr></thead>\n<tbody>\n<tr><td>Troy Downing (R)</td><td>$2,127,927</td><td>$1,588,993</td><td>$650,464</td><td>2026-06-30</td></tr>\n<tr><td>Michael D Eisenhauer (I)</td><td>$296,253</td><td>$164,060</td><td>$140,122</td><td>2026-06-30</td></tr>\n<tr><td>Brian J Miller (D)</td><td>$19,174</td><td>$14,573</td><td>$3,166</td><td>2026-06-30</td></tr>\n<tr><td>Patrick McCracken (L)</td><td>$0</td><td>$0</td><td>$0</td><td>No filing date</td></tr>\n</tbody>\n</table>",
+      "layout": "wide"
+    },
+    {
+      "role": "heading2",
+      "text": "Election outcomes",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "htmltable",
+      "html": "<table>\n<caption>June 2 primary results for U.S. House District 2 (East)</caption>\n<thead><tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Share</th></tr></thead>\n<tbody>\n<tr><td>✓ PATRICK MCCRACKEN</td><td>L</td><td>1,844</td><td>100%</td></tr>\n</tbody>\n</table>",
+      "layout": "wide"
+    },
+    {
+      "role": "body",
+      "text": "<p><em>Count reported by the Montana secretary of state as of 6/12/2026 10:57:30 AM.</em></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "About this project",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This guide was produced by the Montana Free Press newsroom with production by Tom Lutey, Brad Tyer, Amanda Eggert and Jacob Olness, web development by Jacob Olness, editing by Brad Tyer, and contributions from Mara Silvers, Zeke Lloyd and Stephanie Farmer. Contact Jacob Olness with questions, corrections or suggestions at jolness@montanafreepress.org.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montana Free Press is a nonpartisan 501(c)(3) nonprofit, reader-supported news organization serving Montana. MTFP&#x27;s donor base includes supporters from across Montana&#x27;s political spectrum, including some Montanans who are candidates in this year&#x27;s election. MTFP&#x27;s <a href=\"https://montanafreepress.org/donor-transparency\">major donors are listed here</a>, and a current list of <a href=\"https://montanafreepress.org/mtfp-members/\">other supporters is available here</a>. MTFP news decisions are made without donor involvement.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This material is available for republication by other media outlets under Montana Free Press&#x27; <a href=\"https://montanafreepress.org/publish-our-stories/\">standard distribution terms</a>.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/michael-d-eisenhauer/\">Michael D Eisenhauer</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/troy-downing/\">Troy Downing</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/brian-j-miller/\">Brian J Miller</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    }
+  ],
+  "componentLayouts": {
+    "body": {
+      "columnStart": 1,
+      "columnSpan": 10,
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
+    },
+    "portrait": {
+      "columnStart": 3,
+      "columnSpan": 6,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    },
+    "wide": {
+      "columnStart": 0,
+      "columnSpan": 12,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    }
+  },
+  "componentTextStyles": {
+    "default": {
+      "fontName": "Helvetica",
+      "fontSize": 18,
+      "lineHeight": 26,
+      "textColor": "#222222",
+      "linkStyle": {
+        "textColor": "#006699"
+      }
+    },
+    "default-title": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 42,
+      "lineHeight": 48,
+      "textColor": "#111111"
+    },
+    "default-author": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 15,
+      "textColor": "#555555"
+    },
+    "default-heading2": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 28,
+      "lineHeight": 34,
+      "textColor": "#111111"
+    },
+    "default-heading3": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 21,
+      "lineHeight": 27,
+      "textColor": "#222222"
+    }
+  },
+  "textStyles": {
+    "default-tag-pre": {
+      "fontName": "Menlo-Regular",
+      "fontSize": 15,
+      "lineHeight": 22,
+      "textColor": "#333333"
+    }
+  }
+}

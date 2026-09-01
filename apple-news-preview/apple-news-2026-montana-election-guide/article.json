@@ -1,0 +1,357 @@
+{
+  "version": "1.7",
+  "identifier": "apple-news-2026-montana-election-guide",
+  "language": "en-US",
+  "title": "The Montana Free Press 2026 Election Guide",
+  "layout": {
+    "columns": 12,
+    "width": 1024,
+    "margin": 60,
+    "gutter": 20
+  },
+  "documentStyle": {
+    "backgroundColor": "#FFFFFF"
+  },
+  "metadata": {
+    "canonicalURL": "https://projects.montanafreepress.org/election-guide-2026/",
+    "thumbnailURL": "bundle://election-guide-2026-feature-art.jpg",
+    "excerpt": "Explore Montana’s 2026 candidates, races, legislative contests and voting information in this Apple News edition of the Montana Free Press Election Guide.",
+    "authors": [
+      "Montana Free Press"
+    ],
+    "datePublished": "2026-08-22T20:20:32.993Z",
+    "dateModified": "2026-08-22T20:20:32.993Z"
+  },
+  "components": [
+    {
+      "role": "title",
+      "text": "The Montana Free Press 2026 Election Guide",
+      "layout": "body"
+    },
+    {
+      "role": "author",
+      "text": "Montana Free Press",
+      "layout": "body"
+    },
+    {
+      "role": "figure",
+      "URL": "bundle://election-guide-2026-feature-art.jpg",
+      "accessibilityCaption": "Montana Free Press 2026 Election Guide",
+      "layout": "wide"
+    },
+    {
+      "role": "body",
+      "text": "<p><em>Guide data last updated August 22, 2026.</em></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>In the 2026 election, Montana voters will select candidates to fill six federal and state offices, plus 100 House seats and 25 Senate seats in the state Legislature.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Elections can be baffling to track even for voters who diligently follow political news. This digital election guide, a project of the nonprofit and nonpartisan  <strong><a href=\"https://montanafreepress.org/\">Montana Free Press</a></strong> newsroom, is an effort to ensure that basic information is available so voters have the opportunity to cast informed votes.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The 2026 primary election, in which voters picked political party nominees to advance to the general election, was held <strong>Tuesday, June 2</strong>. The 2026 general election will be held <strong>Tuesday, Nov. 3</strong>.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><strong>Use the native links below to explore candidate profiles and voting information without leaving Apple News.</strong></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Find your races",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Use your address or search candidates in the interactive web guide</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "U.S. Senate",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>One of Montana&#039;s two U.S. Senate seats, elected with a statewide vote. Elected to a six-year term.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "figure",
+      "URL": "bundle://us-senate.webp",
+      "accessibilityCaption": "Map of U.S. Senate",
+      "layout": "wide"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/seth-bodnar/\">Seth Bodnar</a> — Independent</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/\">Kurt Alme</a> — Republican</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kyle-austin/\">Kyle Austin</a> — Libertarian</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/\">Alani Bankhead</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "U.S. House District 1 (West)",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Western Montana representative in Congress. District includes Missoula, Bozeman, Kalispell and Butte. Elected to a two-year term.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "figure",
+      "URL": "bundle://us-house-1.webp",
+      "accessibilityCaption": "Map of U.S. House District 1 (West)",
+      "layout": "wide"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/aaron-flint/\">Aaron Flint</a> — Republican</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/sam-forstag/\">Sam Forstag</a> — Democratic</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/nick-sheedy/\">Nick Sheedy</a> — Libertarian</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "U.S. House District 2 (East)",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Eastern Montana representative in Congress. District includes Billings, Great Falls, Helena, Havre and Miles City. Elected to a two-year term.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "figure",
+      "URL": "bundle://us-house-2.webp",
+      "accessibilityCaption": "Map of U.S. House District 2 (East)",
+      "layout": "wide"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/michael-d-eisenhauer/\">Michael D Eisenhauer</a> — Independent</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/troy-downing/\">Troy Downing</a> — Republican</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/patrick-mccracken/\">Patrick McCracken</a> — Libertarian</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/brian-j-miller/\">Brian J Miller</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Public Service Commission (Seat 1)",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>One of five seats on the state&#039;s utility regulation board, elected to a four-year term. The district spans eastern Montana, including Billings and Miles City.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "figure",
+      "URL": "bundle://psc-1.webp",
+      "accessibilityCaption": "Map of Public Service Commission (Seat 1)",
+      "layout": "wide"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/angeline-cheek/\">Angeline Cheek</a> — Democratic</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/jeff-pattison/\">Jeff Pattison</a> — Republican</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Public Service Commission (Seat 5)",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>One of five seats on the state&#039;s utility regulation board, elected to a four-year term. The district spans western Montana, including Missoula and Kalispell.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "figure",
+      "URL": "bundle://psc-5.webp",
+      "accessibilityCaption": "Map of Public Service Commission (Seat 5)",
+      "layout": "wide"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/annie-bukacek/\">Annie Bukacek</a> — Republican</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kevin-hamm/\">Kevin Hamm</a> — Democratic</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "State Supreme Court (Seat 4)",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>One of seven seats on the state&#039;s high court, which takes appeals from lower courts and administers the Montana legal system. Elected to an eight-year term via a statewide election.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/amy-eddy/\">Amy Eddy</a> — Nonpartisan</li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/dan-wilson/\">Dan Wilson</a> — Nonpartisan</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Montana Legislature",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montanans elect 100 state representatives to two-year terms and 25 of 50 state senators to four-year terms in each even-year election. This year&#x27;s election is the second to be conducted using a new legislative district map drawn to account for population shifts recorded by the 2020 census. Each Senate district is composed of two House districts.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/legislative-candidates-by-district/\">Montana House candidates by district</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/legislative-candidates-by-district/\">Montana Senate candidates by district</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Voting information",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Read the complete 2026 Montana voting FAQ</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Other ballot items",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>November general election ballots may also include other items such as county commission races, depending on where in the state you live.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "About this project",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This guide was produced by the Montana Free Press newsroom with production by Tom Lutey, Brad Tyer, Amanda Eggert and Jacob Olness, web development by Jacob Olness, editing by Brad Tyer, and contributions from Mara Silvers, Zeke Lloyd and Stephanie Farmer. Contact Jacob Olness with questions, corrections or suggestions at jolness@montanafreepress.org.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montana Free Press is a nonpartisan 501(c)(3) nonprofit, reader-supported news organization serving Montana. MTFP&#x27;s donor base includes supporters from across Montana&#x27;s political spectrum, including some Montanans who are candidates in this year&#x27;s election. MTFP&#x27;s <a href=\"https://montanafreepress.org/donor-transparency\">major donors are listed here</a>, and a current list of <a href=\"https://montanafreepress.org/mtfp-members/\">other supporters is available here</a>. MTFP news decisions are made without donor involvement.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This material is available for republication by other media outlets under Montana Free Press&#x27; <a href=\"https://montanafreepress.org/publish-our-stories/\">standard distribution terms</a>.</p>",
+      "format": "html",
+      "layout": "body"
+    }
+  ],
+  "componentLayouts": {
+    "body": {
+      "columnStart": 1,
+      "columnSpan": 10,
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
+    },
+    "portrait": {
+      "columnStart": 3,
+      "columnSpan": 6,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    },
+    "wide": {
+      "columnStart": 0,
+      "columnSpan": 12,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    }
+  },
+  "componentTextStyles": {
+    "default": {
+      "fontName": "Helvetica",
+      "fontSize": 18,
+      "lineHeight": 26,
+      "textColor": "#222222",
+      "linkStyle": {
+        "textColor": "#006699"
+      }
+    },
+    "default-title": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 42,
+      "lineHeight": 48,
+      "textColor": "#111111"
+    },
+    "default-author": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 15,
+      "textColor": "#555555"
+    },
+    "default-heading2": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 28,
+      "lineHeight": 34,
+      "textColor": "#111111"
+    },
+    "default-heading3": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 21,
+      "lineHeight": 27,
+      "textColor": "#222222"
+    }
+  },
+  "textStyles": {
+    "default-tag-pre": {
+      "fontName": "Menlo-Regular",
+      "fontSize": 15,
+      "lineHeight": 22,
+      "textColor": "#333333"
+    }
+  }
+}

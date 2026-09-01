@@ -1,0 +1,326 @@
+{
+  "version": "1.7",
+  "identifier": "apple-news-election-guide-michael-d-eisenhauer",
+  "language": "en-US",
+  "title": "Michael D Eisenhauer: 2026 Montana Election Guide",
+  "layout": {
+    "columns": 12,
+    "width": 1024,
+    "margin": 60,
+    "gutter": 20
+  },
+  "documentStyle": {
+    "backgroundColor": "#FFFFFF"
+  },
+  "metadata": {
+    "canonicalURL": "https://projects.montanafreepress.org/election-guide-2026/candidates/michael-d-eisenhauer/",
+    "thumbnailURL": "bundle://michael-d-eisenhauer.webp",
+    "excerpt": "Michael D Eisenhauer is a Independent candidate for U.S. House District 2 (East). Read the candidate's background, issue responses, finance information and election results.",
+    "authors": [
+      "Montana Free Press"
+    ],
+    "datePublished": "2026-08-22T20:20:32.993Z",
+    "dateModified": "2026-08-22T20:20:32.993Z"
+  },
+  "components": [
+    {
+      "role": "title",
+      "text": "Michael D Eisenhauer: 2026 Montana Election Guide",
+      "layout": "body"
+    },
+    {
+      "role": "author",
+      "text": "Montana Free Press",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/troy-downing/\">Troy Downing</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/patrick-mccracken/\">Patrick McCracken</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/brian-j-miller/\">Brian J Miller</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "portrait",
+      "URL": "bundle://michael-d-eisenhauer.webp",
+      "accessibilityCaption": "Portrait of Michael D Eisenhauer",
+      "layout": "portrait"
+    },
+    {
+      "role": "body",
+      "text": "<p><strong>Michael D Eisenhauer</strong> is a Independent candidate for U.S. House District 2 (East) in Montana's 2026 election.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://eisenhauerforcongress.com\">Campaign website</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Other candidates in this race",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/troy-downing/\">Troy Downing (R)</a></li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/patrick-mccracken/\">Patrick McCracken (L)</a></li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/brian-j-miller/\">Brian J Miller (D)</a></li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "On the issues",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The responses reproduced here were solicited from candidates via a written questionnaire conducted by Montana Free Press in March 2026. Responses were limited to 1,000 characters and have not been edited or fact-checked.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&amp; which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>I believe strongly in the principles of constitutional governance, accountability, and adherence to the rule of law. In that context, the War Powers Resolution of 1973 (WPA) should be enforced. The WPA is federal law designed to limit the President&#x27;s authority to wage war without congressional authorization, requiring the president to notify Congress within 48 hours of deploying troops and limiting engagement to 60 days unless Congress authorizes longer action. By law, the President must also provide a full account of the “circumstances under which such hostilities were initiated, the estimated scope and duration of such hostilities, and the constitutional and legislative authority under which the introduction of hostilities took place.” I believe that that no branch of government should act unilaterally in matters as serious as war, and existing laws designed to preserve that balance should be upheld and improved rather than ignored.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<pre><code> If there are concerns about ambiguity or lack of compliance, the priority would not be to discard the law but to strengthen or clarify it so that its requirements are more explicit and enforceable.\n</code></pre>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Many of Montana&#039;s rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montana’s critical-access and rural healthcare system must be maintained. As a Cardiologist, I know that delays of even an hour in the care for emergencies such as a heart attack or stroke can mean the difference between life and death.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<pre><code> That said, 20% of our economy is now spent on healthcare, which is unsustainable. Millions of Americans are now seeing their health insurance costs increasing disproportionately because of the One Big Beautiful Bill (OBBB), which also canceled Medicaid support and eliminated subsidies. About 2/3 of Montana Medicaid recipients reside in rural areas. There is no question that the OBBB directly threatens the ability for Montana’s 47 rural health facilities to remain financially viable (or maintain current service levels).\n\n An Independent Representative can think out of the box in ways that differ from others who are constrained by party dogma. Any successful effort must first protect the ability to see the doctor of your choice, and must retain coverage for preexisting conditions. I do not think a single-payer system will work. Above all else, I will fight hard to protect rural healthcare in Montana, because I believe in it and know what it does.\n</code></pre>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The Montana Plan:  I strongly support the Transparent Election Initiative (TEI) that aims to ban corporations from “dark money” spending money on elections or ballot issues, and is intended to counter the effects of Citizens United.  The broader TEI also increases transparency, and improves confidence in the electoral system by returning more control back to citizen voters.\n•  If elected, I will champion the Montana Plan in Congress!</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Family Farms and Ranches underpin Montana’s economy, our national security, and our way of life.  Due to blunders in trade policy and consolidation at every level of the industry, we face a perfect storm; our federal government too often underwrites multi-national corporations at the expense of family farmers.<br/>\n•  Conventional short-term bailouts do not help; we need long-term solutions.\n•  The sale of agricultural lands or assets to foreign and large multi-national corporate entities must be curtailed.\n•  We must address the lack of competition for input suppliers (equipment, seed and fertilizer, etc.); this will very likely require significant anti-trust legislation and legal enforcement.\n•  Congress must take back control over tariffs and trade policy.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>When comparing average income to Montana’s average home price, we have the single least affordable market in the nation.  Fixing this housing crisis will require an “all of the above solution”:</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>•\tEnact new laws that will allow all mortgages to be transferable with minimal penalty, thereby freeing up home equity\n•\tTax incentives to municipalities (and builders) to open larger tracts of land for development and remove barriers to multi-family housing in residential areas.\n•\tEnforce antitrust laws against real estate entities that are “price-fixing” rents\n•\tSignificant down-payment assistance to 1st-time homebuyers\n•\tProperty tax relief to qualified homeowners, and to 1st-time homebuyers for the first 3 years\n•\tTargeted reductions in capital gains taxes for older homeowners who want to downsize\n•\tImprove financing terms (rate adjustments or subsidies) for qualified purchase/rehab/repair loans\n•\tPrioritize offers from buyers at foreclosure auctions who plan to live in the home\n•\tIncrease property tax rates for corporate or large-volume private-equity landlords (this will require these increases are not passed through to individual renters)\n•\tReduce tariffs on lumber and building supplies</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>I am not a typical politician; my thinking is framed as moving away from a traditional political or ideological approach, to a less partisan one grounded in professional expertise, public service, and practical problem-solving – along with a strong emphasis on accountability, constitutional principles, and real-world outcomes.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>My career as a physician and longtime senior military officer has given me significant experience in making high-stakes decisions under pressure, using an evidence- or merit-based approach to decision making while maintaining a focus on patient (constituent) well-being.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Leading with anger or combativeness is not effective – there is far too much vitriol in today’s politics. I am offering a less partisan and more pragmatic approach to representation as an ‘adult in the room’ so-to-speak, while working to reduce political polarization by collaborating with others from both sides of the aisle who can put the needs of the people above party.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>As an Independent Representative, I will align my votes with Montanans’ needs or desires, and will not be beholden to either party bosses or political elites. I won’t wait for others to tell me what to do or how to vote.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "MTFP coverage",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://montanafreepress.org/2026/06/26/how-seth-bodnar-plans-to-become-montana-first-nonpartisan-u-s-senator/\">Bodnar’s big gamble: Why the independent is pushing for Montana’s nonpartisan era</a> — June 26, 2026, by Brad Tyer</li>\n<li><a href=\"https://montanafreepress.org/2026/04/17/republican-independent-candidates-outraise-democrats-in-federal-races/\">Republican, independent candidates outraise Democrats in federal races</a> — April 17, 2026, by Tom Lutey</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Campaign finance",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Figures are based on reporting required by the U.S. Federal Election Commission.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "htmltable",
+      "html": "<table>\n<caption>Federal campaign finance for U.S. House District 2 (East)</caption>\n<thead><tr><th>Candidate</th><th>Raised</th><th>Spent</th><th>Cash on hand</th><th>Through</th></tr></thead>\n<tbody>\n<tr><td>Troy Downing (R)</td><td>$2,127,927</td><td>$1,588,993</td><td>$650,464</td><td>2026-06-30</td></tr>\n<tr><td>Michael D Eisenhauer (I)</td><td>$296,253</td><td>$164,060</td><td>$140,122</td><td>2026-06-30</td></tr>\n<tr><td>Brian J Miller (D)</td><td>$19,174</td><td>$14,573</td><td>$3,166</td><td>2026-06-30</td></tr>\n<tr><td>Patrick McCracken (L)</td><td>$0</td><td>$0</td><td>$0</td><td>No filing date</td></tr>\n</tbody>\n</table>",
+      "layout": "wide"
+    },
+    {
+      "role": "heading2",
+      "text": "Election outcomes",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No party primary was conducted or no results are available.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "About this project",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This guide was produced by the Montana Free Press newsroom with production by Tom Lutey, Brad Tyer, Amanda Eggert and Jacob Olness, web development by Jacob Olness, editing by Brad Tyer, and contributions from Mara Silvers, Zeke Lloyd and Stephanie Farmer. Contact Jacob Olness with questions, corrections or suggestions at jolness@montanafreepress.org.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montana Free Press is a nonpartisan 501(c)(3) nonprofit, reader-supported news organization serving Montana. MTFP&#x27;s donor base includes supporters from across Montana&#x27;s political spectrum, including some Montanans who are candidates in this year&#x27;s election. MTFP&#x27;s <a href=\"https://montanafreepress.org/donor-transparency\">major donors are listed here</a>, and a current list of <a href=\"https://montanafreepress.org/mtfp-members/\">other supporters is available here</a>. MTFP news decisions are made without donor involvement.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This material is available for republication by other media outlets under Montana Free Press&#x27; <a href=\"https://montanafreepress.org/publish-our-stories/\">standard distribution terms</a>.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/troy-downing/\">Troy Downing</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/patrick-mccracken/\">Patrick McCracken</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/brian-j-miller/\">Brian J Miller</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    }
+  ],
+  "componentLayouts": {
+    "body": {
+      "columnStart": 1,
+      "columnSpan": 10,
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
+    },
+    "portrait": {
+      "columnStart": 3,
+      "columnSpan": 6,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    },
+    "wide": {
+      "columnStart": 0,
+      "columnSpan": 12,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    }
+  },
+  "componentTextStyles": {
+    "default": {
+      "fontName": "Helvetica",
+      "fontSize": 18,
+      "lineHeight": 26,
+      "textColor": "#222222",
+      "linkStyle": {
+        "textColor": "#006699"
+      }
+    },
+    "default-title": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 42,
+      "lineHeight": 48,
+      "textColor": "#111111"
+    },
+    "default-author": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 15,
+      "textColor": "#555555"
+    },
+    "default-heading2": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 28,
+      "lineHeight": 34,
+      "textColor": "#111111"
+    },
+    "default-heading3": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 21,
+      "lineHeight": 27,
+      "textColor": "#222222"
+    }
+  },
+  "textStyles": {
+    "default-tag-pre": {
+      "fontName": "Menlo-Regular",
+      "fontSize": 15,
+      "lineHeight": 22,
+      "textColor": "#333333"
+    }
+  }
+}

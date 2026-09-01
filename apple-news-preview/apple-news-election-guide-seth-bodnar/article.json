@@ -1,0 +1,326 @@
+{
+  "version": "1.7",
+  "identifier": "apple-news-election-guide-seth-bodnar",
+  "language": "en-US",
+  "title": "Seth Bodnar: 2026 Montana Election Guide",
+  "layout": {
+    "columns": 12,
+    "width": 1024,
+    "margin": 60,
+    "gutter": 20
+  },
+  "documentStyle": {
+    "backgroundColor": "#FFFFFF"
+  },
+  "metadata": {
+    "canonicalURL": "https://projects.montanafreepress.org/election-guide-2026/candidates/seth-bodnar/",
+    "thumbnailURL": "bundle://seth-bodnar.webp",
+    "excerpt": "Seth Bodnar is a Independent candidate for U.S. Senate. Read the candidate's background, issue responses, finance information and election results.",
+    "authors": [
+      "Montana Free Press"
+    ],
+    "datePublished": "2026-08-22T20:20:32.993Z",
+    "dateModified": "2026-08-22T20:20:32.993Z"
+  },
+  "components": [
+    {
+      "role": "title",
+      "text": "Seth Bodnar: 2026 Montana Election Guide",
+      "layout": "body"
+    },
+    {
+      "role": "author",
+      "text": "Montana Free Press",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/\">Kurt Alme</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kyle-austin/\">Kyle Austin</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/\">Alani Bankhead</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "portrait",
+      "URL": "bundle://seth-bodnar.webp",
+      "accessibilityCaption": "Portrait of Seth Bodnar",
+      "layout": "portrait"
+    },
+    {
+      "role": "body",
+      "text": "<p><strong>Seth Bodnar</strong> is a Independent candidate for U.S. Senate in Montana's 2026 election.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://www.sethformontana.com\">Campaign website</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Other candidates in this race",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/\">Kurt Alme (R)</a></li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kyle-austin/\">Kyle Austin (L)</a></li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/\">Alani Bankhead (D)</a></li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "On the issues",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The responses reproduced here were solicited from candidates via a written questionnaire conducted by Montana Free Press in March 2026. Responses were limited to 1,000 characters and have not been edited or fact-checked.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&amp; which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>As someone who served this nation in combat, I know firsthand the gravity of sending America’s sons and daughters to war. It is the Constitutional responsibility of Congress to declare war, and Congress needs to do its job. Congress is a coequal branch of government to the Executive, but because of the partisan warfare infecting Washington, members of Congress are more interested in serving their party than they are in living up to their Constitutional responsibilities. As a result, members of Congress are ceding far too much power to the executive branch.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>I’m running as an Independent because our political system has been broken by party elites who care more about trading power back and forth than doing what’s right for Montana or the American people.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Many of Montana&#039;s rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Our rural hospitals are a lifeline to communities across Montana, but politicians in Washington, DC are making it harder for them to serve folks in rural America. The recent budget bill, which passed on a partisan, party-line vote, will kick more than 30,000 Montanans off their healthcare and cause our rural hospitals to lose more than $5 billion in critical resources, all to pay for tax cuts to the wealthiest Americans. That is Washington working for the wealthy and connected, while leaving families in our state out in the cold. That’s unacceptable.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>As an Independent, I will work with Senators from all sides to build commonsense solutions that will give our rural hospitals the resources they need to serve communities across our state. I will also support telehealth expansion and rural healthcare workforce incentives to close the access gap in underserved communities and get more doctors and nurses into rural communities. I will oppose any attempt  to cut resources to our state’s critical access hospitals, and I will defend Medicaid Expansion and oppose reckless cuts that would strip coverage from working Montanans.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montana farmers and ranchers feed the world, and we need to have their back. We need commonsense trade policy that protects critical industries and opens key markets, not a chaotic, ever-changing tariff policy that drives up costs, crushes export markets, and creates instability for our producers and small businesses. Tariffs should be used as tools, not toys. I will reassert Congress&#x27;s authority and push back when the careless use of tariffs hurts hard-working Montanans.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The Sentinel missile program is a multibillion dollar program to modernize our nation&#x27;s nuclear deterrent. I will fight to ensure the Sentinel project uses Union Montana workers - not out-of-state contractors- and that the surrounding communities benefit from the economic activity, with proper infrastructure support.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Housing affordability is a challenge facing Montanans at every stage of their lives. The average age of a first-time home buyer in Montana has gone up by nearly a decade, and many of our young people cannot afford to buy a home in the community where they grew up. And I recently heard from a retiree at one of our events in Helena that she will soon have to spend nearly 75% of our Social Security check (her only source of income) just to pay her rent. She’s likely to be forced to move. The current situation is unacceptable. If you’re willing to show up and put in a hard day’s work, you should be able to put a roof over your family’s head.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The answer is clear: we need to build more houses. We can start by cutting red tape, using incentives in the tax code, and fixing supply chain issues that make it harder to build new, affordable homes. And we need to put rules in place that prevent big private equity firms from buying up huge numbers of single-family homes.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Possible solutions are there, but we need to fix the partisan gridlock of our broken political system and actually get things done for Montana families. Congress needs to spend less time fighting with each other and actually get to work addressing this issue.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>I’ve spent my entire career leading institutions that are supposed to serve people – and I know the difference between an institution that’s fulfilling its mission and one that’s been captured by the people running it. As a Green Beret, you learn fast that rank and title mean little if you’re not actually serving the mission and the people beside you. That standard shouldn’t change in the Senate.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montanans deserve an Independent Senator that is not beholden to political insiders in DC and who knows that the people of Montana are his boss, not party leaders. That&#x27;s the main difference between me and my Republican opponent. He was handed the Republican nomination through an insider deal orchestrated by party elites, and that’s who he’ll work for if elected. When I’m elected, I’ll work each and every day to serve the people of this great state.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Washington doesn’t need more politicians who know how to game the system. It needs people who are focused on fixing it.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "MTFP coverage",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://montanafreepress.org/2026/08/10/bankhead-still-in-the-running/\">Bankhead: Still in the running</a> — August 10, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/08/07/bodnar-in-billings-not-bowing-out/\">Bodnar in Billings: Not bowing out</a> — August 7, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/08/03/democratic-party-weighs-legal-options-in-turbulent-senate-race/\">Democratic Party weighs legal options in turbulent Senate race</a> — August 3, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/07/31/montana-senate-bodnar-bankhead-withdrawal-deadline/\">Pressure builds on Bodnar, Bankhead to withdraw before August deadline</a> — July 31, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/\">Campaign finance filings show Democrats — except Sam Forstag — far behind</a> — July 16, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/07/06/mystery-pac-that-boosted-bankhead-exits-senate-race-leaving-a-financial-void/\">Mystery PAC that boosted Bankhead exits Senate race, leaving a financial void</a> — July 6, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/06/26/how-seth-bodnar-plans-to-become-montana-first-nonpartisan-u-s-senator/\">Bodnar’s big gamble: Why the independent is pushing for Montana’s nonpartisan era</a> — June 26, 2026, by Brad Tyer</li>\n<li><a href=\"https://montanafreepress.org/2026/06/19/whats-known-and-unknown-about-ums-2024-sex-discrimination-settlement/\">What’s known, and unknown, about UM’s 2024 sex discrimination settlement</a> — June 19, 2026, by Brad Tyer</li>\n<li><a href=\"https://montanafreepress.org/2026/05/26/the-sheehy-supporting-pac-trying-to-define-montanas-democratic-senate-candidates/\">The Sheehy-supporting PAC trying to define Montana’s Democratic Senate candidates </a> — May 26, 2026, by Stephanie Farmer</li>\n<li><a href=\"https://montanafreepress.org/2026/05/26/bodnar-signature-threshold-independent-senate-campaign/\">Bodnar expects to clear signature threshold for independent U.S. Senate campaign</a> — May 26, 2026, by Stephanie Farmer</li>\n<li><a href=\"https://montanafreepress.org/2026/05/08/in-senate-race-underfunded-democrats-try-to-fend-off-a-challenge/\">In Senate race, underfunded Democrats try to fend off a challenge from the middle</a> — May 8, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/04/17/republican-independent-candidates-outraise-democrats-in-federal-races/\">Republican, independent candidates outraise Democrats in federal races</a> — April 17, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/03/04/bodnar-launches-montana-senate-run/\">Former UM president Seth Bodnar enters Montana Senate race as independent</a> — March 4, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/01/21/bodnar-will-resign-university-of-montana-presidency/\">Bodnar will step down as UM president as rumors of Senate bid swirl</a> — January 21, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/01/14/bodnar-plans-senate-run-as-an-independent-and-testers-apparent-support-angers-democrats-in-montana/\">Bodnar plans Senate run as an independent, and Tester’s apparent support angers Democrats in Montana</a> — January 14, 2026, by Tom Lutey</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Campaign finance",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Figures are based on reporting required by the U.S. Federal Election Commission.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "htmltable",
+      "html": "<table>\n<caption>Federal campaign finance for U.S. Senate</caption>\n<thead><tr><th>Candidate</th><th>Raised</th><th>Spent</th><th>Cash on hand</th><th>Through</th></tr></thead>\n<tbody>\n<tr><td>Seth Bodnar (I)</td><td>$3,238,151</td><td>$2,260,371</td><td>$977,779</td><td>2026-06-30</td></tr>\n<tr><td>Kurt Alme (R)</td><td>$1,984,861</td><td>$534,142</td><td>$1,450,719</td><td>2026-06-30</td></tr>\n<tr><td>Kyle Austin (L)</td><td>$262,195</td><td>$242,362</td><td>$8,751</td><td>2026-06-30</td></tr>\n<tr><td>Alani Bankhead (D)</td><td>$58,829</td><td>$37,011</td><td>$21,485</td><td>2026-06-30</td></tr>\n</tbody>\n</table>",
+      "layout": "wide"
+    },
+    {
+      "role": "heading2",
+      "text": "Election outcomes",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>No party primary was conducted or no results are available.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "About this project",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This guide was produced by the Montana Free Press newsroom with production by Tom Lutey, Brad Tyer, Amanda Eggert and Jacob Olness, web development by Jacob Olness, editing by Brad Tyer, and contributions from Mara Silvers, Zeke Lloyd and Stephanie Farmer. Contact Jacob Olness with questions, corrections or suggestions at jolness@montanafreepress.org.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montana Free Press is a nonpartisan 501(c)(3) nonprofit, reader-supported news organization serving Montana. MTFP&#x27;s donor base includes supporters from across Montana&#x27;s political spectrum, including some Montanans who are candidates in this year&#x27;s election. MTFP&#x27;s <a href=\"https://montanafreepress.org/donor-transparency\">major donors are listed here</a>, and a current list of <a href=\"https://montanafreepress.org/mtfp-members/\">other supporters is available here</a>. MTFP news decisions are made without donor involvement.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This material is available for republication by other media outlets under Montana Free Press&#x27; <a href=\"https://montanafreepress.org/publish-our-stories/\">standard distribution terms</a>.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/\">Kurt Alme</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kyle-austin/\">Kyle Austin</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/\">Alani Bankhead</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    }
+  ],
+  "componentLayouts": {
+    "body": {
+      "columnStart": 1,
+      "columnSpan": 10,
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
+    },
+    "portrait": {
+      "columnStart": 3,
+      "columnSpan": 6,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    },
+    "wide": {
+      "columnStart": 0,
+      "columnSpan": 12,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    }
+  },
+  "componentTextStyles": {
+    "default": {
+      "fontName": "Helvetica",
+      "fontSize": 18,
+      "lineHeight": 26,
+      "textColor": "#222222",
+      "linkStyle": {
+        "textColor": "#006699"
+      }
+    },
+    "default-title": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 42,
+      "lineHeight": 48,
+      "textColor": "#111111"
+    },
+    "default-author": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 15,
+      "textColor": "#555555"
+    },
+    "default-heading2": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 28,
+      "lineHeight": 34,
+      "textColor": "#111111"
+    },
+    "default-heading3": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 21,
+      "lineHeight": 27,
+      "textColor": "#222222"
+    }
+  },
+  "textStyles": {
+    "default-tag-pre": {
+      "fontName": "Menlo-Regular",
+      "fontSize": 15,
+      "lineHeight": 22,
+      "textColor": "#333333"
+    }
+  }
+}

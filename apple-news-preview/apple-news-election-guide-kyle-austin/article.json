@@ -1,0 +1,289 @@
+{
+  "version": "1.7",
+  "identifier": "apple-news-election-guide-kyle-austin",
+  "language": "en-US",
+  "title": "Kyle Austin: 2026 Montana Election Guide",
+  "layout": {
+    "columns": 12,
+    "width": 1024,
+    "margin": 60,
+    "gutter": 20
+  },
+  "documentStyle": {
+    "backgroundColor": "#FFFFFF"
+  },
+  "metadata": {
+    "canonicalURL": "https://projects.montanafreepress.org/election-guide-2026/candidates/kyle-austin/",
+    "thumbnailURL": "bundle://kyle-austin.webp",
+    "excerpt": "Kyle Austin is a Libertarian candidate for U.S. Senate. Read the candidate's background, issue responses, finance information and election results.",
+    "authors": [
+      "Montana Free Press"
+    ],
+    "datePublished": "2026-08-22T20:20:32.993Z",
+    "dateModified": "2026-08-22T20:20:32.993Z"
+  },
+  "components": [
+    {
+      "role": "title",
+      "text": "Kyle Austin: 2026 Montana Election Guide",
+      "layout": "body"
+    },
+    {
+      "role": "author",
+      "text": "Montana Free Press",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/seth-bodnar/\">Seth Bodnar</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/\">Kurt Alme</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/\">Alani Bankhead</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "portrait",
+      "URL": "bundle://kyle-austin.webp",
+      "accessibilityCaption": "Portrait of Kyle Austin",
+      "layout": "portrait"
+    },
+    {
+      "role": "body",
+      "text": "<p><strong>Kyle Austin</strong> is a Libertarian candidate for U.S. Senate in Montana's 2026 election.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://www.kyleaustinmt.com\">Campaign website</a></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Other candidates in this race",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/seth-bodnar/\">Seth Bodnar (I)</a></li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/\">Kurt Alme (R)</a></li>\n<li><a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/\">Alani Bankhead (D)</a></li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "On the issues",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The responses reproduced here were solicited from candidates via a written questionnaire conducted by Montana Free Press in March 2026. Responses were limited to 1,000 characters and have not been edited or fact-checked.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&amp; which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Yes, the War Powers Resolution of 1973 should be enforced.   Under the resolution, the president has the authority to take immediate action with military force and must withdraw troop within 60 days if congress does not authorize further use of force.  I do feel this is a great balance of power, and necessary for the United States to have the ability to quickly make decisions and mobilize our troops for the protection of our country.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Many of Montana&#039;s rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>As a pharmacist for 18 years in Montana, I understand the issues we have with healthcare very well.   I have a plan, called Healthcare 2.0, that will overhaul our entire healthcare system to eliminate wasted money, eliminate the insurance corruption, and eliminate the government overreach.   Doing so will allow our healthcare to run effectively and efficiently.   American citizens and small businesses will see affordable healthcare plans with no annual deductibles and lower monthly premiums.   While providers will see better reimbursements and a future of prosperity.   This can all be done without adding any additional costs to the taxpayers.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>The first issue I would like to address as Montana’s next United States Senator would be to eliminate government overreach and wasteful spending.    For example, the Montana Department of Labor and Industry currently receives $93 million dollars in federal funding and has also overtaxed small businesses in our state creating a trust fund of over $643 million dollars.    This is unacceptable!   I plan to cut the fat, deregulation businesses and lower taxes for everyone.\nThe second issue is to revitalize our agriculture community’s.   We need to 1. Overhaul and strengthen the United States Department of Agriculture. 2. Leave our farmers and ranches out of the trade wars.  3. Eliminate the corruption and fraud of the markets that leave our farmers and ranchers with the bottom dollar.  4. Redirect the wasteful spending into offering 0% financing through the USDA to our farmers and ranchers. 5. Assist and facilitate the construction of fertilizer production facilities so our farmers are no longer having to be dependent on importation.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>As a United States Senator, I would focus my efforts to help lowering the cost of living in Montana and home ownership in a few ways.  1. I would work on lowering the interest rates.  2. I would reduce the construction barriers that have been driving up the costs of construction.  3. I would promote zero tariffs so we can get construction supplies at a more affordable price.  And 4. I would promote responsible logging and lumber mills to create jobs and resources right here in our great State of Montana.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading3",
+      "text": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>As a 4th generation Montanan, I am a very bold, highly education individual that does not back down from a fight.   I stand my ground and often find creative solutions to problems nobody else has a vision for.   My hard work and background as a farmer, pharmacist, and small business owner will not only impress the voters of Montana when I am in office, it will inspire my colleagues in Washington DC.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "MTFP coverage",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<ul><li><a href=\"https://montanafreepress.org/2026/07/16/campaign-finance-filings-show-democrats-except-sam-forstag-far-behind/\">Campaign finance filings show Democrats — except Sam Forstag — far behind</a> — July 16, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/03/18/is-montana-having-a-libertarian-moment/\">Is Montana having a Libertarian moment?</a> — March 18, 2026, by Tom Lutey</li>\n<li><a href=\"https://montanafreepress.org/2026/03/04/bodnar-launches-montana-senate-run/\">Former UM president Seth Bodnar enters Montana Senate race as independent</a> — March 4, 2026, by Tom Lutey</li></ul>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "Campaign finance",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Figures are based on reporting required by the U.S. Federal Election Commission.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "htmltable",
+      "html": "<table>\n<caption>Federal campaign finance for U.S. Senate</caption>\n<thead><tr><th>Candidate</th><th>Raised</th><th>Spent</th><th>Cash on hand</th><th>Through</th></tr></thead>\n<tbody>\n<tr><td>Seth Bodnar (I)</td><td>$3,238,151</td><td>$2,260,371</td><td>$977,779</td><td>2026-06-30</td></tr>\n<tr><td>Kurt Alme (R)</td><td>$1,984,861</td><td>$534,142</td><td>$1,450,719</td><td>2026-06-30</td></tr>\n<tr><td>Kyle Austin (L)</td><td>$262,195</td><td>$242,362</td><td>$8,751</td><td>2026-06-30</td></tr>\n<tr><td>Alani Bankhead (D)</td><td>$58,829</td><td>$37,011</td><td>$21,485</td><td>2026-06-30</td></tr>\n</tbody>\n</table>",
+      "layout": "wide"
+    },
+    {
+      "role": "heading2",
+      "text": "Election outcomes",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "htmltable",
+      "html": "<table>\n<caption>June 2 primary results for U.S. Senate</caption>\n<thead><tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Share</th></tr></thead>\n<tbody>\n<tr><td>✓ KYLE AUSTIN</td><td>L</td><td>1,819</td><td>53.3%</td></tr>\n<tr><td>TOM JANDRON</td><td>L</td><td>1,592</td><td>46.7%</td></tr>\n</tbody>\n</table>",
+      "layout": "wide"
+    },
+    {
+      "role": "body",
+      "text": "<p><em>Count reported by the Montana secretary of state as of 6/12/2026 10:57:30 AM.</em></p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "heading2",
+      "text": "About this project",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This guide was produced by the Montana Free Press newsroom with production by Tom Lutey, Brad Tyer, Amanda Eggert and Jacob Olness, web development by Jacob Olness, editing by Brad Tyer, and contributions from Mara Silvers, Zeke Lloyd and Stephanie Farmer. Contact Jacob Olness with questions, corrections or suggestions at jolness@montanafreepress.org.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>Montana Free Press is a nonpartisan 501(c)(3) nonprofit, reader-supported news organization serving Montana. MTFP&#x27;s donor base includes supporters from across Montana&#x27;s political spectrum, including some Montanans who are candidates in this year&#x27;s election. MTFP&#x27;s <a href=\"https://montanafreepress.org/donor-transparency\">major donors are listed here</a>, and a current list of <a href=\"https://montanafreepress.org/mtfp-members/\">other supporters is available here</a>. MTFP news decisions are made without donor involvement.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p>This material is available for republication by other media outlets under Montana Free Press&#x27; <a href=\"https://montanafreepress.org/publish-our-stories/\">standard distribution terms</a>.</p>",
+      "format": "html",
+      "layout": "body"
+    },
+    {
+      "role": "body",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/seth-bodnar/\">Seth Bodnar</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/kurt-alme/\">Kurt Alme</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/candidates/alani-bankhead/\">Alani Bankhead</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/#voting-faq\">Voting information</a></p>",
+      "format": "html",
+      "layout": "body"
+    }
+  ],
+  "componentLayouts": {
+    "body": {
+      "columnStart": 1,
+      "columnSpan": 10,
+      "margin": {
+        "top": 10,
+        "bottom": 10
+      }
+    },
+    "portrait": {
+      "columnStart": 3,
+      "columnSpan": 6,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    },
+    "wide": {
+      "columnStart": 0,
+      "columnSpan": 12,
+      "margin": {
+        "top": 18,
+        "bottom": 18
+      }
+    }
+  },
+  "componentTextStyles": {
+    "default": {
+      "fontName": "Helvetica",
+      "fontSize": 18,
+      "lineHeight": 26,
+      "textColor": "#222222",
+      "linkStyle": {
+        "textColor": "#006699"
+      }
+    },
+    "default-title": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 42,
+      "lineHeight": 48,
+      "textColor": "#111111"
+    },
+    "default-author": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 15,
+      "textColor": "#555555"
+    },
+    "default-heading2": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 28,
+      "lineHeight": 34,
+      "textColor": "#111111"
+    },
+    "default-heading3": {
+      "fontName": "Helvetica-Bold",
+      "fontSize": 21,
+      "lineHeight": 27,
+      "textColor": "#222222"
+    }
+  },
+  "textStyles": {
+    "default-tag-pre": {
+      "fontName": "Menlo-Regular",
+      "fontSize": 15,
+      "lineHeight": 22,
+      "textColor": "#333333"
+    }
+  }
+}
