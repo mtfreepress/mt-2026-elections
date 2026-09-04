@@ -3,6 +3,13 @@ const csv = require('async-csv')
 const YAML = require('yaml')
 const glob = require('glob')
 const { parseWebsite } = require('../inputs/content/generate-candidate-yml')
+const {
+    ACTIVE_CANDIDATE_STATUSES,
+    GENERAL_CANDIDATE_LIST,
+    PRIMARY_CANDIDATE_LIST,
+    isWriteInCandidate,
+    readCandidateCsv,
+} = require('../inputs/filings/candidate-lists')
 
 const writeJson = (path, data) => {
     fs.writeFileSync(path, JSON.stringify(data, null, 2))
@@ -35,11 +42,7 @@ const NAME_REPLACE = {
     // e.g. 'FILING NAME': 'PREFERRED DISPLAY NAME',
 }
 
-const PARTY_ORDER = ['R', 'D', 'L', 'G', 'I']
-// The Secretary of State changes primary winners from FILED to NOMINATED
-// after certification. Both values represent candidates who should remain in
-// the active input set before it is matched against election results.
-const ACTIVE_FILING_STATUSES = new Set(['FILED', 'NOMINATED'])
+const PARTY_ORDER = ['R', 'D', 'L', 'G', 'I', 'NP']
 // Current election cycle year (update for each cycle)
 const CYCLE_YEAR = 2026
 const OLD_CYCLE_FIELD = 'in_cycle_2024'
@@ -87,12 +90,30 @@ const CANDIDATE_FIELD_OVERRIDES = {
     },
     'MEGAN LANE': {
         campaignWebsite: 'https://www.megan4montana.com',
+    },
+    'ROY HANDLEY': {
+        campaignWebsite: 'https://royformt.com/',
     }
 }
 
 const CANDIDATE_FIELD_OVERRIDES_CANONICAL = Object.fromEntries(
     Object.entries(CANDIDATE_FIELD_OVERRIDES).map(([name, overrides]) => [canonicalizeName(name), overrides])
 )
+
+const PARTY_MAP = {
+    REP: 'R',
+    DEM: 'D',
+    LIB: 'L',
+    GRN: 'G',
+    IND: 'I',
+    NON: 'NP',
+    NP: 'NP',
+}
+
+function normalizeParty(party) {
+    const normalized = String(party || '').trim().toUpperCase()
+    return PARTY_MAP[normalized] || normalized
+}
 
 // Load manual exclusions shared with the major-race pipeline.
 // Excluded legislative candidates are treated as withdrawn so they don't
@@ -196,12 +217,17 @@ function keepPreviousOutputs(message) {
 // --- MAIN ---
 
 async function main() {
-    let candidates = await getCsv('./inputs/filings/CandidateList.csv')
+    const primaryCandidates = readCandidateCsv(PRIMARY_CANDIDATE_LIST)
+    let generalCandidates = readCandidateCsv(GENERAL_CANDIDATE_LIST)
     const legeDistricts = await getCsv('./inputs/legislative-districts/districts.csv')
     const candidateYmls = collectYmls('./inputs/content/candidates/*.yml')
 
-    if (!Array.isArray(candidates) || candidates.length === 0) {
-        keepPreviousOutputs('CandidateList.csv contained no candidate rows')
+    if (!Array.isArray(primaryCandidates) || primaryCandidates.length === 0) {
+        keepPreviousOutputs('PrimaryCandidateList.csv contained no candidate rows')
+        return
+    }
+    if (!Array.isArray(generalCandidates) || generalCandidates.length === 0) {
+        keepPreviousOutputs('GeneralCandidateList.csv contained no candidate rows')
         return
     }
     if (!Array.isArray(legeDistricts) || legeDistricts.length === 0) {
@@ -232,23 +258,25 @@ async function main() {
     })
 
     // Add any manually-specified candidates
-    candidates = candidates.concat(MANUAL_ADD_CANDIDATES)
+    generalCandidates = generalCandidates.concat(MANUAL_ADD_CANDIDATES)
 
     // Clean district data
     legeDistricts.forEach(d => {
         d.districtKey = d.district.replace('HD ', 'HD-').replace('SD ', 'SD-')
     })
 
-    // Filter to legislative candidates, clean, and transform
-    const allLegislativeCandidates = candidates
-        .filter(d => ACTIVE_FILING_STATUSES.has((d.Status || '').trim().toUpperCase()))
+    // Clean and transform one filing snapshot. The primary snapshot is used to
+    // identify the certified primary winners; the general snapshot is then the
+    // source of truth for the current ballot.
+    const transformLegislativeCandidates = candidates => candidates
+        .filter(d => ACTIVE_CANDIDATE_STATUSES.has((d.Status || '').trim().toUpperCase()))
         .filter(d => ['Senate', 'House'].includes(d['District Type']))
         .map(d => {
             const name = cleanName(d.Name)
             const raceSlug = d.District
                 .replace('SENATE DISTRICT ', 'SD-')
                 .replace('HOUSE DISTRICT ', 'HD-')
-            const party = d['Party Preference'][0] // R, D, L, etc.
+            const party = normalizeParty(d['Party Preference'])
 
             let status = 'active'
             if (MANUAL_DROPOUTS.includes(name)) status = 'withdrawn'
@@ -269,12 +297,20 @@ async function main() {
                 party,
                 status,
                 isIncumbent,
+                isWriteIn: isWriteInCandidate(d),
                 campaignWebsite: fieldOverrides.campaignWebsite ?? extractWebsite(d['Email/Web Address']),
             }
         })
 
-    if (allLegislativeCandidates.length === 0) {
-        keepPreviousOutputs('CandidateList.csv contained no active FILED or NOMINATED legislative candidates')
+    const primaryLegislativeCandidates = transformLegislativeCandidates(primaryCandidates)
+    const generalLegislativeCandidates = transformLegislativeCandidates(generalCandidates)
+
+    if (primaryLegislativeCandidates.length === 0) {
+        keepPreviousOutputs('PrimaryCandidateList.csv contained no active legislative candidates')
+        return
+    }
+    if (generalLegislativeCandidates.length === 0) {
+        keepPreviousOutputs('GeneralCandidateList.csv contained no active legislative candidates')
         return
     }
 
@@ -284,15 +320,32 @@ async function main() {
         keepPreviousOutputs('primary results contained no legislative winners')
         return
     }
-    const legislativeCandidates = allLegislativeCandidates.filter(candidate => {
+    const primaryWinners = primaryLegislativeCandidates.filter(candidate => {
         const normalizedName = candidateNameNormalized(candidate.displayName)
         return primaryWinnerNames.has(normalizedName)
     })
 
-    console.log(`Filtered from ${allLegislativeCandidates.length} to ${legislativeCandidates.length} primary winners`)
+    if (primaryWinners.length === 0) {
+        keepPreviousOutputs('no primary filing records matched the legislative primary winners')
+        return
+    }
+
+    const identity = candidate => `${candidate.raceSlug}||${canonicalizeName(candidate.displayName)}`
+    const primaryWinnerKeys = new Set(primaryWinners.map(identity))
+    const generalCandidateKeys = new Set(generalLegislativeCandidates.map(identity))
+    const addedForGeneral = generalLegislativeCandidates.filter(candidate => !primaryWinnerKeys.has(identity(candidate)))
+    const removedAfterPrimary = primaryWinners.filter(candidate => !generalCandidateKeys.has(identity(candidate)))
+
+    console.log(`Primary processing found ${primaryWinners.length} legislative winners`)
+    console.log(`General reconciliation: ${addedForGeneral.length} added/replaced, ${removedAfterPrimary.length} removed/withdrawn`)
+
+    // This is intentionally the active general list—not a union. It includes
+    // replacements and write-ins that had no primary result, and excludes
+    // withdrawn nominees and primary-only candidates.
+    const legislativeCandidates = generalLegislativeCandidates
 
     if (legislativeCandidates.length === 0) {
-        keepPreviousOutputs('no filing records matched the legislative primary winners')
+        keepPreviousOutputs('general filing reconciliation produced no legislative candidates')
         return
     }
 
@@ -307,6 +360,7 @@ async function main() {
                 displayName: d.displayName,
                 party: d.party,
                 isIncumbent: d.isIncumbent,
+                isWriteIn: d.isWriteIn,
                 campaignWebsite: d.campaignWebsite,
             })),
     }))
@@ -322,6 +376,7 @@ async function main() {
                 party: c.party,
                 status: c.status,
                 isIncumbent: c.isIncumbent,
+                isWriteIn: c.isWriteIn,
                 campaignWebsite: c.campaignWebsite,
             }))
 

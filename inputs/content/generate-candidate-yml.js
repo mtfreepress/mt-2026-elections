@@ -1,49 +1,16 @@
 const fs = require('fs')
 const path = require('path')
+const {
+  ACTIVE_CANDIDATE_STATUSES,
+  GENERAL_CANDIDATE_LIST,
+  PRIMARY_CANDIDATE_LIST,
+  candidateKey,
+  isWriteInCandidate,
+  mergeCandidateHistory,
+  readCandidateCsv,
+} = require('../filings/candidate-lists')
 
-const CSV_INPUT = path.join(__dirname, '..', 'filings', 'CandidateList.csv')
 const OUT_DIR   = path.join(__dirname, 'candidates')
-
-// The Secretary of State changes primary winners from FILED to NOMINATED.
-// Both statuses remain active for the general-election guide; primary losers
-// are removed later by process/main.js using the certified results.
-const ACTIVE_CANDIDATE_STATUSES = new Set(['FILED', 'NOMINATED', 'PENDING PETITION'])
-
-function parseCsvRow(line) {
-  const cells = []
-  let i = 0
-  while (i < line.length) {
-    if (line[i] === '"') {
-      let val = ''
-      i++ // skip opening quote
-      while (i < line.length) {
-        if (line[i] === '"' && line[i + 1] === '"') { val += '"'; i += 2 }
-        else if (line[i] === '"') { i++; break }
-        else val += line[i++]
-      }
-      cells.push(val)
-      if (line[i] === ',') i++
-    } else {
-      let val = ''
-      while (i < line.length && line[i] !== ',') val += line[i++]
-      cells.push(val)
-      if (line[i] === ',') i++
-    }
-  }
-  return cells
-}
-
-function parseCSV(content) {
-  content = content.replace(/^\uFEFF/, '')
-  const lines = content.replace(/\r/g, '').split('\n').filter(l => l.trim())
-  const headers = parseCsvRow(lines[0])
-  return lines.slice(1).map(line => {
-    const values = parseCsvRow(line)
-    const obj = {}
-    headers.forEach((h, i) => { obj[h] = values[i] ?? '' })
-    return obj
-  })
-}
 
 // strip leading asterisk (marks incumbentship in source data)
 function stripAsterisk(name) {
@@ -78,7 +45,7 @@ function getDisplayName(name) {
 // website parsing
 
 // Values are compared after trimming and lowercasing.
-const EMPTY_SITE_VALUES = new Set(['', 'not provided', 'na', 'n/a', 'none'])
+const EMPTY_SITE_VALUES = new Set(['', 'not provided', 'na', 'n/a', 'none', 'write-in', 'write in'])
 
 // Known host typos/omissions to substitute (lowercase keys, no protocol/www/trailing slash)
 const HOST_REPLACE = {
@@ -164,6 +131,7 @@ summaryNarrative:
 party: ${party}
 isIncumbent: ${incumbent}
 status: active
+isWriteIn: ${isWriteInCandidate(candidate)}
 fecId:
 ## Campaign web links
 campaignWebsite: ${website}
@@ -311,8 +279,10 @@ function buildRacesYml(all) {
 function main() {
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true })
 
-  const all = parseCSV(fs.readFileSync(CSV_INPUT, 'utf8'))
-  console.log(`Loaded ${all.length} rows from CandidateList.csv`)
+  const primaryCandidates = readCandidateCsv(PRIMARY_CANDIDATE_LIST)
+  const generalCandidates = readCandidateCsv(GENERAL_CANDIDATE_LIST)
+  const all = mergeCandidateHistory(primaryCandidates, generalCandidates)
+  console.log(`Loaded ${primaryCandidates.length} primary rows and ${generalCandidates.length} general rows`)
 
   // Active candidates, including post-primary nominees, make it into the
   // candidates/ folder. Withdrawn and REMOVED candidates are excluded.
@@ -348,13 +318,19 @@ function main() {
 
   console.log(`\nDone. ${written} file(s) written, ${skipped} skipped (already existed).`)
 
-  // Remove YML files for candidates who have officially withdrawn or been removed.
-  // This keeps inputs/content/candidates/ in sync with CandidateList.csv automatically.
+  // General-election withdrawals are removed from the current race list below.
+  // Preserve YAML for anyone who also appeared in the primary snapshot so their
+  // primary history and hand-edited candidate content remain available.
   const WITHDRAWN_STATUSES = new Set(['WITHDRAWN', 'REMOVED'])
+  const primaryCandidateKeys = new Set(primaryCandidates.map(candidateKey))
   let deleted = 0
-  for (const candidate of all) {
+  for (const candidate of generalCandidates) {
     const status = String(candidate['Status'] || '').trim().toUpperCase()
     if (!WITHDRAWN_STATUSES.has(status)) continue
+    if (primaryCandidateKeys.has(candidateKey(candidate))) {
+      console.log(`  retained (primary history): ${nameToSlug(candidate['Name'])}.yml`)
+      continue
+    }
     const slug = nameToSlug(candidate['Name'])
     const filename = `${slug}.yml`
     const outPath = path.join(OUT_DIR, filename)
@@ -366,7 +342,9 @@ function main() {
   }
   if (deleted > 0) console.log(`\nRemoved ${deleted} YML file(s) for withdrawn candidates.`)
 
-  buildRacesYml(all)
+  // Unlike candidate YAML history, races.yml represents the current ballot.
+  // Build it only from the authoritative general-election filing list.
+  buildRacesYml(generalCandidates)
 }
 
 if (require.main === module) {

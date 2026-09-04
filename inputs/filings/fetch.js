@@ -4,8 +4,21 @@ const crypto = require('crypto')
 const { parse } = require('csv-parse/sync')
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args))
 
-// SoS website for candidate filings
-const BASE_URL = 'https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002928'
+// SoS website keeps separate filing lists for the primary and general.
+// Keep both snapshots: the primary list is historical input for primary results,
+// while the general list is authoritative for the current ballot.
+const CANDIDATE_LISTS = [
+  {
+    label: 'primary',
+    url: 'https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002928',
+    outPath: path.join(__dirname, 'PrimaryCandidateList.csv'),
+  },
+  {
+    label: 'general',
+    url: 'https://candidatefiling.mt.gov/candidatefiling/CandidateList.aspx?e=450002987',
+    outPath: path.join(__dirname, 'GeneralCandidateList.csv'),
+  },
+]
 
 // first `next page` button control name
 const NEXT_PAGE_TARGET = 'ctl00$ContentPlaceHolder1$grdCandidates$ctl00$ctl03$ctl01$ctl12'
@@ -18,7 +31,6 @@ const CSV_HEADERS = [
   'Party Preference', 'Ballot Order'
 ]
 
-const DEFAULT_OUT_PATH = path.join(__dirname, 'CandidateList.csv')
 const ACTIVE_FILING_STATUSES = new Set(['FILED', 'NOMINATED'])
 
 function validateCandidateCsv(csvText) {
@@ -133,9 +145,9 @@ const COMMON_HEADERS = {
   'Cache-Control': 'no-cache',
 }
 
-async function fetchPage1() {
-  console.log('Fetching CandidateList.csv')
-  const res = await fetch(BASE_URL, {
+async function fetchPage1(baseUrl, label) {
+  console.log(`Fetching ${label} candidate list`)
+  const res = await fetch(baseUrl, {
     headers: {
       ...COMMON_HEADERS,
       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -153,7 +165,7 @@ async function fetchPage1() {
   return { html, cookies }
 }
 
-async function fetchNextPage(formState, cookies) {
+async function fetchNextPage(baseUrl, formState, cookies) {
   const { viewState, viewStateGenerator, eventValidation, pageNum } = formState
 
   const body = new URLSearchParams({
@@ -168,7 +180,7 @@ async function fetchNextPage(formState, cookies) {
   })
 
   console.log(`Fetching page ${pageNum}…`)
-  const res = await fetch(BASE_URL, {
+  const res = await fetch(baseUrl, {
     method: 'POST',
     headers: {
       ...COMMON_HEADERS,
@@ -177,7 +189,7 @@ async function fetchNextPage(formState, cookies) {
       'X-MicrosoftAjax': 'Delta=true',
       'X-Requested-With': 'XMLHttpRequest',
       'Origin': 'https://candidatefiling.mt.gov',
-      'Referer': BASE_URL,
+      'Referer': baseUrl,
       ...(cookies ? { 'Cookie': cookies } : {}),
     },
     body: body.toString(),
@@ -187,7 +199,7 @@ async function fetchNextPage(formState, cookies) {
   return res.text()
 }
 
-async function fetchExportCsv(formState, cookies) {
+async function fetchExportCsv(baseUrl, formState, cookies) {
   const EXPORT_TARGET = 'ctl00$ContentPlaceHolder1$grdCandidates$ctl00$ctl02$ctl00$ExportToCsvButton'
 
   const body = new URLSearchParams({
@@ -199,13 +211,13 @@ async function fetchExportCsv(formState, cookies) {
     '__EVENTVALIDATION': formState.eventValidation,
   })
 
-  const res = await fetch(BASE_URL, {
+  const res = await fetch(baseUrl, {
     method: 'POST',
     headers: {
       ...COMMON_HEADERS,
       'Accept': 'text/csv,*/*;q=0.9',
       'Content-Type': 'application/x-www-form-urlencoded',
-      'Referer': BASE_URL,
+      'Referer': baseUrl,
       ...(cookies ? { 'Cookie': cookies } : {}),
     },
     body: body.toString(),
@@ -234,9 +246,9 @@ function todayDateStr() {
   return `${yyyy}${mm}${dd}`
 }
 
-async function main() {
+async function fetchCandidateList({ label, url, outPath }) {
   // fetch initial page to capture viewstate and cookies
-  const { html: page1Html, cookies } = await fetchPage1()
+  const { html: page1Html, cookies } = await fetchPage1(url, label)
 
   // extract form data required for the postback that triggers CSV export
   const formState = {
@@ -246,15 +258,7 @@ async function main() {
   }
 
   // request the CSV export and write the response body directly
-  const res = await fetchExportCsv(formState, cookies)
-
-  // prefer filename from Content-Disposition when present, otherwise default
-  const cd = res.headers.get('content-disposition') || ''
-  let fileName = 'CandidateList.csv'
-  const m = cd.match(/filename\*?=(?:UTF-8'')?"?([^";]+)"?/) // handle filename or filename*
-  if (m) fileName = decodeURIComponent(m[1])
-
-  const outPath = path.join(__dirname, fileName)
+  const res = await fetchExportCsv(url, formState, cookies)
   const arr = await res.arrayBuffer()
   const buf = Buffer.from(arr)
   const csvText = buf.toString('utf8')
@@ -263,9 +267,9 @@ async function main() {
   const looksLikeHtmlError = /<html|<!doctype html/i.test(csvText)
   const hasUsableCandidateRows = validateCandidateCsv(csvText)
   if (!hasExpectedHeader || looksLikeHtmlError || buf.length < 500 || !hasUsableCandidateRows) {
-    console.error('ERROR: Downloaded CandidateList payload was invalid or empty; keeping existing CandidateList.csv')
+    console.error(`ERROR: Downloaded ${label} candidate list was invalid or empty; keeping existing ${path.basename(outPath)}`)
     if (fs.existsSync(outPath)) return
-    throw new Error('Downloaded CandidateList payload invalid and no existing fallback file found')
+    throw new Error(`Downloaded ${label} candidate list invalid and no existing fallback file found`)
   }
 
   // compute sha256 of existing file (if present) and downloaded content
@@ -274,21 +278,35 @@ async function main() {
     const existing = fs.readFileSync(outPath)
     const existingHash = crypto.createHash('sha256').update(existing).digest('hex')
     if (existingHash === newHash) {
-      console.log('No updates to CandidateList.csv')
+      console.log(`No updates to ${path.basename(outPath)}`)
       return
     }
   }
 
   fs.writeFileSync(outPath, buf)
-  console.log('New filings — CandidateList.csv updated')
+  console.log(`New filings — ${path.basename(outPath)} updated`)
+}
+
+async function main() {
+  let failed = false
+
+  for (const candidateList of CANDIDATE_LISTS) {
+    try {
+      await fetchCandidateList(candidateList)
+    } catch (err) {
+      if (fs.existsSync(candidateList.outPath)) {
+        console.error(`ERROR: ${candidateList.label} filings fetch failed (${err.message}); keeping existing ${path.basename(candidateList.outPath)}`)
+      } else {
+        console.error(`ERROR: ${candidateList.label} filings fetch failed (${err.message}); no fallback file is available`)
+        failed = true
+      }
+    }
+  }
+
+  if (failed) process.exitCode = 1
 }
 
 main().catch(err => {
-  if (fs.existsSync(DEFAULT_OUT_PATH)) {
-    console.error(`ERROR: Filings fetch failed (${err.message}); keeping existing CandidateList.csv`)
-    process.exit(0)
-  }
-
   console.error('Error:', err)
   process.exit(1)
 })

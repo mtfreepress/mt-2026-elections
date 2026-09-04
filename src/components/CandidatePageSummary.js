@@ -94,9 +94,11 @@ export default function CandidatePageSummary(props) {
         summaryLine,
         raceDisplayName,
         hasPortrait,
+        isWriteIn,
     } = props
 
     const partyInfo = PARTIES_BY_KEY.get(party) || { color: '#000', adjective: party || '' }
+    const hasNoPartyAffiliation = party === 'NP' && isWriteIn
     const router = useRouter()
     const portraitSrc = hasPortrait
         ? `${router.basePath}/portraits/${slug}.webp`
@@ -122,7 +124,10 @@ export default function CandidatePageSummary(props) {
         <div className="info-col">
             <div className="info-container">
                 <div className="intro-line">
-                    <div>Montana <strong style={{ color: partyInfo.color }}>{partyInfo.adjective}</strong> candidate</div>
+                    {hasNoPartyAffiliation
+                        ? <div>Montana candidate with <strong style={{ color: partyInfo.color }}>no party affiliation</strong></div>
+                        : <div>Montana <strong style={{ color: partyInfo.color }}>{partyInfo.adjective}</strong> candidate</div>
+                    }
                     <div> for <strong>{raceDisplayName}</strong></div>
                 </div>
                 <h1 className="name">{displayName}</h1>

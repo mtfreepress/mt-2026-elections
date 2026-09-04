@@ -21,13 +21,15 @@
       "slug": "amy-eddy",
       "displayName": "Amy Eddy",
       "summaryLine": null,
-      "party": "NP"
+      "party": "NP",
+      "isWriteIn": false
     },
     {
       "slug": "dan-wilson",
       "displayName": "Dan Wilson",
       "summaryLine": null,
-      "party": "NP"
+      "party": "NP",
+      "isWriteIn": false
     }
   ],
   "coverage": [],

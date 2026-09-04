@@ -1,13 +1,13 @@
 ---
 # Candidates to exclude from site display
 #
-# Use this file to hide candidates who appear in source data (CandidateList.csv
+# Use this file to hide candidates who appear in source filing data
 # or races.yml) but should not be shown on the site — for example, candidates
 # who have informally dropped out before the Secretary of State updates their
 # status, or candidates whose pages should be suppressed for editorial reasons.
 #
 # No need to use this for candidates who have officially withdrawn — those are
-# automatically handled via the "Withdrawn" status in CandidateList.csv (for
+# automatically handled via the "Withdrawn" status in GeneralCandidateList.csv (for
 # legislative races) or via the `status` field in the candidate YAML file
 # (for major races).
 #

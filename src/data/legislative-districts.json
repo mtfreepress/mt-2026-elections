@@ -17,6 +17,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://bianco4mt2026.com"
       },
       {
@@ -25,6 +26,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://adamsforlegislature.com"
       }
     ]
@@ -47,6 +49,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://millett4montana.com"
       },
       {
@@ -55,6 +58,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -77,6 +81,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.peacheyformontana.com"
       },
       {
@@ -85,6 +90,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.powersforthepeople.us"
       }
     ]
@@ -107,6 +113,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://pandinaformontana.com"
       },
       {
@@ -115,6 +122,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kochbestformontanahd4.org"
       }
     ]
@@ -137,6 +145,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -145,6 +154,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://lucaformontana.com"
       }
     ]
@@ -167,6 +177,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.jimrileyforhd6.com"
       },
       {
@@ -175,6 +186,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.fix4hd6.com"
       }
     ]
@@ -197,6 +209,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://courtenaysprunger.com"
       },
       {
@@ -205,6 +218,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://madisonformontana.com"
       }
     ]
@@ -227,6 +241,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://lukasschubertmt.com"
       },
       {
@@ -235,6 +250,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -257,6 +273,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.kellyforhd9.com"
       },
       {
@@ -265,6 +282,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://mclaughlinformontana.com/"
       }
     ]
@@ -287,6 +305,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -295,6 +314,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.catherineallenformontana.com"
       }
     ]
@@ -317,6 +337,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -325,6 +346,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -347,6 +369,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://tracysharpmt12.com/"
       },
       {
@@ -355,6 +378,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -377,6 +401,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://finleyformontana.com"
       },
       {
@@ -385,6 +410,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -407,6 +433,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -415,6 +442,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -437,6 +465,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -445,6 +474,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -467,6 +497,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -489,6 +520,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -497,6 +529,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -519,6 +552,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -541,6 +575,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -549,6 +584,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://weberforhd19.com"
       }
     ]
@@ -571,6 +607,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.melissaforus.com"
       },
       {
@@ -579,6 +616,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -601,6 +639,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://funsethformontana.com"
       },
       {
@@ -609,6 +648,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://lelagraham.com"
       }
     ]
@@ -631,6 +671,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -639,14 +680,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "dave-von-eschen",
-        "displayName": "DAVE VON ESCHEN",
-        "party": "L",
-        "status": "active",
-        "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -669,6 +703,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.tillemanforhd23.com/"
       },
       {
@@ -677,6 +712,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -699,6 +735,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://fitzpatrickformt.com"
       },
       {
@@ -707,6 +744,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://pamelacarroll.com"
       }
     ]
@@ -729,6 +767,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://stevegistformontana.com"
       },
       {
@@ -737,6 +776,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -759,6 +799,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -767,6 +808,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -789,6 +831,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://paultuss.com"
       },
       {
@@ -797,6 +840,7 @@
         "party": "L",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -819,6 +863,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -841,6 +886,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -849,6 +895,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -871,6 +918,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -879,6 +927,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -901,6 +950,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.natalie4montana.com"
       }
     ]
@@ -923,6 +973,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -945,6 +996,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -953,6 +1005,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -975,6 +1028,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -983,6 +1037,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1005,6 +1060,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1013,6 +1069,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1035,6 +1092,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1043,6 +1101,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1065,6 +1124,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://shaneklakken.com"
       },
       {
@@ -1073,7 +1133,8 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
-        "campaignWebsite": "https://www.yourvoicehd37.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       }
     ]
   },
@@ -1095,6 +1156,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://gregoblander4montana.com"
       }
     ]
@@ -1117,6 +1179,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://kerriseekinscrowe.com"
       },
       {
@@ -1125,6 +1188,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://smithformontana.com"
       }
     ]
@@ -1147,14 +1211,16 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://vintonformontana.com"
       },
       {
-        "slug": "gabriel--bradshaw",
-        "displayName": "GABRIEL  BRADSHAW",
+        "slug": "gabriel-bradshaw",
+        "displayName": "GABRIEL BRADSHAW",
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1177,6 +1243,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1199,7 +1266,17 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://jabsformt.com"
+      },
+      {
+        "slug": "sidney-chip-fitzpatrick",
+        "displayName": "SIDNEY CHIP FITZPATRICK",
+        "party": "D",
+        "status": "active",
+        "isIncumbent": true,
+        "isWriteIn": false,
+        "campaignWebsite": null
       }
     ]
   },
@@ -1221,6 +1298,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1229,6 +1307,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1251,6 +1330,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://katiezolnikov.com"
       },
       {
@@ -1259,6 +1339,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1281,6 +1362,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1289,6 +1371,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://baumformontana.com/"
       }
     ]
@@ -1311,6 +1394,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kimformontana.org"
       },
       {
@@ -1319,6 +1403,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1341,6 +1426,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.maxwellforhouse.com/"
       },
       {
@@ -1349,6 +1435,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.reavisformontana.com/"
       }
     ]
@@ -1371,6 +1458,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1379,6 +1467,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1401,6 +1490,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://loveridgeformontana.com"
       },
       {
@@ -1409,6 +1499,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1431,6 +1522,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1439,6 +1531,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1461,6 +1554,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jodeeformt.com"
       },
       {
@@ -1469,6 +1563,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1491,6 +1586,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1499,6 +1595,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1521,6 +1618,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1529,6 +1627,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1551,6 +1650,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://leeformontana.org"
       },
       {
@@ -1559,6 +1659,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1581,6 +1682,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://bradbarker.com"
       },
       {
@@ -1589,6 +1691,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://richard-gessling-4-montana.com/"
       }
     ]
@@ -1611,6 +1714,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1633,15 +1737,17 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://electcrankmt.com"
       },
       {
-        "slug": "jordan-viegut",
-        "displayName": "JORDAN VIEGUT",
+        "slug": "becky-edwards",
+        "displayName": "BECKY EDWARDS",
         "party": "D",
         "status": "active",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "isWriteIn": false,
+        "campaignWebsite": "https://www.beckyformontana.com"
       }
     ]
   },
@@ -1663,6 +1769,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1671,6 +1778,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jamieisaly.com"
       }
     ]
@@ -1693,6 +1801,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.marc4hd59.com"
       },
       {
@@ -1701,6 +1810,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1723,6 +1833,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://leman4mt.org"
       },
       {
@@ -1731,6 +1842,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://griffithformt.com"
       }
     ]
@@ -1753,6 +1865,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1761,6 +1874,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.rioformt.com"
       }
     ]
@@ -1783,6 +1897,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://estherformontana.com"
       },
       {
@@ -1791,6 +1906,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://seck4mt.com"
       }
     ]
@@ -1813,6 +1929,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1821,6 +1938,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://repstrand.com"
       }
     ]
@@ -1843,6 +1961,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://martinezforthepeople.com"
       },
       {
@@ -1851,6 +1970,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1873,6 +1993,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1881,6 +2002,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://brianclose4montana.net/"
       }
     ]
@@ -1903,6 +2025,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1911,6 +2034,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://matthewsformt.com"
       }
     ]
@@ -1933,6 +2057,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jedediahhinkle.com"
       },
       {
@@ -1941,6 +2066,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1963,6 +2089,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://randy4mt.com"
       },
       {
@@ -1971,6 +2098,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1993,6 +2121,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://trevorwalterformontana.com/"
       }
     ]
@@ -2015,6 +2144,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.manessformontana.com"
       },
       {
@@ -2023,6 +2153,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2045,6 +2176,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://nordwick.com"
       },
       {
@@ -2053,6 +2185,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2075,6 +2208,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2083,6 +2217,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2105,6 +2240,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2113,6 +2249,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2135,6 +2272,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2143,6 +2281,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2165,6 +2304,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2173,6 +2313,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2181,6 +2322,7 @@
         "party": "L",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2203,7 +2345,17 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://trishformontana.com"
+      },
+      {
+        "slug": "shayne-morgan",
+        "displayName": "SHAYNE MORGAN",
+        "party": "I",
+        "status": "active",
+        "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": "https://www.morganformontana.com"
       }
     ]
   },
@@ -2225,15 +2377,8 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://drjanegillette.com"
-      },
-      {
-        "slug": "deborah-anne-hansen",
-        "displayName": "DEBORAH ANNE HANSEN",
-        "party": "D",
-        "status": "active",
-        "isIncumbent": false,
-        "campaignWebsite": null
       }
     ]
   },
@@ -2255,6 +2400,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://randynformontana.com"
       },
       {
@@ -2263,6 +2409,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2285,6 +2432,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2293,6 +2441,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.lukeformontana.org"
       }
     ]
@@ -2315,6 +2464,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://katie4montana.com"
       },
       {
@@ -2323,6 +2473,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.megan4montana.com"
       }
     ]
@@ -2345,6 +2496,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://looneyformontana.com"
       },
       {
@@ -2353,6 +2505,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://janetellis4mt.com/"
       }
     ]
@@ -2375,6 +2528,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2383,6 +2537,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://peteformontana.com"
       }
     ]
@@ -2405,6 +2560,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2413,6 +2569,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2435,6 +2592,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.caldwellforhd84.com"
       },
       {
@@ -2443,6 +2601,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2465,6 +2624,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kimdailey.com"
       },
       {
@@ -2473,6 +2633,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2495,6 +2656,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://waynerusk.com"
       },
       {
@@ -2503,6 +2665,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2525,6 +2688,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2533,6 +2697,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2555,6 +2720,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.gregoverstreet.com"
       },
       {
@@ -2563,6 +2729,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2585,6 +2752,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.lynformontana.com"
       },
       {
@@ -2593,6 +2761,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://thaneformontana.com"
       }
     ]
@@ -2615,6 +2784,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2637,6 +2807,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2645,6 +2816,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://shellyformontana.com"
       }
     ]
@@ -2667,6 +2839,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.monicatranel.com"
       }
     ]
@@ -2689,7 +2862,8 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "isWriteIn": false,
+        "campaignWebsite": "https://royformt.com/"
       },
       {
         "slug": "ben-davis",
@@ -2697,6 +2871,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.davisformontana.com/"
       }
     ]
@@ -2719,6 +2894,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2727,6 +2903,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.robinkendall4montana.org/"
       }
     ]
@@ -2749,6 +2926,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2771,6 +2949,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://cartermt.us"
       }
     ]
@@ -2793,6 +2972,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2801,6 +2981,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://melodyformontana.org/"
       }
     ]
@@ -2823,6 +3004,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2831,6 +3013,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jonathankarlen.net"
       }
     ]
@@ -2853,6 +3036,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2861,6 +3045,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://tomfranceformontana.com"
       }
     ]
@@ -2883,6 +3068,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://michaeldanielbowles.carrd.co"
       },
       {
@@ -2891,6 +3077,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2899,6 +3086,7 @@
         "party": "L",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2921,6 +3109,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://gunderson4senate.com"
       },
       {
@@ -2929,6 +3118,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2977,6 +3167,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://amyformontana.com"
       },
       {
@@ -2985,6 +3176,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kyle4kalispell.com"
       }
     ]
@@ -3020,6 +3212,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3028,6 +3221,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3063,6 +3257,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3071,6 +3266,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3093,7 +3289,8 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
-        "campaignWebsite": "https://www.votellewjones.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       },
       {
         "slug": "noy-holland",
@@ -3101,6 +3298,16 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "nate-white",
+        "displayName": "NATE WHITE",
+        "party": "NP",
+        "status": "active",
+        "isIncumbent": false,
+        "isWriteIn": true,
         "campaignWebsite": null
       }
     ]
@@ -3123,6 +3330,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://jessicaformontana.com"
       },
       {
@@ -3131,6 +3339,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://mitchell406.com"
       }
     ]
@@ -3153,6 +3362,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://stevenformontana.com"
       },
       {
@@ -3161,6 +3371,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3183,7 +3394,8 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
-        "campaignWebsite": "https://georgeforus.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       },
       {
         "slug": "mindy-leach",
@@ -3191,6 +3403,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://mindy4mt.com"
       }
     ]
@@ -3226,6 +3439,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://albusformontana.com"
       },
       {
@@ -3234,6 +3448,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3295,6 +3510,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.gregkmetzforsenate.com"
       },
       {
@@ -3303,6 +3519,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3325,6 +3542,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3333,6 +3551,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3381,7 +3600,26 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://danielzolnikov.com"
+      },
+      {
+        "slug": "elijah-tidswell",
+        "displayName": "ELIJAH TIDSWELL",
+        "party": "NP",
+        "status": "active",
+        "isIncumbent": false,
+        "isWriteIn": true,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "cari-lynn-olson",
+        "displayName": "CARI LYNN OLSON",
+        "party": "NP",
+        "status": "active",
+        "isIncumbent": false,
+        "isWriteIn": true,
+        "campaignWebsite": null
       }
     ]
   },
@@ -3403,6 +3641,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3411,6 +3650,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://emmaformontana.org"
       }
     ]
@@ -3446,6 +3686,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3454,6 +3695,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://hipplerformontana.com"
       }
     ]
@@ -3502,6 +3744,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.facebook.com/mandevilleformontana"
       },
       {
@@ -3510,6 +3753,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kellyhaleformontana.com"
       }
     ]
@@ -3532,6 +3776,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://jgundersonmt.com"
       },
       {
@@ -3540,6 +3785,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://rosenzweigformontana.com"
       }
     ]
@@ -3575,6 +3821,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://richardformontana.com"
       },
       {
@@ -3583,6 +3830,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kathleenformontana.com"
       }
     ]
@@ -3605,6 +3853,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://ganserforthegallatin.com"
       },
       {
@@ -3613,6 +3862,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kellyformt.com"
       }
     ]
@@ -3648,6 +3898,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3656,6 +3907,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3756,6 +4008,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.erin4montana.com"
       },
       {
@@ -3764,6 +4017,7 @@
         "party": "L",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3786,6 +4040,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://lapraim4mt.com"
       },
       {
@@ -3794,6 +4049,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://maryanndunwell.com"
       }
     ]
@@ -3816,6 +4072,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://davidbedey.com"
       },
       {
@@ -3824,6 +4081,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3898,7 +4156,8 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
-        "campaignWebsite": "https://www.andreaolsenmt.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       }
     ]
   },
@@ -3920,6 +4179,7 @@
         "party": "R",
         "status": "active",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3928,6 +4188,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3950,6 +4211,7 @@
         "party": "D",
         "status": "active",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]

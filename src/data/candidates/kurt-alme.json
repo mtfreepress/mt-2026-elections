@@ -18,28 +18,39 @@
   "raceDisplayName": "U.S. Senate",
   "opponents": [
     {
-      "slug": "seth-bodnar",
-      "displayName": "Seth Bodnar",
-      "summaryLine": null,
-      "party": "I"
-    },
-    {
       "slug": "kurt-alme",
       "displayName": "Kurt Alme",
       "summaryLine": null,
-      "party": "R"
+      "party": "R",
+      "isWriteIn": false
     },
     {
       "slug": "kyle-austin",
       "displayName": "Kyle Austin",
       "summaryLine": null,
-      "party": "L"
+      "party": "L",
+      "isWriteIn": false
     },
     {
       "slug": "alani-bankhead",
       "displayName": "Alani Bankhead",
       "summaryLine": null,
-      "party": "D"
+      "party": "D",
+      "isWriteIn": false
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I",
+      "isWriteIn": false
+    },
+    {
+      "slug": "jami-dee-woodman",
+      "displayName": "Jami Dee Woodman",
+      "summaryLine": null,
+      "party": "NP",
+      "isWriteIn": true
     }
   ],
   "coverage": [
@@ -260,8 +271,8 @@
       "matchType": "name",
       "candidateCommitteeName": "AUSTIN FOR CONGRESS",
       "candidateId": "S6MT00261",
-      "totalReceipts": 262194.97,
-      "totalDisbursments": 242362.46,
+      "totalReceipts": 250626.5,
+      "totalDisbursments": 242425.95,
       "cashOnHand": 8750.55,
       "coverageEndDate": "2026-06-30",
       "isThisCandidate": false,
@@ -278,6 +289,20 @@
       "totalDisbursments": 37011.39,
       "cashOnHand": 21484.67,
       "coverageEndDate": "2026-06-30",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Jami Dee Woodman",
+      "candidateSlug": "jami-dee-woodman",
+      "party": "NP",
+      "matchType": "name",
+      "candidateCommitteeName": null,
+      "candidateId": null,
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
       "isThisCandidate": false,
       "candidateStatus": "active"
     }

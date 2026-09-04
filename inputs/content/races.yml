@@ -10,17 +10,11 @@
   description: One of Montana's two U.S. Senate seats, elected with a statewide vote. Elected to a six-year term.
   note: 
   candidates:
-    - seth-bodnar
     - kurt-alme
     - kyle-austin
     - alani-bankhead
-    - michael-black-wolf
-    - lee-calhoun
-    - michael-hummert
-    - tom-jandron
-    - christopher-kehoe
-    - reilly-neill
-    - charles-walking-child
+    - seth-bodnar
+    - jami-dee-woodman
 
 - raceSlug: us-house-1
   displayName: U.S. House District 1 (West)
@@ -30,15 +24,8 @@
   description: Western Montana representative in Congress. District includes Missoula, Bozeman, Kalispell and Butte. Elected to a two-year term.
   note: 
   candidates:
-    - kimberly-a-persico
-    - ryan-busse
-    - russell-cleveland
-    - ray-curtis
     - aaron-flint
     - sam-forstag
-    - christi-jacobsen
-    - al-doc-olszewski
-    - matt-rains
     - nick-sheedy
 
 - raceSlug: us-house-2
@@ -49,12 +36,10 @@
   description: Eastern Montana representative in Congress. District includes Billings, Great Falls, Helena, Havre and Miles City. Elected to a two-year term.
   note: 
   candidates:
-    - michael-d-eisenhauer
     - troy-downing
-    - sam-lux
     - patrick-mccracken
     - brian-j-miller
-    - jonathan-windy-boy
+    - michael-d-eisenhauer
 
 # STATE DISTRICT
 
@@ -67,7 +52,6 @@
   candidates:
     - angeline-cheek
     - jeff-pattison
-    - jeremy-trebas
 
 - raceSlug: psc-5
   displayName: Public Service Commission (Seat 5)
@@ -77,9 +61,7 @@
   note: 
   candidates:
     - annie-bukacek
-    - joe-dooling
     - kevin-hamm
-    - david-sanders
 
 # MONTANA SUPREME COURT
 

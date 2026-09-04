@@ -14,6 +14,13 @@
 const fs = require('fs')
 const path = require('path')
 const YAML = require('yaml')
+const {
+    GENERAL_CANDIDATE_LIST,
+    PRIMARY_CANDIDATE_LIST,
+    isActiveCandidate,
+    isWriteInCandidate,
+    readCandidateCsv,
+} = require('../inputs/filings/candidate-lists')
 
 const ROOT = path.join(__dirname, '..')
 const SRC_DATA = path.join(ROOT, 'src/data')
@@ -54,6 +61,15 @@ function isValidHttpWebsite(value) {
     }
 }
 
+function filingNameToSlug(name) {
+    return String(name || '')
+        .replace(/^\*/, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/g, '')
+        .trim()
+        .replace(/\s+/g, '-')
+}
+
 // I/O helpers
 
 function readJson(filePath, required = true) {
@@ -77,6 +93,35 @@ function readJson(filePath, required = true) {
 
 // Validations
 
+function validateCandidateFilingLists() {
+    let primary = []
+    let general = []
+
+    try {
+        primary = readCandidateCsv(PRIMARY_CANDIDATE_LIST)
+        general = readCandidateCsv(GENERAL_CANDIDATE_LIST)
+    } catch (e) {
+        fail(`candidate filing lists: could not read/parse — ${e.message}`)
+        return general
+    }
+
+    check(primary.length > 0, 'PrimaryCandidateList.csv: no candidate rows')
+    check(general.length > 0, 'GeneralCandidateList.csv: no candidate rows')
+
+    const house22 = general.filter(row => row.District === 'HOUSE DISTRICT 22')
+    check(house22.length > 0, 'GeneralCandidateList.csv: House District 22 is missing')
+    check(
+        house22.some(row => isActiveCandidate(row)),
+        'GeneralCandidateList.csv: House District 22 has no active candidates'
+    )
+    check(
+        house22.some(row => ['WITHDRAWN', 'REMOVED'].includes(String(row.Status || '').trim().toUpperCase())),
+        'GeneralCandidateList.csv: House District 22 is missing its withdrawn candidate record'
+    )
+
+    return general
+}
+
 function validateFecFinance() {
     const finance = readJson(path.join(INPUTS, 'fec/finance.json'))
     if (!finance) return
@@ -98,6 +143,22 @@ function validateFecFinance() {
             `fec/finance.json [${slug}]: finances.results is empty — FEC returned no data`
         )
     })
+
+    const senate = finance.find(race => race.raceSlug === 'us-senate')
+    const jamiWoodman = senate?.finances?.results?.find(row =>
+        String(row.candidate_name || '').toUpperCase().includes('WOODMAN')
+    )
+    check(jamiWoodman, 'fec/finance.json [us-senate]: missing explicit Jami Woodman entry')
+    if (jamiWoodman) {
+        check(
+            jamiWoodman.coverage_end_date === null,
+            'fec/finance.json [Jami Woodman]: expected no FEC filing coverage date'
+        )
+        check(
+            jamiWoodman.manually_added_no_fec_record === true,
+            'fec/finance.json [Jami Woodman]: expected manually_added_no_fec_record=true'
+        )
+    }
 }
 
 function validateCoverageArticles() {
@@ -144,7 +205,7 @@ function validateCandidateInputWebsites() {
     })
 }
 
-function validateCandidatesIndex() {
+function validateCandidatesIndex(generalFilings) {
     const index = readJson(path.join(SRC_DATA, 'candidates-index.json'))
     if (!index) return
 
@@ -189,6 +250,20 @@ function validateCandidatesIndex() {
     const slugs = index.map(c => c.slug)
     const dupes = slugs.filter((s, i) => slugs.indexOf(s) !== i)
     check(dupes.length === 0, `candidates-index.json: duplicate slug(s): ${dupes.join(', ')}`)
+
+    const majorRaceTypes = new Set(['Statewide', 'Congressional', 'Public Service Commission', 'Supreme Court Justice'])
+    const generalWriteIns = generalFilings
+        .filter(isActiveCandidate)
+        .filter(candidate => majorRaceTypes.has(candidate['District Type']))
+        .filter(isWriteInCandidate)
+    generalWriteIns.forEach(candidate => {
+        const slug = filingNameToSlug(candidate.Name)
+        const output = index.find(row => row.slug === slug)
+        check(output, `candidates-index.json: active general-election write-in "${candidate.Name}" is missing`)
+        if (output) {
+            check(output.isWriteIn === true, `candidates-index.json [${slug}]: expected isWriteIn=true`)
+        }
+    })
 
     return index
 }
@@ -252,7 +327,7 @@ function validateOverviewRaces() {
     })
 }
 
-function validateLegislativeCandidates() {
+function validateLegislativeCandidates(generalFilings) {
     const candidates = readJson(path.join(SRC_DATA, 'legislative-candidates.json'))
     if (!candidates) return
 
@@ -279,6 +354,14 @@ function validateLegislativeCandidates() {
         + (badSlugs.length ? ` — first: "${badSlugs[0].raceSlug}"` : '')
     )
 
+    const validParties = new Set(['R', 'D', 'L', 'G', 'I', 'NP'])
+    const badParties = candidates.filter(candidate => !validParties.has(candidate.party))
+    check(
+        badParties.length === 0,
+        `legislative-candidates.json: ${badParties.length} candidate(s) have an unsupported party code`
+        + (badParties.length ? ` — first: "${badParties[0].party}"` : '')
+    )
+
     candidates.forEach(candidate => {
         if (candidate.campaignWebsite) {
             check(
@@ -287,6 +370,48 @@ function validateLegislativeCandidates() {
             )
         }
     })
+
+    // House District 22 includes a post-primary withdrawal in the general
+    // filing list. Its generated field must exactly match active general rows.
+    const expectedHouse22 = generalFilings
+        .filter(row => row.District === 'HOUSE DISTRICT 22')
+        .filter(isActiveCandidate)
+        .map(row => filingNameToSlug(row.Name))
+        .sort()
+    const actualHouse22 = candidates
+        .filter(candidate => candidate.raceSlug === 'HD-22')
+        .map(candidate => candidate.slug)
+        .sort()
+    check(
+        JSON.stringify(actualHouse22) === JSON.stringify(expectedHouse22),
+        `legislative-candidates.json [HD-22]: expected active general candidates ${expectedHouse22.join(', ')}, got ${actualHouse22.join(', ')}`
+    )
+
+    generalFilings
+        .filter(row => ['House', 'Senate'].includes(row['District Type']))
+        .filter(isActiveCandidate)
+        .filter(isWriteInCandidate)
+        .forEach(row => {
+            const raceSlug = row.District
+                .replace('HOUSE DISTRICT ', 'HD-')
+                .replace('SENATE DISTRICT ', 'SD-')
+            const slug = filingNameToSlug(row.Name)
+            const output = candidates.find(candidate => candidate.raceSlug === raceSlug && candidate.slug === slug)
+            check(output, `legislative-candidates.json: active write-in "${row.Name}" is missing from ${raceSlug}`)
+            if (output) {
+                check(output.isWriteIn === true, `legislative-candidates.json [${slug}]: expected isWriteIn=true`)
+                check(!output.campaignWebsite, `legislative-candidates.json [${slug}]: WRITE-IN marker became a campaign website`)
+            }
+        })
+
+    const royHandley = candidates.find(candidate => candidate.slug === 'roy-handley')
+    check(royHandley, 'legislative-candidates.json: Roy Handley is missing')
+    if (royHandley) {
+        check(
+            royHandley.campaignWebsite === 'https://royformt.com/',
+            `legislative-candidates.json [roy-handley]: unexpected campaignWebsite "${royHandley.campaignWebsite}"`
+        )
+    }
 }
 
 function validateLegislativeDistricts() {
@@ -360,13 +485,14 @@ function validateCrossFileConsistency(index) {
 function main() {
     console.log('Running pipeline validation...\n')
 
+    const generalFilings = validateCandidateFilingLists()
     validateFecFinance()
     validateCoverageArticles()
     validateCandidateInputWebsites()
-    const index = validateCandidatesIndex()
+    const index = validateCandidatesIndex(generalFilings)
     validatePerCandidateFiles(index)
     validateOverviewRaces()
-    validateLegislativeCandidates()
+    validateLegislativeCandidates(generalFilings)
     validateLegislativeDistricts()
     validateAllCandidateSummary()
     validateCrossFileConsistency(index)

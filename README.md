@@ -20,6 +20,12 @@ This is a [Next.js](https://nextjs.org/) project.
 - `src` - Code for Next.js-based static web app using processsed data (page templates, components, styling, etc.)
 - `public` - Images and other static content
 
+Candidate filing snapshots are stored separately in
+`inputs/filings/PrimaryCandidateList.csv` and
+`inputs/filings/GeneralCandidateList.csv`. Primary results continue to use the
+primary snapshot; the general snapshot is authoritative for the current ballot,
+including withdrawals, replacement candidates and write-ins.
+
 ## Helpful Commands
 
 - To update all YAML files (so the page updates) run `./update-data.sh` in the command line. 

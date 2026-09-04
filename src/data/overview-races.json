@@ -9,19 +9,11 @@
     "note": null,
     "candidates": [
       {
-        "slug": "seth-bodnar",
-        "displayName": "Seth Bodnar",
-        "summaryLine": null,
-        "party": "I",
-        "hasResponses": true,
-        "numMTFParticles": 15,
-        "raceSlug": "us-senate"
-      },
-      {
         "slug": "kurt-alme",
         "displayName": "Kurt Alme",
         "summaryLine": null,
         "party": "R",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 9,
         "raceSlug": "us-senate"
@@ -31,6 +23,7 @@
         "displayName": "Kyle Austin",
         "summaryLine": null,
         "party": "L",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 3,
         "raceSlug": "us-senate"
@@ -40,8 +33,29 @@
         "displayName": "Alani Bankhead",
         "summaryLine": null,
         "party": "D",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 12,
+        "raceSlug": "us-senate"
+      },
+      {
+        "slug": "seth-bodnar",
+        "displayName": "Seth Bodnar",
+        "summaryLine": null,
+        "party": "I",
+        "isWriteIn": false,
+        "hasResponses": true,
+        "numMTFParticles": 15,
+        "raceSlug": "us-senate"
+      },
+      {
+        "slug": "jami-dee-woodman",
+        "displayName": "Jami Dee Woodman",
+        "summaryLine": null,
+        "party": "NP",
+        "isWriteIn": true,
+        "hasResponses": false,
+        "numMTFParticles": 0,
         "raceSlug": "us-senate"
       }
     ],
@@ -71,26 +85,14 @@
         "coverageEndDate": "2026-06-30"
       },
       {
-        "displayName": "Reilly Neill",
-        "candidateSlug": "reilly-neill",
-        "party": "D",
-        "matchType": "override-id",
-        "candidateCommitteeName": "REILLY FOR MONTANA",
-        "candidateId": "S6MT00238",
-        "totalReceipts": 298977.55,
-        "totalDisbursments": 274669.83,
-        "cashOnHand": 24307.72,
-        "coverageEndDate": "2026-06-30"
-      },
-      {
         "displayName": "Kyle Austin",
         "candidateSlug": "kyle-austin",
         "party": "L",
         "matchType": "name",
         "candidateCommitteeName": "AUSTIN FOR CONGRESS",
         "candidateId": "S6MT00261",
-        "totalReceipts": 262194.97,
-        "totalDisbursments": 242362.46,
+        "totalReceipts": 250626.5,
+        "totalDisbursments": 242425.95,
         "cashOnHand": 8750.55,
         "coverageEndDate": "2026-06-30"
       },
@@ -107,36 +109,12 @@
         "coverageEndDate": "2026-06-30"
       },
       {
-        "displayName": "Michael Hummert",
-        "candidateSlug": "michael-hummert",
-        "party": "D",
+        "displayName": "Jami Dee Woodman",
+        "candidateSlug": "jami-dee-woodman",
+        "party": "NP",
         "matchType": "name",
-        "candidateCommitteeName": "MICHAEL HUMMERT US SENATE CANDIDATE",
-        "candidateId": "S4MT00217",
-        "totalReceipts": 12330,
-        "totalDisbursments": 4447.18,
-        "cashOnHand": 8627.55,
-        "coverageEndDate": "2026-06-30"
-      },
-      {
-        "displayName": "Christopher Kehoe",
-        "candidateSlug": "christopher-kehoe",
-        "party": "D",
-        "matchType": "name",
-        "candidateCommitteeName": "CHRISTOPHER KEHOE FOR SENATE LLC",
-        "candidateId": "S6MT00303",
-        "totalReceipts": 1000.05,
-        "totalDisbursments": 80,
-        "cashOnHand": 920.05,
-        "coverageEndDate": "2026-06-09"
-      },
-      {
-        "displayName": "Tom Jandron",
-        "candidateSlug": "tom-jandron",
-        "party": "L",
-        "matchType": "name",
-        "candidateCommitteeName": "JANDRON 4 US SENATE",
-        "candidateId": "S6MT00311",
+        "candidateCommitteeName": null,
+        "candidateId": null,
         "totalReceipts": 0,
         "totalDisbursments": 0,
         "cashOnHand": 0,
@@ -159,6 +137,7 @@
         "displayName": "Aaron Flint",
         "summaryLine": null,
         "party": "R",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 6,
         "raceSlug": "us-house-1"
@@ -168,6 +147,7 @@
         "displayName": "Sam Forstag",
         "summaryLine": null,
         "party": "D",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 5,
         "raceSlug": "us-house-1"
@@ -177,6 +157,7 @@
         "displayName": "Nick Sheedy",
         "summaryLine": null,
         "party": "L",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 2,
         "raceSlug": "us-house-1"
@@ -206,66 +187,6 @@
         "totalDisbursments": 801192.61,
         "cashOnHand": 502201.11,
         "coverageEndDate": "2026-06-30"
-      },
-      {
-        "displayName": "Ryan Busse",
-        "candidateSlug": "ryan-busse",
-        "party": "D",
-        "matchType": "name",
-        "candidateCommitteeName": "RYAN BUSSE FOR MONTANA",
-        "candidateId": "H6MT01145",
-        "totalReceipts": 790340.3,
-        "totalDisbursments": 788347.16,
-        "cashOnHand": 1993.14,
-        "coverageEndDate": "2026-06-30"
-      },
-      {
-        "displayName": "Christi Jacobsen",
-        "candidateSlug": "christi-jacobsen",
-        "party": "R",
-        "matchType": "name",
-        "candidateCommitteeName": "CHRISTI JACOBSEN FOR CONGRESS",
-        "candidateId": "H6MT01160",
-        "totalReceipts": 552743.46,
-        "totalDisbursments": 551038.4,
-        "cashOnHand": 1705.06,
-        "coverageEndDate": "2026-06-30"
-      },
-      {
-        "displayName": "Russell Cleveland",
-        "candidateSlug": "russell-cleveland",
-        "party": "D",
-        "matchType": "name-first-last",
-        "candidateCommitteeName": "CLEVELAND FOR CONGRESS",
-        "candidateId": "H6MT01103",
-        "totalReceipts": 457635.36,
-        "totalDisbursments": 445912.84,
-        "cashOnHand": 0.04,
-        "coverageEndDate": "2026-06-30"
-      },
-      {
-        "displayName": "Al 'Doc' Olszewski",
-        "candidateSlug": "al-doc-olszewski",
-        "party": "R",
-        "matchType": "override-id",
-        "candidateCommitteeName": "AL FOR MONTANA",
-        "candidateId": "H2MT02084",
-        "totalReceipts": 426972.59,
-        "totalDisbursments": 436921.66,
-        "cashOnHand": 0,
-        "coverageEndDate": "2026-06-30"
-      },
-      {
-        "displayName": "Matt Rains",
-        "candidateSlug": "matt-rains",
-        "party": "D",
-        "matchType": "override-id",
-        "candidateCommitteeName": "MATT RAINS FOR MONTANA",
-        "candidateId": "H0MT00116",
-        "totalReceipts": 272569.44,
-        "totalDisbursments": 238593.09,
-        "cashOnHand": 33976.35,
-        "coverageEndDate": "2026-06-30"
       }
     ],
     "inactiveCandidates": []
@@ -280,19 +201,11 @@
     "note": null,
     "candidates": [
       {
-        "slug": "michael-d-eisenhauer",
-        "displayName": "Michael D Eisenhauer",
-        "summaryLine": null,
-        "party": "I",
-        "hasResponses": true,
-        "numMTFParticles": 2,
-        "raceSlug": "us-house-2"
-      },
-      {
         "slug": "troy-downing",
         "displayName": "Troy Downing",
         "summaryLine": null,
         "party": "R",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 2,
         "raceSlug": "us-house-2"
@@ -302,6 +215,7 @@
         "displayName": "Patrick McCracken",
         "summaryLine": null,
         "party": "L",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 2,
         "raceSlug": "us-house-2"
@@ -311,8 +225,19 @@
         "displayName": "Brian J Miller",
         "summaryLine": null,
         "party": "D",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 6,
+        "raceSlug": "us-house-2"
+      },
+      {
+        "slug": "michael-d-eisenhauer",
+        "displayName": "Michael D Eisenhauer",
+        "summaryLine": null,
+        "party": "I",
+        "isWriteIn": false,
+        "hasResponses": true,
+        "numMTFParticles": 2,
         "raceSlug": "us-house-2"
       }
     ],
@@ -354,36 +279,12 @@
         "coverageEndDate": "2026-06-30"
       },
       {
-        "displayName": "Sam Lux",
-        "candidateSlug": "sam-lux",
-        "party": "D",
-        "matchType": "name",
-        "candidateCommitteeName": "LUX FOR MONTANA",
-        "candidateId": "H6MT02143",
-        "totalReceipts": 15082.76,
-        "totalDisbursments": 9584.69,
-        "cashOnHand": 5675.02,
-        "coverageEndDate": "2026-06-30"
-      },
-      {
         "displayName": "Patrick McCracken",
         "candidateSlug": "patrick-mccracken",
         "party": "L",
         "matchType": "name-first-last",
         "candidateCommitteeName": "MCCRACKEN FOR MONTANA",
         "candidateId": "H6MT02176",
-        "totalReceipts": 0,
-        "totalDisbursments": 0,
-        "cashOnHand": 0,
-        "coverageEndDate": null
-      },
-      {
-        "displayName": "Jonathan Windy Boy",
-        "candidateSlug": "jonathan-windy-boy",
-        "party": "D",
-        "matchType": "override-id",
-        "candidateCommitteeName": "WINDYBOY4CONGRESS",
-        "candidateId": "H6MT02226",
         "totalReceipts": 0,
         "totalDisbursments": 0,
         "cashOnHand": 0,
@@ -405,6 +306,7 @@
         "displayName": "Angeline Cheek",
         "summaryLine": null,
         "party": "D",
+        "isWriteIn": false,
         "hasResponses": false,
         "numMTFParticles": 0,
         "raceSlug": "psc-1"
@@ -414,6 +316,7 @@
         "displayName": "Jeff Pattison",
         "summaryLine": null,
         "party": "R",
+        "isWriteIn": false,
         "hasResponses": false,
         "numMTFParticles": 0,
         "raceSlug": "psc-1"
@@ -435,6 +338,7 @@
         "displayName": "Annie Bukacek",
         "summaryLine": null,
         "party": "R",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 1,
         "raceSlug": "psc-5"
@@ -444,6 +348,7 @@
         "displayName": "Kevin Hamm",
         "summaryLine": null,
         "party": "D",
+        "isWriteIn": false,
         "hasResponses": true,
         "numMTFParticles": 0,
         "raceSlug": "psc-5"
@@ -465,6 +370,7 @@
         "displayName": "Amy Eddy",
         "summaryLine": null,
         "party": "NP",
+        "isWriteIn": false,
         "hasResponses": false,
         "numMTFParticles": 0,
         "raceSlug": "supco-4"
@@ -474,6 +380,7 @@
         "displayName": "Dan Wilson",
         "summaryLine": null,
         "party": "NP",
+        "isWriteIn": false,
         "hasResponses": false,
         "numMTFParticles": 0,
         "raceSlug": "supco-4"

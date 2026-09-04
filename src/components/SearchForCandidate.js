@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 import { css } from "@emotion/react";
 import Link from "next/link";
 
-import { PARTIES, PARTIES_BY_KEY, STATUS } from "@/lib/styles";
+import { PARTIES, PARTIES_BY_KEY, STATUS, getCandidatePartyNoun } from "@/lib/styles";
 import {
     getCorrespondingSenateDistrictNumber,
     getCorrespondingHouseDistrictNumbers,
@@ -161,7 +161,7 @@ const legislativeCandidateStyle = css`
 
 function Candidate(props) {
     const { slug, path, displayName, party, status, race,
-        summaryLine, cap_tracker_2025_link, hasResponses, numMTFParticles } = props
+        summaryLine, cap_tracker_2025_link, hasResponses, numMTFParticles, isWriteIn } = props
     // cap_tracker_2025_link flags for current lawmakers
     const partyInfo = PARTIES_BY_KEY.get(party)
     const statusInfo = STATUS_BY_KEY.get(status)
@@ -174,7 +174,7 @@ function Candidate(props) {
                 <div className="name">{displayName}</div>
                 {summaryLine && <div className="current">{summaryLine}</div>}
                 {cap_tracker_2025_link && <div className="current">Sitting lawmaker</div>}
-                <div className="position"><span style={{ color: partyInfo.color }}>{partyInfo.noun}</span> for {race}</div>
+                <div className="position"><span style={{ color: partyInfo.color }}>{getCandidatePartyNoun(party, isWriteIn)}</span> for {race}</div>
                 <div className="status">{statusInfo.label}</div>
 
                 <div className="tag-line">

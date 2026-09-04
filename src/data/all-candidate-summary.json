@@ -7,6 +7,7 @@
     "race": "U.S. House District 2 (East)",
     "party": "R",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 2,
     "cap_tracker_2025_link": null
@@ -19,6 +20,7 @@
     "race": "U.S. Senate",
     "party": "I",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 15,
     "cap_tracker_2025_link": null
@@ -31,6 +33,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "D",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 5,
     "cap_tracker_2025_link": null
@@ -43,6 +46,7 @@
     "race": "U.S. House District 2 (East)",
     "party": "L",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 2,
     "cap_tracker_2025_link": null
@@ -55,6 +59,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "L",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 2,
     "cap_tracker_2025_link": null
@@ -67,6 +72,7 @@
     "race": "U.S. House District 2 (East)",
     "party": "I",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 2,
     "cap_tracker_2025_link": null
@@ -79,6 +85,7 @@
     "race": "U.S. Senate",
     "party": "L",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 3,
     "cap_tracker_2025_link": null
@@ -91,6 +98,7 @@
     "race": "U.S. Senate",
     "party": "R",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 9,
     "cap_tracker_2025_link": null
@@ -103,6 +111,7 @@
     "race": "Public Service Commission (Seat 5)",
     "party": "D",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
@@ -115,6 +124,20 @@
     "race": "Public Service Commission (Seat 1)",
     "party": "R",
     "status": "active",
+    "isWriteIn": false,
+    "hasResponses": false,
+    "numMTFParticles": 0,
+    "cap_tracker_2025_link": null
+  },
+  {
+    "slug": "jami-dee-woodman",
+    "path": "candidates",
+    "displayName": "Jami Dee Woodman",
+    "summaryLine": null,
+    "race": "U.S. Senate",
+    "party": "NP",
+    "status": "active",
+    "isWriteIn": true,
     "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
@@ -127,6 +150,7 @@
     "race": "State Supreme Court (Seat 4)",
     "party": "NP",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
@@ -139,6 +163,7 @@
     "race": "U.S. House District 2 (East)",
     "party": "D",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 6,
     "cap_tracker_2025_link": null
@@ -151,6 +176,7 @@
     "race": "Public Service Commission (Seat 5)",
     "party": "R",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 1,
     "cap_tracker_2025_link": null
@@ -163,6 +189,7 @@
     "race": "Public Service Commission (Seat 1)",
     "party": "D",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
@@ -175,6 +202,7 @@
     "race": "State Supreme Court (Seat 4)",
     "party": "NP",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": false,
     "numMTFParticles": 0,
     "cap_tracker_2025_link": null
@@ -187,6 +215,7 @@
     "race": "U.S. Senate",
     "party": "D",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 12,
     "cap_tracker_2025_link": null
@@ -199,6 +228,7 @@
     "race": "U.S. House District 1 (West)",
     "party": "R",
     "status": "active",
+    "isWriteIn": false,
     "hasResponses": true,
     "numMTFParticles": 6,
     "cap_tracker_2025_link": null
