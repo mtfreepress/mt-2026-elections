@@ -1,6 +1,11 @@
 const fs = require('fs')
 const glob = require('glob')
 const YAML = require('yaml')
+const {
+    GENERAL_CANDIDATE_LIST,
+    isActiveCandidate,
+    readCandidateCsv,
+} = require('../inputs/filings/candidate-lists')
 
 const urlize = str => str.toLowerCase().replaceAll(/\s/g, '-')
 
@@ -15,6 +20,13 @@ const requireNonEmptyArray = (data, label) => {
         process.exit(1)
     }
 }
+
+const GENERAL_RACE_DISTRICT_TYPES = new Set([
+    'Statewide',
+    'Congressional',
+    'Public Service Commission',
+    'Supreme Court Justice',
+])
 
 const writeJson = (path, data) => {
     fs.writeFile(path, JSON.stringify(data, null, 2), err => {
@@ -169,7 +181,7 @@ const primaryRacePartyKeys = new Set(primaryResults.map(result => `${result.race
 // Keep primary winners where primaries were held; keep all candidates in
 // race/party combinations that had no primary (e.g., many independents).
 const primaryWinnerNames = getPrimaryWinnersNames()
-const candidatesFilteredByPrimary = candidates.filter(candidate => {
+const candidatesAdvancingFromPrimary = candidates.filter(candidate => {
     const raceSlug = raceSlugByCandidateSlug.get(candidate.slug)
     if (!raceSlug) {
         console.warn(`No race mapping found for candidate ${candidate.slug} — keeping candidate`)
@@ -184,10 +196,34 @@ const candidatesFilteredByPrimary = candidates.filter(candidate => {
     const candidateNameKey = normalizeNameForMatching(candidate.displayName)
     return primaryWinnerNames.has(candidateNameKey)
 })
+
+// Reconcile the primary-derived field with the Secretary of State's current
+// general-election list. This removes withdrawn/primary-only candidates and
+// brings in replacements and write-ins that have no primary winner record.
+const filingNameToSlug = name => String(name || '')
+    .replace(/^\*/, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+
+const currentGeneralCandidateSlugs = new Set(
+    readCandidateCsv(GENERAL_CANDIDATE_LIST)
+        .filter(isActiveCandidate)
+        .filter(candidate => GENERAL_RACE_DISTRICT_TYPES.has(candidate['District Type']))
+        .map(candidate => filingNameToSlug(candidate.Name))
+)
+const primaryAdvancingSlugs = new Set(candidatesAdvancingFromPrimary.map(candidate => candidate.slug))
+const candidatesFilteredByPrimary = candidates.filter(candidate => currentGeneralCandidateSlugs.has(candidate.slug))
+const addedForGeneral = candidatesFilteredByPrimary.filter(candidate => !primaryAdvancingSlugs.has(candidate.slug))
+const removedAfterPrimary = candidatesAdvancingFromPrimary.filter(candidate => !currentGeneralCandidateSlugs.has(candidate.slug))
+
 requireNonEmptyArray(candidatesFilteredByPrimary, 'processed major-race candidate list')
 const remainingCandidateSlugs = new Set(candidatesFilteredByPrimary.map(c => c.slug))
 
-console.log(`Filtered from ${candidates.length} to ${candidatesFilteredByPrimary.length} remaining candidates`)
+console.log(`Primary processing found ${candidatesAdvancingFromPrimary.length} advancing major-race candidates`)
+console.log(`General reconciliation: ${addedForGeneral.length} added/replaced, ${removedAfterPrimary.length} removed/withdrawn`)
+console.log(`${candidatesFilteredByPrimary.length} current major-race candidates`)
 console.log(candidatesFilteredByPrimary)
 
 // const questionnaires = getJson('./inputs/mtfp-questionnaire/dummy-answers.json')
@@ -387,6 +423,7 @@ candidatesFilteredByPrimary.forEach(candidate => {
                 displayName: c.displayName,
                 summaryLine: c.summaryLine,
                 party: c.party,
+                isWriteIn: Boolean(c.isWriteIn),
             }
         })
 
@@ -447,6 +484,7 @@ const overviewRaces = races.map(race => {
         displayName: c.displayName,
         summaryLine: c.summaryLine,
         party: c.party,
+        isWriteIn: Boolean(c.isWriteIn),
         hasResponses: c.questionnaire.hasResponses,
         numMTFParticles: c.coverage.length,
         raceSlug: c.raceSlug,
@@ -498,6 +536,7 @@ const candidatesIndex = candidatesFilteredByPrimary.map(c => ({
     raceDisplayName: c.raceDisplayName,
     status: c.status,
     isIncumbent: c.isIncumbent,
+    isWriteIn: Boolean(c.isWriteIn),
     hasResponses: c.questionnaire.hasResponses,
     numMTFParticles: c.coverage.length,
 }))
@@ -508,4 +547,3 @@ writeJson('./src/data/ballot-initiatives.json', ballotInitiatives) // Pass throu
 writeJson('./src/data/text.json', text) // simple pass through logic for now
 writeJson('./src/data/how-to-vote.json', howToVoteContent)
 writeJson('./src/data/update-time.json', { updateTime: new Date() })
-

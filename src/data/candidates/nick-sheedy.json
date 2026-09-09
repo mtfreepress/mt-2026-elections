@@ -21,19 +21,22 @@
       "slug": "aaron-flint",
       "displayName": "Aaron Flint",
       "summaryLine": null,
-      "party": "R"
+      "party": "R",
+      "isWriteIn": false
     },
     {
       "slug": "sam-forstag",
       "displayName": "Sam Forstag",
       "summaryLine": null,
-      "party": "D"
+      "party": "D",
+      "isWriteIn": false
     },
     {
       "slug": "nick-sheedy",
       "displayName": "Nick Sheedy",
       "summaryLine": null,
-      "party": "L"
+      "party": "L",
+      "isWriteIn": false
     }
   ],
   "coverage": [

@@ -23,6 +23,7 @@ const allCandidates = candidatesIndex.map(c => ({
     race: c.raceDisplayName,
     party: c.party,
     status: c.status,
+    isWriteIn: Boolean(c.isWriteIn),
     hasResponses: c.hasResponses,
     numMTFParticles: c.numMTFParticles,
     cap_tracker_2025_link: null,

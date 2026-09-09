@@ -21,13 +21,15 @@
       "slug": "angeline-cheek",
       "displayName": "Angeline Cheek",
       "summaryLine": null,
-      "party": "D"
+      "party": "D",
+      "isWriteIn": false
     },
     {
       "slug": "jeff-pattison",
       "displayName": "Jeff Pattison",
       "summaryLine": null,
-      "party": "R"
+      "party": "R",
+      "isWriteIn": false
     }
   ],
   "coverage": [],

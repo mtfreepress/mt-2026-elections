@@ -1,8 +1,13 @@
 const fs = require('fs')
 const path = require('path')
+const {
+  GENERAL_CANDIDATE_LIST,
+  PRIMARY_CANDIDATE_LIST,
+  isActiveCandidate,
+  readCandidateCsv,
+} = require('./candidate-lists')
 
 // paths relative to this script's location
-const CSV_INPUT      = path.join(__dirname, 'CandidateList.csv')
 const CSV_PREV       = path.join(__dirname, 'CandidateList_20240911.csv')
 const LEGE_LIST      = path.join(__dirname, 'lege-2025-list.txt')
 const OUT_DIR        = path.join(__dirname, 'candidate-breakdown')
@@ -96,8 +101,10 @@ function main() {
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true })
 
   // load candidates
-  const candidates = parseCSV(fs.readFileSync(CSV_INPUT, 'utf8'))
-  console.log(`Loaded ${candidates.length} candidates from CandidateList.csv`)
+  const candidates = readCandidateCsv(PRIMARY_CANDIDATE_LIST).filter(isActiveCandidate)
+  const generalCandidates = readCandidateCsv(GENERAL_CANDIDATE_LIST).filter(isActiveCandidate)
+  console.log(`Loaded ${candidates.length} active candidates from PrimaryCandidateList.csv`)
+  console.log(`Loaded ${generalCandidates.length} active candidates from GeneralCandidateList.csv`)
 
   // load legislative incumbent list (all lowercase, one name per line)
   const legeNames = new Set(
@@ -115,17 +122,9 @@ function main() {
   console.log(`Loaded ${prevCandidates.length} candidates from previous election list`)
 
   console.log('\n── 1. Contested primaries')
-  let statusKey = null
-  if (candidates.length > 0) {
-    const keys = Object.keys(candidates[0])
-    statusKey = keys.find(k => k && k.trim().toLowerCase() === 'status')
-      || keys.find(k => k && k.trim().toLowerCase() === 'filing status')
-      || keys.find(k => k && k.trim().toLowerCase().includes('status'))
-  }
-
-  const filedCandidates = statusKey
-    ? candidates.filter(c => String((c[statusKey] || '')).trim().toUpperCase() === 'FILED')
-    : candidates
+  // NOMINATED winners and FILED non-winners both participated in the primary;
+  // exclude only withdrawn/removed records from primary breakdowns.
+  const filedCandidates = candidates
 
   const byRaceParty = {}
   for (const c of filedCandidates) {
@@ -226,7 +225,7 @@ function main() {
   console.log('\n── 2. Contested generals')
 
   const byRace = {}
-  for (const c of candidates) {
+  for (const c of generalCandidates) {
     const k = raceKey(c)
     if (!byRace[k]) byRace[k] = []
     byRace[k].push(c)
@@ -241,7 +240,7 @@ function main() {
       .map(([k]) => k)
   )
 
-  const liveGeneralCandidates = candidates.filter(c =>
+  const liveGeneralCandidates = generalCandidates.filter(c =>
     liveGeneralKeys.has(raceKey(c))
   )
 
@@ -263,7 +262,7 @@ function main() {
 
   console.log('\n── 2b. Uncontested generals')
   // uncontested generals
-  const uncontestedGeneralCandidates = candidates.filter(c =>
+  const uncontestedGeneralCandidates = generalCandidates.filter(c =>
     !liveGeneralKeys.has(raceKey(c))
   )
   const uncontestedGeneralRaceKeys = new Set(

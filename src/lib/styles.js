@@ -12,6 +12,14 @@ export const PARTIES = [
 // O(1) lookup by party key — use instead of PARTIES.find(d => d.key === party)
 export const PARTIES_BY_KEY = new Map(PARTIES.map(p => [p.key, p]))
 
+// Filing data uses NP for both candidates in nonpartisan races and write-in
+// candidates without a party affiliation. Keep the shared NP styling/code,
+// but give the latter a more accurate display label.
+export const getCandidatePartyNoun = (party, isWriteIn = false) =>
+    party === 'NP' && isWriteIn
+        ? 'No party affiliation'
+        : (PARTIES_BY_KEY.get(party)?.noun || party)
+
 export const STATUS = [
     { key: 'active', label: '➡️ Active' },
     { key: 'lost-primary', label: '❌ Lost June 2 primary' },
@@ -58,4 +66,3 @@ export const WEB_LINKS = [
         replace: 'tiktok.com/'
     }
 ]
-

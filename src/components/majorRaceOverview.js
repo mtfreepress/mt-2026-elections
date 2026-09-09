@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link'
 import Image from 'next/image'
 
-import { PARTIES, PARTIES_BY_KEY } from '../lib/styles'
+import { PARTIES, PARTIES_BY_KEY, getCandidatePartyNoun } from '../lib/styles'
 import { pluralize } from '../lib/utils'
 
 const raceStyle = css`
@@ -243,8 +243,11 @@ export default function MajorRaceOverview({ race, showMap }) {
                     : PARTIES.map(party => {
                         const candidatesInBucket = candidates.filter(d => d.party === party.key)
                         if (candidatesInBucket.length === 0) return null
+                        const bucketLabel = candidatesInBucket.every(candidate => candidate.isWriteIn)
+                            ? getCandidatePartyNoun(party.key, true)
+                            : pluralize(party.noun, candidatesInBucket.length)
                         return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
-                            <h4 style={{ color: party.color }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
+                            <h4 style={{ color: party.color }}>{bucketLabel}</h4>
                             <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
                         </div>
                     })
@@ -263,8 +266,11 @@ export default function MajorRaceOverview({ race, showMap }) {
                             : PARTIES.map(party => {
                                 const candidatesInBucket = inactiveCandidates.filter(d => d.party === party.key)
                                 if (candidatesInBucket.length === 0) return null
+                                const bucketLabel = candidatesInBucket.every(candidate => candidate.isWriteIn)
+                                    ? getCandidatePartyNoun(party.key, true)
+                                    : pluralize(party.noun, candidatesInBucket.length)
                                 return <div className="party-bucket" key={party.key} style={{ borderLeft: `3px solid ${party.color}` }}>
-                                    <h4 style={{ color: party.color }}>{pluralize(party.noun, candidatesInBucket.length)}</h4>
+                                    <h4 style={{ color: party.color }}>{bucketLabel}</h4>
                                     <div>{candidatesInBucket.map(d => <Candidate key={d.slug} {...d} />)}</div>
                                 </div>
                             })

@@ -18,28 +18,32 @@
   "raceDisplayName": "U.S. House District 2 (East)",
   "opponents": [
     {
-      "slug": "michael-d-eisenhauer",
-      "displayName": "Michael D Eisenhauer",
-      "summaryLine": null,
-      "party": "I"
-    },
-    {
       "slug": "troy-downing",
       "displayName": "Troy Downing",
       "summaryLine": null,
-      "party": "R"
+      "party": "R",
+      "isWriteIn": false
     },
     {
       "slug": "patrick-mccracken",
       "displayName": "Patrick McCracken",
       "summaryLine": null,
-      "party": "L"
+      "party": "L",
+      "isWriteIn": false
     },
     {
       "slug": "brian-j-miller",
       "displayName": "Brian J Miller",
       "summaryLine": null,
-      "party": "D"
+      "party": "D",
+      "isWriteIn": false
+    },
+    {
+      "slug": "michael-d-eisenhauer",
+      "displayName": "Michael D Eisenhauer",
+      "summaryLine": null,
+      "party": "I",
+      "isWriteIn": false
     }
   ],
   "coverage": [

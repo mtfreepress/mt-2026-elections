@@ -7,6 +7,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://gunderson4senate.com",
     "opponents": [
       {
@@ -14,6 +15,7 @@
         "displayName": "STEVE GUNDERSON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://gunderson4senate.com"
       },
       {
@@ -21,6 +23,7 @@
         "displayName": "JONATHAN RUSSELL JAMESON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -33,6 +36,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -40,6 +44,7 @@
         "displayName": "STEVE GUNDERSON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://gunderson4senate.com"
       },
       {
@@ -47,6 +52,7 @@
         "displayName": "JONATHAN RUSSELL JAMESON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -59,6 +65,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://amyformontana.com",
     "opponents": [
       {
@@ -66,6 +73,7 @@
         "displayName": "AMY REGIER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://amyformontana.com"
       },
       {
@@ -73,6 +81,7 @@
         "displayName": "KYLE WATERMAN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kyle4kalispell.com"
       }
     ]
@@ -85,6 +94,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://kyle4kalispell.com",
     "opponents": [
       {
@@ -92,6 +102,7 @@
         "displayName": "AMY REGIER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://amyformontana.com"
       },
       {
@@ -99,6 +110,7 @@
         "displayName": "KYLE WATERMAN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kyle4kalispell.com"
       }
     ]
@@ -111,6 +123,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -118,6 +131,7 @@
         "displayName": "MARK NOLAND",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -125,6 +139,7 @@
         "displayName": "PATRICK FITZPATRICK",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -137,6 +152,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -144,6 +160,7 @@
         "displayName": "MARK NOLAND",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -151,6 +168,7 @@
         "displayName": "PATRICK FITZPATRICK",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -163,6 +181,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -170,6 +189,7 @@
         "displayName": "CHRISTOPHER PAUL BUCKLES",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -177,6 +197,7 @@
         "displayName": "TYSON T RUNNING WOLF",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -189,6 +210,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -196,6 +218,7 @@
         "displayName": "CHRISTOPHER PAUL BUCKLES",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -203,6 +226,7 @@
         "displayName": "TYSON T RUNNING WOLF",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -215,6 +239,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -222,13 +247,23 @@
         "displayName": "LLEW JONES",
         "party": "R",
         "isIncumbent": false,
-        "campaignWebsite": "https://www.votellewjones.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       },
       {
         "slug": "noy-holland",
         "displayName": "NOY HOLLAND",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "nate-white",
+        "displayName": "NATE WHITE",
+        "party": "NP",
+        "isIncumbent": false,
+        "isWriteIn": true,
         "campaignWebsite": null
       }
     ]
@@ -241,20 +276,68 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": "https://www.votellewjones.com",
+    "isWriteIn": false,
+    "campaignWebsite": null,
     "opponents": [
       {
         "slug": "llew-jones",
         "displayName": "LLEW JONES",
         "party": "R",
         "isIncumbent": false,
-        "campaignWebsite": "https://www.votellewjones.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       },
       {
         "slug": "noy-holland",
         "displayName": "NOY HOLLAND",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "nate-white",
+        "displayName": "NATE WHITE",
+        "party": "NP",
+        "isIncumbent": false,
+        "isWriteIn": true,
+        "campaignWebsite": null
+      }
+    ]
+  },
+  {
+    "raceSlug": "SD-9",
+    "raceDisplayName": "Senate District 9",
+    "slug": "nate-white",
+    "displayName": "NATE WHITE",
+    "party": "NP",
+    "status": "active",
+    "isIncumbent": false,
+    "isWriteIn": true,
+    "campaignWebsite": null,
+    "opponents": [
+      {
+        "slug": "llew-jones",
+        "displayName": "LLEW JONES",
+        "party": "R",
+        "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "noy-holland",
+        "displayName": "NOY HOLLAND",
+        "party": "D",
+        "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "nate-white",
+        "displayName": "NATE WHITE",
+        "party": "NP",
+        "isIncumbent": false,
+        "isWriteIn": true,
         "campaignWebsite": null
       }
     ]
@@ -267,6 +350,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://jessicaformontana.com",
     "opponents": [
       {
@@ -274,6 +358,7 @@
         "displayName": "JESSICA DYRDAHL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://jessicaformontana.com"
       },
       {
@@ -281,6 +366,7 @@
         "displayName": "MARGARET MITCHELL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://mitchell406.com"
       }
     ]
@@ -293,6 +379,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://mitchell406.com",
     "opponents": [
       {
@@ -300,6 +387,7 @@
         "displayName": "JESSICA DYRDAHL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://jessicaformontana.com"
       },
       {
@@ -307,6 +395,7 @@
         "displayName": "MARGARET MITCHELL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://mitchell406.com"
       }
     ]
@@ -319,6 +408,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://stevenformontana.com",
     "opponents": [
       {
@@ -326,6 +416,7 @@
         "displayName": "STEVEN GALLOWAY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://stevenformontana.com"
       },
       {
@@ -333,6 +424,7 @@
         "displayName": "VALYNDA HOLLAND",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -345,6 +437,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -352,6 +445,7 @@
         "displayName": "STEVEN GALLOWAY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://stevenformontana.com"
       },
       {
@@ -359,6 +453,7 @@
         "displayName": "VALYNDA HOLLAND",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -371,6 +466,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://mindy4mt.com",
     "opponents": [
       {
@@ -378,13 +474,15 @@
         "displayName": "GEORGE NIKOLAKAKOS",
         "party": "R",
         "isIncumbent": false,
-        "campaignWebsite": "https://georgeforus.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       },
       {
         "slug": "mindy-leach",
         "displayName": "MINDY LEACH",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://mindy4mt.com"
       }
     ]
@@ -397,20 +495,23 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": "https://georgeforus.com",
+    "isWriteIn": false,
+    "campaignWebsite": null,
     "opponents": [
       {
         "slug": "george-nikolakakos",
         "displayName": "GEORGE NIKOLAKAKOS",
         "party": "R",
         "isIncumbent": false,
-        "campaignWebsite": "https://georgeforus.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       },
       {
         "slug": "mindy-leach",
         "displayName": "MINDY LEACH",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://mindy4mt.com"
       }
     ]
@@ -423,6 +524,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://albusformontana.com",
     "opponents": [
       {
@@ -430,6 +532,7 @@
         "displayName": "ERIC ALBUS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://albusformontana.com"
       },
       {
@@ -437,6 +540,7 @@
         "displayName": "BLAKE BORST",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -449,6 +553,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -456,6 +561,7 @@
         "displayName": "ERIC ALBUS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://albusformontana.com"
       },
       {
@@ -463,6 +569,7 @@
         "displayName": "BLAKE BORST",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -475,6 +582,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.gregkmetzforsenate.com",
     "opponents": [
       {
@@ -482,6 +590,7 @@
         "displayName": "GREG KMETZ",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.gregkmetzforsenate.com"
       },
       {
@@ -489,6 +598,7 @@
         "displayName": "STAN TAYLOR",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -501,6 +611,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -508,6 +619,7 @@
         "displayName": "GREG KMETZ",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.gregkmetzforsenate.com"
       },
       {
@@ -515,6 +627,7 @@
         "displayName": "STAN TAYLOR",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -527,6 +640,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -534,6 +648,7 @@
         "displayName": "CHRIS RINDAL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -541,6 +656,7 @@
         "displayName": "DEANNA J DAIGREPONT",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -553,6 +669,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -560,6 +677,7 @@
         "displayName": "CHRIS RINDAL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -567,6 +685,7 @@
         "displayName": "DEANNA J DAIGREPONT",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -579,6 +698,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://danielzolnikov.com",
     "opponents": [
       {
@@ -586,7 +706,98 @@
         "displayName": "DANIEL ZOLNIKOV",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://danielzolnikov.com"
+      },
+      {
+        "slug": "elijah-tidswell",
+        "displayName": "ELIJAH TIDSWELL",
+        "party": "NP",
+        "isIncumbent": false,
+        "isWriteIn": true,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "cari-lynn-olson",
+        "displayName": "CARI LYNN OLSON",
+        "party": "NP",
+        "isIncumbent": false,
+        "isWriteIn": true,
+        "campaignWebsite": null
+      }
+    ]
+  },
+  {
+    "raceSlug": "SD-22",
+    "raceDisplayName": "Senate District 22",
+    "slug": "elijah-tidswell",
+    "displayName": "ELIJAH TIDSWELL",
+    "party": "NP",
+    "status": "active",
+    "isIncumbent": false,
+    "isWriteIn": true,
+    "campaignWebsite": null,
+    "opponents": [
+      {
+        "slug": "daniel-zolnikov",
+        "displayName": "DANIEL ZOLNIKOV",
+        "party": "R",
+        "isIncumbent": true,
+        "isWriteIn": false,
+        "campaignWebsite": "https://danielzolnikov.com"
+      },
+      {
+        "slug": "elijah-tidswell",
+        "displayName": "ELIJAH TIDSWELL",
+        "party": "NP",
+        "isIncumbent": false,
+        "isWriteIn": true,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "cari-lynn-olson",
+        "displayName": "CARI LYNN OLSON",
+        "party": "NP",
+        "isIncumbent": false,
+        "isWriteIn": true,
+        "campaignWebsite": null
+      }
+    ]
+  },
+  {
+    "raceSlug": "SD-22",
+    "raceDisplayName": "Senate District 22",
+    "slug": "cari-lynn-olson",
+    "displayName": "CARI LYNN OLSON",
+    "party": "NP",
+    "status": "active",
+    "isIncumbent": false,
+    "isWriteIn": true,
+    "campaignWebsite": null,
+    "opponents": [
+      {
+        "slug": "daniel-zolnikov",
+        "displayName": "DANIEL ZOLNIKOV",
+        "party": "R",
+        "isIncumbent": true,
+        "isWriteIn": false,
+        "campaignWebsite": "https://danielzolnikov.com"
+      },
+      {
+        "slug": "elijah-tidswell",
+        "displayName": "ELIJAH TIDSWELL",
+        "party": "NP",
+        "isIncumbent": false,
+        "isWriteIn": true,
+        "campaignWebsite": null
+      },
+      {
+        "slug": "cari-lynn-olson",
+        "displayName": "CARI LYNN OLSON",
+        "party": "NP",
+        "isIncumbent": false,
+        "isWriteIn": true,
+        "campaignWebsite": null
       }
     ]
   },
@@ -598,6 +809,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://emmaformontana.org",
     "opponents": [
       {
@@ -605,6 +817,7 @@
         "displayName": "JOANNA OBLANDER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -612,6 +825,7 @@
         "displayName": "EMMA KERR-CARPENTER",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://emmaformontana.org"
       }
     ]
@@ -624,6 +838,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -631,6 +846,7 @@
         "displayName": "JOANNA OBLANDER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -638,6 +854,7 @@
         "displayName": "EMMA KERR-CARPENTER",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://emmaformontana.org"
       }
     ]
@@ -650,6 +867,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://hipplerformontana.com",
     "opponents": [
       {
@@ -657,6 +875,7 @@
         "displayName": "DENNIS LENZ",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -664,6 +883,7 @@
         "displayName": "JULIE HIPPLER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://hipplerformontana.com"
       }
     ]
@@ -676,6 +896,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -683,6 +904,7 @@
         "displayName": "DENNIS LENZ",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -690,6 +912,7 @@
         "displayName": "JULIE HIPPLER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://hipplerformontana.com"
       }
     ]
@@ -702,6 +925,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://kellyhaleformontana.com",
     "opponents": [
       {
@@ -709,6 +933,7 @@
         "displayName": "FORREST J MANDEVILLE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.facebook.com/mandevilleformontana"
       },
       {
@@ -716,6 +941,7 @@
         "displayName": "KELLY HALE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kellyhaleformontana.com"
       }
     ]
@@ -728,6 +954,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.facebook.com/mandevilleformontana",
     "opponents": [
       {
@@ -735,6 +962,7 @@
         "displayName": "FORREST J MANDEVILLE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.facebook.com/mandevilleformontana"
       },
       {
@@ -742,6 +970,7 @@
         "displayName": "KELLY HALE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kellyhaleformontana.com"
       }
     ]
@@ -754,6 +983,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://jgundersonmt.com",
     "opponents": [
       {
@@ -761,6 +991,7 @@
         "displayName": "JASON GUNDERSON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://jgundersonmt.com"
       },
       {
@@ -768,6 +999,7 @@
         "displayName": "SCOTT ROSENZWEIG",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://rosenzweigformontana.com"
       }
     ]
@@ -780,6 +1012,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://rosenzweigformontana.com",
     "opponents": [
       {
@@ -787,6 +1020,7 @@
         "displayName": "JASON GUNDERSON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://jgundersonmt.com"
       },
       {
@@ -794,6 +1028,7 @@
         "displayName": "SCOTT ROSENZWEIG",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://rosenzweigformontana.com"
       }
     ]
@@ -806,6 +1041,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://richardformontana.com",
     "opponents": [
       {
@@ -813,6 +1049,7 @@
         "displayName": "RICHARD AUNGIER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://richardformontana.com"
       },
       {
@@ -820,6 +1057,7 @@
         "displayName": "KATHLEEN WILLIAMS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kathleenformontana.com"
       }
     ]
@@ -832,6 +1070,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://kathleenformontana.com",
     "opponents": [
       {
@@ -839,6 +1078,7 @@
         "displayName": "RICHARD AUNGIER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://richardformontana.com"
       },
       {
@@ -846,6 +1086,7 @@
         "displayName": "KATHLEEN WILLIAMS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kathleenformontana.com"
       }
     ]
@@ -858,6 +1099,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://ganserforthegallatin.com",
     "opponents": [
       {
@@ -865,6 +1107,7 @@
         "displayName": "NEAL GANSER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://ganserforthegallatin.com"
       },
       {
@@ -872,6 +1115,7 @@
         "displayName": "KELLY KORTUM",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kellyformt.com"
       }
     ]
@@ -884,6 +1128,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://kellyformt.com",
     "opponents": [
       {
@@ -891,6 +1136,7 @@
         "displayName": "NEAL GANSER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://ganserforthegallatin.com"
       },
       {
@@ -898,6 +1144,7 @@
         "displayName": "KELLY KORTUM",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kellyformt.com"
       }
     ]
@@ -910,6 +1157,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -917,6 +1165,7 @@
         "displayName": "CALEB HINKLE",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -924,6 +1173,7 @@
         "displayName": "CARL ANDERSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -936,6 +1186,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -943,6 +1194,7 @@
         "displayName": "CALEB HINKLE",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -950,6 +1202,7 @@
         "displayName": "CARL ANDERSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -962,6 +1215,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.erin4montana.com",
     "opponents": [
       {
@@ -969,6 +1223,7 @@
         "displayName": "ERIN FARRIS-OLSEN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.erin4montana.com"
       },
       {
@@ -976,6 +1231,7 @@
         "displayName": "DRU KOESTER",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -988,6 +1244,7 @@
     "party": "L",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -995,6 +1252,7 @@
         "displayName": "ERIN FARRIS-OLSEN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.erin4montana.com"
       },
       {
@@ -1002,6 +1260,7 @@
         "displayName": "DRU KOESTER",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1014,6 +1273,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://maryanndunwell.com",
     "opponents": [
       {
@@ -1021,6 +1281,7 @@
         "displayName": "STEPHEN LAPRAIM",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://lapraim4mt.com"
       },
       {
@@ -1028,6 +1289,7 @@
         "displayName": "MARY ANN DUNWELL",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://maryanndunwell.com"
       }
     ]
@@ -1040,6 +1302,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://lapraim4mt.com",
     "opponents": [
       {
@@ -1047,6 +1310,7 @@
         "displayName": "STEPHEN LAPRAIM",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://lapraim4mt.com"
       },
       {
@@ -1054,6 +1318,7 @@
         "displayName": "MARY ANN DUNWELL",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://maryanndunwell.com"
       }
     ]
@@ -1066,6 +1331,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://davidbedey.com",
     "opponents": [
       {
@@ -1073,6 +1339,7 @@
         "displayName": "DAVID BEDEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://davidbedey.com"
       },
       {
@@ -1080,6 +1347,7 @@
         "displayName": "STEPHEN LEUCHTMAN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1092,6 +1360,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1099,6 +1368,7 @@
         "displayName": "DAVID BEDEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://davidbedey.com"
       },
       {
@@ -1106,6 +1376,7 @@
         "displayName": "STEPHEN LEUCHTMAN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1118,14 +1389,16 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
-    "campaignWebsite": "https://www.andreaolsenmt.com",
+    "isWriteIn": false,
+    "campaignWebsite": null,
     "opponents": [
       {
         "slug": "andrea-olsen",
         "displayName": "ANDREA OLSEN",
         "party": "D",
         "isIncumbent": true,
-        "campaignWebsite": "https://www.andreaolsenmt.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       }
     ]
   },
@@ -1137,6 +1410,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1144,6 +1418,7 @@
         "displayName": "BRAD TSCHIDA",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1151,6 +1426,7 @@
         "displayName": "WILLIS CURDY",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1163,6 +1439,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1170,6 +1447,7 @@
         "displayName": "BRAD TSCHIDA",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1177,6 +1455,7 @@
         "displayName": "WILLIS CURDY",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1189,6 +1468,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1196,33 +1476,8 @@
         "displayName": "SHANE A MORIGEAU",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-1",
-    "raceDisplayName": "House District 1",
-    "slug": "dakota-v-adams",
-    "displayName": "DAKOTA V ADAMS",
-    "party": "D",
-    "status": "active",
-    "isIncumbent": false,
-    "campaignWebsite": "https://adamsforlegislature.com",
-    "opponents": [
-      {
-        "slug": "michelle-bianco",
-        "displayName": "MICHELLE BIANCO",
-        "party": "R",
-        "isIncumbent": false,
-        "campaignWebsite": "https://bianco4mt2026.com"
-      },
-      {
-        "slug": "dakota-v-adams",
-        "displayName": "DAKOTA V ADAMS",
-        "party": "D",
-        "isIncumbent": false,
-        "campaignWebsite": "https://adamsforlegislature.com"
       }
     ]
   },
@@ -1234,6 +1489,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://bianco4mt2026.com",
     "opponents": [
       {
@@ -1241,6 +1497,7 @@
         "displayName": "MICHELLE BIANCO",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://bianco4mt2026.com"
       },
       {
@@ -1248,6 +1505,36 @@
         "displayName": "DAKOTA V ADAMS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": "https://adamsforlegislature.com"
+      }
+    ]
+  },
+  {
+    "raceSlug": "HD-1",
+    "raceDisplayName": "House District 1",
+    "slug": "dakota-v-adams",
+    "displayName": "DAKOTA V ADAMS",
+    "party": "D",
+    "status": "active",
+    "isIncumbent": false,
+    "isWriteIn": false,
+    "campaignWebsite": "https://adamsforlegislature.com",
+    "opponents": [
+      {
+        "slug": "michelle-bianco",
+        "displayName": "MICHELLE BIANCO",
+        "party": "R",
+        "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": "https://bianco4mt2026.com"
+      },
+      {
+        "slug": "dakota-v-adams",
+        "displayName": "DAKOTA V ADAMS",
+        "party": "D",
+        "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://adamsforlegislature.com"
       }
     ]
@@ -1260,6 +1547,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1267,6 +1555,7 @@
         "displayName": "TOM MILLETT",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://millett4montana.com"
       },
       {
@@ -1274,6 +1563,7 @@
         "displayName": "JANE MAAHS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1286,6 +1576,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://millett4montana.com",
     "opponents": [
       {
@@ -1293,6 +1584,7 @@
         "displayName": "TOM MILLETT",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://millett4montana.com"
       },
       {
@@ -1300,6 +1592,7 @@
         "displayName": "JANE MAAHS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1312,6 +1605,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.peacheyformontana.com",
     "opponents": [
       {
@@ -1319,6 +1613,7 @@
         "displayName": "DEREK PEACHEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.peacheyformontana.com"
       },
       {
@@ -1326,6 +1621,7 @@
         "displayName": "DEBO POWERS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.powersforthepeople.us"
       }
     ]
@@ -1338,6 +1634,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.powersforthepeople.us",
     "opponents": [
       {
@@ -1345,6 +1642,7 @@
         "displayName": "DEREK PEACHEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.peacheyformontana.com"
       },
       {
@@ -1352,6 +1650,7 @@
         "displayName": "DEBO POWERS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.powersforthepeople.us"
       }
     ]
@@ -1364,6 +1663,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://kochbestformontanahd4.org",
     "opponents": [
       {
@@ -1371,6 +1671,7 @@
         "displayName": "SHAUN PANDINA",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://pandinaformontana.com"
       },
       {
@@ -1378,6 +1679,7 @@
         "displayName": "PAULA KOCH",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kochbestformontanahd4.org"
       }
     ]
@@ -1390,6 +1692,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://pandinaformontana.com",
     "opponents": [
       {
@@ -1397,6 +1700,7 @@
         "displayName": "SHAUN PANDINA",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://pandinaformontana.com"
       },
       {
@@ -1404,6 +1708,7 @@
         "displayName": "PAULA KOCH",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kochbestformontanahd4.org"
       }
     ]
@@ -1416,6 +1721,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1423,6 +1729,7 @@
         "displayName": "BRAXTON MITCHELL",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1430,6 +1737,7 @@
         "displayName": "LUCA WELLE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://lucaformontana.com"
       }
     ]
@@ -1442,6 +1750,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://lucaformontana.com",
     "opponents": [
       {
@@ -1449,6 +1758,7 @@
         "displayName": "BRAXTON MITCHELL",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1456,6 +1766,7 @@
         "displayName": "LUCA WELLE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://lucaformontana.com"
       }
     ]
@@ -1468,6 +1779,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.fix4hd6.com",
     "opponents": [
       {
@@ -1475,6 +1787,7 @@
         "displayName": "JIM RILEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.jimrileyforhd6.com"
       },
       {
@@ -1482,6 +1795,7 @@
         "displayName": "DARREN FIX",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.fix4hd6.com"
       }
     ]
@@ -1494,6 +1808,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.jimrileyforhd6.com",
     "opponents": [
       {
@@ -1501,6 +1816,7 @@
         "displayName": "JIM RILEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.jimrileyforhd6.com"
       },
       {
@@ -1508,6 +1824,7 @@
         "displayName": "DARREN FIX",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.fix4hd6.com"
       }
     ]
@@ -1520,6 +1837,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://madisonformontana.com",
     "opponents": [
       {
@@ -1527,6 +1845,7 @@
         "displayName": "COURTENAY SPRUNGER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://courtenaysprunger.com"
       },
       {
@@ -1534,6 +1853,7 @@
         "displayName": "MADISON EVANS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://madisonformontana.com"
       }
     ]
@@ -1546,6 +1866,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://courtenaysprunger.com",
     "opponents": [
       {
@@ -1553,6 +1874,7 @@
         "displayName": "COURTENAY SPRUNGER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://courtenaysprunger.com"
       },
       {
@@ -1560,6 +1882,7 @@
         "displayName": "MADISON EVANS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://madisonformontana.com"
       }
     ]
@@ -1572,6 +1895,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1579,6 +1903,7 @@
         "displayName": "LUKAS SCHUBERT",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://lukasschubertmt.com"
       },
       {
@@ -1586,6 +1911,7 @@
         "displayName": "CALVIN LIME",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1598,6 +1924,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://lukasschubertmt.com",
     "opponents": [
       {
@@ -1605,6 +1932,7 @@
         "displayName": "LUKAS SCHUBERT",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://lukasschubertmt.com"
       },
       {
@@ -1612,6 +1940,7 @@
         "displayName": "CALVIN LIME",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1624,6 +1953,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.kellyforhd9.com",
     "opponents": [
       {
@@ -1631,6 +1961,7 @@
         "displayName": "STEVEN C KELLY",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.kellyforhd9.com"
       },
       {
@@ -1638,6 +1969,7 @@
         "displayName": "KATE MCLAUGHLIN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://mclaughlinformontana.com/"
       }
     ]
@@ -1650,6 +1982,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://mclaughlinformontana.com/",
     "opponents": [
       {
@@ -1657,6 +1990,7 @@
         "displayName": "STEVEN C KELLY",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.kellyforhd9.com"
       },
       {
@@ -1664,6 +1998,7 @@
         "displayName": "KATE MCLAUGHLIN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://mclaughlinformontana.com/"
       }
     ]
@@ -1676,6 +2011,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.catherineallenformontana.com",
     "opponents": [
       {
@@ -1683,6 +2019,7 @@
         "displayName": "TERRY FALK",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1690,6 +2027,7 @@
         "displayName": "CATHERINE C ALLEN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.catherineallenformontana.com"
       }
     ]
@@ -1702,6 +2040,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1709,6 +2048,7 @@
         "displayName": "TERRY FALK",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1716,6 +2056,7 @@
         "displayName": "CATHERINE C ALLEN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.catherineallenformontana.com"
       }
     ]
@@ -1728,6 +2069,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1735,6 +2077,7 @@
         "displayName": "ED BYRNE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1742,6 +2085,7 @@
         "displayName": "MAEVE KINTZLER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1754,6 +2098,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1761,6 +2106,7 @@
         "displayName": "ED BYRNE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1768,6 +2114,7 @@
         "displayName": "MAEVE KINTZLER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1780,6 +2127,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1787,6 +2135,7 @@
         "displayName": "TRACY A SHARP",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://tracysharpmt12.com/"
       },
       {
@@ -1794,6 +2143,7 @@
         "displayName": "CINDY L BRUCKNER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1806,6 +2156,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://tracysharpmt12.com/",
     "opponents": [
       {
@@ -1813,6 +2164,7 @@
         "displayName": "TRACY A SHARP",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://tracysharpmt12.com/"
       },
       {
@@ -1820,6 +2172,7 @@
         "displayName": "CINDY L BRUCKNER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1832,6 +2185,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1839,6 +2193,7 @@
         "displayName": "FINLEY WARDEN",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://finleyformontana.com"
       },
       {
@@ -1846,6 +2201,7 @@
         "displayName": "DALTON BRADFORD",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1858,6 +2214,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://finleyformontana.com",
     "opponents": [
       {
@@ -1865,6 +2222,7 @@
         "displayName": "FINLEY WARDEN",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://finleyformontana.com"
       },
       {
@@ -1872,6 +2230,7 @@
         "displayName": "DALTON BRADFORD",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1884,6 +2243,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1891,6 +2251,7 @@
         "displayName": "PAUL FIELDER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1898,6 +2259,7 @@
         "displayName": "COLLEEN HINDS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1910,6 +2272,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1917,6 +2280,7 @@
         "displayName": "PAUL FIELDER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1924,6 +2288,7 @@
         "displayName": "COLLEEN HINDS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1936,6 +2301,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1943,6 +2309,7 @@
         "displayName": "RALPH FOSTER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1950,6 +2317,7 @@
         "displayName": "THEDIS B CROWE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1962,6 +2330,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1969,6 +2338,7 @@
         "displayName": "RALPH FOSTER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -1976,6 +2346,7 @@
         "displayName": "THEDIS B CROWE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -1988,6 +2359,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -1995,6 +2367,7 @@
         "displayName": "LONA R RUNNING WOLF",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2007,6 +2380,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2014,6 +2388,7 @@
         "displayName": "JUSTIN W CLEVELAND",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2021,6 +2396,7 @@
         "displayName": "CHRIS BECHTOLD",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2033,6 +2409,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2040,6 +2417,7 @@
         "displayName": "JUSTIN W CLEVELAND",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2047,6 +2425,7 @@
         "displayName": "CHRIS BECHTOLD",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2059,6 +2438,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2066,6 +2446,7 @@
         "displayName": "BRUCE \"BUTCH\" GILLESPIE",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2078,6 +2459,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2085,6 +2467,7 @@
         "displayName": "HANNAH TREBAS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2092,6 +2475,7 @@
         "displayName": "JANE WEBER",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://weberforhd19.com"
       }
     ]
@@ -2104,6 +2488,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://weberforhd19.com",
     "opponents": [
       {
@@ -2111,6 +2496,7 @@
         "displayName": "HANNAH TREBAS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2118,6 +2504,7 @@
         "displayName": "JANE WEBER",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://weberforhd19.com"
       }
     ]
@@ -2130,6 +2517,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2137,6 +2525,7 @@
         "displayName": "MELISSA NIKOLAKAKOS",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.melissaforus.com"
       },
       {
@@ -2144,6 +2533,7 @@
         "displayName": "STEVE KELLER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2156,6 +2546,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.melissaforus.com",
     "opponents": [
       {
@@ -2163,6 +2554,7 @@
         "displayName": "MELISSA NIKOLAKAKOS",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.melissaforus.com"
       },
       {
@@ -2170,6 +2562,7 @@
         "displayName": "STEVE KELLER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2182,6 +2575,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://funsethformontana.com",
     "opponents": [
       {
@@ -2189,6 +2583,7 @@
         "displayName": "TREVOR P FUNSETH",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://funsethformontana.com"
       },
       {
@@ -2196,6 +2591,7 @@
         "displayName": "LELA GRAHAM",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://lelagraham.com"
       }
     ]
@@ -2208,6 +2604,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://lelagraham.com",
     "opponents": [
       {
@@ -2215,6 +2612,7 @@
         "displayName": "TREVOR P FUNSETH",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://funsethformontana.com"
       },
       {
@@ -2222,6 +2620,7 @@
         "displayName": "LELA GRAHAM",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://lelagraham.com"
       }
     ]
@@ -2234,6 +2633,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2241,6 +2641,7 @@
         "displayName": "JASON LORANG",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2248,13 +2649,7 @@
         "displayName": "NEAL MILLER",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "dave-von-eschen",
-        "displayName": "DAVE VON ESCHEN",
-        "party": "L",
-        "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2267,6 +2662,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2274,6 +2670,7 @@
         "displayName": "JASON LORANG",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2281,46 +2678,7 @@
         "displayName": "NEAL MILLER",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "dave-von-eschen",
-        "displayName": "DAVE VON ESCHEN",
-        "party": "L",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-22",
-    "raceDisplayName": "House District 22",
-    "slug": "dave-von-eschen",
-    "displayName": "DAVE VON ESCHEN",
-    "party": "L",
-    "status": "active",
-    "isIncumbent": false,
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "jason-lorang",
-        "displayName": "JASON LORANG",
-        "party": "R",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "neal-miller",
-        "displayName": "NEAL MILLER",
-        "party": "D",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      },
-      {
-        "slug": "dave-von-eschen",
-        "displayName": "DAVE VON ESCHEN",
-        "party": "L",
-        "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2333,6 +2691,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2340,6 +2699,7 @@
         "displayName": "ERIC TILLEMAN",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.tillemanforhd23.com/"
       },
       {
@@ -2347,6 +2707,7 @@
         "displayName": "REBECCA BOGDEN-RICHARDS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2359,6 +2720,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.tillemanforhd23.com/",
     "opponents": [
       {
@@ -2366,6 +2728,7 @@
         "displayName": "ERIC TILLEMAN",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.tillemanforhd23.com/"
       },
       {
@@ -2373,6 +2736,7 @@
         "displayName": "REBECCA BOGDEN-RICHARDS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2385,6 +2749,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://pamelacarroll.com",
     "opponents": [
       {
@@ -2392,6 +2757,7 @@
         "displayName": "STEVE FITZPATRICK",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://fitzpatrickformt.com"
       },
       {
@@ -2399,6 +2765,7 @@
         "displayName": "PAM CARROLL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://pamelacarroll.com"
       }
     ]
@@ -2411,6 +2778,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://fitzpatrickformt.com",
     "opponents": [
       {
@@ -2418,6 +2786,7 @@
         "displayName": "STEVE FITZPATRICK",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://fitzpatrickformt.com"
       },
       {
@@ -2425,6 +2794,7 @@
         "displayName": "PAM CARROLL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://pamelacarroll.com"
       }
     ]
@@ -2437,6 +2807,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2444,6 +2815,7 @@
         "displayName": "STEVE GIST",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://stevegistformontana.com"
       },
       {
@@ -2451,6 +2823,7 @@
         "displayName": "JERRY FERDERER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2463,6 +2836,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://stevegistformontana.com",
     "opponents": [
       {
@@ -2470,6 +2844,7 @@
         "displayName": "STEVE GIST",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://stevegistformontana.com"
       },
       {
@@ -2477,6 +2852,7 @@
         "displayName": "JERRY FERDERER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2489,6 +2865,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2496,6 +2873,7 @@
         "displayName": "RUSSEL MINER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2503,6 +2881,7 @@
         "displayName": "PAUL JEFFERSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2515,6 +2894,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2522,6 +2902,7 @@
         "displayName": "RUSSEL MINER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2529,6 +2910,7 @@
         "displayName": "PAUL JEFFERSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2541,6 +2923,7 @@
     "party": "L",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2548,6 +2931,7 @@
         "displayName": "PAUL TUSS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://paultuss.com"
       },
       {
@@ -2555,6 +2939,7 @@
         "displayName": "JORDAN OPHUS",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2567,6 +2952,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://paultuss.com",
     "opponents": [
       {
@@ -2574,6 +2960,7 @@
         "displayName": "PAUL TUSS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://paultuss.com"
       },
       {
@@ -2581,6 +2968,7 @@
         "displayName": "JORDAN OPHUS",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2593,6 +2981,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2600,6 +2989,7 @@
         "displayName": "CHISHOLM B CHRISTENSEN",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2612,6 +3002,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2619,6 +3010,7 @@
         "displayName": "VALERIE MOORE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2626,6 +3018,7 @@
         "displayName": "TESS FAHLGREN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2638,6 +3031,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2645,6 +3039,7 @@
         "displayName": "VALERIE MOORE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2652,6 +3047,7 @@
         "displayName": "TESS FAHLGREN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2664,6 +3060,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2671,6 +3068,7 @@
         "displayName": "MORGAN THIEL",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2678,6 +3076,7 @@
         "displayName": "JASON BOESHORE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2690,6 +3089,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2697,6 +3097,7 @@
         "displayName": "MORGAN THIEL",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2704,6 +3105,7 @@
         "displayName": "JASON BOESHORE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2716,6 +3118,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.natalie4montana.com",
     "opponents": [
       {
@@ -2723,6 +3126,7 @@
         "displayName": "NATALIE ONEAL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.natalie4montana.com"
       }
     ]
@@ -2735,6 +3139,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2742,6 +3147,7 @@
         "displayName": "MIKE FOX",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2754,6 +3160,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2761,6 +3168,7 @@
         "displayName": "BRANDON LER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2768,6 +3176,7 @@
         "displayName": "TRISTAN VEVERKA",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2780,6 +3189,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2787,6 +3197,7 @@
         "displayName": "BRANDON LER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2794,6 +3205,7 @@
         "displayName": "TRISTAN VEVERKA",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2806,6 +3218,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2813,6 +3226,7 @@
         "displayName": "JERRY SCHILLINGER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2820,6 +3234,7 @@
         "displayName": "JASMINE ERICKSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2832,6 +3247,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2839,6 +3255,7 @@
         "displayName": "JERRY SCHILLINGER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2846,6 +3263,7 @@
         "displayName": "JASMINE ERICKSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2858,6 +3276,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2865,6 +3284,7 @@
         "displayName": "GARY PARRY",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2872,6 +3292,7 @@
         "displayName": "NATALIE PARKER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2884,6 +3305,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2891,6 +3313,7 @@
         "displayName": "GARY PARRY",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2898,6 +3321,7 @@
         "displayName": "NATALIE PARKER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2910,6 +3334,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2917,6 +3342,7 @@
         "displayName": "TY LINGER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2924,6 +3350,7 @@
         "displayName": "BENJAMIN KEYES",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2936,6 +3363,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -2943,6 +3371,7 @@
         "displayName": "TY LINGER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -2950,6 +3379,7 @@
         "displayName": "BENJAMIN KEYES",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -2962,13 +3392,15 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": "https://www.yourvoicehd37.com",
+    "isWriteIn": false,
+    "campaignWebsite": null,
     "opponents": [
       {
         "slug": "shane-klakken",
         "displayName": "SHANE KLAKKEN",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://shaneklakken.com"
       },
       {
@@ -2976,7 +3408,8 @@
         "displayName": "TRACEY MILLER KARCHER",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": "https://www.yourvoicehd37.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       }
     ]
   },
@@ -2988,6 +3421,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://shaneklakken.com",
     "opponents": [
       {
@@ -2995,6 +3429,7 @@
         "displayName": "SHANE KLAKKEN",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://shaneklakken.com"
       },
       {
@@ -3002,7 +3437,8 @@
         "displayName": "TRACEY MILLER KARCHER",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": "https://www.yourvoicehd37.com"
+        "isWriteIn": false,
+        "campaignWebsite": null
       }
     ]
   },
@@ -3014,6 +3450,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://gregoblander4montana.com",
     "opponents": [
       {
@@ -3021,6 +3458,7 @@
         "displayName": "GREG OBLANDER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://gregoblander4montana.com"
       }
     ]
@@ -3033,6 +3471,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://kerriseekinscrowe.com",
     "opponents": [
       {
@@ -3040,6 +3479,7 @@
         "displayName": "KERRI SEEKINS CROWE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://kerriseekinscrowe.com"
       },
       {
@@ -3047,6 +3487,7 @@
         "displayName": "MELISSA SMITH",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://smithformontana.com"
       }
     ]
@@ -3059,6 +3500,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://smithformontana.com",
     "opponents": [
       {
@@ -3066,6 +3508,7 @@
         "displayName": "KERRI SEEKINS CROWE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://kerriseekinscrowe.com"
       },
       {
@@ -3073,6 +3516,7 @@
         "displayName": "MELISSA SMITH",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://smithformontana.com"
       }
     ]
@@ -3080,11 +3524,12 @@
   {
     "raceSlug": "HD-40",
     "raceDisplayName": "House District 40",
-    "slug": "gabriel--bradshaw",
-    "displayName": "GABRIEL  BRADSHAW",
+    "slug": "gabriel-bradshaw",
+    "displayName": "GABRIEL BRADSHAW",
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3092,13 +3537,15 @@
         "displayName": "MIKE VINTON",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://vintonformontana.com"
       },
       {
-        "slug": "gabriel--bradshaw",
-        "displayName": "GABRIEL  BRADSHAW",
+        "slug": "gabriel-bradshaw",
+        "displayName": "GABRIEL BRADSHAW",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3111,6 +3558,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://vintonformontana.com",
     "opponents": [
       {
@@ -3118,13 +3566,15 @@
         "displayName": "MIKE VINTON",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://vintonformontana.com"
       },
       {
-        "slug": "gabriel--bradshaw",
-        "displayName": "GABRIEL  BRADSHAW",
+        "slug": "gabriel-bradshaw",
+        "displayName": "GABRIEL BRADSHAW",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3137,6 +3587,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3144,6 +3595,36 @@
         "displayName": "JADE SOOKTIS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
+        "campaignWebsite": null
+      }
+    ]
+  },
+  {
+    "raceSlug": "HD-42",
+    "raceDisplayName": "House District 42",
+    "slug": "sidney-chip-fitzpatrick",
+    "displayName": "SIDNEY CHIP FITZPATRICK",
+    "party": "D",
+    "status": "active",
+    "isIncumbent": true,
+    "isWriteIn": false,
+    "campaignWebsite": null,
+    "opponents": [
+      {
+        "slug": "jeremiah-jabs",
+        "displayName": "JEREMIAH JABS",
+        "party": "R",
+        "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": "https://jabsformt.com"
+      },
+      {
+        "slug": "sidney-chip-fitzpatrick",
+        "displayName": "SIDNEY CHIP FITZPATRICK",
+        "party": "D",
+        "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3156,6 +3637,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://jabsformt.com",
     "opponents": [
       {
@@ -3163,7 +3645,16 @@
         "displayName": "JEREMIAH JABS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://jabsformt.com"
+      },
+      {
+        "slug": "sidney-chip-fitzpatrick",
+        "displayName": "SIDNEY CHIP FITZPATRICK",
+        "party": "D",
+        "isIncumbent": true,
+        "isWriteIn": false,
+        "campaignWebsite": null
       }
     ]
   },
@@ -3175,6 +3666,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3182,6 +3674,7 @@
         "displayName": "LARRY BREWSTER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3189,6 +3682,7 @@
         "displayName": "RUDOLF HADEN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3201,6 +3695,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3208,6 +3703,7 @@
         "displayName": "LARRY BREWSTER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3215,6 +3711,7 @@
         "displayName": "RUDOLF HADEN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3227,6 +3724,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3234,6 +3732,7 @@
         "displayName": "KATIE ZOLNIKOV",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://katiezolnikov.com"
       },
       {
@@ -3241,6 +3740,7 @@
         "displayName": "MIKE EATON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3253,6 +3753,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://katiezolnikov.com",
     "opponents": [
       {
@@ -3260,6 +3761,7 @@
         "displayName": "KATIE ZOLNIKOV",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://katiezolnikov.com"
       },
       {
@@ -3267,6 +3769,7 @@
         "displayName": "MIKE EATON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3279,6 +3782,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://baumformontana.com/",
     "opponents": [
       {
@@ -3286,6 +3790,7 @@
         "displayName": "BRYCE WALSTON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3293,6 +3798,7 @@
         "displayName": "DENISE BAUM",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://baumformontana.com/"
       }
     ]
@@ -3305,6 +3811,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3312,6 +3819,7 @@
         "displayName": "BRYCE WALSTON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3319,6 +3827,7 @@
         "displayName": "DENISE BAUM",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://baumformontana.com/"
       }
     ]
@@ -3331,6 +3840,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3338,6 +3848,7 @@
         "displayName": "KIM WELZENBACH",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kimformontana.org"
       },
       {
@@ -3345,6 +3856,7 @@
         "displayName": "DENISE JOY",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3357,6 +3869,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://kimformontana.org",
     "opponents": [
       {
@@ -3364,6 +3877,7 @@
         "displayName": "KIM WELZENBACH",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kimformontana.org"
       },
       {
@@ -3371,6 +3885,7 @@
         "displayName": "DENISE JOY",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3383,6 +3898,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.maxwellforhouse.com/",
     "opponents": [
       {
@@ -3390,6 +3906,7 @@
         "displayName": "JOHN MAXWELL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.maxwellforhouse.com/"
       },
       {
@@ -3397,6 +3914,7 @@
         "displayName": "JAMES REAVIS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.reavisformontana.com/"
       }
     ]
@@ -3409,6 +3927,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.reavisformontana.com/",
     "opponents": [
       {
@@ -3416,6 +3935,7 @@
         "displayName": "JOHN MAXWELL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.maxwellforhouse.com/"
       },
       {
@@ -3423,6 +3943,7 @@
         "displayName": "JAMES REAVIS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.reavisformontana.com/"
       }
     ]
@@ -3435,6 +3956,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3442,6 +3964,7 @@
         "displayName": "CURTIS SCHOMER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3449,6 +3972,7 @@
         "displayName": "TUCKER COLVIN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3461,6 +3985,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3468,6 +3993,7 @@
         "displayName": "CURTIS SCHOMER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3475,6 +4001,7 @@
         "displayName": "TUCKER COLVIN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3487,6 +4014,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://loveridgeformontana.com",
     "opponents": [
       {
@@ -3494,6 +4022,7 @@
         "displayName": "CHARLIE LOVERIDGE",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://loveridgeformontana.com"
       },
       {
@@ -3501,6 +4030,7 @@
         "displayName": "REBECCA NOELL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3513,6 +4043,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3520,6 +4051,7 @@
         "displayName": "CHARLIE LOVERIDGE",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://loveridgeformontana.com"
       },
       {
@@ -3527,6 +4059,7 @@
         "displayName": "REBECCA NOELL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3539,6 +4072,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3546,6 +4080,7 @@
         "displayName": "STEWART HARRIS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3553,6 +4088,7 @@
         "displayName": "MARK PETERS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3565,6 +4101,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3572,6 +4109,7 @@
         "displayName": "STEWART HARRIS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3579,6 +4117,7 @@
         "displayName": "MARK PETERS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3591,6 +4130,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://jodeeformt.com",
     "opponents": [
       {
@@ -3598,6 +4138,7 @@
         "displayName": "JODEE ETCHART",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jodeeformt.com"
       },
       {
@@ -3605,6 +4146,7 @@
         "displayName": "PRECIOUS MCKENZIE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3617,6 +4159,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3624,6 +4167,7 @@
         "displayName": "JODEE ETCHART",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jodeeformt.com"
       },
       {
@@ -3631,6 +4175,7 @@
         "displayName": "PRECIOUS MCKENZIE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3643,6 +4188,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3650,6 +4196,7 @@
         "displayName": "STACY ZINN",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3657,6 +4204,7 @@
         "displayName": "ELIZABETH HEALD",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3669,6 +4217,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3676,6 +4225,7 @@
         "displayName": "STACY ZINN",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3683,6 +4233,7 @@
         "displayName": "ELIZABETH HEALD",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3695,6 +4246,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3702,6 +4254,7 @@
         "displayName": "TROY CHARBONNEAU",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3709,6 +4262,7 @@
         "displayName": "MATTHEW J HANKINS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3721,6 +4275,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3728,6 +4283,7 @@
         "displayName": "TROY CHARBONNEAU",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3735,6 +4291,7 @@
         "displayName": "MATTHEW J HANKINS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3747,6 +4304,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3754,6 +4312,7 @@
         "displayName": "LEE DEMING",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://leeformontana.org"
       },
       {
@@ -3761,6 +4320,7 @@
         "displayName": "JANINE COOLE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3773,6 +4333,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://leeformontana.org",
     "opponents": [
       {
@@ -3780,6 +4341,7 @@
         "displayName": "LEE DEMING",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://leeformontana.org"
       },
       {
@@ -3787,6 +4349,7 @@
         "displayName": "JANINE COOLE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3799,6 +4362,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://bradbarker.com",
     "opponents": [
       {
@@ -3806,6 +4370,7 @@
         "displayName": "BRAD BARKER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://bradbarker.com"
       },
       {
@@ -3813,6 +4378,7 @@
         "displayName": "RICHARD GESSLING",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://richard-gessling-4-montana.com/"
       }
     ]
@@ -3825,6 +4391,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://richard-gessling-4-montana.com/",
     "opponents": [
       {
@@ -3832,6 +4399,7 @@
         "displayName": "BRAD BARKER",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://bradbarker.com"
       },
       {
@@ -3839,6 +4407,7 @@
         "displayName": "RICHARD GESSLING",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://richard-gessling-4-montana.com/"
       }
     ]
@@ -3851,6 +4420,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3858,6 +4428,7 @@
         "displayName": "FIONA B NAVE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -3870,6 +4441,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://electcrankmt.com",
     "opponents": [
       {
@@ -3877,40 +4449,45 @@
         "displayName": "BOB CRANK",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://electcrankmt.com"
       },
       {
-        "slug": "jordan-viegut",
-        "displayName": "JORDAN VIEGUT",
+        "slug": "becky-edwards",
+        "displayName": "BECKY EDWARDS",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "isWriteIn": false,
+        "campaignWebsite": "https://www.beckyformontana.com"
       }
     ]
   },
   {
     "raceSlug": "HD-57",
     "raceDisplayName": "House District 57",
-    "slug": "jordan-viegut",
-    "displayName": "JORDAN VIEGUT",
+    "slug": "becky-edwards",
+    "displayName": "BECKY EDWARDS",
     "party": "D",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": null,
+    "isWriteIn": false,
+    "campaignWebsite": "https://www.beckyformontana.com",
     "opponents": [
       {
         "slug": "bob-crank",
         "displayName": "BOB CRANK",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://electcrankmt.com"
       },
       {
-        "slug": "jordan-viegut",
-        "displayName": "JORDAN VIEGUT",
+        "slug": "becky-edwards",
+        "displayName": "BECKY EDWARDS",
         "party": "D",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "isWriteIn": false,
+        "campaignWebsite": "https://www.beckyformontana.com"
       }
     ]
   },
@@ -3922,6 +4499,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3929,6 +4507,7 @@
         "displayName": "JOSHUA CONGLETON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3936,6 +4515,7 @@
         "displayName": "JAMIE L ISALY",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jamieisaly.com"
       }
     ]
@@ -3948,6 +4528,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://jamieisaly.com",
     "opponents": [
       {
@@ -3955,6 +4536,7 @@
         "displayName": "JOSHUA CONGLETON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -3962,6 +4544,7 @@
         "displayName": "JAMIE L ISALY",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jamieisaly.com"
       }
     ]
@@ -3974,6 +4557,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -3981,6 +4565,7 @@
         "displayName": "MARC GREENDORFER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.marc4hd59.com"
       },
       {
@@ -3988,6 +4573,7 @@
         "displayName": "KATIE FIRE THUNDER",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4000,6 +4586,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.marc4hd59.com",
     "opponents": [
       {
@@ -4007,6 +4594,7 @@
         "displayName": "MARC GREENDORFER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.marc4hd59.com"
       },
       {
@@ -4014,6 +4602,7 @@
         "displayName": "KATIE FIRE THUNDER",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4026,6 +4615,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://griffithformt.com",
     "opponents": [
       {
@@ -4033,6 +4623,7 @@
         "displayName": "GREG LEMAN",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://leman4mt.org"
       },
       {
@@ -4040,6 +4631,7 @@
         "displayName": "ALANAH GRIFFITH",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://griffithformt.com"
       }
     ]
@@ -4052,6 +4644,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://leman4mt.org",
     "opponents": [
       {
@@ -4059,6 +4652,7 @@
         "displayName": "GREG LEMAN",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://leman4mt.org"
       },
       {
@@ -4066,6 +4660,7 @@
         "displayName": "ALANAH GRIFFITH",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://griffithformt.com"
       }
     ]
@@ -4078,6 +4673,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4085,6 +4681,7 @@
         "displayName": "ERIC JACOBS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4092,6 +4689,7 @@
         "displayName": "RIO ROLAND",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.rioformt.com"
       }
     ]
@@ -4104,6 +4702,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.rioformt.com",
     "opponents": [
       {
@@ -4111,6 +4710,7 @@
         "displayName": "ERIC JACOBS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4118,6 +4718,7 @@
         "displayName": "RIO ROLAND",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.rioformt.com"
       }
     ]
@@ -4130,6 +4731,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://estherformontana.com",
     "opponents": [
       {
@@ -4137,6 +4739,7 @@
         "displayName": "ESTHER FISHBAUGH",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://estherformontana.com"
       },
       {
@@ -4144,6 +4747,7 @@
         "displayName": "JOSHUA A SECKINGER",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://seck4mt.com"
       }
     ]
@@ -4156,6 +4760,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://seck4mt.com",
     "opponents": [
       {
@@ -4163,6 +4768,7 @@
         "displayName": "ESTHER FISHBAUGH",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://estherformontana.com"
       },
       {
@@ -4170,6 +4776,7 @@
         "displayName": "JOSHUA A SECKINGER",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://seck4mt.com"
       }
     ]
@@ -4182,6 +4789,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4189,6 +4797,7 @@
         "displayName": "LAWRENCE R MOORE",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4196,6 +4805,7 @@
         "displayName": "PETER STRAND",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://repstrand.com"
       }
     ]
@@ -4208,6 +4818,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://repstrand.com",
     "opponents": [
       {
@@ -4215,6 +4826,7 @@
         "displayName": "LAWRENCE R MOORE",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4222,6 +4834,7 @@
         "displayName": "PETER STRAND",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://repstrand.com"
       }
     ]
@@ -4234,6 +4847,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4241,6 +4855,7 @@
         "displayName": "DANIEL RICARDO MARTINEZ",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://martinezforthepeople.com"
       },
       {
@@ -4248,6 +4863,7 @@
         "displayName": "BRADY BREMER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4260,6 +4876,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://martinezforthepeople.com",
     "opponents": [
       {
@@ -4267,6 +4884,7 @@
         "displayName": "DANIEL RICARDO MARTINEZ",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://martinezforthepeople.com"
       },
       {
@@ -4274,6 +4892,7 @@
         "displayName": "BRADY BREMER",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4286,6 +4905,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://brianclose4montana.net/",
     "opponents": [
       {
@@ -4293,6 +4913,7 @@
         "displayName": "JOE FLYNN",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4300,6 +4921,7 @@
         "displayName": "BRIAN CLOSE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://brianclose4montana.net/"
       }
     ]
@@ -4312,6 +4934,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4319,6 +4942,7 @@
         "displayName": "JOE FLYNN",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4326,6 +4950,7 @@
         "displayName": "BRIAN CLOSE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://brianclose4montana.net/"
       }
     ]
@@ -4338,6 +4963,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4345,6 +4971,7 @@
         "displayName": "OWEN LANG",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4352,6 +4979,7 @@
         "displayName": "ERIC MATTHEWS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://matthewsformt.com"
       }
     ]
@@ -4364,6 +4992,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://matthewsformt.com",
     "opponents": [
       {
@@ -4371,6 +5000,7 @@
         "displayName": "OWEN LANG",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4378,6 +5008,7 @@
         "displayName": "ERIC MATTHEWS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://matthewsformt.com"
       }
     ]
@@ -4390,6 +5021,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4397,6 +5029,7 @@
         "displayName": "JEDEDIAH HINKLE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jedediahhinkle.com"
       },
       {
@@ -4404,6 +5037,7 @@
         "displayName": "LOGAN HENKE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4416,6 +5050,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://jedediahhinkle.com",
     "opponents": [
       {
@@ -4423,6 +5058,7 @@
         "displayName": "JEDEDIAH HINKLE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jedediahhinkle.com"
       },
       {
@@ -4430,6 +5066,7 @@
         "displayName": "LOGAN HENKE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4442,6 +5079,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://randy4mt.com",
     "opponents": [
       {
@@ -4449,6 +5087,7 @@
         "displayName": "RANDY CHAMBERLIN",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://randy4mt.com"
       },
       {
@@ -4456,6 +5095,7 @@
         "displayName": "JOCELYN KENT",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4468,6 +5108,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4475,6 +5116,7 @@
         "displayName": "RANDY CHAMBERLIN",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://randy4mt.com"
       },
       {
@@ -4482,6 +5124,7 @@
         "displayName": "JOCELYN KENT",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4494,6 +5137,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://trevorwalterformontana.com/",
     "opponents": [
       {
@@ -4501,6 +5145,7 @@
         "displayName": "TREVOR WALTER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://trevorwalterformontana.com/"
       }
     ]
@@ -4513,6 +5158,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4520,6 +5166,7 @@
         "displayName": "SHANNON MANESS",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.manessformontana.com"
       },
       {
@@ -4527,6 +5174,7 @@
         "displayName": "KOBI CRADDOCK",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4539,6 +5187,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.manessformontana.com",
     "opponents": [
       {
@@ -4546,6 +5195,7 @@
         "displayName": "SHANNON MANESS",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.manessformontana.com"
       },
       {
@@ -4553,6 +5203,7 @@
         "displayName": "KOBI CRADDOCK",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4565,6 +5216,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4572,6 +5224,7 @@
         "displayName": "SUZZANN NORDWICK",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://nordwick.com"
       },
       {
@@ -4579,6 +5232,7 @@
         "displayName": "SCOTT DEMAROIS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4591,6 +5245,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://nordwick.com",
     "opponents": [
       {
@@ -4598,6 +5253,7 @@
         "displayName": "SUZZANN NORDWICK",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://nordwick.com"
       },
       {
@@ -4605,6 +5261,7 @@
         "displayName": "SCOTT DEMAROIS",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4617,6 +5274,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4624,6 +5282,7 @@
         "displayName": "MICHAEL SAUL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4631,6 +5290,7 @@
         "displayName": "DONAVON HAWK",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4643,6 +5303,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4650,6 +5311,7 @@
         "displayName": "MICHAEL SAUL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4657,6 +5319,7 @@
         "displayName": "DONAVON HAWK",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4669,6 +5332,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4676,6 +5340,7 @@
         "displayName": "GERRY KENNEDY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4683,6 +5348,7 @@
         "displayName": "JENNIFER LYNCH",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4695,6 +5361,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4702,6 +5369,7 @@
         "displayName": "GERRY KENNEDY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4709,6 +5377,7 @@
         "displayName": "JENNIFER LYNCH",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4721,6 +5390,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4728,6 +5398,7 @@
         "displayName": "TRENIN BAYLESS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4735,6 +5406,7 @@
         "displayName": "MARC J LEE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4747,6 +5419,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4754,6 +5427,7 @@
         "displayName": "TRENIN BAYLESS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4761,6 +5435,7 @@
         "displayName": "MARC J LEE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4773,6 +5448,7 @@
     "party": "L",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4780,6 +5456,7 @@
         "displayName": "MARK REINSCHMIDT",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4787,6 +5464,7 @@
         "displayName": "PATRICK SULLIVAN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4794,6 +5472,7 @@
         "displayName": "GREG DEVRIES",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4806,6 +5485,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4813,6 +5493,7 @@
         "displayName": "MARK REINSCHMIDT",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4820,6 +5501,7 @@
         "displayName": "PATRICK SULLIVAN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4827,6 +5509,7 @@
         "displayName": "GREG DEVRIES",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4839,6 +5522,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4846,6 +5530,7 @@
         "displayName": "MARK REINSCHMIDT",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4853,6 +5538,7 @@
         "displayName": "PATRICK SULLIVAN",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -4860,6 +5546,7 @@
         "displayName": "GREG DEVRIES",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4872,6 +5559,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://trishformontana.com",
     "opponents": [
       {
@@ -4879,7 +5567,45 @@
         "displayName": "TRISH SCHREIBER",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://trishformontana.com"
+      },
+      {
+        "slug": "shayne-morgan",
+        "displayName": "SHAYNE MORGAN",
+        "party": "I",
+        "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": "https://www.morganformontana.com"
+      }
+    ]
+  },
+  {
+    "raceSlug": "HD-76",
+    "raceDisplayName": "House District 76",
+    "slug": "shayne-morgan",
+    "displayName": "SHAYNE MORGAN",
+    "party": "I",
+    "status": "active",
+    "isIncumbent": false,
+    "isWriteIn": false,
+    "campaignWebsite": "https://www.morganformontana.com",
+    "opponents": [
+      {
+        "slug": "trish-schreiber",
+        "displayName": "TRISH SCHREIBER",
+        "party": "R",
+        "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": "https://trishformontana.com"
+      },
+      {
+        "slug": "shayne-morgan",
+        "displayName": "SHAYNE MORGAN",
+        "party": "I",
+        "isIncumbent": false,
+        "isWriteIn": false,
+        "campaignWebsite": "https://www.morganformontana.com"
       }
     ]
   },
@@ -4891,6 +5617,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://drjanegillette.com",
     "opponents": [
       {
@@ -4898,40 +5625,8 @@
         "displayName": "JANE GILLETTE",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://drjanegillette.com"
-      },
-      {
-        "slug": "deborah-anne-hansen",
-        "displayName": "DEBORAH ANNE HANSEN",
-        "party": "D",
-        "isIncumbent": false,
-        "campaignWebsite": null
-      }
-    ]
-  },
-  {
-    "raceSlug": "HD-77",
-    "raceDisplayName": "House District 77",
-    "slug": "deborah-anne-hansen",
-    "displayName": "DEBORAH ANNE HANSEN",
-    "party": "D",
-    "status": "active",
-    "isIncumbent": false,
-    "campaignWebsite": null,
-    "opponents": [
-      {
-        "slug": "jane-gillette",
-        "displayName": "JANE GILLETTE",
-        "party": "R",
-        "isIncumbent": true,
-        "campaignWebsite": "https://drjanegillette.com"
-      },
-      {
-        "slug": "deborah-anne-hansen",
-        "displayName": "DEBORAH ANNE HANSEN",
-        "party": "D",
-        "isIncumbent": false,
-        "campaignWebsite": null
       }
     ]
   },
@@ -4943,6 +5638,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://randynformontana.com",
     "opponents": [
       {
@@ -4950,6 +5646,7 @@
         "displayName": "RANDYN GREGG",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://randynformontana.com"
       },
       {
@@ -4957,6 +5654,7 @@
         "displayName": "MARK WHITE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4969,6 +5667,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -4976,6 +5675,7 @@
         "displayName": "RANDYN GREGG",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://randynformontana.com"
       },
       {
@@ -4983,6 +5683,7 @@
         "displayName": "MARK WHITE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -4995,6 +5696,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.lukeformontana.org",
     "opponents": [
       {
@@ -5002,6 +5704,7 @@
         "displayName": "CHIKO OLSON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5009,6 +5712,7 @@
         "displayName": "LUKE MUSZKIEWICZ",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.lukeformontana.org"
       }
     ]
@@ -5021,6 +5725,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5028,6 +5733,7 @@
         "displayName": "CHIKO OLSON",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5035,6 +5741,7 @@
         "displayName": "LUKE MUSZKIEWICZ",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.lukeformontana.org"
       }
     ]
@@ -5047,6 +5754,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://katie4montana.com",
     "opponents": [
       {
@@ -5054,6 +5762,7 @@
         "displayName": "KATIE FRUITS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://katie4montana.com"
       },
       {
@@ -5061,6 +5770,7 @@
         "displayName": "MEGAN LANE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.megan4montana.com"
       }
     ]
@@ -5073,6 +5783,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.megan4montana.com",
     "opponents": [
       {
@@ -5080,6 +5791,7 @@
         "displayName": "KATIE FRUITS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://katie4montana.com"
       },
       {
@@ -5087,6 +5799,7 @@
         "displayName": "MEGAN LANE",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.megan4montana.com"
       }
     ]
@@ -5099,6 +5812,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://janetellis4mt.com/",
     "opponents": [
       {
@@ -5106,6 +5820,7 @@
         "displayName": "JOHN J LOONEY SR",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://looneyformontana.com"
       },
       {
@@ -5113,6 +5828,7 @@
         "displayName": "JANET ELLIS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://janetellis4mt.com/"
       }
     ]
@@ -5125,6 +5841,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://looneyformontana.com",
     "opponents": [
       {
@@ -5132,6 +5849,7 @@
         "displayName": "JOHN J LOONEY SR",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://looneyformontana.com"
       },
       {
@@ -5139,6 +5857,7 @@
         "displayName": "JANET ELLIS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://janetellis4mt.com/"
       }
     ]
@@ -5151,6 +5870,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://peteformontana.com",
     "opponents": [
       {
@@ -5158,6 +5878,7 @@
         "displayName": "CLINTON MCKAY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5165,6 +5886,7 @@
         "displayName": "PETE ELVERUM",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://peteformontana.com"
       }
     ]
@@ -5177,6 +5899,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5184,6 +5907,7 @@
         "displayName": "CLINTON MCKAY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5191,6 +5915,7 @@
         "displayName": "PETE ELVERUM",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://peteformontana.com"
       }
     ]
@@ -5203,6 +5928,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5210,6 +5936,7 @@
         "displayName": "AARON J LEAS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5217,6 +5944,7 @@
         "displayName": "JOE COHENOUR",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5229,6 +5957,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5236,6 +5965,7 @@
         "displayName": "AARON J LEAS",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5243,6 +5973,7 @@
         "displayName": "JOE COHENOUR",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5255,6 +5986,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.caldwellforhd84.com",
     "opponents": [
       {
@@ -5262,6 +5994,7 @@
         "displayName": "ROY CALDWELL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.caldwellforhd84.com"
       },
       {
@@ -5269,6 +6002,7 @@
         "displayName": "TIA NELSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5281,6 +6015,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5288,6 +6023,7 @@
         "displayName": "ROY CALDWELL",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.caldwellforhd84.com"
       },
       {
@@ -5295,6 +6031,7 @@
         "displayName": "TIA NELSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5307,6 +6044,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://kimdailey.com",
     "opponents": [
       {
@@ -5314,6 +6052,7 @@
         "displayName": "KIM DAILEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kimdailey.com"
       },
       {
@@ -5321,6 +6060,7 @@
         "displayName": "LAURA JACKSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5333,6 +6073,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5340,6 +6081,7 @@
         "displayName": "KIM DAILEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://kimdailey.com"
       },
       {
@@ -5347,6 +6089,7 @@
         "displayName": "LAURA JACKSON",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5359,6 +6102,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://waynerusk.com",
     "opponents": [
       {
@@ -5366,6 +6110,7 @@
         "displayName": "WAYNE RUSK",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://waynerusk.com"
       },
       {
@@ -5373,6 +6118,7 @@
         "displayName": "ARCHIE THOMAS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5385,6 +6131,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5392,6 +6139,7 @@
         "displayName": "WAYNE RUSK",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://waynerusk.com"
       },
       {
@@ -5399,6 +6147,7 @@
         "displayName": "ARCHIE THOMAS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5411,6 +6160,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5418,6 +6168,7 @@
         "displayName": "TERRY NELSON",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5425,6 +6176,7 @@
         "displayName": "BILL JONES",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5437,6 +6189,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5444,6 +6197,7 @@
         "displayName": "TERRY NELSON",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5451,6 +6205,7 @@
         "displayName": "BILL JONES",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5463,6 +6218,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.gregoverstreet.com",
     "opponents": [
       {
@@ -5470,6 +6226,7 @@
         "displayName": "GREG OVERSTREET",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.gregoverstreet.com"
       },
       {
@@ -5477,6 +6234,7 @@
         "displayName": "EVAN SCHROEDEL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5489,6 +6247,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5496,6 +6255,7 @@
         "displayName": "GREG OVERSTREET",
         "party": "R",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.gregoverstreet.com"
       },
       {
@@ -5503,6 +6263,7 @@
         "displayName": "EVAN SCHROEDEL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5515,6 +6276,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.lynformontana.com",
     "opponents": [
       {
@@ -5522,6 +6284,7 @@
         "displayName": "LYN HELLEGAARD",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.lynformontana.com"
       },
       {
@@ -5529,6 +6292,7 @@
         "displayName": "MARK A THANE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://thaneformontana.com"
       }
     ]
@@ -5541,6 +6305,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://thaneformontana.com",
     "opponents": [
       {
@@ -5548,6 +6313,7 @@
         "displayName": "LYN HELLEGAARD",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.lynformontana.com"
       },
       {
@@ -5555,6 +6321,7 @@
         "displayName": "MARK A THANE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://thaneformontana.com"
       }
     ]
@@ -5567,6 +6334,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5574,6 +6342,7 @@
         "displayName": "JEFF STANEK",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5586,6 +6355,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://shellyformontana.com",
     "opponents": [
       {
@@ -5593,6 +6363,7 @@
         "displayName": "CHARLES HEADLEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5600,6 +6371,7 @@
         "displayName": "SHELLY FYANT",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://shellyformontana.com"
       }
     ]
@@ -5612,6 +6384,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5619,6 +6392,7 @@
         "displayName": "CHARLES HEADLEY",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5626,6 +6400,7 @@
         "displayName": "SHELLY FYANT",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://shellyformontana.com"
       }
     ]
@@ -5638,6 +6413,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.monicatranel.com",
     "opponents": [
       {
@@ -5645,6 +6421,7 @@
         "displayName": "MONICA TRANEL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.monicatranel.com"
       }
     ]
@@ -5657,6 +6434,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.davisformontana.com/",
     "opponents": [
       {
@@ -5664,13 +6442,15 @@
         "displayName": "ROY HANDLEY",
         "party": "R",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "isWriteIn": false,
+        "campaignWebsite": "https://royformt.com/"
       },
       {
         "slug": "ben-davis",
         "displayName": "BEN DAVIS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.davisformontana.com/"
       }
     ]
@@ -5683,20 +6463,23 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
-    "campaignWebsite": null,
+    "isWriteIn": false,
+    "campaignWebsite": "https://royformt.com/",
     "opponents": [
       {
         "slug": "roy-handley",
         "displayName": "ROY HANDLEY",
         "party": "R",
         "isIncumbent": false,
-        "campaignWebsite": null
+        "isWriteIn": false,
+        "campaignWebsite": "https://royformt.com/"
       },
       {
         "slug": "ben-davis",
         "displayName": "BEN DAVIS",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.davisformontana.com/"
       }
     ]
@@ -5709,6 +6492,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://www.robinkendall4montana.org/",
     "opponents": [
       {
@@ -5716,6 +6500,7 @@
         "displayName": "GREG WOODWARD",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5723,6 +6508,7 @@
         "displayName": "ROBIN KENDALL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.robinkendall4montana.org/"
       }
     ]
@@ -5735,6 +6521,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5742,6 +6529,7 @@
         "displayName": "GREG WOODWARD",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5749,6 +6537,7 @@
         "displayName": "ROBIN KENDALL",
         "party": "D",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://www.robinkendall4montana.org/"
       }
     ]
@@ -5761,6 +6550,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5768,6 +6558,7 @@
         "displayName": "ZOOEY ZEPHYR",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5780,6 +6571,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://cartermt.us",
     "opponents": [
       {
@@ -5787,6 +6579,7 @@
         "displayName": "BOB CARTER",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://cartermt.us"
       }
     ]
@@ -5799,6 +6592,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://melodyformontana.org/",
     "opponents": [
       {
@@ -5806,6 +6600,7 @@
         "displayName": "MICHAEL P HAGESTAD",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5813,6 +6608,7 @@
         "displayName": "MELODY J CUNNINGHAM",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://melodyformontana.org/"
       }
     ]
@@ -5825,6 +6621,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5832,6 +6629,7 @@
         "displayName": "MICHAEL P HAGESTAD",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5839,6 +6637,7 @@
         "displayName": "MELODY J CUNNINGHAM",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://melodyformontana.org/"
       }
     ]
@@ -5851,6 +6650,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://jonathankarlen.net",
     "opponents": [
       {
@@ -5858,6 +6658,7 @@
         "displayName": "BRYAN MUZZANA",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5865,6 +6666,7 @@
         "displayName": "JONATHAN KARLEN",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jonathankarlen.net"
       }
     ]
@@ -5877,6 +6679,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5884,6 +6687,7 @@
         "displayName": "BRYAN MUZZANA",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5891,6 +6695,7 @@
         "displayName": "JONATHAN KARLEN",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://jonathankarlen.net"
       }
     ]
@@ -5903,6 +6708,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5910,6 +6716,7 @@
         "displayName": "RYAN DARLING",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5917,6 +6724,7 @@
         "displayName": "TOM FRANCE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://tomfranceformontana.com"
       }
     ]
@@ -5929,6 +6737,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": "https://tomfranceformontana.com",
     "opponents": [
       {
@@ -5936,6 +6745,7 @@
         "displayName": "RYAN DARLING",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5943,6 +6753,7 @@
         "displayName": "TOM FRANCE",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": "https://tomfranceformontana.com"
       }
     ]
@@ -5955,6 +6766,7 @@
     "party": "R",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": "https://michaeldanielbowles.carrd.co",
     "opponents": [
       {
@@ -5962,6 +6774,7 @@
         "displayName": "MICHAEL DANIEL BOWLES",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://michaeldanielbowles.carrd.co"
       },
       {
@@ -5969,6 +6782,7 @@
         "displayName": "SJ HOWELL",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -5976,6 +6790,7 @@
         "displayName": "JC WINDMUELLER",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -5988,6 +6803,7 @@
     "party": "D",
     "status": "active",
     "isIncumbent": true,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -5995,6 +6811,7 @@
         "displayName": "MICHAEL DANIEL BOWLES",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://michaeldanielbowles.carrd.co"
       },
       {
@@ -6002,6 +6819,7 @@
         "displayName": "SJ HOWELL",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -6009,6 +6827,7 @@
         "displayName": "JC WINDMUELLER",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]
@@ -6021,6 +6840,7 @@
     "party": "L",
     "status": "active",
     "isIncumbent": false,
+    "isWriteIn": false,
     "campaignWebsite": null,
     "opponents": [
       {
@@ -6028,6 +6848,7 @@
         "displayName": "MICHAEL DANIEL BOWLES",
         "party": "R",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": "https://michaeldanielbowles.carrd.co"
       },
       {
@@ -6035,6 +6856,7 @@
         "displayName": "SJ HOWELL",
         "party": "D",
         "isIncumbent": true,
+        "isWriteIn": false,
         "campaignWebsite": null
       },
       {
@@ -6042,6 +6864,7 @@
         "displayName": "JC WINDMUELLER",
         "party": "L",
         "isIncumbent": false,
+        "isWriteIn": false,
         "campaignWebsite": null
       }
     ]

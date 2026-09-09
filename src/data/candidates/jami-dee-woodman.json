@@ -1,0 +1,140 @@
+{
+  "slug": "jami-dee-woodman",
+  "displayName": "Jami Dee Woodman",
+  "lastName": "Woodman",
+  "summaryLine": null,
+  "summaryNarrative": null,
+  "party": "NP",
+  "isIncumbent": false,
+  "status": "active",
+  "isWriteIn": true,
+  "fecId": null,
+  "campaignWebsite": null,
+  "campaignFB": null,
+  "campaignTW": null,
+  "campaignIG": null,
+  "campaignYT": null,
+  "campaignTT": null,
+  "raceSlug": "us-senate",
+  "raceDisplayName": "U.S. Senate",
+  "opponents": [
+    {
+      "slug": "kurt-alme",
+      "displayName": "Kurt Alme",
+      "summaryLine": null,
+      "party": "R",
+      "isWriteIn": false
+    },
+    {
+      "slug": "kyle-austin",
+      "displayName": "Kyle Austin",
+      "summaryLine": null,
+      "party": "L",
+      "isWriteIn": false
+    },
+    {
+      "slug": "alani-bankhead",
+      "displayName": "Alani Bankhead",
+      "summaryLine": null,
+      "party": "D",
+      "isWriteIn": false
+    },
+    {
+      "slug": "seth-bodnar",
+      "displayName": "Seth Bodnar",
+      "summaryLine": null,
+      "party": "I",
+      "isWriteIn": false
+    },
+    {
+      "slug": "jami-dee-woodman",
+      "displayName": "Jami Dee Woodman",
+      "summaryLine": null,
+      "party": "NP",
+      "isWriteIn": true
+    }
+  ],
+  "coverage": [],
+  "finance": [
+    {
+      "displayName": "Seth Bodnar",
+      "candidateSlug": "seth-bodnar",
+      "party": "I",
+      "matchType": "name",
+      "candidateCommitteeName": "SETH BODNAR FOR MONTANA",
+      "candidateId": "S6MT00287",
+      "totalReceipts": 3238150.74,
+      "totalDisbursments": 2260371.43,
+      "cashOnHand": 977779.31,
+      "coverageEndDate": "2026-06-30",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kurt Alme",
+      "candidateSlug": "kurt-alme",
+      "party": "R",
+      "matchType": "name",
+      "candidateCommitteeName": "ALME FOR SENATE",
+      "candidateId": "S6MT00295",
+      "totalReceipts": 1984860.91,
+      "totalDisbursments": 534142.12,
+      "cashOnHand": 1450718.79,
+      "coverageEndDate": "2026-06-30",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Kyle Austin",
+      "candidateSlug": "kyle-austin",
+      "party": "L",
+      "matchType": "name",
+      "candidateCommitteeName": "AUSTIN FOR CONGRESS",
+      "candidateId": "S6MT00261",
+      "totalReceipts": 250626.5,
+      "totalDisbursments": 242425.95,
+      "cashOnHand": 8750.55,
+      "coverageEndDate": "2026-06-30",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Alani Bankhead",
+      "candidateSlug": "alani-bankhead",
+      "party": "D",
+      "matchType": "name-first-last",
+      "candidateCommitteeName": "FRIENDS OF ALANI BANKHEAD",
+      "candidateId": "S6MT00253",
+      "totalReceipts": 58829.06,
+      "totalDisbursments": 37011.39,
+      "cashOnHand": 21484.67,
+      "coverageEndDate": "2026-06-30",
+      "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Jami Dee Woodman",
+      "candidateSlug": "jami-dee-woodman",
+      "party": "NP",
+      "matchType": "name",
+      "candidateCommitteeName": null,
+      "candidateId": null,
+      "totalReceipts": 0,
+      "totalDisbursments": 0,
+      "cashOnHand": 0,
+      "coverageEndDate": null,
+      "isThisCandidate": true,
+      "candidateStatus": "active"
+    }
+  ],
+  "questionnaire": {
+    "hasResponses": false,
+    "responses": []
+  },
+  "primaryResults": {
+    "race": "us-senate",
+    "raceDisplayName": "U.S. Senate",
+    "party": "NP",
+    "resultsTotal": null
+  }
+}

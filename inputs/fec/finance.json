@@ -72,8 +72,8 @@
           "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "LIBERTARIAN PARTY",
-          "total_disbursements": 242362.46,
-          "total_receipts": 262194.97
+          "total_disbursements": 242425.95,
+          "total_receipts": 250626.5
         },
         {
           "candidate_election_year": 2026,
@@ -186,6 +186,16 @@
           "party_full": "LIBERTARIAN PARTY",
           "total_disbursements": 0,
           "total_receipts": 0
+        },
+        {
+          "candidate_name": "WOODMAN, JAMI DEE",
+          "candidate_id": null,
+          "candidate_pcc_name": null,
+          "total_receipts": 0,
+          "total_disbursements": 0,
+          "cash_on_hand_end_period": 0,
+          "coverage_end_date": null,
+          "manually_added_no_fec_record": true
         }
       ]
     }

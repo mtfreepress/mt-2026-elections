@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from 'next/router';
 
-import { PARTIES, PARTIES_BY_KEY } from "@/lib/styles";
+import { PARTIES, PARTIES_BY_KEY, getCandidatePartyNoun } from "@/lib/styles";
 import { pluralize } from "@/lib/utils";
 
 const opponentsContainerStyle = css`
@@ -33,7 +33,7 @@ const opponentsContainerStyle = css`
         margin-bottom: .8em;
         margin-right: .5em;
         margin-left: .5em;
-    } 
+    }
         .note {
             font-size: 1em;
             margin-left: .3em;
@@ -173,8 +173,14 @@ export default function CandidatePageOpponents({
                     : PARTIES.map(party => {
                         const opponentsInParty = opponents.filter(d => d.party === party.key)
                         if (opponentsInParty.length === 0) return null
+                        const bucketLabel = opponentsInParty.every(candidate => candidate.isWriteIn)
+                            ? getCandidatePartyNoun(party.key, true)
+                            : pluralize(party.noun, opponentsInParty.length)
+                        const bucketHeading = bucketLabel === 'No party affiliation'
+                            ? 'No party'
+                            : <span>{bucketLabel}</span>
                         return <div className="party-bucket" key={party.key} style={{ borderLeft: `px solid ${party.color}` }}>
-                            <h4 style={{ color: party.color }}>{pluralize(party.noun, opponentsInParty.length)}</h4>
+                            <h4 style={{ color: party.color }}>{bucketHeading}</h4>
                             <div className="party-list">{opponentsInParty.map(d => <Candidate key={d.slug} {...d} hasPortraits={hasPortraits}
                                 route={route}
                                 isCurrentPage={currentPage === d.slug}

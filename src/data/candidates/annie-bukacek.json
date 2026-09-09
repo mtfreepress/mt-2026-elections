@@ -21,13 +21,15 @@
       "slug": "annie-bukacek",
       "displayName": "Annie Bukacek",
       "summaryLine": null,
-      "party": "R"
+      "party": "R",
+      "isWriteIn": false
     },
     {
       "slug": "kevin-hamm",
       "displayName": "Kevin Hamm",
       "summaryLine": null,
-      "party": "D"
+      "party": "D",
+      "isWriteIn": false
     }
   ],
   "coverage": [
