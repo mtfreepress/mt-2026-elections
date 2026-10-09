@@ -15,7 +15,7 @@
         "party": "R",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 10,
+        "numMTFParticles": 14,
         "raceSlug": "us-senate"
       },
       {
@@ -25,7 +25,7 @@
         "party": "L",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 3,
+        "numMTFParticles": 6,
         "raceSlug": "us-senate"
       },
       {
@@ -35,7 +35,7 @@
         "party": "D",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 12,
+        "numMTFParticles": 16,
         "raceSlug": "us-senate"
       },
       {
@@ -45,7 +45,7 @@
         "party": "I",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 15,
+        "numMTFParticles": 19,
         "raceSlug": "us-senate"
       },
       {
@@ -139,7 +139,7 @@
         "party": "R",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 6,
+        "numMTFParticles": 9,
         "raceSlug": "us-house-1"
       },
       {
@@ -149,7 +149,7 @@
         "party": "D",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 5,
+        "numMTFParticles": 8,
         "raceSlug": "us-house-1"
       },
       {
@@ -159,7 +159,7 @@
         "party": "L",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 2,
+        "numMTFParticles": 4,
         "raceSlug": "us-house-1"
       }
     ],
@@ -207,7 +207,7 @@
         "party": "R",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 2,
+        "numMTFParticles": 6,
         "raceSlug": "us-house-2"
       },
       {
@@ -217,7 +217,7 @@
         "party": "L",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 2,
+        "numMTFParticles": 4,
         "raceSlug": "us-house-2"
       },
       {
@@ -227,7 +227,7 @@
         "party": "D",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 6,
+        "numMTFParticles": 9,
         "raceSlug": "us-house-2"
       },
       {
@@ -237,7 +237,7 @@
         "party": "I",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 2,
+        "numMTFParticles": 5,
         "raceSlug": "us-house-2"
       }
     ],
@@ -372,7 +372,7 @@
         "party": "NP",
         "isWriteIn": false,
         "hasResponses": false,
-        "numMTFParticles": 0,
+        "numMTFParticles": 1,
         "raceSlug": "supco-4"
       },
       {
@@ -382,7 +382,7 @@
         "party": "NP",
         "isWriteIn": false,
         "hasResponses": false,
-        "numMTFParticles": 0,
+        "numMTFParticles": 1,
         "raceSlug": "supco-4"
       }
     ],

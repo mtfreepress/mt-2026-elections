@@ -11,7 +11,7 @@
     "isIncumbent": true,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 6
   },
   {
     "slug": "seth-bodnar",
@@ -25,7 +25,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 15
+    "numMTFParticles": 19
   },
   {
     "slug": "sam-forstag",
@@ -39,7 +39,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 5
+    "numMTFParticles": 8
   },
   {
     "slug": "patrick-mccracken",
@@ -53,7 +53,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 4
   },
   {
     "slug": "nick-sheedy",
@@ -67,7 +67,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 4
   },
   {
     "slug": "michael-d-eisenhauer",
@@ -81,7 +81,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 2
+    "numMTFParticles": 5
   },
   {
     "slug": "kyle-austin",
@@ -95,7 +95,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 3
+    "numMTFParticles": 6
   },
   {
     "slug": "kurt-alme",
@@ -109,7 +109,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 10
+    "numMTFParticles": 14
   },
   {
     "slug": "kevin-hamm",
@@ -165,7 +165,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": false,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "brian-j-miller",
@@ -179,7 +179,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 6
+    "numMTFParticles": 9
   },
   {
     "slug": "annie-bukacek",
@@ -221,7 +221,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": false,
-    "numMTFParticles": 0
+    "numMTFParticles": 1
   },
   {
     "slug": "alani-bankhead",
@@ -235,7 +235,7 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 12
+    "numMTFParticles": 16
   },
   {
     "slug": "aaron-flint",
@@ -249,6 +249,6 @@
     "isIncumbent": false,
     "isWriteIn": false,
     "hasResponses": true,
-    "numMTFParticles": 6
+    "numMTFParticles": 9
   }
 ]
