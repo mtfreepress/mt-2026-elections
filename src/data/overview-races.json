@@ -15,7 +15,7 @@
         "party": "R",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 14,
+        "numMTFParticles": 15,
         "raceSlug": "us-senate"
       },
       {
@@ -25,7 +25,7 @@
         "party": "L",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 6,
+        "numMTFParticles": 7,
         "raceSlug": "us-senate"
       },
       {
@@ -35,7 +35,7 @@
         "party": "D",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 16,
+        "numMTFParticles": 17,
         "raceSlug": "us-senate"
       },
       {
@@ -45,7 +45,7 @@
         "party": "I",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 19,
+        "numMTFParticles": 20,
         "raceSlug": "us-senate"
       },
       {
