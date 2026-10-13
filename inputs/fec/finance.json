@@ -65,15 +65,15 @@
           "candidate_name": "AUSTIN, KYLE",
           "candidate_pcc_id": "C00870352",
           "candidate_pcc_name": "AUSTIN FOR CONGRESS",
-          "cash_on_hand_end_period": 8750.55,
+          "cash_on_hand_end_period": 7896.03,
           "committee_ids": [
             "C00870352"
           ],
-          "coverage_end_date": "2026-06-30",
+          "coverage_end_date": "2026-09-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "LIBERTARIAN PARTY",
-          "total_disbursements": 242425.95,
-          "total_receipts": 250626.5
+          "total_disbursements": 254479.28,
+          "total_receipts": 261825.31
         },
         {
           "candidate_election_year": 2026,
@@ -113,14 +113,14 @@
           "candidate_name": "HUMMERT, MICHAEL",
           "candidate_pcc_id": "C00873166",
           "candidate_pcc_name": "MICHAEL HUMMERT US SENATE CANDIDATE",
-          "cash_on_hand_end_period": 8627.55,
+          "cash_on_hand_end_period": 7428.55,
           "committee_ids": [
             "C00873166"
           ],
-          "coverage_end_date": "2026-06-30",
+          "coverage_end_date": "2026-09-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 4447.18,
+          "total_disbursements": 5646.18,
           "total_receipts": 12330
         },
         {
@@ -315,15 +315,15 @@
           "candidate_name": "RAINS, MATTHEW",
           "candidate_pcc_id": "C00924258",
           "candidate_pcc_name": "MATT RAINS FOR MONTANA",
-          "cash_on_hand_end_period": 33976.35,
+          "cash_on_hand_end_period": 33903.94,
           "committee_ids": [
             "C00924258"
           ],
-          "coverage_end_date": "2026-06-30",
+          "coverage_end_date": "2026-09-30",
           "incumbent_challenge_full": "Open seat",
           "party_full": "DEMOCRATIC PARTY",
-          "total_disbursements": 238593.09,
-          "total_receipts": 272569.44
+          "total_disbursements": 238856.75,
+          "total_receipts": 272760.69
         }
       ]
     }
@@ -369,7 +369,7 @@
           "coverage_end_date": "2026-06-30",
           "incumbent_challenge_full": "Challenger",
           "party_full": "INDEPENDENT",
-          "total_disbursements": 164059.59,
+          "total_disbursements": 162289.14,
           "total_receipts": 296252.93
         },
         {

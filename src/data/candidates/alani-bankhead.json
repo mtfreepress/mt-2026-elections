@@ -55,6 +55,23 @@
   ],
   "coverage": [
     {
+      "title": "State Democratic Party chair resigns, endorses independent Bodnar for U.S. Senate",
+      "date": "2026-10-12T17:30:34",
+      "link": "https://montanafreepress.org/2026/10/12/democratic-partyp-chair-resigns-endorses-bodnar/",
+      "tags": [
+        "2026 election guide",
+        "2026 elections",
+        "Alani Bankhead",
+        "seth bodnar",
+        "Shannon O’Brien"
+      ],
+      "categories": [
+        "Elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260403lm-mansfieldmetcalf-0003-jpg/",
+      "author": "Zeke Lloyd"
+    },
+    {
       "title": "Senate hopefuls trade jabs at first all-candidate debate",
       "date": "2026-10-11T15:22:48",
       "link": "https://montanafreepress.org/2026/10/11/montana-senate-hopefuls-trade-jabs-first-debate/",
@@ -415,10 +432,10 @@
       "matchType": "name",
       "candidateCommitteeName": "AUSTIN FOR CONGRESS",
       "candidateId": "S6MT00261",
-      "totalReceipts": 250626.5,
-      "totalDisbursments": 242425.95,
-      "cashOnHand": 8750.55,
-      "coverageEndDate": "2026-06-30",
+      "totalReceipts": 261825.31,
+      "totalDisbursments": 254479.28,
+      "cashOnHand": 7896.03,
+      "coverageEndDate": "2026-09-30",
       "isThisCandidate": false,
       "candidateStatus": "active"
     },
