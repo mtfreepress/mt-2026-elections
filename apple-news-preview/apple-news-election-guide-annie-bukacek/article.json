@@ -18,9 +18,7 @@
     "excerpt": "Annie Bukacek is a Republican candidate for Public Service Commission (Seat 5). Read the candidate's background, issue responses, finance information and election results.",
     "authors": [
       "Montana Free Press"
-    ],
-    "datePublished": "2026-08-22T20:20:32.993Z",
-    "dateModified": "2026-08-22T20:20:32.993Z"
+    ]
   },
   "components": [
     {
@@ -54,9 +52,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Other candidates in this race",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -67,9 +71,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "On the issues",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -80,9 +90,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
-      "text": "What should be the PSC&#039;s role, if any, in regulating data center development in Montana?",
-      "format": "html",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
+      "text": "What should be the PSC's role, if any, in regulating data center development in Montana?",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -93,9 +109,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "How should the PSC approach the NorthWestern/Black Hills Corp. merger?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -106,9 +128,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
-      "text": "What is one industry under the PSC&#039;s purview that could use more scrutiny than it&#039;s currently getting, and what might that increased scrutiny look like?",
-      "format": "html",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
+      "text": "What is one industry under the PSC's purview that could use more scrutiny than it's currently getting, and what might that increased scrutiny look like?",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -119,9 +147,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "MTFP coverage",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -132,9 +166,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Campaign finance",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -145,9 +185,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Election outcomes",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -163,9 +209,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "About this project",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -244,12 +296,14 @@
       "fontName": "Helvetica-Bold",
       "fontSize": 32,
       "lineHeight": 38,
+      "fontScaling": false,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
       "fontSize": 22,
       "lineHeight": 28,
+      "fontScaling": false,
       "textColor": "#222222"
     }
   },

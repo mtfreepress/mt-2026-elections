@@ -18,9 +18,7 @@
     "excerpt": "Explore Montana’s 2026 candidates, races, legislative contests and voting information in this Apple News edition of the Montana Free Press Election Guide.",
     "authors": [
       "Montana Free Press"
-    ],
-    "datePublished": "2026-08-22T20:20:32.993Z",
-    "dateModified": "2026-08-22T20:20:32.993Z"
+    ]
   },
   "components": [
     {
@@ -39,12 +37,6 @@
       "URL": "bundle://election-guide-2026-feature-art.jpg",
       "accessibilityCaption": "Montana Free Press 2026 Election Guide",
       "layout": "wide"
-    },
-    {
-      "role": "body",
-      "text": "<p><em>Guide data last updated August 22, 2026.</em></p>",
-      "format": "html",
-      "layout": "body"
     },
     {
       "role": "body",
@@ -72,27 +64,39 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Find your races",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
       "role": "body",
-      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Use your address or search candidates in the interactive web guide</a></p>",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Find your races in our interactive guide</a></p>",
       "format": "html",
       "layout": "body"
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "U.S. Senate",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
       "role": "body",
-      "text": "<p>One of Montana&#039;s two U.S. Senate seats, elected with a statewide vote. Elected to a six-year term.</p>",
+      "text": "<p>One of Montana&#x27;s two U.S. Senate seats, elected with a statewide vote. Elected to a six-year term.</p>",
       "format": "html",
       "layout": "body"
     },
@@ -110,9 +114,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "U.S. House District 1 (West)",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -135,9 +145,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "U.S. House District 2 (East)",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -160,14 +176,20 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Public Service Commission (Seat 1)",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
       "role": "body",
-      "text": "<p>One of five seats on the state&#039;s utility regulation board, elected to a four-year term. The district spans eastern Montana, including Billings and Miles City.</p>",
+      "text": "<p>One of five seats on the state&#x27;s utility regulation board, elected to a four-year term. The district spans eastern Montana, including Billings and Miles City.</p>",
       "format": "html",
       "layout": "body"
     },
@@ -185,14 +207,20 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Public Service Commission (Seat 5)",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
       "role": "body",
-      "text": "<p>One of five seats on the state&#039;s utility regulation board, elected to a four-year term. The district spans western Montana, including Missoula and Kalispell.</p>",
+      "text": "<p>One of five seats on the state&#x27;s utility regulation board, elected to a four-year term. The district spans western Montana, including Missoula and Kalispell.</p>",
       "format": "html",
       "layout": "body"
     },
@@ -210,14 +238,20 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "State Supreme Court (Seat 4)",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
       "role": "body",
-      "text": "<p>One of seven seats on the state&#039;s high court, which takes appeals from lower courts and administers the Montana legal system. Elected to an eight-year term via a statewide election.</p>",
+      "text": "<p>One of seven seats on the state&#x27;s high court, which takes appeals from lower courts and administers the Montana legal system. Elected to an eight-year term via a statewide election.</p>",
       "format": "html",
       "layout": "body"
     },
@@ -229,9 +263,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Montana Legislature",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -254,16 +294,28 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Voting information",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "When are Montana’s 2026 elections?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -274,9 +326,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Who runs Montana’s elections?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -293,9 +351,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Do I need to be registered in order to vote?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -306,9 +370,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Can I register to vote on Election Day?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -319,9 +389,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Does Montana have voter ID requirements?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -332,9 +408,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
-      "text": "Are there situations where I wouldn&#x27;t be eligible to vote?",
-      "format": "html",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
+      "text": "Are there situations where I wouldn't be eligible to vote?",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -345,9 +427,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Can I vote by mail?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -358,13 +446,7 @@
     },
     {
       "role": "body",
-      "text": "<p>If you’re registered as an absentee voter, a ballot should be mailed to you a few weeks in advance of each election day. You can make sure your address is current via the <a href=\"https://app.mt.gov/voterinfo/\">My Voter page</a>. County election officials are slated to mail ballots to voters for the November 2026 General Election Oct. 9.</p>",
-      "format": "html",
-      "layout": "body"
-    },
-    {
-      "role": "body",
-      "text": "<p>In 2025, legislators passed a law requiring that voters write their year of birth in addition to their signature on the affirmation envelope for their ballot to be accepted.</p>",
+      "text": "<p>If you’re registered as an absentee voter, a ballot should be mailed to you a few weeks in advance of each election day. You can make sure your address is current via the <a href=\"https://app.mt.gov/voterinfo/\">My Voter page</a>. County election officials mailed ballots to voters for the November 2026 General Election Oct. 9.</p>",
       "format": "html",
       "layout": "body"
     },
@@ -376,15 +458,21 @@
     },
     {
       "role": "body",
-      "text": "<p>Be aware that another 2025 law, <a href=\"https://projects.montanafreepress.org/capitol-tracker-2025/bills/hb-719/\">House Bill 719</a>, now requires that voters write their year of birth alongside the required signature on all mail ballot envelopes. Mail ballot envelopes without a birth year may be rejected. Again, you can <a href=\"https://voterportal.mt.gov/WhereToVote.aspx\">check the status of your ballot</a> on the secretary of state’s website.</p>",
+      "text": "<p>Be aware that another 2025 law, <a href=\"https://projects.montanafreepress.org/capitol-tracker-2025/bills/hb-719/\">House Bill 719</a>, required voters write their year of birth alongside the required signature on mail ballot envelopes. However, a state judge <a href=\"https://montanafreepress.org/2026/10/05/state-judge-strikes-down-ballot-envelope-birth-year-requirement/\">ruled the requirement unconstitutional in October 2026</a>. Per that decision, ballots in the 2026 general election cannot be rejected for a missing birth year. You can still <a href=\"https://voterportal.mt.gov/WhereToVote.aspx\">check the status of your ballot</a> on the secretary of state’s website.</p>",
       "format": "html",
       "layout": "body"
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "How do I vote in person?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -401,9 +489,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
-      "text": "I have a friend or family member who isn&#x27;t able to drop off his or her mail-in ballot. Can I do it for them?",
-      "format": "html",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
+      "text": "I have a friend or family member who isn't able to drop off his or her mail-in ballot. Can I do it for them?",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -414,9 +508,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Who should I vote for?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -427,9 +527,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Other ballot items",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -440,9 +546,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "About this project",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -515,12 +627,14 @@
       "fontName": "Helvetica-Bold",
       "fontSize": 32,
       "lineHeight": 38,
+      "fontScaling": false,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
       "fontSize": 22,
       "lineHeight": 28,
+      "fontScaling": false,
       "textColor": "#222222"
     }
   },

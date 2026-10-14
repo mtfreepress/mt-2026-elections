@@ -1,6 +1,7 @@
 import { readFile, mkdir, writeFile, readdir } from "node:fs/promises";
 import { basename, dirname, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadSharedContent, renderSharedArticle } from "./apple-news-shared-content.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const sourceRoot = join(projectRoot, "apple-news-build");
@@ -8,6 +9,12 @@ const outputRoot = join(projectRoot, "apple-news-preview");
 const publicRoot = join(projectRoot, "public");
 const projectAssetBaseURL = "https://projects.montanafreepress.org/election-guide-2026/";
 const checkOnly = process.argv.includes("--check");
+
+const headingStyles = {
+  // Keep section/subsection sizes consistent on narrow mobile screens.
+  h2: { fontName: "Helvetica-Bold", fontSize: 32, lineHeight: 38, fontScaling: false, textColor: "#111111" },
+  h3: { fontName: "Helvetica-Bold", fontSize: 22, lineHeight: 28, fontScaling: false, textColor: "#222222" },
+};
 
 const voidElements = new Set([
   "area",
@@ -149,11 +156,14 @@ function htmlToComponents(html, article) {
     }
 
     if (tagName === "h2" || tagName === "h3") {
+      const headingHtml = innerHtml(element, tagName);
+      const hasInlineMarkup = /<[^>]+>/.test(headingHtml);
       components.push({
         role: tagName === "h2" ? "heading2" : "heading3",
-        textStyle: tagName === "h2" ? "default-heading2" : "default-heading3",
-        text: innerHtml(element, tagName),
-        format: "html",
+        // Apply the hierarchy directly, without HTML parsing for plain headings.
+        textStyle: { ...headingStyles[tagName] },
+        text: hasInlineMarkup ? headingHtml : decodeHtmlText(headingHtml),
+        format: hasInlineMarkup ? "html" : "none",
         layout: "body",
       });
       continue;
@@ -175,7 +185,7 @@ function htmlToComponents(html, article) {
   return components;
 }
 
-function makeArticleDocument(article, manifest, html) {
+function makeArticleDocument(article, html) {
   const components = [
     { role: "title", text: article.title, textStyle: "default-title", layout: "body" },
     { role: "author", text: "Montana Free Press", layout: "body" },
@@ -194,8 +204,6 @@ function makeArticleDocument(article, manifest, html) {
       thumbnailURL: article.featuredImage.publicUrl,
       excerpt: article.excerpt,
       authors: ["Montana Free Press"],
-      datePublished: manifest.generatedAt,
-      dateModified: manifest.generatedAt,
     },
     components,
     componentLayouts: {
@@ -226,18 +234,8 @@ function makeArticleDocument(article, manifest, html) {
         fontSize: 15,
         textColor: "#555555",
       },
-      "default-heading2": {
-        fontName: "Helvetica-Bold",
-        fontSize: 32,
-        lineHeight: 38,
-        textColor: "#111111",
-      },
-      "default-heading3": {
-        fontName: "Helvetica-Bold",
-        fontSize: 22,
-        lineHeight: 28,
-        textColor: "#222222",
-      },
+      "default-heading2": { ...headingStyles.h2 },
+      "default-heading3": { ...headingStyles.h3 },
     },
     textStyles: {
       "default-tag-pre": {
@@ -362,8 +360,16 @@ function readme(manifest) {
 
   return `# Apple News local preview bundles
 
-These ${manifest.articles.length} directories are generated from \`../apple-news-build/manifest.json\`,
-\`../apple-news-build/articles/*.html\`, and the image files in \`../public/\`. Each article directory
+The main guide and voting-information article read shared website copy directly from
+\`../inputs/content/how-to-vote.md\`, \`text.yml\`, and \`races.yml\` on every build.
+The main guide's candidate list comes from \`../src/data/overview-races.json\` (refresh it with the
+website data pipeline when candidates change). Apple News-specific links and layout are defined in
+\`../scripts/apple-news-shared-content.mjs\`.
+
+All ${manifest.articles.length} directories use metadata from \`../apple-news-build/manifest.json\`
+and images from \`../public/\`. Other articles still use \`../apple-news-build/articles/*.html\`.
+The saved main-guide/voting HTML and templates are legacy snapshots, not inputs to these two bundles.
+Each article directory
 contains its own image assets, referenced with \`bundle://\` URLs, so News Preview does not need to fetch
 images from the deployed website. The original upload-oriented HTML and templates are not changed.
 
@@ -372,7 +378,7 @@ images from the deployed website. The original upload-oriented HTML and template
 1. Open Apple's News Preview app and select a Mac, iPhone, or iPad target.
 2. Drag one article directory below onto the News Preview drop area. You can also drag its \`article.json\` file.
 3. Open **Window > Console** if Apple reports a validation or rendering problem.
-4. Rebuild after changing the source HTML with \`npm run build:apple-news-preview\`.
+4. Rebuild after changing shared copy or other articles' source HTML with \`npm run build:apple-news-preview\`.
 
 News Preview loads one local article at a time. Links in these local bundles deliberately use the
 existing public election-guide URLs, so clicking them tests link presentation but opens the website.
@@ -388,6 +394,7 @@ ${rows}
 
 async function expectedBuild() {
   const manifest = JSON.parse(await readFile(join(sourceRoot, "manifest.json"), "utf8"));
+  const sharedContent = await loadSharedContent(projectRoot);
   const files = new Map();
 
   if (manifest.counts.articles !== manifest.articles.length) {
@@ -402,8 +409,10 @@ async function expectedBuild() {
     identifiers.add(article.slug);
 
     const htmlPath = join(sourceRoot, article.htmlPath);
-    const html = await readFile(htmlPath, "utf8");
-    const document = makeArticleDocument(article, manifest, html);
+    const html = ["guide", "voting-info"].includes(article.key)
+      ? renderSharedArticle(article, sharedContent)
+      : await readFile(htmlPath, "utf8");
+    const document = makeArticleDocument(article, html);
     const assets = await bundleImages(document, article);
     validateDocument(document, article, assets);
     files.set(join(article.slug, "article.json"), Buffer.from(`${JSON.stringify(document, null, 2)}\n`));

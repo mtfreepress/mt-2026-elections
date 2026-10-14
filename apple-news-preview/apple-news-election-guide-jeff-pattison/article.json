@@ -18,9 +18,7 @@
     "excerpt": "Jeff Pattison is a Republican candidate for Public Service Commission (Seat 1). Read the candidate's background, issue responses, finance information and election results.",
     "authors": [
       "Montana Free Press"
-    ],
-    "datePublished": "2026-08-22T20:20:32.993Z",
-    "dateModified": "2026-08-22T20:20:32.993Z"
+    ]
   },
   "components": [
     {
@@ -60,9 +58,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Other candidates in this race",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -73,9 +77,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "On the issues",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -92,9 +102,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "MTFP coverage",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -105,9 +121,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Campaign finance",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -118,9 +140,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Election outcomes",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -136,9 +164,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "About this project",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -217,12 +251,14 @@
       "fontName": "Helvetica-Bold",
       "fontSize": 32,
       "lineHeight": 38,
+      "fontScaling": false,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
       "fontSize": 22,
       "lineHeight": 28,
+      "fontScaling": false,
       "textColor": "#222222"
     }
   },

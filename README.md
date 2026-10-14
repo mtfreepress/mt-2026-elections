@@ -36,6 +36,13 @@ including withdrawals, replacement candidates and write-ins.
   generated `apple-news-preview/README.md` lists every bundle and explains the local-link limitation.
   Run `npm run check:apple-news-preview` to verify that the generated bundles are current.
 
+  The main Apple News guide and voting-information bundle read copy directly from
+  `inputs/content/how-to-vote.md`, `text.yml`, and `races.yml`; rebuilding picks up edits without
+  running the website data pipeline. Candidate lists use `src/data/overview-races.json`, so run
+  the data pipeline when candidates change. Apple News web links and layout live in
+  `scripts/apple-news-shared-content.mjs`. Other bundles still use the saved HTML in
+  `apple-news-build/articles/`.
+
 - To update all YAML files (so the page updates) run `./update-data.sh` in the command line. 
 
     #### - This will run:

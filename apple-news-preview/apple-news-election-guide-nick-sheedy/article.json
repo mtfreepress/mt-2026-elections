@@ -18,9 +18,7 @@
     "excerpt": "Nick Sheedy is a Libertarian candidate for U.S. House District 1 (West). Read the candidate's background, issue responses, finance information and election results.",
     "authors": [
       "Montana Free Press"
-    ],
-    "datePublished": "2026-08-22T20:20:32.993Z",
-    "dateModified": "2026-08-22T20:20:32.993Z"
+    ]
   },
   "components": [
     {
@@ -54,9 +52,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Other candidates in this race",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -67,9 +71,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "On the issues",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -80,9 +90,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
-      "text": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&amp; which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
-      "format": "html",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
+      "text": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,& which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -93,9 +109,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
-      "text": "Many of Montana&#039;s rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
-      "format": "html",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
+      "text": "Many of Montana's rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -106,9 +128,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -125,9 +153,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -138,9 +172,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -151,9 +191,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "MTFP coverage",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -164,9 +210,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Campaign finance",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -182,9 +234,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "Election outcomes",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -200,9 +258,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "About this project",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -281,12 +345,14 @@
       "fontName": "Helvetica-Bold",
       "fontSize": 32,
       "lineHeight": 38,
+      "fontScaling": false,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
       "fontSize": 22,
       "lineHeight": 28,
+      "fontScaling": false,
       "textColor": "#222222"
     }
   },

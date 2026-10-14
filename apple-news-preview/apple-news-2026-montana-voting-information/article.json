@@ -18,9 +18,7 @@
     "excerpt": "Important dates, voter registration, identification requirements, absentee and mail voting, polling-place procedures and Election Day information for Montana voters in 2026.",
     "authors": [
       "Montana Free Press"
-    ],
-    "datePublished": "2026-08-22T20:20:32.993Z",
-    "dateModified": "2026-08-22T20:20:32.993Z"
+    ]
   },
   "components": [
     {
@@ -36,15 +34,21 @@
     },
     {
       "role": "body",
-      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/legislative-candidates-by-district/\">House candidates</a> · <a href=\"https://projects.montanafreepress.org/election-guide-2026/legislative-candidates-by-district/\">Senate candidates</a></p>",
+      "text": "<p><a href=\"https://projects.montanafreepress.org/election-guide-2026/\">Election guide</a></p>",
       "format": "html",
       "layout": "body"
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "When are Montana’s 2026 elections?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -55,9 +59,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Who runs Montana’s elections?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -74,9 +84,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Do I need to be registered in order to vote?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -87,9 +103,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Can I register to vote on Election Day?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -100,9 +122,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Does Montana have voter ID requirements?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -113,9 +141,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
-      "text": "Are there situations where I wouldn&#x27;t be eligible to vote?",
-      "format": "html",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
+      "text": "Are there situations where I wouldn't be eligible to vote?",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -126,9 +160,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Can I vote by mail?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -139,13 +179,7 @@
     },
     {
       "role": "body",
-      "text": "<p>If you’re registered as an absentee voter, a ballot should be mailed to you a few weeks in advance of each election day. You can make sure your address is current via the <a href=\"https://app.mt.gov/voterinfo/\">My Voter page</a>. County election officials are slated to mail ballots to voters for the November 2026 General Election Oct. 9.</p>",
-      "format": "html",
-      "layout": "body"
-    },
-    {
-      "role": "body",
-      "text": "<p>In 2025, legislators passed a law requiring that voters write their year of birth in addition to their signature on the affirmation envelope for their ballot to be accepted.</p>",
+      "text": "<p>If you’re registered as an absentee voter, a ballot should be mailed to you a few weeks in advance of each election day. You can make sure your address is current via the <a href=\"https://app.mt.gov/voterinfo/\">My Voter page</a>. County election officials mailed ballots to voters for the November 2026 General Election Oct. 9.</p>",
       "format": "html",
       "layout": "body"
     },
@@ -157,15 +191,21 @@
     },
     {
       "role": "body",
-      "text": "<p>Be aware that another 2025 law, <a href=\"https://projects.montanafreepress.org/capitol-tracker-2025/bills/hb-719/\">House Bill 719</a>, now requires that voters write their year of birth alongside the required signature on all mail ballot envelopes. Mail ballot envelopes without a birth year may be rejected. Again, you can <a href=\"https://voterportal.mt.gov/WhereToVote.aspx\">check the status of your ballot</a> on the secretary of state’s website.</p>",
+      "text": "<p>Be aware that another 2025 law, <a href=\"https://projects.montanafreepress.org/capitol-tracker-2025/bills/hb-719/\">House Bill 719</a>, required voters write their year of birth alongside the required signature on mail ballot envelopes. However, a state judge <a href=\"https://montanafreepress.org/2026/10/05/state-judge-strikes-down-ballot-envelope-birth-year-requirement/\">ruled the requirement unconstitutional in October 2026</a>. Per that decision, ballots in the 2026 general election cannot be rejected for a missing birth year. You can still <a href=\"https://voterportal.mt.gov/WhereToVote.aspx\">check the status of your ballot</a> on the secretary of state’s website.</p>",
       "format": "html",
       "layout": "body"
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "How do I vote in person?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -182,9 +222,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
-      "text": "I have a friend or family member who isn&#x27;t able to drop off his or her mail-in ballot. Can I do it for them?",
-      "format": "html",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
+      "text": "I have a friend or family member who isn't able to drop off his or her mail-in ballot. Can I do it for them?",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -195,9 +241,15 @@
     },
     {
       "role": "heading3",
-      "textStyle": "default-heading3",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 22,
+        "lineHeight": 28,
+        "fontScaling": false,
+        "textColor": "#222222"
+      },
       "text": "Who should I vote for?",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -208,9 +260,15 @@
     },
     {
       "role": "heading2",
-      "textStyle": "default-heading2",
+      "textStyle": {
+        "fontName": "Helvetica-Bold",
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontScaling": false,
+        "textColor": "#111111"
+      },
       "text": "About this project",
-      "format": "html",
+      "format": "none",
       "layout": "body"
     },
     {
@@ -289,12 +347,14 @@
       "fontName": "Helvetica-Bold",
       "fontSize": 32,
       "lineHeight": 38,
+      "fontScaling": false,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
       "fontSize": 22,
       "lineHeight": 28,
+      "fontScaling": false,
       "textColor": "#222222"
     }
   },
