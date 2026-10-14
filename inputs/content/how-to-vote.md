@@ -30,13 +30,11 @@ According to state law, you can't vote if you'll be under age 18 on Election Day
 
 Yes, you can sign up as an absentee voter by checking a box on your voter registration form. If you’re already registered to vote, you can fill out a separate form and submit it to your county election office.
 
-If you’re registered as an absentee voter, a ballot should be mailed to you a few weeks in advance of each election day. You can make sure your address is current via the [My Voter page](https://app.mt.gov/voterinfo/). County election officials are slated to mail ballots to voters for the November 2026 General Election Oct. 9.
-
-In 2025, legislators passed a law requiring that voters write their year of birth in addition to their signature on the affirmation envelope for their ballot to be accepted. 
+If you’re registered as an absentee voter, a ballot should be mailed to you a few weeks in advance of each election day. You can make sure your address is current via the [My Voter page](https://app.mt.gov/voterinfo/). County election officials mailed ballots to voters for the November 2026 General Election Oct. 9.
 
 You can return ballots by mail, or drop them off in person at your county’s election office. Either way, the election office must receive your ballot by 8 p.m. on Election Day in order to count it.
 
-Be aware that another 2025 law, [House Bill 719](https://projects.montanafreepress.org/capitol-tracker-2025/bills/hb-719/), now requires that voters write their year of birth alongside the required signature on all mail ballot envelopes. Mail ballot envelopes without a birth year may be rejected. Again, you can [check the status of your ballot](https://voterportal.mt.gov/WhereToVote.aspx) on the secretary of state’s website.
+Be aware that another 2025 law, [House Bill 719](https://projects.montanafreepress.org/capitol-tracker-2025/bills/hb-719/), required voters write their year of birth alongside the required signature on mail ballot envelopes. However, a state judge [ruled the requirement unconstitutional in October 2026](https://montanafreepress.org/2026/10/05/state-judge-strikes-down-ballot-envelope-birth-year-requirement/). Per that decision, ballots in the 2026 general election cannot be rejected for a missing birth year. You can still [check the status of your ballot](https://voterportal.mt.gov/WhereToVote.aspx) on the secretary of state’s website.
 
 ### How do I vote in person?
 
