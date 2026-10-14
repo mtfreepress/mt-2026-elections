@@ -26,6 +26,7 @@
     {
       "role": "title",
       "text": "Jeff Pattison: 2026 Montana Election Guide",
+      "textStyle": "default-title",
       "layout": "body"
     },
     {
@@ -59,6 +60,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "Other candidates in this race",
       "format": "html",
       "layout": "body"
@@ -71,6 +73,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "On the issues",
       "format": "html",
       "layout": "body"
@@ -89,6 +92,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "MTFP coverage",
       "format": "html",
       "layout": "body"
@@ -101,6 +105,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "Campaign finance",
       "format": "html",
       "layout": "body"
@@ -113,6 +118,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "Election outcomes",
       "format": "html",
       "layout": "body"
@@ -130,6 +136,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "About this project",
       "format": "html",
       "layout": "body"
@@ -208,14 +215,14 @@
     },
     "default-heading2": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 28,
-      "lineHeight": 34,
+      "fontSize": 32,
+      "lineHeight": 38,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 21,
-      "lineHeight": 27,
+      "fontSize": 22,
+      "lineHeight": 28,
       "textColor": "#222222"
     }
   },

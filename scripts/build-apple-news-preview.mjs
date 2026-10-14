@@ -151,6 +151,7 @@ function htmlToComponents(html, article) {
     if (tagName === "h2" || tagName === "h3") {
       components.push({
         role: tagName === "h2" ? "heading2" : "heading3",
+        textStyle: tagName === "h2" ? "default-heading2" : "default-heading3",
         text: innerHtml(element, tagName),
         format: "html",
         layout: "body",
@@ -176,7 +177,7 @@ function htmlToComponents(html, article) {
 
 function makeArticleDocument(article, manifest, html) {
   const components = [
-    { role: "title", text: article.title, layout: "body" },
+    { role: "title", text: article.title, textStyle: "default-title", layout: "body" },
     { role: "author", text: "Montana Free Press", layout: "body" },
     ...htmlToComponents(html, article),
   ];
@@ -227,14 +228,14 @@ function makeArticleDocument(article, manifest, html) {
       },
       "default-heading2": {
         fontName: "Helvetica-Bold",
-        fontSize: 28,
-        lineHeight: 34,
+        fontSize: 32,
+        lineHeight: 38,
         textColor: "#111111",
       },
       "default-heading3": {
         fontName: "Helvetica-Bold",
-        fontSize: 21,
-        lineHeight: 27,
+        fontSize: 22,
+        lineHeight: 28,
         textColor: "#222222",
       },
     },

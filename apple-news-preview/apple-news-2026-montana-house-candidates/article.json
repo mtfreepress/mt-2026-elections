@@ -26,6 +26,7 @@
     {
       "role": "title",
       "text": "2026 Montana House Candidates by District",
+      "textStyle": "default-title",
       "layout": "body"
     },
     {
@@ -53,6 +54,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 1: Western Montana — Eureka, Troy",
       "format": "html",
       "layout": "body"
@@ -65,6 +67,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 2: Western Montana — Libby",
       "format": "html",
       "layout": "body"
@@ -77,6 +80,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 3: Flathead Valley — North Whitefish, West Glacier",
       "format": "html",
       "layout": "body"
@@ -89,6 +93,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 4: Flathead Valley — Southeast Whitefish, Columbia Falls",
       "format": "html",
       "layout": "body"
@@ -101,6 +106,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 5: Flathead Valley — Hungry Horse",
       "format": "html",
       "layout": "body"
@@ -113,6 +119,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 6: Flathead Valley — Northwest of Kalispell",
       "format": "html",
       "layout": "body"
@@ -125,6 +132,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 7: Flathead Valley — Central Kalispell",
       "format": "html",
       "layout": "body"
@@ -137,6 +145,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 8: Flathead Valley — Northeast Kalispell",
       "format": "html",
       "layout": "body"
@@ -149,6 +158,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 9: Flathead Valley — South of Kalispell",
       "format": "html",
       "layout": "body"
@@ -161,6 +171,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 10: Flathead Valley — West Kalispell",
       "format": "html",
       "layout": "body"
@@ -173,6 +184,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 11: Flathead Valley — East of Kalispell",
       "format": "html",
       "layout": "body"
@@ -185,6 +197,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 12: Flathead Valley — Bigfork, Flathead Lake",
       "format": "html",
       "layout": "body"
@@ -197,6 +210,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 13: Western Montana — Polson",
       "format": "html",
       "layout": "body"
@@ -209,6 +223,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 14: Western Montana — Noxon, Trout Creek, Thompson Falls, Plains",
       "format": "html",
       "layout": "body"
@@ -221,6 +236,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 15: Western Montana — South Browning, Heart Butte, St. Ignatius",
       "format": "html",
       "layout": "body"
@@ -233,6 +249,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 16: Western Montana — North Browning, East Glacier, Cut Bank",
       "format": "html",
       "layout": "body"
@@ -245,6 +262,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 17: North-central Montana — Choteau, Fairfield, Wolf Creek, North Helena Valley",
       "format": "html",
       "layout": "body"
@@ -257,6 +275,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 18: North-central Montana — Conrad, Valier, Shelby, Dutton",
       "format": "html",
       "layout": "body"
@@ -269,6 +288,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 19: Great Falls area — Downtown Great Falls",
       "format": "html",
       "layout": "body"
@@ -281,6 +301,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 20: Great Falls area — East-central Great Falls",
       "format": "html",
       "layout": "body"
@@ -293,6 +314,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 21: Great Falls area — Northwest Great Falls, Black Eagle",
       "format": "html",
       "layout": "body"
@@ -305,6 +327,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 22: Great Falls area — East Great Falls, Malmstrom Air Force Base",
       "format": "html",
       "layout": "body"
@@ -317,6 +340,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 23: Great Falls area — South Great Falls",
       "format": "html",
       "layout": "body"
@@ -329,6 +353,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 24: Great Falls area — West Great Falls",
       "format": "html",
       "layout": "body"
@@ -341,6 +366,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 25: North-central Montana — Cascade, Ulm, Vaughn",
       "format": "html",
       "layout": "body"
@@ -353,6 +379,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 26: North-central Montana — Fort Benton, Big Sandy, Geraldine",
       "format": "html",
       "layout": "body"
@@ -365,6 +392,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 27: North-central Montana — Havre",
       "format": "html",
       "layout": "body"
@@ -377,6 +405,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 28: North-central Montana — Chester, Chinook, Malta, Opheim",
       "format": "html",
       "layout": "body"
@@ -389,6 +418,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 29: Eastern Montana — Glasgow, Nashua, Scobey, Plentywood",
       "format": "html",
       "layout": "body"
@@ -401,6 +431,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 30: Eastern Montana — Culbertson, Sidney",
       "format": "html",
       "layout": "body"
@@ -413,6 +444,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 31: Eastern Montana — Lodge Pole, Fort Peck, Wolf Point, Poplar, Brockton",
       "format": "html",
       "layout": "body"
@@ -425,6 +457,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 32: Eastern Montana — Rocky Boy&#039;s, Harlem, Fort Belknap",
       "format": "html",
       "layout": "body"
@@ -437,6 +470,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 33: Eastern Montana — Glendive, Richey",
       "format": "html",
       "layout": "body"
@@ -449,6 +483,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 34: Eastern Montana — Circle, Terry, Wibaux, Baker, Ekalaka, Broadus",
       "format": "html",
       "layout": "body"
@@ -461,6 +496,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 35: Eastern Montana — Forsyth, Colstrip, Worden, Jordan",
       "format": "html",
       "layout": "body"
@@ -473,6 +509,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 36: Eastern Montana — Miles City",
       "format": "html",
       "layout": "body"
@@ -485,6 +522,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 37: Central Montana — Lewistown, Grass Range, Winnett, Winifred",
       "format": "html",
       "layout": "body"
@@ -497,6 +535,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 38: Central Montana — Roundup, Ryegate, Lavina, Huntley",
       "format": "html",
       "layout": "body"
@@ -509,6 +548,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 39: Billings area — East Billings Heights",
       "format": "html",
       "layout": "body"
@@ -521,6 +561,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 40: Billings area — Lockwood",
       "format": "html",
       "layout": "body"
@@ -533,6 +574,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 41: Billings area — Hardin, Busby, Lame Deer, Ashland",
       "format": "html",
       "layout": "body"
@@ -545,6 +587,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 42: Billings area — Crow Agency, Lodge Grass, Wyola, Pryor",
       "format": "html",
       "layout": "body"
@@ -557,6 +600,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 43: Billings area — Central Billings Heights",
       "format": "html",
       "layout": "body"
@@ -569,6 +613,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 44: Billings area — North Billings Heights, Shepherd",
       "format": "html",
       "layout": "body"
@@ -581,6 +626,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 45: Billings area — North-Central Billings",
       "format": "html",
       "layout": "body"
@@ -593,6 +639,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 46: Billings area — Central Billings",
       "format": "html",
       "layout": "body"
@@ -605,6 +652,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 47: Billings area — Downtown and South Billings",
       "format": "html",
       "layout": "body"
@@ -617,6 +665,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 48: Billings area — South-central Billings",
       "format": "html",
       "layout": "body"
@@ -629,6 +678,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 49: Billings area — Southwest Billings",
       "format": "html",
       "layout": "body"
@@ -641,6 +691,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 50: Billings area — West Billings",
       "format": "html",
       "layout": "body"
@@ -653,6 +704,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 51: Billings area — Northwest Billings",
       "format": "html",
       "layout": "body"
@@ -665,6 +717,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 52: Billings area — Northwest Billings",
       "format": "html",
       "layout": "body"
@@ -677,6 +730,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 53: Billings area — West of Billings",
       "format": "html",
       "layout": "body"
@@ -689,6 +743,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 54: Billings area — Laurel, South of Billings",
       "format": "html",
       "layout": "body"
@@ -701,6 +756,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 55: South-central Montana — Red Lodge, Bridger, Joliet",
       "format": "html",
       "layout": "body"
@@ -713,6 +769,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 56: South-central Montana — Columbus, Reed Point, Park City",
       "format": "html",
       "layout": "body"
@@ -725,6 +782,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 57: Bozeman area — Gardiner, Cooke City, Clyde Park, east downtown Bozeman",
       "format": "html",
       "layout": "body"
@@ -737,6 +795,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 58: Bozeman area — Livingston",
       "format": "html",
       "layout": "body"
@@ -749,6 +808,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 59: Bozeman area — Southeast Bozeman",
       "format": "html",
       "layout": "body"
@@ -761,6 +821,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 60: Bozeman area — Big Sky, Gallatin Gateway, West Yellowstone",
       "format": "html",
       "layout": "body"
@@ -773,6 +834,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 61: Bozeman area — Montana State University campus and surroundings",
       "format": "html",
       "layout": "body"
@@ -785,6 +847,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 62: Bozeman area — Southwest Bozeman, Huffine Lane, South Four Corners",
       "format": "html",
       "layout": "body"
@@ -797,6 +860,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 63: Bozeman area — West Bozeman, Four Corners",
       "format": "html",
       "layout": "body"
@@ -809,6 +873,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 64: Bozeman area — Northwest Bozeman",
       "format": "html",
       "layout": "body"
@@ -821,6 +886,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 65: Bozeman area — Central Bozeman and northern outskirts",
       "format": "html",
       "layout": "body"
@@ -833,6 +899,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 66: Bozeman area — Central Bozeman, north Gallatin County",
       "format": "html",
       "layout": "body"
@@ -845,6 +912,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 67: Bozeman area — Belgrade",
       "format": "html",
       "layout": "body"
@@ -857,6 +925,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 68: Bozeman area — Amsterdam-Churchill, West Belgrade",
       "format": "html",
       "layout": "body"
@@ -869,6 +938,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 69: Southwest Montana — Ennis, Virginia City, Twin Bridges, Three Forks",
       "format": "html",
       "layout": "body"
@@ -881,6 +951,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 70: Southwest Montana — Dillon, Lima, Rocker",
       "format": "html",
       "layout": "body"
@@ -893,6 +964,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 71: Butte/Anaconda — Anaconda, Warm Springs",
       "format": "html",
       "layout": "body"
@@ -905,6 +977,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 72: Butte/Anaconda — West Butte",
       "format": "html",
       "layout": "body"
@@ -917,6 +990,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 73: Butte/Anaconda — Central Butte",
       "format": "html",
       "layout": "body"
@@ -929,6 +1003,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 74: Butte/Anaconda — East Butte",
       "format": "html",
       "layout": "body"
@@ -941,6 +1016,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 75: Southwest Montana — Boulder, Whitehall, Clancy, Montana City",
       "format": "html",
       "layout": "body"
@@ -953,6 +1029,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 76: Southwest Montana — Deer Lodge, Philipsburg, Drummond, Seeley Lake",
       "format": "html",
       "layout": "body"
@@ -965,6 +1042,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 77: Central Montana — Townsend, Wheatland, Manhattan, Winston",
       "format": "html",
       "layout": "body"
@@ -977,6 +1055,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 78: Central Montana — White Sulphur Springs, Stanford, Belt, Harlowton, Big Timber",
       "format": "html",
       "layout": "body"
@@ -989,6 +1068,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 79: Helena area — Southwest Helena, West Helena Valley",
       "format": "html",
       "layout": "body"
@@ -1001,6 +1081,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 80: Helena area — Northwest Helena",
       "format": "html",
       "layout": "body"
@@ -1013,6 +1094,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 81: Helena area — Central Helena, Central Helena Valley",
       "format": "html",
       "layout": "body"
@@ -1025,6 +1107,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 82: Helena area — Capitol area, Southeast Helena Valley",
       "format": "html",
       "layout": "body"
@@ -1037,6 +1120,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 83: Helena area — East Helena, Southwest Helena",
       "format": "html",
       "layout": "body"
@@ -1049,6 +1133,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 84: Helena area — East and north of Helena",
       "format": "html",
       "layout": "body"
@@ -1061,6 +1146,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 85: Bitterroot Valley — Darby, South Bitterroot Valley",
       "format": "html",
       "layout": "body"
@@ -1073,6 +1159,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 86: Bitterroot Valley — Hamilton",
       "format": "html",
       "layout": "body"
@@ -1085,6 +1172,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 87: Bitterroot Valley — Victor, Central Bitterroot Valley",
       "format": "html",
       "layout": "body"
@@ -1097,6 +1185,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 88: Bitterroot Valley — Stevensville, Florence, North Bitterroot Valley",
       "format": "html",
       "layout": "body"
@@ -1109,6 +1198,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 89: Missoula area — Lolo",
       "format": "html",
       "layout": "body"
@@ -1121,6 +1211,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 90: Missoula area — Frenchtown, Alberton, Superior, St. Regis, Paradise",
       "format": "html",
       "layout": "body"
@@ -1133,6 +1224,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 91: Missoula area — Ronan, Arlee, Missoula&#039;s Upper Rattlesnake",
       "format": "html",
       "layout": "body"
@@ -1145,6 +1237,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 92: Missoula area — East Missoula, Bonner, Clearwater",
       "format": "html",
       "layout": "body"
@@ -1157,6 +1250,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 93: Missoula area — Southeast Missoula, Clinton",
       "format": "html",
       "layout": "body"
@@ -1169,6 +1263,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 94: Missoula area — South Missoula",
       "format": "html",
       "layout": "body"
@@ -1181,6 +1276,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 95: Missoula area — Central Missoula, University of Montana campus",
       "format": "html",
       "layout": "body"
@@ -1193,6 +1289,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 96: Missoula area — South-central Missoula, west of Missoula",
       "format": "html",
       "layout": "body"
@@ -1205,6 +1302,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 97: Missoula area — West Missoula",
       "format": "html",
       "layout": "body"
@@ -1217,6 +1315,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 98: Missoula area — Northwest Missoula",
       "format": "html",
       "layout": "body"
@@ -1229,6 +1328,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 99: Missoula area — North Missoula",
       "format": "html",
       "layout": "body"
@@ -1241,6 +1341,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "HD 100: Missoula area — Downtown Missoula",
       "format": "html",
       "layout": "body"
@@ -1307,14 +1408,14 @@
     },
     "default-heading2": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 28,
-      "lineHeight": 34,
+      "fontSize": 32,
+      "lineHeight": 38,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 21,
-      "lineHeight": 27,
+      "fontSize": 22,
+      "lineHeight": 28,
       "textColor": "#222222"
     }
   },

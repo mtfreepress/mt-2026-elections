@@ -26,6 +26,7 @@
     {
       "role": "title",
       "text": "Brian J Miller: 2026 Montana Election Guide",
+      "textStyle": "default-title",
       "layout": "body"
     },
     {
@@ -59,6 +60,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "Other candidates in this race",
       "format": "html",
       "layout": "body"
@@ -71,6 +73,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "On the issues",
       "format": "html",
       "layout": "body"
@@ -83,6 +86,7 @@
     },
     {
       "role": "heading3",
+      "textStyle": "default-heading3",
       "text": "When a president deploys U.S. armed forces into combat for a month or longer without authorization, should the War Powers Resolution of 1973,&amp; which gives Congress the power to declare war, be enforced? If not, should the War Powers Resolution be revised, replaced, or discarded? Briefly explain your reasoning.",
       "format": "html",
       "layout": "body"
@@ -95,6 +99,7 @@
     },
     {
       "role": "heading3",
+      "textStyle": "default-heading3",
       "text": "Many of Montana&#039;s rural hospitals and clinics are facing financial stress because of low patient volume and tight budget margins. What, if anything, should Congress be doing to support Montana’s health care providers?",
       "format": "html",
       "layout": "body"
@@ -107,6 +112,7 @@
     },
     {
       "role": "heading3",
+      "textStyle": "default-heading3",
       "text": "Describe two issues unique to Montana that you intend to address. Explain how you’ll get the job done.",
       "format": "html",
       "layout": "body"
@@ -119,6 +125,7 @@
     },
     {
       "role": "heading3",
+      "textStyle": "default-heading3",
       "text": "Identify options or strategies available to federal officeholders to address home ownership and cost of living in Montana.",
       "format": "html",
       "layout": "body"
@@ -131,6 +138,7 @@
     },
     {
       "role": "heading3",
+      "textStyle": "default-heading3",
       "text": "Briefly describe any traits and actions that would distinguish your service from that of the elected official who currently occupies the office you’re running for.",
       "format": "html",
       "layout": "body"
@@ -143,6 +151,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "MTFP coverage",
       "format": "html",
       "layout": "body"
@@ -155,6 +164,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "Campaign finance",
       "format": "html",
       "layout": "body"
@@ -172,6 +182,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "Election outcomes",
       "format": "html",
       "layout": "body"
@@ -189,6 +200,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "About this project",
       "format": "html",
       "layout": "body"
@@ -267,14 +279,14 @@
     },
     "default-heading2": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 28,
-      "lineHeight": 34,
+      "fontSize": 32,
+      "lineHeight": 38,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 21,
-      "lineHeight": 27,
+      "fontSize": 22,
+      "lineHeight": 28,
       "textColor": "#222222"
     }
   },

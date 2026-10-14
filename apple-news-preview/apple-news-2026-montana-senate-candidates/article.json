@@ -26,6 +26,7 @@
     {
       "role": "title",
       "text": "2026 Montana Senate Candidates by District",
+      "textStyle": "default-title",
       "layout": "body"
     },
     {
@@ -53,6 +54,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 1: Western Montana — Libby, Troy, Eureka",
       "format": "html",
       "layout": "body"
@@ -65,6 +67,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 2: Flathead Valley — Whitefish, Columbia Falls, West Glacier",
       "format": "html",
       "layout": "body"
@@ -77,6 +80,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 3: Flathead Valley — Hungry Horse, Central Flathead Valley",
       "format": "html",
       "layout": "body"
@@ -89,6 +93,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 4: Flathead Valley — Central Kalispell",
       "format": "html",
       "layout": "body"
@@ -101,6 +106,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 5: Flathead Valley — South and West of Kalispell",
       "format": "html",
       "layout": "body"
@@ -113,6 +119,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 6: Flathead Valley — Bigfork, East of Kalispell",
       "format": "html",
       "layout": "body"
@@ -125,6 +132,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 7: Western Montana — Plains, Thompson Falls, Noxon, Hot Springs",
       "format": "html",
       "layout": "body"
@@ -137,6 +145,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 8: Western Montana — Browning, Cut Bank, Heart Butte, St. Ignatius",
       "format": "html",
       "layout": "body"
@@ -149,6 +158,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 9: North-central Montana — Shelby, Conrad, Choteau, Wolf Creek, Lincoln",
       "format": "html",
       "layout": "body"
@@ -161,6 +171,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 10: Great Falls area — Central Great Falls",
       "format": "html",
       "layout": "body"
@@ -173,6 +184,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 11: Great Falls area — North and East Great Falls, Malmstrom Air Force Base",
       "format": "html",
       "layout": "body"
@@ -185,6 +197,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 12: Great Falls area — South and West Great Falls",
       "format": "html",
       "layout": "body"
@@ -197,6 +210,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 13: North-central Montana — Cascade, Vaughn, Fort Benton, Big Sandy",
       "format": "html",
       "layout": "body"
@@ -209,6 +223,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 14: North-central Montana — Havre, Chester, Chinook, Malta, Opheim",
       "format": "html",
       "layout": "body"
@@ -221,6 +236,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 15: Eastern Montana — Sidney, Scobey, Plentywood",
       "format": "html",
       "layout": "body"
@@ -233,6 +249,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 16: Eastern Montana — Rocky Boy&#039;s, Harlem, Wolf Point, Poplar",
       "format": "html",
       "layout": "body"
@@ -245,6 +262,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 17: Eastern Montana — Glandive, Circle, Baker, Ekalaka, Broadus",
       "format": "html",
       "layout": "body"
@@ -257,6 +275,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 18: Eastern Montana — Miles City, Forsyth, Colstrip, Jordan",
       "format": "html",
       "layout": "body"
@@ -269,6 +288,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 19: Central Montana — Lewistown, Winifred, Winnett, Roundup",
       "format": "html",
       "layout": "body"
@@ -281,6 +301,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 20: Billings area — Billings Heights, Lockwood",
       "format": "html",
       "layout": "body"
@@ -293,6 +314,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 21: Billings area — Hardin, Crow Agency, Lame Deer, Lodge Grass, Pryor",
       "format": "html",
       "layout": "body"
@@ -305,6 +327,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 22: Billings area — North Billings, Shepherd",
       "format": "html",
       "layout": "body"
@@ -317,6 +340,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 23: Billings area — Central Billings",
       "format": "html",
       "layout": "body"
@@ -329,6 +353,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 24: Billings area — Downtown and South Billings",
       "format": "html",
       "layout": "body"
@@ -341,6 +366,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 25: Billings area — West Billings",
       "format": "html",
       "layout": "body"
@@ -353,6 +379,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 26: Billings area — Northwest Billings",
       "format": "html",
       "layout": "body"
@@ -365,6 +392,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 27: South-central Montana — Laurel, South of Billings",
       "format": "html",
       "layout": "body"
@@ -377,6 +405,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 28: South-central Montana — Red Lodge, Columbus",
       "format": "html",
       "layout": "body"
@@ -389,6 +418,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 29: Bozeman area — Livingston, Gardiner, east downtown Bozeman",
       "format": "html",
       "layout": "body"
@@ -401,6 +431,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 30: Bozeman area — South Bozeman, Big Sky, West Yellowstone",
       "format": "html",
       "layout": "body"
@@ -413,6 +444,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 31: Bozeman area — South Bozeman, Huffine Lane",
       "format": "html",
       "layout": "body"
@@ -425,6 +457,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 32: Bozeman area — Northwest Bozeman",
       "format": "html",
       "layout": "body"
@@ -437,6 +470,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 33: Bozeman area — Central Bozeman, north of Bozeman",
       "format": "html",
       "layout": "body"
@@ -449,6 +483,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 34: Bozeman area — Belgrade, west of Bozeman",
       "format": "html",
       "layout": "body"
@@ -461,6 +496,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 35: Southwest Montana — Ennis, Dillon, Twin Bridges",
       "format": "html",
       "layout": "body"
@@ -473,6 +509,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 36: Butte/Anaconda — Anaconda, Warm Springs, west Butte",
       "format": "html",
       "layout": "body"
@@ -485,6 +522,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 37: Butte/Anaconda — Central and south Butte",
       "format": "html",
       "layout": "body"
@@ -497,6 +535,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 38: Southwest Montana — Boulder, Deer Lodge, Philipsburg, Drummond",
       "format": "html",
       "layout": "body"
@@ -509,6 +548,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 39: Central Montana — White Sulphur Springs, Belt, Stanford, Harlowton",
       "format": "html",
       "layout": "body"
@@ -521,6 +561,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 40: Helena area — West Helena and western Helena Valley",
       "format": "html",
       "layout": "body"
@@ -533,6 +574,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 41: Helena area — Central Helena and Helena Valley",
       "format": "html",
       "layout": "body"
@@ -545,6 +587,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 42: Helena area — East Helena and northeast Helena Valley",
       "format": "html",
       "layout": "body"
@@ -557,6 +600,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 43: Bitterroot Valley — Hamilton and southern Bitterroot Valley",
       "format": "html",
       "layout": "body"
@@ -569,6 +613,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 44: Bitterroot Valley — Northern Bitterroot Valley",
       "format": "html",
       "layout": "body"
@@ -581,6 +626,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 45: Missoula area — I-90 corridor from Frenchtown to Idaho border",
       "format": "html",
       "layout": "body"
@@ -593,6 +639,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 46: Missoula area — East Missoula, Rattlesnake, Ronan",
       "format": "html",
       "layout": "body"
@@ -605,6 +652,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 47: Missoula area — Southeast Missoula, Clinton",
       "format": "html",
       "layout": "body"
@@ -617,6 +665,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 48: Missoula area — Central Missoula, west of Missoula",
       "format": "html",
       "layout": "body"
@@ -629,6 +678,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 49: Missoula area — West Missoula",
       "format": "html",
       "layout": "body"
@@ -641,6 +691,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "SD 50: Missoula area — Downtown and north of Missoula",
       "format": "html",
       "layout": "body"
@@ -707,14 +758,14 @@
     },
     "default-heading2": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 28,
-      "lineHeight": 34,
+      "fontSize": 32,
+      "lineHeight": 38,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 21,
-      "lineHeight": 27,
+      "fontSize": 22,
+      "lineHeight": 28,
       "textColor": "#222222"
     }
   },

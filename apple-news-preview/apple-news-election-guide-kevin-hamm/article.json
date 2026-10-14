@@ -26,6 +26,7 @@
     {
       "role": "title",
       "text": "Kevin Hamm: 2026 Montana Election Guide",
+      "textStyle": "default-title",
       "layout": "body"
     },
     {
@@ -59,6 +60,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "Other candidates in this race",
       "format": "html",
       "layout": "body"
@@ -71,6 +73,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "On the issues",
       "format": "html",
       "layout": "body"
@@ -83,6 +86,7 @@
     },
     {
       "role": "heading3",
+      "textStyle": "default-heading3",
       "text": "What should be the PSC&#039;s role, if any, in regulating data center development in Montana?",
       "format": "html",
       "layout": "body"
@@ -95,6 +99,7 @@
     },
     {
       "role": "heading3",
+      "textStyle": "default-heading3",
       "text": "How should the PSC approach the NorthWestern/Black Hills Corp. merger?",
       "format": "html",
       "layout": "body"
@@ -107,6 +112,7 @@
     },
     {
       "role": "heading3",
+      "textStyle": "default-heading3",
       "text": "What is one industry under the PSC&#039;s purview that could use more scrutiny than it&#039;s currently getting, and what might that increased scrutiny look like?",
       "format": "html",
       "layout": "body"
@@ -119,6 +125,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "MTFP coverage",
       "format": "html",
       "layout": "body"
@@ -131,6 +138,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "Campaign finance",
       "format": "html",
       "layout": "body"
@@ -143,6 +151,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "Election outcomes",
       "format": "html",
       "layout": "body"
@@ -160,6 +169,7 @@
     },
     {
       "role": "heading2",
+      "textStyle": "default-heading2",
       "text": "About this project",
       "format": "html",
       "layout": "body"
@@ -238,14 +248,14 @@
     },
     "default-heading2": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 28,
-      "lineHeight": 34,
+      "fontSize": 32,
+      "lineHeight": 38,
       "textColor": "#111111"
     },
     "default-heading3": {
       "fontName": "Helvetica-Bold",
-      "fontSize": 21,
-      "lineHeight": 27,
+      "fontSize": 22,
+      "lineHeight": 28,
       "textColor": "#222222"
     }
   },
