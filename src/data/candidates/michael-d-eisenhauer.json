@@ -48,6 +48,30 @@
   ],
   "coverage": [
     {
+      "title": "Montana candidates on the issues: immigration ",
+      "date": "2026-10-14T07:31:16",
+      "link": "https://montanafreepress.org/2026/10/14/montana-candidates-immigration-2026/",
+      "tags": [
+        "2026 elections",
+        "Aaron Flint",
+        "Alani Bankhead",
+        "Brian Miller",
+        "Kurt Alme",
+        "Kyle Austin",
+        "Michael Eisenhauer",
+        "Nick Sheedy",
+        "Patrick McCracken",
+        "Sam Forstag",
+        "seth bodnar",
+        "Troy Downing"
+      ],
+      "categories": [
+        "Elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260508lm-froidsheriff-0012edited-jpg-2/",
+      "author": "Zeke Lloyd"
+    },
+    {
       "title": "How Montana’s candidates for U.S. House and Senate plan to tackle healthcare",
       "date": "2026-10-07T16:44:25",
       "link": "https://montanafreepress.org/2026/10/07/montana-candidates-healthcare-policy/",
@@ -179,9 +203,9 @@
       "matchType": "name",
       "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
       "candidateId": "H6MT02168",
-      "totalReceipts": 296252.93,
-      "totalDisbursments": 162289.14,
-      "cashOnHand": 140121.56,
+      "totalReceipts": 296774.08,
+      "totalDisbursments": 161677.14,
+      "cashOnHand": 135096.94,
       "coverageEndDate": "2026-06-30",
       "isThisCandidate": true,
       "candidateStatus": "active"

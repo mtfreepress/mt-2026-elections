@@ -67,6 +67,9 @@ const MANUAL_DROPOUTS = [
 // Manual per-candidate field overrides by cleaned display name.
 // Useful when SoS filing data is missing/incorrect for a specific field.
 const CANDIDATE_FIELD_OVERRIDES = {
+    'TIA NELSON': {
+        campaignWebsite: 'https://tia4montana.org',
+    },
     'JAMIE VAN VALKENBURG': {
         campaignWebsite: 'https://jamievv.com',
     },

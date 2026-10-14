@@ -15,7 +15,7 @@
         "party": "R",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 15,
+        "numMTFParticles": 16,
         "raceSlug": "us-senate"
       },
       {
@@ -25,7 +25,7 @@
         "party": "L",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 7,
+        "numMTFParticles": 8,
         "raceSlug": "us-senate"
       },
       {
@@ -35,7 +35,7 @@
         "party": "D",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 18,
+        "numMTFParticles": 19,
         "raceSlug": "us-senate"
       },
       {
@@ -45,7 +45,7 @@
         "party": "I",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 21,
+        "numMTFParticles": 22,
         "raceSlug": "us-senate"
       },
       {
@@ -139,7 +139,7 @@
         "party": "R",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 10,
+        "numMTFParticles": 11,
         "raceSlug": "us-house-1"
       },
       {
@@ -149,7 +149,7 @@
         "party": "D",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 9,
+        "numMTFParticles": 10,
         "raceSlug": "us-house-1"
       },
       {
@@ -159,7 +159,7 @@
         "party": "L",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 4,
+        "numMTFParticles": 5,
         "raceSlug": "us-house-1"
       }
     ],
@@ -207,7 +207,7 @@
         "party": "R",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 6,
+        "numMTFParticles": 7,
         "raceSlug": "us-house-2"
       },
       {
@@ -217,7 +217,7 @@
         "party": "L",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 4,
+        "numMTFParticles": 5,
         "raceSlug": "us-house-2"
       },
       {
@@ -227,7 +227,7 @@
         "party": "D",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 9,
+        "numMTFParticles": 10,
         "raceSlug": "us-house-2"
       },
       {
@@ -237,7 +237,7 @@
         "party": "I",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 5,
+        "numMTFParticles": 6,
         "raceSlug": "us-house-2"
       }
     ],
@@ -261,9 +261,9 @@
         "matchType": "name",
         "candidateCommitteeName": "EISENHAUER FOR CONGRESS",
         "candidateId": "H6MT02168",
-        "totalReceipts": 296252.93,
-        "totalDisbursments": 162289.14,
-        "cashOnHand": 140121.56,
+        "totalReceipts": 296774.08,
+        "totalDisbursments": 161677.14,
+        "cashOnHand": 135096.94,
         "coverageEndDate": "2026-06-30"
       },
       {
