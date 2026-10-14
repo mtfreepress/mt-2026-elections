@@ -237,7 +237,7 @@
         "party": "I",
         "isWriteIn": false,
         "hasResponses": true,
-        "numMTFParticles": 10,
+        "numMTFParticles": 6,
         "raceSlug": "us-house-2"
       }
     ],
