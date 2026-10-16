@@ -41,6 +41,22 @@
   ],
   "coverage": [
     {
+      "title": "Can a working-class pitch notch a Western Montana win for Democrats?",
+      "date": "2026-10-14T17:04:44",
+      "link": "https://montanafreepress.org/2026/10/14/forstag-house-election-montana/",
+      "tags": [
+        "2026 election guide",
+        "2026 elections",
+        "Aaron Flint",
+        "Sam Forstag"
+      ],
+      "categories": [
+        "Elections"
+      ],
+      "featuredImage": "https://montanafreepress.org/20260528lm-forstag-0019-jpg/",
+      "author": "Tom Lutey"
+    },
+    {
       "title": "Montana candidates on the issues: immigration ",
       "date": "2026-10-14T07:31:16",
       "link": "https://montanafreepress.org/2026/10/14/montana-candidates-immigration-2026/",
@@ -261,31 +277,31 @@
   ],
   "finance": [
     {
-      "displayName": "Sam Forstag",
-      "candidateSlug": "sam-forstag",
-      "party": "D",
-      "matchType": "override-id",
-      "candidateCommitteeName": "SAM FOR MONTANA",
-      "candidateId": "H6MT01137",
-      "totalReceipts": 1382873.3,
-      "totalDisbursments": 832794.19,
-      "cashOnHand": 550079.11,
-      "coverageEndDate": "2026-06-30",
-      "isThisCandidate": true,
-      "candidateStatus": "active"
-    },
-    {
       "displayName": "Aaron Flint",
       "candidateSlug": "aaron-flint",
       "party": "R",
       "matchType": "name",
       "candidateCommitteeName": "FLINT FOR MONTANA",
       "candidateId": "H6MT01152",
-      "totalReceipts": 1303393.72,
-      "totalDisbursments": 801192.61,
-      "cashOnHand": 502201.11,
-      "coverageEndDate": "2026-06-30",
+      "totalReceipts": 2640893.65,
+      "totalDisbursments": 1609409.4,
+      "cashOnHand": 1031484.25,
+      "coverageEndDate": "2026-09-30",
       "isThisCandidate": false,
+      "candidateStatus": "active"
+    },
+    {
+      "displayName": "Sam Forstag",
+      "candidateSlug": "sam-forstag",
+      "party": "D",
+      "matchType": "override-id",
+      "candidateCommitteeName": "SAM FOR MONTANA",
+      "candidateId": "H6MT01137",
+      "totalReceipts": 1383098.3,
+      "totalDisbursments": 833019.19,
+      "cashOnHand": 550079.11,
+      "coverageEndDate": "2026-06-30",
+      "isThisCandidate": true,
       "candidateStatus": "active"
     }
   ],
